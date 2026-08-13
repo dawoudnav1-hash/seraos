@@ -1,0 +1,463 @@
+[
+  {
+    "id": "a01086044711",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "AI tools that connect natively with QBO/Xero?",
+    "url": "https://www.accountingweb.co.uk/any-answers/ai-tools-that-connect-natively-with-qboxero",
+    "author": "Nimblechapps.Finance",
+    "source": "AccountingWEB",
+    "subreddit": "",
+    "highlights": "Looking for AI tools that integrate directly with QBO or Xero for background automation. Interested in transaction categorisation with learning capability, anomaly detection on bank feeds, automated reconciliation suggestions, anything that flags unusual patterns before month-end close. We work with US CPA firms providing offshore accounting support and are evaluating which AI stack makes sense.",
+    "published": "2026-04-24",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "automate",
+      "automation",
+      "tool",
+      "looking for",
+      "suggestion"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522168+00:00"
+  },
+  {
+    "id": "5863e1f694d5",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "Time to start learning AI for accounting?",
+    "url": "https://www.teamblind.com/post/time-to-start-learning-ai-for-accounting-lom1j2oj",
+    "author": "Anonymous (Blind)",
+    "source": "TeamBlind",
+    "subreddit": "",
+    "highlights": "I've been working in accounting for a while, and lately it feels like AI is becoming essential, especially for repetitive tasks and data cleanup. I'd love to start integrating AI into tools like Excel, NetSuite, or other ERP systems, but not sure where or how to start. My company isn't pushing for it yet, but I feel like I should get ahead of the curve. Anyone here already using AI to streamline accounting workflows?",
+    "published": "2025-08-07",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "tool"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522300+00:00"
+  },
+  {
+    "id": "56bd1fb17b4a",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "I've tested 20+ AI tools for accounting workflows this year",
+    "url": "https://www.linkedin.com/posts/ca-bhavikb_aitools-accountingtech-automation-activity-7445666907975811072-8dbX",
+    "author": "Bhavik Bhanushali",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "Most are overhyped. A few are game-changers. Claude AI for document analysis, email drafting, SOP creation. QuickBooks AI for auto-categorization, anomaly detection. Commenter: Claude Skills + API integration of ERP can solve lot of repetitive works. Daily tasks such validating forex rates, posting or cross checking monthly closing entries. Another commenter cut reconciliation from 4-5 hours to 30 mins using Claude-written VBA.",
+    "published": "2026-04-03",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "tool"
+    ],
+    "relevant_comments": [
+      {
+        "author": "ERP Commenter",
+        "body": "Claude Skills + API integration of ERP can solve lot of repetitive works. Daily tasks such validating forex rates, posting or cross checking monthly closing entries etc can be solved this way."
+      },
+      {
+        "author": "VBA User",
+        "body": "With the help of claude I wrote a VBA code which reconciles GSTR 2B with input credit ledger. Completing reconciliations which took me 4-5 hours earlier, now in 30 mins."
+      },
+      {
+        "author": "Finance Team Observer",
+        "body": "We spoke to a finance team recently - they had AI for emails, AI for categorization, even bots for reminders... Yet, they were still stitching everything together manually."
+      }
+    ],
+    "scraped_at": "2026-08-13T15:52:54.522320+00:00"
+  },
+  {
+    "id": "531dad5caa2e",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "I tested 9 AI tools specifically for accountants - tax prep, bookkeeping, client reports, and compliance",
+    "url": "https://www.linkedin.com/posts/ash-baruh-b656236a_best-ai-tools-for-accountants-in-2026-aitoolhd-activity-7448211139483770880-SkHY",
+    "author": "Ash Baruh",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "Tested for actual accounting workflows, not generic AI. Top finding: you can cut report preparation time by 60% with the right setup. Most lists recommend generic AI. These are tested for actual accounting workflows.",
+    "published": "2026-04-10",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "tool",
+      "recommend"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522341+00:00"
+  },
+  {
+    "id": "a2aa430ee49d",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "Automated our Accounts department's invoice workflow - completely free, built with AI",
+    "url": "https://www.linkedin.com/posts/ashwin-k-justin-501782285_caaspirant-ai-automation-activity-7481166337264742402-a2kv",
+    "author": "Ashwin K Justin",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "CA Aspirant who built a free automation using Google Sheets, Google Drive, and Apps Script with Claude as coding partner. Snap a photo of an invoice, drop it into a Drive folder. OCR reads it, extracts invoice number, date, vendor name, GSTIN, amount. Auto-fills Purchase or Sales Register. Original photo gets auto-filed. Compiled data gets emailed out on autopilot.",
+    "published": "2026-07-10",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "automate",
+      "automation",
+      "app"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522386+00:00"
+  },
+  {
+    "id": "97b47c76f397",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "Over the last few days, I spent about $200 testing AI agents so you don't have to",
+    "url": "https://www.linkedin.com/posts/joseph-wyckoff-cpa-82b884126_twin-the-ai-company-builder-activity-7423811340542287873-3u1L",
+    "author": "Joseph Wyckoff, CPA",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "Goal: Can AI actually handle real accounting work like bank statement imports and reconciliations? Tested OpenClaw, OpenAI, Twin.so. For a busy controller or accountant, $50-100/month to automate reconciliations, repetitive calculations, basic document workflows is cheaper than the time spent manually. The niche, task-specific tools are where things are getting interesting.",
+    "published": "2026-02-01",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "automate",
+      "tool"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522408+00:00"
+  },
+  {
+    "id": "e5c5c91e0380",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "How I Built AI Agents to Close the Books (OnlyCFO)",
+    "url": "https://www.onlycfo.io/p/building-ai-agents-in-accounting",
+    "author": "OnlyCFO",
+    "source": "Newsletter",
+    "subreddit": "",
+    "highlights": "Built an AI agent that turned a 2-hour accounting task into 5 minutes. Used same AI flow across many processes which cut a full day off month-end close. Built first agent for accounting reconciliations (prepaids). MCP connectors to ERP and shared drive. Slack as trigger and UI. Human preparer and reviewer still in loop. From ~2 hours of human work to ~5 minutes.",
+    "published": "2026-05-15",
+    "score": 0,
+    "matched_keywords": [
+      "ai"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522425+00:00"
+  },
+  {
+    "id": "c37e305d162f",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "Can AI do my Bookkeeping? (Substack - The Automated Operator)",
+    "url": "https://theautomatedoperator.substack.com/p/can-ai-do-my-bookkeeping",
+    "author": "Alex Willen",
+    "source": "Substack",
+    "subreddit": "",
+    "highlights": "Founder managing simple businesses tired of paying bookkeeper $500+/month. Used ChatGPT to walk through QuickBooks setup. Then switched to Claude Code with Opus which can make QBO updates directly via API. Claude Code doing bookkeeping with no special sauce - just API key + same info as human bookkeeper. AI can ultimately do superior job by having more context across all business operations.",
+    "published": "2026-01-22",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "automate",
+      "chatgpt",
+      "gpt"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522446+00:00"
+  },
+  {
+    "id": "086fdf8ef75f",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "How We Turned ChatGPT into an AP Assistant for QuickBooks Using Zapier MCP",
+    "url": "https://community.zapier.com/show-tell-5/how-we-turned-chatgpt-into-an-ap-assistant-for-quickbooks-using-zapier-mcp-53495",
+    "author": "Zapier Community Member",
+    "source": "Zapier Community",
+    "subreddit": "",
+    "highlights": "Built Zapier MCP workflow for AP team to reduce manual data entry for vendor invoices. Before: AP staff manually opened each invoice, found or created vendor in QuickBooks, entered bill, selected coding, attached document. After: Solution reads invoices, extracts vendor/amounts/dates, uses Zapier MCP to interact with QuickBooks. Creates vendor records and bills automatically. Building custom GPT with accounting rules and vendor-specific coding defaults.",
+    "published": "2026-06-17",
+    "score": 0,
+    "matched_keywords": [
+      "chatgpt",
+      "gpt",
+      "try"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522463+00:00"
+  },
+  {
+    "id": "e86faa704b96",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "Has Anyone Built AI-Driven Automations for Accounting Firms?",
+    "url": "https://www.skool.com/ai-automation-society/has-anyone-built-aidriven-automations-for-accounting-firms?p=568bc87f",
+    "author": "AI Automation Society",
+    "source": "Skool",
+    "subreddit": "",
+    "highlights": "We're deep into n8n / AI workflows - scraping news before sales calls, automating client onboarding, and more. But looking for people who've cracked the code for accounting-firm-specific processes. Happy to swap notes, trade templates, or jump on a quick call.",
+    "published": "2025-07-25",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "automation",
+      "app",
+      "looking for"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522476+00:00"
+  },
+  {
+    "id": "09395d74872f",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "I asked ChatGPT, Claude, Gemini, and Copilot to replace a bookkeeper",
+    "url": "https://www.linkedin.com/posts/naveen-sharma-neel_bookkeeping-accounting-artificialintelligence-activity-7477332307775852545-oCLq",
+    "author": "Naveen Sharma - Neel",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "Gave each AI same tasks: categorize transactions, reconcile bank accounts, process invoices, generate reports, identify errors. AI completed most tasks in minutes. But couldn't understand how business operates, couldn't question missing information before month-end. Conclusion: AI replaced the repetitive work, the remaining work became even more valuable. The future is bookkeepers who use AI vs bookkeepers who don't.",
+    "published": "2026-06-29",
+    "score": 0,
+    "matched_keywords": [
+      "ai",
+      "chatgpt",
+      "gpt",
+      "copilot"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522491+00:00"
+  },
+  {
+    "id": "d437f458ce22",
+    "profile": "accountants_wanting_ai",
+    "profile_label": "Accountants interested in AI / automation",
+    "title": "I used ChatGPT Agent to automate Cash Reconciliation and shared it with 22,000 CFOs",
+    "url": "https://www.linkedin.com/posts/wouterborn_i-used-chatgpt-agent-to-automate-cash-reconciliation-activity-7358108198458789891-RY3n",
+    "author": "Wouter Born",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "Automated cash reconciliation and reporting for CFOs. Load bank statements, pull ERP aging reports, reconcile actuals vs forecast, flag variances, write commentary, roll forward 13-week cash view, auto-propose payments, generate payment file. Shared copy-paste prompts. Commenter: Impressive but important to highlight risks - automating cash recon introduces dependencies on data accuracy, prompt quality, access control.",
+    "published": "2025-08-04",
+    "score": 0,
+    "matched_keywords": [
+      "automate",
+      "chatgpt",
+      "gpt"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522506+00:00"
+  },
+  {
+    "id": "6e177005b5f5",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "For SaaS startups, month-end close is not just an accounting task - it's an operating signal",
+    "url": "https://www.linkedin.com/posts/dangan-karthik-51193b16b_saasfinance-startupaccounting-monthendclose-activity-7426702425430052864-57Nn",
+    "author": "DAngan Karthik",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "When close cycles start stretching, it's usually because: Revenue recognition not aligned with billing cycles, balance sheet reconciliations getting deprioritized, manual workarounds replacing process discipline, finance teams growing slower than the business. None of this means the team is weak - it usually means the company is growing faster than its finance structure.",
+    "published": "2026-02-09",
+    "score": 0,
+    "matched_keywords": [
+      "month-end",
+      "close",
+      "reconciliation",
+      "manual",
+      "slow"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522524+00:00"
+  },
+  {
+    "id": "98da36a847e9",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "Series A Financial Operations: The Month-End Close Nightmare",
+    "url": "https://inflectioncfo.co/blog/series-a-financial-operations-the-month-end-close-nightmare/",
+    "author": "Inflection CFO",
+    "source": "Blog",
+    "subreddit": "",
+    "highlights": "Month-end close eating 80+ hours monthly at Series A startup. Manual reconciliations, spreadsheet pivots, email trails tracking down expense receipts. Finance ops person spending 40% of time on month-end activities that could be automated in a week. Expense reconciliation alone taking 15-20 hours per close cycle. Bank reconciliation was a 6-hour detective session every month and still missed things.",
+    "published": "2026-03-20",
+    "score": 0,
+    "matched_keywords": [
+      "month-end",
+      "close",
+      "reconciliation",
+      "spreadsheet",
+      "manual",
+      "nightmare"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522543+00:00"
+  },
+  {
+    "id": "654af119029d",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "Month-end close timelines are an OKR for most finance leaders - but how many hit them consistently?",
+    "url": "https://www.linkedin.com/posts/sujitcpa_month-end-close-timelines-are-an-okr-for-activity-7421300050108035072-EsMn",
+    "author": "Sujit Sivarajan, CPA",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "In startups, month-end close challenge is amplified. As the business scales, the gap between target close and actual close often widens. Lean teams, fast growth, complex billing, constant pressure to get financials out quickly. Some companies set zero-day close as target and quickly learn speed without quality is a false win.",
+    "published": "2026-01-25",
+    "score": 0,
+    "matched_keywords": [
+      "month-end",
+      "close"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522559+00:00"
+  },
+  {
+    "id": "b0e0bf582ae9",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "A Financial Controller at a 200-person European start-up is asking if the workload is normal",
+    "url": "https://www.linkedin.com/posts/tara-parker-783b98a7_accounting-corporatefinance-financecareers-activity-7445122868927143936-T-pI",
+    "author": "Tara Parker (shared from Reddit)",
+    "source": "LinkedIn/Reddit",
+    "subreddit": "",
+    "highlights": "16 listed responsibilities. Month-end close across 3 entities. Manual invoicing for 50 projects. Solo controller doing payroll, AR, AP, VAT, audit, management reports. Manager says prioritize, then asks why things aren't done. Commenters: 'I've been fired because accused of not being able to keep up, best thing that happened to me.' Pattern doesn't resolve through better prioritization - it's a resourcing gap.",
+    "published": "2026-04-01",
+    "score": 0,
+    "matched_keywords": [
+      "month-end",
+      "close",
+      "manual"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522576+00:00"
+  },
+  {
+    "id": "0b386d1cf00f",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "Book Close Problem #1: Waiting for Data",
+    "url": "https://www.linkedin.com/posts/rishabh-bindal-ab845a83_financeoperations-cfo-monthendclose-activity-7428343496417112064-ZMIF",
+    "author": "Rishabh Bindal",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "Finance controller's close takes 12 days. Day 1-3: Email departments asking for data. Day 4-6: Follow up. Day 7: Finally get data. Day 8-12: Start real work and close books. Almost half the time is just waiting. Talked to 30+ finance teams in last quarter - almost all say coordinating with other departments is their biggest close bottleneck.",
+    "published": "2026-02-14",
+    "score": 0,
+    "matched_keywords": [
+      "close"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522593+00:00"
+  },
+  {
+    "id": "ad382a2a4455",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "Why Month-End Breaks as You Scale (The Startup Close Never Closes)",
+    "url": "https://www.linkedin.com/pulse/startup-close-never-closes-why-month-end-breaks-you-scale-ryan-wang-pvplc",
+    "author": "Ryan Wang",
+    "source": "LinkedIn Article",
+    "subreddit": "",
+    "highlights": "Only 53% of companies manage to close books within six days. Data silos and volume explosion. Manual work doesn't scale - what worked with 100 transactions fails with 10,000. Nearly 60% of accountants report burnout during crunch periods. Delayed decisions and eroded trust - consistently late financials undermine stakeholder confidence.",
+    "published": "2025-12-13",
+    "score": 0,
+    "matched_keywords": [
+      "month-end",
+      "close",
+      "manual",
+      "burnout"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522608+00:00"
+  },
+  {
+    "id": "2ce2bd7fd350",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "Every vertical SaaS finance function I've reviewed has the same three problems",
+    "url": "https://www.linkedin.com/posts/coxcoadvisory_every-vertical-saas-finance-function-ive-activity-7462528772551065600-_YxS",
+    "author": "Cox & Co Advisory",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "1. The close runs 15 to 30 days, sometimes longer. By the time books close, the month is over. Leadership makes cash decisions on gut feel. 2. Revenue recognition is inconsistent. 3. No senior finance leader in seat. A bookkeeper handles day-to-day, CPA called for taxes. Nobody doing controller/CFO work. Revenue is growing so founders miss it - until Series A diligence or first audit.",
+    "published": "2026-05-19",
+    "score": 0,
+    "matched_keywords": [
+      "close"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522626+00:00"
+  },
+  {
+    "id": "3bfcf71ea3ed",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "Your close can be late even when the books are correct",
+    "url": "https://www.linkedin.com/posts/sisunow_your-close-can-be-late-even-when-the-books-activity-7465454293022609408-Q0Fj",
+    "author": "SISU",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "Startups with clean ledgers miss the close because they reconcile by hand after month-end instead of continuously. They stitch reports together weeks later, turning a 3-day close into 3 weeks. Fix: document every step and automate reconciliation and reporting with AI agents. Clients cut close cycles by 75%, some reached zero-day close.",
+    "published": "2026-05-27",
+    "score": 0,
+    "matched_keywords": [
+      "month-end",
+      "close",
+      "reconciliation"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522641+00:00"
+  },
+  {
+    "id": "965a94c6d436",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "The month-end close should not feel like a monthly survival challenge",
+    "url": "https://www.linkedin.com/posts/acrux-advisory_saas-financial-close-process-month-end-best-activity-7458523608965971968-E2vg",
+    "author": "Acrux Advisory",
+    "source": "LinkedIn",
+    "subreddit": "",
+    "highlights": "For many SaaS finance teams it still looks like: spreadsheet chaos, last-minute data pulls, revenue mismatches, manual reconciliations at midnight. A slow or messy close impacts leadership decision-making, investor confidence, audit readiness, reporting accuracy, and finance team morale.",
+    "published": "2026-05-08",
+    "score": 0,
+    "matched_keywords": [
+      "month-end",
+      "close",
+      "reconciliation",
+      "spreadsheet",
+      "manual",
+      "slow"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522655+00:00"
+  },
+  {
+    "id": "3bf62945de58",
+    "profile": "startup_finance_month_end",
+    "profile_label": "Startup finance people frustrated with month-end",
+    "title": "Why Does Month-End Close Take So Long? A Founder's Take",
+    "url": "https://www.procuredesk.com/why-month-end-close-takes-so-long-a-diagnostic/",
+    "author": "Sachin Sharma",
+    "source": "Blog",
+    "subreddit": "",
+    "highlights": "Sat across the table from a few hundred finance teams. The Controller tells about day six: still chasing one department head for coding on three invoices with no PO. Two accruals are guesses because vendor hasn't sent the bill yet. CFO already wants numbers. Your close is almost never slow because your accountants are slow. It is slow because the inputs arrive late. 56% of teams blame cross-team dependencies, 50% blame Excel.",
+    "published": "2026-07-13",
+    "score": 0,
+    "matched_keywords": [
+      "month-end",
+      "close",
+      "accrual",
+      "slow"
+    ],
+    "relevant_comments": [],
+    "scraped_at": "2026-08-13T15:52:54.522671+00:00"
+  }
+]
