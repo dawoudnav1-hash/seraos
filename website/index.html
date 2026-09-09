@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vert</title>
+<meta name="description" content="Vert is the agent-native accounting platform for e-commerce brands and startups. Agents that reconcile, code and close your books, with humans signing off.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#FFFFFF; --bg-soft:#F6F6FA; --bg-deep:#010043;
+  --ink:#0B0B14; --ink-2:#4B4B5C; --muted:#7A7A8C;
+  --line:#E6E7EF; --line-strong:#CFD0DC;
+  --navy:#010043; --cyan:#22C7F5; --cyan-ink:#0B8DB4; --green:#1EA35B;
+  --card:#FFFFFF; --shadow:0 1px 2px rgba(11,11,20,.04),0 18px 48px -24px rgba(1,0,67,.22);
+  --radius:18px;
+  --sans:'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0B0B14; --bg-soft:#12121E; --bg-deep:#010043;
+    --ink:#F2F2F7; --ink-2:#C4C4D2; --muted:#8C8CA0;
+    --line:#22233A; --line-strong:#33345A;
+    --card:#14152A; --shadow:0 1px 2px rgba(0,0,0,.4),0 18px 48px -24px rgba(0,0,0,.7);
+    --cyan-ink:#5ED6F8;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0B0B14; --bg-soft:#12121E; --bg-deep:#010043;
+  --ink:#F2F2F7; --ink-2:#C4C4D2; --muted:#8C8CA0;
+  --line:#22233A; --line-strong:#33345A;
+  --card:#14152A; --shadow:0 1px 2px rgba(0,0,0,.4),0 18px 48px -24px rgba(0,0,0,.7);
+  --cyan-ink:#5ED6F8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{margin:0;font-weight:500;letter-spacing:-.025em;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:1140px;margin:0 auto;padding:0 clamp(20px,5vw,48px)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan-ink);margin-bottom:18px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:999px;font-size:15px;font-weight:500;border:1px solid var(--navy);background:var(--navy);color:#fff;transition:background .2s,color .2s,border-color .2s,transform .2s}
+.btn:hover{background:var(--cyan);border-color:var(--cyan);color:var(--navy);transform:translateY(-1px)}
+.btn:focus-visible,a:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line-strong)}
+.btn.ghost:hover{background:var(--bg-soft);color:var(--ink);border-color:var(--ink)}
+.btn.light{background:#fff;border-color:#fff;color:var(--navy)}
+.btn.light:hover{background:var(--cyan);border-color:var(--cyan)}
+.btn .arrow{transition:transform .2s}
+.btn:hover .arrow{transform:translateX(3px)}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 84%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:36px;height:66px}
+.brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:600;letter-spacing:-.02em}
+.brand svg{width:26px;height:26px}
+.nav ul{display:flex;gap:28px;list-style:none;margin:0 auto;padding:0;font-size:14.5px;color:var(--ink-2)}
+.nav ul a:hover{color:var(--ink)}
+.nav .btn{padding:9px 18px;font-size:14px}
+@media (max-width:760px){.nav ul{display:none}.nav .wrap{justify-content:space-between}}
+
+/* hero */
+.hero{padding:clamp(64px,9vw,120px) 0 0;text-align:center}
+.backed{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 8px;margin-bottom:34px}
+.backed .dot{width:18px;height:18px;border-radius:50%;background:var(--navy);display:grid;place-items:center;color:#fff;font-size:10px;font-weight:600}
+.hero h1{font-size:clamp(40px,6.4vw,76px);line-height:1.02;letter-spacing:-.035em;max-width:16ch;margin:0 auto}
+.hero .lede{font-size:clamp(17px,1.6vw,20px);color:var(--ink-2);max-width:54ch;margin:26px auto 0;line-height:1.5}
+.hero .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+.hero .note{font-size:13px;color:var(--muted);margin-top:16px}
+.shot{margin:clamp(48px,6vw,72px) auto 0;max-width:1140px;padding:0 clamp(12px,3vw,48px)}
+.shot .frame{border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);background:var(--card)}
+.shot img{aspect-ratio:1558/1010;object-fit:cover;object-position:top;width:100%}
+
+/* trusted */
+.trusted{padding:44px 0 0;text-align:center}
+.trusted p{font-size:13px;color:var(--muted);margin-bottom:18px}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 28px;font-size:15px;color:var(--ink-2);font-weight:500}
+.chips span{display:inline-flex;align-items:center;gap:8px}
+.chips i{width:8px;height:8px;border-radius:50%;background:var(--cyan);display:inline-block}
+
+/* sections */
+section{padding:clamp(72px,9vw,128px) 0}
+.head{max-width:62ch}
+.head h2{font-size:clamp(30px,4vw,46px);line-height:1.1}
+.head p{font-size:17px;color:var(--ink-2);margin-top:18px;max-width:56ch}
+.center{text-align:center;margin-left:auto;margin-right:auto}
+.center p{margin-left:auto;margin-right:auto}
+
+/* stats strip */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:48px;background:var(--card)}
+.stat{padding:28px 30px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-size:clamp(30px,3.6vw,44px);font-weight:500;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
+.stat span{display:block;font-size:14px;color:var(--muted);margin-top:10px}
+@media (max-width:760px){.stats{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid var(--line)}.stat:last-child{border-bottom:0}}
+
+/* features */
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:56px}
+.feature{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
+.feature .media{position:relative;height:300px;overflow:hidden;background:var(--card);border-bottom:1px solid var(--line)}
+.feature .media img{width:100%;height:100%;object-fit:cover;object-position:top left;transform:scale(1.04);transform-origin:top left;transition:transform .5s ease}
+.feature:hover .media img{transform:scale(1.07)}
+.feature .media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 65%,var(--bg-soft))}
+.feature .body{padding:26px 26px 30px}
+.feature h3{font-size:21px;line-height:1.2}
+.feature p{font-size:15px;color:var(--ink-2);margin-top:10px}
+.feature .tag{font-family:var(--mono);font-size:11.5px;color:var(--green);margin-top:16px;display:flex;align-items:center;gap:8px}
+.feature .tag::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--green)}
+@media (max-width:900px){.features{grid-template-columns:1fr}.feature .media{height:260px}}
+
+/* chat mock */
+.ask{position:absolute;inset:0;padding:22px;display:flex;flex-direction:column;gap:10px;font-size:13.5px}
+.bubble{max-width:88%;padding:10px 14px;border-radius:14px;line-height:1.4}
+.bubble.q{align-self:flex-end;background:var(--navy);color:#fff;border-bottom-right-radius:4px}
+.bubble.a{align-self:flex-start;background:var(--bg-soft);border:1px solid var(--line);color:var(--ink);border-bottom-left-radius:4px}
+.bubble ul{margin:8px 0 0;padding-left:16px;color:var(--ink-2)}
+.bubble li{margin:3px 0}
+.bubble .who{font-family:var(--mono);font-size:11px;color:var(--cyan-ink);margin-bottom:4px;display:flex;gap:6px;align-items:center}
+
+/* customers */
+.customers{background:var(--bg-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.segments{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px}
+.seg{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;min-height:210px;display:flex;flex-direction:column;justify-content:space-between;transition:border-color .2s,transform .2s}
+.seg:hover{border-color:var(--cyan);transform:translateY(-2px)}
+.seg h4{font-size:19px}
+.seg p{font-size:14px;color:var(--ink-2);margin-top:8px}
+.seg .glyph{width:38px;height:38px;border-radius:10px;background:var(--bg-soft);border:1px solid var(--line);display:grid;place-items:center;color:var(--navy)}
+.seg .glyph svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+:root[data-theme="dark"] .seg .glyph{color:var(--cyan)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .seg .glyph{color:var(--cyan)}}
+@media (max-width:900px){.segments{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.segments{grid-template-columns:1fr}}
+
+/* workflows */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-top:56px}
+.split .frame{border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);background:#F2F2F2}
+.split img{width:100%;aspect-ratio:1254/1100;object-fit:cover;object-position:center 40%}
+.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.list li{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:16px 0;border-top:1px solid var(--line);font-size:15px}
+.list li:last-child{border-bottom:1px solid var(--line)}
+.list b{font-weight:500}
+.list span{color:var(--ink-2)}
+.list em{font-style:normal;font-family:var(--mono);font-size:12px;color:var(--muted)}
+@media (max-width:900px){.split{grid-template-columns:1fr}}
+
+/* integrations */
+.tools{display:flex;flex-wrap:wrap;gap:10px;margin-top:36px}
+.tool{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 16px 9px 10px;font-size:14px;font-weight:500}
+.tool i{width:22px;height:22px;border-radius:50%;display:inline-grid;place-items:center;font-style:normal;font-family:var(--mono);font-size:10px;font-weight:500;color:#fff}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.two p+p{margin-top:16px}
+@media (max-width:900px){.two{grid-template-columns:1fr;gap:28px}}
+
+/* architecture */
+.arch{background:var(--bg-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.arch .two{margin-top:48px;align-items:center}
+.arch .frame{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+.arch img{width:100%;height:auto}
+.layers{list-style:none;margin:0;padding:0;counter-reset:l -1}
+.layers li{padding:14px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:44px 1fr;gap:12px;font-size:15px}
+.layers li:last-child{border-bottom:1px solid var(--line)}
+.layers li::before{counter-increment:l;content:"L" counter(l);font-family:var(--mono);font-size:12px;color:var(--cyan-ink);padding-top:3px}
+.layers b{font-weight:500;display:block}
+.layers span{color:var(--ink-2);font-size:14px}
+
+/* final cta */
+.final{padding:clamp(24px,4vw,48px) 0 clamp(72px,9vw,120px)}
+.final .panel{background:var(--bg-deep);color:#fff;border-radius:26px;padding:clamp(56px,7vw,96px) clamp(24px,5vw,72px);text-align:center;position:relative;overflow:hidden}
+.final canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.55}
+.final .inner{position:relative;z-index:1}
+.final h2{font-size:clamp(32px,4.6vw,54px);line-height:1.05;color:#fff}
+.final p{color:rgba(255,255,255,.72);max-width:50ch;margin:20px auto 0;font-size:17px}
+.final .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:40px 0}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;font-size:13.5px;color:var(--muted)}
+footer .links{display:flex;gap:22px}
+footer .links a:hover{color:var(--ink)}
+
+.reveal{opacity:1;transform:none}
+@media (prefers-reduced-motion:no-preference){
+  .reveal{animation:up .7s ease both}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .hero .reveal:nth-child(2){animation-delay:.05s}.hero .reveal:nth-child(3){animation-delay:.12s}.hero .reveal:nth-child(4){animation-delay:.2s}.hero .reveal:nth-child(5){animation-delay:.26s}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Vert home">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M20 22 L50 78 L80 22" fill="none" stroke="#22C7F5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Vert
+    </a>
+    <ul>
+      <li><a href="#about">Product</a></li>
+      <li><a href="#customers">Customers</a></li>
+      <li><a href="#workflows">Workflows</a></li>
+      <li><a href="#architecture">How it works</a></li>
+    </ul>
+    <a class="btn" href="#book">Book a walkthrough</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="backed reveal"><span class="dot">V</span> Agent-native accounting for e-commerce and startups</div>
+    <h1 class="reveal">Accounting that closes itself.</h1>
+    <p class="lede reveal">Vert is a team of finance agents that reconcile, code and close your books, with your accountant signing off. Real understanding of financial context, not another dashboard to babysit.</p>
+    <div class="cta reveal">
+      <a class="btn" href="#book">Book a walkthrough <span class="arrow">→</span></a>
+      <a class="btn ghost" href="#about">See how it works</a>
+    </div>
+    <p class="note reveal">20 minutes. We look at your close, not a slide deck.</p>
+  </div>
+  <div class="shot">
+    <div class="frame"><img src="assets/dashboard.png" alt="Vert command dashboard with workflow columns: in progress, needs attention, ready for review, viewed" width="1558" height="1010"></div>
+  </div>
+  <div class="trusted wrap">
+    <p>Built for teams running finance on</p>
+    <div class="chips">
+      <span><i></i>Shopify</span><span><i></i>Stripe</span><span><i></i>QuickBooks</span><span><i></i>Xero</span><span><i></i>NetSuite</span><span><i></i>Amazon</span>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">About Vert</p>
+      <h2>Vert gives you real-time, audit-ready books, closed by agents and verified by people.</h2>
+      <p>Your whole company scaled up while finance stayed manual. Vert picks up the reconciliations, entries and coding so your team gets back to being strategic.</p>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>2×</b><span>faster month-end close</span></div>
+      <div class="stat"><b>7+ hrs</b><span>saved per week on manual bookkeeping and data tasks alone</span></div>
+      <div class="stat"><b>1 hr → 5 min</b><span>for a Stripe and Shopify payout reconciliation</span></div>
+    </div>
+
+    <div class="features">
+      <article class="feature">
+        <div class="media"><img src="assets/steps.png" alt="Vert showing 118 steps taken to build a prepaid roll-forward schedule with sources attached"></div>
+        <div class="body">
+          <h3>Books that never fall behind</h3>
+          <p>Agents run reconciliations, prepaids, accruals and payout matching continuously. Every step is logged with the evidence it used, so nothing waits for month-end.</p>
+          <div class="tag">Audit trail on every entry</div>
+        </div>
+      </article>
+      <article class="feature">
+        <div class="media"><img src="assets/approval.png" alt="Vert workflow approval screen with goal, triggers and instructions and an Approve button"></div>
+        <div class="body">
+          <h3>Agentic, not autonomous</h3>
+          <p>You set the goal, the triggers and the rules. Vert drafts the work and your accountant approves it. Deterministic checks sit underneath every agent, so accuracy holds at 99%+.</p>
+          <div class="tag">Human sign-off built in</div>
+        </div>
+      </article>
+      <article class="feature">
+        <div class="media">
+          <div class="ask">
+            <div class="bubble q">Why is gross margin down 3 points this month?</div>
+            <div class="bubble a">
+              <div class="who">Vert · answered in 4s</div>
+              Shopify refunds ran 2.1× normal in the last week of the month, and merchant fees rose with the new payment mix.
+              <ul>
+                <li>Refunds: $2,930 across two periods, accrued</li>
+                <li>Fees: $5,412 split from gross, coded to 6420</li>
+                <li>One chargeback needs you to decide</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="body">
+          <h3>Clear answers, when you need them</h3>
+          <p>Ask Vert in plain language, from runway and burn to why a number moved. Answers cite the ledger lines they came from, so you can trust them in a board pack.</p>
+          <div class="tag">Every answer cites its sources</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="customers" id="customers">
+  <div class="wrap">
+    <div class="head center">
+      <p class="eyebrow">Customers</p>
+      <h2>For finance teams that need to scale without adding headcount.</h2>
+      <p>Vert works with companies that grew faster than their back office. Workflows are built for the way your business actually earns money.</p>
+    </div>
+    <div class="segments">
+      <a class="seg" href="#book">
+        <div class="glyph"><svg viewBox="0 0 24 24"><path d="M3 7h18l-1.5 12h-15z"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg></div>
+        <div><h4>E-commerce</h4><p>Payout recs across Shopify, Stripe and Amazon. Fees, refunds and chargebacks coded automatically.</p></div>
+      </a>
+      <a class="seg" href="#book">
+        <div class="glyph"><svg viewBox="0 0 24 24"><path d="M4 20 12 4l8 16"/><path d="M8 14h8"/></svg></div>
+        <div><h4>Startups</h4><p>Revenue recognition, prepaids and accruals handled on schedule. Runway and burn on demand.</p></div>
+      </a>
+      <a class="seg" href="#book">
+        <div class="glyph"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 20V10"/></svg></div>
+        <div><h4>Multi-entity</h4><p>Intercompany eliminations and consolidated packs across entities, with one review queue.</p></div>
+      </a>
+      <a class="seg" href="#book">
+        <div class="glyph"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <div><h4>Fractional finance</h4><p>Firms running the close for many clients. One agent per workflow, one partner signing off.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="workflows">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Workflows</p>
+      <h2>Every close task becomes a workflow you can read, edit and approve.</h2>
+      <p>Vert breaks the close into scheduled, triggered workflows. Each one runs on deterministic finance logic, posts to your ledger and leaves a working paper behind.</p>
+    </div>
+    <div class="split">
+      <ul class="list">
+        <li><b>Reconciliations</b><span>Bank, payout and processor matching with variance explanations. <em>every 10 min</em></span></li>
+        <li><b>Entries</b><span>Prepaids, accruals, payroll journals and lease schedules drafted with evidence attached. <em>monthly</em></span></li>
+        <li><b>Stripe + Shopify</b><span>Gross to net payout breakdowns: fees split, refunds accrued, disputes flagged. <em>daily</em></span></li>
+        <li><b>Categorize &amp; code</b><span>Transactions coded against your chart of accounts and your past decisions. <em>continuous</em></span></li>
+        <li><b>Analysis</b><span>Flux analysis and board reporting packs with citations back to the ledger. <em>on request</em></span></li>
+      </ul>
+      <div class="frame"><img src="assets/workflow.png" alt="Vert workflow canvas: schedule trigger every 10 minutes, HTTP request to post journal entries, conditional on posted status"></div>
+    </div>
+  </div>
+</section>
+
+<section id="integrations">
+  <div class="wrap">
+    <div class="two">
+      <div class="head">
+        <p class="eyebrow">Integrations</p>
+        <h2>We work where you are.</h2>
+      </div>
+      <div>
+        <p style="font-size:17px;color:var(--ink-2)">Vert connects to your ledger, your payment processors and your storefronts, then keeps everything in sync behind the scenes. It pulls documents from your inbox, matches them to transactions and posts the result.</p>
+        <p style="font-size:17px;color:var(--ink-2)">Your team asks questions and approves work in Slack or email. Nobody has to log into another finance tool.</p>
+        <div class="tools">
+          <span class="tool"><i style="background:#635BFF">S</i>Stripe</span>
+          <span class="tool"><i style="background:#95BF47">Sh</i>Shopify</span>
+          <span class="tool"><i style="background:#2CA01C">Qb</i>QuickBooks</span>
+          <span class="tool"><i style="background:#13B5EA">X</i>Xero</span>
+          <span class="tool"><i style="background:#125580">Ns</i>NetSuite</span>
+          <span class="tool"><i style="background:#FF9900">A</i>Amazon</span>
+          <span class="tool"><i style="background:#4A154B">Sl</i>Slack</span>
+          <span class="tool"><i style="background:#EA4335">G</i>Gmail</span>
+          <span class="tool"><i style="background:#0F6CBD">Ex</i>Excel</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="arch" id="architecture">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">How it works</p>
+      <h2>AI infrastructure that understands financial context.</h2>
+      <p>Agents coordinate the work. A deterministic financial engine owns correctness. A trust layer wraps all of it. That is why Vert can be accurate where general-purpose AI is not.</p>
+    </div>
+    <div class="two">
+      <ol class="layers">
+        <li><div><b>Financial data foundation</b><span>Ledgers, journals, documents and statements in one financial ontology.</span></div></li>
+        <li><div><b>Context engineering</b><span>Financial memory, embeddings and retrieval turn raw data into usable context.</span></div></li>
+        <li><div><b>Deterministic financial engine</b><span>Matching, verification and posting safeguards that agents cannot override.</span></div></li>
+        <li><div><b>Tools &amp; skills</b><span>ERP posting, spreadsheet sandbox and document understanding, each calling deterministic logic.</span></div></li>
+        <li><div><b>Agent orchestration</b><span>Specialised finance agents plan and execute workflows without bypassing validation.</span></div></li>
+        <li><div><b>Trust, governance &amp; explainability</b><span>Approvals, reasoning citations and full execution traceability across every layer.</span></div></li>
+      </ol>
+      <div class="frame"><img src="assets/architecture.png" alt="Exploded diagram of Vert's six architecture layers from financial data foundation to trust layer"></div>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="book">
+  <div class="wrap">
+    <div class="panel">
+      <canvas id="field" aria-hidden="true"></canvas>
+      <div class="inner">
+        <h2>Ready to see how smooth a close can be?</h2>
+        <p>Vert is the accounting platform rebuilt for the agent era. Bring one messy reconciliation to the call and we will run it live.</p>
+        <div class="cta">
+          <a class="btn light" href="mailto:hello@vert.finance?subject=Walkthrough">Book a 20-minute walkthrough</a>
+          <a class="btn ghost" style="color:#fff;border-color:rgba(255,255,255,.35)" href="#about">Read how it works</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Vert. Finance at the speed of compute.</span>
+    <div class="links"><a href="#top">Back to top</a><a href="#book">Contact</a></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var cv=document.getElementById('field'); if(!cv) return;
+  var ctx=cv.getContext('2d'),W=0,H=0,t=0,raf=0,dpr=1;
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function size(){dpr=Math.min(devicePixelRatio||1,2);W=cv.clientWidth;H=cv.clientHeight;cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);}
+  function draw(){
+    ctx.clearRect(0,0,W,H);ctx.strokeStyle='rgba(255,255,255,.55)';ctx.lineWidth=1;
+    var gap=16;
+    for(var y=gap/2;y<H;y+=gap)for(var x=gap/2;x<W;x+=gap){
+      var nx=x/W-.5,ny=y/H-.5,r=Math.hypot(nx,ny);
+      var a=Math.atan2(ny,nx)+r*6+t*.4+Math.sin(x*.01+t)*.4;
+      var len=3+4*Math.sin(r*9-t*1.2);
+      ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+Math.cos(a)*len,y+Math.sin(a)*len);ctx.stroke();
+    }
+  }
+  function loop(){t+=.008;draw();raf=requestAnimationFrame(loop);}
+  new ResizeObserver(function(){size();draw();}).observe(cv);
+  new IntersectionObserver(function(e){if(e[0].isIntersecting&&!reduce&&!raf)loop();else if(!e[0].isIntersecting&&raf){cancelAnimationFrame(raf);raf=0;}}).observe(cv);
+  size();draw();
+})();
+</script>
+</body>
+</html>
