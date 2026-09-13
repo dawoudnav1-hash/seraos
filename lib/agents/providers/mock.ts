@@ -568,48 +568,74 @@ function scriptFor(input: AgentInput): Script {
     };
   }
 
-  // Default: a reporting pack.
-  return {
-    confidence: 0.87,
-    openQuestions: [],
-    summary: `Reporting pack assembled across 4 entities; ${cash.runwayMonths}-month runway at current burn.`,
-    steps: [
-      {
-        title: 'Consolidate entity trial balances',
-        agent: 'ReportingAgent',
-        notes: ['Consolidating 4 entity trial balances.'],
-        calls: [{ tool: 'fetchTrialBalance', args: {} }],
-      },
-      {
-        title: 'Eliminate intercompany activity',
-        agent: 'ReportingAgent',
-        notes: ['Intercompany eliminations posted to their own column.'],
-        calls: [{ tool: 'fetchSubledger', args: { name: 'ap' } }],
-      },
-      {
-        title: 'Build pack and board memo',
-        agent: 'ReportingAgent',
-        notes: ['Building the board pack.'],
-        calls: [
-          {
-            tool: 'buildWorkbook',
-            args: {
-              filename: 'Monthly_Reporting_Pack.xlsx',
-              sheets: [
-                {
-                  name: 'Consolidated',
-                  rows: [
-                    ['Account', 'Name', 'Debit', 'Credit'],
-                    ...tb.accounts.map((a) => [a.account, a.name, a.debit, a.credit]),
-                  ],
-                },
-              ],
-            },
-            artifact: { filename: 'Monthly_Reporting_Pack.xlsx', kind: 'xlsx' },
+  // Anything else: drive the routed specialist's own declared plan.
+  return genericScript(input);
+}
+
+function slug(title: string): string {
+  return title.replace(/[^a-zA-Z0-9]+/g, '_').replace(/^_|_$/g, '').slice(0, 60) || 'Vert_Output';
+}
+
+/**
+ * Fallback for tasks Ask Vert invents: every call comes from the specialist's
+ * own plan, so a specialist can never be handed a tool it has not declared.
+ */
+function genericScript(input: AgentInput): Script {
+  const spec = SPECIALIST_REGISTRY[input.specialist];
+  const planned = spec.plan(input.task);
+  const name = slug(input.title);
+  const steps: ScriptedStep[] = planned.map((step, i) => {
+    const calls: ScriptedCall[] = [];
+    for (const tool of step.tools) {
+      if (tool === 'fetchTrialBalance') calls.push({ tool, args: {} });
+      if (tool === 'fetchSubledger') calls.push({ tool, args: { name: 'ap' } });
+      if (tool === 'parseDocument') calls.push({ tool, args: { document: `${name}_Source.pdf` } });
+      if (tool === 'buildWorkbook')
+        calls.push({
+          tool,
+          args: {
+            filename: `${name}.xlsx`,
+            sheets: [
+              {
+                name: 'Workpaper',
+                rows: [
+                  ['Account', 'Name', 'Debit', 'Credit'],
+                  ...tb.accounts.map((a) => [a.account, a.name, a.debit, a.credit]),
+                  ['', 'Total', tb.totals.debits, tb.totals.credits],
+                ],
+              },
+            ],
           },
-        ],
-      },
-    ],
+          artifact: { filename: `${name}.xlsx`, kind: 'xlsx' },
+        });
+      if (tool === 'renderPdf')
+        calls.push({
+          tool,
+          args: {
+            filename: `${name}.pdf`,
+            title: input.title,
+            body: [
+              input.task,
+              `Prepared by ${input.specialist} against the ${tb.period} trial balance, which foots to ${usd(tb.totals.debits * 100)}.`,
+            ],
+          },
+          artifact: { filename: `${name}.pdf`, kind: 'pdf' },
+        });
+      // requestHumanInput and postJournalEntry are never called speculatively.
+    }
+    return {
+      title: step.title,
+      agent: input.specialist,
+      notes: [`${step.title}…`],
+      calls,
+    };
+  });
+
+  return {
+    steps,
+    confidence: 0.82,
+    openQuestions: [],
+    summary: `${input.title} complete. ${steps.length} steps executed by ${input.specialist}.`,
   };
 }
 

@@ -8,6 +8,7 @@ const { startRun, resumeRun, markViewed, approveRun, rejectRun, reopenRun, callT
 );
 const { listPostings } = await import('@/lib/agents/store');
 const { MockProvider } = await import('@/lib/agents/providers/mock');
+const { SPECIALIST_REGISTRY } = await import('@/lib/agents/specialists');
 const { ApprovalRequiredError } = await import('@/lib/agents/tools/types');
 
 const provider = new MockProvider({ tickMs: 0 });
@@ -75,6 +76,17 @@ describe('orchestrator', () => {
       provider,
     );
     expect(getRun(run.id)).toEqual(run);
+  });
+
+  it('runs an ad-hoc task within the routed specialist’s declared toolset', async () => {
+    const run = await startRun(
+      { title: 'Reconcile the operating bank account for November', task: 'Reconcile the operating bank account for November.' },
+      provider,
+    );
+    expect(run.agent).toBe('ReconciliationAgent');
+    expect(run.status).toBe('review_ready');
+    const declared = SPECIALIST_REGISTRY.ReconciliationAgent.tools;
+    expect(run.steps.flatMap((s) => s.tools).every((t) => declared.includes(t))).toBe(true);
   });
 
   it('refuses a tool the specialist has not declared', async () => {

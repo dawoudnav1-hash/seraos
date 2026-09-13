@@ -23,10 +23,10 @@ interface SeedSpec {
 
 const SEEDS: SeedSpec[] = [
   { id: 'run_cash_13w', title: 'Prepare 13-Week Cash Flow Projection', task: 'Prepare a 13-week cash flow projection and runway estimate.', ageMs: 0, stopAtPct: 5 },
-  { id: 'run_asc606', title: 'FY24 Revenue Recognition Memo (ASC 606)', task: 'Write the FY24 revenue recognition memo under ASC 606 for the Master Services Agreement.', ageMs: 0, stopAtPct: 12 },
-  { id: 'run_asc842', title: 'Lease Agreement Analysis (ASC 842)', task: 'Classify the equipment leases under ASC 842.', ageMs: 0, stopAtPct: 12 },
-  { id: 'run_163j', title: 'Analyze State Section 163(j) Interest Expense Add-Backs', task: 'Analyze state Section 163(j) interest expense add-backs across the three entities.', ageMs: 2 * MIN, stopAtPct: 12 },
-  { id: 'run_payroll', title: 'Book Payroll Journal Entry', task: 'Book the payroll journal entry for the period ending 11/15/2025.', ageMs: 2 * MIN, stopAtPct: 12 },
+  { id: 'run_asc606', title: 'FY24 Revenue Recognition Memo (ASC 606)', task: 'Write the FY24 revenue recognition memo under ASC 606 for the Master Services Agreement.', ageMs: 0, stopAtPct: 5 },
+  { id: 'run_asc842', title: 'Lease Agreement Analysis (ASC 842)', task: 'Classify the equipment leases under ASC 842.', ageMs: 0, stopAtPct: 5 },
+  { id: 'run_163j', title: 'Analyze State Section 163(j) Interest Expense Add-Backs', task: 'Analyze state Section 163(j) interest expense add-backs across the three entities.', ageMs: 2 * MIN, stopAtPct: 5 },
+  { id: 'run_payroll', title: 'Book Payroll Journal Entry', task: 'Book the payroll journal entry for the period ending 11/15/2025.', ageMs: 2 * MIN, stopAtPct: 5 },
   { id: 'run_flux', title: 'Prepare Q4 Flux Analysis Commentary', task: 'Prepare Q4 flux analysis commentary for the reporting pack.', ageMs: 25 * MIN, stopAtPct: 40 },
   { id: 'run_3way', title: 'Perform Three-Way Match', task: 'Perform a three-way match for PO 44872.', ageMs: 30 * MIN },
   { id: 'run_board_pack', title: 'Create Monthly Reporting Pack for Board Review', task: 'Create the January 2025 monthly reporting pack for board review.', ageMs: 60 * MIN },
@@ -52,7 +52,8 @@ async function seedRun(spec: SeedSpec): Promise<RunView> {
   for await (const event of stream as AsyncIterable<AgentEvent>) {
     at += 800;
     const run = appendEvent(spec.id, event, Math.min(at, Date.now()));
-    if (spec.stopAtPct !== undefined && run.progressPct >= spec.stopAtPct) break;
+    // Stop on a progress note so the card shows the agent's narration, not a tool echo.
+    if (spec.stopAtPct !== undefined && event.type === 'progress' && run.progressPct >= spec.stopAtPct) break;
   }
   if (spec.view) markViewed(spec.id);
   return getRun(spec.id)!;
