@@ -1,0 +1,1665 @@
+<title>Vert Command Board</title>
+<style>
+  :root {
+    --rail: #0a0a0a;
+    --rail-text: #ffffff;
+    --canvas: #fafaf9;
+    --surface: #ffffff;
+    --surface-sunk: rgba(255, 255, 255, 0.45);
+    --ink: #14130f;
+    --ink-2: #575551;
+    --ink-3: #8b8884;
+    --line: rgba(20, 19, 15, 0.09);
+    --line-2: rgba(20, 19, 15, 0.16);
+    --live: #10a171;
+    --stop: #d8453a;
+    --stop-soft: #fdf1f0;
+    --stop-line: #f3ccc8;
+    --accent: #6d4df6;
+    --shadow: 0 1px 2px rgba(20, 19, 15, 0.05);
+    --shadow-lift: 0 6px 22px rgba(20, 19, 15, 0.1);
+    --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --canvas: #131211;
+      --surface: #1b1a18;
+      --surface-sunk: rgba(255, 255, 255, 0.03);
+      --ink: #f3f1ee;
+      --ink-2: #a8a49e;
+      --ink-3: #78746e;
+      --line: rgba(255, 255, 255, 0.1);
+      --line-2: rgba(255, 255, 255, 0.18);
+      --stop-soft: #2a1917;
+      --stop-line: #5c2d28;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+      --shadow-lift: 0 6px 22px rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --canvas: #131211;
+    --surface: #1b1a18;
+    --surface-sunk: rgba(255, 255, 255, 0.03);
+    --ink: #f3f1ee;
+    --ink-2: #a8a49e;
+    --ink-3: #78746e;
+    --line: rgba(255, 255, 255, 0.1);
+    --line-2: rgba(255, 255, 255, 0.18);
+    --stop-soft: #2a1917;
+    --stop-line: #5c2d28;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-lift: 0 6px 22px rgba(0, 0, 0, 0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--canvas);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+  }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+  .tnum { font-variant-numeric: tabular-nums; }
+
+  .app { display: flex; min-height: 100vh; }
+
+  /* ---------- rail ---------- */
+  .rail {
+    width: 236px;
+    flex: 0 0 236px;
+    background: var(--rail);
+    color: var(--rail-text);
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0 18px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  .mark { display: flex; align-items: center; gap: 11px; padding: 0 22px 22px; }
+  .mark .glyph {
+    width: 30px; height: 30px; border-radius: 999px;
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+    display: grid; place-items: center;
+  }
+  .mark .glyph span {
+    width: 12px; height: 11px; background: #fff;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+  }
+  .mark b { font-size: 20px; letter-spacing: -0.02em; font-weight: 600; }
+  .rail nav { display: flex; flex-direction: column; gap: 2px; padding: 0 10px; }
+  .rail-item {
+    display: flex; align-items: center; gap: 11px;
+    padding: 9px 12px; border-radius: 9px;
+    background: none; border: 0; width: 100%; text-align: left;
+    color: rgba(255, 255, 255, 0.55); font-size: 13.5px;
+  }
+  .rail-item:hover { color: #fff; background: rgba(255, 255, 255, 0.05); }
+  .rail-item.on { background: #211f1d; color: #fff; font-weight: 500; }
+  .rail-item .ico { width: 16px; height: 16px; flex: 0 0 16px; opacity: 0.85; }
+  .rule { height: 1px; background: rgba(255, 255, 255, 0.1); margin: 16px 22px; }
+  .group { padding: 0 10px; }
+  .group-kids { margin: 2px 0 6px 27px; padding-left: 14px; border-left: 1px solid rgba(255, 255, 255, 0.1); display: flex; flex-direction: column; }
+  .group-kids button { background: none; border: 0; text-align: left; padding: 6px 8px; border-radius: 7px; color: rgba(255, 255, 255, 0.5); font-size: 13px; }
+  .group-kids button:hover { color: #fff; }
+  .chev { margin-left: auto; width: 13px; height: 13px; transition: transform 0.15s; }
+  .chev.shut { transform: rotate(-90deg); }
+  .rail-foot { margin-top: auto; padding: 0 14px; }
+  .newchat {
+    width: 100%; border: 0; border-radius: 11px; background: #fff; color: #0a0a0a;
+    padding: 11px; font-weight: 500; font-size: 13.5px; margin-bottom: 18px;
+    display: flex; align-items: center; justify-content: center; gap: 7px;
+  }
+  .who { display: flex; align-items: center; gap: 10px; padding: 0 4px; }
+  .who .pic {
+    width: 34px; height: 34px; border-radius: 999px; display: grid; place-items: center;
+    background: linear-gradient(140deg, #6b5a4a, #2f2a26); font-size: 12px; font-weight: 600;
+  }
+  .who small { display: block; color: rgba(255, 255, 255, 0.45); font-size: 11.5px; }
+  .who .nm { font-size: 13px; font-weight: 500; }
+
+  /* ---------- main ---------- */
+  main { flex: 1; min-width: 0; padding: 26px 26px 0; display: flex; flex-direction: column; }
+  .top { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+  h1 { font-size: 28px; font-weight: 500; letter-spacing: -0.025em; margin: 0; text-wrap: balance; }
+  .top-acts { display: flex; gap: 9px; }
+  .pill {
+    display: flex; align-items: center; gap: 8px;
+    border: 1px solid var(--line-2); background: var(--surface); border-radius: 999px;
+    padding: 9px 15px; font-size: 13px; font-weight: 500; box-shadow: var(--shadow);
+  }
+  .pill:hover { border-color: var(--ink-3); }
+  .pill.ask:hover { border-color: var(--accent); color: var(--accent); }
+  .tabs { display: inline-flex; gap: 3px; padding: 3px; border-radius: 11px; background: var(--surface-sunk); box-shadow: inset 0 0 0 1px var(--line); margin: 22px 0 0; width: fit-content; }
+  .tab { border: 0; background: none; border-radius: 9px; padding: 8px 15px; font-size: 13px; color: var(--ink-2); display: flex; align-items: center; gap: 7px; }
+  .tab.on { background: var(--surface); color: var(--ink); font-weight: 500; box-shadow: var(--shadow); }
+  .split { height: 1px; background: var(--line); margin: 18px 0 20px; }
+
+  /* ---------- board ---------- */
+  .board { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 26px; align-items: flex-start; }
+  .col {
+    flex: 0 0 292px; width: 292px;
+    border: 1px solid var(--line); border-radius: 16px; background: var(--surface-sunk);
+    display: flex; flex-direction: column; min-height: 220px;
+  }
+  .col.hot { border-color: var(--accent); background: var(--surface); }
+  .col > header { display: flex; align-items: center; gap: 8px; padding: 13px 15px; }
+  .col h2 { font-size: 13px; font-weight: 500; margin: 0; }
+  .count { font-size: 11.5px; color: var(--ink-2); background: var(--surface-sunk); box-shadow: inset 0 0 0 1px var(--line); border-radius: 6px; padding: 1px 7px; }
+  .dot { width: 7px; height: 7px; border-radius: 999px; flex: 0 0 7px; }
+  .d-neutral { background: var(--ink-3); }
+  .d-live { background: var(--live); }
+  .d-stop { background: var(--stop); }
+  .d-quiet { background: var(--ink-3); opacity: 0.6; }
+  .stack { display: flex; flex-direction: column; gap: 9px; padding: 0 10px 12px; }
+
+  .card {
+    position: relative; text-align: left; width: 100%;
+    border: 1px solid var(--line); background: var(--surface); border-radius: 13px;
+    padding: 13px; box-shadow: var(--shadow); display: block;
+  }
+  .card:hover { border-color: var(--line-2); box-shadow: var(--shadow-lift); }
+  .card.dragging { opacity: 0.45; }
+  .card.attention { border-left: 3px solid var(--stop); }
+  .card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 7px; }
+  .when { font-size: 11.5px; color: var(--ink-3); display: flex; align-items: center; gap: 7px; }
+  .grip { display: flex; opacity: 0; color: var(--ink-3); cursor: grab; }
+  .card:hover .grip { opacity: 1; }
+  .card h3 { margin: 0 0 5px; font-size: 13.5px; font-weight: 600; line-height: 1.35; }
+  .card p {
+    margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--ink-2);
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden;
+  }
+  .bar { display: flex; align-items: center; gap: 8px; margin-top: 11px; }
+  .bar i { width: 10px; height: 10px; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--line-2); flex: 0 0 10px; }
+  .bar .track { flex: 1; height: 5px; border-radius: 999px; background: var(--surface-sunk); box-shadow: inset 0 0 0 1px var(--line); overflow: hidden; }
+  .bar .fill { height: 100%; border-radius: 999px; background: var(--live); transition: width 0.6s ease; }
+  .resolve {
+    margin-top: 11px; width: 100%; border-radius: 9px; padding: 7px;
+    border: 1px solid var(--stop-line); background: var(--stop-soft); color: var(--stop);
+    font-size: 12px; font-weight: 500;
+  }
+  .files { list-style: none; margin: 11px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .files li { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--ink-2); min-width: 0; }
+  .files span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .chip { width: 15px; height: 15px; flex: 0 0 15px; border-radius: 4px; display: grid; place-items: center; color: #fff; font-size: 8px; font-weight: 700; }
+  .chip.x { background: #12855a; }
+  .chip.p { background: #c4342a; }
+
+  /* ---------- overview ---------- */
+  .ov { display: flex; flex-direction: column; gap: 14px; padding-bottom: 30px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+  .tile { border: 1px solid var(--line); border-radius: 13px; background: var(--surface); padding: 13px 15px; }
+  .tile .lab { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+  .tile .val { font-size: 25px; font-weight: 500; margin-top: 4px; }
+  .tile small { color: var(--ink-3); font-size: 12px; }
+  .panel { border: 1px solid var(--line); border-radius: 16px; background: var(--surface); overflow: hidden; }
+  .panel > header { display: flex; align-items: center; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+  .panel h2 { margin: 0; font-size: 13px; font-weight: 500; }
+  .row { display: flex; align-items: center; gap: 14px; width: 100%; padding: 11px 16px; background: none; border: 0; border-top: 1px solid var(--line); text-align: left; }
+  .panel .row:first-of-type { border-top: 0; }
+  .row:hover { background: var(--surface-sunk); }
+  .row .grow { flex: 1; min-width: 0; }
+  .row .grow b { display: block; font-size: 13px; font-weight: 500; }
+  .row .grow span { display: block; font-size: 12.5px; color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .state { width: 108px; flex: 0 0 108px; font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); }
+  .closebar { padding: 15px 16px; }
+  .closebar .track { height: 6px; border-radius: 999px; background: var(--surface-sunk); box-shadow: inset 0 0 0 1px var(--line); overflow: hidden; margin: 10px 0 12px; }
+  .closebar .fill { height: 100%; background: var(--ink); border-radius: 999px; }
+  .steps { display: flex; flex-wrap: wrap; gap: 8px 20px; list-style: none; margin: 0; padding: 0; }
+  .steps li { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--ink-2); }
+
+  /* ---------- drawer & palette ---------- */
+  .veil { position: fixed; inset: 0; background: rgba(20, 19, 15, 0.35); z-index: 40; display: flex; }
+  .veil.pal { align-items: flex-start; justify-content: center; padding: 11vh 16px 16px; }
+  .drawer {
+    margin-left: auto; width: min(560px, 96vw); background: var(--surface);
+    border-left: 1px solid var(--line); display: flex; flex-direction: column; height: 100vh;
+    box-shadow: var(--shadow-lift);
+  }
+  .drawer > header { display: flex; gap: 12px; align-items: flex-start; padding: 18px 22px; border-bottom: 1px solid var(--line); }
+  .eyebrow { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 5px; }
+  .drawer h2 { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.3; }
+  .x { border: 0; background: none; color: var(--ink-3); padding: 4px; border-radius: 8px; }
+  .x:hover { background: var(--surface-sunk); color: var(--ink); }
+  .drawer .body { flex: 1; overflow-y: auto; padding: 18px 22px; }
+  .sec { margin-bottom: 26px; }
+  .sec > h3 { font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 11px; font-weight: 600; }
+  .blocker { border: 1px solid var(--stop-line); background: var(--stop-soft); border-radius: 13px; padding: 15px; margin-bottom: 24px; }
+  .blocker h3 { margin: 0 0 5px; font-size: 13.5px; color: var(--stop); }
+  .blocker p { margin: 0 0 12px; font-size: 13px; line-height: 1.55; color: var(--ink-2); }
+  .btn { border-radius: 9px; padding: 8px 13px; font-size: 12.5px; font-weight: 500; border: 1px solid var(--line-2); background: var(--surface); }
+  .btn.solid { background: var(--ink); color: var(--canvas); border-color: var(--ink); }
+  .btn.danger { background: var(--stop); color: #fff; border-color: var(--stop); }
+  .btn[disabled] { opacity: 0.4; cursor: not-allowed; }
+  .plan { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+  .plan li { display: flex; gap: 11px; }
+  .pip { width: 18px; height: 18px; flex: 0 0 18px; border-radius: 999px; display: grid; place-items: center; font-size: 10px; font-weight: 600; box-shadow: inset 0 0 0 1px var(--line-2); color: var(--ink-3); margin-top: 1px; }
+  .pip.running { box-shadow: inset 0 0 0 1px var(--live); color: var(--live); }
+  .pip.blocked { box-shadow: inset 0 0 0 1px var(--stop); color: var(--stop); }
+  .pip.completed { background: var(--live); color: #fff; box-shadow: none; }
+  .plan b { font-weight: 500; font-size: 13.5px; display: block; }
+  .plan .meta { display: block; font-size: 11.5px; color: var(--ink-3); font-family: var(--mono); }
+  .plan li > span:last-child { flex: 1; min-width: 0; }
+  .prov { border: 1px solid var(--line); border-radius: 13px; overflow: hidden; }
+  .prov-row { display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-top: 1px solid var(--line); }
+  .prov-row:first-child { border-top: 0; }
+  .prov-row .grow, .file .grow { flex: 1; min-width: 0; }
+  .prov-row .grow b { display: block; font-size: 13px; font-weight: 500; }
+  .prov-row .grow span { display: block; font-size: 11.5px; color: var(--ink-3); }
+  .prov-row .amt { text-align: right; }
+  .prov-row .amt b { font-size: 13px; font-weight: 600; }
+  .prov-row .amt span { display: block; font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); }
+  .file { display: flex; align-items: center; gap: 12px; border: 1px solid var(--line); border-radius: 13px; padding: 10px 14px; margin-bottom: 9px; }
+  .file .chip { width: 28px; height: 28px; flex: 0 0 28px; border-radius: 7px; font-size: 10px; }
+  .file .grow b { display: block; font-size: 13px; font-weight: 500; }
+  .file .grow span { display: block; font-size: 11.5px; color: var(--ink-3); }
+  .sheet { margin-top: 8px; border: 1px solid var(--line); border-radius: 11px; overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 12px; }
+  th, td { text-align: left; padding: 6px 11px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { color: var(--ink-3); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; }
+  tr:last-child td { border-bottom: 0; }
+  .tl { list-style: none; margin: 0; padding: 0; }
+  .tl > li { border-radius: 9px; }
+  .tl button { display: flex; align-items: center; gap: 10px; width: 100%; background: none; border: 0; padding: 6px 8px; text-align: left; border-radius: 9px; }
+  .tl button:hover { background: var(--surface-sunk); }
+  .tl .kind { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-3); flex: 0 0 96px; }
+  .tl .msg { flex: 1; min-width: 0; font-size: 12.5px; color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tl pre { margin: 2px 8px 8px; padding: 11px; border-radius: 10px; background: var(--surface-sunk); box-shadow: inset 0 0 0 1px var(--line); font-family: var(--mono); font-size: 11px; line-height: 1.55; overflow-x: auto; color: var(--ink-2); }
+  .drawer > footer { border-top: 1px solid var(--line); padding: 14px 22px; display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+  .drawer > footer .note { margin-left: auto; font-size: 12px; color: var(--ink-3); }
+  textarea {
+    width: 100%; height: 78px; resize: none; border-radius: 11px; border: 1px solid var(--line-2);
+    background: var(--surface); color: var(--ink); padding: 11px; font: inherit; font-size: 13px;
+  }
+  textarea:focus { outline: none; border-color: var(--accent); }
+
+  .palette { width: min(620px, 100%); background: var(--surface); border: 1px solid var(--line-2); border-radius: 16px; box-shadow: var(--shadow-lift); overflow: hidden; height: fit-content; }
+  .palette .q { display: flex; align-items: center; gap: 11px; padding: 15px 18px; border-bottom: 1px solid var(--line); }
+  .palette input { flex: 1; border: 0; background: none; font: inherit; font-size: 15px; color: var(--ink); }
+  .palette input:focus { outline: none; }
+  .palette .guts { padding: 14px 18px; max-height: 44vh; overflow-y: auto; }
+  .palette .guts.tries { padding: 10px; }
+  .try { display: flex; align-items: center; gap: 9px; width: 100%; background: none; border: 0; text-align: left; padding: 9px 10px; border-radius: 9px; font-size: 13.5px; color: var(--ink-2); }
+  .try:hover { background: var(--surface-sunk); color: var(--ink); }
+  .palette footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 18px; border-top: 1px solid var(--line); background: var(--surface-sunk); }
+  .palette footer span { font-size: 12px; color: var(--ink-3); }
+  .needs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+  .needs li { font-size: 13px; color: var(--ink-2); display: flex; gap: 8px; }
+  .needs li::before { content: "·"; color: var(--ink-3); }
+
+  .toasts { position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%); z-index: 60; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+  .toast { max-width: 520px; border-radius: 11px; padding: 10px 16px; font-size: 13px; color: #fff; background: var(--ink); border: 0; box-shadow: var(--shadow-lift); }
+  .toast.good { background: #0f7a56; }
+  .toast.bad { background: var(--stop); }
+
+  .banner { display: flex; align-items: center; gap: 10px; font-size: 12.5px; color: var(--ink-2); background: var(--surface-sunk); border: 1px solid var(--line); border-radius: 11px; padding: 9px 14px; margin-bottom: 16px; }
+  .banner b { color: var(--ink); font-weight: 600; }
+
+  @media (max-width: 860px) {
+    .app { flex-direction: column; }
+    .rail { width: 100%; flex: none; height: auto; position: static; flex-direction: row; align-items: center; gap: 10px; padding: 12px 16px; overflow-x: auto; }
+    .rail nav { flex-direction: row; padding: 0; }
+    .mark { padding: 0 10px 0 0; }
+    .rule, .group, .rail-foot { display: none; }
+    main { padding: 18px 16px 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+
+<div class="app">
+  <aside class="rail">
+    <div class="mark"><span class="glyph"><span></span></span><b>Vert</b></div>
+    <nav id="rail-nav"></nav>
+    <div class="rule"></div>
+    <div class="group" id="rail-groups"></div>
+    <div class="rail-foot">
+      <button class="newchat" id="newchat">+ New Chat</button>
+      <div class="who">
+        <span class="pic">AM</span>
+        <span class="grow"><span class="nm">Alex Morgan</span><small>Finance Manager</small></span>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="top">
+      <h1 id="greeting">Good morning, Alex.</h1>
+      <div class="top-acts">
+        <button class="pill ask" id="ask">✦ Ask Vert</button>
+        <button class="pill" id="inbox">✉&nbsp;Inbox&nbsp;(<span id="inbox-n">0</span>)</button>
+      </div>
+    </div>
+    <div class="tabs">
+      <button class="tab" data-tab="overview">▦ Overview</button>
+      <button class="tab on" data-tab="workflows">◉ Workflows</button>
+    </div>
+    <div class="split"></div>
+    <div id="screen"></div>
+  </main>
+</div>
+
+<div id="overlay"></div>
+<div class="toasts" id="toasts"></div>
+
+<script>
+  (function () {
+    "use strict";
+
+    // ════════════════════════════════════════════════════════════════════
+    // Fixtures. The trial balance foots to $47,200,000 on both sides and the
+    // payroll register's 47 employees sum to exactly $319,000 gross, so every
+    // figure an agent quotes below traces back to one of these tables.
+    // ════════════════════════════════════════════════════════════════════
+    var TB = {
+      period: "2024-12-31",
+      accounts: [
+        ["1000", "Cash and cash equivalents", 4120000, 0],
+        ["1100", "Accounts receivable", 8640000, 0],
+        ["1200", "Prepaid expenses", 1180000, 0],
+        ["1300", "Inventory", 5260000, 0],
+        ["1500", "Property, plant & equipment", 12400000, 0],
+        ["1600", "Right-of-use assets (ASC 842)", 3310000, 0],
+        ["1700", "Goodwill", 6050000, 0],
+        ["5000", "Cost of revenue", 3090000, 0],
+        ["6000", "Salaries and wages", 2310000, 0],
+        ["6100", "Professional fees", 540000, 0],
+        ["6200", "Interest expense", 300000, 0],
+        ["2000", "Accounts payable", 0, 5430000],
+        ["2100", "Accrued liabilities", 0, 2260000],
+        ["2200", "Deferred revenue", 0, 4180000],
+        ["2300", "Lease liabilities (ASC 842)", 0, 3390000],
+        ["2500", "Long-term debt", 0, 9800000],
+        ["3000", "Common stock and APIC", 0, 11000000],
+        ["3100", "Retained earnings", 0, 4020000],
+        ["4000", "Revenue", 0, 7120000]
+      ],
+      totals: { debits: 47200000, credits: 47200000 }
+    };
+    var PAYROLL = {
+      periodEnding: "2025-11-15",
+      employeeCount: 47,
+      grossCents: 31900000,
+      withholdings: { fica: 2440350, federal: 4466000, state: 1435500, retirement: 1276000 },
+      netCents: 22282150
+    };
+    var MATCH = { po: "PO 44872", vendor: "Ridgeline Industrial Supply", amountCents: 874250, quantity: 150 };
+    var J163 = { entities: 3, interestCents: 89200000, atiPct: 30, allowedCents: 79200000, disallowedCents: 10000000 };
+    var CASH = { openingCents: 412000000, weeklyBurnCents: 26800000, weeklyCollectCents: 21100000, runwayMonths: 15 };
+
+    function usd(cents) {
+      return "$" + Math.round(cents / 100).toLocaleString("en-US");
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // State machine — who may move a run where. Ported verbatim from
+    // lib/domain/state-machine.ts.
+    // ════════════════════════════════════════════════════════════════════
+    var ORCH = {
+      queued: ["planning", "failed"],
+      planning: ["executing", "blocked", "failed"],
+      executing: ["planning", "blocked", "review_ready", "failed"],
+      blocked: ["executing", "failed"],
+      review_ready: [],
+      viewed: [],
+      approved: ["archived"],
+      rejected: ["planning", "executing"],
+      archived: [],
+      failed: ["queued"]
+    };
+    var HUMAN = {
+      queued: ["archived"],
+      planning: ["archived"],
+      executing: ["blocked", "archived"],
+      blocked: ["archived"],
+      review_ready: ["viewed", "blocked", "archived"],
+      viewed: ["approved", "rejected", "blocked", "archived"],
+      approved: ["archived"],
+      rejected: ["archived"],
+      archived: [],
+      failed: ["archived"]
+    };
+    function canMove(from, to, actor) {
+      return (actor === "human" ? HUMAN : ORCH)[from].indexOf(to) !== -1;
+    }
+    function refusal(from, to) {
+      if (to === "executing" || to === "planning" || to === "queued") {
+        return "Only the orchestrator moves work forward — you can’t drag a run into In Progress.";
+      }
+      if (to === "approved" && from === "review_ready") return "Open the run and review it before approving.";
+      if (from === "approved" || from === "archived") return "A " + from + " run is final; it can only be archived.";
+      return "Can’t move a run from " + from.replace("_", " ") + " to " + to.replace("_", " ") + ".";
+    }
+
+    var COLUMNS = [
+      { id: "in_progress", label: "In Progress", statuses: ["queued", "planning", "executing", "rejected"], dot: "d-neutral", drop: "executing" },
+      { id: "needs_attention", label: "Needs Attention", statuses: ["blocked", "failed"], dot: "d-stop", drop: "blocked" },
+      { id: "ready_for_review", label: "Ready for Review", statuses: ["review_ready"], dot: "d-live", drop: "review_ready" },
+      { id: "viewed", label: "Viewed", statuses: ["viewed", "approved"], dot: "d-quiet", drop: "viewed" }
+    ];
+    function columnOf(status) {
+      for (var i = 0; i < COLUMNS.length; i++) if (COLUMNS[i].statuses.indexOf(status) !== -1) return COLUMNS[i].id;
+      return null;
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // Specialists: declared toolset + the plan each one brings to a task.
+    // ════════════════════════════════════════════════════════════════════
+    var SPECIALISTS = {
+      LedgerAgent: {
+        tools: ["fetchTrialBalance", "fetchSubledger", "parseDocument", "postJournalEntry", "buildWorkbook"],
+        plan: ["Pull source subledger", "Draft journal entry", "Prepare entry package for approval"]
+      },
+      ReconciliationAgent: {
+        tools: ["fetchSubledger", "parseDocument", "buildWorkbook", "requestHumanInput"],
+        plan: ["Load AP subledger and documents", "Match invoice to PO and receiving report", "Document exceptions"]
+      },
+      TechnicalAccountingAgent: {
+        tools: ["parseDocument", "fetchSubledger", "renderPdf", "buildWorkbook"],
+        plan: ["Parse the underlying agreement", "Apply the standard and document judgments", "Draft memo with citations"]
+      },
+      TaxAgent: {
+        tools: ["fetchTrialBalance", "fetchSubledger", "parseDocument", "buildWorkbook", "renderPdf"],
+        plan: ["Pull federal form data", "Compute limitation and add-backs", "Build workpaper"]
+      },
+      ReportingAgent: {
+        tools: ["fetchTrialBalance", "fetchSubledger", "buildWorkbook", "renderPdf"],
+        plan: ["Consolidate entity trial balances", "Eliminate intercompany activity", "Build pack and board memo"]
+      },
+      CashAgent: {
+        tools: ["fetchTrialBalance", "fetchSubledger", "buildWorkbook"],
+        plan: ["Pull opening cash and AR/AP aging", "Project 13 weeks of receipts and disbursements", "Build projection workbook"]
+      },
+      QualityControlAgent: {
+        tools: ["fetchTrialBalance", "fetchSubledger", "buildWorkbook", "renderPdf"],
+        plan: ["Tie statement footings to trial balance", "Test revenue completeness against CRM", "Document exceptions"]
+      }
+    };
+    function route(task) {
+      var t = task.toLowerCase();
+      if (/three-way|reconcil|bank rec|match/.test(t)) return "ReconciliationAgent";
+      if (/asc 606|asc 842|asc 450|asc 855|revenue recognition|lease|memo|disclosure/.test(t)) return "TechnicalAccountingAgent";
+      if (/163\(j\)|1065|k-1|tax|provision|add-back/.test(t)) return "TaxAgent";
+      if (/quality|footing|tie out|completeness/.test(t)) return "QualityControlAgent";
+      if (/cash flow|runway|13-week|forecast/.test(t)) return "CashAgent";
+      if (/journal entry|payroll|accrual|reclass|book /.test(t)) return "LedgerAgent";
+      return "ReportingAgent";
+    }
+
+    var CONFIDENCE_FLOOR = 0.7;
+
+    // ════════════════════════════════════════════════════════════════════
+    // Scripts. Each returns the steps an agent works, the tool calls it
+    // makes, the artifacts those calls produce, and how sure it is at the end.
+    // ════════════════════════════════════════════════════════════════════
+    function tbRows() {
+      var rows = [["Account", "Name", "Debit", "Credit"]];
+      TB.accounts.forEach(function (a) { rows.push([a[0], a[1], a[2], a[3]]); });
+      rows.push(["", "Total", TB.totals.debits, TB.totals.credits]);
+      return rows;
+    }
+
+    function scriptFor(run) {
+      var t = (run.title + " " + run.task).toLowerCase();
+      var resolved = run.blockerCleared;
+
+      if (/three-way/.test(t)) {
+        return {
+          confidence: resolved ? 0.93 : 0.55,
+          questions: resolved ? [] : ["Was the goods receipt for PO 44872 ever recorded?"],
+          summary: resolved
+            ? "Three-way match complete for " + MATCH.po + " at " + usd(MATCH.amountCents) + "; no exceptions."
+            : "Three-way match halted pending the receiving report.",
+          steps: [
+            {
+              title: "Load AP subledger and documents", note: "Loading AP subledger for " + MATCH.po + "…",
+              calls: [{ tool: "fetchSubledger", args: { name: "ap" }, out: "AP subledger loaded — 1 open match.", prov: [["Vendor", MATCH.vendor]] }]
+            },
+            {
+              title: "Match invoice to PO and receiving report",
+              note: "Invoice and purchase order agree at " + usd(MATCH.amountCents) + ".",
+              calls: [
+                { tool: "parseDocument", args: { document: "PO_44872.pdf" }, out: "Parsed PO_44872.pdf.", prov: [["Purchase order", usd(MATCH.amountCents)]] },
+                { tool: "parseDocument", args: { document: "INV_2291_Ridgeline.pdf" }, out: "Parsed INV_2291_Ridgeline.pdf.", prov: [["Invoice", usd(MATCH.amountCents)]] },
+                { tool: "requestHumanInput", args: { question: "Upload the receiving report for " + MATCH.po + ", or confirm goods receipt." }, out: "Waiting on Alex: receiving report for " + MATCH.po + "." }
+              ],
+              blocker: {
+                reason: "missing_document",
+                title: "Receiving report missing for " + MATCH.po,
+                detail: "Missing receiving report for " + MATCH.po + ", invoice and purchase order uploaded, but the receiving report is required to complete the three-way match. Please upload or confirm good receipt.",
+                label: "Upload receiving report",
+                second: "Confirm goods receipt"
+              }
+            },
+            {
+              title: "Document exceptions", note: "Quantities agree at " + MATCH.quantity + " units; no exceptions to report.",
+              calls: [{
+                tool: "buildWorkbook", out: "Built Three_Way_Match_PO_44872.xlsx.",
+                args: { filename: "Three_Way_Match_PO_44872.xlsx" },
+                artifact: {
+                  filename: "Three_Way_Match_PO_44872.xlsx", kind: "xlsx",
+                  sheets: [{ name: "Match", rows: [["Document", "Quantity", "Amount"], ["Purchase order", MATCH.quantity, MATCH.amountCents / 100], ["Invoice", MATCH.quantity, MATCH.amountCents / 100], ["Receiving report", MATCH.quantity, MATCH.amountCents / 100]] }]
+                }
+              }]
+            }
+          ]
+        };
+      }
+
+      if (/cash flow|13-week|runway/.test(t)) {
+        var weeks = [["Week", "Opening", "Collections", "Disbursements", "Closing"]];
+        for (var w = 0; w < 13; w++) {
+          var open = CASH.openingCents + w * (CASH.weeklyCollectCents - CASH.weeklyBurnCents);
+          weeks.push(["W" + (w + 1), open / 100, CASH.weeklyCollectCents / 100, CASH.weeklyBurnCents / 100, (open + CASH.weeklyCollectCents - CASH.weeklyBurnCents) / 100]);
+        }
+        return {
+          confidence: 0.86, questions: [],
+          summary: "13-week projection complete: " + CASH.runwayMonths + "-month runway at current burn.",
+          steps: [
+            {
+              title: "Pull opening cash and AR/AP aging",
+              note: "Opening cash " + usd(CASH.openingCents) + " pulled from the trial balance.",
+              calls: [{ tool: "fetchTrialBalance", args: {}, out: "Trial balance pulled for " + TB.period + "; debits " + usd(TB.totals.debits * 100) + " tie to credits.", prov: [["Opening cash", usd(CASH.openingCents), "account 1000"]] }]
+            },
+            {
+              title: "Project 13 weeks of receipts and disbursements",
+              note: "Modelling " + usd(CASH.weeklyCollectCents) + " weekly collections against " + usd(CASH.weeklyBurnCents) + " weekly burn.",
+              calls: [{ tool: "fetchSubledger", args: { name: "ap" }, out: "AP aging loaded.", prov: [["Weekly burn", usd(CASH.weeklyBurnCents)], ["Runway", CASH.runwayMonths + " months", "at current burn"]] }]
+            },
+            {
+              title: "Build projection workbook", note: "Writing the 13-week projection workbook.",
+              calls: [{ tool: "buildWorkbook", args: { filename: "Cash_Flow_13_Week_Projection.xlsx" }, out: "Built Cash_Flow_13_Week_Projection.xlsx.", artifact: { filename: "Cash_Flow_13_Week_Projection.xlsx", kind: "xlsx", sheets: [{ name: "Projection", rows: weeks }] } }]
+            }
+          ]
+        };
+      }
+
+      if (/payroll/.test(t)) {
+        var wh = PAYROLL.withholdings;
+        return {
+          confidence: 0.91, questions: [],
+          summary: "Payroll entry drafted for " + PAYROLL.employeeCount + " employees, gross " + usd(PAYROLL.grossCents) + ", awaiting approval to post.",
+          steps: [
+            {
+              title: "Pull source subledger",
+              note: "Importing payroll register from AOR… " + PAYROLL.employeeCount + " employees, gross payroll " + usd(PAYROLL.grossCents) + " for period ending 11/15/2025",
+              calls: [{ tool: "fetchSubledger", args: { name: "payroll" }, out: "Payroll register loaded — " + PAYROLL.employeeCount + " employees.", prov: [["Gross payroll", usd(PAYROLL.grossCents), PAYROLL.employeeCount + " employees, period ending 11/15/2025"]] }]
+            },
+            {
+              title: "Draft journal entry",
+              note: "Entry balances: debit " + usd(PAYROLL.grossCents) + " to salaries and wages.",
+              calls: [{ tool: "fetchTrialBalance", args: {}, out: "Trial balance pulled for " + TB.period + ".", prov: [["Net payroll clearing", usd(PAYROLL.netCents)]] }]
+            },
+            {
+              title: "Prepare entry package for approval", note: "Building the payroll entry package for review.",
+              calls: [{
+                tool: "buildWorkbook", args: { filename: "Payroll_Journal_Entry_2025-11-15.xlsx" }, out: "Built Payroll_Journal_Entry_2025-11-15.xlsx.",
+                artifact: {
+                  filename: "Payroll_Journal_Entry_2025-11-15.xlsx", kind: "xlsx",
+                  sheets: [{
+                    name: "Entry", rows: [
+                      ["Account", "Description", "Debit", "Credit"],
+                      ["6000", "Salaries and wages", PAYROLL.grossCents / 100, 0],
+                      ["2100", "FICA payable", 0, wh.fica / 100],
+                      ["2100", "Federal withholding payable", 0, wh.federal / 100],
+                      ["2100", "State withholding payable", 0, wh.state / 100],
+                      ["2100", "401(k) payable", 0, wh.retirement / 100],
+                      ["2000", "Net payroll clearing", 0, PAYROLL.netCents / 100]
+                    ]
+                  }]
+                }
+              }],
+              postable: { memo: "Payroll 11/15/2025", amountCents: PAYROLL.grossCents }
+            }
+          ]
+        };
+      }
+
+      if (/163\(j\)/.test(t)) {
+        return {
+          confidence: 0.88, questions: [],
+          summary: "163(j) add-backs computed across " + J163.entities + " entities; " + usd(J163.disallowedCents) + " carried forward.",
+          steps: [
+            {
+              title: "Pull federal form data",
+              note: "Pulling federal Form 8990 data… total business interest expense of " + usd(J163.interestCents) + " across " + J163.entities + " entities, " + J163.atiPct + "% ATI limitation applied",
+              calls: [{ tool: "parseDocument", args: { document: "Form_8990_FY24.pdf" }, out: "Parsed Form_8990_FY24.pdf.", prov: [["Business interest expense", usd(J163.interestCents), "Form 8990, line 1"]] }]
+            },
+            {
+              title: "Compute limitation and add-backs",
+              note: "Allowed interest " + usd(J163.allowedCents) + "; disallowed " + usd(J163.disallowedCents) + ".",
+              calls: [{ tool: "fetchTrialBalance", args: {}, out: "Interest expense tied to account 6200.", prov: [["Allowed interest", usd(J163.allowedCents), J163.atiPct + "% of ATI"], ["Disallowed carryforward", usd(J163.disallowedCents)]] }]
+            },
+            {
+              title: "Build workpaper", note: "Assembling the state add-back workpaper.",
+              calls: [{
+                tool: "buildWorkbook", args: { filename: "Section_163j_State_Addbacks.xlsx" }, out: "Built Section_163j_State_Addbacks.xlsx.",
+                artifact: {
+                  filename: "Section_163j_State_Addbacks.xlsx", kind: "xlsx",
+                  sheets: [{
+                    name: "163(j)", rows: [
+                      ["Entity", "Business interest", "Allowed", "Disallowed"],
+                      ["Alder River Holdings, LLC", J163.interestCents / 300, J163.allowedCents / 300, J163.disallowedCents / 300],
+                      ["Alder River Ops, Inc.", J163.interestCents / 300, J163.allowedCents / 300, J163.disallowedCents / 300],
+                      ["Alder River Logistics, LLC", J163.interestCents / 300, J163.allowedCents / 300, J163.disallowedCents / 300]
+                    ]
+                  }]
+                }
+              }]
+            }
+          ]
+        };
+      }
+
+      if (/asc 842|lease/.test(t)) {
+        return {
+          confidence: 0.84, questions: [],
+          summary: "3 equipment leases classified; 2 finance leases recognised under ASC 842.",
+          steps: [
+            {
+              title: "Parse the underlying agreement",
+              note: "Classifying 3 equipment leases… 2 finance leases based on present value test exceeding 90% threshold",
+              calls: [{ tool: "parseDocument", args: { document: "Equipment_Lease_Schedule.pdf" }, out: "Parsed Equipment_Lease_Schedule.pdf — 3 leases.", prov: [["Forklift fleet PV ratio", "94.2%", "ASC 842-10-25-2(d)"], ["CNC centre PV ratio", "91.8%"]] }]
+            },
+            {
+              title: "Apply the standard and document judgments",
+              note: "Right-of-use asset " + usd(331000000) + " recognised.",
+              calls: [{ tool: "fetchSubledger", args: { name: "leases" }, out: "Lease subledger loaded.", prov: [["Right-of-use assets", usd(331000000), "account 1600"], ["Lease liabilities", usd(339000000), "account 2300"]] }]
+            },
+            {
+              title: "Draft memo with citations", note: "Drafting the ASC 842 classification memo.",
+              calls: [{
+                tool: "renderPdf", args: { filename: "Lease_Classification_Memo_ASC842.pdf" }, out: "Rendered Lease_Classification_Memo_ASC842.pdf.",
+                artifact: {
+                  filename: "Lease_Classification_Memo_ASC842.pdf", kind: "pdf",
+                  body: [
+                    "Scope: three equipment leases held by Alder River Ops, Inc.",
+                    "Conclusion: 2 of 3 leases are finance leases under ASC 842-10-25-2(d), the present value of lease payments exceeding 90% of fair value.",
+                    "The office copier schedule remains an operating lease at a 61.4% present value ratio."
+                  ]
+                }
+              }]
+            }
+          ]
+        };
+      }
+
+      if (/asc 606|revenue recognition/.test(t)) {
+        return {
+          confidence: 0.62,
+          questions: ["Are the implementation services in the MSA distinct from the platform licence, or a combined performance obligation?"],
+          summary: "ASC 606 analysis paused on a performance obligation judgment.",
+          steps: [
+            {
+              title: "Parse the underlying agreement",
+              note: "Identifying performance obligations in Master Services Agreement… 4 distinct deliverables requiring allocation",
+              calls: [{ tool: "parseDocument", args: { document: "Master_Services_Agreement.pdf" }, out: "Parsed Master_Services_Agreement.pdf — 4 deliverables.", prov: [["Deliverables identified", "4", "MSA §3.1–3.4"]] }]
+            },
+            {
+              title: "Apply the standard and document judgments",
+              note: "Allocating transaction price on relative standalone selling price.",
+              calls: [{ tool: "fetchSubledger", args: { name: "ap" }, out: "Deferred revenue tied to account 2200.", prov: [["Deferred revenue", usd(418000000), "account 2200"]] }]
+            }
+          ]
+        };
+      }
+
+      if (/quality control|footing/.test(t)) {
+        return {
+          confidence: 0.9, questions: [],
+          summary: "Balance sheet footings tie to " + usd(TB.totals.debits * 100) + ". 3 contracts missing from the deferral schedule, exceptions documented.",
+          steps: [
+            {
+              title: "Tie statement footings to trial balance",
+              note: "Balance sheet footings tie to " + usd(TB.totals.debits * 100) + ".",
+              calls: [{ tool: "fetchTrialBalance", args: {}, out: "Trial balance pulled for " + TB.period + "; debits " + usd(TB.totals.debits * 100) + " tie to credits.", prov: [["Total debits", usd(TB.totals.debits * 100), TB.accounts.length + " accounts"], ["Total credits", usd(TB.totals.credits * 100), "Balance sheet foots"]] }]
+            },
+            {
+              title: "Test revenue completeness against CRM",
+              note: "Revenue completeness tested against CRM — 3 contracts missing from deferral schedule.",
+              calls: [{ tool: "fetchSubledger", args: { name: "ap" }, out: "CRM contract list compared to the deferral schedule.", prov: [["Contracts untested", "3", "absent from the deferral schedule"]] }]
+            },
+            {
+              title: "Document exceptions", note: "Exceptions documented.",
+              calls: [
+                { tool: "buildWorkbook", args: { filename: "QC_Review_Workbook.xlsx" }, out: "Built QC_Review_Workbook.xlsx.", artifact: { filename: "QC_Review_Workbook.xlsx", kind: "xlsx", sheets: [{ name: "Footings", rows: tbRows() }] } },
+                { tool: "renderPdf", args: { filename: "Exceptions_Report.pdf" }, out: "Rendered Exceptions_Report.pdf.", artifact: { filename: "Exceptions_Report.pdf", kind: "pdf", body: ["Balance sheet footings tie to " + usd(TB.totals.debits * 100) + " against the trial balance.", "Three customer contracts are absent from the deferral schedule and are listed in the workbook."] } }
+              ]
+            }
+          ]
+        };
+      }
+
+      if (/disclosure checklist|audit disclosure/.test(t)) {
+        var checklist = [["#", "Disclosure", "Standard", "Status"]];
+        for (var d = 1; d <= 23; d++) {
+          checklist.push([d, "Disclosure " + d, d === 21 || d === 22 ? "ASC 450" : d === 23 ? "ASC 855" : "ASC 235", d >= 21 ? "Flagged" : "Complete"]);
+        }
+        return {
+          confidence: 0.89, questions: [],
+          summary: "23 disclosures reviewed, 2 contingent liabilities flagged (ASC 450), 1 subsequent event requiring footnote disclosure (ASC 855).",
+          steps: [
+            {
+              title: "Walk the disclosure checklist against FY24 financials",
+              note: "Completed audit disclosure checklist against FY24 financials. 23 disclosures reviewed.",
+              calls: [{ tool: "parseDocument", args: { document: "FY24_Financial_Statements.pdf" }, out: "Parsed FY24_Financial_Statements.pdf.", prov: [["Disclosures reviewed", "23"]] }]
+            },
+            {
+              title: "Assess contingencies and subsequent events",
+              note: "2 contingent liabilities flagged (ASC 450), 1 subsequent event requiring footnote disclosure (ASC 855).",
+              calls: [{ tool: "fetchSubledger", args: { name: "ap" }, out: "Vendor dispute balances reviewed.", prov: [["Contingencies flagged", "2", "ASC 450-20"], ["Subsequent events", "1", "ASC 855-10-50-2"]] }]
+            },
+            {
+              title: "Publish checklist and summary", note: "Writing the disclosure checklist and summary.",
+              calls: [
+                { tool: "buildWorkbook", args: { filename: "Disclosure_Checklist_FY24.xlsx" }, out: "Built Disclosure_Checklist_FY24.xlsx.", artifact: { filename: "Disclosure_Checklist_FY24.xlsx", kind: "xlsx", sheets: [{ name: "Checklist", rows: checklist }] } },
+                { tool: "renderPdf", args: { filename: "Disclosures_Summary.pdf" }, out: "Rendered Disclosures_Summary.pdf.", artifact: { filename: "Disclosures_Summary.pdf", kind: "pdf", body: ["23 disclosures were reviewed against the FY24 financial statements.", "Two loss contingencies meet the ASC 450-20 reasonably possible threshold and require disclosure.", "One subsequent event requires a footnote under ASC 855-10-50-2."] } }
+              ]
+            }
+          ]
+        };
+      }
+
+      if (/1065|partnership income tax|k-1/.test(t)) {
+        var partners = [["Alder River GP, LLC", 2], ["Meridian Family Trust", 38], ["J. Okafor", 31], ["R. Lindqvist", 29]];
+        return {
+          confidence: 0.88, questions: [],
+          summary: "Form 1065 workbook prepared with K-1 allocations by partner.",
+          steps: [
+            {
+              title: "Pull federal form data",
+              note: "Comprehensive 1065 Excel workbook prepared with K-1 allocations by partner",
+              calls: [{ tool: "parseDocument", args: { document: "Form_1065_FY24_Draft.pdf" }, out: "Parsed Form_1065_FY24_Draft.pdf.", prov: [["Partners", "4", "per the partnership agreement"]] }]
+            },
+            {
+              title: "Allocate income to partners",
+              note: "Allocating ordinary business income across 4 partners by capital percentage.",
+              calls: [{ tool: "fetchTrialBalance", args: {}, out: "Ordinary business income tied to the trial balance.", prov: [["Revenue", usd(712000000), "account 4000"]] }]
+            },
+            {
+              title: "Build workpaper", note: "Building the 1065 workbook and preparation notes.",
+              calls: [
+                {
+                  tool: "buildWorkbook", args: { filename: "Form_1065_Preparation_Alder_River_Growth_Partners_LP.xlsx" }, out: "Built the 1065 workbook.",
+                  artifact: {
+                    filename: "Form_1065_Preparation_Alder_River_Growth_Partners_LP.xlsx", kind: "xlsx",
+                    sheets: [{ name: "K-1 Allocations", rows: [["Partner", "Capital %", "Ordinary income"]].concat(partners.map(function (p) { return [p[0], p[1] + "%", Math.round(TB.totals.credits * 0.04 * p[1] / 100)]; })) }]
+                  }
+                },
+                {
+                  tool: "buildWorkbook", args: { filename: "Form_1065_Preparation_Notes_Alder_River_Growth_Partners_LP.xlsx" }, out: "Built the preparation notes.",
+                  artifact: {
+                    filename: "Form_1065_Preparation_Notes_Alder_River_Growth_Partners_LP.xlsx", kind: "xlsx",
+                    sheets: [{
+                      name: "Notes", rows: [
+                        ["Topic", "Note"],
+                        ["Capital accounts", "Maintained on the tax basis per the 2024 instructions."],
+                        ["Section 704(b)", "Allocations follow the partnership agreement; no special allocations."],
+                        ["Section 163(j)", "Excess business interest expense pushed out on K-1 line 13K."]
+                      ]
+                    }]
+                  }
+                }
+              ]
+            }
+          ]
+        };
+      }
+
+      if (/board|reporting pack/.test(t)) {
+        var cf = [["Week", "Closing cash"]];
+        for (var k = 0; k < 13; k++) cf.push(["W" + (k + 1), (CASH.openingCents + (k + 1) * (CASH.weeklyCollectCents - CASH.weeklyBurnCents)) / 100]);
+        return {
+          confidence: 0.87, questions: [],
+          summary: "Created January 2025 monthly reporting pack across 4 entities. Consolidated P&L, balance sheet, and cash flow with intercompany eliminations. " + CASH.runwayMonths + "-month runway at current burn.",
+          steps: [
+            {
+              title: "Consolidate entity trial balances", note: "Consolidating 4 entity trial balances for January 2025.",
+              calls: [{ tool: "fetchTrialBalance", args: {}, out: "Trial balance pulled for " + TB.period + "; debits " + usd(TB.totals.debits * 100) + " tie to credits.", prov: [["Total debits", usd(TB.totals.debits * 100), TB.accounts.length + " accounts"], ["Total credits", usd(TB.totals.credits * 100), "Balance sheet foots"]] }]
+            },
+            {
+              title: "Eliminate intercompany activity", note: "Intercompany eliminations shown in their own column.",
+              calls: [{ tool: "fetchSubledger", args: { name: "ap" }, out: "Intercompany balances identified across 4 entities.", prov: [["Entities consolidated", "4"]] }]
+            },
+            {
+              title: "Build pack and board memo", note: "Assembling the board pack; " + CASH.runwayMonths + "-month runway at current burn.",
+              calls: [
+                { tool: "buildWorkbook", args: { filename: "Monthly_Reporting_Pack_Jan2025.xlsx" }, out: "Built Monthly_Reporting_Pack_Jan2025.xlsx.", artifact: { filename: "Monthly_Reporting_Pack_Jan2025.xlsx", kind: "xlsx", sheets: [{ name: "Consolidated BS", rows: tbRows() }, { name: "Cash Flow", rows: cf }] } },
+                { tool: "renderPdf", args: { filename: "Board_Memo_Jan2025.pdf" }, out: "Rendered Board_Memo_Jan2025.pdf.", artifact: { filename: "Board_Memo_Jan2025.pdf", kind: "pdf", body: ["Consolidated results cover four entities with intercompany activity eliminated in a dedicated column.", "Balance sheet foots to " + usd(TB.totals.debits * 100) + ".", "At the current weekly burn of " + usd(CASH.weeklyBurnCents) + ", runway is " + CASH.runwayMonths + " months."] } }
+              ]
+            }
+          ]
+        };
+      }
+
+      // Anything Ask Vert invents: run the routed specialist's own plan, so a
+      // specialist can never be handed a tool it has not declared.
+      var spec = SPECIALISTS[run.agent];
+      var name = run.title.replace(/[^a-zA-Z0-9]+/g, "_").replace(/^_|_$/g, "").slice(0, 52) || "Vert_Output";
+      var steps = spec.plan.map(function (title, i) {
+        var calls = [];
+        var tools = spec.tools;
+        if (i === 0 && tools.indexOf("fetchSubledger") !== -1) calls.push({ tool: "fetchSubledger", args: { name: "ap" }, out: "AP subledger loaded.", prov: [["Source", "ap subledger"]] });
+        if (i === 1 && tools.indexOf("fetchTrialBalance") !== -1) calls.push({ tool: "fetchTrialBalance", args: {}, out: "Trial balance pulled for " + TB.period + "; debits " + usd(TB.totals.debits * 100) + " tie to credits.", prov: [["Total debits", usd(TB.totals.debits * 100), TB.accounts.length + " accounts"]] });
+        if (i === 1 && tools.indexOf("fetchTrialBalance") === -1) calls.push({ tool: "parseDocument", args: { document: name + "_Source.pdf" }, out: "Parsed " + name + "_Source.pdf.", prov: [["Source document", name + "_Source.pdf"]] });
+        if (i === 2 && tools.indexOf("buildWorkbook") !== -1) {
+          calls.push({ tool: "buildWorkbook", args: { filename: name + ".xlsx" }, out: "Built " + name + ".xlsx.", artifact: { filename: name + ".xlsx", kind: "xlsx", sheets: [{ name: "Workpaper", rows: tbRows() }] } });
+        }
+        return { title: title, note: title + "…", calls: calls };
+      });
+      return {
+        confidence: 0.82, questions: [],
+        summary: run.title + " complete. " + steps.length + " steps executed by " + run.agent + ".",
+        steps: steps
+      };
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // Event log → run projection. The board only ever renders what folding
+    // the log produces; nothing is stashed on the side.
+    // ════════════════════════════════════════════════════════════════════
+    function blankRun(seed) {
+      return {
+        id: seed.id, title: seed.title, task: seed.task, agent: seed.agent,
+        status: "queued", description: "", progressPct: 0, steps: [], blocker: null,
+        artifacts: [], provenance: [], confidence: null, questions: [],
+        rejectionReason: null, approval: null, postings: [], postable: null,
+        createdAt: seed.createdAt, updatedAt: seed.createdAt,
+        log: [], blockerCleared: false, playing: false, cursor: 0, events: null
+      };
+    }
+
+    function apply(run, e, at) {
+      run.updatedAt = at;
+      switch (e.type) {
+        case "plan_created":
+          run.status = "planning";
+          run.steps = e.steps.map(function (s) { return { id: s.id, title: s.title, agent: s.agent, tools: s.tools, status: "pending" }; });
+          run.description = "Planned " + e.steps.length + " steps: " + e.steps.map(function (s) { return s.title; }).join(" → ");
+          break;
+        case "step_started":
+          run.status = "executing";
+          setStep(run, e.stepId, "running");
+          break;
+        case "tool_called":
+          run.description = "Calling " + e.tool + "…";
+          break;
+        case "tool_result":
+          run.description = e.summary;
+          (e.provenance || []).forEach(function (p) { run.provenance.push(p); });
+          break;
+        case "progress":
+          run.progressPct = Math.max(run.progressPct, Math.min(100, Math.round(e.pct)));
+          run.description = e.note;
+          break;
+        case "blocked":
+          run.status = "blocked";
+          run.blocker = e.blocker;
+          run.description = e.blocker.detail;
+          if (e.blocker.stepId) setStep(run, e.blocker.stepId, "blocked");
+          break;
+        case "unblocked":
+          run.status = "executing";
+          if (run.blocker && run.blocker.stepId) setStep(run, run.blocker.stepId, "running");
+          run.blocker = null;
+          break;
+        case "artifact_created":
+          run.artifacts.push(e.artifact);
+          break;
+        case "step_completed":
+          setStep(run, e.stepId, "completed");
+          run.progressPct = Math.max(run.progressPct, Math.round(run.steps.filter(function (s) { return s.status === "completed"; }).length / run.steps.length * 100));
+          break;
+        case "run_completed":
+          run.status = "review_ready";
+          run.progressPct = 100;
+          run.description = e.summary;
+          run.blocker = null;
+          break;
+        case "run_failed":
+          run.status = "failed";
+          run.description = e.error;
+          break;
+        case "human_viewed":
+          if (run.status === "review_ready") run.status = "viewed";
+          break;
+        case "human_approved":
+          run.status = "approved";
+          run.approval = { id: "apr_" + run.id, decidedBy: "Alex Morgan" };
+          break;
+        case "human_rejected":
+          run.status = "rejected";
+          run.rejectionReason = e.reason;
+          run.description = "Returned by Alex: " + e.reason;
+          break;
+        case "human_blocked":
+          run.status = "blocked";
+          run.blocker = { id: "blk_" + run.id + "_human", reason: "policy_decision", title: "Sent back by reviewer", detail: e.note, label: "Respond and resume" };
+          run.description = e.note;
+          break;
+        case "ledger_posted":
+          run.postings.push({ id: e.postingId, memo: e.memo, amountCents: e.amountCents, approvalId: e.approvalId });
+          run.description = "Posted " + e.memo + " for " + usd(e.amountCents) + ".";
+          break;
+      }
+      return run;
+    }
+    function setStep(run, id, status) {
+      run.steps.forEach(function (s) { if (s.id === id) s.status = status; });
+    }
+    function record(run, e) {
+      var at = Date.now();
+      run.log.push({ seq: run.log.length + 1, type: e.type, at: at, payload: e });
+      apply(run, e, at);
+      schedule();
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // The orchestrator: materialises a script into events, then plays them.
+    // Tool calls go through callTool, which enforces the specialist's
+    // declared toolset and the approval gate on anything that mutates.
+    // ════════════════════════════════════════════════════════════════════
+    var MUTATING = ["postJournalEntry"];
+
+    function callTool(run, tool, args) {
+      if (SPECIALISTS[run.agent].tools.indexOf(tool) === -1) {
+        throw new Error(run.agent + " may not call " + tool + ".");
+      }
+      if (MUTATING.indexOf(tool) !== -1 && !run.approval) {
+        var err = new Error(tool + " is gated: run " + run.id + " has no human approval on file.");
+        err.code = "APPROVAL_REQUIRED";
+        throw err;
+      }
+      return true;
+    }
+
+    function buildEvents(run) {
+      var script = scriptFor(run);
+      var events = [];
+      var steps = script.steps.map(function (s, i) {
+        var tools = [];
+        s.calls.forEach(function (c) { if (tools.indexOf(c.tool) === -1) tools.push(c.tool); });
+        return { id: run.id + "_s" + (i + 1), title: s.title, agent: run.agent, tools: tools };
+      });
+      events.push({ type: "plan_created", steps: steps });
+
+      var provSeq = 0;
+      for (var i = 0; i < script.steps.length; i++) {
+        var s = script.steps[i], step = steps[i];
+        events.push({ type: "step_started", stepId: step.id, agent: run.agent });
+        events.push({ type: "progress", stepId: step.id, pct: Math.round((i + 0.3) / steps.length * 100), note: s.note });
+
+        for (var c = 0; c < s.calls.length; c++) {
+          var call = s.calls[c];
+          var callId = "tc_" + step.id + "_" + c;
+          events.push({ type: "tool_called", stepId: step.id, tool: call.tool, args: call.args || {}, toolCallId: callId });
+          var prov = (call.prov || []).map(function (p) {
+            return { id: "prov_" + run.id + "_" + ++provSeq, label: p[0], value: p[1], note: p[2], stepId: step.id, tool: call.tool, toolCallId: callId };
+          });
+          events.push({ type: "tool_result", stepId: step.id, ok: true, summary: call.out, toolCallId: callId, provenance: prov });
+          if (call.artifact) {
+            var a = call.artifact;
+            events.push({
+              type: "artifact_created",
+              artifact: {
+                id: "art_" + run.id + "_" + a.filename, filename: a.filename, kind: a.kind,
+                sheets: a.sheets || null, body: a.body || null,
+                sizeBytes: estimateSize(a), generatedBy: run.agent
+              }
+            });
+          }
+        }
+
+        if (s.blocker && !run.blockerCleared) {
+          events.push({ type: "blocked", blocker: { id: "blk_" + run.id + "_s" + (i + 1), stepId: step.id, reason: s.blocker.reason, title: s.blocker.title, detail: s.blocker.detail, label: s.blocker.label, second: s.blocker.second } });
+          return { events: events, postable: null };
+        }
+        events.push({ type: "step_completed", stepId: step.id });
+      }
+
+      // An agent that is unsure does not hand work in: below the floor it
+      // routes to blocked with its open questions instead of to review.
+      if (script.confidence < CONFIDENCE_FLOOR) {
+        events.push({
+          type: "blocked",
+          blocker: {
+            id: "blk_" + run.id + "_confidence", stepId: steps[steps.length - 1].id, reason: "low_confidence",
+            title: "Agent is not confident enough to submit",
+            detail: "Confidence " + Math.round(script.confidence * 100) + "% is below the " + Math.round(CONFIDENCE_FLOOR * 100) + "% floor. " + (script.questions[0] || "Judgment call needed before this can go to review."),
+            label: "Answer and resume"
+          }
+        });
+      } else {
+        events.push({ type: "run_completed", summary: script.summary });
+      }
+      var last = script.steps[script.steps.length - 1];
+      return { events: events, postable: last && last.postable ? last.postable : null, confidence: script.confidence, questions: script.questions };
+    }
+
+    function estimateSize(a) {
+      if (a.sheets) {
+        var cells = 0;
+        a.sheets.forEach(function (s) { cells += s.rows.length * s.rows[0].length; });
+        return 5200 + cells * 34;
+      }
+      return 1400 + (a.body || []).join(" ").length * 6;
+    }
+
+    var TICK = 850;
+
+    function play(run, opts) {
+      var untilIdx = opts && typeof opts.until === "number" ? opts.until : Infinity;
+      var instant = opts && opts.instant;
+      if (run.playing) return;
+      run.playing = true;
+
+      function next() {
+        if (!run.events || run.cursor >= run.events.length || run.cursor >= untilIdx) {
+          run.playing = false;
+          schedule();
+          return;
+        }
+        var e = run.events[run.cursor++];
+        if (e.type === "tool_called") {
+          try {
+            callTool(run, e.tool, e.args);
+          } catch (err) {
+            record(run, { type: "run_failed", error: err.message });
+            run.playing = false;
+            return;
+          }
+        }
+        record(run, e);
+        if (instant) return next();
+        setTimeout(next, TICK);
+      }
+      next();
+    }
+
+    function startRun(run) {
+      var built = buildEvents(run);
+      run.events = built.events;
+      run.postable = built.postable;
+      run.confidence = built.confidence != null ? built.confidence : run.confidence;
+      run.questions = built.questions || [];
+      run.cursor = 0;
+      return built;
+    }
+
+    function resume(run) {
+      if (!canMove(run.status, "executing", "orchestrator")) return;
+      run.blockerCleared = true;
+      record(run, { type: "unblocked" });
+      startRun(run);
+      // Replay instantly up to the point already shown, then continue live.
+      var seen = run.log.filter(function (l) { return l.type !== "unblocked"; }).length;
+      run.cursor = Math.min(seen, run.events.length);
+      play(run, {});
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // Store
+    // ════════════════════════════════════════════════════════════════════
+    var state = {
+      runs: [],
+      tab: "workflows",
+      openId: null,
+      palette: false,
+      proposal: null,
+      draft: "",
+      rejecting: false,
+      expanded: null,
+      openArtifact: null,
+      toasts: [],
+      dragId: null,
+      overCol: null,
+      groups: { Financials: true, Close: true }
+    };
+    var toastSeq = 0;
+    function toast(message, tone) {
+      var id = ++toastSeq;
+      state.toasts.push({ id: id, message: message, tone: tone || "bad" });
+      schedule();
+      setTimeout(function () {
+        state.toasts = state.toasts.filter(function (t) { return t.id !== id; });
+        schedule();
+      }, 5200);
+    }
+    function runById(id) {
+      for (var i = 0; i < state.runs.length; i++) if (state.runs[i].id === id) return state.runs[i];
+      return null;
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // Seed — the board's opening state, with the six in-flight runs left
+    // mid-stream so they keep working while you watch.
+    // ════════════════════════════════════════════════════════════════════
+    var MIN = 60000;
+    var SEEDS = [
+      { id: "run_cash_13w", title: "Prepare 13-Week Cash Flow Projection", task: "Prepare a 13-week cash flow projection and runway estimate.", age: 0, until: 3 },
+      { id: "run_asc606", title: "FY24 Revenue Recognition Memo (ASC 606)", task: "Write the FY24 revenue recognition memo under ASC 606 for the Master Services Agreement.", age: 0, until: 3 },
+      { id: "run_asc842", title: "Lease Agreement Analysis (ASC 842)", task: "Classify the equipment leases under ASC 842.", age: 0, until: 3 },
+      { id: "run_163j", title: "Analyze State Section 163(j) Interest Expense Add-Backs", task: "Analyze state Section 163(j) interest expense add-backs across the three entities.", age: 2 * MIN, until: 3 },
+      { id: "run_payroll", title: "Book Payroll Journal Entry", task: "Book the payroll journal entry for the period ending 11/15/2025.", age: 2 * MIN, until: 3 },
+      { id: "run_flux", title: "Prepare Q4 Flux Analysis Commentary", task: "Prepare Q4 flux analysis commentary for the reporting pack.", age: 25 * MIN, until: 7 },
+      { id: "run_3way", title: "Perform Three-Way Match", task: "Perform a three-way match for PO 44872.", age: 30 * MIN },
+      { id: "run_board_pack", title: "Create Monthly Reporting Pack for Board Review", task: "Create the January 2025 monthly reporting pack for board review.", age: 60 * MIN },
+      { id: "run_disclosures", title: "Perform Audit Disclosure Checklist", task: "Perform the FY24 audit disclosure checklist.", age: 3 * 60 * MIN },
+      { id: "run_qc", title: "Review Financial Statements for Quality Control", task: "Review the financial statements for quality control and tie the footings.", age: 6 * 60 * MIN },
+      { id: "run_1065", title: "Partnership Income Tax Return Workbook Preparation", task: "Prepare the Form 1065 partnership income tax return workbook with K-1 allocations.", age: 60 * MIN, view: true }
+    ];
+
+    function seed() {
+      SEEDS.forEach(function (s) {
+        var run = blankRun({ id: s.id, title: s.title, task: s.task, agent: route(s.title + " " + s.task), createdAt: Date.now() - s.age });
+        state.runs.push(run);
+        startRun(run);
+        var stop = typeof s.until === "number" ? s.until : run.events.length;
+        for (var i = 0; i < stop; i++) {
+          var e = run.events[i];
+          run.log.push({ seq: run.log.length + 1, type: e.type, at: run.createdAt + i * 900, payload: e });
+          apply(run, e, Math.min(run.createdAt + i * 900, Date.now()));
+        }
+        run.cursor = stop;
+        if (s.view) record(run, { type: "human_viewed" });
+        if (typeof s.until === "number") setTimeout(function () { play(run, {}); }, 1200 + Math.random() * 2500);
+      });
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // Human gates
+    // ════════════════════════════════════════════════════════════════════
+    function markViewed(run) {
+      if (run.status !== "review_ready") return;
+      record(run, { type: "human_viewed" });
+    }
+    function approve(run) {
+      if (!canMove(run.status, "approved", "human")) return toast(refusal(run.status, "approved"));
+      record(run, { type: "human_approved" });
+      toast("Approved. " + (run.postable ? "The entry is now cleared to post." : "Nothing else to do."), "good");
+    }
+    function reject(run, reason) {
+      if (!reason.trim()) return toast("A rejection needs a reason — it becomes the agent’s next instruction.");
+      if (!canMove(run.status, "rejected", "human")) return toast(refusal(run.status, "rejected"));
+      record(run, { type: "human_rejected", reason: reason });
+      state.rejecting = false;
+      toast("Sent back to " + run.agent + " with your note.", "good");
+      // A rejection reopens the run with the reason as a fresh instruction.
+      setTimeout(function () {
+        run.blockerCleared = true;
+        startRun(run);
+        run.cursor = 0;
+        play(run, {});
+      }, 900);
+    }
+    function postEntry(run) {
+      try {
+        callTool(run, "postJournalEntry", run.postable);
+        record(run, {
+          type: "ledger_posted", postingId: "je_" + run.id + "_" + Date.now().toString(36),
+          memo: run.postable.memo, amountCents: run.postable.amountCents, approvalId: run.approval.id
+        });
+        toast("Posted " + run.postable.memo + " for " + usd(run.postable.amountCents) + ".", "good");
+      } catch (err) {
+        toast(err.code === "APPROVAL_REQUIRED"
+          ? "Blocked by the approval gate: nothing posts to the ledger until a human approves this run."
+          : err.message);
+      }
+    }
+    function moveTo(run, to) {
+      if (!canMove(run.status, to, "human")) return toast(refusal(run.status, to));
+      if (to === "viewed") return markViewed(run);
+      if (to === "approved") return approve(run);
+      if (to === "blocked") return record(run, { type: "human_blocked", note: "Sent back from the board for another look." });
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // Rendering
+    // ════════════════════════════════════════════════════════════════════
+    var frame = null;
+    function schedule() {
+      if (frame) return;
+      frame = requestAnimationFrame(function () { frame = null; render(); });
+    }
+
+    function esc(s) {
+      return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; });
+    }
+    function ago(at) {
+      var mins = Math.floor(Math.max(0, Date.now() - at) / 60000);
+      if (mins < 1) return "now";
+      if (mins < 60) return mins + "m ago";
+      var h = Math.floor(mins / 60);
+      return h < 24 ? h + "h ago" : Math.floor(h / 24) + "d ago";
+    }
+    function middle(name, max) {
+      if (name.length <= max) return name;
+      return name.slice(0, max - 15) + "…" + name.slice(-14);
+    }
+    function bytes(n) {
+      return n < 1024 ? n + " B" : n < 1048576 ? Math.round(n / 1024) + " KB" : (n / 1048576).toFixed(1) + " MB";
+    }
+    function num(v) {
+      return typeof v === "number" ? v.toLocaleString("en-US") : esc(v);
+    }
+
+    var RAIL_NAV = [["Command", true], ["Spaces", false], ["Monitor", false]];
+    var RAIL_GROUPS = [
+      ["Financials", ["Cash", "Spend", "Payables", "Receivables"]],
+      ["Close", ["Overview", "Reconcile", "Flux Analysis", "Workbooks"]]
+    ];
+
+    function renderRail() {
+      document.getElementById("rail-nav").innerHTML = RAIL_NAV.map(function (n) {
+        return '<button class="rail-item' + (n[1] ? " on" : "") + '"><span class="ico">' + (n[1] ? "⌂" : n[0] === "Spaces" ? "▣" : "◎") + "</span>" + n[0] + "</button>";
+      }).join("");
+      document.getElementById("rail-groups").innerHTML = RAIL_GROUPS.map(function (g) {
+        var open = state.groups[g[0]];
+        return '<button class="rail-item" data-group="' + g[0] + '"><span class="ico">' + (g[0] === "Financials" ? "$" : "⛁") + "</span>" + g[0] +
+          '<span class="chev' + (open ? "" : " shut") + '">▾</span></button>' +
+          (open ? '<div class="group-kids">' + g[1].map(function (k) { return "<button>" + k + "</button>"; }).join("") + "</div>" : "");
+      }).join("") + '<button class="rail-item"><span class="ico">▤</span>Reporting</button>';
+    }
+
+    function cardHtml(run, col) {
+      var live = run.status === "executing" || run.status === "planning" || run.status === "queued";
+      var stopped = run.status === "blocked" || run.status === "failed";
+      var dotClass = stopped ? "" : col === "in_progress" || col === "ready_for_review" ? "d-live" : col === "viewed" ? "d-live" : "d-neutral";
+      return '<button class="card' + (stopped ? " attention" : "") + (state.dragId === run.id ? " dragging" : "") +
+        '" draggable="true" data-run="' + run.id + '">' +
+        '<span class="card-top"><span class="when">' + (stopped ? "" : '<span class="dot ' + dotClass + '"></span>') + esc(ago(run.updatedAt)) + "</span>" +
+        '<span class="grip">⣿⣿</span></span>' +
+        "<h3>" + esc(run.title) + "</h3>" +
+        (run.description ? "<p>" + esc(run.description.length > 190 ? run.description.slice(0, 188) + "…" : run.description) + "</p>" : "") +
+        (live ? '<span class="bar"><i></i><span class="track"><span class="fill" style="width:' + Math.max(4, run.progressPct) + '%"></span></span></span>' : "") +
+        (stopped && run.blocker ? '<span class="resolve" data-resolve="' + run.id + '">Resolve — ' + esc(run.blocker.label) + "</span>" : "") +
+        (run.artifacts.length ? '<ul class="files">' + run.artifacts.map(function (a) {
+          return '<li><span class="chip ' + (a.kind === "pdf" ? "p" : "x") + '">' + (a.kind === "pdf" ? "P" : "X") + "</span><span>" + esc(middle(a.filename, 38)) + "</span></li>";
+        }).join("") + "</ul>" : "") +
+        "</button>";
+    }
+
+    function renderBoard() {
+      var byCol = {};
+      COLUMNS.forEach(function (c) { byCol[c.id] = []; });
+      state.runs.forEach(function (r) {
+        var c = columnOf(r.status);
+        if (c) byCol[c].push(r);
+      });
+      Object.keys(byCol).forEach(function (k) {
+        byCol[k].sort(function (a, b) { return b.updatedAt - a.updatedAt; });
+      });
+      return '<div class="board">' + COLUMNS.map(function (c) {
+        return '<section class="col' + (state.overCol === c.id ? " hot" : "") + '" data-col="' + c.id + '">' +
+          '<header><span class="dot ' + c.dot + '"></span><h2>' + c.label + '</h2><span class="count tnum">' + byCol[c.id].length + "</span></header>" +
+          '<div class="stack">' + byCol[c.id].map(function (r) { return cardHtml(r, c.id); }).join("") + "</div></section>";
+      }).join("") + "</div>";
+    }
+
+    function renderOverview() {
+      var now = Date.now();
+      var inFlight = state.runs.filter(function (r) { return ["queued", "planning", "executing"].indexOf(r.status) !== -1; });
+      var blocked = state.runs.filter(function (r) { return r.status === "blocked" || r.status === "failed"; });
+      var review = state.runs.filter(function (r) { return r.status === "review_ready" || r.status === "viewed"; });
+      var approved = state.runs.filter(function (r) { return r.status === "approved"; });
+      var waits = review.map(function (r) { return now - r.createdAt; });
+      var avg = waits.length ? waits.reduce(function (a, b) { return a + b; }, 0) / waits.length : 0;
+      var closeSteps = [
+        ["Reconcile", state.runs.some(function (r) { return /match|reconcil/i.test(r.title) && r.status === "approved"; })],
+        ["Journal entries", state.runs.some(function (r) { return /journal/i.test(r.title) && r.status === "approved"; })],
+        ["Technical memos", state.runs.some(function (r) { return /ASC/i.test(r.title) && ["approved", "viewed"].indexOf(r.status) !== -1; })],
+        ["Quality control", state.runs.some(function (r) { return /quality/i.test(r.title) && r.status !== "executing"; })],
+        ["Board reporting", state.runs.some(function (r) { return /board/i.test(r.title) && ["viewed", "approved"].indexOf(r.status) !== -1; })]
+      ];
+      var pct = Math.round(closeSteps.filter(function (s) { return s[1]; }).length / closeSteps.length * 100);
+
+      function tile(lab, val, note) {
+        return '<div class="tile"><div class="lab">' + lab + '</div><div class="val tnum">' + val + "</div><small>" + note + "</small></div>";
+      }
+
+      return '<div class="ov">' +
+        '<div class="tiles">' +
+        tile("In progress", inFlight.length, "agents working now") +
+        tile("Blocked on you", blocked.length, "needs a human") +
+        tile("Awaiting review", review.length, "ready to sign off") +
+        tile("Approved", approved.length, approved.length + " this session") +
+        tile("Avg time to review", avg ? Math.max(1, Math.round(avg / 60000)) + "m" : "—", "from start to hand-in") +
+        "</div>" +
+
+        '<section class="panel"><header><span class="dot d-stop"></span><h2>Blocked on a human</h2></header>' +
+        (blocked.length
+          ? blocked.map(function (r) {
+            return '<button class="row" data-run="' + r.id + '"><span class="grow"><b>' + esc(r.title) + "</b><span>" + esc(r.blocker ? r.blocker.detail : r.description) + "</span></span>" +
+              '<span class="btn">' + esc(r.blocker ? r.blocker.label : "Resolve") + "</span>" +
+              '<span class="state" style="width:64px;flex:0 0 64px;text-align:right">' + ago(r.updatedAt) + "</span></button>";
+          }).join("")
+          : '<p style="padding:16px;margin:0;color:var(--ink-3);font-size:13px">Nothing is waiting on you.</p>') +
+        "</section>" +
+
+        '<section class="panel closebar"><div style="display:flex;justify-content:space-between;align-items:baseline"><h2 style="margin:0;font-size:13px;font-weight:500">Close progress</h2><span style="font-size:12px;color:var(--ink-3)" class="tnum">' + pct + '% complete</span></div>' +
+        '<div class="track"><div class="fill" style="width:' + pct + '%"></div></div>' +
+        '<ul class="steps">' + closeSteps.map(function (s) {
+          return '<li><span class="dot ' + (s[1] ? "d-live" : "d-quiet") + '"></span>' + s[0] + "</li>";
+        }).join("") + "</ul></section>" +
+
+        '<section class="panel"><header><h2>Recent activity</h2></header>' +
+        state.runs.slice().sort(function (a, b) { return b.updatedAt - a.updatedAt; }).slice(0, 8).map(function (r) {
+          return '<button class="row" data-run="' + r.id + '"><span class="state">' + r.status.replace("_", " ") + '</span><span class="grow"><b>' + esc(r.title) + "</b></span>" +
+            '<span style="font-size:12px;color:var(--ink-3)">' + ago(r.updatedAt) + "</span></button>";
+        }).join("") + "</section></div>";
+    }
+
+    function sheetTable(sheet) {
+      var head = sheet.rows[0], body = sheet.rows.slice(1, 40);
+      return '<div class="sheet"><table><thead><tr>' + head.map(function (h) { return "<th>" + esc(h) + "</th>"; }).join("") + "</tr></thead><tbody>" +
+        body.map(function (r) {
+          return "<tr>" + r.map(function (cell) {
+            return '<td class="' + (typeof cell === "number" ? "n" : "") + '">' + num(cell) + "</td>";
+          }).join("") + "</tr>";
+        }).join("") + "</tbody></table></div>" +
+        (sheet.rows.length > 41 ? '<p style="margin:6px 2px 0;font-size:11.5px;color:var(--ink-3)">Showing 39 of ' + (sheet.rows.length - 1) + " rows.</p>" : "");
+    }
+
+    function renderDrawer(run) {
+      var decidable = run.status === "viewed";
+      var canPost = run.postable && run.status === "approved" ;
+      return '<div class="veil" data-veil="drawer"><div class="drawer" role="dialog" aria-label="' + esc(run.title) + '">' +
+        "<header><div class='grow' style='flex:1;min-width:0'>" +
+        '<p class="eyebrow">' + esc(run.agent) + " · " + esc(run.status.replace("_", " ")) + " · " + ago(run.updatedAt) + "</p>" +
+        "<h2>" + esc(run.title) + "</h2></div>" +
+        '<button class="x" data-close="1" aria-label="Close">✕</button></header>' +
+
+        '<div class="body">' +
+        (run.blocker
+          ? '<div class="blocker"><h3>' + esc(run.blocker.title) + "</h3><p>" + esc(run.blocker.detail) + "</p>" +
+          '<span style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn danger" data-resolve="' + run.id + '">' + esc(run.blocker.label) + "</button>" +
+          (run.blocker.second ? '<button class="btn" data-resolve="' + run.id + '">' + esc(run.blocker.second) + "</button>" : "") + "</span></div>"
+          : "") +
+
+        '<section class="sec"><h3>Plan</h3><ol class="plan">' +
+        (run.steps.length
+          ? run.steps.map(function (s, i) {
+            return '<li><span class="pip ' + s.status + '">' + (s.status === "completed" ? "✓" : i + 1) + "</span>" +
+              "<span><b>" + esc(s.title) + '</b><small class="meta">' + esc(s.agent) + (s.tools.length ? " · " + esc(s.tools.join(", ")) : "") + "</small></span></li>";
+          }).join("")
+          : '<li style="color:var(--ink-3)">Planning…</li>') + "</ol></section>" +
+
+        (run.provenance.length
+          ? '<section class="sec"><h3>Provenance</h3><div class="prov">' + run.provenance.map(function (p) {
+            return '<div class="prov-row"><span class="grow"><b>' + esc(p.label) + "</b>" + (p.note ? "<span>" + esc(p.note) + "</span>" : "") + "</span>" +
+              '<span class="amt"><b class="tnum">' + esc(p.value) + "</b><span>" + esc(p.tool) + "</span></span></div>";
+          }).join("") + "</div></section>"
+          : "") +
+
+        (run.artifacts.length
+          ? '<section class="sec"><h3>Artifacts</h3>' + run.artifacts.map(function (a) {
+            var open = state.openArtifact === a.id;
+            return '<div><div class="file"><span class="chip ' + (a.kind === "pdf" ? "p" : "x") + '">' + (a.kind === "pdf" ? "P" : "X") + "</span>" +
+              '<span class="grow"><b>' + esc(middle(a.filename, 44)) + "</b><span>" + bytes(a.sizeBytes) + " · " + esc(a.generatedBy) + "</span></span>" +
+              '<button class="btn" data-artifact="' + a.id + '">' + (open ? "Hide" : "Preview") + "</button></div>" +
+              (open
+                ? (a.sheets ? a.sheets.map(function (s) {
+                  return '<p style="margin:4px 2px 2px;font-size:11.5px;color:var(--ink-3)">' + esc(s.name) + "</p>" + sheetTable(s);
+                }).join("") : '<div class="sheet" style="padding:12px 14px">' + a.body.map(function (b) {
+                  return '<p style="margin:0 0 8px;font-size:12.5px;line-height:1.6;color:var(--ink-2)">' + esc(b) + "</p>";
+                }).join("") + "</div>")
+                : "") + "</div>";
+          }).join("") + "</section>"
+          : "") +
+
+        (canPost
+          ? '<section class="sec"><h3>Ledger</h3><div class="file"><span class="grow"><b>' + esc(run.postable.memo) + '</b><span>' + usd(run.postable.amountCents) + " · approved by Alex Morgan</span></span>" +
+          '<button class="btn solid" data-post="' + run.id + '">Post to ledger</button></div>' +
+          (run.postings.length ? '<p style="margin:8px 2px 0;font-size:12px;color:var(--ink-2)">Posted ' + esc(run.postings[0].memo) + " under approval " + esc(run.postings[0].approvalId) + ".</p>" : "") +
+          "</section>"
+          : run.postable && run.status !== "approved"
+            ? '<section class="sec"><h3>Ledger</h3><div class="file"><span class="grow"><b>' + esc(run.postable.memo) + '</b><span>' + usd(run.postable.amountCents) + " · gated on approval</span></span>" +
+            '<button class="btn" data-post="' + run.id + '">Post to ledger</button></div>' +
+            '<p style="margin:8px 2px 0;font-size:12px;color:var(--ink-3)">Try it — the tool refuses until this run is approved.</p></section>'
+            : "") +
+
+        '<section class="sec"><h3>Timeline</h3><ul class="tl">' + run.log.map(function (l) {
+          var isTool = l.type === "tool_called" || l.type === "tool_result";
+          var open = state.expanded === run.id + ":" + l.seq;
+          var msg = l.payload.note || l.payload.summary || l.payload.tool || l.payload.error || l.payload.reason || l.payload.stepId || "";
+          return "<li>" + '<button' + (isTool ? ' data-event="' + run.id + ":" + l.seq + '"' : " disabled") + ">" +
+            '<span class="kind">' + (isTool ? (open ? "▾ " : "▸ ") : "· ") + esc(l.type) + "</span>" +
+            '<span class="msg">' + esc(msg) + "</span>" +
+            '<span style="font-size:11px;color:var(--ink-3)">' + ago(l.at) + "</span></button>" +
+            (open ? "<pre>" + esc(JSON.stringify(l.payload, null, 2)) + "</pre>" : "") + "</li>";
+        }).join("") + "</ul></section></div>" +
+
+        "<footer>" +
+        (state.rejecting
+          ? '<textarea id="reason" placeholder="What needs to change? This goes back to the agent as its next instruction."></textarea>' +
+          '<span style="margin-left:auto;display:flex;gap:8px"><button class="btn" data-cancel-reject="1">Cancel</button>' +
+          '<button class="btn solid" data-do-reject="' + run.id + '">Send back to agent</button></span>'
+          : '<button class="btn solid" data-approve="' + run.id + '"' + (decidable ? "" : " disabled") + ">✓ Approve</button>" +
+          '<button class="btn" data-reject="1"' + (decidable ? "" : " disabled") + ">Request changes</button>" +
+          '<span class="note">' + (run.status === "approved" ? "Approved — cleared to post." : decidable ? "Nothing posts until you approve." : "Available once the agent hands the run in.") + "</span>") +
+        "</footer></div></div>";
+    }
+
+    var EXAMPLES = [
+      "Accrue December professional fees from the open PO list",
+      "Reconcile the operating bank account for November",
+      "Draft an ASC 450 memo for the pending vendor dispute"
+    ];
+
+    function renderPalette() {
+      var p = state.proposal;
+      return '<div class="veil pal" data-veil="palette"><div class="palette" role="dialog" aria-label="Ask Vert">' +
+        '<div class="q"><span style="color:var(--accent)">✦</span>' +
+        '<input id="task" placeholder="Describe the work — “book the November payroll entry”" value="' + esc(state.draft) + '" autocomplete="off">' +
+        '<button class="x" data-close="1" aria-label="Close">✕</button></div>' +
+        (p
+          ? '<div class="guts"><p style="margin:0 0 12px;font-size:13px;color:var(--ink-2)"><b style="color:var(--ink)">' + esc(p.agent) + "</b> will own this.</p>" +
+          '<ol class="plan" style="margin-bottom:16px">' + p.steps.map(function (s, i) {
+            return '<li><span class="pip">' + (i + 1) + '</span><span><b>' + esc(s.title) + '</b><small class="meta">' + esc(s.tools.join(", ") || "no tools") + "</small></span></li>";
+          }).join("") + "</ol>" +
+          '<h3 style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin:0 0 8px">What Vert needs from you</h3>' +
+          '<ul class="needs">' + p.needs.map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ul></div>"
+          : '<div class="guts tries"><p style="margin:0 0 6px;padding:0 10px;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3)">Try</p>' +
+          EXAMPLES.map(function (e) { return '<button class="try" data-example="' + esc(e) + '">→ ' + esc(e) + "</button>"; }).join("") + "</div>") +
+        "<footer><span>⌘K to open · Esc to close</span>" +
+        '<button class="btn solid" data-' + (p ? "start" : "propose") + '="1">' + (p ? "Start run" : "Propose a plan") + "</button></footer></div></div>";
+    }
+
+    function render() {
+      renderRail();
+      document.getElementById("greeting").textContent =
+        (new Date().getHours() < 12 ? "Good morning" : new Date().getHours() < 18 ? "Good afternoon" : "Good evening") + ", Alex.";
+      document.getElementById("inbox-n").textContent = state.runs.filter(function (r) {
+        return r.status === "blocked" || r.status === "review_ready";
+      }).length;
+      Array.prototype.forEach.call(document.querySelectorAll(".tab"), function (b) {
+        b.classList.toggle("on", b.dataset.tab === state.tab);
+      });
+
+      var banner = '<div class="banner"><span class="dot d-live"></span><b>Live demo.</b> Six agents are mid-task right now — watch them work, resolve the blocked match, or press ⌘K to hand Vert something new.</div>';
+      document.getElementById("screen").innerHTML = banner + (state.tab === "workflows" ? renderBoard() : renderOverview());
+
+      var overlay = document.getElementById("overlay");
+      var run = state.openId ? runById(state.openId) : null;
+      overlay.innerHTML = state.palette ? renderPalette() : run ? renderDrawer(run) : "";
+      var input = document.getElementById("task");
+      if (input) {
+        input.focus();
+        input.setSelectionRange(input.value.length, input.value.length);
+      }
+      var reason = document.getElementById("reason");
+      if (reason) reason.focus();
+
+      document.getElementById("toasts").innerHTML = state.toasts.map(function (t) {
+        return '<button class="toast ' + (t.tone === "good" ? "good" : "bad") + '" data-toast="' + t.id + '">' + esc(t.message) + "</button>";
+      }).join("");
+    }
+
+    // ════════════════════════════════════════════════════════════════════
+    // Events
+    // ════════════════════════════════════════════════════════════════════
+    function propose() {
+      var task = state.draft.trim();
+      if (!task) return;
+      var agent = route(task);
+      var spec = SPECIALISTS[agent];
+      var steps = spec.plan.map(function (title, i) {
+        return { title: title, tools: i === 2 ? spec.tools.filter(function (t) { return t === "buildWorkbook" || t === "renderPdf"; }) : [spec.tools[i] || spec.tools[0]] };
+      });
+      var needs = [];
+      if (spec.tools.indexOf("parseDocument") !== -1) needs.push("Source documents, if they are not already in the drive");
+      if (spec.tools.indexOf("postJournalEntry") !== -1) needs.push("Your approval before anything posts to the ledger");
+      needs.push("A review and sign-off when the draft is ready");
+      state.proposal = { agent: agent, steps: steps, needs: needs };
+      schedule();
+    }
+
+    function startNew() {
+      var task = state.draft.trim();
+      if (!task) return;
+      var title = task.length > 64 ? task.slice(0, 61) + "…" : task.charAt(0).toUpperCase() + task.slice(1);
+      var run = blankRun({ id: "run_" + Date.now().toString(36), title: title, task: task, agent: route(task), createdAt: Date.now() });
+      state.runs.push(run);
+      startRun(run);
+      play(run, {});
+      state.palette = false;
+      state.proposal = null;
+      state.draft = "";
+      toast("Run started — watch it in In Progress.", "good");
+    }
+
+    document.addEventListener("click", function (ev) {
+      var el = ev.target.closest("[data-run],[data-resolve],[data-close],[data-veil],[data-artifact],[data-event],[data-approve],[data-reject],[data-cancel-reject],[data-do-reject],[data-post],[data-example],[data-propose],[data-start],[data-toast],[data-group],.tab,#ask,#newchat,#inbox");
+      if (!el) return;
+      var d = el.dataset;
+
+      if (el.classList.contains("tab")) { state.tab = d.tab; return schedule(); }
+      if (el.id === "ask" || el.id === "newchat") { state.palette = true; state.openId = null; return schedule(); }
+      if (el.id === "inbox") {
+        state.tab = "overview";
+        return schedule();
+      }
+      if (d.group) { state.groups[d.group] = !state.groups[d.group]; return schedule(); }
+      if (d.toast) { state.toasts = state.toasts.filter(function (t) { return String(t.id) !== d.toast; }); return schedule(); }
+
+      if (d.resolve) {
+        ev.stopPropagation();
+        var r = runById(d.resolve);
+        if (r && r.blocker) {
+          toast("Receiving report accepted — " + r.agent + " is finishing the match.", "good");
+          resume(r);
+        }
+        return;
+      }
+      if (d.artifact) { state.openArtifact = state.openArtifact === d.artifact ? null : d.artifact; return schedule(); }
+      if (d.event) { state.expanded = state.expanded === d.event ? null : d.event; return schedule(); }
+      if (d.approve) { approve(runById(d.approve)); return; }
+      if (d.reject) { state.rejecting = true; return schedule(); }
+      if (d.cancelReject) { state.rejecting = false; return schedule(); }
+      if (d.doReject) {
+        var box = document.getElementById("reason");
+        return reject(runById(d.doReject), box ? box.value : "");
+      }
+      if (d.post) { postEntry(runById(d.post)); return; }
+      if (d.example) { state.draft = d.example; propose(); return; }
+      if (d.propose) {
+        var i = document.getElementById("task");
+        state.draft = i ? i.value : state.draft;
+        return propose();
+      }
+      if (d.start) { return startNew(); }
+      if (d.close || (d.veil && ev.target === el)) {
+        state.palette = false;
+        state.openId = null;
+        state.rejecting = false;
+        state.openArtifact = null;
+        return schedule();
+      }
+      if (d.run) {
+        var target = runById(d.run);
+        if (!target) return;
+        state.openId = target.id;
+        state.rejecting = false;
+        state.openArtifact = null;
+        markViewed(target);
+        return schedule();
+      }
+    });
+
+    document.addEventListener("input", function (ev) {
+      if (ev.target.id === "task") {
+        state.draft = ev.target.value;
+        if (state.proposal) state.proposal = null;
+      }
+    });
+
+    document.addEventListener("keydown", function (ev) {
+      if ((ev.metaKey || ev.ctrlKey) && ev.key.toLowerCase() === "k") {
+        ev.preventDefault();
+        state.palette = true;
+        state.openId = null;
+        return schedule();
+      }
+      if (ev.key === "Escape") {
+        state.palette = false;
+        state.openId = null;
+        state.rejecting = false;
+        return schedule();
+      }
+      if (ev.key === "Enter" && ev.target.id === "task") {
+        ev.preventDefault();
+        state.draft = ev.target.value;
+        return state.proposal ? startNew() : propose();
+      }
+    });
+
+    // Drag and drop — the rules are the same ones the state machine enforces.
+    document.addEventListener("dragstart", function (ev) {
+      var card = ev.target.closest("[data-run]");
+      if (!card) return;
+      state.dragId = card.dataset.run;
+      ev.dataTransfer.effectAllowed = "move";
+      ev.dataTransfer.setData("text/plain", card.dataset.run);
+    });
+    document.addEventListener("dragover", function (ev) {
+      var col = ev.target.closest("[data-col]");
+      if (!col) return;
+      ev.preventDefault();
+      if (state.overCol !== col.dataset.col) {
+        state.overCol = col.dataset.col;
+        schedule();
+      }
+    });
+    document.addEventListener("drop", function (ev) {
+      var col = ev.target.closest("[data-col]");
+      state.overCol = null;
+      if (!col || !state.dragId) return schedule();
+      ev.preventDefault();
+      var run = runById(state.dragId);
+      state.dragId = null;
+      if (!run) return schedule();
+      var target = null;
+      COLUMNS.forEach(function (c) { if (c.id === col.dataset.col) target = c; });
+      if (!target || columnOf(run.status) === target.id) return schedule();
+      moveTo(run, target.drop);
+      schedule();
+    });
+    document.addEventListener("dragend", function () {
+      state.dragId = null;
+      state.overCol = null;
+      schedule();
+    });
+
+    seed();
+    render();
+    setInterval(schedule, 30000);
+  })();
+</script>
