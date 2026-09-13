@@ -1,0 +1,144 @@
+{
+  "entity": "Alder River Growth Partners, LP",
+  "period": "2024-12-31",
+  "currency": "USD",
+  "accounts": [
+    {
+      "account": "1000",
+      "name": "Cash and cash equivalents",
+      "type": "asset",
+      "debit": 4120000,
+      "credit": 0
+    },
+    {
+      "account": "1100",
+      "name": "Accounts receivable",
+      "type": "asset",
+      "debit": 8640000,
+      "credit": 0
+    },
+    {
+      "account": "1200",
+      "name": "Prepaid expenses",
+      "type": "asset",
+      "debit": 1180000,
+      "credit": 0
+    },
+    {
+      "account": "1300",
+      "name": "Inventory",
+      "type": "asset",
+      "debit": 5260000,
+      "credit": 0
+    },
+    {
+      "account": "1500",
+      "name": "Property, plant & equipment",
+      "type": "asset",
+      "debit": 12400000,
+      "credit": 0
+    },
+    {
+      "account": "1600",
+      "name": "Right-of-use assets (ASC 842)",
+      "type": "asset",
+      "debit": 3310000,
+      "credit": 0
+    },
+    {
+      "account": "1700",
+      "name": "Goodwill",
+      "type": "asset",
+      "debit": 6050000,
+      "credit": 0
+    },
+    {
+      "account": "5000",
+      "name": "Cost of revenue",
+      "type": "expense",
+      "debit": 3090000,
+      "credit": 0
+    },
+    {
+      "account": "6000",
+      "name": "Salaries and wages",
+      "type": "expense",
+      "debit": 2310000,
+      "credit": 0
+    },
+    {
+      "account": "6100",
+      "name": "Professional fees",
+      "type": "expense",
+      "debit": 540000,
+      "credit": 0
+    },
+    {
+      "account": "6200",
+      "name": "Interest expense",
+      "type": "expense",
+      "debit": 300000,
+      "credit": 0
+    },
+    {
+      "account": "2000",
+      "name": "Accounts payable",
+      "type": "liability",
+      "debit": 0,
+      "credit": 5430000
+    },
+    {
+      "account": "2100",
+      "name": "Accrued liabilities",
+      "type": "liability",
+      "debit": 0,
+      "credit": 2260000
+    },
+    {
+      "account": "2200",
+      "name": "Deferred revenue",
+      "type": "liability",
+      "debit": 0,
+      "credit": 4180000
+    },
+    {
+      "account": "2300",
+      "name": "Lease liabilities (ASC 842)",
+      "type": "liability",
+      "debit": 0,
+      "credit": 3390000
+    },
+    {
+      "account": "2500",
+      "name": "Long-term debt",
+      "type": "liability",
+      "debit": 0,
+      "credit": 9800000
+    },
+    {
+      "account": "3000",
+      "name": "Common stock and APIC",
+      "type": "equity",
+      "debit": 0,
+      "credit": 11000000
+    },
+    {
+      "account": "3100",
+      "name": "Retained earnings",
+      "type": "equity",
+      "debit": 0,
+      "credit": 4020000
+    },
+    {
+      "account": "4000",
+      "name": "Revenue",
+      "type": "revenue",
+      "debit": 0,
+      "credit": 7120000
+    }
+  ],
+  "totals": {
+    "debits": 47200000,
+    "credits": 47200000
+  }
+}

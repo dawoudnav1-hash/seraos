@@ -1,0 +1,18 @@
+{
+  "po": "PO 44872",
+  "vendor": "Ridgeline Industrial Supply",
+  "purchaseOrder": {
+    "document": "PO_44872.pdf",
+    "amountCents": 874250,
+    "quantity": 150,
+    "uom": "units",
+    "received": true
+  },
+  "invoice": {
+    "document": "INV_2291_Ridgeline.pdf",
+    "amountCents": 874250,
+    "quantity": 150
+  },
+  "receivingReport": null,
+  "note": "Receiving report has not been uploaded; three-way match cannot complete."
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    "Alder River Holdings, LLC",
+    "Alder River Ops, Inc.",
+    "Alder River Logistics, LLC"
+  ],
+  "form8990": {
+    "totalBusinessInterestExpenseCents": 89200000,
+    "atiLimitationPct": 30,
+    "adjustedTaxableIncomeCents": 264000000,
+    "allowedInterestCents": 79200000,
+    "disallowedCarryforwardCents": 10000000
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "leases": [
+    {
+      "id": "L-1",
+      "asset": "Forklift fleet (4 units)",
+      "termMonths": 60,
+      "pvRatioPct": 94.2,
+      "classification": "finance"
+    },
+    {
+      "id": "L-2",
+      "asset": "CNC machining center",
+      "termMonths": 72,
+      "pvRatioPct": 91.8,
+      "classification": "finance"
+    },
+    {
+      "id": "L-3",
+      "asset": "Office copiers",
+      "termMonths": 36,
+      "pvRatioPct": 61.4,
+      "classification": "operating"
+    }
+  ],
+  "threshold": "ASC 842-10-25-2(d): present value test \u2265 90% of fair value"
+}

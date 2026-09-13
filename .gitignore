@@ -1,0 +1,8 @@
+node_modules
+.next
+*.tsbuildinfo
+vert.db
+vert.db-*
+public/artifacts/*
+!public/artifacts/.gitkeep
+.env.local
