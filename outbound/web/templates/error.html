@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card"><h1 class="bad">Not approved</h1><p>{{ error }}</p>
+<p>{% if prospect_id %}<a href="/prospects/{{ prospect_id }}">Fix it on the prospect page</a> · {% endif %}<a href="/">Back to the queue</a></p></div>
+{% endblock %}

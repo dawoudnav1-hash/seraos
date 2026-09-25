@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Prospects{% endblock %}
+{% block content %}
+<h1>Prospects</h1>
+<form class="row" method="get" style="margin-bottom:12px">
+  <input type="text" name="q" value="{{ q }}" placeholder="Search company, name, email" style="max-width:320px">
+  <select name="status" style="max-width:220px">
+    <option value="">All statuses</option>
+    {% for s in statuses %}<option value="{{ s.status }}" {% if s.status == status %}selected{% endif %}>{{ s.status }} ({{ s.n }})</option>{% endfor %}
+  </select>
+  <button type="submit">Filter</button>
+</form>
+<div class="card table-wrap">
+<table>
+  <tr><th>Company</th><th>Contact</th><th>Email</th><th>Status</th><th>Fit</th></tr>
+  {% for p in prospects %}
+  <tr>
+    <td><a href="/prospects/{{ p.id }}">{{ p.company }}</a><div class="small muted">{{ p.domain }}</div></td>
+    <td>{{ p.full_name }}<div class="small muted">{{ p.title }}</div></td>
+    <td class="small">{{ p.email }}</td>
+    <td><span class="chip">{{ p.status }}</span><div class="small muted">{{ p.status_note[:80] }}</div></td>
+    <td>{{ p.fit_score or "" }}</td>
+  </tr>
+  {% endfor %}
+</table>
+</div>
+{% endblock %}

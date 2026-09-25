@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Activity{% endblock %}
+{% block content %}
+<h1>Activity</h1>
+<h2>Scheduled to send</h2>
+<div class="card table-wrap"><table>
+<tr><th>When (UTC)</th><th>To</th><th>Type</th><th>Subject</th></tr>
+{% for m in scheduled %}<tr><td>{{ m.scheduled_for }}</td><td><a href="/prospects/{{ m.pid }}">{{ m.full_name }}</a> · {{ m.company }}</td><td>{{ m.purpose }}</td><td>{{ m.subject }}</td></tr>
+{% else %}<tr><td colspan="4" class="muted">Nothing scheduled.</td></tr>{% endfor %}
+</table></div>
+<h2>Log</h2>
+<div class="card small table-wrap"><table>
+{% for e in events %}<tr><td class="muted">{{ e.created_at }}</td><td>{% if e.prospect_id %}<a href="/prospects/{{ e.prospect_id }}">{{ e.company }}</a>{% endif %}</td><td>{{ e.kind }}</td><td>{{ e.detail }}</td></tr>{% endfor %}
+</table></div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Add prospects{% endblock %}
+{% block content %}
+<h1>Add prospects</h1>
+{% if result %}<div class="card"><strong>Imported {{ result.added }}</strong>, skipped {{ result.skipped }}.
+  {% if result.reasons %}<ul class="tight small muted">{% for r in result.reasons[:30] %}<li>{{ r }}</li>{% endfor %}</ul>{% endif %}</div>{% endif %}
+<div class="grid2">
+  <div class="card">
+    <h2 style="margin-top:0">One prospect</h2>
+    <form method="post" action="/add">
+      <label class="small muted">Company *</label><input type="text" name="company" required>
+      <label class="small muted">Website</label><input type="text" name="domain" placeholder="acme.com">
+      <label class="small muted">Contact name</label><input type="text" name="full_name" placeholder="Leave blank to let research find the decision-maker">
+      <label class="small muted">Title</label><input type="text" name="title">
+      <label class="small muted">Email</label><input type="email" name="email">
+      <label class="small muted">LinkedIn</label><input type="text" name="linkedin_url">
+      <label class="small muted">Country</label><input type="text" name="country">
+      <label class="small muted">Anything you already know</label><textarea name="context" style="min-height:80px"></textarea>
+      <button class="primary" type="submit" style="margin-top:10px">Add &amp; research</button>
+    </form>
+  </div>
+  <div class="card">
+    <h2 style="margin-top:0">CSV import</h2>
+    <p class="small muted">Recognised columns: name / first name / last name, email, title, company, website / domain, linkedin, country, founders. Extra columns like funding, growth signals and notes are passed to research as context.</p>
+    <form method="post" action="/import" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".csv" required>
+      <button class="primary" type="submit" style="margin-top:10px">Import</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

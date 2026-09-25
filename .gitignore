@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.pytest_cache/
+# runtime state and secrets
+data/
+config/seller.toml
+credentials.json
+token.json
+.env

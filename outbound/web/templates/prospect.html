@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}{{ p.company }}{% endblock %}
+{% block content %}
+<h1>{{ p.full_name or "(contact unknown)" }} · {{ p.company }}</h1>
+<p class="row">
+  <span class="chip">{{ p.status }}</span>
+  {% if p.fit_score %}<span class="chip">fit {{ p.fit_score }}/5</span>{% endif %}
+  {% if suppressed %}<span class="chip bad">suppressed</span>{% endif %}
+  {% if busy %}<span class="chip warn">working… refresh in a minute</span>{% endif %}
+  <span class="muted small">{{ p.status_note }}</span>
+</p>
+
+<div class="grid2">
+  <div class="card">
+    <h2 style="margin-top:0">Contact</h2>
+    <form method="post" action="/prospects/{{ p.id }}/edit">
+      <label class="small muted">Name</label><input type="text" name="full_name" value="{{ p.full_name }}">
+      <label class="small muted">Email {% if p.email_source %}({{ p.email_source }}){% endif %}</label><input type="email" name="email" value="{{ p.email }}">
+      <label class="small muted">Title</label><input type="text" name="title" value="{{ p.title }}">
+      <label class="small muted">Company</label><input type="text" name="company" value="{{ p.company }}">
+      <label class="small muted">Domain</label><input type="text" name="domain" value="{{ p.domain }}">
+      <label class="small muted">Timezone (sending uses {{ tz }})</label><input type="text" name="timezone" value="{{ p.timezone }}" placeholder="e.g. Australia/Melbourne">
+      <div class="row" style="margin-top:10px"><button type="submit">Save</button>
+      {% if p.linkedin_url %}<a class="small" href="{{ p.linkedin_url if p.linkedin_url.startswith('http') else 'https://' ~ p.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}</div>
+    </form>
+  </div>
+  <div class="card">
+    <h2 style="margin-top:0">Actions</h2>
+    <div class="row">
+      <form method="post" action="/prospects/{{ p.id }}/research"><button>Research {% if dossier %}again{% else %}now{% endif %}</button></form>
+      {% if dossier %}<form method="post" action="/prospects/{{ p.id }}/draft-now"><button>Draft first email</button></form>{% endif %}
+      <form method="post" action="/prospects/{{ p.id }}/status"><input type="hidden" name="status" value="paused"><button>Pause</button></form>
+      <form method="post" action="/prospects/{{ p.id }}/status"><input type="hidden" name="status" value="closed_won"><button>Won</button></form>
+      <form method="post" action="/prospects/{{ p.id }}/status"><input type="hidden" name="status" value="closed_lost"><button>Lost</button></form>
+      {% if p.status == "paused" %}<form method="post" action="/prospects/{{ p.id }}/status"><input type="hidden" name="status" value="active"><button>Resume sequence</button></form>{% endif %}
+      <form method="post" action="/prospects/{{ p.id }}/suppress"><button class="danger">Never email</button></form>
+    </div>
+    {% if p.context %}<h3>Notes from import</h3><pre class="mail small">{{ p.context }}</pre>{% endif %}
+  </div>
+</div>
+
+<h2>Conversation</h2>
+{% for m in thread %}
+<div class="card">
+  <div class="row small muted" style="justify-content:space-between">
+    <span>{{ "→ us to them" if m.direction == "out" else "← them" }} · {{ m.purpose }} · <strong>{{ m.status }}</strong></span>
+    <span>{{ m.sent_at or m.scheduled_for or m.created_at }}</span>
+  </div>
+  <div><strong>{{ m.subject }}</strong></div>
+  <pre class="mail" style="margin-top:6px">{{ m.body }}</pre>
+  {% if m.meta.analysis %}<p class="small muted">Read as <strong>{{ m.meta.analysis.intent }}</strong>: {{ m.meta.analysis.summary }}</p>{% endif %}
+  {% if m.status == "approved" %}<form method="post" action="/messages/{{ m.id }}/unschedule"><button class="small">Unschedule (back to review)</button></form>{% endif %}
+</div>
+{% else %}<p class="muted">No messages yet.</p>{% endfor %}
+
+{% if meetings %}<h2>Meetings</h2>
+<div class="card">{% for mt in meetings %}<div>{{ mt.start }} · <span class="chip">{{ mt.status }}</span> {% if mt.meet_link %}<a href="{{ mt.meet_link }}">{{ mt.meet_link }}</a>{% endif %}</div>{% endfor %}</div>
+{% endif %}
+
+{% if dossier %}{% set d = dossier.data %}
+<h2>Research dossier <span class="small muted">({{ dossier.created_at }})</span></h2>
+<div class="card">
+  <p><strong>Company.</strong> {{ d.company_summary }}</p>
+  <p><strong>Person.</strong> {{ d.person_summary }}</p>
+  <p><strong>Fit {{ d.fit_score }}/5.</strong> {{ d.fit_reasoning }}</p>
+  {% if d.disqualifiers %}<p class="bad"><strong>Disqualifiers:</strong> {{ d.disqualifiers|join("; ") }}</p>{% endif %}
+  <div class="grid2">
+    <div>
+      <h3>Why now</h3><ul class="tight">{% for t in d.triggers %}<li>{{ t }}</li>{% endfor %}</ul>
+      <h3>Hooks</h3><ul class="tight">{% for h in d.personalization_hooks|sort(attribute="strength", reverse=True) %}<li>({{ h.strength }}) {{ h.hook }} <span class="muted">{{ h.fact_ids|join(", ") }}</span></li>{% endfor %}</ul>
+      <h3>Likely pains</h3><ul class="tight">{% for h in d.pain_hypotheses %}<li>{{ h.hypothesis }} <span class="muted">{{ h.reasoning }}</span></li>{% endfor %}</ul>
+      {% if d.email_candidates %}<h3>Public emails found</h3><ul class="tight">{% for e in d.email_candidates %}<li>{{ e.email }} ({{ e.kind }}) <a href="{{ e.source_url }}" target="_blank" rel="noopener">source</a></li>{% endfor %}</ul>{% endif %}
+    </div>
+    <div>
+      <h3>Facts</h3>
+      <ul class="tight small">{% for f in d.facts %}<li><strong>{{ f.id }}</strong> {{ f.claim }} <a href="{{ f.source_url }}" target="_blank" rel="noopener">source</a>{% if f.date %} <span class="muted">({{ f.date }})</span>{% endif %}</li>{% endfor %}</ul>
+    </div>
+  </div>
+  <details><summary class="small">Raw research notes</summary><pre class="mail small">{{ dossier.notes }}</pre></details>
+</div>
+{% endif %}
+
+<h2>Log</h2>
+<div class="card small table-wrap"><table>{% for e in events %}<tr><td class="muted">{{ e.created_at }}</td><td>{{ e.kind }}</td><td>{{ e.detail }}</td></tr>{% endfor %}</table></div>
+{% endblock %}

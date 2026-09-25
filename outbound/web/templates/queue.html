@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Review queue{% endblock %}
+{% block content %}
+<h1>Review queue</h1>
+{% if not items %}<p class="muted">Nothing waiting for you. The worker drafts new emails as research finishes and replies come in.</p>{% endif %}
+{% for it in items %}{% set m = it.m %}{% set p = it.p %}
+<div class="card" id="m{{ m.id }}">
+  <div class="row" style="justify-content:space-between">
+    <div>
+      <strong><a href="/prospects/{{ p.id }}">{{ p.full_name or "(no name)" }}</a></strong>
+      <span class="muted">· {{ p.title }} · {{ p.company }} · {{ p.email or "no email" }}</span>
+    </div>
+    <div>
+      <span class="chip">{{ m.purpose }}{% if m.purpose == "followup" %} #{{ m.step }}{% endif %}</span>
+      {% if p.fit_score %}<span class="chip">fit {{ p.fit_score }}/5</span>{% endif %}
+      {% if m.status == "failed" %}<span class="chip bad">failed: {{ m.meta.error }}</span>{% endif %}
+      {% if it.busy %}<span class="chip warn">rewriting…</span>{% endif %}
+    </div>
+  </div>
+  {% if p.email_source and p.email_source != "import" and p.email_source != "manual" %}<div class="small warn">Email source: {{ p.email_source }}</div>{% endif %}
+
+  <div class="grid2" style="margin-top:12px">
+    <div>
+      <form method="post" action="/messages/{{ m.id }}/approve">
+        <input type="text" name="subject" value="{{ m.subject }}" aria-label="Subject">
+        <textarea name="body" aria-label="Body" style="margin-top:8px">{{ m.body }}</textarea>
+        {% if m.meta.warnings %}<ul class="tight small warn">{% for w in m.meta.warnings %}<li>{{ w }}</li>{% endfor %}</ul>{% endif %}
+        {% if m.meta.notes_for_human %}<p class="small warn"><strong>Check:</strong> {{ m.meta.notes_for_human }}</p>{% endif %}
+        {% if m.meta.meeting_start %}<p class="small"><strong>Approving books the meeting</strong> and sends a calendar invite for {{ m.meta.meeting_start }}.</p>{% endif %}
+        <div class="row" style="margin-top:8px">
+          <button class="primary" type="submit">Approve &amp; schedule</button>
+          <span class="small muted">{% if m.purpose in ("initial", "followup") %}Sends in the prospect's next send window{% else %}Sends in a few minutes{% endif %}</span>
+        </div>
+      </form>
+      <form method="post" action="/messages/{{ m.id }}/regenerate" class="row" style="margin-top:10px">
+        <input type="text" name="feedback" placeholder="Tell it what to change, e.g. 'lead with the Coles deal, shorter'" required style="flex:1">
+        <button type="submit">Rewrite</button>
+      </form>
+      <form method="post" action="/messages/{{ m.id }}/reject" class="row" style="margin-top:10px">
+        <input type="text" name="reason" placeholder="Reason (optional)" style="flex:1">
+        <button class="danger" type="submit">Reject</button>
+        <button class="danger" type="submit" name="stop" value="1">Reject &amp; stop</button>
+      </form>
+    </div>
+    <div class="small">
+      {% if it.inbound %}
+        <h3>Their reply</h3>
+        <pre class="mail">{{ it.inbound.body }}</pre>
+        {% if it.inbound.meta.analysis %}<p class="muted">Read as <strong>{{ it.inbound.meta.analysis.intent }}</strong>: {{ it.inbound.meta.analysis.summary }}</p>{% endif %}
+      {% endif %}
+      {% if m.meta.angle %}<h3>Angle</h3><p>{{ m.meta.angle }}</p>{% endif %}
+      {% if it.facts %}
+        <h3>Facts this email relies on</h3>
+        <ul class="tight">{% for f in it.facts %}<li>{{ f.claim }} <a href="{{ f.source_url }}" target="_blank" rel="noopener">source</a>{% if f.date %} <span class="muted">({{ f.date }})</span>{% endif %}</li>{% endfor %}</ul>
+      {% endif %}
+      {% if it.dossier %}
+        <h3>Why now</h3>
+        <ul class="tight">{% for t in it.dossier.data.triggers %}<li>{{ t }}</li>{% endfor %}</ul>
+        <p class="muted">{{ it.dossier.data.fit_reasoning }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+{% endblock %}

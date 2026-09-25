@@ -1,0 +1,108 @@
+# Copy to config/seller.toml and fill in every field marked REQUIRED.
+# The agent refuses to draft emails while any REQUIRED placeholder remains
+# (`outbound doctor` tells you what's missing).
+
+[sender]
+name = "REQUIRED: Your Name"
+first_name = "REQUIRED: Your first name (used to sign emails)"
+title = "Founder"
+company = "REQUIRED: Your company"
+# Must be the Gmail / Google Workspace address you authorize with `outbound google-auth`.
+email = "REQUIRED: you@yourcompany.com"
+# IANA timezone you take meetings in.
+timezone = "Australia/Sydney"
+# Appended under your first name. Keep it short; no images, no links on first touch.
+signature = ""
+# Commercial email law (CAN-SPAM, AU Spam Act, CASL, GDPR/PECR) generally wants
+# a way to opt out and who you are. Leave empty to omit.
+physical_address = ""
+opt_out_line = "If this isn't relevant, just let me know and I won't follow up."
+
+[offer]
+# One sentence: what you sell, in plain words.
+one_liner = "REQUIRED: e.g. We run retention email/SMS for D2C brands doing $1-10M."
+# The painful problem you remove, from the buyer's side.
+problem = "REQUIRED: e.g. Most sub-$10M brands leave 20-30% of revenue on the table after the first order."
+# Who you're a fit for, and who you are NOT a fit for.
+ideal_customer = "REQUIRED: e.g. Shopify D2C brands, $1-10M revenue, founder-led, growing fast."
+not_a_fit = "e.g. Wholesale-only brands, or brands with an in-house retention team of 3+."
+# Concrete, true proof. Specific numbers beat adjectives. Never invented by the agent.
+proof_points = [
+  "REQUIRED: e.g. Took Brand X from 18% to 31% repeat rate in 5 months.",
+]
+# The ask. Low friction beats a hard calendar ask on first touch.
+cta = "Worth a quick chat?"
+meeting_length_minutes = 20
+# Optional. Only used in replies once someone is interested, never on first touch.
+booking_link = ""
+
+[style]
+max_words = 90
+followup_max_words = 60
+# Extra guidance in your own words (voice, things to avoid, how you talk).
+voice = "Direct, warm, peer-to-peer. Write like a founder texting another founder, not like marketing."
+banned_phrases = [
+  "I hope this email finds you well",
+  "I hope you're well",
+  "I came across",
+  "I wanted to reach out",
+  "just following up",
+  "just checking in",
+  "circle back",
+  "touch base",
+  "synergy",
+  "leverage",
+  "game-changer",
+  "revolutionize",
+  "cutting-edge",
+  "in today's fast-paced",
+  "quick question",
+  "hope all is well",
+  "I noticed that",
+  "delve",
+  "streamline",
+]
+
+[sequence]
+# Business days to wait after each email before the next follow-up is drafted.
+# Length of this list = number of follow-ups after the first email.
+followup_gaps_business_days = [3, 5]
+daily_send_cap = 30
+min_seconds_between_sends = 150
+# Emails go out in the PROSPECT's local time (falls back to your timezone).
+send_window_start = "08:15"
+send_window_end = "11:30"
+# 0 = Monday ... 6 = Sunday
+send_days = [0, 1, 2, 3, 4]
+# Worker pipeline automation. Nothing is ever SENT without human approval
+# unless auto_approve_followups is true.
+auto_research = true
+auto_draft = true
+auto_approve_followups = false
+# Minimum fit score (1-5) from research to draft an email automatically.
+min_fit_score = 3
+
+[meetings]
+# Hours (in sender timezone) you're willing to take meetings.
+day_start = "09:00"
+day_end = "17:00"
+days = [0, 1, 2, 3, 4]
+# How many slots to offer, and how far ahead to look.
+slots_to_offer = 3
+lookahead_business_days = 6
+min_notice_hours = 18
+buffer_minutes = 15
+calendar_id = "primary"
+add_google_meet = true
+
+[models]
+research = "claude-opus-5"
+writing = "claude-opus-5"
+replies = "claude-opus-5"
+# Effort per task: low | medium | high | xhigh | max
+research_effort = "high"
+writing_effort = "high"
+replies_effort = "medium"
+# Upper bound on web searches per prospect research run.
+max_searches = 12
+max_fetches = 10

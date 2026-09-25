@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "outbound"
+version = "0.1.0"
+description = "Outbound sales agent: deep research, personalized email, follow-ups and meeting booking with a human in the loop."
+requires-python = ">=3.11"
+dependencies = [
+  "anthropic>=1.8",
+  "pydantic>=2.7",
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "jinja2>=3.1",
+  "python-multipart>=0.0.9",
+  "google-api-python-client>=2.130",
+  "google-auth>=2.30",
+  "google-auth-oauthlib>=1.2",
+  "tzdata>=2024.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[project.scripts]
+outbound = "outbound.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["outbound*"]
+
+[tool.setuptools.package-data]
+outbound = ["web/templates/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

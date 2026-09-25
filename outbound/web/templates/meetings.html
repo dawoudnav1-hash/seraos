@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Meetings{% endblock %}
+{% block content %}
+<h1>Meetings</h1>
+<div class="card table-wrap"><table>
+<tr><th>When (UTC)</th><th>Who</th><th>Status</th><th>Link</th></tr>
+{% for m in meetings %}
+<tr><td>{{ m.start }}</td><td><a href="/prospects/{{ m.prospect_id }}">{{ m.full_name }}</a> · {{ m.company }}</td>
+<td><span class="chip">{{ m.status }}</span></td><td>{% if m.meet_link %}<a href="{{ m.meet_link }}">{{ m.meet_link }}</a>{% endif %}</td></tr>
+{% else %}<tr><td colspan="4" class="muted">No meetings yet.</td></tr>{% endfor %}
+</table></div>
+{% endblock %}
