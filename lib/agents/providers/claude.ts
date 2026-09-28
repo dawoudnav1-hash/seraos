@@ -104,6 +104,18 @@ const TOOL_SCHEMAS: Record<ToolName, Anthropic.Tool['input_schema']> = {
     required: ['filename', 'title', 'body'],
     properties: { filename: { type: 'string' }, title: { type: 'string' }, body: { type: 'array', items: { type: 'string' } } },
   },
+  renderDocx: {
+    type: 'object',
+    required: ['filename', 'title', 'sections'],
+    properties: {
+      filename: { type: 'string' },
+      title: { type: 'string' },
+      sections: {
+        type: 'array',
+        items: { type: 'object', properties: { heading: { type: 'string' }, paragraphs: { type: 'array', items: { type: 'string' } } } },
+      },
+    },
+  },
   requestHumanInput: { type: 'object', required: ['question'], properties: { question: { type: 'string' } } },
 };
 
@@ -225,7 +237,7 @@ export class ClaudeProvider implements AgentProvider {
           const result = await input.callTool(stepId, tool, args);
           yield { type: 'tool_result', stepId, ok: result.ok, summary: result.summary, toolCallId: call.id, provenance: result.provenance };
           yield { type: 'progress', stepId, pct: Math.round(((stepIndex + 1) / Math.max(1, steps.length)) * 100), note: result.summary };
-          if (result.ok && (tool === 'buildWorkbook' || tool === 'renderPdf')) {
+          if (result.ok && (tool === 'buildWorkbook' || tool === 'renderPdf' || tool === 'renderDocx')) {
             const data = result.data as { url: string; sizeBytes: number };
             const filename = String(args.filename);
             yield {

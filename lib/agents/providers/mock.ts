@@ -2,38 +2,29 @@ import { finalizeEvent } from '../confidence';
 import { SPECIALIST_REGISTRY } from '../specialists';
 import type { AgentInput, AgentProvider } from '../provider';
 import type { AgentEvent, Artifact, Blocker, SpecialistName, Step, ToolName } from '@/lib/domain/types';
-import { MockERP, usd } from '../tools/mock-erp';
-
-interface ScriptedCall {
-  tool: ToolName;
-  args: unknown;
-  /** When the tool produced a file, publish it as an artifact under this name. */
-  artifact?: { filename: string; kind: Artifact['kind'] };
-}
-
-interface ScriptedStep {
-  title: string;
-  agent: SpecialistName;
-  notes: string[];
-  calls: ScriptedCall[];
-  /** Raised after this step's tool calls; the run stops until a human resolves it. */
-  blocker?: Omit<Blocker, 'id' | 'stepId'>;
-}
-
-interface Script {
-  steps: ScriptedStep[];
-  confidence: number;
-  openQuestions: string[];
-  summary: string;
-}
+import { MockERP, runwayMonths, usd } from '../tools/mock-erp';
+import type { Script, ScriptedCall, ScriptedStep } from './script-types';
+import { fixedAssetsScript } from './scripts/fixed-assets';
 
 const tb = MockERP.trialBalance;
+
+/** "$312K" — the compact form the board narrates in. */
+function usdK(cents: number): string {
+  return `$${Math.round(cents / 100_000)}K`;
+}
+
+function mdy(iso: string): string {
+  const [y, m, d] = iso.split('-');
+  return `${Number(m)}/${Number(d)}/${y}`;
+}
 const payroll = MockERP.payroll;
 const j163 = MockERP.section163j;
 const cash = MockERP.cashForecast;
 
 function scriptFor(input: AgentInput): Script {
-  const t = input.task.toLowerCase();
+  const t = `${input.title} ${input.task}`.toLowerCase();
+
+  if (/fixed asset|depreciation schedule/.test(t)) return fixedAssetsScript(input);
 
   if (/three-way/.test(t)) {
     // Once the receiving report is in hand the match is unambiguous.
@@ -76,7 +67,7 @@ function scriptFor(input: AgentInput): Script {
     return {
       confidence: 0.86,
       openQuestions: [],
-      summary: `13-week projection complete: ${cash.runwayMonths}-month runway at current burn.`,
+      summary: `13-week projection complete: ${runwayMonths()}-month runway at current burn.`,
       steps: [
         {
           title: 'Pull opening cash and AR/AP aging',
@@ -139,7 +130,7 @@ function scriptFor(input: AgentInput): Script {
           title: 'Pull source subledger',
           agent: 'LedgerAgent',
           notes: [
-            `Importing payroll register from AOR… ${payroll.employeeCount} employees, gross payroll ${usd(payroll.grossCents)} for period ending 11/15/2025`,
+            `Importing payroll register from ${payroll.source}… ${payroll.employeeCount} employees, gross payroll ${usdK(payroll.grossCents)} for period ending ${mdy(payroll.periodEnding)}`,
           ],
           calls: [{ tool: 'fetchSubledger', args: { name: 'payroll' } }],
         },
@@ -157,7 +148,7 @@ function scriptFor(input: AgentInput): Script {
             {
               tool: 'buildWorkbook',
               args: {
-                filename: 'Payroll_Journal_Entry_2025-11-15.xlsx',
+                filename: `Payroll_Journal_Entry_${payroll.periodEnding}.xlsx`,
                 sheets: [
                   {
                     name: 'Entry',
@@ -173,7 +164,7 @@ function scriptFor(input: AgentInput): Script {
                   },
                 ],
               },
-              artifact: { filename: 'Payroll_Journal_Entry_2025-11-15.xlsx', kind: 'xlsx' },
+              artifact: { filename: `Payroll_Journal_Entry_${payroll.periodEnding}.xlsx`, kind: 'xlsx' },
             },
           ],
         },
@@ -503,7 +494,7 @@ function scriptFor(input: AgentInput): Script {
     return {
       confidence: 0.87,
       openQuestions: [],
-      summary: `Created January 2025 monthly reporting pack across 4 entities. Consolidated P&L, balance sheet, and cash flow with intercompany eliminations. ${cash.runwayMonths}-month runway at current burn.`,
+      summary: `Created January 2025 monthly reporting pack across 4 entities. Consolidated P&L, balance sheet, and cash flow with intercompany eliminations. ${runwayMonths()}-month runway at current burn.`,
       steps: [
         {
           title: 'Consolidate entity trial balances',
@@ -520,7 +511,7 @@ function scriptFor(input: AgentInput): Script {
         {
           title: 'Build pack and board memo',
           agent: 'ReportingAgent',
-          notes: [`Assembling the board pack; ${cash.runwayMonths}-month runway at current burn.`],
+          notes: [`Assembling the board pack; ${runwayMonths()}-month runway at current burn.`],
           calls: [
             {
               tool: 'buildWorkbook',
@@ -557,7 +548,7 @@ function scriptFor(input: AgentInput): Script {
                 body: [
                   'Consolidated results cover four entities with intercompany activity eliminated in a dedicated column.',
                   `Balance sheet foots to ${usd(tb.totals.debits * 100)}.`,
-                  `At the current weekly burn of ${usd(cash.weeklyBurnCents)}, runway is ${cash.runwayMonths} months.`,
+                  `At the current weekly burn of ${usd(cash.weeklyBurnCents)}, runway is ${runwayMonths()} months.`,
                 ],
               },
               artifact: { filename: 'Board_Memo_Jan2025.pdf', kind: 'pdf' },
@@ -636,6 +627,33 @@ function genericScript(input: AgentInput): Script {
     confidence: 0.82,
     openQuestions: [],
     summary: `${input.title} complete. ${steps.length} steps executed by ${input.specialist}.`,
+    clarificationIntro: `Before I start on “${input.title}”, a few questions so the output matches what you need.`,
+    clarificationWhy: 'The period and scope decide which ledger data I pull; the outputs decide what I hand back for your review.',
+    clarifications: [
+      {
+        id: 'gen_q1',
+        phase: 'Understanding',
+        question: 'Which period does this cover?',
+        help: 'For example, April 2026 or Q1 FY26.',
+        known: 'Period: {answer}',
+      },
+      {
+        id: 'gen_q2',
+        phase: 'Scope',
+        question: 'Which entities or accounts are in scope?',
+        help: 'Name the entity, or say “all” to include every entity in the ledger.',
+        known: 'Scope: {answer}',
+      },
+      {
+        id: 'gen_q3',
+        phase: 'Outputs',
+        question: 'What should I hand back?',
+        help: 'A workbook, a memo, draft journal entries — or a mix.',
+        known: 'Outputs: {answer}',
+      },
+    ],
+    assumptions: Object.entries(input.answers ?? {}).map(([, a]) => `Taken from your answer: ${a}`),
+    findings: [`${input.specialist} executed ${steps.length} steps against the ${tb.period} trial balance, which foots to ${usd(tb.totals.debits * 100)}.`],
   };
 }
 
@@ -653,6 +671,20 @@ export class MockProvider implements AgentProvider {
     const tick = this.opts.tickMs ?? 0;
     const script = scriptFor(input);
     const spec = SPECIALIST_REGISTRY[input.specialist];
+
+    // Ask before acting: until every clarifying question has an answer, the run waits.
+    if (script.clarifications?.length) {
+      const answered = script.clarifications.every((q) => input.answers?.[q.id]);
+      if (!answered) {
+        yield {
+          type: 'clarification_requested',
+          intro: script.clarificationIntro ?? '',
+          why: script.clarificationWhy,
+          questions: script.clarifications,
+        };
+        return;
+      }
+    }
     const steps: Step[] = script.steps.map((s, i) => ({
       id: `${input.runId}_s${i + 1}`,
       title: s.title,
@@ -661,7 +693,7 @@ export class MockProvider implements AgentProvider {
       status: 'pending',
     }));
 
-    yield { type: 'plan_created', steps };
+    yield { type: 'plan_created', steps, scope: script.scope, reasoning: script.reasoning };
     await wait(tick);
 
     const total = steps.length;
@@ -688,7 +720,16 @@ export class MockProvider implements AgentProvider {
           stepId: step.id,
           ok: result.ok,
           summary: result.summary,
-          provenance: result.provenance,
+          provenance: [...result.provenance, ...(call.provenance ?? []).map((p, k) => ({
+            id: `prov_${step.id}_${call.tool}_${k}`,
+            label: p.label,
+            value: p.value,
+            note: p.note,
+            stepId: step.id,
+            tool: call.tool,
+            toolCallId: result.provenance[0]?.toolCallId ?? `${step.id}_${call.tool}`,
+          }))],
+          table: call.table ? { ...call.table, stepId: step.id, tool: call.tool } : undefined,
         };
         if (result.ok && call.artifact) {
           const data = result.data as { url: string; sizeBytes: number };
@@ -701,6 +742,7 @@ export class MockProvider implements AgentProvider {
               sizeBytes: data.sizeBytes,
               url: data.url,
               generatedBy: scripted.agent,
+              ...previewOf(call),
             },
           };
         }
@@ -719,14 +761,28 @@ export class MockProvider implements AgentProvider {
       await wait(tick);
     }
 
-    yield finalizeEvent({
+    const final = finalizeEvent({
       runId: input.runId,
       stepId: steps[steps.length - 1]?.id ?? '',
       summary: script.summary,
       confidence: script.confidence,
       openQuestions: script.openQuestions,
     });
+    yield final.type === 'run_completed' ? { ...final, findings: script.findings, assumptions: script.assumptions } : final;
   }
+}
+
+/** The rows or paragraphs a file was written from, kept for in-app preview. */
+function previewOf(call: ScriptedCall) {
+  const args = call.args as {
+    sheets?: { name: string; rows: (string | number)[][] }[];
+    body?: string[];
+    sections?: { heading: string; paragraphs: string[] }[];
+  };
+  if (args.sheets) return { sheets: args.sheets.map((s) => ({ name: s.name, rows: s.rows.slice(0, 200) })) };
+  if (args.body) return { paragraphs: args.body };
+  if (args.sections) return { paragraphs: args.sections.flatMap((s) => [`§ ${s.heading}`, ...s.paragraphs]) };
+  return {};
 }
 
 function wait(ms: number): Promise<void> {

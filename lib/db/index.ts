@@ -15,7 +15,7 @@ function createDb() {
 export function migrate(sqlite: Database.Database) {
   sqlite.exec(`
     CREATE TABLE IF NOT EXISTS runs (
-      id TEXT PRIMARY KEY, title TEXT NOT NULL, task TEXT NOT NULL,
+      id TEXT PRIMARY KEY, title TEXT NOT NULL, task TEXT NOT NULL, client TEXT NOT NULL DEFAULT '',
       status TEXT NOT NULL, agent TEXT NOT NULL,
       created_at INTEGER NOT NULL, updated_at INTEGER NOT NULL);
     CREATE TABLE IF NOT EXISTS run_events (
@@ -29,6 +29,10 @@ export function migrate(sqlite: Database.Database) {
       id TEXT PRIMARY KEY, run_id TEXT NOT NULL, approval_id TEXT NOT NULL, memo TEXT NOT NULL,
       amount_cents INTEGER NOT NULL, posted_at INTEGER NOT NULL);
   `);
+  const cols = sqlite.prepare(`PRAGMA table_info(runs)`).all() as { name: string }[];
+  if (!cols.some((c) => c.name === 'client')) {
+    sqlite.exec(`ALTER TABLE runs ADD COLUMN client TEXT NOT NULL DEFAULT ''`);
+  }
 }
 
 declare global {

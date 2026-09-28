@@ -4,7 +4,8 @@ import type { RunStatus } from './types';
 export type Actor = 'orchestrator' | 'human';
 
 const ORCHESTRATOR_EDGES: Record<RunStatus, RunStatus[]> = {
-  queued: ['planning', 'failed'],
+  queued: ['clarifying', 'planning', 'failed'],
+  clarifying: ['planning', 'failed'],
   planning: ['executing', 'blocked', 'failed'],
   executing: ['planning', 'blocked', 'review_ready', 'failed'],
   blocked: ['executing', 'failed'],
@@ -18,6 +19,7 @@ const ORCHESTRATOR_EDGES: Record<RunStatus, RunStatus[]> = {
 
 const HUMAN_EDGES: Record<RunStatus, RunStatus[]> = {
   queued: ['archived'],
+  clarifying: ['archived'],
   planning: ['archived'],
   executing: ['blocked', 'archived'],
   blocked: ['archived'],
@@ -52,7 +54,7 @@ export class TransitionError extends Error {
 /** Human-readable reason a drag was refused, for the toast. */
 export function explainRefusal(from: RunStatus, to: RunStatus, actor: Actor): string {
   if (canTransition(from, to, actor)) return '';
-  if (actor === 'human' && (to === 'executing' || to === 'planning' || to === 'queued')) {
+  if (actor === 'human' && (to === 'executing' || to === 'planning' || to === 'queued' || to === 'clarifying')) {
     return 'Only the orchestrator moves work forward — you can’t drag a run into In Progress.';
   }
   if (actor === 'human' && to === 'approved' && from === 'review_ready') {

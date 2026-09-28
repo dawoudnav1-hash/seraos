@@ -1,7 +1,7 @@
-import { and, asc, eq } from 'drizzle-orm';
+import { asc, eq } from 'drizzle-orm';
 import { db, schema } from '@/lib/db';
 import { applyEvent, emptyRun, type RunEvent, type RunSeed } from '@/lib/domain/reducer';
-import type { RunView, SpecialistName } from '@/lib/domain/types';
+import { APPROVALS_REQUIRED, type RunView, type SpecialistName } from '@/lib/domain/types';
 
 export type Listener = (runId: string, event: RunEvent, run: RunView) => void;
 const listeners = new Set<Listener>();
@@ -11,12 +11,20 @@ export function subscribe(fn: Listener): () => void {
   return () => listeners.delete(fn);
 }
 
-export function createRun(seed: { id: string; title: string; task: string; agent: SpecialistName; createdAt?: number }): RunView {
+export function createRun(seed: {
+  id: string;
+  title: string;
+  task: string;
+  client?: string;
+  agent: SpecialistName;
+  createdAt?: number;
+}): RunView {
   const at = seed.createdAt ?? Date.now();
+  const client = seed.client ?? '';
   db.insert(schema.runs)
-    .values({ id: seed.id, title: seed.title, task: seed.task, status: 'queued', agent: seed.agent, createdAt: at, updatedAt: at })
+    .values({ id: seed.id, title: seed.title, task: seed.task, client, status: 'queued', agent: seed.agent, createdAt: at, updatedAt: at })
     .run();
-  return emptyRun({ ...seed, createdAt: at });
+  return emptyRun({ ...seed, client, createdAt: at });
 }
 
 export function appendEvent(runId: string, event: RunEvent, at = Date.now()): RunView {
@@ -38,6 +46,7 @@ export function getRun(runId: string): RunView | null {
     id: row.id,
     title: row.title,
     task: row.task,
+    client: row.client,
     agent: row.agent as SpecialistName,
     createdAt: row.createdAt,
   };
@@ -61,13 +70,14 @@ export function listRuns(): RunView[] {
     .sort((a, b) => b.updatedAt - a.updatedAt);
 }
 
+let approvalSeq = 0;
 export function recordApproval(input: {
   runId: string;
   decision: 'approved' | 'rejected';
   reason?: string;
   decidedBy: string;
 }): { id: string } {
-  const id = `apr_${input.runId}_${Date.now().toString(36)}`;
+  const id = `apr_${input.runId}_${Date.now().toString(36)}_${++approvalSeq}`;
   db.insert(schema.approvals)
     .values({
       id,
@@ -81,13 +91,23 @@ export function recordApproval(input: {
   return { id };
 }
 
+/**
+ * The approval that clears a run to post — which exists only once two different
+ * people have approved it. One sign-off, or the same person twice, is not enough.
+ */
 export function findApproval(runId: string) {
-  const row = db
-    .select()
-    .from(schema.approvals)
-    .where(and(eq(schema.approvals.runId, runId), eq(schema.approvals.decision, 'approved')))
-    .get();
-  return row ? { id: row.id, runId: row.runId, decision: 'approved' as const, decidedBy: row.decidedBy } : null;
+  const rows = db.select().from(schema.approvals).where(eq(schema.approvals.runId, runId)).all();
+  // A rejection voids every sign-off before it; the reopened run starts from zero.
+  const lastRejection = rows.map((r) => r.decision).lastIndexOf('rejected');
+  const current = rows.slice(lastRejection + 1).filter((r) => r.decision === 'approved');
+  const approvers = new Set(current.map((r) => r.decidedBy));
+  if (approvers.size < APPROVALS_REQUIRED) return null;
+  const last = current[current.length - 1];
+  return { id: last.id, runId: last.runId, decision: 'approved' as const, decidedBy: [...approvers].join(' + ') };
+}
+
+export function approvalsFor(runId: string) {
+  return db.select().from(schema.approvals).where(eq(schema.approvals.runId, runId)).all();
 }
 
 export function recordPosting(input: { runId: string; approvalId: string; memo: string; amountCents: number }) {

@@ -5,6 +5,7 @@ export const runs = sqliteTable('runs', {
   id: text('id').primaryKey(),
   title: text('title').notNull(),
   task: text('task').notNull(),
+  client: text('client').notNull().default(''),
   status: text('status').notNull(),
   agent: text('agent').notNull(),
   createdAt: integer('created_at').notNull(),

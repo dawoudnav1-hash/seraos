@@ -5,10 +5,12 @@ import { ApprovalRequiredError, type ToolContext, type ToolResult } from './tool
 import { appendEvent, createRun, findApproval, getRun, recordApproval, recordPosting } from './store';
 import { assertTransition } from '@/lib/domain/state-machine';
 import type { AgentEvent, RunView, SpecialistName, ToolName } from '@/lib/domain/types';
+import { CURRENT_USER, person } from '@/lib/domain/people';
 
 export interface StartRunInput {
   title: string;
   task: string;
+  client?: string;
   specialist?: SpecialistName;
   id?: string;
   createdAt?: number;
@@ -60,7 +62,7 @@ export async function callTool(
 export async function startRun(input: StartRunInput, provider?: AgentProvider): Promise<RunView> {
   const specialist = input.specialist ?? routeTask(`${input.title} ${input.task}`);
   const id = input.id ?? newRunId();
-  createRun({ id, title: input.title, task: input.task, agent: specialist, createdAt: input.createdAt });
+  createRun({ id, title: input.title, task: input.task, client: input.client, agent: specialist, createdAt: input.createdAt });
   return drive(id, specialist, input.task, input.title, provider, input.instruction);
 }
 
@@ -85,6 +87,9 @@ async function drive(
 ): Promise<RunView> {
   const p = provider ?? (await getProvider());
   let latest = getRun(runId)!;
+  const answers = Object.fromEntries(
+    latest.clarifications.filter((q) => q.answer !== null).map((q) => [q.id, q.answer as string]),
+  );
   try {
     const stream = p.runAgent({
       runId,
@@ -93,6 +98,8 @@ async function drive(
       specialist,
       instruction,
       resolvedBlockerIds,
+      answers,
+      contextFiles: latest.contextFiles,
       callTool: (stepId, tool, args) => callTool(runId, specialist, stepId, tool, args),
     });
     for await (const event of stream) {
@@ -117,6 +124,8 @@ function persist(runId: string, event: AgentEvent): RunView {
 
 function targetStatus(event: AgentEvent) {
   switch (event.type) {
+    case 'clarification_requested':
+      return 'clarifying' as const;
     case 'plan_created':
       return 'planning' as const;
     case 'step_started':
@@ -142,19 +151,53 @@ export function markViewed(runId: string): RunView {
   return appendEvent(runId, { type: 'human_viewed' });
 }
 
-export function approveRun(runId: string, decidedBy = 'Alex Morgan'): RunView {
+/**
+ * One sign-off. The run finalizes only when a second, different approver signs
+ * too — the same person approving twice is refused.
+ */
+export function approveRun(runId: string, approver: { name: string; role: string } = CURRENT_USER): RunView {
   const run = requireRun(runId);
   assertTransition(run.status, 'approved', 'human');
-  recordApproval({ runId, decision: 'approved', decidedBy });
-  return appendEvent(runId, { type: 'human_approved' });
+  const who = person(approver.name);
+  if (who && !who.canApprove) throw new Error(`${who.name} is a ${who.role} and cannot approve workpapers.`);
+  if (run.approvals.some((a) => a.by === approver.name)) {
+    throw new Error(`${approver.name} has already approved this. A second, different reviewer must sign off.`);
+  }
+  recordApproval({ runId, decision: 'approved', decidedBy: approver.name });
+  return appendEvent(runId, { type: 'human_approved', by: approver.name, role: approver.role });
 }
 
-export function rejectRun(runId: string, reason: string, decidedBy = 'Alex Morgan'): RunView {
+/** Records a human answer; once every question is answered the run plans and executes. */
+export async function answerClarification(
+  runId: string,
+  questionId: string,
+  answer: string,
+  provider?: AgentProvider,
+): Promise<RunView> {
+  if (!answer.trim()) throw new Error('Type an answer before sending.');
+  const run = requireRun(runId);
+  if (run.status !== 'clarifying') throw new Error('This workflow is not waiting on clarifications.');
+  const q = run.clarifications.find((c) => c.id === questionId);
+  if (!q) throw new Error(`Unknown question ${questionId}.`);
+  if (q.answer !== null) throw new Error('That question is already answered.');
+  const next = appendEvent(runId, { type: 'clarification_answered', questionId, answer: answer.trim() });
+  if (next.clarifications.every((c) => c.answer !== null)) {
+    return drive(runId, next.agent, next.task, next.title, provider);
+  }
+  return next;
+}
+
+export function uploadContext(runId: string, filename: string): RunView {
+  requireRun(runId);
+  return appendEvent(runId, { type: 'context_uploaded', filename });
+}
+
+export function rejectRun(runId: string, reason: string, decidedBy = CURRENT_USER.name): RunView {
   if (!reason.trim()) throw new Error('A rejection needs a reason — it becomes the agent’s next instruction.');
   const run = requireRun(runId);
   assertTransition(run.status, 'rejected', 'human');
   recordApproval({ runId, decision: 'rejected', reason, decidedBy });
-  return appendEvent(runId, { type: 'human_rejected', reason });
+  return appendEvent(runId, { type: 'human_rejected', reason, by: decidedBy });
 }
 
 /** Rejecting reopens the run with the reason as a fresh instruction. */

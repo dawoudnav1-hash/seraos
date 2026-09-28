@@ -10,6 +10,10 @@ export interface AgentInput {
   instruction?: string;
   /** Set once a human has resolved the blocker that stopped this run. */
   resolvedBlockerIds?: string[];
+  /** Answers to the clarifying questions, keyed by question id. */
+  answers?: Record<string, string>;
+  /** Files the human attached as context. */
+  contextFiles?: string[];
   /**
    * Tool execution belongs to the orchestrator, not the model: allow-listing and
    * the approval gate must hold whichever provider is in play.
@@ -32,7 +36,8 @@ export async function getProvider(): Promise<AgentProvider> {
     cached = new ClaudeProvider(process.env.ANTHROPIC_API_KEY);
   } else {
     const { MockProvider } = await import('./providers/mock');
-    cached = new MockProvider();
+    // Paced so a person can watch a run stream in; tests construct their own at 0ms.
+    cached = new MockProvider({ tickMs: Number(process.env.VERT_TICK_MS ?? 650) });
   }
   return cached;
 }

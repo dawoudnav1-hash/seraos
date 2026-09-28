@@ -164,6 +164,36 @@ export const renderPdf: Tool<{ filename: string; title: string; body: string[] }
   },
 };
 
+export const renderDocx: Tool<
+  { filename: string; title: string; sections: { heading: string; paragraphs: string[] }[] },
+  { url: string; sizeBytes: number }
+> = {
+  name: 'renderDocx',
+  mutating: false,
+  async run(args, ctx) {
+    const { Document, HeadingLevel, Packer, Paragraph, TextRun } = await import('docx');
+    const children = [
+      new Paragraph({ heading: HeadingLevel.TITLE, children: [new TextRun(args.title)] }),
+      ...args.sections.flatMap((section) => [
+        new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun(section.heading)] }),
+        ...section.paragraphs.map((p) => new Paragraph({ children: [new TextRun(p)], spacing: { after: 120 } })),
+      ]),
+    ];
+    const doc = new Document({ creator: 'Vert', title: args.title, sections: [{ children }] });
+    await fs.mkdir(ARTIFACT_DIR, { recursive: true });
+    const out = path.join(ARTIFACT_DIR, args.filename);
+    await fs.writeFile(out, await Packer.toBuffer(doc));
+    const { size } = await fs.stat(out);
+    const id = nextToolCallId();
+    return {
+      ok: true,
+      summary: `Wrote ${args.filename}.`,
+      data: { url: `/artifacts/${args.filename}`, sizeBytes: size },
+      provenance: [provenance(ctx, 'renderDocx', id, 'Document', args.filename)],
+    };
+  },
+};
+
 export const requestHumanInput: Tool<{ question: string }, { question: string }> = {
   name: 'requestHumanInput',
   mutating: false,
@@ -199,6 +229,7 @@ export const TOOLS = {
   postJournalEntry,
   buildWorkbook,
   renderPdf,
+  renderDocx,
   requestHumanInput,
 } as const;
 

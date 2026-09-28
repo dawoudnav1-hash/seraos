@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { listRuns, startRun } from '@/lib/agents/orchestrator';
+import { getRun, listRuns, newRunId, startRun } from '@/lib/agents/orchestrator';
 
 export const dynamic = 'force-dynamic';
 
@@ -8,13 +8,14 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
-  const body = (await req.json()) as { title?: string; task?: string };
-  if (!body.task?.trim()) return NextResponse.json({ error: 'A task is required.' }, { status: 400 });
+  const body = (await req.json()) as { title?: string; task?: string; client?: string };
+  if (!body.task?.trim()) return NextResponse.json({ error: 'Describe what the workflow should do.' }, { status: 400 });
   const title = body.title?.trim() || toTitle(body.task);
+  const id = newRunId();
   // Streams in the background; the client watches /api/stream.
-  const started = startRun({ title, task: body.task });
-  const run = await Promise.race([started, waitForCreation(started)]);
-  return NextResponse.json({ run });
+  const started = startRun({ id, title, task: body.task, client: body.client?.trim() || 'Brevard Logistics' });
+  await Promise.race([started, waitForCreation(started)]);
+  return NextResponse.json({ id, run: getRun(id) });
 }
 
 function toTitle(task: string): string {

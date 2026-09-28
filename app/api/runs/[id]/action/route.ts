@@ -11,12 +11,13 @@ import {
 } from '@/lib/agents/orchestrator';
 import { canTransition, explainRefusal } from '@/lib/domain/state-machine';
 import type { RunStatus } from '@/lib/domain/types';
+import { CURRENT_USER, person } from '@/lib/domain/people';
 
 export const dynamic = 'force-dynamic';
 
 type Body =
   | { action: 'view' }
-  | { action: 'approve' }
+  | { action: 'approve'; approver?: string }
   | { action: 'reject'; reason: string }
   | { action: 'send_back'; note: string }
   | { action: 'resolve_blocker'; note?: string }
@@ -33,8 +34,10 @@ export async function POST(req: Request, ctx: { params: Promise<{ id: string }> 
     switch (body.action) {
       case 'view':
         return NextResponse.json({ run: markViewed(id) });
-      case 'approve':
-        return NextResponse.json({ run: approveRun(id) });
+      case 'approve': {
+        const who = person(body.approver ?? CURRENT_USER.id) ?? CURRENT_USER;
+        return NextResponse.json({ run: approveRun(id, { name: who.name, role: who.role }) });
+      }
       case 'reject': {
         const rejected = rejectRun(id, body.reason);
         void reopenRun(id).catch(() => undefined);

@@ -6,3 +6,4 @@ vert.db-*
 public/artifacts/*
 !public/artifacts/.gitkeep
 .env.local
+uploads

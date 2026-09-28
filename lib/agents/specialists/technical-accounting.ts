@@ -10,7 +10,7 @@ export const technicalOutputSchema = specialistOutputBase.extend({
 
 export const TechnicalAccountingAgent: Specialist<typeof technicalOutputSchema> = {
   name: 'TechnicalAccountingAgent',
-  tools: ['parseDocument', 'fetchSubledger', 'renderPdf', 'buildWorkbook'],
+  tools: ['parseDocument', 'fetchSubledger', 'renderPdf', 'renderDocx', 'buildWorkbook'],
   systemPrompt:
     'You write technical accounting memos under ASC 606, ASC 842 and ASC 450. ' +
     'Every conclusion carries a codification citation. Where the standard requires judgment, ' +

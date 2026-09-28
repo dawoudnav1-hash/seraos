@@ -9,7 +9,7 @@ import { useBoard } from '@/lib/store/board';
 import type { RunStatus, RunView } from '@/lib/domain/types';
 import { RunCard } from './run-card';
 
-const DOT_CLASS = { none: 'bg-neutral-300', red: 'bg-red-500', green: 'bg-emerald-500', gray: 'bg-neutral-400' } as const;
+const DOT_CLASS = { none: '', red: 'bg-red-500', green: 'bg-emerald-500', gray: '' } as const;
 
 /** The status a human drop implies for each column. */
 const DROP_TARGET: Record<string, RunStatus> = {
@@ -21,26 +21,23 @@ const DROP_TARGET: Record<string, RunStatus> = {
 
 function Column({ id, label, dot, runs, now }: { id: string; label: string; dot: keyof typeof DOT_CLASS; runs: RunView[]; now: number }) {
   const { setNodeRef, isOver } = useDroppable({ id });
-  const openRun = useBoard((s) => s.openRun);
 
   return (
     <section
       ref={setNodeRef}
       className={cn(
-        'flex h-full w-[300px] shrink-0 flex-col rounded-2xl border border-black/[0.07] bg-white/40 transition',
-        isOver && 'border-neutral-300 bg-white',
+        'flex w-[300px] shrink-0 flex-col rounded-2xl border border-line bg-white/60 transition',
+        isOver && 'border-accent-line bg-accent-soft/40',
       )}
     >
       <header className="flex items-center gap-2 px-4 py-3.5">
-        <span className={cn('h-[7px] w-[7px] rounded-full', DOT_CLASS[dot])} />
-        <h2 className="text-[13.5px] font-medium text-neutral-800">{label}</h2>
-        <span className="rounded-md bg-neutral-100 px-1.5 py-0.5 text-[11.5px] font-medium text-neutral-500">{runs.length}</span>
+        {DOT_CLASS[dot] && <span className={cn('h-[7px] w-[7px] rounded-full', DOT_CLASS[dot])} />}
+        <h2 className="text-[14px] font-medium text-ink">{label}</h2>
+        <span className="rounded-md bg-neutral-100 px-1.5 py-0.5 text-[11.5px] font-medium tabular-nums text-muted">{runs.length}</span>
       </header>
-      <div className="scroll-thin flex-1 space-y-2.5 overflow-y-auto px-2.5 pb-3">
+      <div className="space-y-2.5 px-2.5 pb-3">
         {runs.map((run) => (
-          <div key={run.id} onClick={() => openRun(run.id)}>
-            <RunCard run={run} column={id} now={now} />
-          </div>
+          <RunCard key={run.id} run={run} now={now} />
         ))}
       </div>
     </section>
@@ -89,7 +86,7 @@ export function Board({ runs }: { runs: RunView[] }) {
       onDragCancel={() => setDragging(null)}
       onDragEnd={onDragEnd}
     >
-      <div className="scroll-thin flex h-full gap-4 overflow-x-auto pb-2">
+      <div className="scroll-thin flex items-start gap-3 overflow-x-auto pb-6">
         {BOARD_COLUMNS.map((c) => (
           <Column key={c.id} id={c.id} label={c.label} dot={c.dot} runs={byColumn[c.id] ?? []} now={now} />
         ))}
@@ -97,7 +94,7 @@ export function Board({ runs }: { runs: RunView[] }) {
       <DragOverlay dropAnimation={null}>
         {dragging ? (
           <div className="w-[280px] rotate-1">
-            <RunCard run={dragging} column={columnFor(dragging.status) ?? 'in_progress'} now={now} />
+            <RunCard run={dragging} now={now} />
           </div>
         ) : null}
       </DragOverlay>

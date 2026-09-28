@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { applyEvent, emptyRun, replay, columnFor, type RunEvent } from '@/lib/domain/reducer';
 import type { Step } from '@/lib/domain/types';
 
-const seed = { id: 'run_1', title: 'Book Payroll Journal Entry', task: 'book payroll', agent: 'LedgerAgent' as const, createdAt: 1000 };
+const seed = { id: 'run_1', title: 'Book Payroll Journal Entry', task: 'book payroll', client: 'Sable Creek Properties LLC', agent: 'LedgerAgent' as const, createdAt: 1000 };
 const steps: Step[] = [
   { id: 's1', title: 'Pull register', agent: 'LedgerAgent', tools: ['fetchSubledger'], status: 'pending' },
   { id: 's2', title: 'Draft entry', agent: 'LedgerAgent', tools: ['fetchTrialBalance'], status: 'pending' },
