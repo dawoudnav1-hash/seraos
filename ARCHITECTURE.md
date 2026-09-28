@@ -26,6 +26,8 @@ User request
                    → 4 reasonableness (history) ── fail: retry ≤2, then escalate to a human
                                                                         │
      Confidence gate by materiality ─► review (1 or 2 approvals) ─► deterministic posting (QuickBooks / Xero)
+
+     Reads never hit the ledger API: QuickBooks / Xero ─► sync ─► Postgres ledger warehouse ─► agents
                                                                         │
      Audit trail on every retrieval, computation, proposal, check, approval, post
 ```
@@ -56,8 +58,9 @@ reconciliations, journal entries, schedules, analysis, documents, workflow reuse
 | Agent learning | Human corrections become rule candidates; promoted to deterministic rules after repeated confirmation | `lib/memory/learning.ts` |
 | Model routing | Frontier model only for planning, ambiguity and narrative; small model for extraction/OCR; no model for math, matching or JE construction | `lib/agents/routing.ts` |
 | Single query agent | "Ask anything" questions answered from the ledger, ontology and context graph with citations, or "I don't know" | `lib/agents/query.ts` |
-| Postgres | Structured platform data users can reference in ad-hoc tasks. Embedded PGlite locally, `DATABASE_URL` for a server | `lib/db` |
-| QuickBooks Online + Xero connectors | Pull GL/bank data; post approved JEs and transactions deterministically, idempotently | `lib/integrations` |
+| Postgres ledger warehouse | When a user connects QuickBooks or Xero, their books sync into structured, normalized tables (companies, chart of accounts, contacts, journal entries and lines, bank transactions, open AR/AP, periods, balances by period). Agents query the warehouse, never the ledger API, so reads are fast, repeatable and citable. Incremental sync keeps it current (QuickBooks change-data-capture, Xero modified-since/journal paging) | `lib/ledger` |
+| Postgres platform tables | Runs and their event log, approvals, postings, context graph, memory, learned rules, connections. Embedded PGlite locally, `DATABASE_URL` for a server | `lib/db` |
+| QuickBooks Online + Xero connectors | OAuth, sync into the warehouse, and deterministic, idempotent posting of approved entries back to the ledger — the only write path | `lib/integrations` |
 
 ### Not needed now
 
