@@ -5,7 +5,9 @@
  * Append only: never edit or reorder a shipped entry; add a new one instead.
  * Keep lib/db/schema.ts in step (tests/db.test.ts checks the two agree).
  */
-export const MIGRATIONS: { id: string; sql: string }[] = [
+import { LEDGER_MIGRATIONS } from '@/lib/ledger/ddl';
+
+const PLATFORM_MIGRATIONS: { id: string; sql: string }[] = [
   {
     id: '0001_runs',
     sql: `
@@ -146,6 +148,15 @@ export const MIGRATIONS: { id: string; sql: string }[] = [
       );
     `,
   },
+];
+
+/**
+ * Platform tables, then the ledger warehouse synced from QuickBooks/Xero. Ledger
+ * ids are namespaced so the two lists can grow independently.
+ */
+export const MIGRATIONS: { id: string; sql: string }[] = [
+  ...PLATFORM_MIGRATIONS,
+  ...LEDGER_MIGRATIONS.map((m) => ({ id: `ledger/${m.id}`, sql: m.sql })),
 ];
 
 /** Created before anything else so applied migrations can be recorded. */

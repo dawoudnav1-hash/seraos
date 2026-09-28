@@ -10,6 +10,7 @@ const db = await useTestDb();
 const { closeDb, getDb, schema, DbLockedError } = await import('@/lib/db');
 const { MIGRATIONS } = await import('@/lib/db/migrations');
 const store = await import('@/lib/agents/store');
+const ledgerSchema = await import('@/lib/ledger/schema');
 
 let runSeq = 0;
 async function newRun() {
@@ -18,7 +19,12 @@ async function newRun() {
 }
 
 describe('schema', () => {
-  const tables = Object.values(schema).filter((t) => is(t, PgTable)) as PgTable[];
+  // Platform tables and the ledger warehouse both come up from MIGRATIONS.
+  const tables = [...Object.values(schema), ...Object.values(ledgerSchema)].filter((t) => is(t, PgTable)) as PgTable[];
+
+  it('creates the ledger warehouse tables', () => {
+    expect(tables.map((t) => getTableConfig(t).name)).toEqual(expect.arrayContaining(['ledger_accounts', 'ledger_lines', 'ledger_sync_state']));
+  });
 
   it('applies every migration and records it', async () => {
     const rows = await db.select().from(schema.schemaMigrations).orderBy(asc(schema.schemaMigrations.id));

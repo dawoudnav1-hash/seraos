@@ -225,7 +225,7 @@ export const ledgerPeriods = pgTable(
     closedAt: timestamp('closed_at', { withTimezone: true }),
   },
   (t) => ({
-    pk: primaryKey({ columns: [t.companyId, t.period] }),
+    pk: primaryKey({ name: 'ledger_periods_pkey', columns: [t.companyId, t.period] }),
   }),
 );
 
@@ -251,7 +251,7 @@ export const ledgerAccountBalances = pgTable(
     computedAt: timestamp('computed_at', { withTimezone: true }).notNull().defaultNow(),
   },
   (t) => ({
-    pk: primaryKey({ columns: [t.companyId, t.accountId, t.period] }),
+    pk: primaryKey({ name: 'ledger_account_balances_pkey', columns: [t.companyId, t.accountId, t.period] }),
     byCompanyPeriod: index('ledger_account_balances_company_period_idx').on(t.companyId, t.period),
   }),
 );
@@ -271,6 +271,6 @@ export const ledgerSyncState = pgTable(
     error: text('error'),
   },
   (t) => ({
-    pk: primaryKey({ columns: [t.companyId, t.entity] }),
+    pk: primaryKey({ name: 'ledger_sync_state_pkey', columns: [t.companyId, t.entity] }),
   }),
 );
