@@ -13,7 +13,7 @@ export async function POST(req: Request, ctx: { params: Promise<{ id: string }> 
     // Planning can take a while; return once the answer is recorded.
     await Promise.race([pending, new Promise((r) => setTimeout(r, 150))]);
     void pending.catch(() => undefined);
-    return NextResponse.json({ run: getRun(id) });
+    return NextResponse.json({ run: await getRun(id) });
   } catch (err) {
     return NextResponse.json({ error: err instanceof Error ? err.message : String(err) }, { status: 409 });
   }

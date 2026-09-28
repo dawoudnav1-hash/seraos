@@ -8,7 +8,7 @@ export async function GET() {
   let unsubscribe = () => {};
 
   const stream = new ReadableStream({
-    start(controller) {
+    async start(controller) {
       const send = (event: string, data: unknown) => {
         try {
           controller.enqueue(encoder.encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`));
@@ -16,14 +16,28 @@ export async function GET() {
           unsubscribe();
         }
       };
-      send('snapshot', { runs: listRuns() });
-      unsubscribe = subscribe((runId, event, run) => send('run', { runId, event, run }));
+      // Listen before reading the snapshot so nothing that lands meanwhile is lost;
+      // hold those events until the snapshot has gone out.
+      let held: unknown[] | null = [];
+      const stop = subscribe((runId, event, run) => {
+        const payload = { runId, event, run };
+        if (held) held.push(payload);
+        else send('run', payload);
+      });
       const beat = setInterval(() => send('ping', { at: Date.now() }), 20_000);
-      const stop = unsubscribe;
       unsubscribe = () => {
         clearInterval(beat);
         stop();
       };
+      try {
+        send('snapshot', { runs: await listRuns() });
+      } catch (err) {
+        unsubscribe();
+        controller.error(err);
+        return;
+      }
+      for (const payload of held) send('run', payload);
+      held = null;
     },
     cancel() {
       unsubscribe();

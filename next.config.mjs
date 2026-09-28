@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  serverExternalPackages: ['better-sqlite3', 'exceljs', 'pdf-lib'],
+  serverExternalPackages: ['@electric-sql/pglite', 'pg', 'exceljs', 'pdf-lib'],
 };
 export default nextConfig;
