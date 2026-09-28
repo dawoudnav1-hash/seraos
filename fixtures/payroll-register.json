@@ -1,0 +1,297 @@
+{
+  "periodEnding": "2025-01-31",
+  "employeeCount": 47,
+  "grossCents": 31200000,
+  "withholdings": {
+    "ficaCents": 2386800,
+    "federalCents": 4368000,
+    "stateCents": 1404000,
+    "retirement401kCents": 1248000
+  },
+  "netCents": 21793200,
+  "employees": [
+    {
+      "employeeId": "E1001",
+      "name": "Ava Vance",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1002",
+      "name": "Noah Okafor",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1003",
+      "name": "Mia Nguyen",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1004",
+      "name": "Liam Hale",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1005",
+      "name": "Ivy Ibarra",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1006",
+      "name": "Ezra Sato",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1007",
+      "name": "Zoe Bello",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1008",
+      "name": "Kai Quist",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1009",
+      "name": "Nora Marsh",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1010",
+      "name": "Owen Adeyemi",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1011",
+      "name": "Leo Roth",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1012",
+      "name": "Ruth Calder",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1013",
+      "name": "Jonah Osei",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1014",
+      "name": "Elsie Bianchi",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1015",
+      "name": "Cole Frey",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1016",
+      "name": "Nina Novak",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1017",
+      "name": "Reid Duarte",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1018",
+      "name": "Faye Lind",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1019",
+      "name": "Otis Payne",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1020",
+      "name": "Hana Aziz",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1021",
+      "name": "Milo Croft",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1022",
+      "name": "Wren Mensah",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1023",
+      "name": "Dean Ward",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1024",
+      "name": "Iris Suh",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1025",
+      "name": "Gus Kato",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1026",
+      "name": "Tess Ellis",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1027",
+      "name": "Rhys Baros",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1028",
+      "name": "Vera Fiore",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1029",
+      "name": "Beau Dunn",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1030",
+      "name": "Lena Sole",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1031",
+      "name": "Cy Grant",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1032",
+      "name": "Opal Ames",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1033",
+      "name": "Jude Rios",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1034",
+      "name": "Marta Klein",
+      "department": "Sales",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1035",
+      "name": "Finn Voss",
+      "department": "G&A",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1036",
+      "name": "Sadie Petit",
+      "department": "Operations",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1037",
+      "name": "Nate Hoyt",
+      "department": "Engineering",
+      "grossCents": 663830
+    },
+    {
+      "employeeId": "E1038",
+      "name": "Bree Arden",
+      "department": "Sales",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1039",
+      "name": "Sam Lang",
+      "department": "G&A",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1040",
+      "name": "Paz Bruhn",
+      "department": "Operations",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1041",
+      "name": "Levi Neal",
+      "department": "Engineering",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1042",
+      "name": "Tori Tamm",
+      "department": "Sales",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1043",
+      "name": "Rex Gill",
+      "department": "G&A",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1044",
+      "name": "Juno Pike",
+      "department": "Operations",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1045",
+      "name": "Ike Rowe",
+      "department": "Engineering",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1046",
+      "name": "Delia Sena",
+      "department": "Sales",
+      "grossCents": 663829
+    },
+    {
+      "employeeId": "E1047",
+      "name": "Abel Moss",
+      "department": "G&A",
+      "grossCents": 663829
+    }
+  ],
+  "source": "ADP"
+}

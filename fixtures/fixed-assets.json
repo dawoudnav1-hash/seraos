@@ -1,0 +1,67 @@
+{
+  "entity": "Brevard Logistics",
+  "erp": "QuickBooks Online",
+  "period": "2026-04",
+  "balanceSheetDate": "2026-04-30",
+  "capitalizationThresholdCents": 50000,
+  "convention": "Depreciation starts the month after an asset is placed in service; no depreciation in the month of disposal.",
+  "accounts": {
+    "Computer, Software & Accessories": { "cost": "1510", "accum": "1519", "expense": "6410" },
+    "Truck": { "cost": "1540", "accum": "1549", "expense": "6410" },
+    "Furniture & Fixtures": { "cost": "1520", "accum": "1529", "expense": "6410" },
+    "Automobile": { "cost": "1540", "accum": "1549", "expense": "6410" }
+  },
+  "register": [
+    {
+      "id": "FA-2201",
+      "description": "MacBook Pro 14\" (x8)",
+      "class": "Computer, Software & Accessories",
+      "placedInService": "2026-02-20",
+      "costCents": 2239200,
+      "salvageCents": 0,
+      "lifeMonths": 36,
+      "monthsDepreciated": 1
+    },
+    {
+      "id": "FA-2202",
+      "description": "Autodesk AutoCAD licences (3-yr term, capitalized)",
+      "class": "Computer, Software & Accessories",
+      "placedInService": "2026-02-24",
+      "costCents": 1449818,
+      "salvageCents": 0,
+      "lifeMonths": 36,
+      "monthsDepreciated": 1
+    },
+    {
+      "id": "FA-2203",
+      "description": "Dell PowerEdge T360 server",
+      "class": "Computer, Software & Accessories",
+      "placedInService": "2026-02-10",
+      "costCents": 891437,
+      "salvageCents": 0,
+      "lifeMonths": 60,
+      "monthsDepreciated": 1,
+      "disposal": { "date": "2026-04-08", "proceedsCents": 850000, "note": "Returned to Dell for store credit (RMA 88213-D)" }
+    },
+    {
+      "id": "FA-2104",
+      "description": "2019 Ford Transit 150 cargo van",
+      "class": "Truck",
+      "placedInService": "2025-12-15",
+      "costCents": 1349500,
+      "salvageCents": 269756,
+      "lifeMonths": 48,
+      "monthsDepreciated": 3
+    }
+  ],
+  "aprilExpenses": [
+    { "je": "JE-2026-0403", "date": "2026-04-03", "vendor": "Best Buy – Laptop", "memo": "Lenovo ThinkPad T14 for new dispatcher", "account": "Office Expenses", "amountCents": 129999, "capital": true, "assetType": "Computer Equipment", "assetClass": "Computer, Software & Accessories", "lifeMonths": 36 },
+    { "je": "JE-2026-0405", "date": "2026-04-05", "vendor": "Staples", "memo": "Printer paper and toner", "account": "Office Expenses", "amountCents": 14218, "capital": false, "reason": "Below the $500 threshold" },
+    { "je": "JE-2026-0409", "date": "2026-04-09", "vendor": "Amazon", "memo": "Monitor arms (x3)", "account": "Office Expenses", "amountCents": 38900, "capital": false, "reason": "Below the $500 threshold" },
+    { "je": "JE-2026-0412", "date": "2026-04-12", "vendor": "Home Depot – Shelving", "memo": "Steel warehouse shelving units", "account": "Office Expenses", "amountCents": 72500, "capital": true, "assetType": "Furniture & Fixtures", "assetClass": "Furniture & Fixtures", "lifeMonths": 84 },
+    { "je": "JE-2026-0414", "date": "2026-04-14", "vendor": "Uline", "memo": "Packing tape, stretch wrap, boxes", "account": "Office Expenses", "amountCents": 61240, "capital": false, "reason": "Consumable supplies — no useful life beyond the period" },
+    { "je": "JE-2026-0416", "date": "2026-04-16", "vendor": "Shell", "memo": "Fuel — van FA-2104", "account": "Automobile Expenses", "amountCents": 8640, "capital": false, "reason": "Operating cost" },
+    { "je": "JE-2026-0418", "date": "2026-04-18", "vendor": "Walmart – Mower", "memo": "Husqvarna commercial zero-turn mower", "account": "Automobile Expenses", "amountCents": 1435000, "capital": true, "assetType": "Automobile", "assetClass": "Automobile", "lifeMonths": 60 },
+    { "je": "JE-2026-0422", "date": "2026-04-22", "vendor": "Jiffy Lube", "memo": "Oil change and inspection — van FA-2104", "account": "Automobile Expenses", "amountCents": 12999, "capital": false, "reason": "Repairs and maintenance" }
+  ]
+}
