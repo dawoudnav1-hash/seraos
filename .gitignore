@@ -7,3 +7,4 @@ public/artifacts/*
 !public/artifacts/.gitkeep
 .env.local
 uploads
+.claude/worktrees/
