@@ -161,7 +161,9 @@ export function buildPayrollEntry(input: PayrollEntryInput): JournalEntry {
     ...input.withholdings.map((w) => ({ account: w.account, description: w.description, debitCents: 0, creditCents: w.amountCents, sources: input.sources })),
     { account: input.employerTaxLiabilityAccount, description: 'Employer payroll taxes payable', debitCents: 0, creditCents: input.employerTaxesCents, sources: input.sources },
     { account: input.netPayAccount, description: 'Net pay', debitCents: 0, creditCents: netPayCents, sources: input.sources },
-  ];
+    // A run with no employer taxes or no withholdings (contractors) must not emit
+    // zero lines, which the rules rightly reject.
+  ].filter((l) => l.debitCents !== 0 || l.creditCents !== 0);
   return finalize('payroll', input.date, input.memo, lines, input.attachments ?? []);
 }
 

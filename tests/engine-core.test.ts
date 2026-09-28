@@ -616,6 +616,23 @@ describe('journal builders', () => {
     expect(netPayLine.creditCents).toBe(379000); // 500000 - (75000+31000+15000)
   });
 
+  it('buildPayrollEntry omits zero lines for a run with no employer taxes or withholdings', () => {
+    const je = buildPayrollEntry({
+      date: '2026-04-30',
+      memo: 'Contractor payroll',
+      wagesExpenseAccount: '6100',
+      grossWagesCents: 250000,
+      employerTaxExpenseAccount: '6150',
+      employerTaxesCents: 0,
+      employerTaxLiabilityAccount: '2310',
+      withholdings: [],
+      netPayAccount: '2350',
+      sources: src('payroll-run-2'),
+    });
+    expect(je.lines.map((l) => l.account)).toEqual(['6100', '2350']);
+    expect(je.lines.every((l) => l.debitCents + l.creditCents > 0)).toBe(true);
+  });
+
   it('buildPayrollEntry throws PayrollBuildError when withholdings exceed gross wages', () => {
     expect(() =>
       buildPayrollEntry({
