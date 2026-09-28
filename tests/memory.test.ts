@@ -692,6 +692,70 @@ describe('memory system', () => {
     });
   });
 
+  describe('Coding rules are strict and contradictions count', () => {
+    let learningMemory: LearningMemory;
+    let semanticMemory: SemanticMemory;
+    beforeEach(() => {
+      semanticMemory = new SemanticMemory(memoryStore);
+      learningMemory = new LearningMemory(ruleStore, semanticMemory);
+    });
+    const correct = (vendor: string, after: string, actor = 'u') =>
+      learningMemory.recordCorrection({ client: 'strict', kind: 'coding', pattern: { vendor }, before: '6000', after, actor });
+
+    it('does not apply a promoted rule to an unrelated vendor', async () => {
+      for (const a of ['u1', 'u2', 'u3']) await correct('Staples', '6100', a);
+      const other = await learningMemory.applyCodingRules('strict', { counterparty: 'Amazon Marketplace' });
+      expect(other.status).toBe('none');
+      const same = await learningMemory.applyCodingRules('strict', { counterparty: 'STAPLES, INC.' });
+      expect(same.status).toBe('promoted');
+      expect(same.confidence).toBe(0.99);
+    });
+
+    it('gives a partial name match less than full confidence', async () => {
+      for (const a of ['u1', 'u2', 'u3']) await correct('Home Depot', '1520', a);
+      const r = await learningMemory.applyCodingRules('strict', { description: 'HOME DEPOT #4411 ORLANDO' });
+      expect(r.status).toBe('promoted');
+      expect(r.confidence).toBeLessThan(0.98);
+    });
+
+    it('counts a conflicting correction against the earlier rule and blocks its promotion', async () => {
+      await correct('Uline', '6200');
+      await correct('Uline', '6200');
+      await correct('Uline', '5000');
+      const rules = await ruleStore.list('strict', 'coding');
+      const old = rules.find((r) => (r.action as { action: string }).action === '6200')!;
+      expect(old.rejections).toBe(1);
+      await correct('Uline', '6200');
+      const after = (await ruleStore.list('strict', 'coding')).find((r) => r.id === old.id)!;
+      expect(after.status).toBe('candidate');
+    });
+
+    it('demotes a promoted rule when contradicted and withdraws its fact', async () => {
+      for (const a of ['u1', 'u2', 'u3']) await correct('Shell', '6300', a);
+      expect(await semanticMemory.getVendorAccountRule({ client: 'strict' }, 'Shell')).not.toBeNull();
+      await correct('Shell', '1540');
+      const rule = (await ruleStore.list('strict', 'coding')).find((r) => (r.action as { action: string }).action === '6300')!;
+      expect(rule.status).toBe('candidate');
+      expect(await semanticMemory.getVendorAccountRule({ client: 'strict' }, 'Shell')).toBeNull();
+    });
+  });
+
+  describe('Reasonableness with flat history', () => {
+    let historicalMemory: HistoricalMemory;
+    beforeEach(() => {
+      historicalMemory = new HistoricalMemory(memoryStore);
+    });
+    it('flags any departure from a constant history', async () => {
+      for (const period of ['2026-01', '2026-02', '2026-03']) {
+        await historicalMemory.recordFigure({ client: 'flat', account: '6410', period, valueCents: 100000, source: 'test' });
+      }
+      const same = await historicalMemory.reasonableness('flat', '6410', '2026-04', 100000, { pctThresholdBps: 100000 });
+      expect(same.pass).toBe(true);
+      const jump = await historicalMemory.reasonableness('flat', '6410', '2026-04', 100100, { pctThresholdBps: 100000 });
+      expect(jump.pass).toBe(false);
+    });
+  });
+
   describe('Memory facade', () => {
     it('exports all required methods', async () => {
       expect(memory.rememberAnswer).toBeDefined();

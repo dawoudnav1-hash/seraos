@@ -61,6 +61,12 @@ export class SemanticMemory {
     });
   }
 
+  /** Withdraws a promoted vendor rule, e.g. when a later correction contradicts it. */
+  async deleteVendorAccountRule(scope: MemoryScope, vendor: string): Promise<void> {
+    const record = await this.store.get('semantic', scope, `vendor_account:${vendor.toLowerCase()}`);
+    if (record) await this.store.delete(record.id);
+  }
+
   async listVendorAccountRules(scope: MemoryScope): Promise<VendorAccountRule[]> {
     const records = await this.store.list('semantic', scope, 'vendor_account:');
     return records.map((r) => {

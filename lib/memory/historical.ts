@@ -90,8 +90,9 @@ export class HistoricalMemory {
     const variance = values.reduce((acc, v) => acc + Math.pow(v - mean, 2), 0) / values.length;
     const stdDev = Math.sqrt(variance);
 
-    // Z-score: (value - mean) / stdDev
-    const zScore = stdDev > 0 ? (valueCents - mean) / stdDev : 0;
+    // Z-score: (value - mean) / stdDev. Flat history means any departure is
+    // unusual, not "0 standard deviations away".
+    const zScore = stdDev > 0 ? (valueCents - mean) / stdDev : valueCents === mean ? 0 : Number.POSITIVE_INFINITY;
 
     // Change in basis points from prior period
     const priorValue = priors[0]?.valueCents ?? 0;
@@ -108,7 +109,7 @@ export class HistoricalMemory {
       changeBps,
       message: pass
         ? `Reasonable: z-score ${zScore.toFixed(2)}, change ${changeBps} bps`
-        : `Unusual: z-score ${zScore.toFixed(2)} (threshold ±${k}), change ${changeBps} bps (threshold ±${pctThresholdBps})`,
+        : `Unusual: z-score ${Number.isFinite(zScore) ? zScore.toFixed(2) : '∞ (flat history)'} (threshold ±${k}), change ${changeBps} bps (threshold ±${pctThresholdBps})`,
       basis,
     };
   }

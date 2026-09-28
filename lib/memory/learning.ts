@@ -34,42 +34,37 @@ function patternsEqual(a: Record<string, unknown>, b: Record<string, unknown>): 
   return JSON.stringify(a) === JSON.stringify(b);
 }
 
-/**
- * Extracts normalized tokens from a string for matching.
- */
-function normalizeTokens(text: string): Set<string> {
-  return new Set(
-    text
-      .toLowerCase()
-      .replace(/[^a-z0-9\s]/g, '') // remove non-alphanumeric
-      .split(/\s+/)
-      .filter((t) => t.length > 0),
-  );
+const LEGAL_SUFFIXES = new Set(['inc', 'llc', 'ltd', 'co', 'corp', 'corporation', 'company', 'the', 'plc', 'lp', 'llp']);
+
+/** Lowercase, punctuation-free tokens with legal suffixes dropped: "Staples, Inc." → ["staples"]. */
+export function vendorTokens(text: string): string[] {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter((t) => t.length > 0 && !LEGAL_SUFFIXES.has(t));
+}
+
+/** The name a coding rule keys on: the vendor if given, else counterparty, else description. */
+function txnName(txn: unknown): string {
+  const t = (txn ?? {}) as { vendor?: string; counterparty?: string; description?: string };
+  return t.vendor ?? t.counterparty ?? t.description ?? '';
 }
 
 /**
- * Calculates token overlap between two strings.
- */
-function tokenOverlap(a: string, b: string): number {
-  const tokensA = normalizeTokens(a);
-  const tokensB = normalizeTokens(b);
-  const intersection = Array.from(tokensA).filter((t) => tokensB.has(t)).length;
-  const union = new Set([...tokensA, ...tokensB]).size;
-  return union > 0 ? intersection / union : 0;
-}
-
-/**
- * Scores a rule's applicability to a transaction based on pattern matching.
+ * How well a rule applies to a transaction. Deliberately strict: an exact
+ * normalized name, or every token of the rule's vendor present in the
+ * transaction's name. Loose overlap is never a match — a wrong account at
+ * high confidence is worse than no suggestion.
  */
 function scoreRuleMatch(rule: RuleRecord, txn: unknown): number {
-  const txnPatternStr = JSON.stringify(txn);
-  const rulePatternStr = JSON.stringify(rule.pattern);
-
-  // Exact match
-  if (txnPatternStr === rulePatternStr) return 1.0;
-
-  // Token overlap on serialized patterns
-  return tokenOverlap(txnPatternStr, rulePatternStr);
+  const ruleName = String((rule.pattern as { vendor?: string; counterparty?: string }).vendor ?? (rule.pattern as { counterparty?: string }).counterparty ?? '');
+  const ruleTokens = vendorTokens(ruleName);
+  const txnTokens = vendorTokens(txnName(txn));
+  if (ruleTokens.length === 0 || txnTokens.length === 0) return 0;
+  if (ruleTokens.join(' ') === txnTokens.join(' ')) return 1;
+  const txnSet = new Set(txnTokens);
+  return ruleTokens.every((t) => txnSet.has(t)) ? 0.9 : 0;
 }
 
 export class LearningMemory {
@@ -86,6 +81,27 @@ export class LearningMemory {
         patternsEqual(r.pattern, input.pattern) &&
         JSON.stringify(r.action) === JSON.stringify({ action: input.after }),
     );
+
+    // The same pattern corrected to a different answer contradicts earlier rules:
+    // count it against them, and demote any that had been promoted.
+    const contradicted = existingRules.filter(
+      (r) =>
+        patternsEqual(r.pattern, input.pattern) &&
+        r.status !== 'rejected' &&
+        JSON.stringify(r.action) !== JSON.stringify({ action: input.after }),
+    );
+    for (const r of contradicted) {
+      // Read before updating: stores may hand back the same object they mutate.
+      const wasPromoted = r.status === 'promoted';
+      await this.ruleStore.update(r.id, {
+        rejections: r.rejections + 1,
+        status: wasPromoted ? 'candidate' : r.status,
+      });
+      if (wasPromoted && r.kind === 'coding') {
+        const vendor = (r.pattern as { vendor?: string }).vendor;
+        if (vendor) await this.semanticMemory.deleteVendorAccountRule({ client: input.client }, vendor);
+      }
+    }
 
     let rule: RuleRecord;
     if (existing) {
@@ -180,9 +196,9 @@ export class LearningMemory {
       ? (best.rule.action as { action: string }).action
       : '';
 
-    const confidence = best.isPromoted
-      ? 0.99
-      : Math.min(0.9, 0.5 + (best.rule.confirmations / 10) * 0.4); // Scale by confirmations
+    // A partial name match never earns full confidence, even from a promoted rule.
+    const base = best.isPromoted ? 0.99 : Math.min(0.9, 0.5 + (best.rule.confirmations / 10) * 0.4);
+    const confidence = best.score === 1 ? base : Math.min(base, best.isPromoted ? 0.93 : 0.8);
 
     return {
       account,
