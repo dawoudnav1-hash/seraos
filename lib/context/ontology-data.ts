@@ -1608,3 +1608,57 @@ export const NAME_RULES: NameRule[] = [
 
 /** Names that signal a suspense/clearing account: classified, but flagged for review. */
 export const SUSPENSE_NAME = /\buncategori[sz]ed\b|\bsuspense\b|\bask my accountant\b|\bclearing\b/;
+
+/**
+ * Capability-catalog skill ids (lib/graph/catalog.ts) → the concept groups above.
+ * Document and reuse skills are format-level, not accounting concepts, so they map
+ * to nothing on purpose.
+ */
+export const CATALOG_SKILL_ALIASES: Record<string, keyof typeof SKILL_CONCEPTS | null> = {
+  'code-bank-transactions': 'transaction_coding',
+  'categorize-expenses': 'transaction_coding',
+  'detect-unmatched': 'bank_reconciliation',
+  'exclude-invalid-transactions': 'transaction_coding',
+  'sync-approved-transactions': 'transaction_coding',
+  'bank-reconciliation': 'bank_reconciliation',
+  'credit-card-reconciliation': 'card_reconciliation',
+  'gl-reconciliation': 'gl_subledger_tieout',
+  'stripe-reconciliation': 'stripe_reconciliation',
+  'flag-exceptions': 'bank_reconciliation',
+  'manual-je': 'journal_entry',
+  'accrual-je': 'accruals',
+  'reversing-je': 'accruals',
+  'payroll-je': 'payroll',
+  'revenue-recognition-je': 'revenue_recognition',
+  'depreciation-je': 'depreciation',
+  'amortization-je': 'amortization',
+  'prepaid-je': 'prepaid_amortization',
+  'fixed-asset-je': 'fixed_assets',
+  'attach-evidence': 'journal_entry',
+  'sync-approved-jes': 'journal_entry',
+  'fixed-asset-rollforward': 'fixed_assets',
+  'depreciation-schedule': 'depreciation',
+  'amortization-schedule': 'amortization',
+  'deferred-revenue-schedule': 'revenue_recognition',
+  'prepaid-schedule': 'prepaid_amortization',
+  'accrual-schedule': 'accruals',
+  'balance-sheet-rollforward': 'month_end_close',
+  'data-analysis': 'flux_analysis',
+  'flux-analysis': 'flux_analysis',
+  'variance-analysis': 'flux_analysis',
+  'budget-vs-actual': 'flux_analysis',
+  'period-over-period': 'flux_analysis',
+  'revenue-analysis': 'flux_analysis',
+  'expense-analysis': 'flux_analysis',
+  'waterfall-analysis': 'flux_analysis',
+  'management-commentary': 'flux_analysis',
+  'read-pdf': null,
+  'ocr-document': null,
+  'extract-tables': null,
+  'read-excel': null,
+  'create-spreadsheet': null,
+  'modify-spreadsheet': null,
+  'merge-split-pdf': null,
+  'generate-workpaper': null,
+  'reuse-workflow': null,
+};

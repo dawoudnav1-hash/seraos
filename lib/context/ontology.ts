@@ -25,6 +25,7 @@ import {
   RECONCILIATIONS,
   SCHEDULES,
   SKILL_CONCEPTS,
+  CATALOG_SKILL_ALIASES,
   STANDARDS,
   SUSPENSE_NAME,
   TXN_CATEGORIES,
@@ -755,8 +756,13 @@ export interface ContextRequest {
 const ENTRY_RULES = 'Every JE: debits = credits in integer cents; one side per line; every line cites ≥1 source; accounts must exist in the chart.';
 const NORMAL_BALANCES = 'Normal balances: asset/expense Dr; liability/equity/revenue Cr; contra accounts the opposite.';
 
-function skillConcepts(skill?: string): string[] {
+export function skillConcepts(skill?: string): string[] {
   if (!skill) return [];
+  // Catalog ids first: an explicit mapping beats a fuzzy lookup.
+  if (skill in CATALOG_SKILL_ALIASES) {
+    const alias = CATALOG_SKILL_ALIASES[skill];
+    return alias ? SKILL_CONCEPTS[alias] : [];
+  }
   const key = skill.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
   return SKILL_CONCEPTS[key] ?? lookup(skill, 3).filter((m) => m.score >= 0.6).map((m) => m.concept.id);
 }

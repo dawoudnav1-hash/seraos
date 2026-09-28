@@ -501,3 +501,15 @@ describe('ContextGraph', () => {
     expect(graph.toContext(sg, 250)).toMatch(/more not shown/);
   });
 });
+
+describe('catalog skills resolve to ontology concepts', () => {
+  it('maps every accounting skill in the capability catalog, and no document skill', async () => {
+    const { CAPABILITY_CATALOG } = await import('@/lib/graph/catalog');
+    const { skillConcepts } = await import('@/lib/context/ontology');
+    for (const entry of CAPABILITY_CATALOG) {
+      const concepts = skillConcepts(entry.id);
+      if (entry.family === 'documents' || entry.family === 'reuse') expect(concepts, entry.id).toEqual([]);
+      else expect(concepts.length, entry.id).toBeGreaterThan(0);
+    }
+  });
+});
