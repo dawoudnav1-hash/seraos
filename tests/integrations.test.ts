@@ -706,7 +706,12 @@ describe('QuickBooks sync', () => {
         respond: (u: string) => {
           const entity = entityFromQuery(u);
           const rows: Record<string, any[]> = {
-            Account: [{ Id: '55', AcctNum: '6410', Name: 'Rent', AccountType: 'Expense', Active: true }],
+            // Every account the journal lines reference must exist — the warehouse enforces it.
+            Account: [
+              { Id: '55', AcctNum: '6410', Name: 'Rent', AccountType: 'Expense', Active: true },
+              { Id: '60', AcctNum: '6400', Name: 'Rent Expense', AccountType: 'Expense', Active: true },
+              { Id: '61', AcctNum: '1000', Name: 'Cash', AccountType: 'Bank', Active: true },
+            ],
             Customer: [{ Id: 'c1', DisplayName: 'Acme Co', Active: true }],
             Vendor: [{ Id: 'v1', DisplayName: 'Vendor Co', Active: true }],
             Employee: [{ Id: 'e1', DisplayName: 'Employee One', Active: true }],
@@ -724,7 +729,7 @@ describe('QuickBooks sync', () => {
     const sink = new InMemoryLedgerSink();
     const { fetchImpl } = routerFetch(qboSyncHandlers());
     const counts = await syncClient('quickbooks', 'acme-co', { sink, fetchImpl, now: () => new Date('2026-03-15T00:00:00.000Z') });
-    expect(counts).toMatchObject({ accounts: 1, contacts: 3, documents: 2, entries: 1, cdc: 1, bankTransactions: 0 });
+    expect(counts).toMatchObject({ accounts: 3, contacts: 3, documents: 2, entries: 1, cdc: 1, bankTransactions: 0 });
   });
 
   it('advances the CDC cursor so a second sync uses the first sync as its changedSince', async () => {
