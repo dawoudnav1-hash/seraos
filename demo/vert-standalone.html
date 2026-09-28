@@ -1029,7 +1029,7 @@ function genericScript(title, task, specialist, answers) {
 
 /* ================= three-way match (blocked -> resolved) ================= */
 function threeWayScript(resolved) {
-  const amt = money(5830000);
+  const amt = money(874250);
   if (!resolved) {
     return {
       steps: [
@@ -1077,11 +1077,11 @@ function seedCompleted(id, title, client, task, agent, ageMs, steps, artifacts, 
 }
 
 function seedAll() {
-  seedInProgress('run_cash_13w', 'Prepare 13-Week Cash Flow Projection', 'Brevard Logistics', 'Prepare a 13-week cash flow projection and runway estimate.', 'CashAgent', 0, 'Pull opening cash and AR/AP aging', 'Opening cash $412,850.00 pulled from the trial balance.', 5);
+  seedInProgress('run_cash_13w', 'Prepare 13-Week Cash Flow Projection', 'Brevard Logistics', 'Prepare a 13-week cash flow projection and runway estimate.', 'CashAgent', 0, 'Pull opening cash and AR/AP aging', 'Opening cash $4,120,000 pulled from the trial balance.', 5);
   seedInProgress('run_asc606', 'FY24 Revenue Recognition Memo (ASC 606)', 'Caraway Health Group', 'Write the FY24 revenue recognition memo under ASC 606 for the Master Services Agreement.', 'TechnicalAccountingAgent', 0, 'Parse the underlying agreement', 'Identifying performance obligations in Master Services Agreement… 4 distinct deliverables requiring allocation', 5);
   seedInProgress('run_asc842', 'Lease Agreement Analysis (ASC 842)', 'Caraway Health Group', 'Classify the equipment leases under ASC 842.', 'TechnicalAccountingAgent', 0, 'Parse the underlying agreement', 'Classifying 3 equipment leases… 2 finance leases based on present value test exceeding 90% threshold', 5);
-  seedInProgress('run_163j', 'Analyze State Section 163(j) Interest Expense Add-Backs', 'Alder River Growth Partners', 'Analyze state Section 163(j) interest expense add-backs across the three entities.', 'TaxAgent', 2 * MIN, 'Pull federal form data', 'Pulling federal Form 8990 data… total business interest expense of $1,204,600.00 across 3 entities, 30% ATI limitation applied', 5);
-  seedInProgress('run_payroll', 'Book Payroll Journal Entry', 'Sable Creek Properties LLC', 'Book the payroll journal entry for the period ending 1/31/2025.', 'LedgerAgent', 2 * MIN, 'Pull source subledger', 'Importing payroll register from Gusto… 42 employees, gross payroll $186,420.00 for period ending 1/31/2025', 5);
+  seedInProgress('run_163j', 'Analyze State Section 163(j) Interest Expense Add-Backs', 'Alder River Growth Partners', 'Analyze state Section 163(j) interest expense add-backs across the three entities.', 'TaxAgent', 2 * MIN, 'Pull federal form data', 'Pulling federal Form 8990 data… total business interest expense of $892K across 3 entities, 30% ATI limitation applied', 5);
+  seedInProgress('run_payroll', 'Book Payroll Journal Entry', 'Sable Creek Properties LLC', 'Book the payroll journal entry for the period ending 1/31/2025.', 'LedgerAgent', 2 * MIN, 'Pull source subledger', 'Importing payroll register from ADP… 47 employees, gross payroll $312K for period ending 1/31/2025', 5);
   seedInProgress('run_flux', 'Prepare Q4 Flux Analysis Commentary', 'Brevard Logistics', 'Prepare Q4 flux analysis commentary for the reporting pack.', 'ReportingAgent', 25 * MIN, 'Compute variance drivers', 'Comparing Q4 actuals to budget across revenue and opex lines… 6 of 14 lines exceed the 10% materiality threshold', 40);
 
   newRun({ id: 'run_3way', title: 'Perform Three-Way Match', task: 'Perform a three-way match for PO 44872.', client: 'Pinelith Construction Co.', agent: 'ReconciliationAgent', createdAt: Date.now() - 30 * MIN });
@@ -1089,10 +1089,10 @@ function seedAll() {
 
   seedCompleted('run_board_pack', 'Create Monthly Reporting Pack for Board Review', 'Brevard Logistics', 'Create the January 2025 monthly reporting pack for board review.', 'ReportingAgent', 60 * MIN,
     ['Consolidate entity trial balances', 'Eliminate intercompany activity', 'Build pack and board memo'],
-    [{ id: 'art_bp1', filename: 'Monthly_Reporting_Pack_Jan2025.xlsx', kind: 'xlsx', sizeBytes: 61200, generatedBy: 'ReportingAgent', sheets: [{ name: 'Consolidated BS', rows: [['Account', 'Name', 'Debit', 'Credit'], ['1000', 'Cash', 412850, 0], ['4000', 'Revenue', 0, 1284500]] }, { name: 'Cash Flow', rows: [['Week', 'Closing cash'], ['W1', 418200], ['W2', 424100]] }] },
-     { id: 'art_bp2', filename: 'Board_Memo_Jan2025.pdf', kind: 'pdf', sizeBytes: 22110, generatedBy: 'ReportingAgent', paragraphs: ['Consolidated results cover four entities with intercompany activity eliminated in a dedicated column.', 'Balance sheet foots to $1,697,350.00.', 'At the current weekly burn, runway is 14 months.'] }],
-    'Created January 2025 monthly reporting pack across 4 entities. Consolidated P&L, balance sheet, and cash flow with intercompany eliminations. 14-month runway at current burn.',
-    ['Consolidated P&L, balance sheet and cash flow prepared across 4 entities with intercompany eliminations shown in their own column.', 'Balance sheet foots to $1,697,350.00.', 'At the current burn rate, runway is 14 months.'],
+    [{ id: 'art_bp1', filename: 'Monthly_Reporting_Pack_Jan2025.xlsx', kind: 'xlsx', sizeBytes: 61200, generatedBy: 'ReportingAgent', sheets: [{ name: 'Consolidated BS', rows: [['Account', 'Name', 'Debit', 'Credit'], ['1000', 'Cash and cash equivalents', 4120000, 0], ['4000', 'Revenue', 0, 7120000], ['', 'Total', 47200000, 47200000]] }, { name: 'Cash Flow', rows: [['Week', 'Closing cash'], ['W1', 4067180], ['W2', 4014360]] }] },
+     { id: 'art_bp2', filename: 'Board_Memo_Jan2025.pdf', kind: 'pdf', sizeBytes: 22110, generatedBy: 'ReportingAgent', paragraphs: ['Consolidated results cover four entities with intercompany activity eliminated in a dedicated column.', 'Balance sheet foots to $47,200,000.00.', 'At the current weekly burn, runway is 18 months.'] }],
+    'Created January 2025 monthly reporting pack across 4 entities. Consolidated P&L, balance sheet, and cash flow with intercompany eliminations. 18-month runway at current burn.',
+    ['Consolidated P&L, balance sheet and cash flow prepared across 4 entities with intercompany eliminations shown in their own column.', 'Balance sheet foots to $47,200,000.00.', 'At the current burn rate, runway is 18 months.'],
     ['Intercompany eliminations were taken at cost with no unrealized-profit adjustment needed this period.'], false);
 
   seedCompleted('run_disclosures', 'Perform Audit Disclosure Checklist', 'Pinelith Construction Co.', 'Perform the FY24 audit disclosure checklist.', 'TechnicalAccountingAgent', 3 * 60 * MIN,
@@ -1105,15 +1105,15 @@ function seedAll() {
 
   seedCompleted('run_qc', 'Review Financial Statements for Quality Control', 'Pinelith Construction Co.', 'Review the financial statements for quality control and tie the footings.', 'QualityControlAgent', 6 * 60 * MIN,
     ['Tie statement footings to trial balance', 'Test revenue completeness against CRM', 'Document exceptions'],
-    [{ id: 'art_qc1', filename: 'QC_Review_Workbook.xlsx', kind: 'xlsx', sizeBytes: 28700, generatedBy: 'QualityControlAgent', sheets: [{ name: 'Footings', rows: [['Account', 'Name', 'Debit', 'Credit'], ['1000', 'Cash', 412850, 0], ['', 'Total', 1842300, 1842300]] }] },
-     { id: 'art_qc2', filename: 'Exceptions_Report.pdf', kind: 'pdf', sizeBytes: 9840, generatedBy: 'QualityControlAgent', paragraphs: ['Balance sheet footings tie to $1,842,300.00 against the trial balance.', 'Three customer contracts are absent from the deferral schedule and are listed in the workbook.'] }],
-    'Balance sheet footings tie to $1,842,300.00. 3 contracts missing from the deferral schedule, exceptions documented.',
-    ['Balance sheet footings tie to $1,842,300.00 against the trial balance.', 'Revenue completeness tested against the CRM — 3 contracts missing from the deferral schedule.', 'Exceptions were documented in the workbook for follow-up.'],
+    [{ id: 'art_qc1', filename: 'QC_Review_Workbook.xlsx', kind: 'xlsx', sizeBytes: 28700, generatedBy: 'QualityControlAgent', sheets: [{ name: 'Footings', rows: [['Account', 'Name', 'Debit', 'Credit'], ['1000', 'Cash and cash equivalents', 4120000, 0], ['', 'Total', 47200000, 47200000]] }] },
+     { id: 'art_qc2', filename: 'Exceptions_Report.pdf', kind: 'pdf', sizeBytes: 9840, generatedBy: 'QualityControlAgent', paragraphs: ['Balance sheet footings tie to $47,200,000.00 against the trial balance.', 'Three customer contracts are absent from the deferral schedule and are listed in the workbook.'] }],
+    'Balance sheet footings tie to $47,200,000.00. 3 contracts missing from the deferral schedule, exceptions documented.',
+    ['Balance sheet footings tie to $47,200,000.00 against the trial balance.', 'Revenue completeness tested against the CRM — 3 contracts missing from the deferral schedule.', 'Exceptions were documented in the workbook for follow-up.'],
     ['Missing contracts were assumed immaterial individually; documented for aggregation at year end.'], false);
 
   seedCompleted('run_1065', 'Partnership Income Tax Return Workbook Preparation', 'Alder River Growth Partners', 'Prepare the Form 1065 partnership income tax return workbook with K-1 allocations.', 'TaxAgent', 60 * MIN,
     ['Pull federal form data', 'Allocate income to partners', 'Build workpaper'],
-    [{ id: 'art_1065a', filename: 'Form_1065_Preparation_Alder_River_Growth_Partners_LP.xlsx', kind: 'xlsx', sizeBytes: 41200, generatedBy: 'TaxAgent', sheets: [{ name: 'K-1 Allocations', rows: [['Partner', 'Capital %', 'Ordinary income', 'Guaranteed payments'], ['Alder River GP, LLC', 0.02, 1028, 0], ['Meridian Family Trust', 0.38, 19532, 0], ['J. Okafor', 0.31, 15934, 0], ['R. Lindqvist', 0.29, 14918, 0]] }] },
+    [{ id: 'art_1065a', filename: 'Form_1065_Preparation_Alder_River_Growth_Partners_LP.xlsx', kind: 'xlsx', sizeBytes: 41200, generatedBy: 'TaxAgent', sheets: [{ name: 'K-1 Allocations', rows: [['Partner', 'Capital %', 'Ordinary income', 'Guaranteed payments'], ['Alder River GP, LLC', 0.02, 37760, 0], ['Meridian Family Trust', 0.38, 717440, 0], ['J. Okafor', 0.31, 585280, 0], ['R. Lindqvist', 0.29, 547520, 0]] }] },
      { id: 'art_1065b', filename: 'Form_1065_Preparation_Notes_Alder_River_Growth_Partners_LP.xlsx', kind: 'xlsx', sizeBytes: 12900, generatedBy: 'TaxAgent', sheets: [{ name: 'Notes', rows: [['Topic', 'Note'], ['Capital accounts', 'Maintained on the tax basis per the 2024 instructions.'], ['Section 704(b)', 'Allocations follow the partnership agreement; no special allocations.'], ['Section 163(j)', 'Excess business interest expense pushed out on K-1 line 13K.']] }] }],
     'Form 1065 workbook prepared with K-1 allocations by partner.',
     ['Form 1065 workbook prepared with K-1 allocations across 4 partners by capital percentage.', 'Capital accounts maintained on the tax basis per the 2024 instructions.'],
@@ -1218,7 +1218,7 @@ function renderHeader() {
       '</div>' +
     '</div>' +
     '<form class="askbar" onsubmit="return submitAsk(event)">' + ic('search', '', 17) +
-      '<input placeholder="Ask anything about your financial close…" value="' + esc(q) + '" oninput="STATE.ui.askQuery=this.value">' +
+      '<input id="ask-bar" placeholder="Ask anything about your financial close…" value="' + esc(q) + '" oninput="STATE.ui.askQuery=this.value">' +
       '<button type="submit" aria-label="Ask Vert">' + ic('send', '', 19) + '</button>' +
     '</form>'
   );
@@ -1651,7 +1651,7 @@ function renderNextSteps(run) {
   }
   let controls;
   if (STATE.ui.requestingChanges) {
-    controls = '<div class="reworkbox"><textarea id="request-changes" rows="3" placeholder="What should Vert change? This becomes its next instruction." oninput="STATE.ui.changeReason=this.value">' + esc(STATE.ui.changeReason || '') + '</textarea>' +
+    controls = '<div class="reworkbox"><textarea id="request-changes" rows="3" placeholder="What should Vert change? This becomes its next instruction." oninput="STATE.ui.changeReason=this.value;renderApp()">' + esc(STATE.ui.changeReason || '') + '</textarea>' +
       '<div style="display:flex;gap:8px"><button type="button" class="btn-accent" ' + (!(STATE.ui.changeReason || '').trim() ? 'disabled' : '') + ' onclick="submitChanges(\'' + run.id + '\')">Send to Vert</button>' +
       '<button type="button" class="btn-ghost" onclick="STATE.ui.requestingChanges=false;renderApp()">Cancel</button></div></div>';
   } else {
@@ -1759,7 +1759,7 @@ function renderPanel(run) {
       foldHtml('audit', 'Audit Trail', renderAuditTrail(run, true), false) +
       foldHtml('plan', 'Workflow Plan', planSteps, true) +
     '</div>' +
-    '<form class="followup" onsubmit="event.preventDefault();sendFollowUp(\'' + run.id + '\')"><textarea rows="2" ' + (!canFollowUp ? 'disabled' : '') + ' placeholder="' + (canFollowUp ? 'Ask a follow-up — Vert reworks the task with it' : 'Follow-ups open once Vert hands the work in') + '" oninput="STATE.ui.followUp=this.value">' + esc(STATE.ui.followUp || '') + '</textarea>' +
+    '<form class="followup" onsubmit="event.preventDefault();sendFollowUp(\'' + run.id + '\')"><textarea id="follow-up" rows="2" ' + (!canFollowUp ? 'disabled' : '') + ' placeholder="' + (canFollowUp ? 'Ask a follow-up — Vert reworks the task with it' : 'Follow-ups open once Vert hands the work in') + '" oninput="STATE.ui.followUp=this.value;renderApp()">' + esc(STATE.ui.followUp || '') + '</textarea>' +
       '<div class="row"><label style="cursor:pointer;border-radius:8px;padding:4px" for="panelFile2">' + ic('plus', '', 16) + '</label><input id="panelFile2" type="file" multiple class="hidden" onchange="uploadContext(\'' + run.id + '\',this.files)"><span class="mic" style="opacity:.4">' + ic('mic', '', 16) + '</span>' +
       '<button type="submit" class="send" ' + (!canFollowUp || !(STATE.ui.followUp || '').trim() ? 'disabled' : '') + ' aria-label="Send follow-up">' + ic('arrowUp', '', 16) + '</button></div></form>';
   }
@@ -1804,7 +1804,27 @@ function renderSheetPreview(artifact) {
 }
 
 /* ================= master render ================= */
+/** Every state change rebuilds innerHTML wholesale (the reducer/event-log
+    approach this file uses throughout), which would normally steal focus
+    out from under whatever the person is typing in. Save/restore focus and
+    text-selection by element id around the rebuild so typing stays put. */
 function renderApp() {
+  const active = document.activeElement;
+  const activeId = active && active.id ? active.id : null;
+  let selStart = null, selEnd = null;
+  if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA')) {
+    try { selStart = active.selectionStart; selEnd = active.selectionEnd; } catch (_) {}
+  }
+  renderAppInner();
+  if (activeId) {
+    const el = document.getElementById(activeId);
+    if (el && typeof el.focus === 'function') {
+      el.focus();
+      if (selStart != null && typeof el.setSelectionRange === 'function') { try { el.setSelectionRange(selStart, selEnd); } catch (_) {} }
+    }
+  }
+}
+function renderAppInner() {
   const root = document.getElementById('app');
   if (STATE.screen === 'workflow' && STATE.runId && STORE.runs[STATE.runId]) {
     const run = STORE.runs[STATE.runId];
