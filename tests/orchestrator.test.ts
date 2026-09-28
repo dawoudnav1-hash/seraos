@@ -1,11 +1,11 @@
 import { beforeAll, describe, expect, it } from 'vitest';
-import { useTempDb } from './setup-db';
+import { useTestDb } from './setup-db';
 
-useTempDb('orchestrator');
+await useTestDb();
 
 const { startRun, resumeRun, markViewed, approveRun, rejectRun, reopenRun, callTool, getRun, answerClarification, uploadContext } =
   await import('@/lib/agents/orchestrator');
-const { listPostings } = await import('@/lib/agents/store');
+const { listPostings, replayRun } = await import('@/lib/agents/store');
 const { MockProvider } = await import('@/lib/agents/providers/mock');
 const { SPECIALIST_REGISTRY } = await import('@/lib/agents/specialists');
 const { ApprovalRequiredError } = await import('@/lib/agents/tools/types');
@@ -14,9 +14,9 @@ const ALEX = { name: 'Alex Morgan', role: 'Finance Manager' };
 const JORDAN = { name: 'Jordan Lee', role: 'Controller' };
 
 /** Mark for review and collect both sign-offs. */
-function doubleApprove(runId: string) {
-  markViewed(runId);
-  approveRun(runId, ALEX);
+async function doubleApprove(runId: string) {
+  await markViewed(runId);
+  await approveRun(runId, ALEX);
   return approveRun(runId, JORDAN);
 }
 
@@ -84,7 +84,9 @@ describe('orchestrator', () => {
       { title: 'Create Monthly Reporting Pack for Board Review', task: 'Build the board reporting pack.' },
       provider,
     );
-    expect(getRun(run.id)).toEqual(run);
+    expect(await getRun(run.id)).toEqual(run);
+    // And from a cold fold of the stored log, not the cached projection.
+    expect(await replayRun(run.id)).toEqual(run);
   });
 
   it('runs an ad-hoc task within the routed specialist’s declared toolset', async () => {
@@ -129,12 +131,12 @@ describe('approval gate', () => {
         ],
       }),
     ).rejects.toBeInstanceOf(ApprovalRequiredError);
-    expect(listPostings(run.id)).toHaveLength(0);
+    expect(await listPostings(run.id)).toHaveLength(0);
   });
 
   it('posts only after a human approves, and records the approval against the posting', async () => {
     const run = await startRun({ title: 'Book Payroll Journal Entry', task: 'Book the payroll journal entry.' }, provider);
-    expect(doubleApprove(run.id).status).toBe('approved');
+    expect((await doubleApprove(run.id)).status).toBe('approved');
     const result = await callTool(run.id, 'LedgerAgent', run.steps[0].id, 'postJournalEntry', {
       memo: 'Payroll 1/31/2025',
       lines: [
@@ -143,7 +145,7 @@ describe('approval gate', () => {
       ],
     });
     expect(result.ok).toBe(true);
-    const postings = listPostings(run.id);
+    const postings = await listPostings(run.id);
     expect(postings).toHaveLength(1);
     expect(postings[0].amountCents).toBe(31_200_000);
     expect(postings[0].approvalId).toMatch(/^apr_/);
@@ -151,7 +153,7 @@ describe('approval gate', () => {
 
   it('refuses an unbalanced entry even when approved', async () => {
     const run = await startRun({ title: 'Book Payroll Journal Entry', task: 'Book the payroll journal entry.' }, provider);
-    expect(doubleApprove(run.id).status).toBe('approved');
+    expect((await doubleApprove(run.id)).status).toBe('approved');
     const result = await callTool(run.id, 'LedgerAgent', run.steps[0].id, 'postJournalEntry', {
       memo: 'Lopsided',
       lines: [
@@ -160,16 +162,16 @@ describe('approval gate', () => {
       ],
     });
     expect(result.ok).toBe(false);
-    expect(listPostings(run.id)).toHaveLength(0);
+    expect(await listPostings(run.id)).toHaveLength(0);
   });
 
   it('will not post on a single approval, or on the same person approving twice', async () => {
     const run = await startRun({ title: 'Book Payroll Journal Entry', task: 'Book the payroll journal entry.' }, provider);
-    markViewed(run.id);
-    const once = approveRun(run.id, ALEX);
+    await markViewed(run.id);
+    const once = await approveRun(run.id, ALEX);
     expect(once.status).toBe('viewed');
     expect(once.approvals).toHaveLength(1);
-    expect(() => approveRun(run.id, ALEX)).toThrow(/second, different reviewer/);
+    await expect(approveRun(run.id, ALEX)).rejects.toThrow(/second, different reviewer/);
     const entry = {
       memo: 'Payroll 1/31/2025',
       lines: [
@@ -180,26 +182,26 @@ describe('approval gate', () => {
     await expect(callTool(run.id, 'LedgerAgent', run.steps[0].id, 'postJournalEntry', entry)).rejects.toBeInstanceOf(
       ApprovalRequiredError,
     );
-    expect(approveRun(run.id, JORDAN).status).toBe('approved');
+    expect((await approveRun(run.id, JORDAN)).status).toBe('approved');
     expect((await callTool(run.id, 'LedgerAgent', run.steps[0].id, 'postJournalEntry', entry)).ok).toBe(true);
   });
 
   it('refuses approval from someone who is not an approver', async () => {
     const run = await startRun({ title: 'Cash forecast', task: 'Prepare a 13-week cash flow projection.' }, provider);
-    markViewed(run.id);
-    expect(() => approveRun(run.id, { name: 'Brian Torres', role: 'Staff Accountant' })).toThrow(/cannot approve/);
+    await markViewed(run.id);
+    await expect(approveRun(run.id, { name: 'Brian Torres', role: 'Staff Accountant' })).rejects.toThrow(/cannot approve/);
   });
 
   it('voids earlier sign-offs when a run is rejected and reopened', async () => {
     const run = await startRun({ title: 'Book Payroll Journal Entry', task: 'Book the payroll journal entry.' }, provider);
-    markViewed(run.id);
-    approveRun(run.id, ALEX);
-    rejectRun(run.id, 'Split the 401(k) match onto its own line.', JORDAN.name);
+    await markViewed(run.id);
+    await approveRun(run.id, ALEX);
+    await rejectRun(run.id, 'Split the 401(k) match onto its own line.', JORDAN.name);
     const reopened = await reopenRun(run.id, provider);
     expect(reopened.status).toBe('review_ready');
     expect(reopened.approvals).toHaveLength(0);
-    markViewed(run.id);
-    approveRun(run.id, JORDAN);
+    await markViewed(run.id);
+    await approveRun(run.id, JORDAN);
     await expect(
       callTool(run.id, 'LedgerAgent', run.steps[0].id, 'postJournalEntry', {
         memo: 'Payroll',
@@ -213,14 +215,14 @@ describe('approval gate', () => {
 
   it('cannot approve a run the human has not opened', async () => {
     const run = await startRun({ title: 'Cash forecast', task: 'Prepare a 13-week cash flow projection.' }, provider);
-    expect(() => approveRun(run.id)).toThrow(/review it before approving/);
+    await expect(approveRun(run.id)).rejects.toThrow(/review it before approving/);
   });
 
   it('feeds a rejection reason back as the next instruction and reopens the run', async () => {
     const run = await startRun({ title: 'Cash forecast', task: 'Prepare a 13-week cash flow projection.' }, provider);
-    markViewed(run.id);
-    expect(() => rejectRun(run.id, '   ')).toThrow(/needs a reason/);
-    const rejected = rejectRun(run.id, 'Use a 12-month burn average, not trailing 3.');
+    await markViewed(run.id);
+    await expect(rejectRun(run.id, '   ')).rejects.toThrow(/needs a reason/);
+    const rejected = await rejectRun(run.id, 'Use a 12-month burn average, not trailing 3.');
     expect(rejected.status).toBe('rejected');
     expect(rejected.rejectionReason).toMatch(/12-month burn/);
     const reopened = await reopenRun(run.id, provider);
@@ -253,7 +255,7 @@ describe('clarification before planning', () => {
 
   it('plans, executes and hands in workpapers once the last answer lands', async () => {
     const run = await startRun(FA, provider);
-    uploadContext(run.id, 'FA_Register_March_2026.xlsx');
+    await uploadContext(run.id, 'FA_Register_March_2026.xlsx');
     let latest = run;
     for (const [id, answer] of ANSWERS) latest = await answerClarification(run.id, id, answer, provider);
     expect(latest.status).toBe('review_ready');
@@ -272,12 +274,13 @@ describe('clarification before planning', () => {
     expect(state.rows.at(-1)!.cells).toEqual(['Total Fixed Assets', '$59,299.55', '($1,848.14)', '$57,451.41']);
     expect(latest.findings.length).toBeGreaterThan(0);
     expect(latest.assumptions[0]).toMatch(/USD/);
-    expect(getRun(run.id)).toEqual(latest);
+    expect(await getRun(run.id)).toEqual(latest);
+    expect(await replayRun(run.id)).toEqual(latest);
   });
 
   it('drafts entries but never posts them', async () => {
     const run = await startRun(FA, provider);
     for (const [id, answer] of ANSWERS) await answerClarification(run.id, id, answer, provider);
-    expect(listPostings(run.id)).toHaveLength(0);
+    expect(await listPostings(run.id)).toHaveLength(0);
   });
 });

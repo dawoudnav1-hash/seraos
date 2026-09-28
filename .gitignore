@@ -3,6 +3,7 @@ node_modules
 *.tsbuildinfo
 vert.db
 vert.db-*
+.vert-pg
 public/artifacts/*
 !public/artifacts/.gitkeep
 .env.local

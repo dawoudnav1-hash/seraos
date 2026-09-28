@@ -15,7 +15,6 @@
     "@dnd-kit/core": "^6.1.0",
     "@dnd-kit/utilities": "^3.2.2",
     "@electric-sql/pglite": "^0.5.8",
-    "better-sqlite3": "^11.3.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "docx": "^9.8.0",
@@ -33,7 +32,6 @@
     "zustand": "^5.0.0"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "^7.6.11",
     "@types/node": "^22.7.0",
     "@types/pg": "^8.23.1",
     "@types/react": "^18.3.11",
