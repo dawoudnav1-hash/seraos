@@ -1,0 +1,17 @@
+[
+ {
+  "id": "calendar:37609olcuip0eth3d7jufkqacc",
+  "date": "2026-10-22T02:45:00Z",
+  "channel": "email",
+  "kind": "meeting",
+  "source": "calendar",
+  "counterpartyEmails": [
+   "kevin.jasin@relevanceai.com"
+  ],
+  "personName": "Kevin Jasin",
+  "domain": "relevanceai.com",
+  "subject": "Dawoud <> Kevin Jasin",
+  "snippet": "Google Meet 13:45-14:00 AEDT, organizer self; attendee response needsAction; Gemini notes attached",
+  "seenFlag": null
+ }
+]

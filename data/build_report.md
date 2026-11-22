@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-22T12:48:35+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-22T12:52:23+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **479**
 - Contacts (de-duplicated): **803**
@@ -9,7 +9,7 @@ Generated 2026-11-22T12:48:35+00:00 by `pipeline/build_data.py`.
 - Accounts in Attio: 271
 - Accounts with no contacts: 28
 - Contacts with email: 612
-- Outreach events: 43
+- Outreach events: 44
 
 ## Log
 
@@ -18,6 +18,18 @@ Generated 2026-11-22T12:48:35+00:00 by `pipeline/build_data.py`.
 - [ATTIO-DUPLICATE] Attio has 2 records for 'Creswick Wool': ['c52c28a3-3cb8-4713-acb3-fb308cbe2439', '4fb5edb8-577f-48d8-9cb3-b0e3cd97065e'] (merged into one account)
 - [merge-by-domain-root] Attio: 'MoveActive Int' ['moveactive.co'] -> 'MoveActive' ['moveactive.com.au']
 - [ATTIO-DUPLICATE] Attio has 2 records for 'MoveActive': ['d6dc07f0-4d20-4740-b206-b2cf7ba15e8e', '460fafd6-1d9e-4edf-89b1-2344a45079d9'] (merged into one account)
+- [merge-by-name] Vert_prospect_list_AU_final: 'Hey You' [] -> 'Hey You' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'Lorgan' [] -> 'Lorgan' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'PhotoSentinel' [] -> 'PhotoSentinel' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'Visibuild' [] -> 'Visibuild' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'JGR & STN' [] -> 'JGR & STN' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'PetO Australia' [] -> 'PetO Australia' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'Eva' [] -> 'Eva' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'bellabox' [] -> 'bellabox' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'Made With Plants' [] -> 'Made With Plants' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'Noosa Chocolate Factory' [] -> 'Noosa Chocolate Factory' []
+- [merge-by-name] Vert_prospect_list_AU_final: 'Go-To Skincare' [] -> 'Go-To Skincare' []
+- [count] Vert_prospect_list_AU_final: 228 accounts (Removed-accounts tab ignored)
 - [merge-by-name] Vert_AU_finance_team_contacts: 'Hey You' [] -> 'Hey You' []
 - [merge-by-name] Vert_AU_finance_team_contacts: 'Lorgan' [] -> 'Lorgan' []
 - [merge-by-name] Vert_AU_finance_team_contacts: 'PhotoSentinel' [] -> 'PhotoSentinel' []
@@ -50,6 +62,7 @@ Generated 2026-11-22T12:48:35+00:00 by `pipeline/build_data.py`.
 - [count] Melbourne Accounting Firm Contacts: 100 firms
 - [attio-stub] stub ['melrosegroup.com.au'] dropped (no name, no matching account)
 - [count] Attio: 274 companies (1 stub), 69 people (0 unmatched)
+- [count] Exa enrichment: 0 firms, 0 companies, 0 LinkedIn URLs, 0 new contacts
 - [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
 - [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
-- [count] outreach: 43 events (0 not matched to an account)
+- [count] outreach: 44 events (0 not matched to an account)

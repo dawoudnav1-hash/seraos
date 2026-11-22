@@ -38,6 +38,8 @@ SRC_VF = "Vert_AU_finance_team_contacts"
 SRC_ECOM = "AU_ecommerce_AI_finance_leads"
 SRC_ORI = "Vert_AU_prospects_Origami"
 SRC_MEL = "Melbourne Accounting Firm Contacts"
+SRC_MASTER = "Vert_prospect_list_AU_final"
+SRC_EXA = "Exa web research"
 
 SEG_SAAS = "SaaS"
 SEG_ECOM = "CPG / Ecom / D2C"
@@ -417,6 +419,40 @@ def build() -> tuple[list[dict], dict]:
         if n:
             add_contact(acc, SRC_ATTIO, {"name": n, "title": t or "Founder", "linkedin": r.get("founder_linkedin")})
 
+    # 1b) Vert_prospect_list_AU_final (research master list behind the finance-contacts sheet)
+    n_master = 0
+    for tab, seg in (("SaaS", SEG_SAAS), ("CPG-Ecom", SEG_ECOM)):
+        for r in read_tab("prospect_list_final.xlsx", tab):
+            if not s(r.get("Company")):
+                continue
+            n_master += 1
+            d = domain_of(str(r.get("Website") or "").split(" ")[0])
+            fit = r.get("Fit score (1-5)")
+            try:
+                fit = float(fit) if fit is not None else None
+                fit = int(fit) if fit is not None and fit.is_integer() else fit
+            except (TypeError, ValueError):
+                fit = None
+            urls = [u.strip() for u in re.split(r"\s*;\s*|\s+", str(r.get("Source URLs") or "")) if u.strip().startswith("http")]
+            reg.upsert(SRC_MASTER, s(r["Company"]), [d] if d else [], {
+                "segment": seg,
+                "sector": s(r.get("Sub-category")),
+                "location": s(r.get("HQ city")),
+                "revenue": s(r.get("Est. revenue range (and basis)")),
+                "employees": s(r.get("Est. headcount")),
+                "fundingStage": s(r.get("Funding stage and notable investors")),
+                "techStack": s(r.get("Evidence of tech stack (with source)")),
+                "keySignals": s(r.get("Key info / recent signals")),
+                "whyFit": s(r.get("Why they fit Vert")),
+                "decisionMaker": s(r.get("Likely decision maker")),
+                "fitScore": fit,
+                "fitConfidence": s(r.get("Confidence")),
+                "icpStatus": s(r.get("ICP verdict")),
+                "sourceUrls": urls or None,
+                "listStatus": s(r.get("List status")),
+            })
+    log("count", f"{SRC_MASTER}: {n_master} accounts (Removed-accounts tab ignored)")
+
     # 2) Vert_AU_finance_team_contacts
     vf_accounts = read_tab("vert_finance_team_contacts.xlsx", "Finance Contacts")
     vf_contacts = read_tab("vert_finance_team_contacts.xlsx", "All contacts")
@@ -714,6 +750,15 @@ def finalize(raw_accounts: list[dict]) -> tuple[list[dict], dict]:
             "fitConfidence": f.get("fitConfidence"),
             "growth": f.get("growth"),
             "icpStatus": f.get("icpStatus"),
+            "fundingStage": f.get("fundingStage"),
+            "techStack": f.get("techStack"),
+            "keySignals": f.get("keySignals"),
+            "whyFit": f.get("whyFit"),
+            "decisionMaker": f.get("decisionMaker"),
+            "fitScore": f.get("fitScore"),
+            "listStatus": f.get("listStatus"),
+            "sourceUrls": f.get("sourceUrls"),
+            "signalSource": "Attio" if signal else None,
             "flags": f.get("flags"),
             "notes": f.get("notes"),
             "cfo": f.get("cfo"),
@@ -731,11 +776,155 @@ def finalize(raw_accounts: list[dict]) -> tuple[list[dict], dict]:
     return out, {}
 
 
+# ---------------------------------------------------------------- enrichment (Exa web research)
+def _load_list(*names) -> list:
+    out = []
+    for n in names:
+        p = os.path.join(RAW, "enrich", n)
+        if os.path.exists(p):
+            out += json.load(open(p))
+    return out
+
+
+def apply_enrichment(accounts: list[dict]) -> None:
+    by_id = {a["id"]: a for a in accounts}
+    used_domains = {d: a["id"] for a in accounts for d in [a.get("domain")] + a.get("otherDomains", []) if d}
+
+    def safe_url(u, must_contain=None):
+        if not u or not isinstance(u, str) or not re.match(r"^https?://", u):
+            return None
+        if must_contain and must_contain not in u.lower():
+            return None
+        return u.strip()
+
+    def set_domain(a, url):
+        d = domain_of(url)
+        if not d or a.get("domain"):
+            return
+        if d in used_domains and used_domains[d] != a["id"]:
+            log("enrich-domain-conflict", f"{a['name']}: Exa website {d} already belongs to {used_domains[d]}; ignored")
+            return
+        a["domain"], a["website"] = d, norm_url(d)
+        used_domains[d] = a["id"]
+
+    n_f = n_c = 0
+    # accounting firms
+    for e in _load_list("firms_A_out.json", "firms_B_out.json"):
+        a = by_id.get(e.get("id"))
+        if not a or a["segment"] != SEG_ACC:
+            continue
+        if (e.get("confidence") or "").lower() == "low":
+            log("enrich-skipped-low-confidence", f"{a['name']}")
+            continue
+        touched = False
+        if safe_url(e.get("website")) and not a.get("domain"):
+            set_domain(a, e["website"])
+            touched = True
+        li = safe_url(e.get("linkedin"), "linkedin.com/company/")
+        if li and not a.get("linkedin"):
+            a["linkedin"] = li
+            touched = True
+        for src_k, dst_k in (("description", "description"), ("location", "location"), ("staffBasis", "headcountBasis")):
+            if s(e.get(src_k)) and not a.get(dst_k):
+                a[dst_k] = s(e[src_k])
+                touched = True
+        if isinstance(e.get("services"), list) and e["services"]:
+            a["services"] = [str(x) for x in e["services"] if x]
+            touched = True
+        staff = e.get("staff")
+        if isinstance(staff, (int, float)) and not a.get("employees"):
+            a["employees"] = str(int(staff))
+            touched = True
+        if s(e.get("alphaSignal")) and not a.get("signal"):
+            a["signal"] = s(e["alphaSignal"])
+            a["signalSummary"] = a["signal"].split("\n", 1)[0][:220]
+            a["signalSource"] = SRC_EXA
+            touched = True
+        urls = [u for u in (e.get("sourceUrls") or []) if safe_url(u)]
+        if urls:
+            a["sourceUrls"] = list(dict.fromkeys((a.get("sourceUrls") or []) + urls))
+        # re-classify section with the new evidence
+        staff_n = to_int(a.get("employees"))
+        if e.get("isSoloPractice") is True or (staff_n is not None and staff_n <= 2):
+            a["type"] = "solo"
+            a["typeReason"] = "Sole practitioner / micro practice" + (f" ({e.get('staffBasis')})" if e.get("staffBasis") else "")
+        elif a["type"] == "firm" and staff_n:
+            a["typeReason"] = f"Accounting / advisory practice ({staff_n} staff)"
+        if touched:
+            if SRC_EXA not in a["sources"]:
+                a["sources"].append(SRC_EXA)
+            n_f += 1
+    # companies
+    for e in _load_list("companies_A_out.json", "companies_B_out.json"):
+        a = by_id.get(e.get("id"))
+        if not a or e.get("skipped"):
+            continue
+        touched = False
+        desc = s(e.get("description"))
+        if desc and not a.get("description"):
+            a["description"] = desc
+            touched = True
+        li = safe_url(e.get("linkedin"), "linkedin.com/company/")
+        if li and not a.get("linkedin"):
+            a["linkedin"] = li
+            touched = True
+        if safe_url(e.get("website")) and not a.get("domain"):
+            set_domain(a, e["website"])
+            touched = True
+        if touched:
+            if SRC_EXA not in a["sources"]:
+                a["sources"].append(SRC_EXA)
+            n_c += 1
+    # people
+    ppl_path = os.path.join(RAW, "enrich", "people_out.json")
+    n_li = n_new = 0
+    if os.path.exists(ppl_path):
+        P = json.load(open(ppl_path))
+        con = {c["id"]: c for a in accounts for c in a["contacts"]}
+        for x in P.get("linkedin_found", []):
+            c = con.get(x.get("contactId"))
+            li = safe_url(x.get("linkedin"), "linkedin.com/in/")
+            if c and li and not c.get("linkedin"):
+                c["linkedin"] = li
+                if SRC_EXA not in c["sources"]:
+                    c["sources"].append(SRC_EXA)
+                n_li += 1
+        for x in P.get("new_contacts", []):
+            a = by_id.get(x.get("accountId"))
+            name = s(x.get("name"))
+            if not a or not name:
+                continue
+            if any(person_key(c["name"]) == person_key(name) for c in a["contacts"]):
+                continue
+            cid = f"{a['id']}--{slug(name)}"
+            if cid in con:
+                continue
+            email = s(x.get("email"))
+            email = email.lower() if email and "@" in email else None
+            c = {
+                "id": cid, "name": name, "title": s(x.get("title")), "roleType": role_type(s(x.get("title"))),
+                "email": email, "emailStatus": "Published on firm website (found via Exa)" if email else None,
+                "emailRisk": "ok" if email else "none",
+                "linkedin": safe_url(x.get("linkedin"), "linkedin.com/in/"),
+                "notes": f"Found via Exa web research ({x.get('confidence', 'n/a')} confidence): {s(x.get('evidence')) or ''}".strip(),
+                "isPrimary": not a["contacts"], "likelyLeft": False, "sources": [SRC_EXA], "inAttio": False,
+            }
+            a["contacts"].append({k: v for k, v in c.items() if v is not None})
+            con[cid] = c
+            if SRC_EXA not in a["sources"]:
+                a["sources"].append(SRC_EXA)
+            n_new += 1
+    log("count", f"Exa enrichment: {n_f} firms, {n_c} companies, {n_li} LinkedIn URLs, {n_new} new contacts")
+
+
 # ---------------------------------------------------------------- outreach
 def build_outreach(accounts: list[dict]) -> dict:
     path = os.path.join(RAW, "outreach", "events.json")
     notes_path = os.path.join(RAW, "outreach", "sources.json")
     events_in = json.load(open(path)) if os.path.exists(path) else []
+    extra = os.path.join(RAW, "outreach", "events_extra.json")
+    if os.path.exists(extra):
+        events_in += json.load(open(extra))
     sources = json.load(open(notes_path)) if os.path.exists(notes_path) else []
     by_email: dict[str, tuple[str, str]] = {}
     by_domain: dict[str, str] = {}
@@ -816,6 +1005,10 @@ def checks(accounts: list[dict]) -> None:
 
 def main() -> int:
     accounts, _ = build()
+    apply_enrichment(accounts)
+    for a in accounts:  # drop empty optional fields so output matches the TS contract
+        for k in [k for k, v in a.items() if (v is None or v == []) and k not in ("contacts", "sources")]:
+            del a[k]
     checks(accounts)
     outreach = build_outreach(accounts)
     os.makedirs(OUT_DIR, exist_ok=True)

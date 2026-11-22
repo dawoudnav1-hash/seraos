@@ -1,7 +1,34 @@
 [
- {"name": "Hostinger mailbox (work email)", "detail": "All 37 Sent and 80 Inbox messages scanned. 31 sent messages went to prospect addresses/domains; no inbox message came from a prospect."},
- {"name": "Gmail (personal)", "detail": "Sent and inbound mail searched against every prospect domain: 6 sent threads matched (one bounced, noted in its snippet). Inbound hits were vendor mail, not replies."},
- {"name": "LinkedIn notification emails", "detail": "'Accepted your invitation' / message notices matched to prospects by exact full name: 5 accepted, 1 message. Coverage is partial (notices show first names only)."},
- {"name": "LinkedIn API (Composio)", "detail": "Connected toolkit cannot read conversations, sent invitations or read receipts, so LinkedIn sends/seen are not importable. Log them with the buttons on each contact."},
- {"name": "Email opens", "detail": "No open-tracking tool found in either mailbox, so 'Seen' for email can only be logged manually."}
+ {
+  "name": "Hostinger mailbox (work email)",
+  "detail": "All 37 Sent and 80 Inbox messages scanned. 31 sent messages went to prospect addresses/domains; no inbox message came from a prospect."
+ },
+ {
+  "name": "Gmail (personal)",
+  "detail": "Sent and inbound mail searched against every prospect domain: 6 sent threads matched (one bounced, noted in its snippet). Inbound hits were vendor mail, not replies."
+ },
+ {
+  "name": "LinkedIn notification emails",
+  "detail": "'Accepted your invitation' / message notices matched to prospects by exact full name: 5 accepted, 1 message. Coverage is partial (notices show first names only)."
+ },
+ {
+  "name": "LinkedIn API (Composio)",
+  "detail": "Connected toolkit cannot read conversations, sent invitations or read receipts, so LinkedIn sends/seen are not importable. Log them with the buttons on each contact."
+ },
+ {
+  "name": "Email opens",
+  "detail": "No open-tracking tool found in either mailbox, so 'Seen' for email can only be logged manually."
+ },
+ {
+  "name": "Google Calendar",
+  "detail": "Meetings in the last 120 days with a prospect attendee are logged as meetings (1 found: Relevance AI, 22 Oct)."
+ },
+ {
+  "name": "Apollo.io",
+  "detail": "Checked: no sequences, no linked mailboxes, all-time email stats are zero."
+ },
+ {
+  "name": "Attio",
+  "detail": "Checked: no synced emails or meetings with prospect companies."
+ }
 ]

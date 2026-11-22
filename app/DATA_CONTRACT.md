@@ -60,6 +60,16 @@ export interface Account {
   fitConfidence?: string;        // 'High' | 'Medium' | 'Low'
   growth?: string;
   icpStatus?: string;
+  fundingStage?: string;         // funding stage + notable investors (master prospect list)
+  techStack?: string;            // evidence of tech stack, with source
+  keySignals?: string;           // key info / recent signals
+  whyFit?: string;               // why they fit Vert
+  decisionMaker?: string;        // likely decision maker
+  fitScore?: number;             // 1-5 fit score from the master prospect list
+  listStatus?: string;
+  sourceUrls?: string[];         // research source links
+  signalSource?: string;         // 'Attio' or 'Exa web research' — provenance of `signal`
+  services?: string[];           // accounting firms: services they list
   flags?: string;                // notes / flags from research
   notes?: string;
   cfo?: string;
