@@ -1,14 +1,14 @@
 # Data build report
 
-Generated 2026-11-22T12:52:23+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-22T12:55:29+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **479**
-- Contacts (de-duplicated): **803**
+- Contacts (de-duplicated): **843**
 - Sections: firm 194, internal 159, solo 126
 - Segments: Accounting & advisory 194, CPG / Ecom / D2C 173, SaaS 102, AI startup 7, Other 2, VC / Accelerator 1
 - Accounts in Attio: 271
-- Accounts with no contacts: 28
-- Contacts with email: 612
+- Accounts with no contacts: 2
+- Contacts with email: 619
 - Outreach events: 44
 
 ## Log
@@ -62,7 +62,11 @@ Generated 2026-11-22T12:52:23+00:00 by `pipeline/build_data.py`.
 - [count] Melbourne Accounting Firm Contacts: 100 firms
 - [attio-stub] stub ['melrosegroup.com.au'] dropped (no name, no matching account)
 - [count] Attio: 274 companies (1 stub), 69 people (0 unmatched)
-- [count] Exa enrichment: 0 firms, 0 companies, 0 LinkedIn URLs, 0 new contacts
+- [count] Exa enrichment: 0 firms, 0 companies, 5 LinkedIn URLs, 42 new contacts
+- [override] contact creswick-wool--paul-ryzowy: {'likelyLeft': True, 'note': 'Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld.'}
+- [override] account great-wrap: flagged
+- [override] account lgy-accountants: flagged
+- [override] contact melrose-health--geoff-steinicke: {'likelyLeft': True, 'note': 'Stale: sold Melrose in 2010 and retired. Current CEO/CFO added.'}
 - [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
 - [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
 - [count] outreach: 44 events (0 not matched to an account)

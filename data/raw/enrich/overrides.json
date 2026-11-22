@@ -1,0 +1,12 @@
+{
+ "_comment": "Manual corrections from web research (Exa). Applied last by pipeline/build_data.py.",
+ "contacts": {
+  "creswick-wool--paul-ryzowy": {"likelyLeft": true, "note": "Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld."},
+  "melrose-health--geoff-steinicke": {"likelyLeft": true, "note": "Stale: sold Melrose in 2010 and retired. Current CEO/CFO added."}
+ },
+ "removeContacts": ["relevance-ai--founder-name", "relevance-ai--cfo-name"],
+ "accounts": {
+  "great-wrap": {"flag": "Operating entity entered voluntary administration in Sep 2025 (staff made redundant). Verify before any outreach."},
+  "lgy-accountants": {"flag": "No principal identifiable from the firm site (first names only). Needs a manual check."}
+ }
+}

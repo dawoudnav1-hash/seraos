@@ -324,7 +324,7 @@ def split_person(text: str | None) -> tuple[str | None, str | None]:
     parts = re.split(r"\s+[—–-]\s+", t, maxsplit=1)
     name = parts[0].strip()
     title = parts[1].strip() if len(parts) > 1 else None
-    if not name or len(name) > 60 or re.search(r"\b(none|n/a|unknown|not found|no )\b", name, re.I):
+    if not name or len(name) > 60 or re.search(r"\b(none|n/a|unknown|not found|no |name|tbd|vacant)\b", name, re.I):
         return None, None
     return name, title
 
@@ -393,9 +393,9 @@ def build() -> tuple[list[dict], dict]:
             "valuation": r.get("valuation"),
             "founded": s(r.get("foundation_date")),
             "signal": r.get("signal"),
-            "cfo": r.get("cfo"),
+            "cfo": r.get("cfo") if split_person(r.get("cfo"))[0] else None,
             "financeTeam": r.get("finance_team"),
-            "founder": r.get("founder"),
+            "founder": r.get("founder") if split_person(r.get("founder"))[0] else None,
             "linkedin": r.get("linkedin"),
             "logoUrl": r.get("logo_url"),
             "categories": r.get("categories"),
@@ -884,7 +884,7 @@ def apply_enrichment(accounts: list[dict]) -> None:
         for x in P.get("linkedin_found", []):
             c = con.get(x.get("contactId"))
             li = safe_url(x.get("linkedin"), "linkedin.com/in/")
-            if c and li and not c.get("linkedin"):
+            if c and li and not c.get("linkedin") and (x.get("confidence") or "").lower() == "high":
                 c["linkedin"] = li
                 if SRC_EXA not in c["sources"]:
                     c["sources"].append(SRC_EXA)
@@ -915,6 +915,35 @@ def apply_enrichment(accounts: list[dict]) -> None:
                 a["sources"].append(SRC_EXA)
             n_new += 1
     log("count", f"Exa enrichment: {n_f} firms, {n_c} companies, {n_li} LinkedIn URLs, {n_new} new contacts")
+
+    # manual overrides (stale contacts, placeholders, account warnings)
+    ov_path = os.path.join(RAW, "enrich", "overrides.json")
+    if os.path.exists(ov_path):
+        ov = json.load(open(ov_path))
+        rm = set(ov.get("removeContacts", []))
+        for a in accounts:
+            before = len(a["contacts"])
+            a["contacts"] = [c for c in a["contacts"] if c["id"] not in rm]
+            if len(a["contacts"]) != before:
+                log("override", f"removed {before - len(a['contacts'])} placeholder contact(s) from {a['name']}")
+                if not any(c.get("isPrimary") for c in a["contacts"]) and a["contacts"]:
+                    a["contacts"][0]["isPrimary"] = True
+            for c in a["contacts"]:
+                o = ov.get("contacts", {}).get(c["id"])
+                if o:
+                    if o.get("likelyLeft"):
+                        c["likelyLeft"] = True
+                        c["isPrimary"] = False
+                    if o.get("note"):
+                        c["notes"] = (c.get("notes") + " | " if c.get("notes") else "") + o["note"]
+                    log("override", f"contact {c['id']}: {o}")
+            o = ov.get("accounts", {}).get(a["id"])
+            if o and o.get("flag"):
+                a["flags"] = (a.get("flags") + " | " if a.get("flags") else "") + "⚠ " + o["flag"]
+                log("override", f"account {a['id']}: flagged")
+            # keep ordering rule: likely-left last
+            role_rank = {"Finance": 0, "Executive": 1, "Founder": 1, "Other": 2}
+            a["contacts"].sort(key=lambda c: (bool(c.get("likelyLeft")), not c.get("isPrimary"), role_rank.get(c.get("roleType"), 3)))
 
 
 # ---------------------------------------------------------------- outreach
