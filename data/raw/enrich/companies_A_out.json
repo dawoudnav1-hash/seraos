@@ -1,0 +1,614 @@
+[
+  {
+    "id": "adventure-operations",
+    "description": "Australian outdoor leisure company whose brands (OZtrail, Companion, Campfire, Ozpig, Kakadu, MTB Direct) sell camping, cooking, power and outdoor gear to retail customers in Australia and abroad.",
+    "sourceUrl": "https://adventureoperations.com.au/"
+  },
+  {
+    "id": "afends",
+    "description": "Byron Bay streetwear and apparel label selling men's and women's clothing, including hemp and organic cotton pieces, through its website, its own stores and retailers.",
+    "sourceUrl": "https://afends.com/en-us"
+  },
+  {
+    "id": "ailo",
+    "description": "Property management SaaS platform connecting property managers, owners, renters and tradespeople, with rent payments, accounting, compliance and messaging in one system.",
+    "sourceUrl": "https://ailo.io/about-us"
+  },
+  {
+    "id": "amristar",
+    "description": "Perth software consultancy that builds enterprise web mapping and business applications for government and industry clients, including the Mapworks SaaS or on-premise mapping platform.",
+    "sourceUrl": "https://amristar.com/products/"
+  },
+  {
+    "id": "applyflow",
+    "description": "Software platform for building recruitment websites, career sites and job boards, plus a recruitment management system with CV parsing and ATS integrations, sold to agencies and employers.",
+    "sourceUrl": "https://www.applyflow.com/recruitment-management-system/"
+  },
+  {
+    "id": "archistar",
+    "description": "AI PreCheck software that automatically checks building plans against zoning and building-code rules, sold to local governments and to applicants, architects and certifiers.",
+    "sourceUrl": "https://www.archistar.ai/aiprecheck/ai-plan-review/"
+  },
+  {
+    "id": "atticus",
+    "description": "Document verification platform used by law firms and listed companies to check annual reports, prospectuses and other critical documents against evidence before release. Based in Melbourne.",
+    "sourceUrl": "https://www.atticus.tech/instructions-for-llm-ai"
+  },
+  {
+    "id": "australian-beverage-holdings-pureau",
+    "description": "Australian Beverage Holdings makes Pureau purified water in 600 mL, 2 L, 5 L and 10 L formats, sold to households through supermarkets, online retailers and independent stores.",
+    "sourceUrl": "https://pureau.com.au/"
+  },
+  {
+    "id": "azupay",
+    "description": "Australian payments provider offering PayID, PayTo and account-check services so businesses can collect, pay out and verify payments in real time. Licensed under an AFSL.",
+    "sourceUrl": "https://azupay.com.au/faqs/"
+  },
+  {
+    "id": "b-box-for-kids",
+    "description": "Kids' lunch boxes, drink bottles and bento accessories designed for children and parents, sold online and through retailers in many countries.",
+    "sourceUrl": "https://www.bbox.com/"
+  },
+  {
+    "id": "babyboo-fashion",
+    "description": "Online women's fashion label selling occasionwear dresses, jumpsuits and accessories direct to customers, with worldwide shipping.",
+    "sourceUrl": "https://www.babyboofashion.com/en-us/pages/about-us"
+  },
+  {
+    "id": "bali-body",
+    "description": "Body and skincare brand selling tan, body oil, serum and face mask products direct to consumers online. Products are marketed as vegan.",
+    "sourceUrl": "https://us.balibodyco.com/collections/skincare"
+  },
+  {
+    "id": "barney-group-barney-bed",
+    "description": "Sells orthopaedic memory-foam dog beds (Barney Bed and BarneyCurl) direct to dog owners online, in sizes matched to dog length.",
+    "sourceUrl": "https://barneybed.com.au/collections/dogbeds"
+  },
+  {
+    "id": "bassike",
+    "description": "Australian label selling organic cotton jersey basics and womenswear, made in Australia since 2006, through its online store and stockists.",
+    "sourceUrl": "https://www.bassike.com/collections/organic-jersey"
+  },
+  {
+    "id": "bean-alliance-group",
+    "description": "Melbourne coffee roaster and beverage manufacturer producing roasted coffee, tea and drinking chocolate, including organic and Fairtrade coffee, for retail and partner brands.",
+    "sourceUrl": "https://www.beanalliance.com.au/about-us.php"
+  },
+  {
+    "id": "bed-threads",
+    "description": "Bedding brand selling 100% French flax linen and GOTS-certified organic cotton sheets, duvet covers and bundles direct to consumers online.",
+    "sourceUrl": "https://bedthreads.com.au/collections/bedding"
+  },
+  {
+    "id": "beerenberg",
+    "description": "Family-owned Hahndorf, SA producer of jams, chutneys, relishes and sauces, sold to consumers through its farm shop and online store.",
+    "sourceUrl": "https://beerenberg.com.au/collections"
+  },
+  {
+    "id": "beginning-boutique",
+    "description": "Online women's fashion boutique selling dresses, tops and bottoms to customers in New Zealand and internationally, with its head office in Lytton, QLD.",
+    "sourceUrl": "https://www.beginningboutique.co.nz/"
+  },
+  {
+    "id": "bellabox",
+    "skipped": "Conflicting sources: CB Insights lists the business as ceased in June 2024, and no current trading page was confirmed. Input has no domain. Left out."
+  },
+  {
+    "id": "blinq",
+    "description": "Digital business card and contact app: users share a QR, NFC or wallet card and scan contacts. Free for individuals; paid team plans add CRM sync and lead capture.",
+    "sourceUrl": "https://blinq.me/solutions/digital-business-card"
+  },
+  {
+    "id": "bob-pete-s",
+    "description": "Wholesale bakery supplying breads, pizza bases, wraps and desserts to cafes, restaurants and caterers, mainly in NSW, with direct delivery.",
+    "sourceUrl": "https://www.yum.com.au/products/bread/wraps-pizza-bases.html"
+  },
+  {
+    "id": "bodyscience",
+    "description": "Sports nutrition brand (BSc) selling protein powders, creatine and hydration products to athletes and gym users through retail, pharmacy and online channels in Australia and NZ.",
+    "sourceUrl": "https://linkedin.com/company/bodyscience-international-pty-ltd"
+  },
+  {
+    "id": "boody",
+    "description": "B-Corp certified Australian brand selling bamboo viscose underwear, tees, socks and babywear direct to consumers online.",
+    "sourceUrl": "https://www.boody.com.au/collections/all-products"
+  },
+  {
+    "id": "brookfarm",
+    "description": "Byron Bay granola and muesli brand baked in its Northern Rivers bakehouse, sold to consumers through its online store and retailers.",
+    "sourceUrl": "https://brookfarm.com.au/collections/granola"
+  },
+  {
+    "id": "build-buddy",
+    "description": "Online platform that guides homeowners through designing, approving and building a new home without a builder, with task workflows, quotes and links to trade contractors.",
+    "sourceUrl": "https://www.buildbuddy.au/how-to-use-the-software"
+  },
+  {
+    "id": "buildpass",
+    "description": "Construction site-management SaaS for builders and head contractors, covering scheduling, drawings, site diaries, RFIs, submittals and punch lists, with subcontractor access.",
+    "sourceUrl": "https://www.buildpass.ai/features/site-management"
+  },
+  {
+    "id": "bunjie",
+    "description": "Prebiotic and probiotic baby skincare, wipes and nappies, made in Australia and sold direct to parents online.",
+    "sourceUrl": "https://www.bunjie.com/collections/all"
+  },
+  {
+    "id": "by-charlotte",
+    "description": "Australian jewellery label selling vermeil, 9k, 14k and 18k gold pieces, including lab-grown diamond designs, online and through its boutiques.",
+    "sourceUrl": "https://bycharlotte.com.au/collections/jewellery"
+  },
+  {
+    "id": "bydee",
+    "description": "Australian swimwear brand founded in 2013 selling mix-and-match bikinis and one-piece swimsuits made from recycled REPREVE nylon, direct to customers online.",
+    "sourceUrl": "https://bydeeaus.com/"
+  },
+  {
+    "id": "canibuild",
+    "description": "AI site-feasibility platform that checks zoning, setbacks and buildable area for a residential parcel, used by builders, councils and property owners in the US, AU, NZ and CA.",
+    "sourceUrl": "https://canibuild.com/en-us/"
+  },
+  {
+    "id": "caremonitor",
+    "description": "Australian cloud digital healthcare platform for hospital-in-the-home, virtual care, remote patient monitoring and chronic disease management, used by hospitals and primary health networks.",
+    "sourceUrl": "https://caremonitor.com.au/"
+  },
+  {
+    "id": "castaway-forecasting",
+    "description": "Cloud business forecasting and three-way modelling app for SMEs and accountants, importing data from Xero, QuickBooks and Excel to build cashflow forecasts and reports.",
+    "sourceUrl": "https://castawayforecasting.com/cloud-pricing/"
+  },
+  {
+    "id": "chief-nutrition",
+    "description": "Australian real-food supplements and snacks, including beef organ capsules, creatine, collagen and whey, sold direct to consumers online.",
+    "sourceUrl": "https://wearechief.com/collections/supplements"
+  },
+  {
+    "id": "cim",
+    "description": "PEAK building operations platform that pulls BMS, meter and IoT data together to detect faults, track equipment performance and manage fixes for building owners, operators and service firms.",
+    "sourceUrl": "https://www.cim.io/solutions/building-analytics"
+  },
+  {
+    "id": "ciroa-beauty-jamesly",
+    "description": "Australian bodycare brand founded in 2021 selling scented shower gels, body scrubs, butters, mists and serums direct to consumers online.",
+    "sourceUrl": "https://ciroabeauty.com/"
+  },
+  {
+    "id": "clinic-to-cloud",
+    "description": "Cloud medical practice management software for specialists and GPs in Australia, covering clinical records, letter dictation, a patient portal and Medicare claiming.",
+    "sourceUrl": "https://www.clinictocloud.com/medical-practice-software"
+  },
+  {
+    "id": "complexica",
+    "description": "Complexica Pty Ltd sells Decision Cloud, an AI platform for pricing, promotions, sales and demand planning, aimed at manufacturers, wholesalers and retailers with large product ranges.",
+    "sourceUrl": "https://www.complexica.com/software/fact-sheet"
+  },
+  {
+    "id": "compozer",
+    "description": "Cloud eLearning authoring tool that lets non-designers build interactive courses, sold on monthly plans from free to enterprise to individuals and corporate training teams.",
+    "sourceUrl": "https://www.compozer.com/pricing"
+  },
+  {
+    "id": "conserving-beauty",
+    "description": "Skincare brand selling dissolving cleansing cloths and water-free treatments for acne, eczema and cold sores, aimed at acne-prone, sensitive and eczema-prone skin.",
+    "sourceUrl": "https://www.conservingbeauty.com/pages/about-us"
+  },
+  {
+    "id": "cooee-foods",
+    "description": "Plant-based, allergy-friendly snack brand founded by a Wiradjuri woman, making cookies and popcorn with native Australian ingredients, sold direct online.",
+    "sourceUrl": "https://cooeenativesuperfoods.com.au/pages/our-story"
+  },
+  {
+    "id": "country-of-glow",
+    "description": "Melbourne skincare brand selling moisturisers (rice, collagen and hyaluronic) and a lip glaze direct to consumers online.",
+    "sourceUrl": "https://www.countryofglow.com/pages/about-us"
+  },
+  {
+    "id": "cubiko",
+    "description": "Australian healthcare data platform giving general practices billing, MBS item and performance reporting. Says it is used by more than 2,500 practices.",
+    "sourceUrl": "https://www.cubiko.com.au/"
+  },
+  {
+    "id": "cullen-jewellery",
+    "description": "Jewellery brand selling made-to-order engagement rings with lab-grown diamonds, moissanite and sapphires, online and through showrooms in Melbourne and the US.",
+    "sourceUrl": "https://cullenjewellery.com/engagement-rings"
+  },
+  {
+    "id": "cult-design",
+    "description": "Designer furniture and lighting retailer with a showroom, stocking European design brands such as HAY, Louis Poulsen and Fritz Hansen for design-minded consumers and interior trade.",
+    "sourceUrl": "https://cultdesign.com.au/"
+  },
+  {
+    "id": "cuttable",
+    "description": "AI ad creation and publishing platform for eCommerce brands running Meta and TikTok ads. It builds ads from product catalogues and past results and publishes them to the ad channels.",
+    "sourceUrl": "https://www.cuttable.com/platform/"
+  },
+  {
+    "id": "daily-blooms",
+    "description": "Online florist selling same-day flower bouquets, gift hampers and flower subscriptions, handmade by florists daily and delivered across Australia.",
+    "sourceUrl": "https://dailyblooms.com.au/"
+  },
+  {
+    "id": "derma-aesthetics",
+    "description": "Professional skincare brand (dermaviduals) supplied only to partner skin clinics and stockists, not sold online, with training for skin therapists.",
+    "sourceUrl": "https://dermaviduals.com.au/partner-with-us/"
+  },
+  {
+    "id": "design-by-them",
+    "description": "Australian designer furniture, lighting and homewares brand founded in 2007, selling its in-house designs to design enthusiasts and trade clients online and through a Sydney showroom.",
+    "sourceUrl": "https://www.designbythem.com/en-us/pages/about-us"
+  },
+  {
+    "id": "directo",
+    "description": "Melbourne-based B2B online marketplace where pharmacies buy from pharmaceutical and health suppliers, with integrated ordering, invoicing and supplier payments.",
+    "sourceUrl": "https://www.directoau.com/"
+  },
+  {
+    "id": "displaysweet",
+    "description": "Interactive sales presentation software for property developers and real estate sales galleries, including a presenter app, touchscreens, LED walls and 3D models for buyers and agents.",
+    "sourceUrl": "https://www.displaysweet.com/platform-presenter"
+  },
+  {
+    "id": "downies-collectables",
+    "description": "Online coin and collectables retailer selling mint and bullion coins and monthly subscription collections to collectors in Australia and internationally.",
+    "sourceUrl": "https://www.downies.com/collections/subscriptions"
+  },
+  {
+    "id": "draftable",
+    "description": "Document comparison software for legal teams and other organisations, comparing Word, PDF, Excel and PowerPoint files via desktop, Outlook add-in and REST API.",
+    "sourceUrl": "https://www.draftable.com/products"
+  },
+  {
+    "id": "duress",
+    "description": "Lone and frontline worker safety system: wearable devices and a smartphone app connected to 24/7 monitored emergency response, sold to employers in Australia, NZ and the UK.",
+    "sourceUrl": "https://www.duress.com/en-us/products/"
+  },
+  {
+    "id": "edge-zero",
+    "description": "Electricity grid monitoring hardware and cloud analytics (EdgeSensor, EdgeConnected) for distribution networks, utilities and private networks, with API integration into utility systems.",
+    "sourceUrl": "https://edgezero.co/products/"
+  },
+  {
+    "id": "edible-blooms",
+    "description": "Australian gourmet gift company selling hand-packed hampers, chocolate bouquets and gift boxes online, with same-day delivery in major capital cities and nationwide shipping.",
+    "sourceUrl": "https://www.edibleblooms.com.au/collections/gift-hampers"
+  },
+  {
+    "id": "edsmart",
+    "description": "Australian SaaS for K-12 schools that digitises duty-of-care forms, excursion approvals, parent consent and incident records. Used by more than 1,400 schools.",
+    "sourceUrl": "https://edsmart.com/"
+  },
+  {
+    "id": "edtech-group",
+    "description": "Tech-enabled education organisation providing digital technologies curriculum, coding and robotics programs to schools, plus the Audiri school communications app for notices, forms and payments.",
+    "sourceUrl": "https://edtechgroup.com.au/schools/"
+  },
+  {
+    "id": "elk",
+    "description": "Australian women's fashion label selling clothing, footwear, bags and jewellery designed in Melbourne, sold online to customers in Australia and the US.",
+    "sourceUrl": "https://elkthelabel.com/"
+  },
+  {
+    "id": "emesent",
+    "description": "Autonomous and handheld LiDAR mapping systems (Hovermap, Cortex autonomy) that capture 3D site data for infrastructure, construction, energy and mining operators.",
+    "sourceUrl": "https://www.emesent.com/autonomy"
+  },
+  {
+    "id": "emma-tom-s",
+    "skipped": "Input domain emmaandtom.com returned a server error page; the matching brand site (emmaandtoms.com.au) is on a different domain, so it could not be confirmed as the same company."
+  },
+  {
+    "id": "enlightened-living",
+    "description": "Australian distributor of designer lighting and furniture brands such as Astro, Juniper and Toscot, selling to homeowners and to architects and designers through a Brisbane showroom and trade accounts.",
+    "sourceUrl": "https://enlightened-living.com.au/pages/about-us"
+  },
+  {
+    "id": "eql",
+    "description": "Platform for running product drops and limited launches with bot protection and draws, used by brands in sneakers, collectibles and spirits, with fans entering through the EQL site.",
+    "sourceUrl": "https://www.eql.com/platform"
+  },
+  {
+    "id": "equiem",
+    "description": "Tenant experience and building management SaaS for commercial property owners, combining a tenant app, property operations tools, flex space management and portfolio analytics.",
+    "sourceUrl": "https://getequiem.com/tenant-experience-platform"
+  },
+  {
+    "id": "eva",
+    "skipped": "Input has no domain or website. The Eva site found (eva.com.au) lists a LinkedIn page (evahome) that differs from the input LinkedIn (eva-furniture), so the match could not be confirmed."
+  },
+  {
+    "id": "evaran",
+    "description": "Care software group whose platforms (eCase, MOA Benchmarking, CareLineLive, Checked In Care) cover rostering, care records, compliance and communication for aged care, home care and disability providers.",
+    "sourceUrl": "https://evaran.com/our-software/"
+  },
+  {
+    "id": "explorate",
+    "description": "Australian digital freight forwarder offering a shipment tracking platform, sea and air freight booking and customs brokerage for importers and exporters.",
+    "sourceUrl": "https://www.explorate.co/solutions/freight-forwarding"
+  },
+  {
+    "id": "fable-food-co",
+    "description": "Plant-based protein made from upcycled shiitake mushroom stems, sold to restaurants and chefs through distributors and as a home meal kit.",
+    "sourceUrl": "https://www.fablefood.co/faqs"
+  },
+  {
+    "id": "faithfull-the-brand",
+    "description": "Clothing label selling linen, organic cotton and recycled-fabric dresses, tops and swimwear direct to customers online, with shipping to the US and other markets.",
+    "sourceUrl": "https://faithfullthebrand.com/pages/our-products"
+  },
+  {
+    "id": "fatsecret",
+    "description": "Nutrition company offering a food and nutrition database API for app and device developers, plus a consumer food diary app. Covers over 2.3 million foods.",
+    "sourceUrl": "https://platform.fatsecret.com/platform-api"
+  },
+  {
+    "id": "fibersense",
+    "description": "Distributed fibre-optic sensing service that turns existing fibre cable into sensors to detect excavation strikes and threats to utility infrastructure, sold as a monthly subscription with 24/7 monitoring.",
+    "sourceUrl": "https://fibersense.com/digitalasset/"
+  },
+  {
+    "id": "firmable",
+    "description": "Melbourne-based B2B data platform giving sales and marketing teams verified company and contact data, technology intelligence and buying signals, mainly for APAC, US and Canada.",
+    "sourceUrl": "https://www.firmable.ai/"
+  },
+  {
+    "id": "firmus-technologies",
+    "description": "Australian operator of AI Factory data centres using liquid-cooled HyperCube systems, selling dedicated GPU compute capacity to AI customers across Asia-Pacific.",
+    "sourceUrl": "https://firmus.co/"
+  },
+  {
+    "id": "flavour-creations",
+    "description": "Brisbane medical nutrition manufacturer making dysphagia thickeners, protein snacks, drinks and nutritional powders for people with swallowing or nutrition needs, sold through its online shop.",
+    "sourceUrl": "https://www.flavourcreations.com.au/shop/"
+  },
+  {
+    "id": "funday-natural",
+    "description": "Sugar-free gummies and lollies (FUNDAY Natural Sweets) made without added sugar or sugar alcohols, sold direct to consumers online in boxes and bags.",
+    "sourceUrl": "https://www.fundaysweets.com/collections/all"
+  },
+  {
+    "id": "funraisin",
+    "description": "Online fundraising platform for nonprofits, offering peer-to-peer events, donation pages, giving days and event ticketing. Used by charities and nonprofit admins.",
+    "sourceUrl": "https://www.funraisin.co/features"
+  },
+  {
+    "id": "g-m-cosmetics-pure-papaya-care",
+    "description": "Australian skincare manufacturer making P'URE Papayacare papaya-based ointments, balms and baby care for sensitive skin, sold direct and through retailers.",
+    "sourceUrl": "https://gandmcosmetics.com.au/brands/pure-papayacare/"
+  },
+  {
+    "id": "glasswing",
+    "description": "Sydney software company (Glasswing Cloud) selling Kubernetes and GPU optimisation software that reallocates idle compute for enterprises running AI and cloud workloads.",
+    "sourceUrl": "https://www.glasswing.cloud/"
+  },
+  {
+    "id": "go-to-skincare",
+    "description": "Surry Hills skincare brand founded by Zoë Foster Blake, selling serums, moisturisers and fragrance to consumers through its online store and retailers.",
+    "sourceUrl": "https://gotoskincare.com/"
+  },
+  {
+    "id": "goxpro",
+    "description": "Australian SaaS platform for gyms, studios and personal trainers covering client management, workout programming, fitness assessments and payments via Ezypay, Stripe and Xero.",
+    "sourceUrl": "https://www.goxpro.com/plans-and-pricing/"
+  },
+  {
+    "id": "grain-and-bake-co-australia",
+    "description": "Melbourne food manufacturer making toasted muesli, granola, bars and snacks, both for its own range and as a co-manufacturer developing products for other brands.",
+    "sourceUrl": "https://grainandbakeco.com.au/partner/"
+  },
+  {
+    "id": "great-wrap",
+    "description": "Melbourne maker of home-compostable cling wrap and a reusable cutter (Great Mate), sold direct to consumers online in Australia and the US.",
+    "sourceUrl": "https://greatwrap.co/pages/faqs"
+  },
+  {
+    "id": "gridsight",
+    "description": "AI electrical digital twin and capacity management platform for electricity distribution utilities, used to model network capacity, DER and customer connections.",
+    "sourceUrl": "https://www.gridsight.ai/"
+  },
+  {
+    "id": "gruntify-gis-people",
+    "description": "Field operations SaaS (GIS People) for inspections, job scheduling, asset tracking and mapping, used by field service teams in mobile and web apps.",
+    "sourceUrl": "https://www.gruntify.com/"
+  },
+  {
+    "id": "h2coco",
+    "description": "Australian better-for-you drinks brand selling coconut water, juices and melon drinks in supermarkets and online, in cans, bottles and multipacks.",
+    "sourceUrl": "https://h2coconut.com/collections/all"
+  },
+  {
+    "id": "hab-shifa-australia",
+    "description": "Australian supplement brand selling cold-pressed black seed oil (thymoquinone) capsules and liquids direct to consumers online, with batch testing claimed.",
+    "sourceUrl": "https://habshifa.com.au/"
+  },
+  {
+    "id": "halaxy",
+    "description": "Cloud practice management software for health practitioners covering calendars, online bookings, patient records, invoicing and telehealth. Core software is free; paid add-ons are optional.",
+    "sourceUrl": "https://www.halaxy.com/"
+  },
+  {
+    "id": "halfbrick",
+    "description": "Mobile games studio behind Fruit Ninja and Jetpack Joyride, selling games to mobile players and a Halfbrick+ subscription hub with ad-free access.",
+    "sourceUrl": "https://www.halfbrick.com/"
+  },
+  {
+    "id": "headstart-international",
+    "description": "Aussie-owned toy company in Dandenong South, VIC that designs its own toy brands and distributes partner brands, selling to retailers for children and families.",
+    "sourceUrl": "https://headstartint.com/about/"
+  },
+  {
+    "id": "health-lab",
+    "description": "Plant-based protein snacks and protein powders sold direct online and in stores, marketed for everyday snacking as well as gym use.",
+    "sourceUrl": "https://healthlab.com.au/collections/all-products"
+  },
+  {
+    "id": "healthengine",
+    "description": "Australian patient booking platform where people find and book healthcare providers, and a practice software product that handles bookings, reminders, forms and recalls for clinics.",
+    "sourceUrl": "https://practices.healthengine.com.au/"
+  },
+  {
+    "id": "healthtrack",
+    "description": "Queensland-made practice management and clinical information system for specialist practices in Australia and New Zealand, covering billing, diary, reporting and clinical records.",
+    "sourceUrl": "https://www.healthtrack.com.au/features"
+  },
+  {
+    "id": "heaps-normal",
+    "description": "Non-alcoholic beer and drinks brand (under 0.5% ABV) selling cans and bottles online, with shipping across Australia and pickup in Marrickville, NSW.",
+    "sourceUrl": "https://heapsnormal.com/collections/beer"
+  },
+  {
+    "id": "helloteams",
+    "description": "Setup service for Microsoft Teams Phone calling, adding business phone numbers, call queues and auto-attendants to Microsoft 365 organisations via Operator Connect or Direct Routing.",
+    "sourceUrl": "https://helloteams.global/teams-phone/"
+  },
+  {
+    "id": "heritage-brands",
+    "description": "Australian beauty and wellbeing group owning brands such as Australis, Innoxa, Le Tan, Skin Republic and In Essence, sold to consumers through retail and online.",
+    "sourceUrl": "https://heritagebrands.com.au/about/"
+  },
+  {
+    "id": "hey-you",
+    "description": "Sydney order-ahead app (Hey You) where customers order food and drinks from cafes and restaurants in advance and collect digital loyalty rewards. Cited as used by over 1.2 million people.",
+    "sourceUrl": "https://www.linkedin.com/company/hey-you-app"
+  },
+  {
+    "id": "hop-nation-brewing-co",
+    "description": "Independent craft brewery in Footscray, Melbourne making lager, hazy ales and alcohol-free beers, sold online, at its taproom and through pubs and bottle shops.",
+    "sourceUrl": "https://hopnation.com.au/pages/about-us"
+  },
+  {
+    "id": "hoppr",
+    "description": "Addressable TV advertising and audience platform for pay-TV operators and broadcasters, selling ad inventory and household audience segments to advertisers through deal IDs.",
+    "sourceUrl": "https://hopprtv.com/for-operators"
+  },
+  {
+    "id": "hugh-hamilton-wines",
+    "description": "Six-generation family winery in McLaren Vale, SA selling wine online and at its cellar door, with a Black Sheep Wine Club subscription for members.",
+    "sourceUrl": "https://hughhamiltonwines.com.au/blacksheepclub/"
+  },
+  {
+    "id": "icetana-ai",
+    "description": "Australian AI video surveillance software that learns normal activity from camera feeds and alerts security teams to unusual events. Sold to retail, campus and government sites, with on-premise deployment.",
+    "sourceUrl": "https://www.icetana.ai/about"
+  },
+  {
+    "id": "id4me",
+    "description": "Contact and people-search database sold on monthly subscription to real estate agents, debt collectors and other businesses, covering mobile numbers, emails and addresses.",
+    "sourceUrl": "https://id4me.biz/"
+  },
+  {
+    "id": "idd-tech",
+    "description": "Wholly owned CIMIC Group subsidiary building integrated digital delivery software (estimating platform Cats, Siterover, Sensgrid) for construction, resources and services organisations.",
+    "sourceUrl": "https://www.iddtech.com.au/about"
+  },
+  {
+    "id": "indigo-luna",
+    "description": "Australian women's yoga and lifestyle clothing label selling leggings, tops and swimwear made from organic cotton, viscose and recycled nylon, sold direct online.",
+    "sourceUrl": "https://indigoluna.store/"
+  },
+  {
+    "id": "infa-group",
+    "description": "Family-owned Australian baby products company (since 1955) selling car seats, nursery furniture and play products under its InfaSecure, GroTime and TikkTokk brands through its websites and retailers.",
+    "sourceUrl": "https://infagroup.com.au/pages/about-infa-group-2024"
+  },
+  {
+    "id": "inmarket-systems",
+    "description": "Lending software company whose white-label platforms (LoanForge for SACC and MACC loans, WageForge for wage advance) are sold to licensed Australian lenders to run their own loan products.",
+    "sourceUrl": "https://inmarket.com.au/about/"
+  },
+  {
+    "id": "inskin-cosmedics",
+    "description": "Australian-owned skincare company whose O COSMEDICS, GINGER&ME and INSKIN.CO brands are sold to skin clinics and professionals as partners, plus consumer ranges online.",
+    "sourceUrl": "https://inskincosmedics.com.au/reasons-to-join-inskin"
+  },
+  {
+    "id": "inspace",
+    "description": "Virtual property presentation SaaS giving real estate developers, agents and leasing firms interactive 3D models, digital portfolios and tracked viewer links for sales and leasing.",
+    "sourceUrl": "https://www.inspace.ai/products/3d-stack"
+  },
+  {
+    "id": "instant",
+    "description": "AI email and SMS retention marketing platform for Shopify brands, creating personalised flows and campaigns. Priced by monthly subscription based on store revenue.",
+    "sourceUrl": "https://www.instant.one/pricing/"
+  },
+  {
+    "id": "jardan",
+    "description": "Melbourne furniture, lighting and homewares maker founded in 1987, selling made-to-order Australian-made pieces online and through showrooms in several Australian cities.",
+    "sourceUrl": "https://www.jardan.com.au/pages/about-us"
+  },
+  {
+    "id": "jgr-stn",
+    "description": "Gold Coast online women's fashion label founded in 2018 selling dresses, tops and sets direct to customers with worldwide shipping, and stocked by some Australian and US retailers.",
+    "sourceUrl": "https://www.linkedin.com/company/jagger-and-stone"
+  },
+  {
+    "id": "joolca-australia",
+    "description": "Outdoor gear brand selling portable hot water systems, portable toilets and shower shelters for 4WD, camping and off-grid users, sold direct online with a 30-day trial.",
+    "sourceUrl": "https://joolca.com"
+  },
+  {
+    "id": "just-for-pets-australia",
+    "description": "Australian pet supplies retailer with more than 60 stores and an online shop selling food, toys, medications and aquarium and small-animal supplies to pet owners.",
+    "sourceUrl": "https://www.justforpets.com.au/"
+  },
+  {
+    "id": "keeler-hardware",
+    "description": "Australian-owned architectural door hardware supplier selling locks, handles, hinges, closers and bathroom hardware to builders, trade customers and consumers, online and by phone.",
+    "sourceUrl": "https://www.keelerhardware.com.au/"
+  },
+  {
+    "id": "kepler-analytics",
+    "description": "Retail foot-traffic and sales analytics system that uses in-store sensors to count shoppers and measure conversion, sold to retailers to monitor and compare store performance.",
+    "sourceUrl": "https://kepleranalytics.com/foot-traffic-solutions/"
+  },
+  {
+    "id": "kic-wellness",
+    "description": "Women's wellness brand selling electrolyte hydration powders, teas, incense and workout kits, plus a fitness and mindfulness app. Also runs a Pilates studio in Melbourne.",
+    "sourceUrl": "https://kicwellness.com/"
+  },
+  {
+    "id": "kindling",
+    "description": "Sydney B2B marketing company combining AI-driven marketing strategy, creative production and software to plan and run marketing for companies that sell to businesses.",
+    "sourceUrl": "https://kindling.team/product"
+  },
+  {
+    "id": "knog",
+    "description": "Australian cycling and outdoor lighting brand (Blinder, Frog, Quokka and Bandicoot lights) plus bike bells and alarms, sold online and through retailers to cyclists and outdoor users.",
+    "sourceUrl": "https://www.knog.com/collections/shop-all"
+  },
+  {
+    "id": "komo-technologies",
+    "description": "Engagement platform for brands and event, sport and media properties, offering interactive content, rewards, CRM and customer data capture through hosted tools, SDKs and APIs.",
+    "sourceUrl": "https://www.komo.tech/platform"
+  },
+  {
+    "id": "lahebo",
+    "description": "Australian SaaS for governance, risk and compliance, covering risk registers, incident management, WHS, audits and a legislation library for SMEs in sectors such as NDIS, aged care and construction.",
+    "sourceUrl": "https://www.lahebo.com/about-lahebo/"
+  },
+  {
+    "id": "lee-mathews",
+    "description": "Australian womenswear label founded in 1999 selling dresses, shirts, tops and bottoms direct online and through its stores.",
+    "sourceUrl": "https://leemathews.com.au/pages/our-story"
+  },
+  {
+    "id": "leo-lin",
+    "description": "Sydney-based women's ready-to-wear label launched in 2017, selling hand-printed, bold-colour dresses and separates direct to customers online, including a US store.",
+    "sourceUrl": "https://leolinofficial.com/pages/about-us"
+  },
+  {
+    "id": "loco-love",
+    "description": "Australian chocolate brand making organic and functional chocolate, including caramels, truffles and drinking cacao, sold to consumers through its online store in singles, twin packs and gift boxes.",
+    "sourceUrl": "https://locolove.com/collections/chocolate"
+  },
+  {
+    "id": "lorgan",
+    "description": "Sydney AI, IoT and data company selling its Enigma behavioural intelligence and Ellie private generative-AI platforms, which can be deployed on-premise or in private cloud, to enterprises.",
+    "sourceUrl": "https://lorganglobal.com/"
+  },
+  {
+    "id": "lyre-s-spirit-co",
+    "description": "Sydney-founded non-alcoholic spirits brand (under 0.5% ABV) selling spirit alternatives and ready-to-drink cocktails to consumers and bars through its online store and retailers in many countries.",
+    "sourceUrl": "https://lyres.com/pages/faqs"
+  }
+]
