@@ -1,6 +1,6 @@
 import { useRef, useState, type ChangeEvent } from 'react';
 import { ConfirmDialog, Icon } from '../components/ui';
-import { dateStamp, downloadText } from '../lib/csv';
+import { copyText, dateStamp, downloadText } from '../lib/csv';
 import { parseImport } from '../lib/events';
 import { formatDateTime, formatInt } from '../lib/format';
 import { useAppData } from '../state/AppData';
@@ -13,9 +13,11 @@ export function Settings() {
   const contacts = accounts.reduce((n, a) => n + a.contacts.length, 0);
   const generatedAt = outreach.generatedAt ? Date.parse(outreach.generatedAt) : NaN;
 
-  const exportJson = () => {
-    const payload = { exportedAt: new Date().toISOString(), app: 'seraos-prospects', events: manualEvents };
-    downloadText(`seraos-manual-events-${dateStamp()}.json`, JSON.stringify(payload, null, 2), 'application/json');
+  const exportPayload = () => JSON.stringify({ exportedAt: new Date().toISOString(), app: 'seraos-prospects', events: manualEvents }, null, 2);
+  const exportJson = () => downloadText(`seraos-manual-events-${dateStamp()}.json`, exportPayload(), 'application/json');
+  const copyJson = async () => {
+    const ok = await copyText(exportPayload());
+    toast(ok ? { message: `Copied ${manualEvents.length} logged events as JSON.` } : { message: 'Could not copy to the clipboard.', tone: 'error' });
   };
 
   const onFile = async (e: ChangeEvent<HTMLInputElement>) => {
@@ -85,9 +87,14 @@ export function Settings() {
                 <div className="strong">Export</div>
                 <div className="muted small">Download every manually logged event as JSON.</div>
               </div>
-              <button type="button" className="btn" onClick={exportJson} disabled={!manualEvents.length} data-testid="export-json">
-                <Icon name="download" /> Export JSON
-              </button>
+              <div className="row-gap">
+                <button type="button" className="btn" onClick={exportJson} disabled={!manualEvents.length} data-testid="export-json">
+                  <Icon name="download" /> Export JSON
+                </button>
+                <button type="button" className="btn" onClick={copyJson} disabled={!manualEvents.length} data-testid="copy-json">
+                  Copy JSON
+                </button>
+              </div>
             </div>
             <div className="setting">
               <div>

@@ -113,6 +113,57 @@
   }
 }
 
+:root[data-theme='dark'] {
+    color-scheme: dark;
+    --bg: #111114;
+    --surface: #18181c;
+    --surface-2: #1c1c21;
+    --surface-3: #232329;
+    --hover: #212127;
+    --border: #2b2b33;
+    --border-strong: #3a3a44;
+    --text: #ececf1;
+    --text-2: #b9b9c4;
+    --text-3: #9292a0;
+    --accent: #7c7cf5;
+    --accent-2: #9a9af8;
+    --accent-soft: #25254a;
+    --accent-text: #c4c4ff;
+    --focus: #8b8bff;
+    --danger: #f07178;
+    --danger-soft: #3a1d20;
+    --warn-bg: #2f2513;
+    --warn-border: #5c4416;
+    --warn-text: #f5cd85;
+    --ok-bg: #14301f;
+    --ok-text: #8fe0b0;
+    --series-email: #3987e5;
+    --series-linkedin: #d95926;
+    --row-open: #1d1d2a;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-pop: 0 10px 30px rgba(0, 0, 0, 0.5);
+    --st-none-bg: #26262d;
+    --st-none-fg: #a9a9b5;
+    --st-contacted-bg: #1b2a44;
+    --st-contacted-fg: #9cc2ff;
+    --st-seen-bg: #2a2142;
+    --st-seen-fg: #c9b5ff;
+    --st-replied-bg: #153225;
+    --st-replied-fg: #8fe0b0;
+    --st-meeting-bg: #3a2a12;
+    --st-meeting-fg: #ffc876;
+    --sc1-bg: #26262d;
+    --sc1-fg: #a9a9b5;
+    --sc2-bg: #222b38;
+    --sc2-fg: #a9bfdc;
+    --sc3-bg: #3a3014;
+    --sc3-fg: #f3d178;
+    --sc4-bg: #163222;
+    --sc4-fg: #93deb1;
+    --sc5-bg: #1f9d57;
+    --sc5-fg: #ffffff;
+}
+
 /* ============ base ============ */
 *,
 *::before,
@@ -1713,4 +1764,10 @@ code {
   .badge {
     border: 1px solid CanvasText;
   }
+}
+
+.row-gap {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
 }

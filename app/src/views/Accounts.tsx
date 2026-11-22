@@ -1,6 +1,6 @@
 import { memo, useCallback, useDeferredValue, useEffect, useMemo, useRef, useState, type MouseEvent } from 'react';
 import { EmptyState, Icon, Logo, Popover, SearchBox, Segmented, Select } from '../components/ui';
-import { dateStamp, downloadText, toCsv } from '../lib/csv';
+import { copyText, dateStamp, downloadText, toCsv } from '../lib/csv';
 import {
   type AccountFilters,
   type AccountRow,
@@ -120,7 +120,7 @@ const AccountRowView = memo(function AccountRowView({
 });
 
 export function Accounts({ route }: { route: Route }) {
-  const { accounts, index } = useAppData();
+  const { accounts, index, toast } = useAppData();
   const [section, setSection] = usePersistentState<Section>('seraos.accounts.section.v1', 'firm', (v) =>
     SECTIONS.includes(v as Section) ? (v as Section) : undefined,
   );
@@ -239,10 +239,12 @@ export function Accounts({ route }: { route: Route }) {
   const onSort = (c: AccountColumn) =>
     setSort((s) => (s.col === c.id ? { col: c.id, dir: s.dir === 'asc' ? 'desc' : 'asc' } : { col: c.id, dir: c.defaultDir }));
 
-  const exportCsv = () => {
-    // Same order as on screen: grouped by segment, sorted within each group.
-    const csv = toCsv(CSV_HEADERS, groups.flatMap(([, list]) => list).map(accountCsvRow));
-    downloadText(`accounts-${section}-${dateStamp()}.csv`, csv, 'text/csv;charset=utf-8');
+  // Same order as on screen: grouped by segment, sorted within each group.
+  const buildCsv = () => toCsv(CSV_HEADERS, groups.flatMap(([, list]) => list).map(accountCsvRow));
+  const exportCsv = () => downloadText(`accounts-${section}-${dateStamp()}.csv`, buildCsv(), 'text/csv;charset=utf-8');
+  const copyCsv = async () => {
+    const ok = await copyText(buildCsv());
+    toast(ok ? { message: `Copied ${sorted.length} accounts as CSV — paste into Sheets or Excel.` } : { message: 'Could not copy to the clipboard.', tone: 'error' });
   };
 
   const nFilters = activeFilterCount(filters);
@@ -353,6 +355,9 @@ export function Accounts({ route }: { route: Route }) {
         </Popover>
         <button type="button" className="btn" onClick={exportCsv} data-testid="export-csv" disabled={!sorted.length}>
           <Icon name="download" /> CSV
+        </button>
+        <button type="button" className="btn" onClick={copyCsv} data-testid="copy-csv" disabled={!sorted.length} title="Copy the visible rows as CSV">
+          Copy
         </button>
       </div>
 

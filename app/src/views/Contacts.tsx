@@ -1,6 +1,6 @@
 import { useDeferredValue, useMemo, useState, type KeyboardEvent, type MouseEvent } from 'react';
 import { Badge, EmailLink, EmptyState, Icon, LinkedInLink, SearchBox, Segmented, Select, SourceBadges, StatusPill } from '../components/ui';
-import { dateStamp, downloadText, toCsv } from '../lib/csv';
+import { copyText, dateStamp, downloadText, toCsv } from '../lib/csv';
 import { kindLabel } from '../lib/events';
 import {
   type ContactFilters,
@@ -57,7 +57,7 @@ function validate(v: unknown): ContactFilters | undefined {
 const PAGE = 300;
 
 export function Contacts() {
-  const { accounts, index } = useAppData();
+  const { accounts, index, toast } = useAppData();
   const [filters, setFilters] = usePersistentState<ContactFilters>('seraos.contacts.filters.v1', DEFAULT_CONTACT_FILTERS, validate);
   const [sort, setSort] = usePersistentState<{ col: ColId; dir: SortDir }>('seraos.contacts.sort.v1', { col: 'name', dir: 'asc' }, (v) => {
     const r = v as { col?: ColId; dir?: SortDir } | null;
@@ -102,8 +102,8 @@ export function Contacts() {
     }
   };
 
-  const exportCsv = () => {
-    const csv = toCsv(
+  const buildCsv = () =>
+    toCsv(
       ['Contact ID', 'Name', 'Title', 'Role type', 'Account', 'Account ID', 'Section', 'Segment', 'Email', 'Email risk', 'Email status', 'LinkedIn', 'Location', 'Primary', 'Likely left', 'Outreach status', 'Last touch', 'Sources'],
       sorted.map((r) => [
         r.contact.id,
@@ -126,7 +126,10 @@ export function Contacts() {
         r.contact.sources.join('; '),
       ]),
     );
-    downloadText(`contacts-${filters.section}-${dateStamp()}.csv`, csv, 'text/csv;charset=utf-8');
+  const exportCsv = () => downloadText(`contacts-${filters.section}-${dateStamp()}.csv`, buildCsv(), 'text/csv;charset=utf-8');
+  const copyCsv = async () => {
+    const ok = await copyText(buildCsv());
+    toast(ok ? { message: `Copied ${sorted.length} contacts as CSV — paste into Sheets or Excel.` } : { message: 'Could not copy to the clipboard.', tone: 'error' });
   };
 
   const shown = sorted.slice(0, limit);
@@ -182,6 +185,9 @@ export function Contacts() {
         </span>
         <button type="button" className="btn" onClick={exportCsv} disabled={!sorted.length}>
           <Icon name="download" /> CSV
+        </button>
+        <button type="button" className="btn" onClick={copyCsv} disabled={!sorted.length} title="Copy the visible rows as CSV">
+          Copy
         </button>
       </div>
 
