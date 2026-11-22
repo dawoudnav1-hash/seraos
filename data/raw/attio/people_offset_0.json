@@ -1,0 +1,1212 @@
+[
+ {
+  "record_id": "34d2d001-b56d-4fce-bd97-b2f35a78ea0c",
+  "name": "Tracey Hutchinson",
+  "email_addresses": [
+   "tracey.hutchinson@harliandharpa.com"
+  ],
+  "job_title": "Chief Financial Officer",
+  "linkedin": "https://www.linkedin.com/in/tracey-hutchinson-1251a111b",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "aa70a134-18dc-46ec-bf0e-3b7d9a90714d"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Hawthorn East",
+   "region": "VIC"
+  },
+  "description": "Chief Financial Officer at HARLI + HARPA. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:32:33",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "50a6fac8-ee30-494a-b120-88bc952a10bf",
+  "name": "Shane Fallscheer",
+  "email_addresses": [
+   "shanef@harliandharpa.com"
+  ],
+  "job_title": "Founder",
+  "linkedin": "https://www.linkedin.com/in/shane-fallscheer-37440532b",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "aa70a134-18dc-46ec-bf0e-3b7d9a90714d"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Hawthorn East",
+   "region": "VIC"
+  },
+  "description": "Founder at HARLI + HARPA. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:06",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "477d4886-c7dc-44bf-95e7-2e8fdf32c2c5",
+  "name": "Deepthi Pariyada",
+  "email_addresses": [
+   "deepthi@larsenjewellery.com.au"
+  ],
+  "job_title": "Accountant",
+  "linkedin": "https://www.linkedin.com/in/deepthi-pariyada",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "0a987636-46a4-4600-a0b0-1cb35753c37e"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Accountant at Larsen Jewellery. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:07",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "7f32ca28-786e-4276-92b3-eb678a447dd3",
+  "name": "Lars Larsen",
+  "email_addresses": [
+   "lars@larsenjewellery.com.au"
+  ],
+  "job_title": "CEO",
+  "linkedin": "https://www.linkedin.com/in/lars-larsen-6246ba61",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "0a987636-46a4-4600-a0b0-1cb35753c37e"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "CEO at Larsen Jewellery. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:07",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/6f0f9e7c81dd5f8f50606278f823ddd1_4b980117bfd8ca5f55b6a460fea6c15caced6126c61e0f134f7bb2469d1c2481"
+ },
+ {
+  "record_id": "369fd1f1-8a5a-486c-b55a-1dacd3583d39",
+  "name": "Selina Chin",
+  "email_addresses": [
+   "selina@armsofeve.com"
+  ],
+  "job_title": "Head of Finance",
+  "linkedin": "https://www.linkedin.com/in/selina-chin-9b1b55",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "f1215e02-9c5a-4693-8b17-5af7e4c6793c"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Head of Finance at Arms Of Eve. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:08",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "236ab640-99bf-4130-b183-4ff88975fd1d",
+  "name": "Aaron Langer",
+  "email_addresses": [
+   "aaron@armsofeve.com"
+  ],
+  "job_title": "Chief Executive Officer",
+  "linkedin": "https://www.linkedin.com/in/aaronlanger",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "f1215e02-9c5a-4693-8b17-5af7e4c6793c"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Chief Executive Officer at Arms Of Eve. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:09",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/0afe9014f60f66b1cc3aedafff6c66d2_0a22f1763dbd55a503119676c8efff738a0695255324b5d6d3811c0553a39574"
+ },
+ {
+  "record_id": "a739fdcb-882c-4e20-8f2c-d1b7096f6de4",
+  "name": "Kelly Liu",
+  "email_addresses": [
+   "kelly.liu@ergopouch.com.au"
+  ],
+  "job_title": "ANZ Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/kelly-liu-fcpa-1b0356155",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "a0e0a09c-5b2a-43e3-a408-01cc788dcee3"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Heatherton",
+   "region": "VIC"
+  },
+  "description": "ANZ Financial Controller at ergoPouch. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:09",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "2407f88d-58f3-486b-9bb2-a4a71d2e4a42",
+  "name": "Alexander Andreou",
+  "email_addresses": [
+   "aandreou@keepcup.com"
+  ],
+  "job_title": "Head of Finance",
+  "linkedin": "https://www.linkedin.com/in/alexander-andreou-a2bb75147",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "072ca3bc-138d-45a3-8d09-a94dcf7e65df"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Clifton Hill",
+   "region": "VIC"
+  },
+  "description": "Head of Finance at KeepCup. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:10",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "51b976c0-ccf6-4735-b67a-5f6bad3322e4",
+  "name": "Abigail Forsyth",
+  "email_addresses": [
+   "abigail@keepcup.com"
+  ],
+  "job_title": "Co-Founder and Managing Director",
+  "linkedin": "https://www.linkedin.com/in/abigail-forsyth-57007613",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "072ca3bc-138d-45a3-8d09-a94dcf7e65df"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Clifton Hill",
+   "region": "VIC"
+  },
+  "description": "Co-Founder and Managing Director at KeepCup. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:11",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/d93fefca6173a3409b74ada889c340f6_b3a94c9a622649f8ff2d1d5d135a6fda82ceb806db84e86e5a08fd3a9b2b7017"
+ },
+ {
+  "record_id": "40a48fa6-91b7-40dd-8903-bc38a476bafd",
+  "name": "Jessica Layton",
+  "email_addresses": [
+   "jessica.layton@gewurzhaus.com.au"
+  ],
+  "job_title": "Chief Financial Officer",
+  "linkedin": "https://www.linkedin.com/in/jessica-layton-24b40458",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "cbb15e61-2b45-4e89-8e13-0394fd31de2c"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Collingwood",
+   "region": "VIC"
+  },
+  "description": "Chief Financial Officer at Gewürzhaus Spice House. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:11",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "3e06ced4-a7ab-4642-84ac-2203125cb075",
+  "name": "Grant Inches",
+  "email_addresses": [
+   "grant@gewurzhaus.com.au"
+  ],
+  "job_title": "Chief Executive Officer",
+  "linkedin": "https://www.linkedin.com/in/grant-inches-09215a2b",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "cbb15e61-2b45-4e89-8e13-0394fd31de2c"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Collingwood",
+   "region": "VIC"
+  },
+  "description": "Chief Executive Officer at Gewürzhaus Spice House. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:12",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "eaad9082-99e0-4639-812d-e437a4a3c767",
+  "name": "Daniel Royce",
+  "email_addresses": [
+   "droyce@melrosehealth.com.au"
+  ],
+  "job_title": "Chief Financial Officer",
+  "linkedin": "https://www.linkedin.com/in/daniel-royce-53291583",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "87458a58-2e5d-4f13-930d-81baacc025e9"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Rowville",
+   "region": "VIC"
+  },
+  "description": "Chief Financial Officer at Melrose Health. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:13",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "1a285122-7ce9-4e4f-8464-61fb2e4b510f",
+  "name": "Neal Mercado",
+  "email_addresses": [
+   "nmercado@melrosegroup.com.au"
+  ],
+  "job_title": "Chief Executive Officer",
+  "linkedin": "https://www.linkedin.com/in/neal-mercado-474b84a",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "87458a58-2e5d-4f13-930d-81baacc025e9"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Rowville",
+   "region": "VIC"
+  },
+  "description": "Chief Executive Officer at Melrose Health. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:53",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "0a000949-ed7d-4151-9723-a6840315fcc5",
+  "name": "David Landeman",
+  "email_addresses": [
+   "david@pilgrimclothing.com.au"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/david-landeman-750a4137",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "a92ec4fc-5c0f-4f3d-a4e4-18d88ce16aeb"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Maribyrnong",
+   "region": "VIC"
+  },
+  "description": "Financial Controller at Pilgrim Clothing. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:54",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/795dad0b9d7b1d60d84dd4eb97b2cfa2_f26d07802dda41c7e3907b6635f3e86b60d2e7656d057977e809ad1061769e57"
+ },
+ {
+  "record_id": "71e49d85-414f-4fdb-937b-65ca383739fb",
+  "name": "Ken Olver",
+  "email_addresses": [
+   "kenolver@pilgrimclothing.com.au"
+  ],
+  "job_title": "Co-Founder",
+  "linkedin": "https://www.linkedin.com/in/ken-olver-73493932",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "a92ec4fc-5c0f-4f3d-a4e4-18d88ce16aeb"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Maribyrnong",
+   "region": "VIC"
+  },
+  "description": "Co-Founder at Pilgrim Clothing. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:54",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "d3e4d2e7-b1e2-4e41-b2a3-79d62a9464cd",
+  "name": "Emma Blake",
+  "email_addresses": [
+   "emma@ultraviolette.com.au"
+  ],
+  "job_title": "Chief Financial Officer",
+  "linkedin": "https://www.linkedin.com/in/emma-blake-698a57209",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "1296d0cc-862e-4a25-8cd7-530286986f5d"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Cremorne",
+   "region": "VIC"
+  },
+  "description": "Chief Financial Officer at Ultra Violette Skincare. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:55",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "5abad5ce-c955-44b6-af77-9e6c4cd8483a",
+  "name": "Rebecca Jefferd",
+  "email_addresses": [
+   "rebecca@ultraviolette.com.au"
+  ],
+  "job_title": "Co-Founder",
+  "linkedin": "https://www.linkedin.com/in/rebecca-jefferd-46283b2b",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "1296d0cc-862e-4a25-8cd7-530286986f5d"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Cremorne",
+   "region": "VIC"
+  },
+  "description": "Co-Founder at Ultra Violette Skincare. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:55",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "176754a6-5386-44d3-8a32-9f1220acb757",
+  "name": "Mandy Drake",
+  "email_addresses": [
+   "mandy@moveactive.com.au"
+  ],
+  "job_title": "Chief Financial Officer",
+  "linkedin": "https://www.linkedin.com/in/mandy-drake-a357214",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "d6dc07f0-4d20-4740-b206-b2cf7ba15e8e"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Brunswick East",
+   "region": "VIC"
+  },
+  "description": "Chief Financial Officer at MoveActive. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:56",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "fc68249f-b5a2-4c8b-9354-a6b52edd6572",
+  "name": "Melissa Pain",
+  "email_addresses": [
+   "melissa@moveactive.co"
+  ],
+  "job_title": "Owner / Founder",
+  "linkedin": "https://www.linkedin.com/in/melissa-pain-4b543359",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "d6dc07f0-4d20-4740-b206-b2cf7ba15e8e"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Brunswick East",
+   "region": "VIC"
+  },
+  "description": "Owner / Founder at MoveActive. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:56",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "14600487-fc25-4a07-acab-da91ac2e74bf",
+  "name": "Dean Poulton",
+  "email_addresses": [
+   "dean@stali.com.au"
+  ],
+  "job_title": "Chief Financial Officer",
+  "linkedin": "https://www.linkedin.com/in/dean-poulton-6a66a0165",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "4aff2ebf-dccb-459c-99be-0635c8e177af"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "South Melbourne",
+   "region": "VIC"
+  },
+  "description": "Chief Financial Officer at ST. ALi. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:57",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "4e3e812a-7733-4fa6-abd7-7c9b8ae22014",
+  "name": "Lachlan Ward",
+  "email_addresses": [
+   "lachlan@stali.com.au"
+  ],
+  "job_title": "CEO",
+  "linkedin": "https://www.linkedin.com/in/lachlan-ward-395b4393",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "4aff2ebf-dccb-459c-99be-0635c8e177af"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "South Melbourne",
+   "region": "VIC"
+  },
+  "description": "CEO at ST. ALi. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:57",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/58ee850e10940a35115197421aa4b15c_ccfce034a2f7b0644fa6bea07d73cb9367b08c498b9ae3a4d033165ea51098e9",
+  "twitter": "lachward"
+ },
+ {
+  "record_id": "3f811cd3-f66c-40b4-9790-54eb3de0d904",
+  "name": "Katie Nowell",
+  "email_addresses": [
+   "katie@spell.co"
+  ],
+  "job_title": "Finance Manager",
+  "linkedin": "https://www.linkedin.com/in/katie-nowell-16a823232",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "da98b513-359b-49aa-a1ef-36dc6b3364fe"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Byron Bay",
+   "region": "NSW"
+  },
+  "description": "Finance Manager at SPELL. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:58",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "0a2174df-8b0b-4cb6-95d8-01d76d12f8bd",
+  "name": "Sally Tullett",
+  "email_addresses": [
+   "sally@spell.co"
+  ],
+  "job_title": "CEO",
+  "linkedin": "https://www.linkedin.com/in/sally-tullett2481",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "da98b513-359b-49aa-a1ef-36dc6b3364fe"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Byron Bay",
+   "region": "NSW"
+  },
+  "description": "CEO at SPELL. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:59",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "248ae0ca-a458-415e-a777-8e453c115724",
+  "name": "Sarah Little",
+  "email_addresses": [
+   "sarah.little@hellohelloplants.com.au"
+  ],
+  "job_title": "Head of Finance & Technology",
+  "linkedin": "https://www.linkedin.com/in/sarah-little-04677b1a5",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "7a8b1b4c-df19-46d6-9416-546ff62fa085"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Campbellfield",
+   "region": "VIC"
+  },
+  "description": "Head of Finance & Technology at Hello Hello Plants. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:33:59",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "1fcbaa25-36bb-4d51-9a41-e4ff60f332f6",
+  "name": "Matt Nardi",
+  "email_addresses": [
+   "matthew.n@thecollagen.co"
+  ],
+  "job_title": "Chief Financial Officer",
+  "linkedin": "https://www.linkedin.com/in/matt-nardi-21b9a631",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "adb35cd0-8b5d-4ea8-b116-4798899b1245"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "description": "Chief Financial Officer at The Collagen Co. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:00",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "32727516-a9ea-42ce-b5cd-dabf17a3e519",
+  "name": "Sonia Chambers",
+  "email_addresses": [
+   "sonia.c@thecollagen.co"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/soniachambers",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "adb35cd0-8b5d-4ea8-b116-4798899b1245"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "description": "Financial Controller at The Collagen Co. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:01",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "9135fdb1-232c-4f9f-a891-8151c27da3be",
+  "name": "Paul Sander",
+  "email_addresses": [
+   "paul@goldfieldandbanks.com"
+  ],
+  "job_title": "Finance Manager",
+  "linkedin": "https://www.linkedin.com/in/paul-sander-5458a4167",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "62a3f603-784c-43de-a24a-2633c31bac97"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Finance Manager at Goldfield & Banks Australia. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:01",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/911b02046242f95bf0040b9da5fab842_4c1813332a38207b999861724f5f2219e1636be63361daf6827e44ccf9759249"
+ },
+ {
+  "record_id": "f1cbd76e-d2ff-4fea-bcd0-3dec8fd1b682",
+  "name": "Dimitri Weber",
+  "email_addresses": [
+   "dimitri@goldfieldandbanks.com"
+  ],
+  "job_title": "Founder",
+  "linkedin": "https://www.linkedin.com/in/dimitri-weber-3813426",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "62a3f603-784c-43de-a24a-2633c31bac97"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Founder at Goldfield & Banks Australia. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:04",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "b08a7d7d-59f5-4e2f-b1ee-4e92a6ba2cb4",
+  "name": "Luke Avron-Cotton",
+  "email_addresses": [
+   "lukeavroncotton@mustardmade.com"
+  ],
+  "job_title": "Head of Finance",
+  "linkedin": "https://www.linkedin.com/in/luke-avron-cotton",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "747c7b12-69bb-4801-bb34-6f4a6af1bc39"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Newcastle",
+   "region": "NSW"
+  },
+  "description": "Head of Finance at Mustard Made. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:52",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "4468bfc3-a5c4-4f7f-b2b2-2168dcd67521",
+  "name": "Jessica Stern",
+  "email_addresses": [
+   "jess@mustardmade.com"
+  ],
+  "job_title": "Co-founder",
+  "linkedin": "https://www.linkedin.com/in/jessica-stern-a9240158",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "747c7b12-69bb-4801-bb34-6f4a6af1bc39"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Newcastle",
+   "region": "NSW"
+  },
+  "description": "Co-founder at Mustard Made. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:52",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "13b0c6be-4cdc-42da-98c9-534afa9e16d2",
+  "name": "Simon So",
+  "email_addresses": [
+   "simon@missamara.com.au"
+  ],
+  "job_title": "Global Group Head of Finance",
+  "linkedin": "https://www.linkedin.com/in/simon-so",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "64e6df74-97e9-4fb0-992f-bdbb740cc078"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Global Group Head of Finance at Miss Amara. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:53",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "195587a2-9876-4977-a51b-da9f8c2f5ce9",
+  "name": "Luke Hatton",
+  "email_addresses": [
+   "luke@missamara.com.au"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/luke-hatton-2b975ba2",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "64e6df74-97e9-4fb0-992f-bdbb740cc078"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Financial Controller at Miss Amara. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:54",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "c35a58e7-cb5d-4894-910c-483cf8166169",
+  "name": "Jessica Chippindall",
+  "email_addresses": [
+   "jessica.chippindall@alemais.com"
+  ],
+  "job_title": "Financial Accountant",
+  "linkedin": "https://www.linkedin.com/in/jessica-chippindall",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "c2f4b70e-f659-425b-ab5d-7559244186ab"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Financial Accountant at ALEMAIS. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:54",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "c6f91f25-0ba4-49fe-8766-3b8c4b98a281",
+  "name": "Chris Buchanan",
+  "email_addresses": [
+   "chris@alemais.com"
+  ],
+  "job_title": "Co-Founder & CEO",
+  "linkedin": "https://www.linkedin.com/in/christopherbuchanan1",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "c2f4b70e-f659-425b-ab5d-7559244186ab"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Co-Founder & CEO at ALEMAIS. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:55",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "ba2f9ea7-a8d4-4d4a-93b4-1c09797e1794",
+  "name": "Tasman Forgie",
+  "email_addresses": [
+   "tasman@skipper.org"
+  ],
+  "job_title": "Finance Manager",
+  "linkedin": "https://www.linkedin.com/in/tasman-forgie-aa508613a",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "6e182248-aa71-47e1-a89a-e2143c4e947d"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Brisbane",
+   "region": "QLD"
+  },
+  "description": "Finance Manager at SKIPPER. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:55",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "1a8eec4b-67bf-4241-8913-65bcda830414",
+  "name": "May Bandi",
+  "email_addresses": [
+   "may@skipper.org"
+  ],
+  "job_title": "Co-Founder - Commercial & Finance",
+  "linkedin": "https://www.linkedin.com/in/maybandi",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "6e182248-aa71-47e1-a89a-e2143c4e947d"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Brisbane",
+   "region": "QLD"
+  },
+  "description": "Co-Founder - Commercial & Finance at SKIPPER. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:56",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/84879bd89b9a8f93ebf544c242610329_bd4f3a02ad2c885e45c35cbfb5a9255b0759d5cc73ca6a9d5a75b5ff8ec5bb66"
+ },
+ {
+  "record_id": "37ad7fc8-3fe5-4ce3-a8ce-c1634536ccf1",
+  "name": "Richard Dael",
+  "email_addresses": [
+   "richard@kivari.com.au"
+  ],
+  "job_title": "Financial Director",
+  "linkedin": "https://www.linkedin.com/in/richard-dael-228a5886",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "30add458-e4c7-4049-bd9e-d53bd100860f"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Rosebery",
+   "region": "NSW"
+  },
+  "description": "Financial Director at KIVARI. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:56",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "98ef71dd-e984-4c38-aa37-dd6a7c44a190",
+  "name": "Kirstin-Lee Keysers",
+  "email_addresses": [
+   "kiki@kivari.com.au"
+  ],
+  "job_title": "Founder",
+  "linkedin": "https://www.linkedin.com/in/kirstin-lee-keysers-38a4a563",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "30add458-e4c7-4049-bd9e-d53bd100860f"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Rosebery",
+   "region": "NSW"
+  },
+  "description": "Founder at KIVARI. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:57",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/4222453a4483ef310a06bab08d01128b_d096686bb4bdca35e8e326ead9121e32d7e1e2d95aca3b1d79240b6fc1dd75d4"
+ },
+ {
+  "record_id": "7c385f54-b6d3-4e21-91c0-88f574e26111",
+  "name": "Irene Giapitzakis",
+  "email_addresses": [
+   "irene@creswickwool.com.au"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/irene-giapitzakis-404734230",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "4fb5edb8-577f-48d8-9cb3-b0e3cd97065e"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Hawthorn",
+   "region": "VIC"
+  },
+  "description": "Financial Controller at Creswick Woollen Mills. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:58",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "6662707d-b316-4602-9fb5-0c0fd737e11d",
+  "name": "Lan Yu",
+  "email_addresses": [
+   "lan@belleandbloom.com"
+  ],
+  "job_title": "Accountant",
+  "linkedin": "https://www.linkedin.com/in/lan-yu-9a975843",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "03d5afad-2c96-43e4-833a-1dc3ed72b942"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Accountant at Belle & Bloom. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:34:59",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "056f3ade-75a7-4de6-a3e1-6373dca92826",
+  "name": "Sherry Wu",
+  "email_addresses": [
+   "sherry@belleandbloom.com"
+  ],
+  "job_title": "Chief Executive Officer",
+  "linkedin": "https://www.linkedin.com/in/sherry-wu-36b65334",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "03d5afad-2c96-43e4-833a-1dc3ed72b942"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Chief Executive Officer at Belle & Bloom. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:00",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "e0c857a2-6f57-4ca4-9afd-31f80d3745d0",
+  "name": "Tammy Moore",
+  "email_addresses": [
+   "tammy@augustethelabel.com"
+  ],
+  "job_title": "Head of Finance and Operations",
+  "linkedin": "https://www.linkedin.com/in/tammy-moore3006",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "c5497939-def6-40a3-b2d8-6e995b1226e9"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Byron Bay",
+   "region": "NSW"
+  },
+  "description": "Head of Finance and Operations at Auguste The Label. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:00",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "8961238d-d7f5-44a4-b3bf-bc22a62bbc2b",
+  "name": "James Ross",
+  "email_addresses": [
+   "james@shelterbrewing.com.au"
+  ],
+  "job_title": "Head of Finance",
+  "linkedin": "https://www.linkedin.com/in/james-ross-61433464",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "7cb6b996-c709-44ff-a443-2800b88f1810"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Busselton",
+   "region": "WA"
+  },
+  "description": "Head of Finance at Shelter Brewing Co.. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:01",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "db0fd8bc-181a-41d6-8323-7a4dd2ebfb58",
+  "name": "Jason Credaro",
+  "email_addresses": [
+   "jason@shelterbrewing.com.au"
+  ],
+  "job_title": "Founder & Head Brewer",
+  "linkedin": "https://www.linkedin.com/in/jason-credaro-ab23186a",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "7cb6b996-c709-44ff-a443-2800b88f1810"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Busselton",
+   "region": "WA"
+  },
+  "description": "Founder & Head Brewer at Shelter Brewing Co.. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:02",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "62d48e8f-411b-4326-849d-26bcf3b475a4",
+  "name": "Ada Li",
+  "email_addresses": [
+   "ada@synergieskin.com"
+  ],
+  "job_title": "Company Accountant",
+  "linkedin": "https://www.linkedin.com/in/ada-li-39522398",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "52587b94-f603-4e26-b959-7f3bb42aee64"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "description": "Company Accountant at Synergie Skin. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:03",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "d314ac4a-b83e-43c2-bffa-e2c36d76b18f",
+  "name": "Terri Vinson",
+  "email_addresses": [
+   "terri@synergieskin.com"
+  ],
+  "job_title": "Founder",
+  "linkedin": "https://www.linkedin.com/in/terri-vinson",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "52587b94-f603-4e26-b959-7f3bb42aee64"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "description": "Founder at Synergie Skin. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:03",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/e7fa6b432de1f0c42aa5e6462d3f60f4_38fdef4aa7a8c773cfecb87c2ac207f4cb1f3d2802585eabb6a3bc9f05a19e03"
+ },
+ {
+  "record_id": "64af06d3-448e-470d-92b4-6e95db27d94a",
+  "name": "Sapna Trivedi",
+  "email_addresses": [
+   "sapna@ellisonstudios.com"
+  ],
+  "job_title": "Chief Financial Officer",
+  "linkedin": "https://www.linkedin.com/in/sapnatrivedi",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "d9f2cef6-c5ac-4094-8b55-c45672f48701"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Chief Financial Officer at Ellison Studios. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:04",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "c6fdcb9e-378a-4562-b926-92f567984efe",
+  "name": "Sarah Ellison",
+  "email_addresses": [
+   "sarah@ellisonstudios.com"
+  ],
+  "job_title": "Co-Founder & Creative Director",
+  "linkedin": "https://www.linkedin.com/in/sarah-ellison-870b4529b",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "d9f2cef6-c5ac-4094-8b55-c45672f48701"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Co-Founder & Creative Director at Ellison Studios. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:05",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "df5eb7db-9c9a-49aa-bedd-7d7a59405674",
+  "name": "Kylie Black",
+  "email_addresses": [
+   "kylie.black@solidteknics.com"
+  ],
+  "job_title": "Head of Finance",
+  "linkedin": "https://www.linkedin.com/in/kylieannblack",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "caf136d3-daa0-4dcd-a4a1-69654378971c"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Head of Finance at Solidteknics. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:57",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "751f7448-c45b-4d86-89d8-68739d998eed",
+  "name": "Haley Cobb",
+  "email_addresses": [
+   "haley.cobb@solidteknics.com"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/haley-cobb-98a235b8",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "caf136d3-daa0-4dcd-a4a1-69654378971c"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Financial Controller at Solidteknics. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:58",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ }
+]

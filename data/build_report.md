@@ -1,0 +1,55 @@
+# Data build report
+
+Generated 2026-11-22T12:48:35+00:00 by `pipeline/build_data.py`.
+
+- Accounts (de-duplicated): **479**
+- Contacts (de-duplicated): **803**
+- Sections: firm 194, internal 159, solo 126
+- Segments: Accounting & advisory 194, CPG / Ecom / D2C 173, SaaS 102, AI startup 7, Other 2, VC / Accelerator 1
+- Accounts in Attio: 271
+- Accounts with no contacts: 28
+- Contacts with email: 612
+- Outreach events: 43
+
+## Log
+
+- [attio-stub] record 1a27b216-d2d6-4593-b4bf-2c077256ff7a has no name/fields (domains ['melrosegroup.com.au']); merged only if a sheet has the same domain
+- [merge-by-domain-root] Attio: 'Creswick Woollen Mills' ['creswickwool.com'] -> 'Creswick Wool' ['creswickwool.com.au']
+- [ATTIO-DUPLICATE] Attio has 2 records for 'Creswick Wool': ['c52c28a3-3cb8-4713-acb3-fb308cbe2439', '4fb5edb8-577f-48d8-9cb3-b0e3cd97065e'] (merged into one account)
+- [merge-by-domain-root] Attio: 'MoveActive Int' ['moveactive.co'] -> 'MoveActive' ['moveactive.com.au']
+- [ATTIO-DUPLICATE] Attio has 2 records for 'MoveActive': ['d6dc07f0-4d20-4740-b206-b2cf7ba15e8e', '460fafd6-1d9e-4edf-89b1-2344a45079d9'] (merged into one account)
+- [merge-by-name] Vert_AU_finance_team_contacts: 'Hey You' [] -> 'Hey You' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'Lorgan' [] -> 'Lorgan' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'PhotoSentinel' [] -> 'PhotoSentinel' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'Visibuild' [] -> 'Visibuild' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'JGR & STN' [] -> 'JGR & STN' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'PetO Australia' [] -> 'PetO Australia' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'Eva' [] -> 'Eva' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'bellabox' [] -> 'bellabox' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'Made With Plants' [] -> 'Made With Plants' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'Noosa Chocolate Factory' [] -> 'Noosa Chocolate Factory' []
+- [merge-by-name] Vert_AU_finance_team_contacts: 'Go-To Skincare' [] -> 'Go-To Skincare' []
+- [count] Vert_AU_finance_team_contacts: 228 accounts, 382 contacts
+- [count] AU_ecommerce_AI_finance_leads: 17 companies, 44 contacts (Excluded tab ignored)
+- [count] Vert_AU_prospects_Origami / Ecom - Accounts: 42 accounts, 72 contacts
+- [count] Vert_AU_prospects_Origami / Accounting - Accounts: 100 accounts, 157 contacts
+- [melbourne-domain-skipped] Johnson Partners: ignored domain johnsonpartners.co from flagged contact (C2 Nicola Morris: likely a different firm (NZ office, .co domain))
+- [melbourne-domain-skipped] Charterpoint: ignored domain charterpointgroup.co.uk from flagged contact (C1 Adrian Goose: likely wrong company (UK Charterpoint))
+- [melbourne-domain-skipped] The Hopkins Group: ignored domain hopkinshr.com from flagged contact (C1 Melanie Toliver: likely wrong company (Hopkins HR, US))
+- [melbourne-domain-skipped] Sky Accountants: ignored domain bsaccountantsltd.co.uk from flagged contact (C2 Scott Stringer: likely wrong company (UK firm))
+- [melbourne-domain-skipped] PGP Consulting: ignored domain pgp-consulting.gr from flagged contact (C2 Panos Papadopoulos: likely wrong company (Greek PGP Consulting))
+- [merge-by-loose-name] Melbourne Accounting Firm Contacts: 'Aintree Group Chartered Accountants' [] -> 'Aintree Group' ['aintreegroup.com.au']
+- [melbourne-domain-skipped] INP Group: ignored domain inplacerecruitment.com from flagged contact (C1 Colette Fulleylove: likely wrong company (recruitment firm))
+- [melbourne-domain-skipped] INP Group: ignored domain inp-group.co.uk from flagged contact (C2 Bruce Craig: likely wrong company (UK INP Group))
+- [melbourne-domain-skipped] Rose Partners: ignored domain seaviewcapitalcorp.com from flagged contact (C1 Jeff Eigenbrood: likely wrong company (US firm))
+- [melbourne-domain-skipped] Rose Partners: ignored domain parkrosepartners.com from flagged contact (C2 Jessie Wechsler: likely wrong company (US Park Rose Partners))
+- [melbourne-domain-skipped] LDB Group: ignored domain ldb.de from flagged contact (C1 Christian Hinn: likely wrong company (German LDB))
+- [melbourne-domain-skipped] LDB Group: ignored domain ldb.de from flagged contact (C2 Marc Sielemann: likely wrong company (German LDB))
+- [melbourne-domain-skipped] Visory: ignored domain visory.net from flagged contact (C1 Brett Helgeson: likely wrong company (US Visory))
+- [melbourne-domain-skipped] Visory: ignored domain visoryhealth.com from flagged contact (C2 Susan L. Lang: likely wrong company (Visory Health))
+- [count] Melbourne Accounting Firm Contacts: 100 firms
+- [attio-stub] stub ['melrosegroup.com.au'] dropped (no name, no matching account)
+- [count] Attio: 274 companies (1 stub), 69 people (0 unmatched)
+- [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
+- [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
+- [count] outreach: 43 events (0 not matched to an account)
