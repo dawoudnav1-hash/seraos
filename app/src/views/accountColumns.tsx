@@ -110,7 +110,7 @@ export const ACCOUNT_COLUMNS: readonly AccountColumn[] = [
   {
     id: 'linkedin',
     label: 'LinkedIn',
-    width: 72,
+    width: 88,
     defaultVisible: true,
     defaultDir: 'asc',
     sort: (r) => (r.account.linkedin ? 0 : 1),
@@ -138,7 +138,7 @@ export const ACCOUNT_COLUMNS: readonly AccountColumn[] = [
   {
     id: 'finance',
     label: 'Finance HC',
-    width: 92,
+    width: 104,
     num: true,
     defaultVisible: true,
     defaultDir: 'desc',

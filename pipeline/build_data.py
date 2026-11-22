@@ -960,7 +960,8 @@ def build_outreach(accounts: list[dict]) -> dict:
     if os.path.exists(extra):
         events_in += json.load(open(extra))
     sources = json.load(open(notes_path)) if os.path.exists(notes_path) else []
-    by_email: dict[str, tuple[str, str]] = {}
+    by_email: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    acc_name = {a["id"]: a["name"] for a in accounts}
     by_domain: dict[str, str] = {}
     by_person: dict[str, list[tuple[str, str]]] = defaultdict(list)
     for a in accounts:
@@ -969,7 +970,7 @@ def build_outreach(accounts: list[dict]) -> dict:
                 by_domain.setdefault(d, a["id"])
         for c in a["contacts"]:
             if c.get("email"):
-                by_email.setdefault(c["email"].lower(), (a["id"], c["id"]))
+                by_email[c["email"].lower()].append((a["id"], c["id"]))
                 d = email_domain(c["email"])
                 if d:
                     by_domain.setdefault(d, a["id"])
@@ -983,7 +984,18 @@ def build_outreach(accounts: list[dict]) -> dict:
         seen_ids.add(e.get("id"))
         ev = {k: e.get(k) for k in ("id", "date", "channel", "kind", "source", "counterpartyEmails", "personName", "subject", "snippet", "seenFlag") if e.get(k) not in (None, "", [])}
         emails = [x.lower() for x in (e.get("counterpartyEmails") or [])]
-        hit = next((by_email[x] for x in emails if x in by_email), None)
+        cands = next((by_email[x] for x in emails if x in by_email), [])
+        if len(cands) > 1:
+            # same person on several accounts (e.g. a fractional CFO): use the account named in the subject/snippet
+            text = f"{e.get('subject') or ''} {e.get('snippet') or ''}".lower()
+            named = [c for c in cands if name_key(acc_name[c[0]]) and name_key(acc_name[c[0]]) in re.sub(r"[^a-z0-9]", "", text)]
+            if len(named) == 1:
+                cands = named
+            else:
+                log("outreach-ambiguous", f"{e.get('id')}: {emails} matches {[c[0] for c in cands]}; left to email matching")
+                ev["accountId"] = cands[0][0]
+                cands = []
+        hit = cands[0] if cands else None
         if hit:
             ev["accountId"], ev["contactId"] = hit
         else:
@@ -994,7 +1006,7 @@ def build_outreach(accounts: list[dict]) -> dict:
                 cands = by_person.get(person_key(e["personName"]), [])
                 if len(cands) == 1:
                     ev["accountId"], ev["contactId"] = cands[0]
-        if "accountId" not in ev:
+        if "accountId" not in ev and not hit:
             unmatched += 1
         out.append(ev)
     out.sort(key=lambda x: x.get("date") or "")

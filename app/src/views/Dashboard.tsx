@@ -140,7 +140,7 @@ export function Dashboard() {
           label="Seen / opened"
           value={formatInt(s.seen)}
           sub={s.sent > 0 && s.hasSeenTracking ? <>{formatRate(s.seen / s.sent)} of messages sent</> : undefined}
-          hint={!s.hasSeenTracking ? <>No open-tracking data — log “Seen” manually on a contact</> : undefined}
+          hint={!s.hasSeenTracking ? <>No open-tracking data — log “Seen” manually</> : undefined}
         />
         <Kpi id="replies" label="Replies" value={formatInt(s.replies)} sub={<>from {formatInt(s.repliedPeople)} {s.repliedPeople === 1 ? 'person' : 'people'}</>} />
         <Kpi
@@ -168,7 +168,7 @@ export function Dashboard() {
             </>
           }
           sub={<>sent / accepted</>}
-          hint={s.connectionsAccepted > s.connectionsSent ? <>Requests sent aren’t importable — log them with “LinkedIn sent”</> : undefined}
+          hint={s.connectionsAccepted > s.connectionsSent ? <>Sent requests aren’t importable — log them manually</> : undefined}
         />
         <Kpi id="meetings" label="Meetings" value={formatInt(s.meetings)} />
         <Kpi

@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-22T12:57:41+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-22T22:03:31+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **479**
 - Contacts (de-duplicated): **843**

@@ -68,6 +68,32 @@ describe('normalizeAccounts', () => {
     expect(accounts[1]!.type).toBe('internal');
     expect(warnings.length).toBe(3);
   });
+  it('keeps the optional research fields and drops malformed ones', () => {
+    const { accounts } = normalizeAccounts([
+      {
+        id: 'x',
+        name: 'X',
+        type: 'solo',
+        fitScore: 9,
+        sourceUrls: ['https://a.com', 5, ''],
+        services: ['tax', 'BAS'],
+        whyFit: 'Because',
+        signalSource: 'Exa web research',
+        otherAttioIds: ['rec_2'],
+        otherDomains: 'not-an-array',
+        flags: '⚠ Verify first',
+      },
+    ]);
+    const a = accounts[0]!;
+    expect(a.fitScore).toBe(5);
+    expect(a.sourceUrls).toEqual(['https://a.com']);
+    expect(a.services).toEqual(['tax', 'BAS']);
+    expect(a.whyFit).toBe('Because');
+    expect(a.signalSource).toBe('Exa web research');
+    expect(a.otherAttioIds).toEqual(['rec_2']);
+    expect(a.otherDomains).toBeUndefined();
+    expect(a.flags).toBe('⚠ Verify first');
+  });
   it('normalizeOutreach handles missing parts', () => {
     expect(normalizeOutreach(null).outreach.events).toEqual([]);
     const r = normalizeOutreach({ events: [{ id: 'x' }], sources: [{ name: 'S' }, 5] });
@@ -100,6 +126,7 @@ describe('fixture data end-to-end', () => {
       'kowhai-partners',
     ]);
     expect(filterAccountRows(rows, { ...DEFAULT_ACCOUNT_FILTERS, query: 'grace@saltbush' })).toHaveLength(1);
+    expect(filterAccountRows(rows, { ...DEFAULT_ACCOUNT_FILTERS, query: 'NETSUITE close' }).map((r) => r.account.id)).toContain('northwind-payroll');
     expect(filterAccountRows(rows, { ...DEFAULT_ACCOUNT_FILTERS, status: 'meeting' }).map((r) => r.account.id)).toEqual([
       'northwind-payroll',
     ]);
