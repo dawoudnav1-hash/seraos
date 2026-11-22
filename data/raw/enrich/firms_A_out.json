@@ -1,0 +1,2175 @@
+[
+ {
+  "id": "4orward",
+  "website": "https://4orward.com",
+  "linkedin": "https://www.linkedin.com/company/4orward",
+  "description": "Melbourne accounting, tax, SMSF and financial planning firm serving individuals, small business and larger enterprises.",
+  "services": [
+   "tax",
+   "SMSF",
+   "financial planning",
+   "business advisory"
+  ],
+  "staff": 18,
+  "staffBasis": "LinkedIn: 11-50 employees (18)",
+  "isSoloPractice": false,
+  "location": "South Melbourne, VIC",
+  "alphaSignal": "Mixed tax/SMSF/wealth practice with business advisory; some recurring SMB work but not a bookkeeping/CAS-led model. Moderate-to-weak fit.",
+  "sourceUrls": [
+   "https://4orward.com",
+   "https://au.linkedin.com/company/4orward"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "abbotts-group",
+  "website": "https://abbotts.net.au",
+  "linkedin": "https://www.linkedin.com/company/abbotts-pty-ltd",
+  "description": "West Perth firm offering business and taxation services, financial planning, finance broking, insurance and legal referral for businesses and individuals.",
+  "services": [
+   "tax",
+   "business advisory",
+   "bookkeeping",
+   "financial planning",
+   "finance broking"
+  ],
+  "staff": 26,
+  "staffBasis": "Website: 'in excess of 26 staff'; LinkedIn lists 16 (11-50)",
+  "isSoloPractice": false,
+  "location": "West Perth, WA",
+  "alphaSignal": "Perth-based multi-service group (outside Melbourne); business and tax services for local businesses, bookkeeping listed in categories. Moderate fit.",
+  "sourceUrls": [
+   "https://abbotts.net.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "abound-group",
+  "website": "https://www.aboundgroup.com.au",
+  "linkedin": "https://www.linkedin.com/company/abound-group",
+  "description": "Melbourne accounting group (Melbourne CBD and Ascot Vale) providing tax returns, bookkeeping, business advisory, financial planning and finance.",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "business advisory",
+   "financial planning",
+   "lending"
+  ],
+  "staff": 17,
+  "staffBasis": "LinkedIn: 17 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Input domain theaboundgroup.com is an unrelated real-estate company; correct domain appears to be aboundgroup.com.au (matches Melbourne CBD/Ascot Vale). Tax/bookkeeping/advisory mix; moderate fit.",
+  "sourceUrls": [
+   "https://www.aboundgroup.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "accolution",
+  "website": "https://www.accolution.com.au",
+  "linkedin": "https://www.linkedin.com/company/accolution",
+  "description": "Online bookkeeping, virtual CFO and BAS agent services for small businesses, specialising in Xero, QuickBooks and Odoo.",
+  "services": [
+   "bookkeeping",
+   "virtual CFO",
+   "BAS",
+   "payroll"
+  ],
+  "staff": 3,
+  "staffBasis": "LinkedIn: 1-10 employees (3)",
+  "isSoloPractice": false,
+  "location": "Walkerville, SA",
+  "alphaSignal": "Online bookkeeping + virtual CFO for many small clients on Xero = recurring month-end closes; very small team though. Good fit, small deal size.",
+  "sourceUrls": [
+   "https://www.accolution.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "accountant-assist",
+  "website": "https://www.accountantassist.com.au",
+  "linkedin": "https://www.linkedin.com/company/accountantassist",
+  "description": "Offshore/outsourced accounting support for accountants and bookkeepers: bookkeeping, payroll, working papers, SMSF, corporate secretarial and data conversion.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "SMSF",
+   "tax return preparation",
+   "outsourcing"
+  ],
+  "staff": 39,
+  "staffBasis": "Input signal 39; LinkedIn lists 11 (11-50 employees)",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "White-label bookkeeping outsourcing for accounting firms at scale = high volume of recurring reconciliations; strong fit and potentially a channel to other firms.",
+  "sourceUrls": [
+   "https://www.accountantassist.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "accounten",
+  "website": "https://accounten.com.au",
+  "linkedin": "https://www.linkedin.com/company/accounten",
+  "description": "Bookkeeping, payroll, virtual CFO, audit preparation and tax services for individuals and small-to-medium businesses.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "virtual CFO",
+   "audit preparation",
+   "tax"
+  ],
+  "staff": 4,
+  "staffBasis": "LinkedIn: 1-10 employees (4)",
+  "isSoloPractice": false,
+  "location": "Sydney, NSW",
+  "alphaSignal": "Xero partner with bookkeeping and virtual CFO for SMBs (Sydney, not Melbourne); small team. Fit but small.",
+  "sourceUrls": [
+   "https://accounten.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "accounting-gurus",
+  "website": "https://accountinggurus.com.au",
+  "linkedin": "https://www.linkedin.com/company/accounting-gurus",
+  "description": "Offshore and onshore accounting outsourcing (bookkeeping, payroll, tax, SMSF) for Australian accounting firms and businesses.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "tax",
+   "SMSF",
+   "outsourcing"
+  ],
+  "staff": 8,
+  "staffBasis": "Input signal 8; LinkedIn lists 6 (11-50 band)",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Provides bookkeeping/payroll resources to other firms, i.e. many client closes handled by offshore staff; strong fit and potential channel.",
+  "sourceUrls": [
+   "https://accountinggurus.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "accountinghq",
+  "website": "https://www.accountinghq.com.au",
+  "linkedin": "https://www.linkedin.com/company/accountinghq",
+  "description": "Melbourne accounting firm (founded 1976) focused on tax compliance, business strategy, financial planning and lending.",
+  "services": [
+   "tax",
+   "business advisory",
+   "financial planning",
+   "lending"
+  ],
+  "staff": 16,
+  "staffBasis": "LinkedIn: 16 employees",
+  "isSoloPractice": false,
+  "location": "Moonee Ponds, VIC",
+  "alphaSignal": "Compliance-led practice; LinkedIn shows Moonee Ponds/Airport West rather than the Balwyn address in input (domain matches). Weak-to-moderate fit.",
+  "sourceUrls": [
+   "https://www.accountinghq.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "accru-melbourne",
+  "website": "https://accrumelb.com.au",
+  "linkedin": "https://www.linkedin.com/company/accru-melbourne",
+  "description": "Hawthorn East firm offering audit, business advisory, not-for-profit advisory, superannuation, tax, lending and wealth management.",
+  "services": [
+   "audit",
+   "business advisory",
+   "tax",
+   "superannuation",
+   "wealth management",
+   "not-for-profit advisory"
+  ],
+  "staff": 78,
+  "staffBasis": "LinkedIn: 78 employees",
+  "isSoloPractice": false,
+  "location": "Hawthorn East, VIC",
+  "alphaSignal": "Mid-size full-service firm with audit/advisory/tax; offshore staff in Philippines. Moderate fit via business advisory clients; no explicit CAS offering seen.",
+  "sourceUrls": [
+   "https://accrumelb.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "accumulus-advisory",
+  "website": "https://accumulusadvisory.com.au",
+  "linkedin": "https://www.linkedin.com/company/accumulus-advisory",
+  "description": "Essendon accounting and business advisory firm offering tax, bookkeeping, virtual CFO, forecasting, SMSF and Xero cloud accounting for small business.",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "virtual CFO",
+   "business advisory",
+   "SMSF",
+   "forecasting & budgeting"
+  ],
+  "staff": 6,
+  "staffBasis": "LinkedIn: 6 employees",
+  "isSoloPractice": false,
+  "location": "Essendon, VIC",
+  "alphaSignal": "Xero-based bookkeeping and virtual CFO for small business clients; small team, recurring monthly reporting. Good fit, small.",
+  "sourceUrls": [
+   "https://accumulusadvisory.com.au/",
+   "https://accumulusadvisory.com.au/services/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "adviceco-ca",
+  "website": "https://adviceco.com.au",
+  "linkedin": "https://www.linkedin.com/company/adviceco-ca",
+  "description": "Central Coast NSW accountancy and financial planning firm (formerly Robson Partners) providing accounting, tax, wealth and business advice.",
+  "services": [
+   "tax",
+   "accounting",
+   "bookkeeping",
+   "audit",
+   "business advisory",
+   "wealth management",
+   "superannuation"
+  ],
+  "staff": 28,
+  "staffBasis": "LinkedIn page text: 'team of 28 professionals' (LinkedIn count 21)",
+  "isSoloPractice": false,
+  "location": "Gosford, NSW",
+  "alphaSignal": "NSW Central Coast, not Melbourne; offers bookkeeping and cloud software alongside tax/wealth. Moderate fit.",
+  "sourceUrls": [
+   "https://adviceco.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "afm-services",
+  "website": "https://afmservices.com.au",
+  "linkedin": "https://www.linkedin.com/company/afmservices",
+  "description": "Norwood (Adelaide) firm providing accounting, bookkeeping, payroll, advisory, tax and wealth strategy for small-to-medium businesses.",
+  "services": [
+   "accounting",
+   "bookkeeping",
+   "payroll",
+   "tax",
+   "business advisory",
+   "wealth strategy",
+   "audit"
+  ],
+  "staff": 19,
+  "staffBasis": "LinkedIn: 19 employees",
+  "isSoloPractice": false,
+  "location": "Norwood, SA",
+  "alphaSignal": "Fixed-fee bookkeeping with Xero/MYOB setup for SMBs and actively hiring a bookkeeper = recurring closes; good fit (Adelaide).",
+  "sourceUrls": [
+   "https://afmservices.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "afp-advisory-group",
+  "website": "https://afpaccounting.com.au",
+  "linkedin": "https://www.linkedin.com/company/afp-accounting",
+  "description": "Sydney accounting, tax and advisory firm plus finance/loans division serving business owners, HNW individuals and family offices.",
+  "services": [
+   "tax",
+   "business advisory",
+   "SME finance",
+   "succession planning"
+  ],
+  "staff": 4,
+  "staffBasis": "LinkedIn: 1-10 employees (4)",
+  "isSoloPractice": false,
+  "location": "Norwest, NSW",
+  "alphaSignal": "HNW/tax and structuring focus; small. Weak fit.",
+  "sourceUrls": [
+   "https://afpaccounting.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ags-financial-group",
+  "website": "https://agsfinancialgroup.com.au",
+  "linkedin": "https://www.linkedin.com/company/ags-financial-group",
+  "description": "Integrated financial planning, SMSF, accounting/tax and mortgage broking firm with offices in Sydney, Melbourne and Brisbane.",
+  "services": [
+   "financial planning",
+   "SMSF",
+   "tax",
+   "bookkeeping",
+   "business advisory",
+   "mortgage broking"
+  ],
+  "staff": 42,
+  "staffBasis": "LinkedIn: 42 employees",
+  "isSoloPractice": false,
+  "location": "South Melbourne, VIC",
+  "alphaSignal": "Wealth/SMSF-led group headquartered North Sydney; accounting is secondary. Weak fit.",
+  "sourceUrls": [
+   "https://agsfinancialgroup.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "aims-australia-tax-accountants",
+  "website": "https://aimsaustralia.com.au",
+  "linkedin": "https://www.linkedin.com/company/aimsaustralia",
+  "description": "Melbourne CPA practice specialising in complex Australian and cross-border tax for HNW private clients, expats and non-residents.",
+  "services": [
+   "tax",
+   "tax advisory"
+  ],
+  "staff": 3,
+  "staffBasis": "LinkedIn: 3 employees; site says 'led by Nika Widanage'",
+  "isSoloPractice": null,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Individual/expat tax specialist; weak fit. Website identified by name and Melbourne location (no domain in input).",
+  "sourceUrls": [
+   "https://aimsaustralia.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "aintree-group",
+  "website": "https://aintreegroup.com.au",
+  "linkedin": "https://www.linkedin.com/company/aintreegroup",
+  "description": "Integrated professional services firm combining accounting, legal, wealth and business advisory in Melbourne and Sydney.",
+  "services": [
+   "accounting",
+   "tax",
+   "business advisory",
+   "legal",
+   "financial planning",
+   "wealth management"
+  ],
+  "staff": 54,
+  "staffBasis": "Input signal 54; LinkedIn lists 39",
+  "isSoloPractice": false,
+  "location": "Hawthorn East, VIC",
+  "alphaSignal": "Multi-disciplinary firm with CFO/board advisory; growing headcount (+28% YoY). Moderate fit through advisory/CFO clients.",
+  "sourceUrls": [
+   "https://aintreegroup.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "alexander-and-co-consulting",
+  "website": "https://alexanderandco.com.au",
+  "linkedin": "https://www.linkedin.com/company/alexander-and-co-consulting",
+  "description": "Accounting, bookkeeping, payroll and CFO services for start-ups and small businesses, specialising in professional service and retail businesses.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "BAS/IAS",
+   "CFO services",
+   "cash flow forecasting",
+   "tax consulting"
+  ],
+  "staff": 2,
+  "staffBasis": "LinkedIn: 2 employees (1 director + 1 Philippines-based)",
+  "isSoloPractice": null,
+  "location": "Birtinya, QLD",
+  "alphaSignal": "Bookkeeping/CFO for small retail and professional-service clients, but QLD-based and very small. Modest fit.",
+  "sourceUrls": [
+   "https://alexanderandco.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "alexander-spencer-cpa",
+  "website": "https://www.alexanderspencer.com.au",
+  "linkedin": "https://www.linkedin.com/company/alexander-spencer-cpa",
+  "description": "Camberwell accounting firm (est. 1952) offering tax, private client accounting, SMSF, management consulting, bookkeeping, R&D and financial planning.",
+  "services": [
+   "tax",
+   "SMSF",
+   "bookkeeping",
+   "management consulting",
+   "R&D tax",
+   "financial planning"
+  ],
+  "staff": 38,
+  "staffBasis": "Input signal 38; LinkedIn lists 32",
+  "isSoloPractice": false,
+  "location": "Camberwell, VIC",
+  "alphaSignal": "Established mid-size firm with bookkeeping and management consulting plus offshore staff (Philippines/Malaysia). Moderate fit.",
+  "sourceUrls": [
+   "https://www.alexanderspencer.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "andresen-mccarthy-partners",
+  "website": "https://amcp.net.au",
+  "linkedin": "https://www.linkedin.com/company/andresen-mccarthy-partners",
+  "description": "Eltham boutique accounting firm (founded 1983) with six partners serving sole traders, SMEs and larger commercial clients in tax, superannuation and business management.",
+  "services": [
+   "tax",
+   "accounting",
+   "superannuation",
+   "business advisory"
+  ],
+  "staff": 16,
+  "staffBasis": "LinkedIn: 16 employees (11-50)",
+  "isSoloPractice": false,
+  "location": "Eltham, VIC",
+  "alphaSignal": "Traditional 3,000-client compliance practice across construction, retail, hospitality etc.; some recurring SMB accounting. Moderate fit.",
+  "sourceUrls": [
+   "https://amcp.net.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "armada-accountants-advisors",
+  "website": "https://armada.com.au",
+  "linkedin": "https://www.linkedin.com/company/armada-accountants-&-advisors",
+  "description": "Perth accounting firm offering tax, audit, bookkeeping, CFO services and financial planning to individuals, business owners and investors.",
+  "services": [
+   "tax",
+   "audit",
+   "bookkeeping",
+   "CFO services",
+   "financial planning",
+   "lending"
+  ],
+  "staff": 59,
+  "staffBasis": "LinkedIn: 59 employees (51-200); input signal 77",
+  "isSoloPractice": false,
+  "location": "Osborne Park, WA",
+  "alphaSignal": "Perth-based (not Melbourne). Bookkeeping + CFO services alongside tax/audit; mid-size. Moderate fit.",
+  "sourceUrls": [
+   "https://armada.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "baumgartners",
+  "website": "https://www.baumgartners.com.au",
+  "linkedin": "https://www.linkedin.com/company/baumgartners-chartered-tax-accountants",
+  "description": "Full-service accounting, tax, audit and advisory firm in Melbourne's eastern suburbs (founded 1983) with a Brisbane office.",
+  "services": [
+   "accounting",
+   "tax",
+   "audit",
+   "business advisory"
+  ],
+  "staff": 49,
+  "staffBasis": "LinkedIn: 49 employees",
+  "isSoloPractice": false,
+  "location": "Kew, VIC",
+  "alphaSignal": "Mid-size chartered firm with Philippines-based staff; audit/tax-led. Moderate-to-weak fit.",
+  "sourceUrls": [
+   "https://www.baumgartners.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bbb-partners",
+  "website": "https://bbbpartners.com.au",
+  "linkedin": "https://www.linkedin.com/company/bbbpartners",
+  "description": "South Melbourne firm (founded 1993) advising on SMSF, lending and financial services, with a focus on medical professionals; LinkedIn shows acquisition by Cutcher & Neale in July 2025.",
+  "services": [
+   "SMSF",
+   "lending",
+   "tax",
+   "financial planning"
+  ],
+  "staff": 25,
+  "staffBasis": "LinkedIn: 25 employees",
+  "isSoloPractice": false,
+  "location": "South Melbourne, VIC",
+  "alphaSignal": "Wealth/SMSF-led and now part of Cutcher & Neale, so buying decisions may sit with the acquirer. Weak fit.",
+  "sourceUrls": [
+   "https://bbbpartners.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "beam-bookkeeping",
+  "website": "https://beambk.com.au",
+  "linkedin": "https://www.linkedin.com/company/beam-bookkeeping",
+  "description": "Outsourced bookkeeping, payroll, BAS, AP/AR, bank and credit card reconciliations and management reporting for small, medium and large businesses.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "BAS/IAS",
+   "accounts payable",
+   "accounts receivable",
+   "reconciliations",
+   "management reporting"
+  ],
+  "staff": 10,
+  "staffBasis": "LinkedIn: 10 employees",
+  "isSoloPractice": false,
+  "location": "Newcastle West, NSW",
+  "alphaSignal": "Pure outsourced bookkeeping with explicit bank/credit card reconciliations and reporting across many clients = strong fit; Newcastle NSW, 10 staff, growing.",
+  "sourceUrls": [
+   "https://beambk.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bell-partners-melbourne",
+  "website": "https://www.bellpartners.com/contact/melbourne/",
+  "linkedin": "https://www.linkedin.com/company/bell-partners-melbourne",
+  "description": "Melbourne office of Bell Partners offering accounting, tax, wealth, legal, finance, insurance and audit services.",
+  "services": [
+   "accounting",
+   "tax",
+   "audit",
+   "wealth management",
+   "legal",
+   "insurance"
+  ],
+  "staffBasis": "LinkedIn: 11-50 employees (Melbourne office page, no count)",
+  "isSoloPractice": false,
+  "location": "Southbank, VIC",
+  "alphaSignal": "Melbourne arm of a national multi-service firm (HQ Sydney, 4 Riverside Quay Southbank office matches); traditional accounting/tax/audit. Weak-to-moderate fit.",
+  "sourceUrls": [
+   "https://www.bellpartners.com/",
+   "https://www.bellpartners.com/contact/melbourne/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bentleys-victoria",
+  "website": "https://www.bentleys.com.au/offices/bentleys-victoria/",
+  "linkedin": "https://www.linkedin.com/company/mclean-delmo",
+  "description": "Victorian office of the Bentleys network (formerly McLean Delmo Bentleys) offering business advisory, accounting and audit services.",
+  "services": [
+   "business advisory",
+   "accounting",
+   "audit",
+   "tax",
+   "SMSF"
+  ],
+  "staffBasis": "Network is 700+ staff nationally; Victorian headcount not found",
+  "isSoloPractice": false,
+  "location": "Hawthorn, VIC",
+  "alphaSignal": "Large independent-member network firm; audit/advisory-led. LinkedIn page for the Victorian entity is incomplete. Weak-to-moderate fit.",
+  "sourceUrls": [
+   "https://www.bentleys.com.au/offices/bentleys-victoria/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bio101",
+  "website": "https://www.bio101.com",
+  "linkedin": "https://www.linkedin.com/company/bio101",
+  "description": "Hawthorn East provider of outsourced finance, CFO and company secretary, transaction advisory, R&D tax and grants services for biotech and life-science companies.",
+  "services": [
+   "outsourced CFO",
+   "company secretarial",
+   "bookkeeping",
+   "payroll",
+   "R&D tax",
+   "government grants",
+   "transaction advisory"
+  ],
+  "staff": 27,
+  "staffBasis": "LinkedIn: 27 employees",
+  "isSoloPractice": false,
+  "location": "Hawthorn East, VIC",
+  "alphaSignal": "Xero certified partner running outsourced finance/bookkeeping for many life-science startups = recurring monthly closes; strong fit. Growing +20% YoY.",
+  "sourceUrls": [
+   "https://www.bio101.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bishop-collins-chartered-accountants",
+  "website": "https://www.bishopcollins.com.au",
+  "linkedin": "https://www.linkedin.com/company/bishop-collins-accountants",
+  "description": "Central Coast NSW chartered accountants and registered auditors with fixed-fee engagements covering tax, audit, bookkeeping, outsourced CFO and SMSF.",
+  "services": [
+   "tax",
+   "audit",
+   "bookkeeping",
+   "outsourced CFO",
+   "SMSF",
+   "wealth management",
+   "cloud accounting"
+  ],
+  "staff": 17,
+  "staffBasis": "LinkedIn: 17 employees (input signal 37)",
+  "isSoloPractice": false,
+  "location": "Tuggerah, NSW",
+  "alphaSignal": "NSW-based; bookkeeping, cloud accounting and outsourced CFO alongside audit/tax. Moderate fit.",
+  "sourceUrls": [
+   "https://www.bishopcollins.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bloom-money",
+  "website": "https://bloommoney.com.au",
+  "linkedin": "https://www.linkedin.com/company/bloommoney",
+  "description": "Accounting practice offering BAS, tax, bookkeeping and virtual CFO services plus courses and templates for small business owners.",
+  "services": [
+   "bookkeeping",
+   "BAS",
+   "tax",
+   "virtual CFO"
+  ],
+  "staff": 3,
+  "staffBasis": "LinkedIn: 3 employees (1-10); input signal 5",
+  "isSoloPractice": false,
+  "location": "Brisbane, QLD",
+  "alphaSignal": "Online virtual CFO/bookkeeping for small and e-commerce businesses; Brisbane/Gold Coast, hiring a senior accountant. Good fit, small.",
+  "sourceUrls": [
+   "https://bloommoney.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bongiorno-group",
+  "website": "https://bongiorno.com.au",
+  "linkedin": "https://www.linkedin.com/company/bongiorno-group",
+  "description": "Melbourne firm (founded 1964) providing tax and accounting, financial planning, insurance and lending to medical, dental and high-net-worth clients.",
+  "services": [
+   "tax",
+   "accounting",
+   "financial planning",
+   "insurance",
+   "lending",
+   "superannuation"
+  ],
+  "staff": 44,
+  "staffBasis": "LinkedIn: 44 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Niche medical/dental wealth and tax practice; individual-client oriented rather than SMB closes. Weak fit.",
+  "sourceUrls": [
+   "https://bongiorno.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "books-onsite",
+  "website": "https://www.booksonsite.com.au",
+  "linkedin": "https://www.linkedin.com/company/books-onsite",
+  "description": "Onsite bookkeeping service (payroll, AP, AR, BAS, fixed assets, bank reconciliations) for small and medium businesses, law firms (trust accounting) and real estate; supervised by CPAs.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "accounts payable",
+   "accounts receivable",
+   "BAS",
+   "bank reconciliations",
+   "legal trust accounting"
+  ],
+  "staffBasis": "LinkedIn shows inconsistent counts (1 employee, 11-50 band)",
+  "isSoloPractice": null,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Bookkeeping-only firm certified in MYOB, Xero, QuickBooks and LEAP, with weekly recurring reconciliations across legal/real estate clients = strong fit. HQ listed as North Sydney with Melbourne office; headcount unclear.",
+  "sourceUrls": [
+   "https://www.booksonsite.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "boss-private-clients",
+  "website": "https://bossprivateclients.com.au",
+  "linkedin": "https://www.linkedin.com/company/boss-private-clients-accountants-and-advisors",
+  "description": "Boutique accounting and advisory practice in Melbourne's CBD acting for private clients, with tax and retirement advice.",
+  "services": [
+   "tax",
+   "accounting",
+   "advisory",
+   "retirement planning"
+  ],
+  "staff": 23,
+  "staffBasis": "LinkedIn: 23 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Private-client tax/advisory focus with Philippines-based staff; modest SMB bookkeeping exposure. Weak-to-moderate fit.",
+  "sourceUrls": [
+   "https://bossprivateclients.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bourne-weir",
+  "website": "https://www.bourneandweir.com.au",
+  "linkedin": "https://www.linkedin.com/company/bourne-&-weir-pty-ltd",
+  "description": "Melbourne boutique accounting firm (founded 1990) offering tax, advisory, SMSF and virtual CFO services to individuals, families and growing businesses.",
+  "services": [
+   "tax",
+   "business advisory",
+   "virtual CFO",
+   "SMSF",
+   "cash flow and budgeting"
+  ],
+  "staff": 15,
+  "staffBasis": "LinkedIn: 15 employees (input signal 25)",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Tax/advisory-led with a virtual CFO offering; moderate fit.",
+  "sourceUrls": [
+   "https://www.bourneandweir.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "boutique-accounts",
+  "website": "https://www.boutiqueaccounts.com",
+  "linkedin": "https://www.linkedin.com/company/boutique-accounts",
+  "description": "Accounting, bookkeeping, payroll and tax services for businesses, including accounting-software consulting and training and real-estate accounting; staff based largely in India.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "tax",
+   "accounting software consulting"
+  ],
+  "staff": 23,
+  "staffBasis": "LinkedIn: 23 employees (mostly India)",
+  "isSoloPractice": false,
+  "location": "Scoresby, VIC",
+  "alphaSignal": "Bookkeeping/payroll delivery team of 20+ serving businesses, so many recurring closes; strong fit. LinkedIn HQ shows Scoresby/Wheelers Hill area with Ahmedabad office.",
+  "sourceUrls": [
+   "https://www.boutiqueaccounts.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "breathe-accounting",
+  "website": "https://www.breatheaccounting.com.au",
+  "linkedin": "https://www.linkedin.com/company/breathe-accounting",
+  "description": "Bunbury (WA) accounting firm providing bookkeeping, tax and accounting, payroll, superannuation and business advisory to local businesses.",
+  "services": [
+   "bookkeeping",
+   "tax",
+   "payroll",
+   "SMSF",
+   "business advisory",
+   "forecasting"
+  ],
+  "staff": 12,
+  "staffBasis": "LinkedIn: 12 employees",
+  "isSoloPractice": false,
+  "location": "Bunbury, WA",
+  "alphaSignal": "Uses Xero and MYOB; bookkeeping and payroll for local SMBs. Regional WA, moderate fit.",
+  "sourceUrls": [
+   "https://www.breatheaccounting.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "bri-ferrier-melbourne",
+  "website": "https://briferrier.com.au",
+  "linkedin": "https://www.linkedin.com/company/bri-ferrier",
+  "description": "Business recovery, insolvency, forensic accounting and advisory firm affiliation across Australia and New Zealand; Melbourne is one of its offices.",
+  "services": [
+   "insolvency",
+   "business recovery",
+   "forensic accounting",
+   "advisory"
+  ],
+  "staffBasis": "National page: 37 on LinkedIn / 'over 80 staff' across eight practices; Melbourne headcount not found",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Insolvency/restructuring work, not recurring SMB closes. Weak fit.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/bri-ferrier"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "businessdepot",
+  "website": "https://businessdepot.com.au",
+  "linkedin": "https://www.linkedin.com/company/businessdepot",
+  "description": "Brisbane-based multi-disciplinary firm for SMEs offering accounting, tax, bookkeeping, financial planning, legal, marketing and business broking in one place.",
+  "services": [
+   "accounting",
+   "tax",
+   "bookkeeping",
+   "financial planning",
+   "legal",
+   "business broking",
+   "SMSF"
+  ],
+  "staff": 79,
+  "staffBasis": "Input signal 79; LinkedIn lists 62",
+  "isSoloPractice": false,
+  "location": "Fortitude Valley, QLD",
+  "alphaSignal": "Large SME-focused accounting group with offshore staff and a 23-person finance function; bookkeeping offered. Moderate-to-good fit (QLD).",
+  "sourceUrls": [
+   "https://businessdepot.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "byrons",
+  "website": "https://byrons.com.au",
+  "linkedin": "https://www.linkedin.com/company/byronsadvisory",
+  "description": "Sydney independent advisory and accounting firm (founded 1955, 18 directors, 80+ staff, PrimeGlobal member) with audit, tax, outsourced CFO, SMSF and corporate recovery.",
+  "services": [
+   "accounting",
+   "tax",
+   "audit",
+   "outsourced CFO",
+   "SMSF",
+   "corporate recovery",
+   "wealth management"
+  ],
+  "staff": 80,
+  "staffBasis": "Site: '18 Directors and over 80 professional staff'; LinkedIn lists 62",
+  "isSoloPractice": false,
+  "location": "Sydney, NSW",
+  "alphaSignal": "Top-100 mid-tier firm with outsourced CFO offering and offshore staff; Melbourne office exists. Moderate fit.",
+  "sourceUrls": [
+   "https://byrons.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "cfo-on-call",
+  "website": "https://cfooncall.com.au",
+  "linkedin": "https://www.linkedin.com/company/cad-partners-cfo-on-call",
+  "description": "Network of part-time/virtual CFOs and financial controllers providing fixed-price financial leadership to SMEs across Australia and New Zealand.",
+  "services": [
+   "outsourced CFO",
+   "financial controller",
+   "cash flow",
+   "business advisory"
+  ],
+  "staff": 28,
+  "staffBasis": "LinkedIn: 26 employees (input signal 28)",
+  "isSoloPractice": false,
+  "location": "Australia (Central Coast NSW HQ; Sydney, Carindale offices)",
+  "alphaSignal": "Fractional CFO network serving many SMBs and needing timely monthly numbers; good fit for finance-team automation.",
+  "sourceUrls": [
+   "https://cfooncall.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "charterpoint",
+  "website": "https://www.charterpoint.com.au",
+  "linkedin": "https://www.linkedin.com/company/charterpoint-pty-ltd-",
+  "description": "Accounting, audit, grants management and financial consulting firm serving government, corporate and not-for-profit clients, based in Canberra.",
+  "services": [
+   "audit",
+   "accounting",
+   "financial consulting",
+   "grants management",
+   "outsourced accounting for not-for-profits"
+  ],
+  "staff": 32,
+  "staffBasis": "LinkedIn: 32 employees",
+  "isSoloPractice": false,
+  "location": "Canberra, ACT",
+  "alphaSignal": "Government/NFP-focused consulting and audit; offers outsourced accounting for NFPs but is Canberra-based. Weak-to-moderate fit. Input listed Melbourne/Canberra/Sydney; only Canberra offices found.",
+  "sourceUrls": [
+   "https://www.charterpoint.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "clear-tax-accountants",
+  "website": "https://cleartax.com.au",
+  "linkedin": "https://www.linkedin.com/company/clear-tax-accountants",
+  "description": "Melbourne accounting and advisory firm (founded 2018) offering tax, business advisory, SMSF, property tax planning, bookkeeping and ASIC compliance to individuals, investors and business owners.",
+  "services": [
+   "tax",
+   "business advisory",
+   "SMSF",
+   "bookkeeping",
+   "property tax planning"
+  ],
+  "staff": 50,
+  "staffBasis": "LinkedIn: 50 employees (site claims 100+ professionals; many in India)",
+  "isSoloPractice": false,
+  "location": "Point Cook, VIC",
+  "alphaSignal": "Growing volume tax/bookkeeping firm (+33% YoY) with offshore team; some SMB bookkeeping. Input domain was cleartax.net.au and address Spencer St CBD; matched company by name/Melbourne so identification is moderately certain.",
+  "sourceUrls": [
+   "https://cleartax.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "code-one-accountants",
+  "website": "https://code-one.com.au",
+  "linkedin": "https://www.linkedin.com/company/quarles-pty-ltd",
+  "description": "Perth accounting firm (founded 1973 as Quarles & Co) serving the building and medical industries with tax, SMSF, business improvement and lending.",
+  "services": [
+   "tax",
+   "SMSF",
+   "bookkeeping",
+   "business advisory",
+   "lending",
+   "cash flow forecasting"
+  ],
+  "staff": 13,
+  "staffBasis": "LinkedIn: 10 employees (input signal 13)",
+  "isSoloPractice": false,
+  "location": "Inglewood, WA",
+  "alphaSignal": "Perth-based; tax/accounting packages for building and medical clients with offshore Philippines staff. Moderate fit.",
+  "sourceUrls": [
+   "https://code-one.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "collins-co",
+  "website": "https://collinsco.com.au",
+  "linkedin": "https://www.linkedin.com/company/collins-&-co",
+  "description": "Footscray business and wealth advisory firm (since 1954) offering accounting, bookkeeping, audit, wealth planning, lending, succession and cloud accounting; describes itself as the largest accounting firm in Melbourne's west.",
+  "services": [
+   "accounting",
+   "bookkeeping",
+   "audit",
+   "business advisory",
+   "wealth management",
+   "lending",
+   "cloud accounting"
+  ],
+  "staff": 50,
+  "staffBasis": "Collins & Co Audit LinkedIn page: 'four partners and more than 50 staff'; main LinkedIn lists 15",
+  "isSoloPractice": false,
+  "location": "Footscray, VIC",
+  "alphaSignal": "Mid-size firm with bookkeeping and cloud accounting for SMB clients. Good-moderate fit. Input domain collins-company.com; collinsco.com.au found with matching Footscray address.",
+  "sourceUrls": [
+   "https://collinsco.com.au/",
+   "https://linkedin.com/company/collins-co-audit-pty-ltd"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "connect-advisors",
+  "website": "https://connectadvisors.com.au",
+  "linkedin": "https://www.linkedin.com/company/connect-advisors",
+  "description": "Melbourne CBD firm providing taxation, SMSF, bookkeeping, forensic accounting and business advisory to multinationals, start-ups and small businesses.",
+  "services": [
+   "tax",
+   "SMSF",
+   "bookkeeping",
+   "forensic accounting",
+   "business advisory"
+  ],
+  "staff": 9,
+  "staffBasis": "LinkedIn: 9 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Small, fast-growing firm with a bookkeeping line for diverse clients; moderate fit.",
+  "sourceUrls": [
+   "https://connectadvisors.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "crawford-accountants",
+  "website": "https://crawfordaccountants.com.au",
+  "linkedin": "https://www.linkedin.com/company/crawford-accountants",
+  "description": "Kew accounting firm (est. 1986) with about 3,500 clients covering tax, business advisory, SMSF, company secretarial, bookkeeping and virtual CFO services.",
+  "services": [
+   "tax",
+   "business advisory",
+   "SMSF",
+   "company secretarial",
+   "bookkeeping",
+   "virtual CFO"
+  ],
+  "staff": 9,
+  "staffBasis": "Input signal 9; LinkedIn lists 5",
+  "isSoloPractice": false,
+  "location": "Kew, VIC",
+  "alphaSignal": "Established SMB-heavy practice with bookkeeping and virtual CFO lines across ~3,500 clients. Moderate-to-good fit.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/crawford-accountants"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "credible-accounting",
+  "website": "https://credibleaccounting.com.au",
+  "linkedin": "https://www.linkedin.com/company/credible-accounting",
+  "description": "Boutique firm in Norwest, Sydney providing bookkeeping, payroll, tax, business advisory and fractional CFO support to small business owners across Australia.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "tax",
+   "business advisory",
+   "fractional CFO",
+   "financial statements"
+  ],
+  "staff": 5,
+  "staffBasis": "LinkedIn: 5 employees",
+  "isSoloPractice": false,
+  "location": "Norwest, NSW",
+  "alphaSignal": "Bookkeeping + fractional CFO for 'dozens' of businesses, growing +75% YoY; good fit though small and Sydney-based.",
+  "sourceUrls": [
+   "https://credibleaccounting.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "davidsons-accountants-business-consultan",
+  "website": "https://davidsons.com.au",
+  "linkedin": "https://www.linkedin.com/company/davidsons-accountants-and-business-consultants",
+  "description": "Geelong accounting firm (founded 1905) with offices in Newtown and Torquay offering business services, tax, audit, succession, SMSF and cloud consulting/bookkeeping.",
+  "services": [
+   "tax",
+   "audit",
+   "business advisory",
+   "bookkeeping",
+   "cloud consulting",
+   "SMSF",
+   "succession planning"
+  ],
+  "staff": 75,
+  "staffBasis": "Site: 'over 75 people'; LinkedIn lists 36",
+  "isSoloPractice": false,
+  "location": "Newtown (Geelong), VIC",
+  "alphaSignal": "Large regional firm with cloud consulting/bookkeeping offering; moderate fit. Matched by name and Geelong/Torquay offices (input also listed South Melbourne).",
+  "sourceUrls": [
+   "https://davidsons.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dawson-group",
+  "website": "https://www.dawson.com.au",
+  "linkedin": "https://www.linkedin.com/company/dawson-&-partners",
+  "description": "Southern NSW business advisory and accounting firm (Cootamundra since 1918) with offices in Goulburn, Yass and Narooma serving SMBs, investors and retirees.",
+  "services": [
+   "accounting",
+   "tax",
+   "bookkeeping",
+   "business advisory",
+   "superannuation",
+   "investment services"
+  ],
+  "staff": 18,
+  "staffBasis": "Input signal 18; LinkedIn lists 15",
+  "isSoloPractice": false,
+  "location": "Cootamundra, NSW",
+  "alphaSignal": "Regional NSW firm offering bookkeeping alongside tax; moderate fit. Contact names not verified against site.",
+  "sourceUrls": [
+   "https://www.dawson.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dfk-benjamin-king-money-dfk-bkm",
+  "website": "https://dfkbkm.com.au",
+  "linkedin": "https://www.linkedin.com/company/benjamin-king-money-pty-ltd",
+  "description": "Richmond accounting firm (founded 1960) with Camberwell office offering tax, strategic business advice, wealth, cloud accounting, SMSF and audit; member of the DFK alliance.",
+  "services": [
+   "tax",
+   "business advisory",
+   "cloud accounting",
+   "SMSF",
+   "audit",
+   "financial planning"
+  ],
+  "staff": 40,
+  "staffBasis": "LinkedIn: 40 employees",
+  "isSoloPractice": false,
+  "location": "Richmond, VIC",
+  "alphaSignal": "Mid-size firm with cloud accounting and start-up services and offshore staff; moderate fit.",
+  "sourceUrls": [
+   "https://dfkbkm.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dfk-laurence-varnay",
+  "website": "https://dfklv.com.au",
+  "linkedin": "https://www.linkedin.com/company/dfk-laurence-varnay",
+  "description": "Sydney accountancy and business advisory firm (since 1957) offering accounting, tax, audit, outsourced CFO, SMSF administration, bookkeeping and cloud accounting support.",
+  "services": [
+   "accounting",
+   "tax",
+   "audit",
+   "outsourced CFO",
+   "bookkeeping",
+   "payroll",
+   "SMSF",
+   "cloud accounting"
+  ],
+  "staff": 23,
+  "staffBasis": "LinkedIn: 23 employees (input signal 32)",
+  "isSoloPractice": false,
+  "location": "Sydney, NSW",
+  "alphaSignal": "Lists outsourced CFO, bookkeeping/reporting and cloud accounting with Philippines offshore staff; Sydney-based. Moderate fit.",
+  "sourceUrls": [
+   "https://dfklv.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dfk-nugents",
+  "website": "https://www.dfknugents.com.au",
+  "linkedin": "https://www.linkedin.com/company/dfk-nugents1",
+  "description": "Southbank (Melbourne) and Griffith NSW business advisory firm offering compliance and tax, SMSF, corporate secretarial, virtual CFO, cloud solutions, valuations and wealth management; Xero Platinum Partner.",
+  "services": [
+   "tax",
+   "SMSF",
+   "virtual CFO",
+   "corporate secretarial",
+   "cloud solutions",
+   "business advisory",
+   "wealth management"
+  ],
+  "staff": 28,
+  "staffBasis": "LinkedIn: 28 employees",
+  "isSoloPractice": false,
+  "location": "Southbank, VIC",
+  "alphaSignal": "Xero Platinum Partner with virtual CFO and cloud-solutions offering for business owners; growing +10% YoY. Moderate-to-good fit.",
+  "sourceUrls": [
+   "https://www.dfknugents.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dhm-partners",
+  "website": "https://www.dhm-partners.com.au",
+  "linkedin": "https://www.linkedin.com/company/dhm-partners-pty-ltd",
+  "description": "Mildura (regional Victoria) accounting and business advisory firm providing tax, bookkeeping, SMSF, wealth and business planning.",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "business advisory",
+   "SMSF",
+   "wealth management",
+   "cash flow plans"
+  ],
+  "staff": 18,
+  "staffBasis": "LinkedIn: 18 employees (input signal 28)",
+  "isSoloPractice": false,
+  "location": "Mildura, VIC",
+  "alphaSignal": "Regional practice with bookkeeping and advisory for local SMBs, offshore staff in Nepal/Philippines; moderate fit.",
+  "sourceUrls": [
+   "https://www.dhm-partners.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "diagno-accountants-and-financial-strateg",
+  "website": "https://diagno.com.au",
+  "linkedin": "https://www.linkedin.com/company/diagno-accountants-and-financial-strategists",
+  "description": "CPA firm (since 1996) providing accounting and tax, financial reporting and forecasting, superannuation and outsourced CFO to emerging and established businesses.",
+  "services": [
+   "accounting",
+   "tax",
+   "financial reporting",
+   "forecasting",
+   "superannuation",
+   "outsourced CFO"
+  ],
+  "staff": 6,
+  "staffBasis": "LinkedIn: 6 employees (1-10); input signal 11",
+  "isSoloPractice": false,
+  "location": "Southport, QLD",
+  "alphaSignal": "Outsourced CFO and reporting for growing businesses; LinkedIn HQ Southport QLD though phone listing includes a Melbourne (03) number. Small; moderate fit.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/diagno-accountants-and-financial-strategists"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dmg-partners",
+  "website": "https://www.dmgpartners.com.au",
+  "linkedin": "https://www.linkedin.com/company/dmg-financial-planning-pty-ltd",
+  "description": "Gippsland-based (Sale, Yarram) firm offering financial planning, business accounting, retirement planning and SMSF; Geelong office listed.",
+  "services": [
+   "financial planning",
+   "accounting",
+   "SMSF",
+   "business advisory",
+   "retirement planning"
+  ],
+  "staff": 20,
+  "staffBasis": "LinkedIn: 20 employees",
+  "isSoloPractice": false,
+  "location": "Sale, VIC",
+  "alphaSignal": "Financial-planning-led with accounting; input CBD address not confirmed (LinkedIn HQ Sale). Weak fit.",
+  "sourceUrls": [
+   "https://www.dmgpartners.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "dpm-financial-services",
+  "website": "https://www.dpm.com.au",
+  "linkedin": "https://www.linkedin.com/company/dpmfinancialservices",
+  "description": "Melbourne and Sydney financial services group (60+ years) serving medical professionals with tax and accounting, insurance, wealth, lending, property advocacy and legal.",
+  "services": [
+   "tax",
+   "accounting",
+   "financial planning",
+   "insurance",
+   "lending",
+   "superannuation"
+  ],
+  "staff": 104,
+  "staffBasis": "LinkedIn: 104 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Large practice for doctors' personal and practice finances; individual-professional focus rather than SMB closes. Weak-to-moderate fit.",
+  "sourceUrls": [
+   "https://www.dpm.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dry-kirkness",
+  "website": "https://www.drykirkness.com.au",
+  "linkedin": "https://www.linkedin.com/company/dry-kirkness",
+  "description": "West Perth chartered accountants (est. 1932) providing tax, business advisory, audit and assurance, bookkeeping and virtual/outsourced accounting for SMEs, family businesses and not-for-profits.",
+  "services": [
+   "tax",
+   "audit",
+   "bookkeeping",
+   "payroll",
+   "business advisory",
+   "virtual & outsourced accounting",
+   "farm accounting"
+  ],
+  "staff": 33,
+  "staffBasis": "Input signal 33; LinkedIn lists 28",
+  "isSoloPractice": false,
+  "location": "West Perth, WA",
+  "alphaSignal": "Offers bookkeeping/payroll and virtual/outsourced accounting alongside audit; Perth-based. Moderate fit.",
+  "sourceUrls": [
+   "https://www.drykirkness.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "dvt-mcleods",
+  "website": "https://dvtmcleods.com.au",
+  "linkedin": "https://www.linkedin.com/company/dvtmcleods",
+  "description": "Advisory, restructuring and insolvency firm (dVT Group, Condon Associates, Mcleods) with offices in Sydney, Melbourne, Brisbane, Parramatta and Gold Coast.",
+  "services": [
+   "restructuring",
+   "insolvency",
+   "business advisory",
+   "valuations",
+   "litigation support",
+   "AML advisory"
+  ],
+  "staff": 50,
+  "staffBasis": "LinkedIn: 50 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Insolvency/restructuring work rather than recurring SMB closes. Weak fit. Input domain dvtgroup.com.au; current domain dvtmcleods.com.au (alias dvt group).",
+  "sourceUrls": [
+   "https://dvtmcleods.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "eagle-accounting",
+  "website": "https://eagleaccounting.com.au",
+  "linkedin": "https://www.linkedin.com/company/eagleaccounting",
+  "description": "Cairns accounting firm for tourism/hospitality (management rights), medical practices and SMSFs, offering tax, bookkeeping and payroll with Xero and MYOB expertise.",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "payroll",
+   "SMSF",
+   "business advisory",
+   "audit"
+  ],
+  "staff": 11,
+  "staffBasis": "LinkedIn: 11 employees",
+  "isSoloPractice": false,
+  "location": "Cairns, QLD",
+  "alphaSignal": "Xero/MYOB bookkeeping and payroll for local SMBs; regional QLD. Moderate fit.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/eagleaccounting"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ecovis-clark-jacobs",
+  "description": "Sydney-based accounting, tax and audit firm and Australian ECOVIS affiliate (Sydney and Brisbane offices); a Melbourne St Kilda Rd office could not be confirmed.",
+  "services": [
+   "tax",
+   "audit",
+   "bookkeeping",
+   "payroll",
+   "outsourced CFO",
+   "business valuation"
+  ],
+  "staff": 52,
+  "staffBasis": "LinkedIn (ecovisclarkjacobs.com.au entity): 52 employees",
+  "isSoloPractice": false,
+  "location": "Sydney, NSW",
+  "alphaSignal": "Entity found is Sydney/Brisbane, not confirmed as the Melbourne firm in input; offers bookkeeping & payroll and outsourced CFO. Treat as unverified.",
+  "sourceUrls": [
+   "https://ecovisclarkjacobs.com.au/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ega-corporate-advisers",
+  "website": "http://ega.com.au",
+  "linkedin": "https://www.linkedin.com/company/ega-corporate-advisors-pty-ltd",
+  "description": "Melbourne accounting practice that structures client businesses and provides accounting and tax services, leveraging its business networks.",
+  "services": [
+   "accounting",
+   "tax",
+   "business structuring"
+  ],
+  "staff": 29,
+  "staffBasis": "LinkedIn: 29 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Traditional accounting practice with limited public detail on services; moderate-to-weak fit.",
+  "sourceUrls": [
+   "http://ega.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "elevate-accounting",
+  "website": "https://elevateaccounting.com.au",
+  "linkedin": "https://www.linkedin.com/company/elevate-accounting",
+  "description": "South Perth firm providing accounting, tax, cloud accounting, CFO solutions, forecasting and business strategy for Western Australian businesses.",
+  "services": [
+   "accounting",
+   "tax",
+   "cloud accounting",
+   "CFO solutions",
+   "forecasting & modelling",
+   "business advisory"
+  ],
+  "staff": 22,
+  "staffBasis": "Input signal 22; LinkedIn lists 20",
+  "isSoloPractice": false,
+  "location": "South Perth, WA",
+  "alphaSignal": "Xero/MYOB cloud accounting with CFO solutions for a select portfolio of businesses; Perth. Moderate-to-good fit.",
+  "sourceUrls": [
+   "https://elevateaccounting.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "elevate-smes",
+  "website": "https://elevatesmes.com.au",
+  "linkedin": "https://www.linkedin.com/company/elevate-smes-pty-ltd",
+  "description": "Outsourced finance function for growing Australian businesses: bookkeeping, payroll, AP/AR, bank and balance sheet reconciliations, management reporting; offices in Brisbane, Melbourne and Colombo.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "accounts payable",
+   "accounts receivable",
+   "reconciliations",
+   "management reporting",
+   "outsourced finance"
+  ],
+  "staff": 8,
+  "staffBasis": "Input signal 8; LinkedIn lists 7 (mostly Sri Lanka based)",
+  "isSoloPractice": false,
+  "location": "West End, QLD",
+  "alphaSignal": "Explicit bank and balance sheet reconciliations and reporting on Xero/MYOB for clients that outgrew bookkeeping; Melbourne presence; strong fit.",
+  "sourceUrls": [
+   "https://elevatesmes.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "empire-accountants",
+  "website": "https://www.empireaccountants.com.au",
+  "linkedin": "https://www.linkedin.com/company/empire-accountants",
+  "description": "Brisbane accounting firm offering proactive tax planning, business advisory and fixed monthly fees for small and medium businesses and NFPs, using Xero.",
+  "services": [
+   "tax planning",
+   "business advisory",
+   "bookkeeping",
+   "SMSF",
+   "accounting"
+  ],
+  "staff": 13,
+  "staffBasis": "Input signal 13; LinkedIn lists 9",
+  "isSoloPractice": false,
+  "location": "Murarrie, QLD",
+  "alphaSignal": "Fixed monthly-fee SMB model on Xero = recurring work; Brisbane-based. Moderate fit.",
+  "sourceUrls": [
+   "https://www.empireaccountants.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "end-of-month-angels",
+  "website": "https://www.endofmonthangels.com.au",
+  "linkedin": "https://www.linkedin.com/company/end-of-month-angels",
+  "description": "Outsourced trust accounting, compliance, training and bookkeeping service for real estate agencies across Australia, founded by former agents.",
+  "services": [
+   "trust accounting",
+   "bookkeeping",
+   "compliance",
+   "consulting"
+  ],
+  "staff": 12,
+  "staffBasis": "Input signal 12; LinkedIn lists 9",
+  "isSoloPractice": false,
+  "location": "Rozelle, NSW",
+  "alphaSignal": "Monthly trust-account reconciliations and end-of-month close for many real estate offices = high-volume recurring closes; strong fit.",
+  "sourceUrls": [
+   "https://www.endofmonthangels.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "endurego-tax",
+  "website": "https://www.endurego.com.au",
+  "linkedin": "https://www.linkedin.com/company/endureggo",
+  "description": "CPA tax and accounting firm with offices in Ashfield, Belrose (Sydney) and Adelaide offering tax, BAS, bookkeeping, SMSF and ATO debt support to small businesses and individuals.",
+  "services": [
+   "tax",
+   "BAS",
+   "bookkeeping",
+   "SMSF",
+   "tax debt negotiation",
+   "home loans"
+  ],
+  "staff": 8,
+  "staffBasis": "LinkedIn: 8 employees",
+  "isSoloPractice": false,
+  "location": "Ashfield, NSW",
+  "alphaSignal": "Tax/BAS-led for small businesses and tradies with some bookkeeping; Sydney/Adelaide. Moderate-to-weak fit.",
+  "sourceUrls": [
+   "https://www.endurego.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "enspira-financial",
+  "website": "https://enspira.com.au",
+  "linkedin": "https://www.linkedin.com/company/enspira-financial",
+  "description": "Relationship-based advisory accounting firm with Sydney headquarters and Brookvale office; its Melbourne practice rebranded as Guava Lane in July 2025.",
+  "services": [
+   "accounting",
+   "tax",
+   "business advisory"
+  ],
+  "staff": 13,
+  "staffBasis": "LinkedIn: 13 employees (Enspira overall); Guava Lane (ex-Enspira Melbourne) lists 2",
+  "isSoloPractice": null,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Melbourne arm now operates as Guava Lane (small, 2 people, MD Rebecca Collins) per its site; input contacts may be stale. Weak fit and uncertain entity.",
+  "sourceUrls": [
+   "https://enspira.com.au/",
+   "https://guavalane.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "esuperfund",
+  "website": "https://esuperfund.com.au",
+  "linkedin": "https://www.linkedin.com/company/esuperfund",
+  "description": "Melbourne SMSF establishment and administration provider (since 2006) with an online service covering fund setup, annual reporting, compliance and ongoing administration for 35,000+ members.",
+  "services": [
+   "SMSF administration",
+   "SMSF establishment",
+   "compliance reporting"
+  ],
+  "staff": 89,
+  "staffBasis": "LinkedIn: 89 employees",
+  "isSoloPractice": false,
+  "location": "Docklands, VIC",
+  "alphaSignal": "High-volume SMSF administration with annual rather than monthly closes; reconciliation workload is heavy but cadence differs. Moderate fit.",
+  "sourceUrls": [
+   "https://esuperfund.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "esv-business-advice-and-accounting",
+  "website": "https://esvgroup.com.au",
+  "linkedin": "https://www.linkedin.com/company/esv-chartered-accountants",
+  "description": "Mid-tier Sydney business advisory and accounting firm offering advisory, tax, audit, outsourced CFO, family office and fraud services.",
+  "services": [
+   "advisory",
+   "tax",
+   "audit",
+   "outsourced CFO",
+   "family office",
+   "forensic"
+  ],
+  "staff": 68,
+  "staffBasis": "LinkedIn: 68 employees (input signal 85)",
+  "isSoloPractice": false,
+  "location": "Sydney, NSW",
+  "alphaSignal": "Mid-tier firm with outsourced CFO and offshore staff; Sydney. Moderate fit.",
+  "sourceUrls": [
+   "https://esvgroup.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "evource",
+  "website": "https://www.evource.com.au",
+  "linkedin": "https://www.linkedin.com/company/evource",
+  "description": "Bookkeeping, payroll, accounts payable/receivable outsourcing and virtual assistant services for real estate, strata and SMEs.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "accounts payable",
+   "accounts receivable",
+   "outsourced accounting"
+  ],
+  "staff": 12,
+  "staffBasis": "Input signal 12; LinkedIn lists 5",
+  "isSoloPractice": false,
+  "location": "Sydney, NSW",
+  "alphaSignal": "Outsourced bookkeeping for real estate/strata and SMEs with India-based support, growing +40%; good fit, Sydney.",
+  "sourceUrls": [
+   "https://www.evource.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ezygrowth",
+  "website": "https://ezygrowth.world",
+  "linkedin": "https://www.linkedin.com/company/ezygrowth",
+  "description": "Business growth and advisory group (formerly ezyACCOUNTS) offering virtual CFO, virtual company secretary, benchmarking, coaching and training, with offices across several states including Melbourne.",
+  "services": [
+   "virtual CFO",
+   "company secretarial",
+   "business advisory",
+   "coaching"
+  ],
+  "staff": 45,
+  "staffBasis": "Input signal 45; LinkedIn lists 34",
+  "isSoloPractice": false,
+  "location": "Bundall, QLD",
+  "alphaSignal": "Franchise-style advisory/virtual CFO network (partners@ezyaccounts.com) whose members run many SMB engagements; accounting delivery is decentralised, so a channel/partner angle. Moderate fit.",
+  "sourceUrls": [
+   "https://ezygrowth.world/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "float-accounting-advisory",
+  "website": "https://www.floataccounting.com.au",
+  "linkedin": "https://www.linkedin.com/company/float-accounting",
+  "description": "Accounting firm offering tax, bookkeeping, payroll, virtual CFO and business advisory with a focus on e-commerce and automation; offices in Preston, Melbourne, Williamstown and Frankston.",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "payroll",
+   "virtual CFO",
+   "business advisory",
+   "crypto accounting"
+  ],
+  "staff": 5,
+  "staffBasis": "Input signal 5; LinkedIn lists 4",
+  "isSoloPractice": false,
+  "location": "Preston, VIC",
+  "alphaSignal": "Cloud-first (Xero, MyOB, QuickBooks) bookkeeping/payroll for SMBs and e-commerce; small team. Good fit, small.",
+  "sourceUrls": [
+   "https://www.floataccounting.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "focus-partners-australia",
+  "website": "https://linkfs.com.au",
+  "linkedin": "https://www.linkedin.com/company/link-financial-services",
+  "description": "Link Financial Services (Focus Partners Australia), a Melbourne financial planning practice for self-funded retirees, self-employed people and high-net-worth individuals.",
+  "services": [
+   "financial planning"
+  ],
+  "staff": 12,
+  "staffBasis": "LinkedIn: 12 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Financial planning practice, not accounting/bookkeeping. Weak fit.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/link-financial-services"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fortuna-advisory-group",
+  "website": "https://fortunaadvisors.com.au",
+  "linkedin": "https://www.linkedin.com/company/fortuna-accountants-&-business-advisors",
+  "description": "Multi-service group (West Perth HQ, 16 offices) covering business advisory, tax and accounting, financial planning, insurance, legal, IT, HR, mortgage broking, CFO services and bookkeeping.",
+  "services": [
+   "tax",
+   "accounting",
+   "bookkeeping",
+   "CFO services",
+   "financial planning",
+   "insurance broking",
+   "legal"
+  ],
+  "staff": 44,
+  "staffBasis": "Input signal 44; LinkedIn lists 32 (51-200 band)",
+  "isSoloPractice": false,
+  "location": "West Perth, WA",
+  "alphaSignal": "Acquisitive group (bought Douglas Cross & Chamberlain 2021) offering CFO services and bookkeeping across 16 offices = many recurring closes; good fit. WA-based.",
+  "sourceUrls": [
+   "https://fortunaadvisors.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "grey-space-advisory",
+  "website": "https://gsadvisory.com.au",
+  "linkedin": "https://www.linkedin.com/company/grey-space-advisory",
+  "description": "Sydney firm managing the full financial function for small businesses through virtual CFO, bookkeeping, tax, compliance and structured advisory.",
+  "services": [
+   "virtual CFO",
+   "bookkeeping",
+   "tax",
+   "compliance",
+   "business advisory"
+  ],
+  "staff": 10,
+  "staffBasis": "LinkedIn: 10 employees (input signal 11)",
+  "isSoloPractice": false,
+  "location": "Alexandria, NSW",
+  "alphaSignal": "Runs the full finance function for ambitious small businesses with offshore support; good fit, Sydney.",
+  "sourceUrls": [
+   "https://gsadvisory.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "growth-team",
+  "website": "https://growthteam.com.au",
+  "linkedin": "https://www.linkedin.com/company/growthteamgroup",
+  "description": "Chadstone accounting and growth advisory firm providing tax, outsourced bookkeeping/accounting and virtual CFO for hospitality, e-commerce, creatives and professional services SMBs.",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "outsourced accounting",
+   "virtual CFO",
+   "growth advisory"
+  ],
+  "staff": 5,
+  "staffBasis": "LinkedIn: 5 employees (1-10); Philippines support",
+  "isSoloPractice": false,
+  "location": "Chadstone, VIC",
+  "alphaSignal": "Xero-based monthly accounts/bookkeeping and advisory for SMBs in e-commerce/hospitality; good fit, small, Melbourne.",
+  "sourceUrls": [
+   "https://growthteam.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "guests-accounting",
+  "website": "https://www.guests.com.au",
+  "linkedin": "https://www.linkedin.com/company/guestsaccounting",
+  "description": "Caulfield North accounting firm (since 1945) providing accounting and tax to individuals, sole traders, professionals, local and international businesses and manufacturers.",
+  "services": [
+   "accounting",
+   "tax",
+   "business accounting"
+  ],
+  "staff": 7,
+  "staffBasis": "LinkedIn: 7 employees",
+  "isSoloPractice": false,
+  "location": "Caulfield North, VIC",
+  "alphaSignal": "Traditional small partnership using modern accounting technology; moderate-to-weak fit.",
+  "sourceUrls": [
+   "https://www.guests.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "hall-chadwick-melbourne",
+  "website": "https://hallchadwickmelb.com.au",
+  "linkedin": "https://www.linkedin.com/company/hall-chadwick-melbourne",
+  "description": "Melbourne arm of national mid-market accounting group Hall Chadwick offering accounting, audit, tax, forensic, valuation and insolvency services.",
+  "services": [
+   "accounting",
+   "audit",
+   "tax",
+   "forensic accounting",
+   "insolvency",
+   "business advisory",
+   "back-office services"
+  ],
+  "staff": 53,
+  "staffBasis": "LinkedIn: 53 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Mid-market audit/tax/insolvency firm; lists back-office services. Weak-to-moderate fit. Website domain taken from input/matching careers email.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/hall-chadwick-melbourne"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hamilton-morello",
+  "website": "https://hamiltonmorello.com.au",
+  "linkedin": "https://www.linkedin.com/company/hamilton-morello",
+  "description": "Forest Hill chartered accountants and business advisers (since 1992) servicing small-to-medium businesses and individuals, with financial planners on staff.",
+  "services": [
+   "accounting",
+   "tax",
+   "business advisory",
+   "financial planning"
+  ],
+  "staff": 32,
+  "staffBasis": "LinkedIn: 32 employees",
+  "isSoloPractice": false,
+  "location": "Forest Hill, VIC",
+  "alphaSignal": "Established SMB-focused firm; no explicit bookkeeping/CAS line found. Moderate fit.",
+  "sourceUrls": [
+   "https://hamiltonmorello.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "hatcher-advisory",
+  "website": "https://hatcher.com.au",
+  "linkedin": "https://www.linkedin.com/company/hatcher-advisory",
+  "description": "Melbourne strategic advisory and accounting firm for business owners covering tax planning, business advice, restructuring, performance improvement and SMSF.",
+  "services": [
+   "tax planning",
+   "business advisory",
+   "corporate restructuring",
+   "SMSF",
+   "business accounting"
+  ],
+  "staff": 19,
+  "staffBasis": "LinkedIn: 19 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Growing (+12% YoY) advisory-led firm with Philippines/Vietnam offshore staff; moderate fit.",
+  "sourceUrls": [
+   "https://hatcher.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "hellocfo",
+  "website": "https://www.hellocfo.com.au",
+  "linkedin": "https://www.linkedin.com/company/hellocfo",
+  "description": "Melbourne virtual CFO, accounting and advisory firm for startups and high-growth companies: strategic CFO, accounting and tax compliance, corporate advisory and capital raising.",
+  "services": [
+   "virtual CFO",
+   "accounting",
+   "tax",
+   "corporate advisory",
+   "capital raising"
+  ],
+  "staff": 6,
+  "staffBasis": "LinkedIn: 6 employees",
+  "isSoloPractice": false,
+  "location": "Ivanhoe East, VIC",
+  "alphaSignal": "Recurring monthly accounts and reporting for startups, adding CFO partners; good fit, small.",
+  "sourceUrls": [
+   "https://www.hellocfo.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "highview-accounting-financial",
+  "website": "https://highview.com.au",
+  "linkedin": "https://www.linkedin.com/company/highviewau",
+  "description": "Victorian and Queensland advisory group (Cranbourne HQ, seven offices incl. Prahran, Ringwood, Mornington) offering accounting, financial planning, finance, insurance and bookkeeping.",
+  "services": [
+   "accounting",
+   "bookkeeping",
+   "financial planning",
+   "finance",
+   "insurance",
+   "tax"
+  ],
+  "staff": 92,
+  "staffBasis": "Input signal 92; LinkedIn lists 75; site says 150+ team members",
+  "isSoloPractice": false,
+  "location": "Cranbourne, VIC",
+  "alphaSignal": "Large firm with a dedicated bookkeeping line (hiring a full-time Bookkeeping Manager, Mornington) and growing +12% YoY: good fit.",
+  "sourceUrls": [
+   "https://highview.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "hm-advisory-formerly-hamilton-murphy",
+  "website": "https://hamiltonmurphy.com.au",
+  "linkedin": "https://www.linkedin.com/company/hamiltonmurphy",
+  "description": "Chartered accountants specialising in corporate and personal insolvency, restructuring and bankruptcy, with offices in Melbourne, Sydney, Brisbane and Perth.",
+  "services": [
+   "insolvency",
+   "restructuring",
+   "bankruptcy"
+  ],
+  "staff": 33,
+  "staffBasis": "LinkedIn: 33 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Insolvency practice; no recurring SMB close workload. Weak fit.",
+  "sourceUrls": [
+   "https://hamiltonmurphy.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "hmh-advisory-haines-muir-hill",
+  "website": "https://hmh.com.au",
+  "linkedin": "https://www.linkedin.com/company/hmh-chartered-accountants-financial-advisors",
+  "description": "Mont Albert chartered accountants and financial advisers (since 1977) providing business and wealth advice to family businesses and SMEs, including tax, audit, SMSF and cloud accounting.",
+  "services": [
+   "accounting",
+   "tax",
+   "audit",
+   "business advisory",
+   "financial planning",
+   "SMSF",
+   "cloud accounting"
+  ],
+  "staff": 34,
+  "staffBasis": "LinkedIn: 34 employees",
+  "isSoloPractice": false,
+  "location": "Mont Albert, VIC",
+  "alphaSignal": "Mid-size SME/family-business firm with cloud accounting and offshore India staff; moderate fit.",
+  "sourceUrls": [
+   "https://hmh.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "hta-advisory",
+  "website": "https://hta.com.au",
+  "linkedin": "https://www.linkedin.com/company/hta-advisory-pty-ltd",
+  "description": "South Yarra and Sunshine Coast firm (founded 2008) giving small and medium businesses proactive accounting, tax, business planning, management reporting, wealth and finance advice.",
+  "services": [
+   "accounting",
+   "tax",
+   "business advisory",
+   "management reporting",
+   "wealth management",
+   "finance"
+  ],
+  "staff": 23,
+  "staffBasis": "LinkedIn: 23 employees",
+  "isSoloPractice": false,
+  "location": "South Yarra, VIC",
+  "alphaSignal": "Advisory-led SMB accounting with management reporting and offshore support, growing +11% YoY; moderate-to-good fit.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/hta-advisory-pty-ltd"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "humanee",
+  "website": "https://humanee.com.au",
+  "linkedin": "https://www.linkedin.com/company/wearehumanee",
+  "description": "Adelaide business advisory and accounting firm providing tax, virtual CFO, forecasting and reporting, structuring and M&A support.",
+  "services": [
+   "accounting",
+   "tax",
+   "virtual CFO",
+   "business advisory",
+   "forecasting & reporting",
+   "M&A"
+  ],
+  "staff": 12,
+  "staffBasis": "Input signal 12; LinkedIn lists 9",
+  "isSoloPractice": false,
+  "location": "Adelaide, SA",
+  "alphaSignal": "Advisory/virtual CFO-led for business owners; Adelaide. Moderate fit.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/wearehumanee"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ikeep",
+  "website": "https://www.ikeep.com.au",
+  "linkedin": "https://www.linkedin.com/company/ikeep1",
+  "description": "Outsourced bookkeeping, payroll and finance team for growing Australian businesses; offers white-label bookkeeping for accounting firms with daily reconciliation and month close by the 7th business day.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "BAS/IAS",
+   "month-end reporting",
+   "reconciliations",
+   "management reporting",
+   "white-label bookkeeping"
+  ],
+  "staff": 16,
+  "staffBasis": "Input signal 16; LinkedIn lists 12",
+  "isSoloPractice": false,
+  "location": "Sydney, NSW (Melbourne office)",
+  "alphaSignal": "Very strong fit: month-end close and reconciliations are their core product across many clients, they promote AI-enabled workflows and a white-label channel to accounting firms; Xero/MYOB/QuickBooks stack.",
+  "sourceUrls": [
+   "https://www.ikeep.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "indepth-accounting",
+  "website": "https://www.indepthaccounting.com.au",
+  "linkedin": "https://www.linkedin.com/company/indepth-accounting",
+  "description": "Award-winning Maroochydore firm (founded 2018) providing business advisory, accounting, SMSF administration and tax compliance; Xero file set-up and virtual CFO offered.",
+  "services": [
+   "accounting",
+   "tax",
+   "SMSF administration",
+   "business advisory",
+   "virtual CFO",
+   "bookkeeping"
+  ],
+  "staff": 9,
+  "staffBasis": "Input signal 9; LinkedIn lists 6",
+  "isSoloPractice": false,
+  "location": "Maroochydore, QLD",
+  "alphaSignal": "Growing Xero-oriented advisory firm (Regional Firm of the Year 2026); QLD, small. Moderate fit.",
+  "sourceUrls": [
+   "https://www.indepthaccounting.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "infinity22",
+  "website": "https://infinity22.co",
+  "linkedin": "https://www.linkedin.com/company/infinity22co",
+  "description": "Cloud-based accounting, tax, business advisory and virtual CFO firm for SMEs, e-commerce and SaaS clients (Xero, Shopify, Zapier-integrated), Melbourne HQ with Brisbane offices.",
+  "services": [
+   "accounting",
+   "tax",
+   "bookkeeping",
+   "virtual CFO",
+   "management accounting",
+   "payroll",
+   "grants"
+  ],
+  "staff": 18,
+  "staffBasis": "Input signal 18; LinkedIn lists 15",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Born-in-the-cloud outsourced accounting/CFO for e-commerce and SaaS with consolidated and management accounting: strong fit, Melbourne-based.",
+  "sourceUrls": [
+   "https://infinity22.co/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "inline-partners",
+  "website": "https://inlinepartners.com.au",
+  "linkedin": "https://www.linkedin.com/company/inlinepartners",
+  "description": "Hunters Hill (Sydney) firm providing bookkeeping, accounting, tax advice and CFO services to small businesses with a Philippines support team.",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "tax advisory",
+   "CFO services",
+   "management reporting",
+   "BAS"
+  ],
+  "staff": 10,
+  "staffBasis": "Input signal 10; LinkedIn lists 7",
+  "isSoloPractice": false,
+  "location": "Hunters Hill, NSW",
+  "alphaSignal": "Bookkeeping + CFO + automation (BPA) for small business clients; good fit though Sydney-based and small.",
+  "sourceUrls": [
+   "https://inlinepartners.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "inp-group",
+  "website": "https://www.inpgroup.com.au",
+  "linkedin": "https://www.linkedin.com/company/inpgroup",
+  "description": "Chartered accounting firm focused on Asian-market clients with services including accounting, audit, bookkeeping and payroll, business advisory, SMSF, corporate accounting and statutory reporting; offices in Melbourne, Sydney, Brisbane, Adelaide, Perth.",
+  "services": [
+   "accounting",
+   "audit",
+   "bookkeeping",
+   "payroll",
+   "business advisory",
+   "SMSF",
+   "statutory reporting",
+   "taxation"
+  ],
+  "staff": 12,
+  "staffBasis": "LinkedIn: 12 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Niche Asian-client firm with bookkeeping/payroll and corporate reporting for Australian subsidiaries of foreign companies: moderate-to-good fit. Input contacts not verified against site (LinkedIn lists Tony Tang as Director).",
+  "sourceUrls": [
+   "https://www.inpgroup.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "integrated-accountants-pl",
+  "website": "https://integratedaccountants.com.au",
+  "linkedin": "https://www.linkedin.com/company/integrated-accountants",
+  "description": "Melbourne tax and accounting firm with branches in Werribee, Caroline Springs, Perth and Adelaide offering individual tax returns, bookkeeping and business accounting.",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "accounting",
+   "business tax advice"
+  ],
+  "staff": 14,
+  "staffBasis": "LinkedIn: 14 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Volume tax-return practice with bookkeeping for business clients and offshore staff; moderate-to-weak fit.",
+  "sourceUrls": [
+   "https://integratedaccountants.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "intrepid-advisory",
+  "website": "https://intrepidadvisory.com.au",
+  "linkedin": "https://www.linkedin.com/company/intrepid-advisory",
+  "description": "Brisbane accountants specialising in Australian Shopify and Amazon brand owners, providing bookkeeping, tax and grants services.",
+  "services": [
+   "bookkeeping",
+   "tax",
+   "grants",
+   "ecommerce accounting"
+  ],
+  "staff": 7,
+  "staffBasis": "Input signal 7; LinkedIn lists 5",
+  "isSoloPractice": false,
+  "location": "Brisbane, QLD",
+  "alphaSignal": "Ecommerce bookkeeping with monthly reporting for Shopify/Amazon sellers: good fit; small, QLD. Input domain was intrepidadvisory.com; .com.au found matching the founder.",
+  "sourceUrls": [
+   "https://intrepidadvisory.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "iq-accountants",
+  "website": "https://iqaccountants.com.au",
+  "linkedin": "https://www.linkedin.com/company/iq-accountants",
+  "description": "Gold Coast cloud accounting firm offering business advisory, tax planning, management accounting, company secretarial and fixed-fee 'IQ Bookkeeping' packages; MYOB-certified.",
+  "services": [
+   "bookkeeping",
+   "tax planning",
+   "business advisory",
+   "management accounting",
+   "company secretarial",
+   "cloud accounting"
+  ],
+  "staff": 5,
+  "staffBasis": "Input signal 5; LinkedIn lists 3",
+  "isSoloPractice": false,
+  "location": "Burleigh Heads, QLD",
+  "alphaSignal": "Fixed-fee cloud bookkeeping and management accounting; Gold Coast, very small. Moderate fit. A separate Melbourne-based 'IQ Accountants' (iqaccountants.net.au, Altona Meadows) also exists; matched here by input domain.",
+  "sourceUrls": [
+   "https://iqaccountants.com.au/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "jeffrey-thomas-partners-jt-p",
+  "website": "https://jeffreythomas.com.au",
+  "linkedin": "https://www.linkedin.com/company/jeffrey-thomas-&-partners",
+  "description": "Melbourne chartered accounting and advisory firm (since 1981) serving individuals, credit unions, solicitor and real estate trust accounts, NFPs and SMEs; relocated to Level 18, 114 William St in June 2026.",
+  "services": [
+   "tax",
+   "SMSF",
+   "virtual CFO",
+   "audit",
+   "advisory",
+   "trust account audit"
+  ],
+  "staff": 8,
+  "staffBasis": "LinkedIn: 8 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Small firm with virtual CFO and trust-account/credit union clients; moderate fit.",
+  "sourceUrls": [
+   "https://jeffreythomas.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "jim-s-bookkeeping",
+  "website": "https://jimsbookkeeping.com.au",
+  "linkedin": "https://www.linkedin.com/company/jim's-bookkeeping-cairns-inner-city-",
+  "description": "Franchised bookkeeping network delivering bookkeeping and BAS services to small businesses, with franchisees across Melbourne and other states; head office at Mooroolbark.",
+  "services": [
+   "bookkeeping",
+   "BAS",
+   "payroll",
+   "franchise network"
+  ],
+  "staff": 21,
+  "staffBasis": "LinkedIn (franchisor page): 21 employees",
+  "isSoloPractice": false,
+  "location": "Mooroolbark, VIC",
+  "alphaSignal": "Franchise network of owner-operator bookkeepers doing recurring monthly reconciliations for many SMBs; strong fit as a channel (franchisor adoption) rather than a single firm. Individual franchises are often sole operators.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/jim's-bookkeeping-cairns-inner-city-",
+   "https://jimsbookkeeping.com.au/bookkeepers-2/bookkeepers-melb-west"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "jirsch-sutherland",
+  "website": "https://www.jirschsutherland.com.au",
+  "linkedin": "https://www.linkedin.com/company/jirsch-sutherland",
+  "description": "Independent insolvency and business recovery practice (since 1984) providing corporate and personal insolvency and turnaround services nationally, with a Melbourne office.",
+  "services": [
+   "insolvency",
+   "business recovery",
+   "turnaround management",
+   "forensic accounting"
+  ],
+  "staff": 54,
+  "staffBasis": "LinkedIn: 54 employees",
+  "isSoloPractice": false,
+  "location": "Melbourne, VIC",
+  "alphaSignal": "Insolvency practice, no recurring SMB closes. Weak fit.",
+  "sourceUrls": [
+   "https://www.jirschsutherland.com.au/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "johnson-partners",
+  "website": "https://johnsonpartners.com.au",
+  "linkedin": "https://www.linkedin.com/company/johnson-partners-pty-ltd",
+  "description": "Richmond (VIC) accounting and business advisory firm providing accounting, tax, wealth, superannuation and retirement advice to business owners and wealthy individuals.",
+  "services": [
+   "accounting",
+   "tax",
+   "business advisory",
+   "wealth management",
+   "superannuation"
+  ],
+  "staff": 18,
+  "staffBasis": "LinkedIn: 18 employees",
+  "isSoloPractice": false,
+  "location": "Richmond, VIC",
+  "alphaSignal": "IDENTITY WARNING: input domain johnsonpartners.co and contacts (Jason Johnson, Nicola Morris) belong to an executive-search firm, not an accounting firm. The Richmond accounting firm (johnsonpartners.com.au) matches the input address but contact names do not. Wealth/tax-led; weak fit.",
+  "sourceUrls": [
+   "https://au.linkedin.com/company/johnson-partners-pty-ltd",
+   "https://johnsonpartners.co/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "judsonkoman",
+  "website": "https://judsonkoman.com.au",
+  "linkedin": "https://www.linkedin.com/company/judsonkoman",
+  "description": "Queensland firm providing management accounting, virtual and part-time CFO services, tax structuring and business succession to business owners and investors.",
+  "services": [
+   "virtual CFO",
+   "management accounting",
+   "tax structuring",
+   "business succession",
+   "financial forecasting"
+  ],
+  "staff": 15,
+  "staffBasis": "Input signal 15; LinkedIn lists 12",
+  "isSoloPractice": false,
+  "location": "Milton (Brisbane), QLD",
+  "alphaSignal": "Monthly/quarterly management reporting using Fathom, Cash Flow Story and MYOB tools for a select client base; good fit for close automation, Queensland-based.",
+  "sourceUrls": [
+   "https://judsonkoman.com.au/"
+  ],
+  "confidence": "high"
+ }
+]

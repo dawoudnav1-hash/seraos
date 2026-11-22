@@ -1,12 +1,50 @@
 {
  "_comment": "Manual corrections from web research (Exa). Applied last by pipeline/build_data.py.",
  "contacts": {
-  "creswick-wool--paul-ryzowy": {"likelyLeft": true, "note": "Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld."},
-  "melrose-health--geoff-steinicke": {"likelyLeft": true, "note": "Stale: sold Melrose in 2010 and retired. Current CEO/CFO added."}
+  "creswick-wool--paul-ryzowy": {
+   "likelyLeft": true,
+   "note": "Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld."
+  },
+  "melrose-health--geoff-steinicke": {
+   "likelyLeft": true,
+   "note": "Stale: sold Melrose in 2010 and retired. Current CEO/CFO added."
+  },
+  "abound-group--levi-ciment": {
+   "likelyLeft": true,
+   "note": "Email domain theaboundgroup.com belongs to an unrelated real-estate company, not this accounting firm (Exa research)."
+  },
+  "johnson-partners--jason-johnson": {
+   "likelyLeft": true,
+   "note": "johnsonpartners.co is an executive-search firm, not the Richmond accounting firm (Exa research)."
+  }
  },
- "removeContacts": ["relevance-ai--founder-name", "relevance-ai--cfo-name"],
+ "removeContacts": [
+  "relevance-ai--founder-name",
+  "relevance-ai--cfo-name"
+ ],
  "accounts": {
-  "great-wrap": {"flag": "Operating entity entered voluntary administration in Sep 2025 (staff made redundant). Verify before any outreach."},
-  "lgy-accountants": {"flag": "No principal identifiable from the firm site (first names only). Needs a manual check."}
+  "great-wrap": {
+   "flag": "Operating entity entered voluntary administration in Sep 2025 (staff made redundant). Verify before any outreach."
+  },
+  "lgy-accountants": {
+   "flag": "No principal identifiable from the firm site (first names only). Needs a manual check."
+  },
+  "visory": {
+   "flag": "Likely competitor/partner: markets AI-assisted bookkeeping and monthly close ('Delphi AI'). Sheet contacts belong to a US 'Visory' — not this firm."
+  },
+  "abound-group": {
+   "domain": "aboundgroup.com.au",
+   "flag": "Sheet contact/domain belonged to an unrelated real-estate company; firm website corrected to aboundgroup.com.au. Needs a new contact."
+  },
+  "johnson-partners": {
+   "domain": "johnsonpartners.com.au",
+   "flag": "Sheet contacts belong to an executive-search firm (johnsonpartners.co). The Richmond accounting firm appears to be johnsonpartners.com.au (address match) — verify and find a contact."
+  },
+  "intrepid-advisory": {
+   "domain": "intrepidadvisory.com.au"
+  },
+  "bbb-partners": {
+   "flag": "Acquired by Cutcher & Neale in July 2025 (LinkedIn). Check who now owns the relationship."
+  }
  }
 }

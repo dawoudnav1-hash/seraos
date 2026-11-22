@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-22T12:56:34+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-22T12:57:41+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **479**
 - Contacts (de-duplicated): **843**
@@ -45,6 +45,7 @@ Generated 2026-11-22T12:56:34+00:00 by `pipeline/build_data.py`.
 - [count] AU_ecommerce_AI_finance_leads: 17 companies, 44 contacts (Excluded tab ignored)
 - [count] Vert_AU_prospects_Origami / Ecom - Accounts: 42 accounts, 72 contacts
 - [count] Vert_AU_prospects_Origami / Accounting - Accounts: 100 accounts, 157 contacts
+- [melbourne-domain-skipped] Johnson Partners: ignored domain johnsonpartners.co from flagged contact (C1 Jason Johnson: may be a different Johnson Partners (johnsonpartners.co))
 - [melbourne-domain-skipped] Johnson Partners: ignored domain johnsonpartners.co from flagged contact (C2 Nicola Morris: likely a different firm (NZ office, .co domain))
 - [melbourne-domain-skipped] Charterpoint: ignored domain charterpointgroup.co.uk from flagged contact (C1 Adrian Goose: likely wrong company (UK Charterpoint))
 - [melbourne-domain-skipped] The Hopkins Group: ignored domain hopkinshr.com from flagged contact (C1 Melanie Toliver: likely wrong company (Hopkins HR, US))
@@ -62,11 +63,23 @@ Generated 2026-11-22T12:56:34+00:00 by `pipeline/build_data.py`.
 - [count] Melbourne Accounting Firm Contacts: 100 firms
 - [attio-stub] stub ['melrosegroup.com.au'] dropped (no name, no matching account)
 - [count] Attio: 274 companies (1 stub), 69 people (0 unmatched)
-- [count] Exa enrichment: 0 firms, 243 companies, 5 LinkedIn URLs, 42 new contacts
+- [enrich-skipped-low-confidence] ECOVIS Clark Jacobs
+- [enrich-skipped-low-confidence] Johnson Partners
+- [enrich-skipped-low-confidence] SEIVA Advisory
+- [count] Exa enrichment: 191 firms, 243 companies, 5 LinkedIn URLs, 42 new contacts
+- [override] contact abound-group--levi-ciment: {'likelyLeft': True, 'note': 'Email domain theaboundgroup.com belongs to an unrelated real-estate company, not this accounting firm (Exa research).'}
+- [override] account abound-group: domain theaboundgroup.com -> aboundgroup.com.au
+- [override] account abound-group: flagged
+- [override] account bbb-partners: flagged
 - [override] contact creswick-wool--paul-ryzowy: {'likelyLeft': True, 'note': 'Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld.'}
 - [override] account great-wrap: flagged
+- [override] account intrepid-advisory: domain intrepidadvisory.com -> intrepidadvisory.com.au
+- [override] contact johnson-partners--jason-johnson: {'likelyLeft': True, 'note': 'johnsonpartners.co is an executive-search firm, not the Richmond accounting firm (Exa research).'}
+- [override] account johnson-partners: domain None -> johnsonpartners.com.au
+- [override] account johnson-partners: flagged
 - [override] account lgy-accountants: flagged
 - [override] contact melrose-health--geoff-steinicke: {'likelyLeft': True, 'note': 'Stale: sold Melrose in 2010 and retired. Current CEO/CFO added.'}
+- [override] account visory: flagged
 - [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
 - [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
 - [count] outreach: 44 events (0 not matched to an account)

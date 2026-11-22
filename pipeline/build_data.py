@@ -206,7 +206,7 @@ def role_type(title: str | None, explicit: str | None = None) -> str:
 
 
 CAUTION_RE = re.compile(r"not confirmed|catch-all|not verifiable|unavailable|own firm|own practice|address at|affinda address|not independently verified|unverified|previous employer|hellocfo address|his .* address|her .* address", re.I)
-LEFT_RE = re.compile(r"latest role|still at|confirm still|check (he|she|they) (is|are) still|has left|no longer|moved to|current role as|likely (a )?different|wrong company|not a firm decision-maker", re.I)
+LEFT_RE = re.compile(r"latest role|still at|confirm still|check (he|she|they) (is|are) still|has left|no longer|moved to|current role as|(likely|may be) (a )?different|different firm|wrong company|not a firm decision-maker", re.I)
 
 
 # ---------------------------------------------------------------- model
@@ -938,6 +938,11 @@ def apply_enrichment(accounts: list[dict]) -> None:
                         c["notes"] = (c.get("notes") + " | " if c.get("notes") else "") + o["note"]
                     log("override", f"contact {c['id']}: {o}")
             o = ov.get("accounts", {}).get(a["id"])
+            if o and o.get("domain"):
+                old_dom = a.get("domain")
+                a["domain"], a["website"] = o["domain"], norm_url(o["domain"])
+                a["otherDomains"] = [d for d in a.get("otherDomains", []) if d != o["domain"]]
+                log("override", f"account {a['id']}: domain {old_dom} -> {o['domain']}")
             if o and o.get("flag"):
                 a["flags"] = (a.get("flags") + " | " if a.get("flags") else "") + "⚠ " + o["flag"]
                 log("override", f"account {a['id']}: flagged")
