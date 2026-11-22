@@ -17,10 +17,23 @@ export function toCsv(headers: readonly string[], rows: readonly (readonly CsvVa
   return lines.join('\r\n') + '\r\n';
 }
 
-/** Triggers a browser download. Prepends a BOM for CSV so Excel opens UTF-8 correctly. */
-export function downloadText(filename: string, text: string, mime: string): void {
+type DownloadsApi = { save(req: { filename: string; data: string | Blob }): Promise<unknown> };
+type HostedClaude = { use?: (name: string) => Promise<unknown> };
+
+/** On a claude.ai-hosted page, file saves go through the viewer's `downloads` capability. */
+async function hostedDownloads(): Promise<DownloadsApi | null> {
+  const c = (window as unknown as { claude?: HostedClaude }).claude;
+  if (!c || typeof c.use !== 'function') return null;
   try {
-    const body = mime.startsWith('text/csv') ? '﻿' + text : text;
+    const api = (await c.use('downloads')) as DownloadsApi | null;
+    return api && typeof api.save === 'function' ? api : null;
+  } catch {
+    return null;
+  }
+}
+
+function browserDownload(filename: string, body: string, mime: string): void {
+  try {
     const blob = new Blob([body], { type: mime });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -32,8 +45,28 @@ export function downloadText(filename: string, text: string, mime: string): void
     a.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   } catch {
-    // Download not supported (very old browser / sandbox) — nothing sensible to do.
+    // Download not supported (very old browser / sandbox) — the Copy buttons are the fallback.
   }
+}
+
+/**
+ * Saves a text file. Prepends a BOM for CSV so Excel opens UTF-8 correctly.
+ * Uses the host's save dialog when the page is hosted on claude.ai, otherwise a normal browser download.
+ * Resolves false only when a hosted save was declined or failed.
+ */
+export async function downloadText(filename: string, text: string, mime: string): Promise<boolean> {
+  const body = mime.startsWith('text/csv') ? '\uFEFF' + text : text;
+  const hosted = await hostedDownloads();
+  if (hosted) {
+    try {
+      await hosted.save({ filename, data: body });
+      return true;
+    } catch {
+      return false;
+    }
+  }
+  browserDownload(filename, body, mime);
+  return true;
 }
 
 export function dateStamp(now = new Date()): string {
