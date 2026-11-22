@@ -164,8 +164,26 @@ describe('sorting helpers', () => {
     expect(leadingNumber('51-200')).toBe(51);
     expect(leadingNumber(undefined)).toBeNull();
     expect(moneyValue('A$35M')).toBe(35e6);
-    expect(moneyValue('~A$6–8M')).toBe(6);
+    // a unit written only after the upper bound applies to the lower bound too
+    expect(moneyValue('~A$6–8M')).toBe(6e6);
+    expect(moneyValue('Est. A$13.8–27.5M (basis: ~55 staff × A$250–500k revenue/FTE)')).toBe(13.8e6);
+    expect(moneyValue('$1M-$10M')).toBe(1e6);
+    expect(moneyValue('A$25M–50M')).toBe(25e6);
+    expect(moneyValue('$5.6M (est., Apollo)')).toBe(5.6e6);
+    expect(moneyValue('Est. A$0.6–1.1M')).toBeLessThan(moneyValue('$4.0M (est., Apollo)')!);
+    expect(moneyValue('data-provider est. USD 3,822,376')).toBe(3822376);
     expect(moneyValue('$500k')).toBe(500e3);
     expect(moneyValue('Bootstrapped')).toBeNull();
+  });
+});
+
+import { localISODate } from './format';
+describe('localISODate', () => {
+  it('formats in local time, matching Date getters (not UTC)', () => {
+    const t = Date.UTC(2026, 10, 16, 20, 30); // late evening UTC
+    const d = new Date(t);
+    const expected = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    expect(localISODate(t)).toBe(expected);
+    expect(localISODate(t)).toMatch(/^\d{4}-\d{2}-\d{2}$/);
   });
 });

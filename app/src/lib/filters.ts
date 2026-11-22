@@ -146,13 +146,19 @@ export function leadingNumber(s: string | undefined | null): number | null {
   return m ? Number(m[0]) : null;
 }
 
-/** Parses money-ish text ("A$35M", "~A$6–8M", "US$8M", "$500k", "A$25M–50M") to a number for sorting. */
+/**
+ * Parses money-ish text ("A$35M", "~A$6–8M", "Est. A$13.8–27.5M (basis: ~55 staff …)", "US$8M", "$500k",
+ * "A$25M–50M") to a number for sorting. For a range the lower bound is used, and a unit written only after
+ * the upper bound ("6–8M") applies to both ends.
+ */
 export function moneyValue(s: string | undefined | null): number | null {
   if (!s) return null;
-  const m = String(s).replace(/,/g, '').match(/(\d+(?:\.\d+)?)\s*([kKmMbB])?/);
+  const m = String(s)
+    .replace(/,/g, '')
+    .match(/(\d+(?:\.\d+)?)\s*([kKmMbB])?\b(?:\s*[–—-]\s*[A-Za-z]{0,3}\$?\s*\d+(?:\.\d+)?\s*([kKmMbB])?\b)?/);
   if (!m) return null;
   const n = Number(m[1]);
-  const unit = (m[2] ?? '').toLowerCase();
+  const unit = (m[2] ?? m[3] ?? '').toLowerCase();
   return n * (unit === 'k' ? 1e3 : unit === 'm' ? 1e6 : unit === 'b' ? 1e9 : 1);
 }
 

@@ -240,7 +240,8 @@ export function Accounts({ route }: { route: Route }) {
     setSort((s) => (s.col === c.id ? { col: c.id, dir: s.dir === 'asc' ? 'desc' : 'asc' } : { col: c.id, dir: c.defaultDir }));
 
   const exportCsv = () => {
-    const csv = toCsv(CSV_HEADERS, sorted.map(accountCsvRow));
+    // Same order as on screen: grouped by segment, sorted within each group.
+    const csv = toCsv(CSV_HEADERS, groups.flatMap(([, list]) => list).map(accountCsvRow));
     downloadText(`accounts-${section}-${dateStamp()}.csv`, csv, 'text/csv;charset=utf-8');
   };
 

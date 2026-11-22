@@ -141,6 +141,18 @@ async function main() {
     await firstGroup.click();
     check((await page.getByTestId('account-row').count()) === total, 'Expanding the group restores them');
 
+    step('Accounts — CSV export matches visible rows');
+    {
+      await page.getByTestId('section-tab-all').click();
+      if (await expandGroups.isEnabled()) await expandGroups.click();
+      const visible = await page.getByTestId('account-row').evaluateAll((rs) => rs.map((r) => r.getAttribute('data-account-id')));
+      const [dl] = await Promise.all([page.waitForEvent('download'), page.getByTestId('export-csv').click()]);
+      const { readFile } = await import('node:fs/promises');
+      const csv = (await readFile(await dl.path(), 'utf8')).replace(/^\uFEFF/, '');
+      const ids = csv.split('\r\n').slice(1).filter(Boolean).map((l) => l.split(',')[0]);
+      check(ids.length === visible.length && ids.every((id, i) => id === visible[i]), `CSV has the same ${visible.length} accounts in the same order as the table`);
+    }
+
     step('Accounts — expand an account');
     const accountId = await page.evaluate(() => {
       const rows = [...document.querySelectorAll('[data-testid=account-row]')];
@@ -168,6 +180,10 @@ async function main() {
     check(/Logged/.test((await page.locator('.toast').first().textContent()) ?? ''), 'Toast confirms the logged event');
     check((await firstContact.locator('.status').textContent())?.trim() !== 'Not contacted', 'Contact status updates immediately');
     await gotoView('dashboard');
+    {
+      const m = /(\d+) of (\d+) people/.exec((await page.getByTestId('kpi-reply-rate').textContent()) ?? '');
+      check(!m || Number(m[1]) <= Number(m[2]), 'Reply rate numerator never exceeds its denominator');
+    }
     check((await messagesSent()) === sentBefore + 1, `Messages sent incremented ${sentBefore} → ${sentBefore + 1}`);
     await page.reload();
     await page.getByTestId('kpi-messages-sent-value').waitFor();

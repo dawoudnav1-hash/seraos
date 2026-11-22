@@ -61,3 +61,10 @@ export function initials(name: string | undefined): string {
 export function plural(n: number, one: string, many = one + 's'): string {
   return `${formatInt(n)} ${n === 1 ? one : many}`;
 }
+
+/** YYYY-MM-DD in the viewer's local time zone (CSV exports should match the dates shown in the UI). */
+export function localISODate(t: number): string {
+  const d = new Date(t);
+  const p = (n: number) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}

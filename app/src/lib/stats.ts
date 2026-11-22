@@ -43,7 +43,9 @@ export interface Tally {
   messagedPeople: number;
   /** unique people who replied */
   repliedPeople: number;
-  /** repliedPeople / messagedPeople, null when nobody was messaged */
+  /** unique people who replied AND were messaged in the same set of events (numerator of the reply rate) */
+  repliedMessagedPeople: number;
+  /** repliedMessagedPeople / messagedPeople (so never above 100%), null when nobody was messaged */
   replyRate: number | null;
   connectionsSent: number;
   connectionsAccepted: number;
@@ -73,13 +75,18 @@ export function tally(events: readonly OutreachEvent[], index: EventIndex): Tall
     if (e.kind === 'connection_accepted') connectionsAccepted++;
     if (e.kind === 'meeting') meetings++;
   }
+  // A reply from someone with no tracked outbound message (e.g. LinkedIn sends aren't importable) must not
+  // push the rate above 100% or make "X of Y people messaged" untrue, so only count repliers we also messaged.
+  let repliedMessaged = 0;
+  for (const k of replied) if (messaged.has(k)) repliedMessaged++;
   return {
     sent,
     seen,
     replies,
     messagedPeople: messaged.size,
     repliedPeople: replied.size,
-    replyRate: safeRate(replied.size, messaged.size),
+    repliedMessagedPeople: repliedMessaged,
+    replyRate: safeRate(repliedMessaged, messaged.size),
     connectionsSent,
     connectionsAccepted,
     meetings,

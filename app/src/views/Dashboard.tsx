@@ -67,7 +67,7 @@ function BreakdownTable({ rows, first }: { rows: BreakdownRow[]; first: string }
             <th scope="col" className="num">Sent</th>
             <th scope="col" className="num">Replies</th>
             <th scope="col" className="num">Meetings</th>
-            <th scope="col" className="num" title="Unique people who replied ÷ unique people messaged">Reply rate</th>
+            <th scope="col" className="num" title="Unique people who replied (and were messaged) ÷ unique people messaged">Reply rate</th>
           </tr>
         </thead>
         <tbody>
@@ -152,7 +152,7 @@ export function Dashboard() {
               <>Nobody messaged in this range</>
             ) : (
               <>
-                {formatInt(s.repliedPeople)} of {formatInt(s.messagedPeople)} people messaged
+                {formatInt(s.repliedMessagedPeople)} of {formatInt(s.messagedPeople)} people messaged
               </>
             )
           }
@@ -234,7 +234,7 @@ export function Dashboard() {
                   <th scope="col" className="num">Replied</th>
                   <th scope="col" className="num">Accepted</th>
                   <th scope="col" className="num">Meetings</th>
-                  <th scope="col" className="num" title="Unique people who replied ÷ unique people messaged on this channel">Rate</th>
+                  <th scope="col" className="num" title="Unique people who replied (and were messaged) ÷ unique people messaged on this channel">Rate</th>
                 </tr>
               </thead>
               <tbody>
@@ -268,7 +268,7 @@ export function Dashboard() {
               </tbody>
             </table>
           </div>
-          <p className="card-foot muted small">Rate = unique people who replied ÷ unique people messaged. “—” means nobody was messaged.</p>
+          <p className="card-foot muted small">Rate = unique people who replied (and were messaged) ÷ unique people messaged. “—” means nobody was messaged.</p>
         </Card>
         <Card title="Data coverage" testId="coverage">
           <dl className="coverage">

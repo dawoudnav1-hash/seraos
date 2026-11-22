@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import { ExtLink, LinkedInLink, ScorePill, SourceBadges, StatusPill } from '../components/ui';
 import type { CsvValue } from '../lib/csv';
-import { DASH, formatDate } from '../lib/format';
+import { DASH, formatDate, localISODate } from '../lib/format';
 import { type AccountRow, type SortDir, type SortValue, leadingNumber, moneyValue } from '../lib/filters';
 import { safeUrl } from '../lib/links';
 import { STATUS_LABEL, statusRank } from '../lib/status';
@@ -298,7 +298,7 @@ export function accountCsvRow(r: AccountRow): CsvValue[] {
     a.contacts.length,
     a.contacts.filter((c) => !!c.email).length,
     STATUS_LABEL[r.activity.status],
-    r.activity.lastTouch ? new Date(r.activity.lastTouch).toISOString().slice(0, 10) : '',
+    r.activity.lastTouch ? localISODate(r.activity.lastTouch) : '',
     a.inAttio,
     a.sources.join('; '),
   ];

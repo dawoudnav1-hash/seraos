@@ -15,7 +15,7 @@ import {
   filterContactRows,
   SECTIONS,
 } from '../lib/filters';
-import { formatDate } from '../lib/format';
+import { formatDate, localISODate } from '../lib/format';
 import { compareSegments, segmentOf, TYPE_LABEL } from '../lib/stats';
 import { STATUS_LABEL, STATUS_ORDER, statusRank, type OutreachStatus } from '../lib/status';
 import { useAppData } from '../state/AppData';
@@ -122,7 +122,7 @@ export function Contacts() {
         !!r.contact.isPrimary,
         !!r.contact.likelyLeft,
         STATUS_LABEL[r.activity.status],
-        r.activity.lastTouch ? new Date(r.activity.lastTouch).toISOString().slice(0, 10) : '',
+        r.activity.lastTouch ? localISODate(r.activity.lastTouch) : '',
         r.contact.sources.join('; '),
       ]),
     );

@@ -80,7 +80,7 @@ These follow *Kind semantics* in `DATA_CONTRACT.md`.
 - **Messages sent**: `sent` + `message_sent` + `connection_sent`, split by `channel`.
 - **Seen**: `opened` + `message_seen` + events with `seenFlag === true`. When no event in the whole dataset carries
   seen information, the tile says so and suggests logging "Seen" manually.
-- **Replies**: number of `reply` events. **Reply rate**: unique people who replied ÷ unique people messaged. A person
+- **Replies**: number of `reply` events. **Reply rate**: unique people who replied *and* were messaged ÷ unique people messaged (so it never exceeds 100%; a reply from someone with no tracked outbound message still counts under Replies). A person
   is a matched contact; failing that, the first counterparty email; failing that, the person name. If nobody was
   messaged, the rate is shown as "—".
 - **Accounts touched / Contacts reached**: accounts or contacts with at least one event in the selected range.

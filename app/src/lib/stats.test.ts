@@ -130,6 +130,23 @@ describe('reply rate', () => {
     expect(s.messagedPeople).toBe(3);
     expect(s.unmatchedEvents).toBe(5);
   });
+  it('reply rate never exceeds 100%: repliers we never messaged are not in the numerator', () => {
+    const c1 = contact('c1', { email: 'one@x.com' });
+    const c2 = contact('c2', { email: 'two@x.com' });
+    const events = [
+      ev('sent', { contactId: 'c1', channel: 'email' }),
+      ev('reply', { contactId: 'c1', channel: 'email' }),
+      ev('reply', { counterpartyEmails: ['stranger@x.com'], channel: 'email' }),
+      ev('reply', { personName: 'Li Wei', channel: 'linkedin' }),
+    ];
+    const s = computeDashboardStats({ accounts: [account('a', [c1, c2])], events, range: 'all', now: NOW });
+    expect(s.replies).toBe(3);
+    expect(s.repliedPeople).toBe(3);
+    expect(s.messagedPeople).toBe(1);
+    expect(s.replyRate).toBe(1);
+    const only = computeDashboardStats({ accounts: [account('a', [c1, c2])], events: [events[0]!, events[2]!, events[3]!], range: 'all', now: NOW });
+    expect(only.replyRate).toBe(0);
+  });
   it('divide-by-zero gives null and renders as —', () => {
     expect(safeRate(3, 0)).toBeNull();
     expect(safeRate(0, 0)).toBeNull();
