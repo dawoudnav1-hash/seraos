@@ -33,6 +33,12 @@ export function accountHaystack(a: Account): string {
     a.description,
     a.location,
     a.cfo,
+    a.whyFit,
+    a.keySignals,
+    a.techStack,
+    a.decisionMaker,
+    a.fundingStage,
+    ...(a.services ?? []),
   ];
   for (const c of a.contacts) parts.push(c.name, c.email, c.title);
   return foldText(parts.filter(Boolean).join('\n'));

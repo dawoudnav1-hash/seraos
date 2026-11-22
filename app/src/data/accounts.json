@@ -899,9 +899,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "aims-australia-tax-accountants--nika-widanage",
+    "name": "Nika Widanage",
+    "title": "Managing Partner (founder)",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/nika-widanage",
+    "notes": "Found via Exa web research (high confidence): Firm About page names her Managing Partner/founder; LinkedIn: Managing Partner AIMS Australia (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "aintree-group",
@@ -2776,9 +2793,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "bell-partners-melbourne--savannah-adamson",
+    "name": "Savannah Adamson",
+    "title": "Partner - Managing Director, Melbourne",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/savannah-adamson-768943119",
+    "notes": "Found via Exa web research (high confidence): Bell Partners team page: Managing Director, Melbourne; LinkedIn Partner-Managing Director Melbourne (Current). Profile location shows Sydney",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "bellabox",
@@ -2919,9 +2953,42 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "bentleys-victoria--jack-delmo",
+    "name": "Jack Delmo",
+    "title": "CEO, Bentleys Victoria",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/jackdelmo",
+    "notes": "Found via Exa web research (high confidence): Firm team page lists CEO & National Board Member (Victoria); LinkedIn CEO Victoria (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "bentleys-victoria--fahmid-ahmed",
+    "name": "Fahmid Ahmed",
+    "title": "Partner/Director",
+    "roleType": "Executive",
+    "email": "fahmed@bentleysvic.com.au",
+    "emailStatus": "Published on firm website (found via Exa)",
+    "emailRisk": "ok",
+    "notes": "Found via Exa web research (high confidence): Firm advisor page: Partner/Director Bentleys Victoria (Hawthorn); LinkedIn not located",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "bio101",
@@ -3630,9 +3697,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "bri-ferrier-melbourne--david-coyne",
+    "name": "David Coyne",
+    "title": "Principal, Melbourne",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/david-coyne-7b87a520",
+    "notes": "Found via Exa web research (high confidence): Firm Melbourne page lists Principal; LinkedIn Principal BRI Ferrier Melbourne (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "bri-ferrier-melbourne--innis-cull",
+    "name": "Innis Cull",
+    "title": "Principal, Melbourne",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/innis-cull-ritp-14981925",
+    "notes": "Found via Exa web research (high confidence): Firm Melbourne page lists Principal; LinkedIn Principal BRI Ferrier from Jul 2026",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "brookfarm",
@@ -5421,7 +5520,8 @@
   "inAttio": true,
   "sources": [
    "Attio",
-   "Vert_AU_prospects_Origami"
+   "Vert_AU_prospects_Origami",
+   "Exa web research"
   ],
   "otherDomains": [
    "creswickwool.com"
@@ -5445,17 +5545,33 @@
     "id": "creswick-wool--irene-giapitzakis"
    },
    {
+    "id": "creswick-wool--boaz-herszfeld",
+    "name": "Boaz Herszfeld",
+    "title": "Executive Director (owner)",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/boaz-herszfeld-2abb037b",
+    "notes": "Found via Exa web research (high confidence): LinkedIn Executive Director Creswick Woollen Mills (Current); ABC and Courier articles name him and Sharon Herszfeld as owners",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
     "name": "Paul Ryzowy",
     "title": "Founder",
     "roleType": "Founder",
     "emailRisk": "none",
     "isPrimary": false,
-    "likelyLeft": false,
+    "likelyLeft": true,
     "sources": [
      "Attio"
     ],
     "inAttio": true,
-    "id": "creswick-wool--paul-ryzowy"
+    "id": "creswick-wool--paul-ryzowy",
+    "notes": "Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld."
    }
   ]
  },
@@ -5821,9 +5937,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "davidsons-accountants-business-consultan--justin-mcgrath",
+    "name": "Justin McGrath",
+    "title": "Managing Director | Partner",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/justin-mcgrath-b226a51b",
+    "notes": "Found via Exa web research (high confidence): Firm people page; LinkedIn Managing Director Davidsons (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "davidsons-accountants-business-consultan--clinton-fraser",
+    "name": "Clinton Fraser",
+    "title": "Director | Partner (Torquay)",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/clinton-fraser-17706222",
+    "notes": "Found via Exa web research (high confidence): Firm people page; LinkedIn Director Tax & Business Services, Geelong & Torquay (Current)",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "dawson-group",
@@ -6033,9 +6181,45 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "dfk-benjamin-king-money-dfk-bkm--cheree-woolcock",
+    "name": "Cheree Woolcock",
+    "title": "CEO & Director",
+    "roleType": "Executive",
+    "email": "chereew@dfkbkm.com.au",
+    "emailStatus": "Published on firm website (found via Exa)",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/cheree-woolcock-8a031822",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn CEO and Director DFK BKM (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "dfk-benjamin-king-money-dfk-bkm--paul-turnbull",
+    "name": "Paul Turnbull",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "pault@dfkbkm.com.au",
+    "emailStatus": "Published on firm website (found via Exa)",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/mrpaulturnbull",
+    "notes": "Found via Exa web research (medium confidence): Firm team page (Director since 2025); LinkedIn headline Director at DFK Benjamin King Money",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "dfk-laurence-varnay",
@@ -9732,10 +9916,12 @@
     "likelyLeft": false,
     "sources": [
      "Attio",
-     "Vert_AU_finance_team_contacts"
+     "Vert_AU_finance_team_contacts",
+     "Exa web research"
     ],
     "inAttio": true,
-    "id": "goxpro--darren-donohoe"
+    "id": "goxpro--darren-donohoe",
+    "linkedin": "https://www.linkedin.com/in/darren-donohoe-b601639"
    }
   ]
  },
@@ -9846,7 +10032,8 @@
   "sources": [
    "Attio"
   ],
-  "contacts": []
+  "contacts": [],
+  "flags": "⚠ Operating entity entered voluntary administration in Sep 2025 (staff made redundant). Verify before any outreach."
  },
  {
   "id": "grey-space-advisory",
@@ -11456,9 +11643,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "hm-advisory-formerly-hamilton-murphy--stephen-dixon",
+    "name": "Stephen Dixon",
+    "title": "Managing Partner",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/stephen-d-34b98938",
+    "notes": "Found via Exa web research (high confidence): AGN rebrand article names Stephen Dixon Managing Partner; LinkedIn (shown as 'Stephen D.') Partner at HM Advisory, shares HM Advisory launch",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "hm-advisory-formerly-hamilton-murphy--leigh-dudman",
+    "name": "Leigh Dudman",
+    "title": "Director, Registered Liquidator",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/leigh-dudman-83413695",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn Director HM Advisory (Current)",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "hmh-advisory-haines-muir-hill",
@@ -11470,9 +11689,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "hmh-advisory-haines-muir-hill--kristian-lunardello",
+    "name": "Kristian Lunardello",
+    "title": "Managing Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/kristian-lunardello-3b4a501",
+    "notes": "Found via Exa web research (medium confidence): Firm page: Managing Director, joined as graduate 2001, Director 2013; LinkedIn profile is active in hmh posts but snippet did not show employer line",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "homie",
@@ -11690,9 +11926,43 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "hta-advisory--tim-hale",
+    "name": "Tim Hale",
+    "title": "Director & CEO (co-founder)",
+    "roleType": "Founder",
+    "email": "thale@hta.com.au",
+    "emailStatus": "Published on firm website (found via Exa)",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/timhale1",
+    "notes": "Found via Exa web research (high confidence): Firm member page: Director & CEO; LinkedIn Co-Founder HTA (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "hta-advisory--troy-townley",
+    "name": "Troy Townley",
+    "title": "Director (co-founder)",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/troytownley",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn Director at HTA, Co-Founder (Current)",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "hugh-hamilton-wines",
@@ -12736,9 +13006,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "integrated-accountants-pl--harish-bisam",
+    "name": "Harish Bisam",
+    "title": "Founder and Director",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/hbisam",
+    "notes": "Found via Exa web research (medium confidence): Founder and Director per 2018 firm post; ABN business name 'Integrated Group Of Services' registered to Integrated Accountants Pty Ltd; domain owner; LinkedIn MD Integrated Group of Services (his many other ventures dominate headline)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "integrated-accountants-pl--kawalpreet-singh",
+    "name": "Kawalpreet Singh",
+    "title": "Partner / CEO (Caroline Springs office)",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/kawalpreet-singh-034ab821",
+    "notes": "Found via Exa web research (medium confidence): LinkedIn: Partner Integrated Accountants Caroline Springs (Current); 2018 post announced him CEO",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "intrepid-advisory",
@@ -12916,9 +13218,43 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "jeffrey-thomas-partners-jt-p--richard-thomas",
+    "name": "Richard Thomas",
+    "title": "Managing Partner",
+    "roleType": "Executive",
+    "email": "richard.thomas@jeffreythomas.com.au",
+    "emailStatus": "Published on firm website (found via Exa)",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/richard-thomas-b109a490",
+    "notes": "Found via Exa web research (medium confidence): Firm site lists Managing Partner; LinkedIn Partner JT&P (Current). Caveat: 2023 merger with MVA Bennett announced, site still live",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "jeffrey-thomas-partners-jt-p--wes-mudge",
+    "name": "Wes Mudge",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/wes-mudge-0008a723",
+    "notes": "Found via Exa web research (medium confidence): LinkedIn Director at Jeffrey Thomas & Partners (Current). Same merger caveat; not listed on public team snippet",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "jgr-stn",
@@ -14525,7 +14861,8 @@
   "sources": [
    "Melbourne Accounting Firm Contacts"
   ],
-  "contacts": []
+  "contacts": [],
+  "flags": "⚠ No principal identifiable from the firm site (first names only). Needs a manual check."
  },
  {
   "id": "lhp-partners-chartered-accountants",
@@ -15890,9 +16227,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "mas-tax-accountants--james-francis",
+    "name": "James Francis",
+    "title": "Principal",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/jamesmastax",
+    "notes": "Found via Exa web research (medium confidence): LinkedIn Principal MAS TAX Accountants (Current, Oct 2024-), Epping; MAS is an office network so confirm he is in the Keysborough group",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "mastt",
@@ -15973,9 +16327,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "matthews-steer-accountants-advisors--adrian-misiano",
+    "name": "Adrian Misiano",
+    "title": "Partner | Head of Client Relations (Owner)",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/adrian-misiano-2126521a",
+    "notes": "Found via Exa web research (high confidence): Firm people page; LinkedIn Owner Matthews Steer (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "maximum-business-solutions-bruce-edmunds",
@@ -15987,9 +16358,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "maximum-business-solutions-bruce-edmunds--janina-puttick",
+    "name": "Janina Puttick",
+    "title": "Owner and Director, Maximum Business Solutions",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/janina-puttick-896ba683",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn Managing Director Maximum Business Solutions (Current). Bruce Edmunds & Associates principal not identified",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "mayfair-marks",
@@ -16347,9 +16735,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "mediq-financial-services--margaret-munetsi",
+    "name": "Margaret Munetsi",
+    "title": "Director - Accounting & Tax",
+    "roleType": "Finance",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/margaret-munetsi-8019427a",
+    "notes": "Found via Exa web research (high confidence): LinkedIn Director - Accounting & Tax MEDIQ Financial (Current, Aug 2025-); also LinkedIn company key exec. Founder Ravi Agarwal not verified as current",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "medtasker",
@@ -16624,19 +17029,6 @@
     "id": "melrose-health--daniel-royce"
    },
    {
-    "name": "Geoff Steinicke",
-    "title": "Founder",
-    "roleType": "Founder",
-    "emailRisk": "none",
-    "isPrimary": false,
-    "likelyLeft": false,
-    "sources": [
-     "Attio"
-    ],
-    "inAttio": true,
-    "id": "melrose-health--geoff-steinicke"
-   },
-   {
     "name": "Neal Mercado",
     "title": "Chief Executive Officer",
     "roleType": "Executive",
@@ -16652,6 +17044,20 @@
     ],
     "inAttio": true,
     "id": "melrose-health--neal-mercado"
+   },
+   {
+    "name": "Geoff Steinicke",
+    "title": "Founder",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "isPrimary": false,
+    "likelyLeft": true,
+    "sources": [
+     "Attio"
+    ],
+    "inAttio": true,
+    "id": "melrose-health--geoff-steinicke",
+    "notes": "Stale: sold Melrose in 2010 and retired. Current CEO/CFO added."
    }
   ]
  },
@@ -17019,10 +17425,12 @@
     "isPrimary": false,
     "likelyLeft": false,
     "sources": [
-     "Attio"
+     "Attio",
+     "Exa web research"
     ],
     "inAttio": true,
-    "id": "miss-amara--aaron-weller-alexandra-weller"
+    "id": "miss-amara--aaron-weller-alexandra-weller",
+    "linkedin": "https://www.linkedin.com/in/weller"
    }
   ]
  },
@@ -17328,10 +17736,12 @@
     "isPrimary": false,
     "likelyLeft": false,
     "sources": [
-     "Attio"
+     "Attio",
+     "Exa web research"
     ],
     "inAttio": true,
-    "id": "moogoo-skin-care--cfo-terri-spence-or-paul-marzella"
+    "id": "moogoo-skin-care--cfo-terri-spence-or-paul-marzella",
+    "linkedin": "https://www.linkedin.com/in/paul-marzella-87362a6a"
    }
   ]
  },
@@ -17345,9 +17755,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "morris-cohen-glen-co-mcg-co--angelo-mazzone",
+    "name": "Angelo Mazzone",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/angelo-mazzone-62224332",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn Director MCG (Current, Jul 1992-)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "morris-cohen-glen-co-mcg-co--luke-casley",
+    "name": "Luke Casley",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/luke-casley-9aab45a8",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn Director MCG (Current, Jul 2017-)",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "moveactive",
@@ -18984,9 +19426,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "oneledger-group--andrew-hubbard",
+    "name": "Andrew Hubbard",
+    "title": "Managing Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/andrew-hubbard-49718553",
+    "notes": "Found via Exa web research (high confidence): Firm Our Story page; LinkedIn MD OneLedger (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "oneledger-group--hai-trang",
+    "name": "Hai Trang",
+    "title": "Director of Growth (co-founder)",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/haitrang",
+    "notes": "Found via Exa web research (high confidence): Firm Our Story page; LinkedIn Director OneLedger (Current)",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "origani",
@@ -19298,9 +19772,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "patison-partners--katrina-magyar",
+    "name": "Katrina Magyar",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/katrina-magyar-61a52037",
+    "notes": "Found via Exa web research (high confidence): Firm leadership page; LinkedIn Director Patison Accountants & Advisors (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "payfurl",
@@ -20440,9 +20931,26 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "ppt-ppt-accounting-financial--glenn-palmer",
+    "name": "Glenn Palmer",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/glenn-palmer-36500553",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn Director PPT (Current, since 1986)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "prestige-partners-chartered-accountants",
@@ -20945,9 +21453,41 @@
   "attioId": "1838ef57-9477-4dcd-8c18-dae6db7763e2",
   "inAttio": true,
   "sources": [
-   "Attio"
+   "Attio",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "provectus-algae--nusqe-spanton",
+    "name": "Nusqe Spanton",
+    "title": "Founder & CEO",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/nusqe-spanton-99012a167",
+    "notes": "Found via Exa web research (high confidence): LinkedIn Founder & CEO Provectus Algae (Current), Noosaville; company site news quotes him as Founder & CEO",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "provectus-algae--mitch-mardiste",
+    "name": "Mitch Mardiste",
+    "title": "VP, Finance & Admin",
+    "roleType": "Finance",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/mitch-mardiste",
+    "notes": "Found via Exa web research (high confidence): LinkedIn VP Finance & Admin Provectus Algae (Current, Jul 2023-); also LinkedIn company key exec. Prior CFO David Toohey left Apr 2025",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "psyke-ai",
@@ -21001,10 +21541,12 @@
     "likelyLeft": false,
     "sources": [
      "Attio",
-     "Vert_AU_finance_team_contacts"
+     "Vert_AU_finance_team_contacts",
+     "Exa web research"
     ],
     "inAttio": true,
-    "id": "psyke-ai--ashley-law-smith"
+    "id": "psyke-ai--ashley-law-smith",
+    "linkedin": "https://www.linkedin.com/in/ashleylawsmith"
    }
   ]
  },
@@ -21463,9 +22005,28 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "r-j-sanderson-associates--roy-sanderson",
+    "name": "Roy Sanderson",
+    "title": "Managing Director (founding director)",
+    "roleType": "Founder",
+    "email": "roy@rjsanderson.com.au",
+    "emailStatus": "Published on firm website (found via Exa)",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/roy-sanderson-05b91018",
+    "notes": "Found via Exa web research (high confidence): Firm tax-agent disclosure names Managing Director Roy Sanderson; LinkedIn MD R J Sanderson (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "rachel-gilbert",
@@ -21756,9 +22317,7 @@
   "icpStatus": "Viable",
   "signalSource": "Attio",
   "notes": "AI workforce / agents platform. Finance Manager on staff (email not revealed).",
-  "cfo": "CFO Name",
   "financeTeam": "Verified",
-  "founder": "Founder Name",
   "attioId": "0842f87e-2be2-4302-a14b-649641a63076",
   "inAttio": true,
   "sources": [
@@ -21801,19 +22360,6 @@
     "id": "relevance-ai--daniel-vassilev"
    },
    {
-    "name": "Founder Name",
-    "title": "Founder",
-    "roleType": "Founder",
-    "emailRisk": "none",
-    "isPrimary": false,
-    "likelyLeft": false,
-    "sources": [
-     "Attio"
-    ],
-    "inAttio": true,
-    "id": "relevance-ai--founder-name"
-   },
-   {
     "name": "Jacky Koh",
     "title": "Founder",
     "roleType": "Founder",
@@ -21846,18 +22392,6 @@
     ],
     "inAttio": false,
     "id": "relevance-ai--daniel-palmer"
-   },
-   {
-    "name": "CFO Name",
-    "roleType": "Other",
-    "emailRisk": "none",
-    "isPrimary": false,
-    "likelyLeft": false,
-    "sources": [
-     "Attio"
-    ],
-    "inAttio": true,
-    "id": "relevance-ai--cfo-name"
    }
   ]
  },
@@ -22964,9 +23498,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "seiva-advisory--brent-szalay",
+    "name": "Brent Szalay",
+    "title": "Managing Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/brentszalay",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn MD SEIVA (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "seiva-advisory--brent-kirchner",
+    "name": "Brent Kirchner",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/brent-kirchner-7891537",
+    "notes": "Found via Exa web research (high confidence): Firm team page; LinkedIn Director SEIVA (Current, Jul 2026-)",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "sesimi",
@@ -23202,7 +23768,6 @@
   "signalSource": "Attio",
   "cfo": "James Ross — Head of Finance",
   "financeTeam": "James Ross — Head of Finance",
-  "founder": "Jason Credaro; Matthew Credaro; Chris Credaro; Mike Credaro; Zeb Packard-Hair; Asher Packard-Hair",
   "attioId": "7cb6b996-c709-44ff-a443-2800b88f1810",
   "inAttio": true,
   "sources": [
@@ -23959,9 +24524,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "slomoi-immerman-partners-sip--laurence-slomoi",
+    "name": "Laurence Slomoi",
+    "title": "Director, Business Services (founder)",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/laurenceslomoi",
+    "notes": "Found via Exa web research (high confidence): Firm people page; LinkedIn Director SIP (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "slomoi-immerman-partners-sip--gary-immerman",
+    "name": "Gary Immerman",
+    "title": "Director, Business Services",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/gary-immerman-954b5114",
+    "notes": "Found via Exa web research (high confidence): Firm people page; LinkedIn Director SIP (Current)",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "smarter-city-solutions",
@@ -24291,10 +24888,12 @@
     "isPrimary": false,
     "likelyLeft": false,
     "sources": [
-     "Attio"
+     "Attio",
+     "Exa web research"
     ],
     "inAttio": true,
-    "id": "spell--isabella-pennefather-elizabeth-abegg"
+    "id": "spell--isabella-pennefather-elizabeth-abegg",
+    "linkedin": "https://www.linkedin.com/in/elizabeth-abegg-75614b7b"
    },
    {
     "name": "Sally Tullett",
@@ -24704,9 +25303,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "stannards-accountants-advisors--peter-angelini",
+    "name": "Peter Angelini",
+    "title": "Managing Director & Board Member",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/peter-angelini-91659915",
+    "notes": "Found via Exa web research (high confidence): Firm people page; LinkedIn MD Stannards (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "stannards-accountants-advisors--marino-angelini",
+    "name": "Marino Angelini",
+    "title": "Partner / Director & Chairman (Business Services)",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/marino-angelini-b77ba256",
+    "notes": "Found via Exa web research (high confidence): Firm people page; LinkedIn Partner Stannards (Current)",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "startmate",
@@ -24734,7 +25365,6 @@
   "signalSource": "Attio",
   "cfo": "Jason Fang — Head of Finance & Fund Operations (since Mar 2023)",
   "financeTeam": "Jason Fang — Head of Finance & Fund Operations; Akshat Pande — Finance Manager (since Aug 2022, linkedin.com/in/akshat-pande); Fund Operations Associate hired mid-2026; outsourced bookkeeper/accountant for the main operating entity (per 2022 job ad)",
-  "founder": "Niki Scevak (founded 2010/11; Blackbird co-founder & co-CEO). CEO: Phoebe Pincus (since Dec 2025, prev COO; Michael Batko CEO 2018–2025)",
   "attioId": "d31a5e66-88d4-4d72-af5d-08f299d27e39",
   "inAttio": true,
   "sources": [
@@ -25474,9 +26104,41 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "sy-group-chartered-accountants--david-cochran",
+    "name": "David Cochran",
+    "title": "CEO and Managing Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/david-cochran-44744426",
+    "notes": "Found via Exa web research (high confidence): Firm our-team page; LinkedIn Owner SY Group (Current). Avoid look-alike David Cochran profiles (Harbison, US)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   },
+   {
+    "id": "sy-group-chartered-accountants--con-papageorgiou",
+    "name": "Con Papageorgiou",
+    "title": "Director (foundation director)",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/con-papageorgiou-5b174413",
+    "notes": "Found via Exa web research (high confidence): LinkedIn Director SY Group (Current); bio matches firm text about foundation director",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "synectic-accountants-advisers",
@@ -27265,9 +27927,28 @@
   "notes": "Origami found no verified contact",
   "inAttio": false,
   "sources": [
-   "Melbourne Accounting Firm Contacts"
+   "Melbourne Accounting Firm Contacts",
+   "Exa web research"
   ],
-  "contacts": []
+  "contacts": [
+   {
+    "id": "ufinancial-accounting-tax--nathan-romeo",
+    "name": "Nathan Romeo",
+    "title": "Director - Accounting & Tax",
+    "roleType": "Finance",
+    "email": "nathanromeo@ufinancial.com.au",
+    "emailStatus": "Published on firm website (found via Exa)",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/nathan-romeo-849a1163",
+    "notes": "Found via Exa web research (high confidence): Firm about page; LinkedIn Director Accounting & Tax UFinancial (Current)",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Exa web research"
+    ],
+    "inAttio": false
+   }
+  ]
  },
  {
   "id": "ultimate-tax-advisory",

@@ -49,6 +49,13 @@ const ACCOUNT_STRING_FIELDS = [
   'fitConfidence',
   'growth',
   'icpStatus',
+  'fundingStage',
+  'techStack',
+  'keySignals',
+  'whyFit',
+  'decisionMaker',
+  'listStatus',
+  'signalSource',
   'flags',
   'notes',
   'cfo',
@@ -133,6 +140,12 @@ export function normalizeAccounts(raw: unknown): { accounts: Account[]; warnings
     if (fh !== undefined) a.financeHeadcount = fh;
     const ss = num(r.signalScore);
     if (ss !== undefined) a.signalScore = ss == null ? null : Math.max(1, Math.min(5, Math.round(ss)));
+    const fs = num(r.fitScore);
+    if (typeof fs === 'number') a.fitScore = Math.max(1, Math.min(5, Math.round(fs)));
+    const su = strArr(r.sourceUrls);
+    if (su.length) a.sourceUrls = su;
+    const sv = strArr(r.services);
+    if (sv.length) a.services = sv;
     const od = strArr(r.otherDomains);
     if (od.length) a.otherDomains = od;
     const oa = strArr(r.otherAttioIds);
