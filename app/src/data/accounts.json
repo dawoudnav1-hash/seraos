@@ -472,7 +472,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -512,7 +513,8 @@
     "inAttio": true,
     "id": "adventure-operations--katie-hall"
    }
-  ]
+  ],
+  "description": "Australian outdoor leisure company whose brands (OZtrail, Companion, Campfire, Ozpig, Kakadu, MTB Direct) sell camping, cooking, power and outdoor gear to retail customers in Australia and abroad."
  },
  {
   "id": "adviceco-ca",
@@ -606,7 +608,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -660,7 +663,8 @@
     "inAttio": false,
     "id": "afends--romina-invierno"
    }
-  ]
+  ],
+  "description": "Byron Bay streetwear and apparel label selling men's and women's clothing, including hemp and organic cotton pieces, through its website, its own stores and retailers."
  },
  {
   "id": "afm-services",
@@ -833,7 +837,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -887,7 +892,8 @@
     "inAttio": false,
     "id": "ailo--cheyzell-sampang"
    }
-  ]
+  ],
+  "description": "Property management SaaS platform connecting property managers, owners, renters and tradespeople, with rent payments, accounting, compliance and messaging in one system."
  },
  {
   "id": "aims-australia-tax-accountants",
@@ -1172,7 +1178,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -1194,7 +1201,8 @@
     "inAttio": true,
     "id": "amristar--julia-hills"
    }
-  ]
+  ],
+  "description": "Perth software consultancy that builds enterprise web mapping and business applications for government and industry clients, including the Mapworks SaaS or on-premise mapping platform."
  },
  {
   "id": "andresen-mccarthy-partners",
@@ -1285,7 +1293,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -1323,7 +1332,8 @@
     "inAttio": false,
     "id": "applyflow--anjali-yadwad"
    }
-  ]
+  ],
+  "description": "Software platform for building recruitment websites, career sites and job boards, plus a recruitment management system with CV parsing and ATS integrations, sold to agencies and employers."
  },
  {
   "id": "archistar",
@@ -1373,7 +1383,8 @@
    "Attio",
    "Vert_prospect_list_AU_final",
    "Vert_AU_finance_team_contacts",
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -1435,7 +1446,8 @@
     "inAttio": true,
     "id": "archistar--tony-george"
    }
-  ]
+  ],
+  "description": "AI PreCheck software that automatically checks building plans against zoning and building-code rules, sold to local governments and to applicants, architects and certifiers."
  },
  {
   "id": "armada-accountants-advisors",
@@ -1603,7 +1615,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -1625,7 +1638,8 @@
     "inAttio": true,
     "id": "atticus--belinda-drew"
    }
-  ]
+  ],
+  "description": "Document verification platform used by law firms and listed companies to check annual reports, prospectuses and other critical documents against evidence before release. Based in Melbourne."
  },
  {
   "id": "auguste-the-label",
@@ -1736,7 +1750,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -1757,7 +1772,8 @@
     "inAttio": true,
     "id": "australian-beverage-holdings-pureau--rob-harris"
    }
-  ]
+  ],
+  "description": "Australian Beverage Holdings makes Pureau purified water in 600 mL, 2 L, 5 L and 10 L formats, sold to households through supermarkets, online retailers and independent stores."
  },
  {
   "id": "azupay",
@@ -1804,7 +1820,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -1826,7 +1843,8 @@
     "inAttio": true,
     "id": "azupay--vesna-crnjak"
    }
-  ]
+  ],
+  "description": "Australian payments provider offering PayID, PayTo and account-check services so businesses can collect, pay out and verify payments in real time. Licensed under an AFSL."
  },
  {
   "id": "b-box-for-kids",
@@ -1845,7 +1863,8 @@
   "notes": "Baby/kids products. Named CFO and Financial Controller.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -1899,7 +1918,8 @@
     "inAttio": false,
     "id": "b-box-for-kids--yvonne-morawska"
    }
-  ]
+  ],
+  "description": "Kids' lunch boxes, drink bottles and bento accessories designed for children and parents, sold online and through retailers in many countries."
  },
  {
   "id": "babyboo-fashion",
@@ -1946,7 +1966,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -2003,7 +2024,8 @@
     "inAttio": false,
     "id": "babyboo-fashion--laura-sesko"
    }
-  ]
+  ],
+  "description": "Online women's fashion label selling occasionwear dresses, jumpsuits and accessories direct to customers, with worldwide shipping."
  },
  {
   "id": "bali-body",
@@ -2022,7 +2044,8 @@
   "notes": "DTC tanning/beauty. No Apollo revenue print. Growing fast with a named CFO.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -2094,7 +2117,8 @@
     "inAttio": false,
     "id": "bali-body--laura-oosterloo"
    }
-  ]
+  ],
+  "description": "Body and skincare brand selling tan, body oil, serum and face mask products direct to consumers online. Products are marketed as vegan."
  },
  {
   "id": "barney-group-barney-bed",
@@ -2140,7 +2164,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -2162,7 +2187,8 @@
     "inAttio": true,
     "id": "barney-group-barney-bed--emily-chong"
    }
-  ]
+  ],
+  "description": "Sells orthopaedic memory-foam dog beds (Barney Bed and BarneyCurl) direct to dog owners online, in sizes matched to dog length."
  },
  {
   "id": "bassike",
@@ -2212,7 +2238,8 @@
    "Attio",
    "Vert_prospect_list_AU_final",
    "Vert_AU_finance_team_contacts",
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -2288,7 +2315,8 @@
     "inAttio": false,
     "id": "bassike--deborah-sams"
    }
-  ]
+  ],
+  "description": "Australian label selling organic cotton jersey basics and womenswear, made in Australia since 2006, through its online store and stockists."
  },
  {
   "id": "baumgartners",
@@ -2474,7 +2502,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -2530,7 +2559,8 @@
     "inAttio": false,
     "id": "bean-alliance-group--wayne-loh"
    }
-  ]
+  ],
+  "description": "Melbourne coffee roaster and beverage manufacturer producing roasted coffee, tea and drinking chocolate, including organic and Fairtrade coffee, for retail and partner brands."
  },
  {
   "id": "bed-threads",
@@ -2575,7 +2605,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -2597,7 +2628,8 @@
     "inAttio": true,
     "id": "bed-threads--avreme-cohney"
    }
-  ]
+  ],
+  "description": "Bedding brand selling 100% French flax linen and GOTS-certified organic cotton sheets, duvet covers and bundles direct to consumers online."
  },
  {
   "id": "beerenberg",
@@ -2643,7 +2675,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -2683,7 +2716,8 @@
     "inAttio": false,
     "id": "beerenberg--megan-howes"
    }
-  ]
+  ],
+  "description": "Family-owned Hahndorf, SA producer of jams, chutneys, relishes and sauces, sold to consumers through its farm shop and online store."
  },
  {
   "id": "beginning-boutique",
@@ -2729,7 +2763,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -2781,7 +2816,8 @@
     "inAttio": false,
     "id": "beginning-boutique--priscila-lincka"
    }
-  ]
+  ],
+  "description": "Online women's fashion boutique selling dresses, tops and bottoms to customers in New Zealand and internationally, with its head office in Lytton, QLD."
  },
  {
   "id": "bell-partners-melbourne",
@@ -3131,7 +3167,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -3152,7 +3189,8 @@
     "inAttio": true,
     "id": "blinq--jack-r"
    }
-  ]
+  ],
+  "description": "Digital business card and contact app: users share a QR, NFC or wallet card and scan contacts. Free for individuals; paid team plans add CRM sync and lead capture."
  },
  {
   "id": "bloom-money",
@@ -3232,7 +3270,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -3252,7 +3291,8 @@
     "inAttio": true,
     "id": "bob-pete-s--jennifer-cheong"
    }
-  ]
+  ],
+  "description": "Wholesale bakery supplying breads, pizza bases, wraps and desserts to cafes, restaurants and caterers, mainly in NSW, with direct delivery."
  },
  {
   "id": "bodyscience",
@@ -3295,7 +3335,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -3317,7 +3358,8 @@
     "inAttio": true,
     "id": "bodyscience--tom-stuart"
    }
-  ]
+  ],
+  "description": "Sports nutrition brand (BSc) selling protein powders, creatine and hydration products to athletes and gym users through retail, pharmacy and online channels in Australia and NZ."
  },
  {
   "id": "bongiorno-group",
@@ -3410,7 +3452,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -3464,7 +3507,8 @@
     "inAttio": false,
     "id": "boody--katy-daly"
    }
-  ]
+  ],
+  "description": "B-Corp certified Australian brand selling bamboo viscose underwear, tees, socks and babywear direct to consumers online."
  },
  {
   "id": "books-onsite",
@@ -3778,7 +3822,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -3800,7 +3845,8 @@
     "inAttio": true,
     "id": "brookfarm--cherie-crawford"
    }
-  ]
+  ],
+  "description": "Byron Bay granola and muesli brand baked in its Northern Rivers bakehouse, sold to consumers through its online store and retailers."
  },
  {
   "id": "build-buddy",
@@ -3842,7 +3888,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -3864,7 +3911,8 @@
     "inAttio": true,
     "id": "build-buddy--arthur-szczerba"
    }
-  ]
+  ],
+  "description": "Online platform that guides homeowners through designing, approving and building a new home without a builder, with task workflows, quotes and links to trade contractors."
  },
  {
   "id": "buildpass",
@@ -3911,7 +3959,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -3949,7 +3998,8 @@
     "inAttio": true,
     "id": "buildpass--richard-zhou"
    }
-  ]
+  ],
+  "description": "Construction site-management SaaS for builders and head contractors, covering scheduling, drawings, site diaries, RFIs, submittals and punch lists, with subcontractor access."
  },
  {
   "id": "bunjie",
@@ -3995,7 +4045,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4017,7 +4068,8 @@
     "inAttio": true,
     "id": "bunjie--grace-chua"
    }
-  ]
+  ],
+  "description": "Prebiotic and probiotic baby skincare, wipes and nappies, made in Australia and sold direct to parents online."
  },
  {
   "id": "businessdepot",
@@ -4112,7 +4164,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4152,7 +4205,8 @@
     "inAttio": true,
     "id": "by-charlotte--clare-taylor"
    }
-  ]
+  ],
+  "description": "Australian jewellery label selling vermeil, 9k, 14k and 18k gold pieces, including lab-grown diamond designs, online and through its boutiques."
  },
  {
   "id": "bydee",
@@ -4198,7 +4252,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4254,7 +4309,8 @@
     "inAttio": false,
     "id": "bydee--mia-wu"
    }
-  ]
+  ],
+  "description": "Australian swimwear brand founded in 2013 selling mix-and-match bikinis and one-piece swimsuits made from recycled REPREVE nylon, direct to customers online."
  },
  {
   "id": "byrons",
@@ -4322,7 +4378,8 @@
   "notes": "Construction AI / takeoff software. Head of Finance on staff.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4359,7 +4416,8 @@
     "inAttio": false,
     "id": "canibuild--timothy-cocaro"
    }
-  ]
+  ],
+  "description": "AI site-feasibility platform that checks zoning, setbacks and buildable area for a residential parcel, used by builders, councils and property owners in the US, AU, NZ and CA."
  },
  {
   "id": "caremonitor",
@@ -4405,7 +4463,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4427,7 +4486,8 @@
     "inAttio": true,
     "id": "caremonitor--tim-maclean"
    }
-  ]
+  ],
+  "description": "Australian cloud digital healthcare platform for hospital-in-the-home, virtual care, remote patient monitoring and chronic disease management, used by hospitals and primary health networks."
  },
  {
   "id": "castaway-forecasting",
@@ -4473,7 +4533,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4511,7 +4572,8 @@
     "inAttio": false,
     "id": "castaway-forecasting--siobhan-mccann"
    }
-  ]
+  ],
+  "description": "Cloud business forecasting and three-way modelling app for SMEs and accountants, importing data from Xero, QuickBooks and Excel to build cashflow forecasts and reports."
  },
  {
   "id": "cfo-on-call",
@@ -4655,7 +4717,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4677,7 +4740,8 @@
     "inAttio": true,
     "id": "chief-nutrition--stephen-eyre"
    }
-  ]
+  ],
+  "description": "Australian real-food supplements and snacks, including beef organ capsules, creatine, collagen and whey, sold direct to consumers online."
  },
  {
   "id": "cim",
@@ -4724,7 +4788,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4762,7 +4827,8 @@
     "inAttio": false,
     "id": "cim--ankita-c-harrison"
    }
-  ]
+  ],
+  "description": "PEAK building operations platform that pulls BMS, meter and IoT data together to detect faults, track equipment performance and manage fixes for building owners, operators and service firms."
  },
  {
   "id": "ciroa-beauty-jamesly",
@@ -4805,7 +4871,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4825,7 +4892,8 @@
     "inAttio": true,
     "id": "ciroa-beauty-jamesly--darya-moldavska"
    }
-  ]
+  ],
+  "description": "Australian bodycare brand founded in 2021 selling scented shower gels, body scrubs, butters, mists and serums direct to consumers online."
  },
  {
   "id": "clear-tax-accountants",
@@ -4922,7 +4990,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -4942,7 +5011,8 @@
     "inAttio": true,
     "id": "clinic-to-cloud--margaret-marcs"
    }
-  ]
+  ],
+  "description": "Cloud medical practice management software for specialists and GPs in Australia, covering clinical records, letter dictation, a patient portal and Medicare claiming."
  },
  {
   "id": "code-one-accountants",
@@ -5072,7 +5142,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5110,7 +5181,8 @@
     "inAttio": false,
     "id": "complexica--maria-mucerschi"
    }
-  ]
+  ],
+  "description": "Complexica Pty Ltd sells Decision Cloud, an AI platform for pricing, promotions, sales and demand planning, aimed at manufacturers, wholesalers and retailers with large product ranges."
  },
  {
   "id": "compozer",
@@ -5153,7 +5225,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5176,7 +5249,8 @@
     "inAttio": true,
     "id": "compozer--justin-ajaka"
    }
-  ]
+  ],
+  "description": "Cloud eLearning authoring tool that lets non-designers build interactive courses, sold on monthly plans from free to enterprise to individuals and corporate training teams."
  },
  {
   "id": "connect-advisors",
@@ -5255,7 +5329,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5277,7 +5352,8 @@
     "inAttio": true,
     "id": "conserving-beauty--nicole-booth"
    }
-  ]
+  ],
+  "description": "Skincare brand selling dissolving cleansing cloths and water-free treatments for acne, eczema and cold sores, aimed at acne-prone, sensitive and eczema-prone skin."
  },
  {
   "id": "cooee-foods",
@@ -5318,7 +5394,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5338,7 +5415,8 @@
     "inAttio": true,
     "id": "cooee-foods--tina-grieve"
    }
-  ]
+  ],
+  "description": "Plant-based, allergy-friendly snack brand founded by a Wiradjuri woman, making cookies and popcorn with native Australian ingredients, sold direct online."
  },
  {
   "id": "country-of-glow",
@@ -5381,7 +5459,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5401,7 +5480,8 @@
     "inAttio": true,
     "id": "country-of-glow--heli-vyas"
    }
-  ]
+  ],
+  "description": "Melbourne skincare brand selling moisturisers (rice, collagen and hyaluronic) and a lip glaze direct to consumers online."
  },
  {
   "id": "crawford-accountants",
@@ -5620,7 +5700,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5642,7 +5723,8 @@
     "inAttio": true,
     "id": "cubiko--sean-fincham"
    }
-  ]
+  ],
+  "description": "Australian healthcare data platform giving general practices billing, MBS item and performance reporting. Says it is used by more than 2,500 practices."
  },
  {
   "id": "cullen-jewellery",
@@ -5688,7 +5770,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5758,7 +5841,8 @@
     "inAttio": false,
     "id": "cullen-jewellery--daniel-lurati"
    }
-  ]
+  ],
+  "description": "Jewellery brand selling made-to-order engagement rings with lab-grown diamonds, moissanite and sapphires, online and through showrooms in Melbourne and the US."
  },
  {
   "id": "cult-design",
@@ -5770,7 +5854,8 @@
   "segment": "CPG / Ecom / D2C",
   "inAttio": false,
   "sources": [
-   "Vert_AU_prospects_Origami"
+   "Vert_AU_prospects_Origami",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5788,7 +5873,8 @@
     "inAttio": false,
     "id": "cult-design--mirwais-syed"
    }
-  ]
+  ],
+  "description": "Designer furniture and lighting retailer with a showroom, stocking European design brands such as HAY, Louis Poulsen and Fritz Hansen for design-minded consumers and interior trade."
  },
  {
   "id": "cuttable",
@@ -5834,7 +5920,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5856,7 +5943,8 @@
     "inAttio": true,
     "id": "cuttable--aaron-murphy"
    }
-  ]
+  ],
+  "description": "AI ad creation and publishing platform for eCommerce brands running Meta and TikTok ads. It builds ads from product catalogues and past results and publishes them to the ad channels."
  },
  {
   "id": "daily-blooms",
@@ -5903,7 +5991,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -5925,7 +6014,8 @@
     "inAttio": true,
     "id": "daily-blooms--sean-curry"
    }
-  ]
+  ],
+  "description": "Online florist selling same-day flower bouquets, gift hampers and flower subscriptions, handmade by florists daily and delivered across Australia."
  },
  {
   "id": "davidsons-accountants-business-consultan",
@@ -6063,7 +6153,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -6083,7 +6174,8 @@
     "inAttio": true,
     "id": "derma-aesthetics--helen-gaut"
    }
-  ]
+  ],
+  "description": "Professional skincare brand (dermaviduals) supplied only to partner skin clinics and stockists, not sold online, with training for skin therapists."
  },
  {
   "id": "design-by-them",
@@ -6129,7 +6221,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -6169,7 +6262,8 @@
     "inAttio": true,
     "id": "design-by-them--nehal-motta"
    }
-  ]
+  ],
+  "description": "Australian designer furniture, lighting and homewares brand founded in 2007, selling its in-house designs to design enthusiasts and trade clients online and through a Sydney showroom."
  },
  {
   "id": "dfk-benjamin-king-money-dfk-bkm",
@@ -6531,7 +6625,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -6553,7 +6648,8 @@
     "inAttio": true,
     "id": "directo--matthew-boyden"
    }
-  ]
+  ],
+  "description": "Melbourne-based B2B online marketplace where pharmacies buy from pharmaceutical and health suppliers, with integrated ordering, invoicing and supplier payments."
  },
  {
   "id": "displaysweet",
@@ -6600,7 +6696,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -6620,7 +6717,8 @@
     "inAttio": true,
     "id": "displaysweet--peter-pollock"
    }
-  ]
+  ],
+  "description": "Interactive sales presentation software for property developers and real estate sales galleries, including a presenter app, touchscreens, LED walls and 3D models for buyers and agents."
  },
  {
   "id": "dmg-partners",
@@ -6712,7 +6810,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -6750,7 +6849,8 @@
     "inAttio": false,
     "id": "downies-collectables--kaumudi-kuruppu"
    }
-  ]
+  ],
+  "description": "Online coin and collectables retailer selling mint and bullion coins and monthly subscription collections to collectors in Australia and internationally."
  },
  {
   "id": "dpm-financial-services",
@@ -6843,7 +6943,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -6866,7 +6967,8 @@
     "inAttio": true,
     "id": "draftable--tom-edwards"
    }
-  ]
+  ],
+  "description": "Document comparison software for legal teams and other organisations, comparing Word, PDF, Excel and PowerPoint files via desktop, Outlook add-in and REST API."
  },
  {
   "id": "dry-kirkness",
@@ -6961,7 +7063,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -6983,7 +7086,8 @@
     "inAttio": true,
     "id": "duress--david-rockwood"
    }
-  ]
+  ],
+  "description": "Lone and frontline worker safety system: wearable devices and a smartphone app connected to 24/7 monitored emergency response, sold to employers in Australia, NZ and the UK."
  },
  {
   "id": "dvt-mcleods",
@@ -7169,7 +7273,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -7208,7 +7313,8 @@
     "inAttio": false,
     "id": "edge-zero--himani-agrawal-cpa"
    }
-  ]
+  ],
+  "description": "Electricity grid monitoring hardware and cloud analytics (EdgeSensor, EdgeConnected) for distribution networks, utilities and private networks, with API integration into utility systems."
  },
  {
   "id": "edible-blooms",
@@ -7254,7 +7360,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -7274,7 +7381,8 @@
     "inAttio": true,
     "id": "edible-blooms--bosu-zhang"
    }
-  ]
+  ],
+  "description": "Australian gourmet gift company selling hand-packed hampers, chocolate bouquets and gift boxes online, with same-day delivery in major capital cities and nationwide shipping."
  },
  {
   "id": "edsmart",
@@ -7321,7 +7429,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -7343,7 +7452,8 @@
     "inAttio": true,
     "id": "edsmart--rachel-wong"
    }
-  ]
+  ],
+  "description": "Australian SaaS for K-12 schools that digitises duty-of-care forms, excursion approvals, parent consent and incident records. Used by more than 1,400 schools."
  },
  {
   "id": "edtech-group",
@@ -7389,7 +7499,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -7411,7 +7522,8 @@
     "inAttio": true,
     "id": "edtech-group--yang-l"
    }
-  ]
+  ],
+  "description": "Tech-enabled education organisation providing digital technologies curriculum, coding and robotics programs to schools, plus the Audiri school communications app for notices, forms and payments."
  },
  {
   "id": "ega-corporate-advisers",
@@ -7569,7 +7681,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -7591,7 +7704,8 @@
     "inAttio": true,
     "id": "elk--keiran-austin"
    }
-  ]
+  ],
+  "description": "Australian women's fashion label selling clothing, footwear, bags and jewellery designed in Melbourne, sold online to customers in Australia and the US."
  },
  {
   "id": "ellison-studios",
@@ -7696,7 +7810,8 @@
   "notes": "Autonomous drone / LiDAR mapping. Named CFO.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -7734,7 +7849,8 @@
     "inAttio": false,
     "id": "emesent--charles-miller"
    }
-  ]
+  ],
+  "description": "Autonomous and handheld LiDAR mapping systems (Hovermap, Cortex autonomy) that capture 3D site data for infrastructure, construction, energy and mining operators."
  },
  {
   "id": "emma-tom-s",
@@ -7960,7 +8076,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -7982,7 +8099,8 @@
     "inAttio": true,
     "id": "enlightened-living--robert-m"
    }
-  ]
+  ],
+  "description": "Australian distributor of designer lighting and furniture brands such as Astro, Juniper and Toscot, selling to homeowners and to architects and designers through a Brisbane showroom and trade accounts."
  },
  {
   "id": "enspira-financial",
@@ -8075,7 +8193,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -8113,7 +8232,8 @@
     "inAttio": false,
     "id": "eql--geethi-randeniya"
    }
-  ]
+  ],
+  "description": "Platform for running product drops and limited launches with bot protection and draws, used by brands in sneakers, collectibles and spirits, with fans entering through the EQL site."
  },
  {
   "id": "equiem",
@@ -8160,7 +8280,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -8214,7 +8335,8 @@
     "inAttio": false,
     "id": "equiem--tasha-g"
    }
-  ]
+  ],
+  "description": "Tenant experience and building management SaaS for commercial property owners, combining a tenant app, property operations tools, flex space management and portfolio analytics."
  },
  {
   "id": "ergopouch",
@@ -8465,7 +8587,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -8501,7 +8624,8 @@
     "inAttio": false,
     "id": "evaran--david-mayfield"
    }
-  ]
+  ],
+  "description": "Care software group whose platforms (eCase, MOA Benchmarking, CareLineLive, Checked In Care) cover rostering, care records, compliance and communication for aged care, home care and disability providers."
  },
  {
   "id": "evource",
@@ -8580,7 +8704,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -8650,7 +8775,8 @@
     "inAttio": false,
     "id": "explorate--praise-mendoza"
    }
-  ]
+  ],
+  "description": "Australian digital freight forwarder offering a shipment tracking platform, sea and air freight booking and customs brokerage for importers and exporters."
  },
  {
   "id": "ezygrowth",
@@ -8729,7 +8855,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -8765,7 +8892,8 @@
     "inAttio": false,
     "id": "fable-food-co--kieli-wei"
    }
-  ]
+  ],
+  "description": "Plant-based protein made from upcycled shiitake mushroom stems, sold to restaurants and chefs through distributors and as a home meal kit."
  },
  {
   "id": "faithfull-the-brand",
@@ -8784,7 +8912,8 @@
   "notes": "Fashion DTC. Named CEO and CFO. 73 employees may be near/over $20M.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -8821,7 +8950,8 @@
     "inAttio": false,
     "id": "faithfull-the-brand--sarah-abrahams"
    }
-  ]
+  ],
+  "description": "Clothing label selling linen, organic cotton and recycled-fabric dresses, tops and swimwear direct to customers online, with shipping to the US and other markets."
  },
  {
   "id": "fatsecret",
@@ -8866,7 +8996,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -8888,7 +9019,8 @@
     "inAttio": true,
     "id": "fatsecret--janine-roff"
    }
-  ]
+  ],
+  "description": "Nutrition company offering a food and nutrition database API for app and device developers, plus a consumer food diary app. Covers over 2.3 million foods."
  },
  {
   "id": "fibersense",
@@ -8935,7 +9067,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -8990,7 +9123,8 @@
     "inAttio": false,
     "id": "fibersense--dean-herrmann"
    }
-  ]
+  ],
+  "description": "Distributed fibre-optic sensing service that turns existing fibre cable into sensors to detect excavation strikes and threats to utility infrastructure, sold as a monthly subscription with 24/7 monitoring."
  },
  {
   "id": "firmable",
@@ -9035,7 +9169,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9093,7 +9228,8 @@
     "inAttio": false,
     "id": "firmable--lucas-hoang"
    }
-  ]
+  ],
+  "description": "Melbourne-based B2B data platform giving sales and marketing teams verified company and contact data, technology intelligence and buying signals, mainly for APAC, US and Canada."
  },
  {
   "id": "firmus-technologies",
@@ -9112,7 +9248,8 @@
   "notes": "AI cloud / GPU infrastructure. Deputy CFO on staff.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9150,7 +9287,8 @@
     "inAttio": false,
     "id": "firmus-technologies--tim-rosenfield"
    }
-  ]
+  ],
+  "description": "Australian operator of AI Factory data centres using liquid-cooled HyperCube systems, selling dedicated GPU compute capacity to AI customers across Asia-Pacific."
  },
  {
   "id": "flavour-creations",
@@ -9196,7 +9334,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9218,7 +9357,8 @@
     "inAttio": true,
     "id": "flavour-creations--kevin-cutts"
    }
-  ]
+  ],
+  "description": "Brisbane medical nutrition manufacturer making dysphagia thickeners, protein snacks, drinks and nutritional powders for people with swallowing or nutrition needs, sold through its online shop."
  },
  {
   "id": "float-accounting-advisory",
@@ -9399,7 +9539,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9439,7 +9580,8 @@
     "inAttio": false,
     "id": "funday-natural--natasha-pinto"
    }
-  ]
+  ],
+  "description": "Sugar-free gummies and lollies (FUNDAY Natural Sweets) made without added sugar or sugar alcohols, sold direct to consumers online in boxes and bags."
  },
  {
   "id": "funraisin",
@@ -9485,7 +9627,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9507,7 +9650,8 @@
     "inAttio": true,
     "id": "funraisin--peter-zha"
    }
-  ]
+  ],
+  "description": "Online fundraising platform for nonprofits, offering peer-to-peer events, donation pages, giving days and event ticketing. Used by charities and nonprofit admins."
  },
  {
   "id": "g-m-cosmetics-pure-papaya-care",
@@ -9553,7 +9697,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9573,7 +9718,8 @@
     "inAttio": true,
     "id": "g-m-cosmetics-pure-papaya-care--william-niu-ca"
    }
-  ]
+  ],
+  "description": "Australian skincare manufacturer making P'URE Papayacare papaya-based ointments, balms and baby care for sensitive skin, sold direct and through retailers."
  },
  {
   "id": "gew-rzhaus-spice-house",
@@ -9702,7 +9848,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9724,7 +9871,8 @@
     "inAttio": true,
     "id": "glasswing--katie-maguire"
    }
-  ]
+  ],
+  "description": "Sydney software company (Glasswing Cloud) selling Kubernetes and GPU optimisation software that reallocates idle compute for enterprises running AI and cloud workloads."
  },
  {
   "id": "go-to-skincare",
@@ -9765,7 +9913,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9787,7 +9936,8 @@
     "inAttio": true,
     "id": "go-to-skincare--amelia-mcdonnell"
    }
-  ]
+  ],
+  "description": "Surry Hills skincare brand founded by Zoë Foster Blake, selling serums, moisturisers and fragrance to consumers through its online store and retailers."
  },
  {
   "id": "goldfield-banks-australia",
@@ -9904,7 +10054,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -9923,7 +10074,8 @@
     "id": "goxpro--darren-donohoe",
     "linkedin": "https://www.linkedin.com/in/darren-donohoe-b601639"
    }
-  ]
+  ],
+  "description": "Australian SaaS platform for gyms, studios and personal trainers covering client management, workout programming, fitness assessments and payments via Ezypay, Stripe and Xero."
  },
  {
   "id": "grain-and-bake-co-australia",
@@ -9969,7 +10121,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10007,7 +10160,8 @@
     "inAttio": true,
     "id": "grain-and-bake-co-australia--avril-solomons"
    }
-  ]
+  ],
+  "description": "Melbourne food manufacturer making toasted muesli, granola, bars and snacks, both for its own range and as a co-manufacturer developing products for other brands."
  },
  {
   "id": "great-wrap",
@@ -10030,9 +10184,11 @@
   "attioId": "2c6070c7-db15-4bdb-b1da-269c2484aba2",
   "inAttio": true,
   "sources": [
-   "Attio"
+   "Attio",
+   "Exa web research"
   ],
   "contacts": [],
+  "description": "Melbourne maker of home-compostable cling wrap and a reusable cutter (Great Mate), sold direct to consumers online in Australia and the US.",
   "flags": "⚠ Operating entity entered voluntary administration in Sep 2025 (staff made redundant). Verify before any outreach."
  },
  {
@@ -10114,7 +10270,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10135,7 +10292,8 @@
     "inAttio": true,
     "id": "gridsight--bryn-leggett"
    }
-  ]
+  ],
+  "description": "AI electrical digital twin and capacity management platform for electricity distribution utilities, used to model network capacity, DER and customer connections."
  },
  {
   "id": "growth-team",
@@ -10215,7 +10373,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10238,7 +10397,8 @@
     "inAttio": true,
     "id": "gruntify-gis-people--marija-stjepanovic"
    }
-  ]
+  ],
+  "description": "Field operations SaaS (GIS People) for inspections, job scheduling, asset tracking and mapping, used by field service teams in mobile and web apps."
  },
  {
   "id": "guests-accounting",
@@ -10316,7 +10476,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10338,7 +10499,8 @@
     "inAttio": true,
     "id": "h2coco--ksenia-duff"
    }
-  ]
+  ],
+  "description": "Australian better-for-you drinks brand selling coconut water, juices and melon drinks in supermarkets and online, in cans, bottles and multipacks."
  },
  {
   "id": "hab-shifa-australia",
@@ -10384,7 +10546,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10406,7 +10569,8 @@
     "inAttio": true,
     "id": "hab-shifa-australia--hazan-haleem"
    }
-  ]
+  ],
+  "description": "Australian supplement brand selling cold-pressed black seed oil (thymoquinone) capsules and liquids direct to consumers online, with batch testing claimed."
  },
  {
   "id": "halaxy",
@@ -10453,7 +10617,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10473,7 +10638,8 @@
     "inAttio": true,
     "id": "halaxy--daniel-giles"
    }
-  ]
+  ],
+  "description": "Cloud practice management software for health practitioners covering calendars, online bookings, patient records, invoicing and telehealth. Core software is free; paid add-ons are optional."
  },
  {
   "id": "halfbrick",
@@ -10520,7 +10686,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10542,7 +10709,8 @@
     "inAttio": true,
     "id": "halfbrick--rinal-deo"
    }
-  ]
+  ],
+  "description": "Mobile games studio behind Fruit Ninja and Jetpack Joyride, selling games to mobile players and a Halfbrick+ subscription hub with ad-free access."
  },
  {
   "id": "hall-chadwick-melbourne",
@@ -10798,7 +10966,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10834,7 +11003,8 @@
     "inAttio": false,
     "id": "headstart-international--sue-gordon"
    }
-  ]
+  ],
+  "description": "Aussie-owned toy company in Dandenong South, VIC that designs its own toy brands and distributes partner brands, selling to retailers for children and families."
  },
  {
   "id": "health-lab",
@@ -10880,7 +11050,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -10902,7 +11073,8 @@
     "inAttio": true,
     "id": "health-lab--melanie-andre"
    }
-  ]
+  ],
+  "description": "Plant-based protein snacks and protein powders sold direct online and in stores, marketed for everyday snacking as well as gym use."
  },
  {
   "id": "healthengine",
@@ -10948,7 +11120,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -11018,7 +11191,8 @@
     "inAttio": false,
     "id": "healthengine--chavaune-samons"
    }
-  ]
+  ],
+  "description": "Australian patient booking platform where people find and book healthcare providers, and a practice software product that handles bookings, reminders, forms and recalls for clinics."
  },
  {
   "id": "healthtrack",
@@ -11064,7 +11238,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -11102,7 +11277,8 @@
     "inAttio": false,
     "id": "healthtrack--toni-grinham"
    }
-  ]
+  ],
+  "description": "Queensland-made practice management and clinical information system for specialist practices in Australia and New Zealand, covering billing, diary, reporting and clinical records."
  },
  {
   "id": "heaps-normal",
@@ -11152,7 +11328,8 @@
    "Attio",
    "Vert_prospect_list_AU_final",
    "Vert_AU_finance_team_contacts",
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -11230,7 +11407,8 @@
     "inAttio": false,
     "id": "heaps-normal--ray-lau"
    }
-  ]
+  ],
+  "description": "Non-alcoholic beer and drinks brand (under 0.5% ABV) selling cans and bottles online, with shipping across Australia and pickup in Marrickville, NSW."
  },
  {
   "id": "hello-hello-plants",
@@ -11380,7 +11558,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -11418,7 +11597,8 @@
     "inAttio": false,
     "id": "helloteams--rhonlhyn-rivera"
    }
-  ]
+  ],
+  "description": "Setup service for Microsoft Teams Phone calling, adding business phone numbers, call queues and auto-attendants to Microsoft 365 organisations via Operator Connect or Direct Routing."
  },
  {
   "id": "heritage-brands",
@@ -11465,7 +11645,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -11488,7 +11669,8 @@
     "inAttio": true,
     "id": "heritage-brands--donna-richardson"
    }
-  ]
+  ],
+  "description": "Australian beauty and wellbeing group owning brands such as Australis, Innoxa, Le Tan, Skin Republic and In Essence, sold to consumers through retail and online."
  },
  {
   "id": "hey-you",
@@ -11528,7 +11710,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -11550,7 +11733,8 @@
     "inAttio": true,
     "id": "hey-you--calum-fraser"
    }
-  ]
+  ],
+  "description": "Sydney order-ahead app (Hey You) where customers order food and drinks from cafes and restaurants in advance and collect digital loyalty rewards. Cited as used by over 1.2 million people."
  },
  {
   "id": "highview-accounting-financial",
@@ -11826,7 +12010,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -11846,7 +12031,8 @@
     "inAttio": true,
     "id": "hop-nation-brewing-co--phoebe-crozier-durham"
    }
-  ]
+  ],
+  "description": "Independent craft brewery in Footscray, Melbourne making lager, hazy ales and alcohol-free beers, sold online, at its taproom and through pubs and bottle shops."
  },
  {
   "id": "hoppr",
@@ -11892,7 +12078,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -11914,7 +12101,8 @@
     "inAttio": true,
     "id": "hoppr--rahul-shah"
    }
-  ]
+  ],
+  "description": "Addressable TV advertising and audience platform for pay-TV operators and broadcasters, selling ad inventory and household audience segments to advertisers through deal IDs."
  },
  {
   "id": "hta-advisory",
@@ -12009,7 +12197,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12030,7 +12219,8 @@
     "inAttio": true,
     "id": "hugh-hamilton-wines--joanne-rowe"
    }
-  ]
+  ],
+  "description": "Six-generation family winery in McLaren Vale, SA selling wine online and at its cellar door, with a Black Sheep Wine Club subscription for members."
  },
  {
   "id": "humanee",
@@ -12097,7 +12287,8 @@
   "notes": "AI video analytics. Financial Controller running finance.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12135,7 +12326,8 @@
     "inAttio": false,
     "id": "icetana-ai--kevin-brown"
    }
-  ]
+  ],
+  "description": "Australian AI video surveillance software that learns normal activity from camera feeds and alerts security teams to unusual events. Sold to retail, campus and government sites, with on-premise deployment."
  },
  {
   "id": "icon-by-design",
@@ -12267,7 +12459,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12289,7 +12482,8 @@
     "inAttio": true,
     "id": "id4me--mohit-arora"
    }
-  ]
+  ],
+  "description": "Contact and people-search database sold on monthly subscription to real estate agents, debt collectors and other businesses, covering mobile numbers, emails and addresses."
  },
  {
   "id": "idd-tech",
@@ -12331,7 +12525,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12353,7 +12548,8 @@
     "inAttio": true,
     "id": "idd-tech--marc-casal"
    }
-  ]
+  ],
+  "description": "Wholly owned CIMIC Group subsidiary building integrated digital delivery software (estimating platform Cats, Siterover, Sensgrid) for construction, resources and services organisations."
  },
  {
   "id": "ikeep",
@@ -12464,7 +12660,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12500,7 +12697,8 @@
     "inAttio": false,
     "id": "indigo-luna--nabilah-salsabila"
    }
-  ]
+  ],
+  "description": "Australian women's yoga and lifestyle clothing label selling leggings, tops and swimwear made from organic cotton, viscose and recycled nylon, sold direct online."
  },
  {
   "id": "infa-group",
@@ -12546,7 +12744,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12582,7 +12781,8 @@
     "inAttio": false,
     "id": "infa-group--kate-morris"
    }
-  ]
+  ],
+  "description": "Family-owned Australian baby products company (since 1955) selling car seats, nursery furniture and play products under its InfaSecure, GroTime and TikkTokk brands through its websites and retailers."
  },
  {
   "id": "infinity22",
@@ -12708,7 +12908,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12728,7 +12929,8 @@
     "inAttio": true,
     "id": "inmarket-systems--david-fong"
    }
-  ]
+  ],
+  "description": "Lending software company whose white-label platforms (LoanForge for SACC and MACC loans, WageForge for wage advance) are sold to licensed Australian lenders to run their own loan products."
  },
  {
   "id": "inp-group",
@@ -12820,7 +13022,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12840,7 +13043,8 @@
     "inAttio": true,
     "id": "inskin-cosmedics--robinson-lovell"
    }
-  ]
+  ],
+  "description": "Australian-owned skincare company whose O COSMEDICS, GINGER&ME and INSKIN.CO brands are sold to skin clinics and professionals as partners, plus consumer ranges online."
  },
  {
   "id": "inspace",
@@ -12886,7 +13090,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12924,7 +13129,8 @@
     "inAttio": true,
     "id": "inspace--diana-hausman"
    }
-  ]
+  ],
+  "description": "Virtual property presentation SaaS giving real estate developers, agents and leasing firms interactive 3D models, digital portfolios and tracked viewer links for sales and leasing."
  },
  {
   "id": "instant",
@@ -12972,7 +13178,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -12994,7 +13201,8 @@
     "inAttio": true,
     "id": "instant--kevin-thang"
    }
-  ]
+  ],
+  "description": "AI email and SMS retention marketing platform for Shopify brands, creating personalised flows and campaigns. Priced by monthly subscription based on store revenue."
  },
  {
   "id": "integrated-accountants-pl",
@@ -13152,7 +13360,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -13206,7 +13415,8 @@
     "inAttio": false,
     "id": "jardan--devanshi-mehta"
    }
-  ]
+  ],
+  "description": "Melbourne furniture, lighting and homewares maker founded in 1987, selling made-to-order Australian-made pieces online and through showrooms in several Australian cities."
  },
  {
   "id": "jeffrey-thomas-partners-jt-p",
@@ -13293,7 +13503,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -13329,7 +13540,8 @@
     "inAttio": false,
     "id": "jgr-stn--taylor-gibbards"
    }
-  ]
+  ],
+  "description": "Gold Coast online women's fashion label founded in 2018 selling dresses, tops and sets direct to customers with worldwide shipping, and stocked by some Australian and US retailers."
  },
  {
   "id": "jim-s-bookkeeping",
@@ -13520,7 +13732,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -13540,7 +13753,8 @@
     "inAttio": true,
     "id": "joolca-australia--desheng-lin"
    }
-  ]
+  ],
+  "description": "Outdoor gear brand selling portable hot water systems, portable toilets and shower shelters for 4WD, camping and off-grid users, sold direct online with a 30-day trial."
  },
  {
   "id": "judsonkoman",
@@ -13634,7 +13848,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -13654,7 +13869,8 @@
     "inAttio": true,
     "id": "just-for-pets-australia--karyn-feron-shaw"
    }
-  ]
+  ],
+  "description": "Australian pet supplies retailer with more than 60 stores and an online shop selling food, toys, medications and aquarium and small-animal supplies to pet owners."
  },
  {
   "id": "kearney-group",
@@ -13712,7 +13928,8 @@
   "notes": "Hardware brand - check it sells DTC",
   "inAttio": false,
   "sources": [
-   "Vert_AU_prospects_Origami"
+   "Vert_AU_prospects_Origami",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -13730,7 +13947,8 @@
     "inAttio": false,
     "id": "keeler-hardware--kylie-cvetkovic"
    }
-  ]
+  ],
+  "description": "Australian-owned architectural door hardware supplier selling locks, handles, hinges, closers and bathroom hardware to builders, trade customers and consumers, online and by phone."
  },
  {
   "id": "keepcup",
@@ -13849,7 +14067,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -13903,7 +14122,8 @@
     "inAttio": false,
     "id": "kepler-analytics--vaidehi-vijay"
    }
-  ]
+  ],
+  "description": "Retail foot-traffic and sales analytics system that uses in-store sensors to count shoppers and measure conversion, sold to retailers to monitor and compare store performance."
  },
  {
   "id": "kic-wellness",
@@ -13915,7 +14135,8 @@
   "segment": "CPG / Ecom / D2C",
   "inAttio": false,
   "sources": [
-   "Vert_AU_prospects_Origami"
+   "Vert_AU_prospects_Origami",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -13933,7 +14154,8 @@
     "inAttio": false,
     "id": "kic-wellness--david-mack"
    }
-  ]
+  ],
+  "description": "Women's wellness brand selling electrolyte hydration powders, teas, incense and workout kits, plus a fitness and mindfulness app. Also runs a Pilates studio in Melbourne."
  },
  {
   "id": "kidmans-partners",
@@ -14024,7 +14246,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -14045,7 +14268,8 @@
     "inAttio": true,
     "id": "kindling--kelan-wright"
    }
-  ]
+  ],
+  "description": "Sydney B2B marketing company combining AI-driven marketing strategy, creative production and software to plan and run marketing for companies that sell to businesses."
  },
  {
   "id": "kinsella-chartered-accountants",
@@ -14211,7 +14435,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -14249,7 +14474,8 @@
     "inAttio": true,
     "id": "knog--virginia-francis"
    }
-  ]
+  ],
+  "description": "Australian cycling and outdoor lighting brand (Blinder, Frog, Quokka and Bandicoot lights) plus bike bells and alarms, sold online and through retailers to cyclists and outdoor users."
  },
  {
   "id": "kns-accountants-business-advisors",
@@ -14329,7 +14555,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -14351,7 +14578,8 @@
     "inAttio": true,
     "id": "komo-technologies--joshua-smith"
    }
-  ]
+  ],
+  "description": "Engagement platform for brands and event, sport and media properties, offering interactive content, rewards, CRM and customer data capture through hosted tools, SDKs and APIs."
  },
  {
   "id": "kora-organics",
@@ -14465,7 +14693,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -14487,7 +14716,8 @@
     "inAttio": true,
     "id": "lahebo--cornell-tsiang"
    }
-  ]
+  ],
+  "description": "Australian SaaS for governance, risk and compliance, covering risk registers, incident management, WHS, audits and a legislation library for SMEs in sectors such as NDIS, aged care and construction."
  },
  {
   "id": "larsen-jewellery",
@@ -14744,7 +14974,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -14766,7 +14997,8 @@
     "inAttio": true,
     "id": "lee-mathews--amy-ma"
    }
-  ]
+  ],
+  "description": "Australian womenswear label founded in 1999 selling dresses, shirts, tops and bottoms direct online and through its stores."
  },
  {
   "id": "leo-lin",
@@ -14809,7 +15041,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -14847,7 +15080,8 @@
     "inAttio": false,
     "id": "leo-lin--suzanna-greene"
    }
-  ]
+  ],
+  "description": "Sydney-based women's ready-to-wear label launched in 2017, selling hand-printed, bold-colour dresses and separates direct to customers online, including a US store."
  },
  {
   "id": "lgy-accountants",
@@ -15149,7 +15383,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -15169,7 +15404,8 @@
     "inAttio": true,
     "id": "loco-love--josephine-lorenz"
    }
-  ]
+  ],
+  "description": "Australian chocolate brand making organic and functional chocolate, including caramels, truffles and drinking cacao, sold to consumers through its online store in singles, twin packs and gift boxes."
  },
  {
   "id": "lolly-jar-creative-industry-finance-supp",
@@ -15287,7 +15523,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -15307,7 +15544,8 @@
     "inAttio": true,
     "id": "lorgan--sirisha-murahari"
    }
-  ]
+  ],
+  "description": "Sydney AI, IoT and data company selling its Enigma behavioural intelligence and Ellie private generative-AI platforms, which can be deployed on-premise or in private cloud, to enterprises."
  },
  {
   "id": "lowe-lippmann-chartered-accountants",
@@ -15537,7 +15775,8 @@
   "notes": "Non-alcoholic spirits. Printed revenue under $20M.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -15575,7 +15814,8 @@
     "inAttio": false,
     "id": "lyre-s-spirit-co--david-gimpelson"
    }
-  ]
+  ],
+  "description": "Sydney-founded non-alcoholic spirits brand (under 0.5% ABV) selling spirit alternatives and ready-to-drink cocktails to consumers and bars through its online store and retailers in many countries."
  },
  {
   "id": "lyrebird-health",
@@ -15619,7 +15859,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -15656,7 +15897,8 @@
     "inAttio": true,
     "id": "lyrebird-health--scott-martin"
    }
-  ]
+  ],
+  "description": "AI medical scribe for GPs, specialists and allied health clinicians. Records consultations and drafts notes, letters and care plans inside EMRs such as Best Practice and Genie."
  },
  {
   "id": "mackay-goodwin",
@@ -15749,7 +15991,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -15771,7 +16014,8 @@
     "inAttio": true,
     "id": "macro-mike--luchy-popstoev"
    }
-  ]
+  ],
+  "description": "Gold Coast health food brand making gluten-free, dairy-free and plant-based protein, snacks and supplements. Sold online, in supermarkets and in health food stores."
  },
  {
   "id": "made-with-plants",
@@ -15810,7 +16054,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -15832,7 +16077,10 @@
     "inAttio": true,
     "id": "made-with-plants--cara-o-neill"
    }
-  ]
+  ],
+  "description": "Plant-based meat-free and dairy-free cheese products sold through Woolworths and Coles, and to food service businesses such as Domino's and Grill'd.",
+  "domain": "madewithplants.com.au",
+  "website": "https://madewithplants.com.au"
  },
  {
   "id": "makedo",
@@ -15878,7 +16126,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -15898,7 +16147,8 @@
     "inAttio": true,
     "id": "makedo--deborah-nolan"
    }
-  ]
+  ],
+  "description": "Cardboard construction tool kits (Safe-Saw, Scru connectors) for children aged 4+ and families. Sells tools only, not cardboard."
  },
  {
   "id": "managed",
@@ -15945,7 +16195,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -15982,7 +16233,8 @@
     "inAttio": true,
     "id": "managed--alexander-laureti"
    }
-  ]
+  ],
+  "description": "Property management software for Australian rental agencies, with direct rent payment technology (Vecta) that removes the need for a rental trust account."
  },
  {
   "id": "manly-spirits-co",
@@ -16028,7 +16280,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16050,7 +16303,8 @@
     "inAttio": true,
     "id": "manly-spirits-co--janelle-jordan"
    }
-  ]
+  ],
+  "description": "Northern Beaches Sydney craft distillery making gin, single malt whisky and vodka. Sold direct online and through retail."
  },
  {
   "id": "maptrack",
@@ -16094,7 +16348,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16114,7 +16369,8 @@
     "inAttio": true,
     "id": "maptrack--lydia-blankenship"
    }
-  ]
+  ],
+  "description": "Asset tracking, maintenance and compliance software for tools, equipment, plant and fleet, using QR scanning, work orders and GPS. Priced per asset for construction and trades teams."
  },
  {
   "id": "marketplacer",
@@ -16161,7 +16417,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16215,7 +16472,8 @@
     "inAttio": false,
     "id": "marketplacer--mitchell-lacey"
    }
-  ]
+  ],
+  "description": "Marketplace software that lets retailers, brands and B2B operators run multi-seller online marketplaces, with seller onboarding, order routing and payouts."
  },
  {
   "id": "mas-tax-accountants",
@@ -16293,7 +16551,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16315,7 +16574,8 @@
     "inAttio": true,
     "id": "mastt--ian-french"
    }
-  ]
+  ],
+  "description": "Construction project controls software covering budgets, change orders, forecasts, risk registers and stakeholder reporting for project managers and asset owners."
  },
  {
   "id": "matthews-steer-accountants-advisors",
@@ -16519,7 +16779,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16575,7 +16836,8 @@
     "inAttio": false,
     "id": "mcm-house--paddy-brickell-ca"
    }
-  ]
+  ],
+  "description": "Australian designer furniture brand selling indoor and outdoor pieces in natural timber, stone and linen. Sold direct through showrooms and online."
  },
  {
   "id": "mcqueen-group",
@@ -16667,7 +16929,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16723,7 +16986,8 @@
     "inAttio": false,
     "id": "medem--ishita-singh"
    }
-  ]
+  ],
+  "description": "Australian healthcare software group. Medi-Map is an eMAR and care planning system for aged care; Z Software is pharmacy dispensing and point-of-sale software."
  },
  {
   "id": "mediq-financial-services",
@@ -16800,7 +17064,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16822,7 +17087,8 @@
     "inAttio": true,
     "id": "medtasker--ken-lim"
    }
-  ]
+  ],
+  "description": "Clinical task management and communication platform for hospitals, replacing pagers with on-duty routing, escalation and audit trails for doctors, nurses and pharmacists."
  },
  {
   "id": "meeco",
@@ -16869,7 +17135,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16891,7 +17158,8 @@
     "inAttio": true,
     "id": "meeco--wendy-marris"
    }
-  ]
+  ],
+  "description": "Identity and data platform (Secure Value Exchange) for issuing and verifying digital credentials and storing personal data. Sold to banks, governments and enterprises."
  },
  {
   "id": "meir",
@@ -16937,7 +17205,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -16973,7 +17242,8 @@
     "inAttio": true,
     "id": "meir--kamal-bapna"
    }
-  ]
+  ],
+  "description": "Family-owned Australian designer tapware, showers and sinks for bathrooms and kitchens. Sold through retailers and online, with a lifetime guarantee on tapware."
  },
  {
   "id": "melrose-health",
@@ -17106,7 +17376,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -17161,7 +17432,8 @@
     "inAttio": false,
     "id": "menz-confectionery--celeste-vazquez-wehrhahne"
    }
-  ]
+  ],
+  "description": "Adelaide confectionery maker of FruChocs, Violet Crumble, Crown Mints and Polly Waffle. Sold in supermarkets and online, with shops in South Australia and exports to Asia and North America."
  },
  {
   "id": "mgi-joyce-dickson",
@@ -17256,7 +17528,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -17276,7 +17549,8 @@
     "inAttio": true,
     "id": "millie-savage--lachlan-h"
    }
-  ]
+  ],
+  "description": "Handmade fine jewellery brand selling rings, earrings, necklaces and wedding bands in sterling silver, gold vermeil and solid gold. Sold online to consumers."
  },
  {
   "id": "mindset-health",
@@ -17323,7 +17597,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -17345,7 +17620,8 @@
     "inAttio": true,
     "id": "mindset-health--anna-shersheneva-fcca"
    }
-  ]
+  ],
+  "description": "Developer of prescription-style digital therapy apps for chronic conditions (Nerva for IBS, Evia for menopause, Claria for anxiety, Relio for back pain). Sold to patients via app stores and health plans."
  },
  {
   "id": "miss-amara",
@@ -17556,7 +17832,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -17578,7 +17855,8 @@
     "inAttio": true,
     "id": "mod-io--blanche-wang-cpa"
    }
-  ]
+  ],
+  "description": "Middleware for game developers to add user-generated content and mods to their games, with moderation tools, creator marketplace and white-label hub. Founded in Melbourne in 2017."
  },
  {
   "id": "mont-adventure-equipment",
@@ -17697,7 +17975,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -17743,7 +18022,8 @@
     "id": "moogoo-skin-care--cfo-terri-spence-or-paul-marzella",
     "linkedin": "https://www.linkedin.com/in/paul-marzella-87362a6a"
    }
-  ]
+  ],
+  "description": "Australian natural skin, scalp and dental care brand for sensitive and problem-prone skin, including eczema and psoriasis products. Sold online and internationally."
  },
  {
   "id": "morris-cohen-glen-co-mcg-co",
@@ -17913,7 +18193,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -17951,7 +18232,8 @@
     "inAttio": true,
     "id": "muk-haircare--sasha-raicevic"
    }
-  ]
+  ],
+  "description": "Australian-owned professional haircare brand selling colour, toners and treatments to hair salons and hairdressers."
  },
  {
   "id": "mukti-organics",
@@ -17998,7 +18280,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18018,7 +18301,8 @@
     "inAttio": true,
     "id": "mukti-organics--mita-noble"
    }
-  ]
+  ],
+  "description": "Certified organic skincare, hair and body care brand made in-house in Mullumbimby, NSW, using native Australian botanicals. Sold online to consumers."
  },
  {
   "id": "mura-boutique",
@@ -18064,7 +18348,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18084,7 +18369,8 @@
     "inAttio": true,
     "id": "mura-boutique--sayaka-louca"
    }
-  ]
+  ],
+  "description": "Australian online womenswear retailer selling dresses, tops, bottoms, swimwear and accessories to consumers."
  },
  {
   "id": "murdoch-partners",
@@ -18327,7 +18613,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18399,7 +18686,8 @@
     "inAttio": false,
     "id": "nak-hair--tamara-marshall"
    }
-  ]
+  ],
+  "description": "Australian-made salon haircare brand with NAK Signature, ROH, NAK Barber and CARE ranges. Sold to consumers and to salons and stylists."
  },
  {
   "id": "naked-sundays",
@@ -18448,7 +18736,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18484,7 +18773,8 @@
     "inAttio": false,
     "id": "naked-sundays--tsz-kan-tam"
    }
-  ]
+  ],
+  "description": "Vegan SPF50 sunscreen and makeup brand selling direct to consumers online in Australia and the US. Products include tinted sunscreens and SPF primers."
  },
  {
   "id": "natalie-rolt",
@@ -18530,7 +18820,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18568,7 +18859,8 @@
     "inAttio": true,
     "id": "natalie-rolt--zoe-viskovich"
    }
-  ]
+  ],
+  "description": "Independent Western Australian fashion label designing and making evening, bridal and resort wear. Operates a flagship boutique and studio in WA."
  },
  {
   "id": "natio",
@@ -18615,7 +18907,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18636,7 +18929,8 @@
     "inAttio": true,
     "id": "natio--matthew-smith"
    }
-  ]
+  ],
+  "description": "Natural Australian skincare, sun care and makeup brand selling cruelty-free products to consumers through its online store."
  },
  {
   "id": "new-wave-accountants-business-advisory",
@@ -18731,7 +19025,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18753,7 +19048,8 @@
     "inAttio": true,
     "id": "nexba--jane-hoang"
    }
-  ]
+  ],
+  "description": "Sugar-free kombucha and Better Soda drinks sweetened with a plant-based sweetener, sold to consumers in Australia, the UK and Europe."
  },
  {
   "id": "nicholas-the-label",
@@ -18799,7 +19095,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18819,7 +19116,8 @@
     "inAttio": true,
     "id": "nicholas-the-label--martono-widjaja"
    }
-  ]
+  ],
+  "description": "Women's clothing label founded in Melbourne in 2009, with a Los Angeles base. Sells dresses, skirts, tops and knitwear direct online to customers in many countries."
  },
  {
   "id": "nimbus",
@@ -18865,7 +19163,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18887,7 +19186,8 @@
     "inAttio": true,
     "id": "nimbus--justin-gillett"
    }
-  ]
+  ],
+  "description": "Australian cloud workforce management software (time2work) for scheduling, time and attendance and award-compliant payroll. Also sells contact-centre and business continuity tools to enterprises and government."
  },
  {
   "id": "noggin",
@@ -18934,7 +19234,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -18971,7 +19272,8 @@
     "inAttio": false,
     "id": "noggin--karen-may-patnon-cpa"
    }
-  ]
+  ],
+  "description": "Integrated resilience software covering emergency management, incident and crisis response, business continuity and risk, with mapping, messaging and response plans for organisations."
  },
  {
   "id": "noosa-chocolate-factory",
@@ -19010,7 +19312,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19032,7 +19335,10 @@
     "inAttio": true,
     "id": "noosa-chocolate-factory--kate-houlahan"
    }
-  ]
+  ],
+  "description": "Noosaville, Queensland chocolate maker handcrafting slabs, rocky road, panned chocolate and gift hampers. Sold in its Queensland stores and online.",
+  "domain": "noosachocolatefactory.com.au",
+  "website": "https://noosachocolatefactory.com.au"
  },
  {
   "id": "noshu",
@@ -19078,7 +19384,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19098,7 +19405,8 @@
     "inAttio": true,
     "id": "noshu--simon-miks"
    }
-  ]
+  ],
+  "description": "Australian-made low-sugar snack bars, baking mixes and treats sweetened with plant-based sweeteners. Sold through Woolworths, Coles, Costco and online retailers."
  },
  {
   "id": "nuzest-life",
@@ -19143,7 +19451,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19183,7 +19492,8 @@
     "inAttio": true,
     "id": "nuzest-life--maggie-zhang"
    }
-  ]
+  ],
+  "description": "Plant-based protein and greens supplements, including Clean Lean Protein pea protein and Protein + Probiotics blends. Sold to consumers online and in retail."
  },
  {
   "id": "o-m-original-mineral",
@@ -19229,7 +19539,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19267,7 +19578,8 @@
     "inAttio": true,
     "id": "o-m-original-mineral--tiffany-liu"
    }
-  ]
+  ],
+  "description": "Sydney-made salon haircare and colour brand (O&M) positioned as clean and vegan. Sold to hairdressers and to consumers through its online store."
  },
  {
   "id": "o-brien-accountants-advisors",
@@ -19392,7 +19704,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19414,7 +19727,8 @@
     "inAttio": true,
     "id": "oneblink--sarah-pollard"
    }
-  ]
+  ],
+  "description": "No-code forms, app and workflow platform used by government agencies and enterprises to digitise paper forms and automate processes, with offline access."
  },
  {
   "id": "oneledger-group",
@@ -19506,7 +19820,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19526,7 +19841,8 @@
     "inAttio": true,
     "id": "origani--cham-fernando"
    }
-  ]
+  ],
+  "description": "Melbourne-founded certified organic skincare brand (Erda, Manuka Honey Peel, Dermassure ranges). Sold direct to consumers through its online store."
  },
  {
   "id": "outcast",
@@ -19572,7 +19888,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19628,7 +19945,8 @@
     "inAttio": false,
     "id": "outcast--georgia-duffy"
    }
-  ]
+  ],
+  "description": "Online womenswear label selling dresses, tops, bottoms and swimwear that it designs in-house. Adds new drops weekly and sells through its website and app."
  },
  {
   "id": "papinelle",
@@ -19674,7 +19992,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19714,7 +20033,8 @@
     "inAttio": true,
     "id": "papinelle--vicki-w"
    }
-  ]
+  ],
+  "description": "Australian sleepwear and loungewear brand selling pyjama sets, nighties and robes in cotton, modal and linen. Sold direct to consumers online."
  },
  {
   "id": "paris-financial",
@@ -19837,7 +20157,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19859,7 +20180,8 @@
     "inAttio": true,
     "id": "payfurl--dean-herbert"
    }
-  ]
+  ],
+  "description": "Payment orchestration platform founded in 2026 that routes online payments across 70+ providers, with failover, a card vault and optional fraud screening, for merchants and platforms."
  },
  {
   "id": "payroll-metrics",
@@ -19904,7 +20226,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -19958,7 +20281,8 @@
     "inAttio": false,
     "id": "payroll-metrics--aniket-dhamane"
    }
-  ]
+  ],
+  "description": "Payroll, timesheet and compliance software for Australian and New Zealand employers, covering award and EBA pay, Single Touch Payroll and SuperStream."
  },
  {
   "id": "perfect-accounting-tax-services",
@@ -20084,7 +20408,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -20106,7 +20431,8 @@
     "inAttio": true,
     "id": "perx-health--wendy-chen"
    }
-  ]
+  ],
+  "description": "Digital care management app for high-risk, medically complex members. Sold to health plans, health providers and government agencies, with gift card rewards for completing treatment tasks."
  },
  {
   "id": "petal-pup",
@@ -20152,7 +20478,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -20190,7 +20517,8 @@
     "inAttio": true,
     "id": "petal-pup--rohini-gurrala"
    }
-  ]
+  ],
+  "description": "Australian-founded online womenswear label selling dresses, playsuits, tops and sets with a laid-back feminine style. Sells online to customers, including through a USA store."
  },
  {
   "id": "peter-bouchier",
@@ -20299,7 +20627,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -20370,7 +20699,10 @@
     "inAttio": false,
     "id": "peto-australia--poggy-he"
    }
-  ]
+  ],
+  "description": "Australian family-owned pet supplies retailer selling dog and cat food, treats, toys and flea products. Sold through stores across Australia and online.",
+  "domain": "peto.com.au",
+  "website": "https://peto.com.au"
  },
  {
   "id": "petzyo",
@@ -20530,7 +20862,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -20569,7 +20902,10 @@
     "inAttio": false,
     "id": "photosentinel--kaedom-tin"
    }
-  ]
+  ],
+  "description": "Solar-powered construction time-lapse and site monitoring cameras (Buildcam) with the Sentinel OS software platform. Sold to builders and project teams; over 5,600 systems deployed in 55 countries.",
+  "domain": "photosentinel.com",
+  "website": "https://photosentinel.com"
  },
  {
   "id": "pilgrim-clothing",
@@ -20687,7 +21023,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -20725,7 +21062,8 @@
     "inAttio": false,
     "id": "pillar-performance--mavra-ioannidou"
    }
-  ]
+  ],
+  "description": "Sports supplements and hydration products, including creatine, magnesium, collagen and electrolyte powders. Sold direct online to athletes and sports teams."
  },
  {
   "id": "playhq-sports",
@@ -20771,7 +21109,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -20793,7 +21132,8 @@
     "inAttio": true,
     "id": "playhq-sports--anwar-hossain"
    }
-  ]
+  ],
+  "description": "Sports registration and payments platform for clubs and associations. Takes member registrations and fees, offers instalments, and pays organisations out after collection."
  },
  {
   "id": "polished-brands-urbane-mess",
@@ -20836,7 +21176,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -20856,7 +21197,8 @@
     "inAttio": true,
     "id": "polished-brands-urbane-mess--josie-bassilious"
    }
-  ]
+  ],
+  "description": "Port Melbourne grooming company selling men's hair styling, beard care, skincare and battery grooming products under the Urbane Mess brand."
  },
  {
   "id": "posca-hydrate",
@@ -20899,7 +21241,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -20919,7 +21262,8 @@
     "inAttio": true,
     "id": "posca-hydrate--laurel-lyn-rubio"
    }
-  ]
+  ],
+  "description": "Australian-made zero-sugar sparkling electrolyte drink with red grape vinegar, marketed as a hydration soda. Sold to consumers for sport, heat and everyday hydration."
  },
  {
   "id": "ppt-ppt-accounting-financial",
@@ -21095,7 +21439,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21117,7 +21462,8 @@
     "inAttio": true,
     "id": "procurepro--hayden-vowell"
    }
-  ]
+  ],
+  "description": "Construction procurement software for head contractors. Centralises subcontractor tenders, scopes, approvals and contracts on commercial, fit-out and infrastructure projects."
  },
  {
   "id": "professional-bookkeeping-service",
@@ -21210,7 +21556,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21232,7 +21579,8 @@
     "inAttio": true,
     "id": "programa--paul-rowlinson"
    }
-  ]
+  ],
+  "description": "Melbourne-based vertical SaaS for architects and interior designers, covering specifications, procurement, client approvals and project management. Used in more than 90 countries."
  },
  {
   "id": "propic",
@@ -21278,7 +21626,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21298,7 +21647,8 @@
     "inAttio": true,
     "id": "propic--sage-dempsey"
    }
-  ]
+  ],
+  "description": "AI assistant (Claire) for Australian real estate agencies. Answers buyer and renter enquiries, writes listing copy and flags likely sellers, working with CRMs such as Rex and VaultRE."
  },
  {
   "id": "proptech-labs",
@@ -21340,7 +21690,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21362,7 +21713,8 @@
     "inAttio": true,
     "id": "proptech-labs--gary-hunter"
    }
-  ]
+  ],
+  "description": "Melbourne property software company offering Bricks + Agent maintenance workflows, Inspection Manager, Invoice Automate and the Alex tenant chatbot to property managers."
  },
  {
   "id": "proud-mary-coffee",
@@ -21408,7 +21760,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21430,7 +21783,8 @@
     "inAttio": true,
     "id": "proud-mary-coffee--amy-davis"
    }
-  ]
+  ],
+  "description": "Melbourne specialty coffee roaster selling whole-bean coffee by subscription and wholesale to cafes. Operates cafes in Collingwood, Melbourne."
  },
  {
   "id": "provectus-algae",
@@ -21487,7 +21841,8 @@
     ],
     "inAttio": false
    }
-  ]
+  ],
+  "description": "Biotech developing products from photosynthetic microbes. Its first product, Surf'N'Turf, is a dry feed supplement for ruminant livestock that reduces methane, commercialised via spin-out Proteus Ag."
  },
  {
   "id": "psyke-ai",
@@ -21529,7 +21884,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21548,7 +21904,8 @@
     "id": "psyke-ai--ashley-law-smith",
     "linkedin": "https://www.linkedin.com/in/ashleylawsmith"
    }
-  ]
+  ],
+  "description": "Marketing software that builds AI-optimised landing pages and tracks how AI assistants cite a brand. Sold to marketing teams and agencies, deploying to Webflow, WordPress and Shopify."
  },
  {
   "id": "ptp",
@@ -21594,7 +21951,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21632,7 +21990,8 @@
     "inAttio": false,
     "id": "ptp--sarino-gigliotti"
    }
-  ]
+  ],
+  "description": "Australian-designed resistance bands, recovery tools and strength training gear for athletes and home gym users. Sold online in Australia and more than 40 countries."
  },
  {
   "id": "pure-mama",
@@ -21644,7 +22003,8 @@
   "segment": "CPG / Ecom / D2C",
   "inAttio": false,
   "sources": [
-   "Vert_AU_prospects_Origami"
+   "Vert_AU_prospects_Origami",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21662,7 +22022,8 @@
     "inAttio": false,
     "id": "pure-mama--yasmin-shepherd"
    }
-  ]
+  ],
+  "description": "Natural skincare brand for pregnancy, postpartum and scar care (stretch mark and belly oils), made in New Zealand. Sold direct to consumers online in Australia, the US and other markets."
  },
  {
   "id": "purebaby",
@@ -21708,7 +22069,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21730,7 +22092,8 @@
     "inAttio": true,
     "id": "purebaby--paul-hare"
    }
-  ]
+  ],
+  "description": "Australian-owned organic cotton clothing, swimwear and accessories for babies and children. Sold through its own stores, David Jones concessions and online, with some international distribution."
  },
  {
   "id": "pvw-partners-accountants-advisors",
@@ -21823,7 +22186,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21843,7 +22207,8 @@
     "inAttio": true,
     "id": "px4-software--kylie-brodsky"
    }
-  ]
+  ],
+  "description": "Cloud-based land and tenure management software for mining and exploration companies. Tracks tenements, agreements, rents and regulatory obligations across jurisdictions, integrated with Esri ArcGIS."
  },
  {
   "id": "q4-financial",
@@ -21971,7 +22336,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -21993,7 +22359,8 @@
     "inAttio": true,
     "id": "qwilr--andy-judson"
    }
-  ]
+  ],
+  "description": "Proposal, quote and e-signature software for sales teams, with online payments, engagement analytics and integrations with CRMs such as HubSpot, Salesforce and Pipedrive."
  },
  {
   "id": "r-j-sanderson-associates",
@@ -22072,7 +22439,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -22094,7 +22462,8 @@
     "inAttio": true,
     "id": "rachel-gilbert--danny-bui"
    }
-  ]
+  ],
+  "description": "Sydney-headquartered designer label making evening wear, ready-to-wear and bridal pieces. Sold online and through retail stockists."
  },
  {
   "id": "raisely",
@@ -22140,7 +22509,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -22162,7 +22532,8 @@
     "inAttio": true,
     "id": "raisely--math-o-zerbib"
    }
-  ]
+  ],
+  "description": "Fundraising platform for charities and nonprofits, offering donation forms, peer-to-peer campaigns, event ticketing and donor management. Platform fees are funded by optional donor tips."
  },
  {
   "id": "rbizz-corporate-accountants",
@@ -22322,7 +22693,8 @@
   "inAttio": true,
   "sources": [
    "Attio",
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -22393,7 +22765,8 @@
     "inAttio": false,
     "id": "relevance-ai--daniel-palmer"
    }
-  ]
+  ],
+  "description": "Enterprise platform for building, running and evaluating AI agents, with a visual workflow builder, evaluation suites, tracing and access controls for business and engineering teams."
  },
  {
   "id": "reposit-power",
@@ -22439,7 +22812,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -22479,7 +22853,8 @@
     "inAttio": true,
     "id": "reposit-power--yash-kalra"
    }
-  ]
+  ],
+  "description": "Australian home energy company selling solar and battery systems that run on its Reposit Controller software. Its No Bill plan covers customers' household electricity charges."
  },
  {
   "id": "revelation-software-concepts",
@@ -22525,7 +22900,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -22561,7 +22937,8 @@
     "inAttio": false,
     "id": "revelation-software-concepts--gareth-saldanha"
    }
-  ]
+  ],
+  "description": "Forest Hill, Victoria software company selling Rev-Trac, a platform that automates SAP change delivery and keeps an audit trail. Sold to enterprise SAP teams."
  },
  {
   "id": "rex-software",
@@ -22607,7 +22984,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -22679,7 +23057,8 @@
     "inAttio": false,
     "id": "rex-software--jasmine-evans"
    }
-  ]
+  ],
+  "description": "Real estate software for agencies, including a sales and rentals CRM, trust accounting and portal integrations. Sold to real estate agencies in Australia, New Zealand and the UK."
  },
  {
   "id": "rogerson-kenny-business-accountants",
@@ -22840,7 +23219,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -22932,7 +23312,8 @@
     "inAttio": false,
     "id": "rosterfy--melissa-crahan"
    }
-  ]
+  ],
+  "description": "Volunteer and workforce management software for large organisations, covering recruitment, scheduling, training, hour tracking and rewards. Sold to charities, councils, events and sporting bodies."
  },
  {
   "id": "rosy-small-business-services",
@@ -23011,7 +23392,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -23031,7 +23413,8 @@
     "inAttio": true,
     "id": "saddlery-brands-international--sarah-ng"
    }
-  ]
+  ],
+  "description": "Equestrian company that makes and distributes Arena, Bates and Wintec saddles. Sells through retail and importer partners in Australia and other markets."
  },
  {
   "id": "sapia-ai",
@@ -23081,7 +23464,8 @@
    "Attio",
    "Vert_prospect_list_AU_final",
    "Vert_AU_finance_team_contacts",
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -23174,7 +23558,8 @@
     "inAttio": false,
     "id": "sapia-ai--daniel-tay"
    }
-  ]
+  ],
+  "description": "AI interview and hiring platform for enterprises. Runs text-based chat interviews, scores candidates against role competencies and integrates with applicant tracking systems."
  },
  {
   "id": "sarah-sebastian",
@@ -23220,7 +23605,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -23290,7 +23676,8 @@
     "inAttio": false,
     "id": "sarah-sebastian--jerry-s"
    }
-  ]
+  ],
+  "description": "Australian fine jewellery studio making diamond, gemstone and gold pieces, including personalised and signature collections. Sold to consumers online."
  },
  {
   "id": "saward-dawson",
@@ -23382,7 +23769,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -23440,7 +23828,8 @@
     "inAttio": false,
     "id": "scope-systems--natalia-demarco-asa"
    }
-  ]
+  ],
+  "description": "Australian software provider for asset maintenance and ERP. Offers AssetHive mobile maintenance software and Pronto Xi add-ons, aimed at mining, civil and resources companies."
  },
  {
   "id": "securinvest-financial-group",
@@ -23578,7 +23967,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -23631,7 +24021,8 @@
     "inAttio": false,
     "id": "sesimi--christopher-daoud"
    }
-  ]
+  ],
+  "description": "Brand management SaaS for multi-location brands, covering shared campaign calendars, co-op marketing budgets, digital asset management and brand-compliant creative automation."
  },
  {
   "id": "shaw-downie-chartered-accountants",
@@ -23683,7 +24074,8 @@
   "notes": "Home/bedding DTC. Fast growth. 72 employees could push revenue toward the cap.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -23738,7 +24130,8 @@
     "inAttio": false,
     "id": "sheet-society--andy-worley"
    }
-  ]
+  ],
+  "description": "Bedding brand selling sheets, quilt covers and pillowcases in cotton, bamboo and linen. Sold direct to consumers online, with an Australian warehouse."
  },
  {
   "id": "shelter-brewing-co",
@@ -23855,7 +24248,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -23926,7 +24320,8 @@
     "inAttio": false,
     "id": "shona-joy--yiwen-eva-xu"
    }
-  ]
+  ],
+  "description": "Australian womenswear label selling dresses, tops, knitwear, suiting and swim pieces online to customers in Australia and New Zealand."
  },
  {
   "id": "simply-wall-st",
@@ -23972,7 +24367,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -23994,7 +24390,8 @@
     "inAttio": true,
     "id": "simply-wall-st--ashleigh-gehlig"
    }
-  ]
+  ],
+  "description": "Stock research and portfolio tracking app for retail investors, offering company reports, screeners and portfolio analysis on subscription plans. Founded in Sydney in 2014."
  },
  {
   "id": "single-o",
@@ -24126,7 +24523,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -24183,7 +24581,8 @@
     "inAttio": false,
     "id": "sir--carina-lu"
    }
-  ]
+  ],
+  "description": "Sydney-based contemporary fashion label making separates, intimates, dresses and knitwear. Sold online to customers in Australia and internationally."
  },
  {
   "id": "skipper",
@@ -24390,7 +24789,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -24430,7 +24830,8 @@
     "inAttio": false,
     "id": "slice--bill-qi"
    }
-  ]
+  ],
+  "description": "Pyrmont, Sydney fintech offering PayLater Travel, a lay-by plan that lets travellers lock in flight prices with a deposit and pay in instalments. Also sells Slice Pay to travel agents."
  },
  {
   "id": "slickhair",
@@ -24475,7 +24876,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -24512,7 +24914,8 @@
     "inAttio": true,
     "id": "slickhair--heli-vyas"
    }
-  ]
+  ],
+  "description": "Hair styling brand selling anti-frizz sticks, gels, brushes and clips for smooth, slicked-back styles. Sold direct to consumers online."
  },
  {
   "id": "slomoi-immerman-partners-sip",
@@ -24605,7 +25008,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -24628,7 +25032,8 @@
     "inAttio": true,
     "id": "smarter-city-solutions--kathleen-roth"
    }
-  ]
+  ],
+  "description": "Australian smart-city software for councils and campuses, covering pay-by-phone parking, parking enforcement and online permits (vPermit) that integrate with council systems."
  },
  {
   "id": "smith-feutrill",
@@ -24803,7 +25208,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -24825,7 +25231,8 @@
     "inAttio": true,
     "id": "solskin-beauty-labs--jenny-ung"
    }
-  ]
+  ],
+  "description": "Melbourne white-label manufacturer of skincare, haircare, body care and self-tan products. Makes private-label ranges for brands and tanning salons."
  },
  {
   "id": "spell",
@@ -24958,7 +25365,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25015,7 +25423,8 @@
     "inAttio": false,
     "id": "splose--shane-mcgrath"
    }
-  ]
+  ],
+  "description": "AI practice management software for allied health clinics such as physiotherapy, occupational therapy and psychology. Covers scheduling, progress notes, invoicing and NDIS claims."
  },
  {
   "id": "srs-business-accounting-solutions",
@@ -25097,7 +25506,8 @@
    "Attio",
    "Vert_prospect_list_AU_final",
    "Vert_AU_finance_team_contacts",
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25138,7 +25548,8 @@
     "inAttio": false,
     "id": "st-frock--yuanchun-kris-fu-cpa"
    }
-  ]
+  ],
+  "description": "Australian online women's clothing retailer selling dresses, tops, bottoms and knitwear in sizes 8 to 20. Ships across Australia from Sydney."
  },
  {
   "id": "st-ali",
@@ -25368,7 +25779,8 @@
   "attioId": "d31a5e66-88d4-4d72-af5d-08f299d27e39",
   "inAttio": true,
   "sources": [
-   "Attio"
+   "Attio",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25385,7 +25797,8 @@
     "inAttio": true,
     "id": "startmate--jason-fang"
    }
-  ]
+  ],
+  "description": "Startup accelerator for Australian and New Zealand founders. Invests $120k AUD for an 8% stake in companies that have not raised before, over a 14-week program."
  },
  {
   "id": "starward-whisky",
@@ -25431,7 +25844,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25471,7 +25885,8 @@
     "inAttio": true,
     "id": "starward-whisky--indra-miklavc"
    }
-  ]
+  ],
+  "description": "Port Melbourne distillery making Australian single malt and wheat whiskies, using red wine barrels. Sold online and through its distillery bar, with tours and tastings."
  },
  {
   "id": "step-one",
@@ -25490,7 +25905,8 @@
   "notes": "DTC underwear brand. Printed revenue under $20M with a named CFO.",
   "inAttio": false,
   "sources": [
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25546,7 +25962,8 @@
     "inAttio": false,
     "id": "step-one--georgia-cutbush"
    }
-  ]
+  ],
+  "description": "Direct-to-consumer online underwear brand selling bamboo viscose underwear, socks and sleepwear for men, women and kids. Operates in Australia, the US and the UK."
  },
  {
   "id": "stomping-ground-brewing-co",
@@ -25593,7 +26010,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25633,7 +26051,8 @@
     "inAttio": false,
     "id": "stomping-ground-brewing-co--paul-johns"
    }
-  ]
+  ],
+  "description": "Melbourne craft brewery making lagers, pale ales, sours and barrel-aged beers. Sold through its beer halls, bottle shops and online store."
  },
  {
   "id": "straand",
@@ -25676,7 +26095,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25696,7 +26116,8 @@
     "inAttio": true,
     "id": "straand--kristina-brown"
    }
-  ]
+  ],
+  "description": "Melbourne-made scalp and hair care brand selling shampoos, serums and scrubs for dandruff, dryness and oiliness. Sold online and through Priceline pharmacies."
  },
  {
   "id": "strategem-financial-services",
@@ -25788,7 +26209,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25828,7 +26250,8 @@
     "inAttio": false,
     "id": "streamtime--julian-retamal"
    }
-  ]
+  ],
+  "description": "Project management and time tracking software for creative agencies, studios and architects. Covers scheduling, quoting, invoicing and job profitability reporting."
  },
  {
   "id": "striven-software",
@@ -25874,7 +26297,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25896,7 +26320,8 @@
     "inAttio": true,
     "id": "striven-software--carol-garnham"
    }
-  ]
+  ],
+  "description": "Australian-owned point-of-sale and business management software for hardware, building supplies and paint retailers, with integrations for Xero, MYOB and QuickBooks."
  },
  {
   "id": "sullivans-cove-distillery",
@@ -25942,7 +26367,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -25980,7 +26406,8 @@
     "inAttio": false,
     "id": "sullivans-cove-distillery--nainika-mascarenhas"
    }
-  ]
+  ],
+  "description": "Single-cask whisky distillery in Hobart, Tasmania, selling single malt expressions to whisky drinkers and collectors. Runs distillery tours and tastings."
  },
  {
   "id": "superapi",
@@ -26024,7 +26451,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -26046,7 +26474,8 @@
     "inAttio": true,
     "id": "superapi--paul-turner"
    }
-  ]
+  ],
+  "description": "Embedded superannuation platform that connects payroll and HR software to super funds, handling employee super choice and stapling. Built for software providers and super funds."
  },
  {
   "id": "superguardian",
@@ -26353,7 +26782,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -26375,7 +26805,8 @@
     "inAttio": true,
     "id": "tanica--sophie-dean"
    }
-  ]
+  ],
+  "description": "Sydney-made Australian native aperitif flavoured with Davidson's plum and strawberry gum. Sold to bars, restaurants and bottle shops, and direct online."
  },
  {
   "id": "tank-stream-design",
@@ -26422,7 +26853,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -26493,7 +26925,8 @@
     "inAttio": false,
     "id": "tank-stream-design--jennifer-bartolome"
    }
-  ]
+  ],
+  "description": "Queensland coast design company making hats, sunglasses and apparel for outdoor and beach lifestyles across a family of brands, including Wollumbin eyewear."
  },
  {
   "id": "taxoz-accountants",
@@ -26934,7 +27367,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -26954,7 +27388,8 @@
     "inAttio": true,
     "id": "the-mclaren-vale-distillery--joanne-rowe"
    }
-  ]
+  ],
+  "description": "McLaren Vale single malt whisky distillery making whiskies matured and finished in local wine and fortified casks. Sold online and from its tasting room."
  },
  {
   "id": "the-memo",
@@ -27003,7 +27438,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27038,7 +27474,8 @@
     "inAttio": true,
     "id": "the-memo--lucinda-green"
    }
-  ]
+  ],
+  "description": "Online baby and parenting retailer selling prams, car seats, cots, breast pumps, toys and nursery furniture from a range of baby brands."
  },
  {
   "id": "the-pen-accounting",
@@ -27116,7 +27553,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27168,7 +27606,8 @@
     "inAttio": false,
     "id": "the-somewhere-co--melanie-ragudos"
    }
-  ]
+  ],
+  "description": "Bold, colourful everyday homewares and accessories, including lunch bags, totes, water bottles and kids' items. Sold online to consumers."
  },
  {
   "id": "the-vege-chip-company",
@@ -27214,7 +27653,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27250,7 +27690,8 @@
     "inAttio": false,
     "id": "the-vege-chip-company--mara-douglas"
    }
-  ]
+  ],
+  "description": "Gold Coast gluten-free and plant-based vegetable chips, made in an exclusively gluten-free factory. Sold through Australian supermarkets and distributed internationally."
  },
  {
   "id": "thn-samios-partners",
@@ -27344,7 +27785,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27400,7 +27842,8 @@
     "inAttio": false,
     "id": "tixel--rebecca-egan"
    }
-  ]
+  ],
+  "description": "Ticket resale marketplace where fans buy and sell event tickets at capped prices, backed by a money-back buyer guarantee."
  },
  {
   "id": "totem-road",
@@ -27446,7 +27889,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27468,7 +27912,8 @@
     "inAttio": true,
     "id": "totem-road--thao-nguyen"
    }
-  ]
+  ],
+  "description": "Sydney-based solid oak furniture brand selling beds, dining tables and bedroom pieces direct to consumers online and through its Paddington showroom."
  },
  {
   "id": "toymonster",
@@ -27513,7 +27958,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27533,7 +27979,8 @@
     "inAttio": true,
     "id": "toymonster--angela-ju"
    }
-  ]
+  ],
+  "description": "Toy company that designs, sources and distributes kids' brands including Pour PalZ, Jurassic World Captivz and Kuma Paw in Australia and New Zealand."
  },
  {
   "id": "track-em",
@@ -27580,7 +28027,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27602,7 +28050,8 @@
     "inAttio": true,
     "id": "track-em--andrew-bell"
    }
-  ]
+  ],
+  "description": "Asset and materials tracking software for construction, shutdown and maintenance work in mining, oil and gas. Sold to EPC contractors and owner-operators."
  },
  {
   "id": "traction-financial",
@@ -27696,7 +28145,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27716,7 +28166,8 @@
     "inAttio": true,
     "id": "trademutt--andrea-biro-farkas"
    }
-  ]
+  ],
+  "description": "Social enterprise workwear brand making conversation-starter work shirts for tradies. Donates 50% of profits to TIACS, a free mental health counselling service for blue-collar workers."
  },
  {
   "id": "trihalo-accountancy",
@@ -27795,7 +28246,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27833,7 +28285,8 @@
     "inAttio": false,
     "id": "true-protein--hayley-cho"
    }
-  ]
+  ],
+  "description": "Sydney-blended all-natural sports nutrition brand selling whey and plant protein, creatine, pre-workouts and protein bars. Sells direct online to customers across Australia."
  },
  {
   "id": "truescope",
@@ -27880,7 +28333,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -27915,7 +28369,8 @@
     "inAttio": true,
     "id": "truescope--matt-ross-smith"
    }
-  ]
+  ],
+  "description": "Media monitoring and media intelligence software for PR and communications teams. Covers broadcast, print, digital and social coverage with alerts, dashboards and reports."
  },
  {
   "id": "ufinancial-accounting-tax",
@@ -28131,7 +28586,8 @@
    "Attio",
    "Vert_prospect_list_AU_final",
    "Vert_AU_finance_team_contacts",
-   "AU_ecommerce_AI_finance_leads"
+   "AU_ecommerce_AI_finance_leads",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28226,7 +28682,8 @@
     "inAttio": false,
     "id": "ultraceuticals--bao-ngoc-pham"
    }
-  ]
+  ],
+  "description": "Australian cosmeceutical skincare brand sold through skin therapists, salons, clinics and medispas in Australia, New Zealand, the US and Ireland."
  },
  {
   "id": "underworks",
@@ -28438,7 +28895,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28460,7 +28918,8 @@
     "inAttio": true,
     "id": "uppercut-deluxe--omair-khan"
    }
-  ]
+  ],
+  "description": "Australian men's grooming brand selling pomades, styling products, shave products and beard care. Sold direct online to men."
  },
  {
   "id": "v-daq",
@@ -28506,7 +28965,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28528,7 +28988,8 @@
     "inAttio": true,
     "id": "v-daq--sahri-brown"
    }
-  ]
+  ],
+  "description": "Australian GPS fleet telematics hardware and platform for vehicles, trailers and assets. Includes video safety cameras, fatigue compliance and asset tracking for fleet operators."
  },
  {
   "id": "v2food",
@@ -28575,7 +29036,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28631,7 +29093,8 @@
     "inAttio": false,
     "id": "v2food--hemamalini-jagadeeswaran"
    }
-  ]
+  ],
+  "description": "Plant protein ingredient supplier selling protein and fibre boosts and a shelf-stable plant-based mince to food manufacturers, caterers and blending partners."
  },
  {
   "id": "valour-sport",
@@ -28677,7 +29140,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28697,7 +29161,8 @@
     "inAttio": true,
     "id": "valour-sport--shannon-edey"
    }
-  ]
+  ],
+  "description": "Sydney-based custom sportswear manufacturer making team uniforms, school sportswear and supporter merchandise for schools, clubs, associations and elite teams."
  },
  {
   "id": "versa-ai",
@@ -28739,7 +29204,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28761,7 +29227,8 @@
     "inAttio": true,
     "id": "versa-ai--wendy-faraday"
    }
-  ]
+  ],
+  "description": "Custom conversational AI service for enterprise customer care, building and running voice and chat bots billed per resolution. Formerly Versa AI, now trading as Candor AI."
  },
  {
   "id": "verve-fitness",
@@ -28807,7 +29274,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28829,7 +29297,8 @@
     "inAttio": true,
     "id": "verve-fitness--natasha-saunders"
    }
-  ]
+  ],
+  "description": "Australian home and commercial gym equipment brand selling power racks, cable trainers, benches and cardio machines direct online to home users and gyms."
  },
  {
   "id": "vimwood-australia",
@@ -28875,7 +29344,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28909,7 +29379,8 @@
     "inAttio": false,
     "id": "vimwood-australia--anjalee-moktan"
    }
-  ]
+  ],
+  "description": "Australian fashion accessories supplier designing licensed kids' and women's hair accessories, plus private-label and proprietary ranges for retailers and eCommerce brands."
  },
  {
   "id": "visibuild",
@@ -28948,7 +29419,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -28968,7 +29440,10 @@
     "inAttio": true,
     "id": "visibuild--jordan-anthony"
    }
-  ]
+  ],
+  "description": "Construction quality management software for builders and trade contractors. Digitises inspections, ITP sign-offs, defect tracking and handover documentation.",
+  "domain": "visibuild.com",
+  "website": "https://visibuild.com"
  },
  {
   "id": "visory",
@@ -29109,7 +29584,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -29165,7 +29641,8 @@
     "inAttio": false,
     "id": "vitality-brands-worldwide--rui-t"
    }
-  ]
+  ],
+  "description": "Health and personal care brand owner with Cancer Council sunscreen, Epzen, Senne Skin and essano skincare. Sold through retailers and online."
  },
  {
   "id": "walker-wayland-advantage",
@@ -29288,7 +29765,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -29342,7 +29820,8 @@
     "inAttio": false,
     "id": "we-are-tailored--nickshala-balakrishnan"
    }
-  ]
+  ],
+  "description": "Melbourne drinks company making ready-to-drink cocktails, craft spirits, cold drip coffee and low-alcohol drinks under its own brands, and offering contract manufacturing for other brands."
  },
  {
   "id": "webuild-construction-software",
@@ -29388,7 +29867,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -29410,7 +29890,8 @@
     "inAttio": true,
     "id": "webuild-construction-software--mike-b"
    }
-  ]
+  ],
+  "description": "Cloud construction management software for small-to-medium commercial builders. Covers bid management, document control, contracts, quality and safety, and project dashboards."
  },
  {
   "id": "wilbur",
@@ -29455,7 +29936,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -29477,7 +29959,8 @@
     "inAttio": true,
     "id": "wilbur--lydia-wu"
    }
-  ]
+  ],
+  "description": "Agentic claims platform for insurers, MGAs, brokers and self-insured organisations. Uses AI to capture claim evidence, triage and orchestrate claim workflows under human approval."
  },
  {
   "id": "willis-partners",
@@ -29672,7 +30155,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -29692,7 +30176,8 @@
     "inAttio": true,
     "id": "xap--bhavna-gopal"
    }
-  ]
+  ],
+  "description": "Childcare and early learning management software for centres and out-of-school-hours care, covering enrolments, attendance, billing and parent communication. Used by over 2,300 centres."
  },
  {
   "id": "xeople",
@@ -29736,7 +30221,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -29758,7 +30244,8 @@
     "inAttio": true,
     "id": "xeople--cornell-tsiang"
    }
-  ]
+  ],
+  "description": "Recruitment and workforce software for staffing agencies. Entire OnHire handles labour-hire rostering and payroll, and XeopleRecruit is an applicant tracking system for permanent recruiters."
  },
  {
   "id": "xeta",
@@ -29915,7 +30402,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -29989,7 +30477,8 @@
     "inAttio": false,
     "id": "york-st-brands-tbh-skincare-boost-lab-bo--katie-mcbryde"
    }
-  ]
+  ],
+  "description": "Beauty and wellness brand house behind The Breakout Hack acne care, BOOST LAB serums and Bouf hair regrowth products. Sold through pharmacies and retailers in Australia, New Zealand and the UK."
  },
  {
   "id": "young-henrys",
@@ -30036,7 +30525,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -30074,7 +30564,8 @@
     "inAttio": false,
     "id": "young-henrys--christine-blake"
    }
-  ]
+  ],
+  "description": "Newtown, Sydney craft brewery making beers including Newtowner, served at its Newtown venues and sold through retail. B Corp certified and Australian-owned."
  },
  {
   "id": "yuki-threads",
@@ -30120,7 +30611,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -30141,7 +30633,8 @@
     "inAttio": true,
     "id": "yuki-threads--lachlan-h"
    }
-  ]
+  ],
+  "description": "Australian snow apparel brand selling outerwear, hoodies, pants and beanies for snow sports, sold online to riders."
  },
  {
   "id": "zimsen-partners",
@@ -30234,7 +30727,8 @@
   "sources": [
    "Attio",
    "Vert_prospect_list_AU_final",
-   "Vert_AU_finance_team_contacts"
+   "Vert_AU_finance_team_contacts",
+   "Exa web research"
   ],
   "contacts": [
    {
@@ -30256,6 +30750,7 @@
     "inAttio": true,
     "id": "zjoosh--tracey-ritchie"
    }
-  ]
+  ],
+  "description": "Australian lifestyle brand selling fashion jewellery, handbags, cashmere, homewares and gifts through 16 stores and online."
  }
 ]

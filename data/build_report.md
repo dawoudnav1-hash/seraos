@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-22T12:55:29+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-22T12:56:34+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **479**
 - Contacts (de-duplicated): **843**
@@ -62,7 +62,7 @@ Generated 2026-11-22T12:55:29+00:00 by `pipeline/build_data.py`.
 - [count] Melbourne Accounting Firm Contacts: 100 firms
 - [attio-stub] stub ['melrosegroup.com.au'] dropped (no name, no matching account)
 - [count] Attio: 274 companies (1 stub), 69 people (0 unmatched)
-- [count] Exa enrichment: 0 firms, 0 companies, 5 LinkedIn URLs, 42 new contacts
+- [count] Exa enrichment: 0 firms, 243 companies, 5 LinkedIn URLs, 42 new contacts
 - [override] contact creswick-wool--paul-ryzowy: {'likelyLeft': True, 'note': 'Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld.'}
 - [override] account great-wrap: flagged
 - [override] account lgy-accountants: flagged
