@@ -1,0 +1,261 @@
+[
+ {
+  "id": "adventure-operations",
+  "location": "Eagle Farm, QLD, AU",
+  "evidence": "Site: 'Head Office & Distribution Centre, 71 Charles Ulm Pl, Eagle Farm QLD 4009'",
+  "sourceUrl": "https://adventureoperations.com.au/",
+  "confidence": "high"
+ },
+ {
+  "id": "b-box-for-kids",
+  "location": "Notting Hill, VIC, AU",
+  "evidence": "Terms: b.box for kids Pty Ltd of Suite 301/Level 3, 1 Acacia Place, Notting Hill VIC 3168; PitchBook HQ Notting Hill",
+  "sourceUrl": "https://bbox.com.au/pages/terms-and-conditions",
+  "confidence": "high"
+ },
+ {
+  "id": "bali-body",
+  "location": "Brighton, VIC, AU",
+  "evidence": "Privacy policy: Bali Body Pty Ltd, 621 Hampton St, Brighton VIC 3186; contact page refers to 'Melbourne head office'",
+  "sourceUrl": "https://au.balibodyco.com/pages/privacy-policy",
+  "confidence": "high"
+ },
+ {
+  "id": "canibuild",
+  "location": "Sydney, NSW, AU",
+  "evidence": "Terms/contact: CanIBuild Au Pty Ltd, Level 35 International Tower One, 100 Barangaroo Ave, Sydney NSW 2000 (also a US office in Bakersfield CA); Craft lists Sydney as HQ",
+  "sourceUrl": "https://canibuild.com/en-au/terms-conditions/",
+  "confidence": "high"
+ },
+ {
+  "id": "ciroa-beauty-jamesly",
+  "location": "Bondi Junction, NSW, AU",
+  "evidence": "Terms: Jamesly Pty Ltd t/a Ciroa Beauty, Unit 403 Level 4, 282 Oxford Street, Bondi Junction NSW 2022",
+  "sourceUrl": "https://ciroabeauty.com/pages/terms-and-conditions",
+  "confidence": "high"
+ },
+ {
+  "id": "cooee-foods",
+  "location": "Rathmines, NSW, AU",
+  "evidence": "Cooee Holdings Pty Ltd (owner of Cooee Native Superfoods): Unit 10, 21 Karoonda Close, Rathmines NSW 2283; sister-brand store billing address same",
+  "sourceUrl": "https://gateway.icn.org.au/suppliers/1805703",
+  "confidence": "medium"
+ },
+ {
+  "id": "cubiko",
+  "location": "Brisbane, QLD, AU",
+  "evidence": "ASIC extract (Jun 2024): registered/principal place of business Unit 1, 22-26 Constance St, Fortitude Valley QLD 4006; a newer directory listing shows Level 4/500 Queen St Brisbane. Brisbane confirmed, suburb may have moved",
+  "sourceUrl": "https://img.healthservicesdaily.com.au/wp-content/uploads/sites/3/2024/06/19140946/cubiko-holdings-current-and-historical.pdf",
+  "confidence": "medium"
+ },
+ {
+  "id": "cult-design",
+  "location": "Chippendale, NSW, AU",
+  "evidence": "Contact page: 'Head Office 21-23 Levey Street, Chippendale NSW 2008'",
+  "sourceUrl": "https://cultdesign.com.au/pages/contact-us",
+  "confidence": "high"
+ },
+ {
+  "id": "displaysweet",
+  "location": "Prahran, VIC, AU",
+  "evidence": "Terms: Display Sweet Pty Ltd notices to Level 1, 257 Chapel St, Prahran VIC 3181; PitchBook HQ Prahran. Privacy policy/contact page now list Windsor VIC 3181 (adjacent suburb); offices also in NY, Miami, London etc.",
+  "sourceUrl": "https://www.displaysweet.com/legals/terms-and-conditions",
+  "confidence": "medium"
+ },
+ {
+  "id": "edible-blooms",
+  "location": "Keswick, SA, AU",
+  "evidence": "Terms: 'Edible Blooms Pty Ltd ... Head Office: 78 Everard Avenue, Keswick SA 5035' (currentLocation 'Saudi Arabia' is wrong)",
+  "sourceUrl": "https://www.edibleblooms.com.au/pages/page-website-terms-of-use",
+  "confidence": "high"
+ },
+ {
+  "id": "emesent",
+  "location": "Milton, QLD, AU",
+  "evidence": "Contact page: 'Head Office Level 1, North Tower, 339 Coronation Drive, Milton QLD 4064'; event page: 'Emesent Global Headquarters' same address",
+  "sourceUrl": "https://www.emesent.com/contact-us/",
+  "confidence": "high"
+ },
+ {
+  "id": "faithfull-the-brand",
+  "location": "Surry Hills, NSW, AU",
+  "evidence": "Privacy notice: Unit 26, 13-19 Nichols Street, Surry Hills NSW 2010; trademark record owner Faithfull The Brand Pty Ltd Surry Hills (also Bali operations)",
+  "sourceUrl": "https://uk.faithfullthebrand.com/pages/privacy-collection-notice",
+  "confidence": "medium"
+ },
+ {
+  "id": "firmus-technologies",
+  "location": "Sydney, NSW, AU",
+  "evidence": "Firmus press release Aug 2026: 'Headquartered in Sydney, Australia'; investor page postal address Level 14, 333 George St Sydney. LinkedIn still lists St Leonards TAS (origin/R&D) - conflict, own statement preferred",
+  "sourceUrl": "https://firmus.co/newsroom/firmus-announces-fully-subscribed-usdusd2-billion-strategic-equity-investment-to-accelerate-nvidia-ai-factory-expansion-across-australia-and-asia-pacific",
+  "confidence": "medium"
+ },
+ {
+  "id": "icetana-ai",
+  "location": "Perth, WA, AU",
+  "evidence": "Contact page: 'Perth - Head Office, Level 36, 152 St Georges Terrace, Perth WA 6000'",
+  "sourceUrl": "https://www.icetana.ai/contact-us",
+  "confidence": "high"
+ },
+ {
+  "id": "inmarket-systems",
+  "location": "Slacks Creek, QLD, AU",
+  "evidence": "LinkedIn: 'Headquartered in Slacks Creek, Queensland' (offices Cornubia, Loganholme; PO Box Loganholme). Own site shows no address; suburb uncertain, Logan area QLD",
+  "sourceUrl": "https://au.linkedin.com/company/inmarketsystems",
+  "confidence": "medium"
+ },
+ {
+  "id": "keeler-hardware",
+  "location": "North Willoughby, NSW, AU",
+  "evidence": "NDIS Commission register: Sydney Central Locksmiths Pty Ltd t/as Keeler Hardware, head office North Willoughby NSW 2068; shopfront 184 High St, North Willoughby",
+  "sourceUrl": "https://www.ndiscommission.gov.au/provider-registration/keeler-hardware",
+  "confidence": "high"
+ },
+ {
+  "id": "kic-wellness",
+  "location": "Cremorne, VIC, AU",
+  "evidence": "Google Play listing: KIC App Pty Ltd, 66 Gwynne St, Cremorne VIC 3121; studio at 93 Cubitt St, Cremorne VIC",
+  "sourceUrl": "https://play.google.com/store/apps/details?hl=en_AU&id=com.kic.kicapp",
+  "confidence": "medium"
+ },
+ {
+  "id": "komo-technologies",
+  "location": "Sydney, NSW, AU",
+  "evidence": "FAQ: 'Our headquarters is in Sydney at 383 George Street, Level 2, Sydney NSW 2000'",
+  "sourceUrl": "https://www.komo.tech/faqs",
+  "confidence": "high"
+ },
+ {
+  "id": "lolly-jar-creative-industry-finance-supp",
+  "location": "Surry Hills, NSW, AU",
+  "evidence": "Site lists Sydney office Suite 4, Level 2, 63-73 Ann St, Surry Hills NSW 2010 first, plus a Melbourne (Collingwood) office; SignalHire HQ Surry Hills",
+  "sourceUrl": "https://www.lollyaccounts.com.au/",
+  "confidence": "medium"
+ },
+ {
+  "id": "lucent-advisory",
+  "location": "Adelaide, SA, AU",
+  "evidence": "Site: 'Our head office is at Level 2, 422 King William Street, Adelaide'",
+  "sourceUrl": "https://www.lucentadvisory.com.au/services/outsourced-accounting-and-bookkeeping/",
+  "confidence": "high"
+ },
+ {
+  "id": "lumina",
+  "location": "Sydney, NSW, AU",
+  "evidence": "Contact page: Level 43, 25 Martin Place, Sydney NSW 2000",
+  "sourceUrl": "https://www.lumina.com.au/contact/",
+  "confidence": "high"
+ },
+ {
+  "id": "lyre-s-spirit-co",
+  "location": "Leichhardt, NSW, AU",
+  "evidence": "T&Cs: Zero Proof Australia Pty Ltd (Lyre's), registered office 12 Upward Street, Leichhardt, Sydney NSW 2040; CB Insights HQ same",
+  "sourceUrl": "https://lyres.com/pages/terms-conditions",
+  "confidence": "high"
+ },
+ {
+  "id": "o-m-original-mineral",
+  "location": "Redfern, NSW, AU",
+  "evidence": "O&M Pro site trade address Sasi Group Pty Ltd: Level 2/17 Eveleigh St, Redfern NSW 2016 (matches place listing, phone 02 9695 5000). Privacy policy post address lists Darlinghurst (older); Sydney confirmed",
+  "sourceUrl": "https://originalmineralpro.com/policies/contact-information",
+  "confidence": "medium"
+ },
+ {
+  "id": "perfect-accounting-tax-services",
+  "location": "Direk, SA, AU",
+  "evidence": "Offices page lists Perfect Accounting & Finance Pty Ltd, 32 Cherry Ave, Direk SA 5110 as main office/contact; also Sydney (North Parramatta) and Melbourne (Tarneit) offices - HQ is not explicitly stated",
+  "sourceUrl": "https://www.perfectaccounting.com.au/offices/",
+  "confidence": "medium"
+ },
+ {
+  "id": "petal-pup",
+  "location": "Pinkenba, QLD, AU",
+  "evidence": "Contact page: Petal & Pup Pty Ltd operates from 240 Lavarack Avenue, Pinkenba QLD 4008 (US entity Petal & Pup USA Inc in San Francisco); Brisbane-based team",
+  "sourceUrl": "https://petalandpup.com.au/pages/contact-us",
+  "confidence": "medium"
+ },
+ {
+  "id": "proacct",
+  "location": "Heidelberg, VIC, AU",
+  "evidence": "Contact page: Proacct Plus Pty Ltd, 2/81 Burgundy Street, Heidelberg VIC 3084; licensee page: 'Head office ... Heidelberg'",
+  "sourceUrl": "https://proacctplus.com.au/contact/",
+  "confidence": "high"
+ },
+ {
+  "id": "pure-mama",
+  "location": "Tauranga, NZ",
+  "evidence": "Pure Mama (puremama.com) is a New Zealand brand: LinkedIn HQ Tauranga, Bay of Plenty NZ, 'Made in New Zealand'; Pure Mama Australia Pty Limited is only an AU sales entity. Genuinely headquartered outside Australia",
+  "sourceUrl": "https://linkedin.com/company/pure-mama-skincare",
+  "confidence": "medium"
+ },
+ {
+  "id": "rosy-small-business-services",
+  "location": "St Kilda, VIC, AU",
+  "evidence": "Site: Office 1/21 Wellington Street, St Kilda VIC 3182 (mainly WFH)",
+  "sourceUrl": "https://rosy.business/contact-us/",
+  "confidence": "high"
+ },
+ {
+  "id": "sheet-society",
+  "location": "Brunswick, VIC, AU",
+  "evidence": "Privacy policy: The Sheet Society Pty Ltd, 35-37 Tinning St, Brunswick VIC 3056; ABN Lookup main location VIC 3056",
+  "sourceUrl": "https://sheetsociety.com/en-nz/help/privacy-policy",
+  "confidence": "high"
+ },
+ {
+  "id": "step-one",
+  "location": "Surry Hills, NSW, AU",
+  "evidence": "Terms: Step One Clothing Australia Pty Ltd, Level 2/120 Chalmers Street, Surry Hills NSW 2010 (registered office also Surry Hills)",
+  "sourceUrl": "https://stepone.life/pages/terms-and-conditions-of-sale",
+  "confidence": "high"
+ },
+ {
+  "id": "the-bas-agents",
+  "location": "Erina, NSW, AU",
+  "evidence": "Site: 'Find us: 19 Chetwynd Rd, Erina NSW 2250'",
+  "sourceUrl": "https://www.thebasagents.com.au/contact-us",
+  "confidence": "high"
+ },
+ {
+  "id": "the-integrated-cfo",
+  "location": "Marcoola, QLD, AU",
+  "evidence": "Directory/ABN record: The Integrated CFO, 14/14 Merchants Parade, Marcoola QLD 4564 (ABN 78 654 812 227); own site shows only phone/email",
+  "sourceUrl": "https://www.concaveintel.com/business/the-integrated-cfo-78654812227",
+  "confidence": "medium"
+ },
+ {
+  "id": "unity-accounting",
+  "location": "Caringbah, NSW, AU",
+  "evidence": "Directory listings: Unity Accounting, 211/16 Wurrook Circuit, Caringbah NSW 2229; site shows PO Box 374 Gymea NSW 2227 and 02 9545 8200",
+  "sourceUrl": "https://i24app.com/au/find-an-accountant/profile/unity-accounting-2229",
+  "confidence": "medium"
+ },
+ {
+  "id": "v2food",
+  "location": "Sydney, NSW, AU",
+  "evidence": "Mergr/PitchBook/CB Insights: V2 Food Pty Ltd, Level 10, 171 Clarence Street, Sydney NSW 2000; 'headquartered in Sydney'",
+  "sourceUrl": "https://mergr.com/company/v2-food",
+  "confidence": "high"
+ },
+ {
+  "id": "wct-advisory-group",
+  "location": "Brisbane, QLD, AU",
+  "evidence": "Site: Brisbane office Suite A, Level 6, 388 Queen St (listed first; mailing GPO Box 427 Brisbane) plus Adelaide office; AFSA practitioner record primary practice location Brisbane",
+  "sourceUrl": "https://www.wctadvisory.com.au/contact-wct-advisory",
+  "confidence": "high"
+ },
+ {
+  "id": "xeta",
+  "location": "Bondi Junction, NSW, AU",
+  "evidence": "The Xeta Group Australia Pty Ltd: Suite 1/422 Oxford St, Bondi Junction NSW 2022 (TPB register, Employment Hero partner page)",
+  "sourceUrl": "https://employmenthero.com/uk/partner/xeta/",
+  "confidence": "high"
+ },
+ {
+  "id": "xo-accounting",
+  "location": "Werribee, VIC, AU",
+  "evidence": "LinkedIn: 'Headquartered in Werribee, Victoria'; ABN Lookup main location VIC 3030; address 1st Floor/49 Cherry St, Werribee",
+  "sourceUrl": "https://linkedin.com/company/xo-accounting-pty-ltd",
+  "confidence": "high"
+ }
+]

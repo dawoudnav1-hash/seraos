@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-24T02:26:39+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-24T02:28:47+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **479**
 - Contacts (de-duplicated): **843**
@@ -80,43 +80,44 @@ Generated 2026-11-24T02:26:39+00:00 by `pipeline/build_data.py`.
 - [override] account lgy-accountants: flagged
 - [override] contact melrose-health--geoff-steinicke: {'likelyLeft': True, 'note': 'Stale: sold Melrose in 2010 and retired. Current CEO/CFO added.'}
 - [override] account visory: flagged
-- [city-unknown] Adventure Operations: location 'AU'
-- [city-unknown] b.box for kids: location 'Australia'
-- [city-unknown] Bali Body: location 'Australia'
-- [city-unknown] Canibuild: location 'Australia'
-- [city-unknown] Ciroa Beauty (Jamesly): location 'AU'
-- [city-unknown] Cooee Foods: location 'AU'
-- [city-unknown] Cubiko: location 'AU'
-- [city-unknown] Cult Design: location None
-- [city-unknown] DisplaySweet: location 'AU'
-- [city-unknown] Emesent: location 'Australia'
-- [city-unknown] FAITHFULL the Brand: location 'Australia'
-- [city-unknown] Firmus Technologies: location 'Australia'
-- [city-unknown] icetana AI: location 'Australia'
-- [city-unknown] InMarket Systems: location 'AU'
-- [city-unknown] Keeler Hardware: location None
-- [city-unknown] KIC Wellness: location None
-- [city-unknown] Komo Technologies: location 'AU'
-- [city-unknown] Lolly Jar - Creative Industry Finance Support: location None
-- [city-unknown] Lucent Advisory: location None
-- [city-unknown] Lumina: location None
-- [city-unknown] Lyre's Spirit Co: location 'Australia'
-- [city-unknown] O&M (Original & Mineral): location 'AU'
-- [city-unknown] Perfect Accounting & Tax Services: location None
-- [city-unknown] Petal & Pup: location 'QLD, AU'
-- [city-unknown] Proacct+: location None
-- [city-unknown] Pure Mama: location None
-- [city-unknown] Rosy Small Business Services: location None
-- [city-unknown] Sheet Society: location 'Australia'
-- [city-unknown] Step One: location 'Australia'
-- [city-unknown] The BAS Agents: location None
-- [city-unknown] The Integrated CFO: location None
-- [city-unknown] Unity Accounting: location None
-- [city-unknown] v2food: location 'AU'
-- [city-unknown] WCT Advisory Group: location None
-- [city-unknown] XETA: location None
-- [city-unknown] XO Accounting: location None
-- [count] cities: Company location 441, unknown 36, Contact location (company location not recorded) 2
+- [city-researched] Adventure Operations: 'AU' -> 'Eagle Farm, QLD, AU' (https://adventureoperations.com.au/)
+- [city-researched] b.box for kids: 'Australia' -> 'Notting Hill, VIC, AU' (https://bbox.com.au/pages/terms-and-conditions)
+- [city-researched] Bali Body: 'Australia' -> 'Brighton, VIC, AU' (https://au.balibodyco.com/pages/privacy-policy)
+- [city-researched] Canibuild: 'Australia' -> 'Sydney, NSW, AU' (https://canibuild.com/en-au/terms-conditions/)
+- [city-researched] Ciroa Beauty (Jamesly): 'AU' -> 'Bondi Junction, NSW, AU' (https://ciroabeauty.com/pages/terms-and-conditions)
+- [city-researched] Cooee Foods: 'AU' -> 'Rathmines, NSW, AU' (https://gateway.icn.org.au/suppliers/1805703)
+- [city-researched] Cubiko: 'AU' -> 'Brisbane, QLD, AU' (https://img.healthservicesdaily.com.au/wp-content/uploads/sites/3/2024/06/19140946/cubiko-holdings-current-and-historical.pdf)
+- [city-researched] Cult Design: None -> 'Chippendale, NSW, AU' (https://cultdesign.com.au/pages/contact-us)
+- [city-researched] DisplaySweet: 'AU' -> 'Prahran, VIC, AU' (https://www.displaysweet.com/legals/terms-and-conditions)
+- [city-researched] Edible Blooms: 'Saudi Arabia, with presence in Australia, United Kingdom, Switzerland, and New Zealand' -> 'Keswick, SA, AU' (https://www.edibleblooms.com.au/pages/page-website-terms-of-use)
+- [city-researched] Emesent: 'Australia' -> 'Milton, QLD, AU' (https://www.emesent.com/contact-us/)
+- [city-researched] FAITHFULL the Brand: 'Australia' -> 'Surry Hills, NSW, AU' (https://uk.faithfullthebrand.com/pages/privacy-collection-notice)
+- [city-researched] Firmus Technologies: 'Australia' -> 'Sydney, NSW, AU' (https://firmus.co/newsroom/firmus-announces-fully-subscribed-usdusd2-billion-strategic-equity-investment-to-accelerate-nvidia-ai-factory-expansion-across-australia-and-asia-pacific)
+- [city-researched] icetana AI: 'Australia' -> 'Perth, WA, AU' (https://www.icetana.ai/contact-us)
+- [city-researched] InMarket Systems: 'AU' -> 'Slacks Creek, QLD, AU' (https://au.linkedin.com/company/inmarketsystems)
+- [city-researched] Keeler Hardware: None -> 'North Willoughby, NSW, AU' (https://www.ndiscommission.gov.au/provider-registration/keeler-hardware)
+- [city-researched] KIC Wellness: None -> 'Cremorne, VIC, AU' (https://play.google.com/store/apps/details?hl=en_AU&id=com.kic.kicapp)
+- [city-researched] Komo Technologies: 'AU' -> 'Sydney, NSW, AU' (https://www.komo.tech/faqs)
+- [city-researched] Lolly Jar - Creative Industry Finance Support: None -> 'Surry Hills, NSW, AU' (https://www.lollyaccounts.com.au/)
+- [city-researched] Lucent Advisory: None -> 'Adelaide, SA, AU' (https://www.lucentadvisory.com.au/services/outsourced-accounting-and-bookkeeping/)
+- [city-researched] Lumina: None -> 'Sydney, NSW, AU' (https://www.lumina.com.au/contact/)
+- [city-researched] Lyre's Spirit Co: 'Australia' -> 'Leichhardt, NSW, AU' (https://lyres.com/pages/terms-conditions)
+- [city-researched] O&M (Original & Mineral): 'AU' -> 'Redfern, NSW, AU' (https://originalmineralpro.com/policies/contact-information)
+- [city-researched] Perfect Accounting & Tax Services: None -> 'Direk, SA, AU' (https://www.perfectaccounting.com.au/offices/)
+- [city-researched] Petal & Pup: 'QLD, AU' -> 'Pinkenba, QLD, AU' (https://petalandpup.com.au/pages/contact-us)
+- [city-researched] Proacct+: None -> 'Heidelberg, VIC, AU' (https://proacctplus.com.au/contact/)
+- [city-researched] Pure Mama: None -> 'Tauranga, NZ' (https://linkedin.com/company/pure-mama-skincare)
+- [city-researched] Rosy Small Business Services: None -> 'St Kilda, VIC, AU' (https://rosy.business/contact-us/)
+- [city-researched] Sheet Society: 'Australia' -> 'Brunswick, VIC, AU' (https://sheetsociety.com/en-nz/help/privacy-policy)
+- [city-researched] Step One: 'Australia' -> 'Surry Hills, NSW, AU' (https://stepone.life/pages/terms-and-conditions-of-sale)
+- [city-researched] The BAS Agents: None -> 'Erina, NSW, AU' (https://www.thebasagents.com.au/contact-us)
+- [city-researched] The Integrated CFO: None -> 'Marcoola, QLD, AU' (https://www.concaveintel.com/business/the-integrated-cfo-78654812227)
+- [city-researched] Unity Accounting: None -> 'Caringbah, NSW, AU' (https://i24app.com/au/find-an-accountant/profile/unity-accounting-2229)
+- [city-researched] v2food: 'AU' -> 'Sydney, NSW, AU' (https://mergr.com/company/v2-food)
+- [city-researched] WCT Advisory Group: None -> 'Brisbane, QLD, AU' (https://www.wctadvisory.com.au/contact-wct-advisory)
+- [city-researched] XETA: None -> 'Bondi Junction, NSW, AU' (https://employmenthero.com/uk/partner/xeta/)
+- [city-researched] XO Accounting: None -> 'Werribee, VIC, AU' (https://linkedin.com/company/xo-accounting-pty-ltd)
+- [count] cities: Company location 440, Web research (Exa) 37, Contact location (company location not recorded) 2
 - [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
 - [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
 - [count] outreach: 44 events (0 not matched to an account)

@@ -30,12 +30,12 @@ REGIONAL = {
     "byron bay": "Byron Bay", "suffolk park": "Byron Bay", "mullumbimby": "Byron Bay",
     "newcastle": "Newcastle", "newcastle west": "Newcastle", "wollongong": "Wollongong",
     "gosford": "Central Coast", "tuggerah": "Central Coast", "central coast": "Central Coast",
-    "cootamundra": "Cootamundra",
+    "cootamundra": "Cootamundra", "erina": "Central Coast", "rathmines": "Newcastle", "lake macquarie": "Newcastle",
     # QLD
     "gold coast": "Gold Coast", "burleigh heads": "Gold Coast", "burleigh": "Gold Coast", "southport": "Gold Coast",
     "bundall": "Gold Coast", "varsity lakes": "Gold Coast", "currumbin waters": "Gold Coast",
     "sunshine coast": "Sunshine Coast", "birtinya": "Sunshine Coast", "maroochydore": "Sunshine Coast",
-    "noosaville": "Sunshine Coast", "noosa": "Sunshine Coast",
+    "noosaville": "Sunshine Coast", "noosa": "Sunshine Coast", "marcoola": "Sunshine Coast",
     "cairns": "Cairns", "townsville": "Townsville",
     # WA
     "bunbury": "Bunbury", "busselton": "Busselton",

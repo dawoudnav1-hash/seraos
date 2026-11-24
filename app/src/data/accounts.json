@@ -659,7 +659,7 @@
   "typeReason": "In-house finance team of 4",
   "segment": "CPG / Ecom / D2C",
   "sector": "Outdoor brand portfolio",
-  "location": "AU",
+  "location": "Eagle Farm, QLD, AU",
   "employees": "63",
   "employeeRange": "11-50",
   "financeHeadcount": 4,
@@ -733,7 +733,11 @@
     "id": "adventure-operations--katie-hall"
    }
   ],
-  "description": "Australian outdoor leisure company whose brands (OZtrail, Companion, Campfire, Ozpig, Kakadu, MTB Direct) sell camping, cooking, power and outdoor gear to retail customers in Australia and abroad."
+  "description": "Australian outdoor leisure company whose brands (OZtrail, Companion, Campfire, Ozpig, Kakadu, MTB Direct) sell camping, cooking, power and outdoor gear to retail customers in Australia and abroad.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Eagle Farm",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "adviceco-ca",
@@ -2331,7 +2335,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 2 finance contacts found)",
   "segment": "CPG / Ecom / D2C",
-  "location": "Australia",
+  "location": "Notting Hill, VIC, AU",
   "employees": "64",
   "revenue": "$5.6M (est., Apollo)",
   "growth": "Headcount up 10% over 24 months; 12-mo headcount growth 2%; 24-mo headcount growth 10%",
@@ -2395,7 +2399,11 @@
     "id": "b-box-for-kids--yvonne-morawska"
    }
   ],
-  "description": "Kids' lunch boxes, drink bottles and bento accessories designed for children and parents, sold online and through retailers in many countries."
+  "description": "Kids' lunch boxes, drink bottles and bento accessories designed for children and parents, sold online and through retailers in many countries.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Notting Hill",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "babyboo-fashion",
@@ -2516,7 +2524,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 2 finance contacts found)",
   "segment": "CPG / Ecom / D2C",
-  "location": "Australia",
+  "location": "Brighton, VIC, AU",
   "employees": "57",
   "revenue": "Not printed (est. under $20M) (est., Apollo blank; 57 employees + 33% YoY headcount)",
   "growth": "Headcount up 33% / 44% over 12 / 24 months; 12-mo headcount growth 33%; 24-mo headcount growth 44%",
@@ -2598,7 +2606,11 @@
     "id": "bali-body--laura-oosterloo"
    }
   ],
-  "description": "Body and skincare brand selling tan, body oil, serum and face mask products direct to consumers online. Products are marketed as vegan."
+  "description": "Body and skincare brand selling tan, body oil, serum and face mask products direct to consumers online. Products are marketed as vegan.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Brighton",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "barney-group-barney-bed",
@@ -5287,7 +5299,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 1 finance contact found)",
   "segment": "AI startup",
-  "location": "Australia",
+  "location": "Sydney, NSW, AU",
   "employees": "120",
   "revenue": "$4.0M (est., Apollo)",
   "growth": "Headcount up 10% / 19% over 12 / 24 months; 12-mo headcount growth 10%; 24-mo headcount growth 19%",
@@ -5334,7 +5346,10 @@
     "id": "canibuild--timothy-cocaro"
    }
   ],
-  "description": "AI site-feasibility platform that checks zoning, setbacks and buildable area for a residential parcel, used by builders, councils and property owners in the US, AU, NZ and CA."
+  "description": "AI site-feasibility platform that checks zoning, setbacks and buildable area for a residential parcel, used by builders, councils and property owners in the US, AU, NZ and CA.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "caremonitor",
@@ -5812,7 +5827,7 @@
   "typeReason": "1-person finance function (finance headcount = 1)",
   "segment": "CPG / Ecom / D2C",
   "sector": "Bodycare",
-  "location": "AU",
+  "location": "Bondi Junction, NSW, AU",
   "employees": "6",
   "financeHeadcount": 1,
   "headcountBasis": "LinkedIn Finance & Accounting department: 1; 1 named staff found",
@@ -5864,7 +5879,11 @@
     "id": "ciroa-beauty-jamesly--darya-moldavska"
    }
   ],
-  "description": "Australian bodycare brand founded in 2021 selling scented shower gels, body scrubs, butters, mists and serums direct to consumers online."
+  "description": "Australian bodycare brand founded in 2021 selling scented shower gels, body scrubs, butters, mists and serums direct to consumers online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Bondi Junction",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "clear-tax-accountants",
@@ -6439,7 +6458,7 @@
   "typeReason": "1-person finance function (finance headcount = 1)",
   "segment": "CPG / Ecom / D2C",
   "sector": "Native superfoods",
-  "location": "AU",
+  "location": "Rathmines, NSW, AU",
   "employees": "7",
   "financeHeadcount": 1,
   "headcountBasis": "LinkedIn Finance & Accounting department: 1; 1 named staff found",
@@ -6490,7 +6509,11 @@
     "id": "cooee-foods--tina-grieve"
    }
   ],
-  "description": "Plant-based, allergy-friendly snack brand founded by a Wiradjuri woman, making cookies and popcorn with native Australian ingredients, sold direct online."
+  "description": "Plant-based, allergy-friendly snack brand founded by a Wiradjuri woman, making cookies and popcorn with native Australian ingredients, sold direct online.",
+  "state": "NSW",
+  "city": "Newcastle",
+  "suburb": "Rathmines",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "country-of-glow",
@@ -6793,7 +6816,7 @@
   "typeReason": "1-person finance function (finance headcount = 1)",
   "segment": "SaaS",
   "sector": "GP practice intelligence SaaS",
-  "location": "AU",
+  "location": "Brisbane, QLD, AU",
   "employees": "43",
   "employeeRange": "11-50",
   "financeHeadcount": 1,
@@ -6851,7 +6874,10 @@
     "id": "cubiko--sean-fincham"
    }
   ],
-  "description": "Australian healthcare data platform giving general practices billing, MBS item and performance reporting. Says it is used by more than 2,500 practices."
+  "description": "Australian healthcare data platform giving general practices billing, MBS item and performance reporting. Says it is used by more than 2,500 practices.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "cullen-jewellery",
@@ -7004,7 +7030,12 @@
     "id": "cult-design--mirwais-syed"
    }
   ],
-  "description": "Designer furniture and lighting retailer with a showroom, stocking European design brands such as HAY, Louis Poulsen and Fritz Hansen for design-minded consumers and interior trade."
+  "description": "Designer furniture and lighting retailer with a showroom, stocking European design brands such as HAY, Louis Poulsen and Fritz Hansen for design-minded consumers and interior trade.",
+  "location": "Chippendale, NSW, AU",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Chippendale",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "cuttable",
@@ -7976,7 +8007,7 @@
   "typeReason": "In-house finance team of 2",
   "segment": "SaaS",
   "sector": "Property sales SaaS",
-  "location": "AU",
+  "location": "Prahran, VIC, AU",
   "employees": "42",
   "employeeRange": "11-50",
   "financeHeadcount": 2,
@@ -8032,7 +8063,11 @@
     "id": "displaysweet--peter-pollock"
    }
   ],
-  "description": "Interactive sales presentation software for property developers and real estate sales galleries, including a presenter app, touchscreens, LED walls and 3D models for buyers and agents."
+  "description": "Interactive sales presentation software for property developers and real estate sales galleries, including a presenter app, touchscreens, LED walls and 3D models for buyers and agents.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Prahran",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "dmg-partners",
@@ -8770,7 +8805,7 @@
   "typeReason": "1-person finance function (finance headcount = 1)",
   "segment": "CPG / Ecom / D2C",
   "sector": "Edible gifts & hampers",
-  "location": "Saudi Arabia, with presence in Australia, United Kingdom, Switzerland, and New Zealand",
+  "location": "Keswick, SA, AU",
   "employees": "27",
   "employeeRange": "11-50",
   "financeHeadcount": 1,
@@ -8826,8 +8861,10 @@
    }
   ],
   "description": "Australian gourmet gift company selling hand-packed hampers, chocolate bouquets and gift boxes online, with same-day delivery in major capital cities and nationwide shipping.",
-  "city": "Saudi Arabia",
-  "cityBasis": "Company location"
+  "state": "SA",
+  "city": "Adelaide",
+  "suburb": "Keswick",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "edsmart",
@@ -9327,7 +9364,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 1 finance contact found)",
   "segment": "AI startup",
-  "location": "Australia",
+  "location": "Milton, QLD, AU",
   "employees": "150",
   "revenue": "$7.0M (est., Apollo)",
   "growth": "Headcount up 25% over 24 months; 12-mo headcount growth 2%; 24-mo headcount growth 25%",
@@ -9375,7 +9412,11 @@
     "id": "emesent--charles-miller"
    }
   ],
-  "description": "Autonomous and handheld LiDAR mapping systems (Hovermap, Cortex autonomy) that capture 3D site data for infrastructure, construction, energy and mining operators."
+  "description": "Autonomous and handheld LiDAR mapping systems (Hovermap, Cortex autonomy) that capture 3D site data for infrastructure, construction, energy and mining operators.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Milton",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "emma-tom-s",
@@ -10629,7 +10670,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 1 finance contact found)",
   "segment": "CPG / Ecom / D2C",
-  "location": "Australia",
+  "location": "Surry Hills, NSW, AU",
   "employees": "73",
   "revenue": "Not printed (verify vs $20M) (est., Apollo blank; 73 employees)",
   "growth": "Modest headcount growth; scaled fashion brand; 12-mo headcount growth 8%; 24-mo headcount growth 8%",
@@ -10676,7 +10717,11 @@
     "id": "faithfull-the-brand--sarah-abrahams"
    }
   ],
-  "description": "Clothing label selling linen, organic cotton and recycled-fabric dresses, tops and swimwear direct to customers online, with shipping to the US and other markets."
+  "description": "Clothing label selling linen, organic cotton and recycled-fabric dresses, tops and swimwear direct to customers online, with shipping to the US and other markets.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Surry Hills",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "fatsecret",
@@ -10974,7 +11019,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 1 finance contact found)",
   "segment": "AI startup",
-  "location": "Australia",
+  "location": "Sydney, NSW, AU",
   "employees": "130",
   "revenue": "$5.1M (est., Apollo)",
   "growth": "Headcount roughly doubled in 12 months; 12-mo headcount growth 92%; 24-mo headcount growth 98%",
@@ -11022,7 +11067,10 @@
     "id": "firmus-technologies--tim-rosenfield"
    }
   ],
-  "description": "Australian operator of AI Factory data centres using liquid-cooled HyperCube systems, selling dedicated GPU compute capacity to AI customers across Asia-Pacific."
+  "description": "Australian operator of AI Factory data centres using liquid-cooled HyperCube systems, selling dedicated GPU compute capacity to AI customers across Asia-Pacific.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "flavour-creations",
@@ -14447,7 +14495,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 1 finance contact found)",
   "segment": "AI startup",
-  "location": "Australia",
+  "location": "Perth, WA, AU",
   "employees": "25",
   "revenue": "$2.5M (est., Apollo)",
   "growth": "Headcount up 27% / 57% over 12 / 24 months; 12-mo headcount growth 27%; 24-mo headcount growth 57%",
@@ -14495,7 +14543,10 @@
     "id": "icetana-ai--kevin-brown"
    }
   ],
-  "description": "Australian AI video surveillance software that learns normal activity from camera feeds and alerts security teams to unusual events. Sold to retail, campus and government sites, with on-premise deployment."
+  "description": "Australian AI video surveillance software that learns normal activity from camera feeds and alerts security teams to unusual events. Sold to retail, campus and government sites, with on-premise deployment.",
+  "state": "WA",
+  "city": "Perth",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "icon-by-design",
@@ -15155,7 +15206,7 @@
   "typeReason": "1-person finance function (finance headcount = 1)",
   "segment": "SaaS",
   "sector": "Software (unverified category)",
-  "location": "AU",
+  "location": "Slacks Creek, QLD, AU",
   "employees": "11",
   "employeeRange": "1-10",
   "financeHeadcount": 1,
@@ -15209,7 +15260,11 @@
     "id": "inmarket-systems--david-fong"
    }
   ],
-  "description": "Lending software company whose white-label platforms (LoanForge for SACC and MACC loans, WageForge for wage advance) are sold to licensed Australian lenders to run their own loan products."
+  "description": "Lending software company whose white-label platforms (LoanForge for SACC and MACC loans, WageForge for wage advance) are sold to licensed Australian lenders to run their own loan products.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Slacks Creek",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "inp-group",
@@ -16463,7 +16518,12 @@
     "id": "keeler-hardware--kylie-cvetkovic"
    }
   ],
-  "description": "Australian-owned architectural door hardware supplier selling locks, handles, hinges, closers and bathroom hardware to builders, trade customers and consumers, online and by phone."
+  "description": "Australian-owned architectural door hardware supplier selling locks, handles, hinges, closers and bathroom hardware to builders, trade customers and consumers, online and by phone.",
+  "location": "North Willoughby, NSW, AU",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "North Willoughby",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "keepcup",
@@ -16677,7 +16737,12 @@
     "id": "kic-wellness--david-mack"
    }
   ],
-  "description": "Women's wellness brand selling electrolyte hydration powders, teas, incense and workout kits, plus a fitness and mindfulness app. Also runs a Pilates studio in Melbourne."
+  "description": "Women's wellness brand selling electrolyte hydration powders, teas, incense and workout kits, plus a fitness and mindfulness app. Also runs a Pilates studio in Melbourne.",
+  "location": "Cremorne, VIC, AU",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Cremorne",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "kidmans-partners",
@@ -17130,7 +17195,7 @@
   "typeReason": "1-person finance function (finance headcount = 1)",
   "segment": "SaaS",
   "sector": "Software (unverified category)",
-  "location": "AU",
+  "location": "Sydney, NSW, AU",
   "employees": "19",
   "employeeRange": "11-50",
   "financeHeadcount": 1,
@@ -17187,7 +17252,10 @@
     "id": "komo-technologies--joshua-smith"
    }
   ],
-  "description": "Engagement platform for brands and event, sport and media properties, offering interactive content, rewards, CRM and customer data capture through hosted tools, SDKs and APIs."
+  "description": "Engagement platform for brands and event, sport and media properties, offering interactive content, rewards, CRM and customer data capture through hosted tools, SDKs and APIs.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "kora-organics",
@@ -18287,7 +18355,12 @@
   "sourceUrls": [
    "https://www.lollyaccounts.com.au/",
    "https://www.lollyaccounts.com.au/marketing-agency-finances/"
-  ]
+  ],
+  "location": "Surry Hills, NSW, AU",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Surry Hills",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "lombardi-partners",
@@ -18549,7 +18622,11 @@
   "sourceUrls": [
    "https://www.lucentadvisory.com.au/",
    "https://www.lucentadvisory.com.au/services/virtual-cfo/"
-  ]
+  ],
+  "location": "Adelaide, SA, AU",
+  "state": "SA",
+  "city": "Adelaide",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "lumina",
@@ -18618,7 +18695,11 @@
   "sourceUrls": [
    "https://www.lumina.com.au/",
    "https://www.lumina.com.au/solutions/"
-  ]
+  ],
+  "location": "Sydney, NSW, AU",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "lusta-hair",
@@ -18700,7 +18781,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 1 finance contact found)",
   "segment": "CPG / Ecom / D2C",
-  "location": "Australia",
+  "location": "Leichhardt, NSW, AU",
   "employees": "56",
   "revenue": "$10.0M (est., Apollo)",
   "growth": "Scaled DTC / global brand with a sitting CFO; 12-mo headcount growth 4%",
@@ -18748,7 +18829,11 @@
     "id": "lyre-s-spirit-co--david-gimpelson"
    }
   ],
-  "description": "Sydney-founded non-alcoholic spirits brand (under 0.5% ABV) selling spirit alternatives and ready-to-drink cocktails to consumers and bars through its online store and retailers in many countries."
+  "description": "Sydney-founded non-alcoholic spirits brand (under 0.5% ABV) selling spirit alternatives and ready-to-drink cocktails to consumers and bars through its online store and retailers in many countries.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Leichhardt",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "lyrebird-health",
@@ -22893,7 +22978,7 @@
   "typeReason": "In-house finance team of 2",
   "segment": "CPG / Ecom / D2C",
   "sector": "Salon haircare",
-  "location": "AU",
+  "location": "Redfern, NSW, AU",
   "employees": "93",
   "employeeRange": "11-50",
   "financeHeadcount": 2,
@@ -22966,7 +23051,11 @@
     "id": "o-m-original-mineral--tiffany-liu"
    }
   ],
-  "description": "Sydney-made salon haircare and colour brand (O&M) positioned as clean and vegan. Sold to hairdressers and to consumers through its online store."
+  "description": "Sydney-made salon haircare and colour brand (O&M) positioned as clean and vegan. Sold to hairdressers and to consumers through its online store.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Redfern",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "o-brien-accountants-advisors",
@@ -23849,7 +23938,12 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.perfectaccounting.com.au/when-expert-accounting-signals-you-need-a-virtual-cfo/"
-  ]
+  ],
+  "location": "Direk, SA, AU",
+  "state": "SA",
+  "city": "Adelaide",
+  "suburb": "Direk",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "perta-thomson-partners-ptp",
@@ -24002,7 +24096,7 @@
   "typeReason": "In-house finance team of 5",
   "segment": "CPG / Ecom / D2C",
   "sector": "Online womenswear",
-  "location": "QLD, AU",
+  "location": "Pinkenba, QLD, AU",
   "employees": "91",
   "employeeRange": "51-250",
   "financeHeadcount": 5,
@@ -24076,7 +24170,10 @@
    }
   ],
   "description": "Australian-founded online womenswear label selling dresses, playsuits, tops and sets with a laid-back feminine style. Sells online to customers, including through a USA store.",
-  "state": "QLD"
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Pinkenba",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "peter-bouchier",
@@ -25092,7 +25189,12 @@
   "sourceUrls": [
    "https://proacctplus.com.au/services/",
    "https://proacctplus.com.au/services/virtual-cfo/"
-  ]
+  ],
+  "location": "Heidelberg, VIC, AU",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Heidelberg",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "procurepro",
@@ -25770,7 +25872,10 @@
     "id": "pure-mama--yasmin-shepherd"
    }
   ],
-  "description": "Natural skincare brand for pregnancy, postpartum and scar care (stretch mark and belly oils), made in New Zealand. Sold direct to consumers online in Australia, the US and other markets."
+  "description": "Natural skincare brand for pregnancy, postpartum and scar care (stretch mark and belly oils), made in New Zealand. Sold direct to consumers online in Australia, the US and other markets.",
+  "location": "Tauranga, NZ",
+  "city": "Tauranga",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "purebaby",
@@ -27350,7 +27455,12 @@
   "sourceUrls": [
    "https://rosy.business/",
    "https://rosy.business/about/"
-  ]
+  ],
+  "location": "St Kilda, VIC, AU",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "saddlery-brands-international",
@@ -28158,7 +28268,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 1 finance contact found)",
   "segment": "CPG / Ecom / D2C",
-  "location": "Australia",
+  "location": "Brunswick, VIC, AU",
   "employees": "72",
   "revenue": "Not printed (verify vs $20M) (est., Apollo blank; 72 employees)",
   "growth": "Headcount up 31% / 81% over 12 / 24 months; 12-mo headcount growth 31%; 24-mo headcount growth 81%",
@@ -28223,7 +28333,11 @@
     "id": "sheet-society--andy-worley"
    }
   ],
-  "description": "Bedding brand selling sheets, quilt covers and pillowcases in cotton, bamboo and linen. Sold direct to consumers online, with an Australian warehouse."
+  "description": "Bedding brand selling sheets, quilt covers and pillowcases in cotton, bamboo and linen. Sold direct to consumers online, with an Australian warehouse.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Brunswick",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "shelter-brewing-co",
@@ -30203,7 +30317,7 @@
   "type": "internal",
   "typeReason": "In-house finance team (headcount unknown; 2 finance contacts found)",
   "segment": "CPG / Ecom / D2C",
-  "location": "Australia",
+  "location": "Surry Hills, NSW, AU",
   "employees": "56",
   "revenue": "$10.4M (est., Apollo)",
   "growth": "Headcount up 15% over 24 months; 12-mo headcount growth 6%; 24-mo headcount growth 15%",
@@ -30269,7 +30383,11 @@
     "id": "step-one--georgia-cutbush"
    }
   ],
-  "description": "Direct-to-consumer online underwear brand selling bamboo viscose underwear, socks and sleepwear for men, women and kids. Operates in Australia, the US and the UK."
+  "description": "Direct-to-consumer online underwear brand selling bamboo viscose underwear, socks and sleepwear for men, women and kids. Operates in Australia, the US and the UK.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Surry Hills",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "stomping-ground-brewing-co",
@@ -31539,7 +31657,12 @@
   "sourceUrls": [
    "https://www.thebasagents.com.au/",
    "https://www.thebasagents.com.au/cfo-advisory-services"
-  ]
+  ],
+  "location": "Erina, NSW, AU",
+  "state": "NSW",
+  "city": "Central Coast",
+  "suburb": "Erina",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "the-collagen-co",
@@ -31832,7 +31955,12 @@
   "sourceUrls": [
    "https://theintegratedcfo.com.au/",
    "https://theintegratedcfo.com.au/virtual-cfo/"
-  ]
+  ],
+  "location": "Marcoola, QLD, AU",
+  "state": "QLD",
+  "city": "Sunshine Coast",
+  "suburb": "Marcoola",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "the-jojoba-company",
@@ -33571,7 +33699,12 @@
   "sourceUrls": [
    "https://unityaccounting.com.au/bookkeeping-and-business-operations/",
    "https://unityaccounting.com.au/small-business-cfo/"
-  ]
+  ],
+  "location": "Caringbah, NSW, AU",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Caringbah",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "unleash-live",
@@ -33799,7 +33932,7 @@
   "typeReason": "In-house finance team of 3",
   "segment": "CPG / Ecom / D2C",
   "sector": "Plant-based meat + DTC meals (Soulara, Macros)",
-  "location": "AU",
+  "location": "Sydney, NSW, AU",
   "employees": "51",
   "employeeRange": "51-250",
   "financeHeadcount": 3,
@@ -33891,7 +34024,10 @@
     "id": "v2food--hemamalini-jagadeeswaran"
    }
   ],
-  "description": "Plant protein ingredient supplier selling protein and fibre boosts and a shelf-stable plant-based mince to food manufacturers, caterers and blending partners."
+  "description": "Plant protein ingredient supplier selling protein and fibre boosts and a shelf-stable plant-based mince to food manufacturers, caterers and blending partners.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "valour-sport",
@@ -34624,7 +34760,11 @@
   "sourceUrls": [
    "https://www.wctadvisory.com.au/news/fractional-cfo-advantage",
    "https://www.wctadvisory.com.au/wct-advisory-services/corporate-finance"
-  ]
+  ],
+  "location": "Brisbane, QLD, AU",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "we-are-tailored",
@@ -35297,7 +35437,12 @@
   "sourceUrls": [
    "https://xeta.com.au/",
    "https://xeta.com.au/about/"
-  ]
+  ],
+  "location": "Bondi Junction, NSW, AU",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Bondi Junction",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "xo-accounting",
@@ -35349,7 +35494,12 @@
   "sourceUrls": [
    "https://www.xoaccounting.com.au/",
    "https://westernvic.com.au/accounting/xo-accounting"
-  ]
+  ],
+  "location": "Werribee, VIC, AU",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Werribee",
+  "cityBasis": "Web research (Exa)"
  },
  {
   "id": "y-s-accounting",
