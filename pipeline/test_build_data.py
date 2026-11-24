@@ -140,6 +140,23 @@ for e in O["events"]:
         check(e["contactId"] in con_ids, f"event {e['id']} -> unknown contact")
         check(e["contactId"].startswith(e["accountId"] + "--"), f"event {e['id']} contact/account mismatch")
 
+# --- cities
+from locations import normalise as _norm, is_vague as _vague  # noqa: E402
+STATES_OK = {"VIC", "NSW", "QLD", "WA", "SA", "TAS", "ACT", "NT"}
+for a in A:
+    if a.get("state"):
+        check(a["state"] in STATES_OK, f"bad state {a['id']} {a['state']}")
+    if a.get("city"):
+        check(bool(a.get("cityBasis")), f"city without basis {a['id']}")
+        check(a["city"] != a.get("suburb"), f"suburb duplicates city {a['id']}")
+    if a.get("location") and not _vague(a["location"]) and _norm(a["location"]).get("state"):
+        check(bool(a.get("city")), f"specific AU location but no city: {a['id']} {a['location']!r}")
+for loc, exp in {"Richmond VIC": "Melbourne", "Burleigh Heads, QLD": "Gold Coast", "Barton, ACT": "Canberra",
+                 "St Kilda Rd (616 St Kilda Rd), VIC, AU": "Melbourne", "Milton (Brisbane), QLD": "Brisbane",
+                 "Noosaville, Queensland, AU": "Sunshine Coast", "Newcastle West, NSW": "Newcastle"}.items():
+    check(_norm(loc).get("city") == exp, f"normalise {loc!r} -> {_norm(loc)} (expected {exp})")
+check(not _norm("AU").get("city") and not _norm("Australia").get("city"), "vague locations must not get a city")
+
 print(f"source accounts checked: {src_accounts}, source contacts checked: {src_contacts}")
 print(f"output: {len(A)} accounts, {len(cids)} contacts, {len(O['events'])} events")
 if failures:

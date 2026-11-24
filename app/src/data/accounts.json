@@ -61,7 +61,11 @@
   "sourceUrls": [
    "https://4orward.com",
    "https://au.linkedin.com/company/4orward"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "abbotts-group",
@@ -128,7 +132,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://abbotts.net.au/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "West Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "abound-group",
@@ -180,7 +188,10 @@
   "sourceUrls": [
    "https://www.aboundgroup.com.au/"
   ],
-  "flags": "⚠ Sheet contact/domain belonged to an unrelated real-estate company; firm website corrected to aboundgroup.com.au. Needs a new contact."
+  "flags": "⚠ Sheet contact/domain belonged to an unrelated real-estate company; firm website corrected to aboundgroup.com.au. Needs a new contact.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "accolution",
@@ -245,7 +256,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.accolution.com.au/"
-  ]
+  ],
+  "state": "SA",
+  "city": "Adelaide",
+  "suburb": "Walkerville",
+  "cityBasis": "Company location"
  },
  {
   "id": "accountant-assist",
@@ -297,7 +312,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.accountantassist.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "accounten",
@@ -363,7 +381,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://accounten.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "accounting-gurus",
@@ -414,7 +435,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://accountinggurus.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "accountinghq",
@@ -477,7 +501,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.accountinghq.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Balwyn",
+  "cityBasis": "Company location"
  },
  {
   "id": "accru-melbourne",
@@ -542,7 +570,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://accrumelb.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hawthorn East",
+  "cityBasis": "Company location"
  },
  {
   "id": "accumulus-advisory",
@@ -610,7 +642,11 @@
   "sourceUrls": [
    "https://accumulusadvisory.com.au/",
    "https://accumulusadvisory.com.au/services/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Essendon",
+  "cityBasis": "Company location"
  },
  {
   "id": "adventure-operations",
@@ -765,7 +801,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://adviceco.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Central Coast",
+  "suburb": "Gosford",
+  "cityBasis": "Company location"
  },
  {
   "id": "afends",
@@ -867,7 +907,10 @@
     "id": "afends--romina-invierno"
    }
   ],
-  "description": "Byron Bay streetwear and apparel label selling men's and women's clothing, including hemp and organic cotton pieces, through its website, its own stores and retailers."
+  "description": "Byron Bay streetwear and apparel label selling men's and women's clothing, including hemp and organic cotton pieces, through its website, its own stores and retailers.",
+  "state": "NSW",
+  "city": "Byron Bay",
+  "cityBasis": "Company location"
  },
  {
   "id": "afm-services",
@@ -935,7 +978,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://afmservices.com.au/"
-  ]
+  ],
+  "state": "SA",
+  "city": "Adelaide",
+  "suburb": "Norwood",
+  "cityBasis": "Company location"
  },
  {
   "id": "afp-advisory-group",
@@ -985,7 +1032,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://afpaccounting.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Norwest",
+  "cityBasis": "Company location"
  },
  {
   "id": "ags-financial-group",
@@ -1050,7 +1101,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://agsfinancialgroup.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "ailo",
@@ -1152,7 +1207,10 @@
     "id": "ailo--cheyzell-sampang"
    }
   ],
-  "description": "Property management SaaS platform connecting property managers, owners, renters and tradespeople, with rent payments, accounting, compliance and messaging in one system."
+  "description": "Property management SaaS platform connecting property managers, owners, renters and tradespeople, with rent payments, accounting, compliance and messaging in one system.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "aims-australia-tax-accountants",
@@ -1199,7 +1257,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://aimsaustralia.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "aintree-group",
@@ -1268,7 +1329,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://aintreegroup.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hawthorn East",
+  "cityBasis": "Company location"
  },
  {
   "id": "alemais",
@@ -1340,7 +1405,10 @@
     "inAttio": true,
     "id": "alemais--lesleigh-jermanus-chris-buchanan"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "alexander-and-co-consulting",
@@ -1392,7 +1460,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://alexanderandco.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Sunshine Coast",
+  "suburb": "Birtinya",
+  "cityBasis": "Company location"
  },
  {
   "id": "alexander-spencer-cpa",
@@ -1462,7 +1534,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.alexanderspencer.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Camberwell",
+  "cityBasis": "Company location"
  },
  {
   "id": "amristar",
@@ -1532,7 +1608,11 @@
     "id": "amristar--julia-hills"
    }
   ],
-  "description": "Perth software consultancy that builds enterprise web mapping and business applications for government and industry clients, including the Mapworks SaaS or on-premise mapping platform."
+  "description": "Perth software consultancy that builds enterprise web mapping and business applications for government and industry clients, including the Mapworks SaaS or on-premise mapping platform.",
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "West Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "andresen-mccarthy-partners",
@@ -1594,7 +1674,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://amcp.net.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Eltham",
+  "cityBasis": "Company location"
  },
  {
   "id": "applyflow",
@@ -1680,7 +1764,10 @@
     "id": "applyflow--anjali-yadwad"
    }
   ],
-  "description": "Software platform for building recruitment websites, career sites and job boards, plus a recruitment management system with CV parsing and ATS integrations, sold to agencies and employers."
+  "description": "Software platform for building recruitment websites, career sites and job boards, plus a recruitment management system with CV parsing and ATS integrations, sold to agencies and employers.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "archistar",
@@ -1794,7 +1881,10 @@
     "id": "archistar--tony-george"
    }
   ],
-  "description": "AI PreCheck software that automatically checks building plans against zoning and building-code rules, sold to local governments and to applicants, architects and certifiers."
+  "description": "AI PreCheck software that automatically checks building plans against zoning and building-code rules, sold to local governments and to applicants, architects and certifiers.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "armada-accountants-advisors",
@@ -1862,7 +1952,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://armada.com.au/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "Osborne Park",
+  "cityBasis": "Company location"
  },
  {
   "id": "arms-of-eve",
@@ -1934,7 +2028,10 @@
     "inAttio": true,
     "id": "arms-of-eve--kerryn-langer-aaron-langer"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "atticus",
@@ -2005,7 +2102,11 @@
     "id": "atticus--belinda-drew"
    }
   ],
-  "description": "Document verification platform used by law firms and listed companies to check annual reports, prospectuses and other critical documents against evidence before release. Based in Melbourne."
+  "description": "Document verification platform used by law firms and listed companies to check annual reports, prospectuses and other critical documents against evidence before release. Based in Melbourne.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Collingwood",
+  "cityBasis": "Company location"
  },
  {
   "id": "auguste-the-label",
@@ -2073,7 +2174,10 @@
     "inAttio": true,
     "id": "auguste-the-label--ebony-eagles"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Byron Bay",
+  "cityBasis": "Company location"
  },
  {
   "id": "australian-beverage-holdings-pureau",
@@ -2139,7 +2243,10 @@
     "id": "australian-beverage-holdings-pureau--rob-harris"
    }
   ],
-  "description": "Australian Beverage Holdings makes Pureau purified water in 600 mL, 2 L, 5 L and 10 L formats, sold to households through supermarkets, online retailers and independent stores."
+  "description": "Australian Beverage Holdings makes Pureau purified water in 600 mL, 2 L, 5 L and 10 L formats, sold to households through supermarkets, online retailers and independent stores.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "azupay",
@@ -2210,7 +2317,10 @@
     "id": "azupay--vesna-crnjak"
    }
   ],
-  "description": "Australian payments provider offering PayID, PayTo and account-check services so businesses can collect, pay out and verify payments in real time. Licensed under an AFSL."
+  "description": "Australian payments provider offering PayID, PayTo and account-check services so businesses can collect, pay out and verify payments in real time. Licensed under an AFSL.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "b-box-for-kids",
@@ -2391,7 +2501,11 @@
     "id": "babyboo-fashion--laura-sesko"
    }
   ],
-  "description": "Online women's fashion label selling occasionwear dresses, jumpsuits and accessories direct to customers, with worldwide shipping."
+  "description": "Online women's fashion label selling occasionwear dresses, jumpsuits and accessories direct to customers, with worldwide shipping.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Balmain",
+  "cityBasis": "Company location"
  },
  {
   "id": "bali-body",
@@ -2554,7 +2668,10 @@
     "id": "barney-group-barney-bed--emily-chong"
    }
   ],
-  "description": "Sells orthopaedic memory-foam dog beds (Barney Bed and BarneyCurl) direct to dog owners online, in sizes matched to dog length."
+  "description": "Sells orthopaedic memory-foam dog beds (Barney Bed and BarneyCurl) direct to dog owners online, in sizes matched to dog length.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "bassike",
@@ -2682,7 +2799,11 @@
     "id": "bassike--deborah-sams"
    }
   ],
-  "description": "Australian label selling organic cotton jersey basics and womenswear, made in Australia since 2006, through its online store and stockists."
+  "description": "Australian label selling organic cotton jersey basics and womenswear, made in Australia since 2006, through its online store and stockists.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Warriewood",
+  "cityBasis": "Company location"
  },
  {
   "id": "baumgartners",
@@ -2745,7 +2866,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.baumgartners.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Kew",
+  "cityBasis": "Company location"
  },
  {
   "id": "bbb-partners",
@@ -2809,7 +2934,11 @@
   "sourceUrls": [
    "https://bbbpartners.com.au/"
   ],
-  "flags": "⚠ Acquired by Cutcher & Neale in July 2025 (LinkedIn). Check who now owns the relationship."
+  "flags": "⚠ Acquired by Cutcher & Neale in July 2025 (LinkedIn). Check who now owns the relationship.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "beam-bookkeeping",
@@ -2877,7 +3006,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://beambk.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Newcastle",
+  "suburb": "Newcastle West",
+  "cityBasis": "Company location"
  },
  {
   "id": "bean-alliance-group",
@@ -2981,7 +3114,10 @@
     "id": "bean-alliance-group--wayne-loh"
    }
   ],
-  "description": "Melbourne coffee roaster and beverage manufacturer producing roasted coffee, tea and drinking chocolate, including organic and Fairtrade coffee, for retail and partner brands."
+  "description": "Melbourne coffee roaster and beverage manufacturer producing roasted coffee, tea and drinking chocolate, including organic and Fairtrade coffee, for retail and partner brands.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "bed-threads",
@@ -3050,7 +3186,10 @@
     "id": "bed-threads--avreme-cohney"
    }
   ],
-  "description": "Bedding brand selling 100% French flax linen and GOTS-certified organic cotton sheets, duvet covers and bundles direct to consumers online."
+  "description": "Bedding brand selling 100% French flax linen and GOTS-certified organic cotton sheets, duvet covers and bundles direct to consumers online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "beerenberg",
@@ -3138,7 +3277,11 @@
     "id": "beerenberg--megan-howes"
    }
   ],
-  "description": "Family-owned Hahndorf, SA producer of jams, chutneys, relishes and sauces, sold to consumers through its farm shop and online store."
+  "description": "Family-owned Hahndorf, SA producer of jams, chutneys, relishes and sauces, sold to consumers through its farm shop and online store.",
+  "state": "SA",
+  "city": "Adelaide Hills",
+  "suburb": "Hahndorf",
+  "cityBasis": "Company location"
  },
  {
   "id": "beginning-boutique",
@@ -3238,7 +3381,11 @@
     "id": "beginning-boutique--priscila-lincka"
    }
   ],
-  "description": "Online women's fashion boutique selling dresses, tops and bottoms to customers in New Zealand and internationally, with its head office in Lytton, QLD."
+  "description": "Online women's fashion boutique selling dresses, tops and bottoms to customers in New Zealand and internationally, with its head office in Lytton, QLD.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Lytton",
+  "cityBasis": "Company location"
  },
  {
   "id": "bell-partners-melbourne",
@@ -3289,7 +3436,11 @@
   "sourceUrls": [
    "https://www.bellpartners.com/",
    "https://www.bellpartners.com/contact/melbourne/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Southbank",
+  "cityBasis": "Company location"
  },
  {
   "id": "bellabox",
@@ -3346,7 +3497,10 @@
     "inAttio": true,
     "id": "bellabox--lindy-lang"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "belle-bloom",
@@ -3418,7 +3572,10 @@
     "inAttio": true,
     "id": "belle-bloom--sherry-wu-jonathan-manalo"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "bentleys-victoria",
@@ -3483,7 +3640,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.bentleys.com.au/offices/bentleys-victoria/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hawthorn",
+  "cityBasis": "Company location"
  },
  {
   "id": "bio101",
@@ -3551,7 +3712,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.bio101.com/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hawthorn East",
+  "cityBasis": "Company location"
  },
  {
   "id": "bishop-collins-chartered-accountants",
@@ -3620,7 +3785,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.bishopcollins.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Central Coast",
+  "suburb": "Tuggerah",
+  "cityBasis": "Company location"
  },
  {
   "id": "blinq",
@@ -3689,7 +3858,10 @@
     "id": "blinq--jack-r"
    }
   ],
-  "description": "Digital business card and contact app: users share a QR, NFC or wallet card and scan contacts. Free for individuals; paid team plans add CRM sync and lead capture."
+  "description": "Digital business card and contact app: users share a QR, NFC or wallet card and scan contacts. Free for individuals; paid team plans add CRM sync and lead capture.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "bloom-money",
@@ -3739,7 +3911,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://bloommoney.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "bob-pete-s",
@@ -3808,7 +3983,11 @@
     "id": "bob-pete-s--jennifer-cheong"
    }
   ],
-  "description": "Wholesale bakery supplying breads, pizza bases, wraps and desserts to cafes, restaurants and caterers, mainly in NSW, with direct delivery."
+  "description": "Wholesale bakery supplying breads, pizza bases, wraps and desserts to cafes, restaurants and caterers, mainly in NSW, with direct delivery.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Marrickville",
+  "cityBasis": "Company location"
  },
  {
   "id": "bodyscience",
@@ -3875,7 +4054,10 @@
     "id": "bodyscience--tom-stuart"
    }
   ],
-  "description": "Sports nutrition brand (BSc) selling protein powders, creatine and hydration products to athletes and gym users through retail, pharmacy and online channels in Australia and NZ."
+  "description": "Sports nutrition brand (BSc) selling protein powders, creatine and hydration products to athletes and gym users through retail, pharmacy and online channels in Australia and NZ.",
+  "state": "QLD",
+  "city": "Gold Coast",
+  "cityBasis": "Company location"
  },
  {
   "id": "bongiorno-group",
@@ -3942,7 +4124,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://bongiorno.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "boody",
@@ -4043,7 +4229,10 @@
     "id": "boody--katy-daly"
    }
   ],
-  "description": "B-Corp certified Australian brand selling bamboo viscose underwear, tees, socks and babywear direct to consumers online."
+  "description": "B-Corp certified Australian brand selling bamboo viscose underwear, tees, socks and babywear direct to consumers online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "books-onsite",
@@ -4094,7 +4283,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.booksonsite.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "boss-private-clients",
@@ -4157,7 +4349,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://bossprivateclients.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "bourne-weir",
@@ -4223,7 +4418,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.bourneandweir.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "boutique-accounts",
@@ -4287,7 +4485,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.boutiqueaccounts.com/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Wheelers Hill",
+  "cityBasis": "Company location"
  },
  {
   "id": "breathe-accounting",
@@ -4354,7 +4556,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.breatheaccounting.com.au/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Bunbury",
+  "cityBasis": "Company location"
  },
  {
   "id": "bri-ferrier-melbourne",
@@ -4417,7 +4622,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://au.linkedin.com/company/bri-ferrier"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "brookfarm",
@@ -4488,7 +4696,10 @@
     "id": "brookfarm--cherie-crawford"
    }
   ],
-  "description": "Byron Bay granola and muesli brand baked in its Northern Rivers bakehouse, sold to consumers through its online store and retailers."
+  "description": "Byron Bay granola and muesli brand baked in its Northern Rivers bakehouse, sold to consumers through its online store and retailers.",
+  "state": "NSW",
+  "city": "Byron Bay",
+  "cityBasis": "Company location"
  },
  {
   "id": "build-buddy",
@@ -4554,7 +4765,10 @@
     "id": "build-buddy--arthur-szczerba"
    }
   ],
-  "description": "Online platform that guides homeowners through designing, approving and building a new home without a builder, with task workflows, quotes and links to trade contractors."
+  "description": "Online platform that guides homeowners through designing, approving and building a new home without a builder, with task workflows, quotes and links to trade contractors.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "buildpass",
@@ -4641,7 +4855,11 @@
     "id": "buildpass--richard-zhou"
    }
   ],
-  "description": "Construction site-management SaaS for builders and head contractors, covering scheduling, drawings, site diaries, RFIs, submittals and punch lists, with subcontractor access."
+  "description": "Construction site-management SaaS for builders and head contractors, covering scheduling, drawings, site diaries, RFIs, submittals and punch lists, with subcontractor access.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Richmond",
+  "cityBasis": "Company location"
  },
  {
   "id": "bunjie",
@@ -4711,7 +4929,10 @@
     "id": "bunjie--grace-chua"
    }
   ],
-  "description": "Prebiotic and probiotic baby skincare, wipes and nappies, made in Australia and sold direct to parents online."
+  "description": "Prebiotic and probiotic baby skincare, wipes and nappies, made in Australia and sold direct to parents online.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "businessdepot",
@@ -4780,7 +5001,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://businessdepot.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Fortitude Valley",
+  "cityBasis": "Company location"
  },
  {
   "id": "by-charlotte",
@@ -4868,7 +5093,11 @@
     "id": "by-charlotte--clare-taylor"
    }
   ],
-  "description": "Australian jewellery label selling vermeil, 9k, 14k and 18k gold pieces, including lab-grown diamond designs, online and through its boutiques."
+  "description": "Australian jewellery label selling vermeil, 9k, 14k and 18k gold pieces, including lab-grown diamond designs, online and through its boutiques.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Rosebery",
+  "cityBasis": "Company location"
  },
  {
   "id": "bydee",
@@ -4972,7 +5201,10 @@
     "id": "bydee--mia-wu"
    }
   ],
-  "description": "Australian swimwear brand founded in 2013 selling mix-and-match bikinis and one-piece swimsuits made from recycled REPREVE nylon, direct to customers online."
+  "description": "Australian swimwear brand founded in 2013 selling mix-and-match bikinis and one-piece swimsuits made from recycled REPREVE nylon, direct to customers online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "byrons",
@@ -5041,7 +5273,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://byrons.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "canibuild",
@@ -5169,7 +5404,10 @@
     "id": "caremonitor--tim-maclean"
    }
   ],
-  "description": "Australian cloud digital healthcare platform for hospital-in-the-home, virtual care, remote patient monitoring and chronic disease management, used by hospitals and primary health networks."
+  "description": "Australian cloud digital healthcare platform for hospital-in-the-home, virtual care, remote patient monitoring and chronic disease management, used by hospitals and primary health networks.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "castaway-forecasting",
@@ -5255,7 +5493,10 @@
     "id": "castaway-forecasting--siobhan-mccann"
    }
   ],
-  "description": "Cloud business forecasting and three-way modelling app for SMEs and accountants, importing data from Xero, QuickBooks and Excel to build cashflow forecasts and reports."
+  "description": "Cloud business forecasting and three-way modelling app for SMEs and accountants, importing data from Xero, QuickBooks and Excel to build cashflow forecasts and reports.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "cfo-on-call",
@@ -5320,7 +5561,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://cfooncall.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Central Coast",
+  "cityBasis": "Company location"
  },
  {
   "id": "charterpoint",
@@ -5386,7 +5630,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.charterpoint.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "chief-nutrition",
@@ -5458,7 +5705,11 @@
     "id": "chief-nutrition--stephen-eyre"
    }
   ],
-  "description": "Australian real-food supplements and snacks, including beef organ capsules, creatine, collagen and whey, sold direct to consumers online."
+  "description": "Australian real-food supplements and snacks, including beef organ capsules, creatine, collagen and whey, sold direct to consumers online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Roselands",
+  "cityBasis": "Company location"
  },
  {
   "id": "cim",
@@ -5545,7 +5796,10 @@
     "id": "cim--ankita-c-harrison"
    }
   ],
-  "description": "PEAK building operations platform that pulls BMS, meter and IoT data together to detect faults, track equipment performance and manage fixes for building owners, operators and service firms."
+  "description": "PEAK building operations platform that pulls BMS, meter and IoT data together to detect faults, track equipment performance and manage fixes for building owners, operators and service firms.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "ciroa-beauty-jamesly",
@@ -5679,7 +5933,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://cleartax.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "clinic-to-cloud",
@@ -5747,7 +6004,10 @@
     "id": "clinic-to-cloud--margaret-marcs"
    }
   ],
-  "description": "Cloud medical practice management software for specialists and GPs in Australia, covering clinical records, letter dictation, a patient portal and Medicare claiming."
+  "description": "Cloud medical practice management software for specialists and GPs in Australia, covering clinical records, letter dictation, a patient portal and Medicare claiming.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "code-one-accountants",
@@ -5799,7 +6059,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://code-one.com.au/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "Inglewood",
+  "cityBasis": "Company location"
  },
  {
   "id": "collins-co",
@@ -5871,7 +6135,11 @@
   "sourceUrls": [
    "https://collinsco.com.au/",
    "https://linkedin.com/company/collins-co-audit-pty-ltd"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Footscray",
+  "cityBasis": "Company location"
  },
  {
   "id": "complexica",
@@ -5957,7 +6225,11 @@
     "id": "complexica--maria-mucerschi"
    }
   ],
-  "description": "Complexica Pty Ltd sells Decision Cloud, an AI platform for pricing, promotions, sales and demand planning, aimed at manufacturers, wholesalers and retailers with large product ranges."
+  "description": "Complexica Pty Ltd sells Decision Cloud, an AI platform for pricing, promotions, sales and demand planning, aimed at manufacturers, wholesalers and retailers with large product ranges.",
+  "state": "SA",
+  "city": "Adelaide",
+  "suburb": "West Lakes",
+  "cityBasis": "Company location"
  },
  {
   "id": "compozer",
@@ -6025,7 +6297,10 @@
     "id": "compozer--justin-ajaka"
    }
   ],
-  "description": "Cloud eLearning authoring tool that lets non-designers build interactive courses, sold on monthly plans from free to enterprise to individuals and corporate training teams."
+  "description": "Cloud eLearning authoring tool that lets non-designers build interactive courses, sold on monthly plans from free to enterprise to individuals and corporate training teams.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "connect-advisors",
@@ -6076,7 +6351,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://connectadvisors.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "conserving-beauty",
@@ -6146,7 +6424,10 @@
     "id": "conserving-beauty--nicole-booth"
    }
   ],
-  "description": "Skincare brand selling dissolving cleansing cloths and water-free treatments for acne, eczema and cold sores, aimed at acne-prone, sensitive and eczema-prone skin."
+  "description": "Skincare brand selling dissolving cleansing cloths and water-free treatments for acne, eczema and cold sores, aimed at acne-prone, sensitive and eczema-prone skin.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "cooee-foods",
@@ -6274,7 +6555,10 @@
     "id": "country-of-glow--heli-vyas"
    }
   ],
-  "description": "Melbourne skincare brand selling moisturisers (rice, collagen and hyaluronic) and a lip glaze direct to consumers online."
+  "description": "Melbourne skincare brand selling moisturisers (rice, collagen and hyaluronic) and a lip glaze direct to consumers online.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "crawford-accountants",
@@ -6341,7 +6625,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://au.linkedin.com/company/crawford-accountants"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Kew",
+  "cityBasis": "Company location"
  },
  {
   "id": "credible-accounting",
@@ -6393,7 +6681,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://credibleaccounting.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Norwest",
+  "cityBasis": "Company location"
  },
  {
   "id": "creswick-wool",
@@ -6407,7 +6699,7 @@
   "segment": "CPG / Ecom / D2C",
   "sector": "Wool homewares & apparel",
   "description": "Creswick Wool specializes in creating luxurious woollen products, including clothing, blankets, and accessories, all designed in Australia to meet the needs of the local climate while celebrating over 70 years of craftsmanship and innovation in the woo...",
-  "location": "Victoria, AU",
+  "location": "Hawthorn, VIC, AU",
   "employees": "22",
   "employeeRange": "1-10",
   "financeHeadcount": 1,
@@ -6484,7 +6776,11 @@
     "id": "creswick-wool--paul-ryzowy",
     "notes": "Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld."
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hawthorn",
+  "cityBasis": "Company location"
  },
  {
   "id": "cubiko",
@@ -6673,7 +6969,10 @@
     "id": "cullen-jewellery--daniel-lurati"
    }
   ],
-  "description": "Jewellery brand selling made-to-order engagement rings with lab-grown diamonds, moissanite and sapphires, online and through showrooms in Melbourne and the US."
+  "description": "Jewellery brand selling made-to-order engagement rings with lab-grown diamonds, moissanite and sapphires, online and through showrooms in Melbourne and the US.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "cult-design",
@@ -6775,7 +7074,10 @@
     "id": "cuttable--aaron-murphy"
    }
   ],
-  "description": "AI ad creation and publishing platform for eCommerce brands running Meta and TikTok ads. It builds ads from product catalogues and past results and publishes them to the ad channels."
+  "description": "AI ad creation and publishing platform for eCommerce brands running Meta and TikTok ads. It builds ads from product catalogues and past results and publishes them to the ad channels.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "daily-blooms",
@@ -6846,7 +7148,10 @@
     "id": "daily-blooms--sean-curry"
    }
   ],
-  "description": "Online florist selling same-day flower bouquets, gift hampers and flower subscriptions, handmade by florists daily and delivered across Australia."
+  "description": "Online florist selling same-day flower bouquets, gift hampers and flower subscriptions, handmade by florists daily and delivered across Australia.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "davidsons-accountants-business-consultan",
@@ -6913,7 +7218,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://davidsons.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "dawson-group",
@@ -6980,7 +7289,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.dawson.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Cootamundra",
+  "cityBasis": "Company location"
  },
  {
   "id": "derma-aesthetics",
@@ -7046,7 +7358,11 @@
     "id": "derma-aesthetics--helen-gaut"
    }
   ],
-  "description": "Professional skincare brand (dermaviduals) supplied only to partner skin clinics and stockists, not sold online, with training for skin therapists."
+  "description": "Professional skincare brand (dermaviduals) supplied only to partner skin clinics and stockists, not sold online, with training for skin therapists.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Oxford Falls",
+  "cityBasis": "Company location"
  },
  {
   "id": "design-by-them",
@@ -7134,7 +7450,10 @@
     "id": "design-by-them--nehal-motta"
    }
   ],
-  "description": "Australian designer furniture, lighting and homewares brand founded in 2007, selling its in-house designs to design enthusiasts and trade clients online and through a Sydney showroom."
+  "description": "Australian designer furniture, lighting and homewares brand founded in 2007, selling its in-house designs to design enthusiasts and trade clients online and through a Sydney showroom.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "dfk-benjamin-king-money-dfk-bkm",
@@ -7204,7 +7523,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://dfkbkm.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Richmond",
+  "cityBasis": "Company location"
  },
  {
   "id": "dfk-laurence-varnay",
@@ -7274,7 +7597,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://dfklv.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "dfk-nugents",
@@ -7343,7 +7669,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.dfknugents.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Southbank",
+  "cityBasis": "Company location"
  },
  {
   "id": "dhm-partners",
@@ -7410,7 +7740,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.dhm-partners.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Mildura",
+  "cityBasis": "Company location"
  },
  {
   "id": "diagno-accountants-and-financial-strateg",
@@ -7477,7 +7810,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://au.linkedin.com/company/diagno-accountants-and-financial-strategists"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Southport",
+  "cityBasis": "Company location"
  },
  {
   "id": "dineamic",
@@ -7549,7 +7886,11 @@
     "inAttio": true,
     "id": "dineamic--jason-johnson-karen-inge"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Keysborough",
+  "cityBasis": "Company location"
  },
  {
   "id": "directo",
@@ -7619,7 +7960,10 @@
     "id": "directo--matthew-boyden"
    }
   ],
-  "description": "Melbourne-based B2B online marketplace where pharmacies buy from pharmaceutical and health suppliers, with integrated ordering, invoicing and supplier payments."
+  "description": "Melbourne-based B2B online marketplace where pharmacies buy from pharmaceutical and health suppliers, with integrated ordering, invoicing and supplier payments.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "displaysweet",
@@ -7752,7 +8096,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.dmgpartners.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "downies-collectables",
@@ -7838,7 +8185,11 @@
     "id": "downies-collectables--kaumudi-kuruppu"
    }
   ],
-  "description": "Online coin and collectables retailer selling mint and bullion coins and monthly subscription collections to collectors in Australia and internationally."
+  "description": "Online coin and collectables retailer selling mint and bullion coins and monthly subscription collections to collectors in Australia and internationally.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Nunawading",
+  "cityBasis": "Company location"
  },
  {
   "id": "dpm-financial-services",
@@ -7903,7 +8254,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.dpm.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "draftable",
@@ -7975,7 +8330,10 @@
     "id": "draftable--tom-edwards"
    }
   ],
-  "description": "Document comparison software for legal teams and other organisations, comparing Word, PDF, Excel and PowerPoint files via desktop, Outlook add-in and REST API."
+  "description": "Document comparison software for legal teams and other organisations, comparing Word, PDF, Excel and PowerPoint files via desktop, Outlook add-in and REST API.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "dry-kirkness",
@@ -8044,7 +8402,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.drykirkness.com.au/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "West Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "duress",
@@ -8114,7 +8476,10 @@
     "id": "duress--david-rockwood"
    }
   ],
-  "description": "Lone and frontline worker safety system: wearable devices and a smartphone app connected to 24/7 monitored emergency response, sold to employers in Australia, NZ and the UK."
+  "description": "Lone and frontline worker safety system: wearable devices and a smartphone app connected to 24/7 monitored emergency response, sold to employers in Australia, NZ and the UK.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "dvt-mcleods",
@@ -8179,7 +8544,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://dvtmcleods.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "eagle-accounting",
@@ -8246,7 +8614,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://au.linkedin.com/company/eagleaccounting"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Cairns",
+  "cityBasis": "Company location"
  },
  {
   "id": "ecovis-clark-jacobs",
@@ -8291,7 +8662,11 @@
     "inAttio": false,
     "id": "ecovis-clark-jacobs--sokveasna-toek"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "edge-zero",
@@ -8379,7 +8754,10 @@
     "id": "edge-zero--himani-agrawal-cpa"
    }
   ],
-  "description": "Electricity grid monitoring hardware and cloud analytics (EdgeSensor, EdgeConnected) for distribution networks, utilities and private networks, with API integration into utility systems."
+  "description": "Electricity grid monitoring hardware and cloud analytics (EdgeSensor, EdgeConnected) for distribution networks, utilities and private networks, with API integration into utility systems.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "edible-blooms",
@@ -8392,7 +8770,7 @@
   "typeReason": "1-person finance function (finance headcount = 1)",
   "segment": "CPG / Ecom / D2C",
   "sector": "Edible gifts & hampers",
-  "location": "AU",
+  "location": "Saudi Arabia, with presence in Australia, United Kingdom, Switzerland, and New Zealand",
   "employees": "27",
   "employeeRange": "11-50",
   "financeHeadcount": 1,
@@ -8447,7 +8825,9 @@
     "id": "edible-blooms--bosu-zhang"
    }
   ],
-  "description": "Australian gourmet gift company selling hand-packed hampers, chocolate bouquets and gift boxes online, with same-day delivery in major capital cities and nationwide shipping."
+  "description": "Australian gourmet gift company selling hand-packed hampers, chocolate bouquets and gift boxes online, with same-day delivery in major capital cities and nationwide shipping.",
+  "city": "Saudi Arabia",
+  "cityBasis": "Company location"
  },
  {
   "id": "edsmart",
@@ -8518,7 +8898,10 @@
     "id": "edsmart--rachel-wong"
    }
   ],
-  "description": "Australian SaaS for K-12 schools that digitises duty-of-care forms, excursion approvals, parent consent and incident records. Used by more than 1,400 schools."
+  "description": "Australian SaaS for K-12 schools that digitises duty-of-care forms, excursion approvals, parent consent and incident records. Used by more than 1,400 schools.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "edtech-group",
@@ -8588,7 +8971,10 @@
     "id": "edtech-group--yang-l"
    }
   ],
-  "description": "Tech-enabled education organisation providing digital technologies curriculum, coding and robotics programs to schools, plus the Audiri school communications app for notices, forms and payments."
+  "description": "Tech-enabled education organisation providing digital technologies curriculum, coding and robotics programs to schools, plus the Audiri school communications app for notices, forms and payments.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "ega-corporate-advisers",
@@ -8650,7 +9036,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "http://ega.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "elevate-accounting",
@@ -8702,7 +9092,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://elevateaccounting.com.au/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "South Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "elevate-smes",
@@ -8755,7 +9149,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://elevatesmes.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "West End",
+  "cityBasis": "Company location"
  },
  {
   "id": "elk",
@@ -8825,7 +9223,11 @@
     "id": "elk--keiran-austin"
    }
   ],
-  "description": "Australian women's fashion label selling clothing, footwear, bags and jewellery designed in Melbourne, sold online to customers in Australia and the US."
+  "description": "Australian women's fashion label selling clothing, footwear, bags and jewellery designed in Melbourne, sold online to customers in Australia and the US.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Preston",
+  "cityBasis": "Company location"
  },
  {
   "id": "ellison-studios",
@@ -8911,7 +9313,10 @@
     "inAttio": true,
     "id": "ellison-studios--sarah-ellison"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "emesent",
@@ -9035,7 +9440,11 @@
     "inAttio": true,
     "id": "emma-tom-s--prabal-chatterjee"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Prahran",
+  "cityBasis": "Company location"
  },
  {
   "id": "empire-accountants",
@@ -9101,7 +9510,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.empireaccountants.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Murarrie",
+  "cityBasis": "Company location"
  },
  {
   "id": "end-of-month-angels",
@@ -9152,7 +9565,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.endofmonthangels.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Rozelle",
+  "cityBasis": "Company location"
  },
  {
   "id": "endurego-tax",
@@ -9204,7 +9621,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.endurego.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Ashfield",
+  "cityBasis": "Company location"
  },
  {
   "id": "enlightened-living",
@@ -9274,7 +9695,11 @@
     "id": "enlightened-living--robert-m"
    }
   ],
-  "description": "Australian distributor of designer lighting and furniture brands such as Astro, Juniper and Toscot, selling to homeowners and to architects and designers through a Brisbane showroom and trade accounts."
+  "description": "Australian distributor of designer lighting and furniture brands such as Astro, Juniper and Toscot, selling to homeowners and to architects and designers through a Brisbane showroom and trade accounts.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Waterloo",
+  "cityBasis": "Company location"
  },
  {
   "id": "enspira-financial",
@@ -9337,7 +9762,10 @@
   "sourceUrls": [
    "https://enspira.com.au/",
    "https://guavalane.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "eql",
@@ -9424,7 +9852,10 @@
     "id": "eql--geethi-randeniya"
    }
   ],
-  "description": "Platform for running product drops and limited launches with bot protection and draws, used by brands in sneakers, collectibles and spirits, with fans entering through the EQL site."
+  "description": "Platform for running product drops and limited launches with bot protection and draws, used by brands in sneakers, collectibles and spirits, with fans entering through the EQL site.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "equiem",
@@ -9527,7 +9958,10 @@
     "id": "equiem--tasha-g"
    }
   ],
-  "description": "Tenant experience and building management SaaS for commercial property owners, combining a tenant app, property operations tools, flex space management and portfolio analytics."
+  "description": "Tenant experience and building management SaaS for commercial property owners, combining a tenant app, property operations tools, flex space management and portfolio analytics.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "ergopouch",
@@ -9595,7 +10029,11 @@
     "inAttio": true,
     "id": "ergopouch--alina-sack"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Heatherton",
+  "cityBasis": "Company location"
  },
  {
   "id": "esuperfund",
@@ -9643,7 +10081,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://esuperfund.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Docklands",
+  "cityBasis": "Company location"
  },
  {
   "id": "esv-business-advice-and-accounting",
@@ -9711,7 +10153,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://esvgroup.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "eva",
@@ -9770,7 +10215,10 @@
     "inAttio": true,
     "id": "eva--sean-curry"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "evaran",
@@ -9851,7 +10299,10 @@
     "id": "evaran--david-mayfield"
    }
   ],
-  "description": "Care software group whose platforms (eCase, MOA Benchmarking, CareLineLive, Checked In Care) cover rostering, care records, compliance and communication for aged care, home care and disability providers."
+  "description": "Care software group whose platforms (eCase, MOA Benchmarking, CareLineLive, Checked In Care) cover rostering, care records, compliance and communication for aged care, home care and disability providers.",
+  "city": "Melbourne",
+  "state": "VIC",
+  "cityBasis": "Contact location (company location not recorded)"
  },
  {
   "id": "evource",
@@ -9902,7 +10353,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.evource.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "explorate",
@@ -10020,7 +10474,10 @@
     "id": "explorate--praise-mendoza"
    }
   ],
-  "description": "Australian digital freight forwarder offering a shipment tracking platform, sea and air freight booking and customs brokerage for importers and exporters."
+  "description": "Australian digital freight forwarder offering a shipment tracking platform, sea and air freight booking and customs brokerage for importers and exporters.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "ezygrowth",
@@ -10070,7 +10527,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://ezygrowth.world/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Bundall",
+  "cityBasis": "Company location"
  },
  {
   "id": "fable-food-co",
@@ -10154,7 +10615,10 @@
     "id": "fable-food-co--kieli-wei"
    }
   ],
-  "description": "Plant-based protein made from upcycled shiitake mushroom stems, sold to restaurants and chefs through distributors and as a home meal kit."
+  "description": "Plant-based protein made from upcycled shiitake mushroom stems, sold to restaurants and chefs through distributors and as a home meal kit.",
+  "state": "QLD",
+  "city": "Sunshine Coast",
+  "cityBasis": "Company location"
  },
  {
   "id": "faithfull-the-brand",
@@ -10281,7 +10745,10 @@
     "id": "fatsecret--janine-roff"
    }
   ],
-  "description": "Nutrition company offering a food and nutrition database API for app and device developers, plus a consumer food diary app. Covers over 2.3 million foods."
+  "description": "Nutrition company offering a food and nutrition database API for app and device developers, plus a consumer food diary app. Covers over 2.3 million foods.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "fibersense",
@@ -10385,7 +10852,10 @@
     "id": "fibersense--dean-herrmann"
    }
   ],
-  "description": "Distributed fibre-optic sensing service that turns existing fibre cable into sensors to detect excavation strikes and threats to utility infrastructure, sold as a monthly subscription with 24/7 monitoring."
+  "description": "Distributed fibre-optic sensing service that turns existing fibre cable into sensors to detect excavation strikes and threats to utility infrastructure, sold as a monthly subscription with 24/7 monitoring.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "firmable",
@@ -10490,7 +10960,10 @@
     "id": "firmable--lucas-hoang"
    }
   ],
-  "description": "Melbourne-based B2B data platform giving sales and marketing teams verified company and contact data, technology intelligence and buying signals, mainly for APAC, US and Canada."
+  "description": "Melbourne-based B2B data platform giving sales and marketing teams verified company and contact data, technology intelligence and buying signals, mainly for APAC, US and Canada.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "firmus-technologies",
@@ -10619,7 +11092,10 @@
     "id": "flavour-creations--kevin-cutts"
    }
   ],
-  "description": "Brisbane medical nutrition manufacturer making dysphagia thickeners, protein snacks, drinks and nutritional powders for people with swallowing or nutrition needs, sold through its online shop."
+  "description": "Brisbane medical nutrition manufacturer making dysphagia thickeners, protein snacks, drinks and nutritional powders for people with swallowing or nutrition needs, sold through its online shop.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "float-accounting-advisory",
@@ -10671,7 +11147,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.floataccounting.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Preston",
+  "cityBasis": "Company location"
  },
  {
   "id": "focus-partners-australia",
@@ -10736,7 +11216,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://au.linkedin.com/company/link-financial-services"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "fortuna-advisory-group",
@@ -10804,7 +11287,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://fortunaadvisors.com.au/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "West Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "funday-natural",
@@ -10895,7 +11382,10 @@
     "id": "funday-natural--natasha-pinto"
    }
   ],
-  "description": "Sugar-free gummies and lollies (FUNDAY Natural Sweets) made without added sugar or sugar alcohols, sold direct to consumers online in boxes and bags."
+  "description": "Sugar-free gummies and lollies (FUNDAY Natural Sweets) made without added sugar or sugar alcohols, sold direct to consumers online in boxes and bags.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "funraisin",
@@ -10965,7 +11455,10 @@
     "id": "funraisin--peter-zha"
    }
   ],
-  "description": "Online fundraising platform for nonprofits, offering peer-to-peer events, donation pages, giving days and event ticketing. Used by charities and nonprofit admins."
+  "description": "Online fundraising platform for nonprofits, offering peer-to-peer events, donation pages, giving days and event ticketing. Used by charities and nonprofit admins.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "g-m-cosmetics-pure-papaya-care",
@@ -11033,7 +11526,10 @@
     "id": "g-m-cosmetics-pure-papaya-care--william-niu-ca"
    }
   ],
-  "description": "Australian skincare manufacturer making P'URE Papayacare papaya-based ointments, balms and baby care for sensitive skin, sold direct and through retailers."
+  "description": "Australian skincare manufacturer making P'URE Papayacare papaya-based ointments, balms and baby care for sensitive skin, sold direct and through retailers.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "gew-rzhaus-spice-house",
@@ -11119,7 +11615,11 @@
     "inAttio": true,
     "id": "gew-rzhaus-spice-house--grant-inches"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Collingwood",
+  "cityBasis": "Company location"
  },
  {
   "id": "glasswing",
@@ -11186,7 +11686,10 @@
     "id": "glasswing--katie-maguire"
    }
   ],
-  "description": "Sydney software company (Glasswing Cloud) selling Kubernetes and GPU optimisation software that reallocates idle compute for enterprises running AI and cloud workloads."
+  "description": "Sydney software company (Glasswing Cloud) selling Kubernetes and GPU optimisation software that reallocates idle compute for enterprises running AI and cloud workloads.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "go-to-skincare",
@@ -11251,7 +11754,11 @@
     "id": "go-to-skincare--amelia-mcdonnell"
    }
   ],
-  "description": "Surry Hills skincare brand founded by Zoë Foster Blake, selling serums, moisturisers and fragrance to consumers through its online store and retailers."
+  "description": "Surry Hills skincare brand founded by Zoë Foster Blake, selling serums, moisturisers and fragrance to consumers through its online store and retailers.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Surry Hills",
+  "cityBasis": "Company location"
  },
  {
   "id": "goldfield-banks-australia",
@@ -11323,7 +11830,10 @@
     "inAttio": true,
     "id": "goldfield-banks-australia--dimitri-weber"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "goxpro",
@@ -11389,7 +11899,10 @@
     "linkedin": "https://www.linkedin.com/in/darren-donohoe-b601639"
    }
   ],
-  "description": "Australian SaaS platform for gyms, studios and personal trainers covering client management, workout programming, fitness assessments and payments via Ezypay, Stripe and Xero."
+  "description": "Australian SaaS platform for gyms, studios and personal trainers covering client management, workout programming, fitness assessments and payments via Ezypay, Stripe and Xero.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "grain-and-bake-co-australia",
@@ -11475,7 +11988,11 @@
     "id": "grain-and-bake-co-australia--avril-solomons"
    }
   ],
-  "description": "Melbourne food manufacturer making toasted muesli, granola, bars and snacks, both for its own range and as a co-manufacturer developing products for other brands."
+  "description": "Melbourne food manufacturer making toasted muesli, granola, bars and snacks, both for its own range and as a co-manufacturer developing products for other brands.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Moorabbin",
+  "cityBasis": "Company location"
  },
  {
   "id": "great-wrap",
@@ -11503,7 +12020,11 @@
   ],
   "contacts": [],
   "description": "Melbourne maker of home-compostable cling wrap and a reusable cutter (Great Mate), sold direct to consumers online in Australia and the US.",
-  "flags": "⚠ Operating entity entered voluntary administration in Sep 2025 (staff made redundant). Verify before any outreach."
+  "flags": "⚠ Operating entity entered voluntary administration in Sep 2025 (staff made redundant). Verify before any outreach.",
+  "state": "VIC",
+  "city": "Mornington Peninsula",
+  "suburb": "Sorrento",
+  "cityBasis": "Company location"
  },
  {
   "id": "grey-space-advisory",
@@ -11554,7 +12075,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://gsadvisory.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Alexandria",
+  "cityBasis": "Company location"
  },
  {
   "id": "gridsight",
@@ -11625,7 +12150,10 @@
     "id": "gridsight--bryn-leggett"
    }
   ],
-  "description": "AI electrical digital twin and capacity management platform for electricity distribution utilities, used to model network capacity, DER and customer connections."
+  "description": "AI electrical digital twin and capacity management platform for electricity distribution utilities, used to model network capacity, DER and customer connections.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "growth-team",
@@ -11676,7 +12204,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://growthteam.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Chadstone",
+  "cityBasis": "Company location"
  },
  {
   "id": "gruntify-gis-people",
@@ -11748,7 +12280,10 @@
     "id": "gruntify-gis-people--marija-stjepanovic"
    }
   ],
-  "description": "Field operations SaaS (GIS People) for inspections, job scheduling, asset tracking and mapping, used by field service teams in mobile and web apps."
+  "description": "Field operations SaaS (GIS People) for inspections, job scheduling, asset tracking and mapping, used by field service teams in mobile and web apps.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "guests-accounting",
@@ -11796,7 +12331,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.guests.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Caulfield North",
+  "cityBasis": "Company location"
  },
  {
   "id": "h2coco",
@@ -11866,7 +12405,10 @@
     "id": "h2coco--ksenia-duff"
    }
   ],
-  "description": "Australian better-for-you drinks brand selling coconut water, juices and melon drinks in supermarkets and online, in cans, bottles and multipacks."
+  "description": "Australian better-for-you drinks brand selling coconut water, juices and melon drinks in supermarkets and online, in cans, bottles and multipacks.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "hab-shifa-australia",
@@ -11936,7 +12478,11 @@
     "id": "hab-shifa-australia--hazan-haleem"
    }
   ],
-  "description": "Australian supplement brand selling cold-pressed black seed oil (thymoquinone) capsules and liquids direct to consumers online, with batch testing claimed."
+  "description": "Australian supplement brand selling cold-pressed black seed oil (thymoquinone) capsules and liquids direct to consumers online, with batch testing claimed.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hallam",
+  "cityBasis": "Company location"
  },
  {
   "id": "halaxy",
@@ -12005,7 +12551,10 @@
     "id": "halaxy--daniel-giles"
    }
   ],
-  "description": "Cloud practice management software for health practitioners covering calendars, online bookings, patient records, invoicing and telehealth. Core software is free; paid add-ons are optional."
+  "description": "Cloud practice management software for health practitioners covering calendars, online bookings, patient records, invoicing and telehealth. Core software is free; paid add-ons are optional.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "halfbrick",
@@ -12076,7 +12625,10 @@
     "id": "halfbrick--rinal-deo"
    }
   ],
-  "description": "Mobile games studio behind Fruit Ninja and Jetpack Joyride, selling games to mobile players and a Halfbrick+ subscription hub with ad-free access."
+  "description": "Mobile games studio behind Fruit Ninja and Jetpack Joyride, selling games to mobile players and a Halfbrick+ subscription hub with ad-free access.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "hall-chadwick-melbourne",
@@ -12142,7 +12694,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://au.linkedin.com/company/hall-chadwick-melbourne"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "hamilton-morello",
@@ -12205,7 +12760,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://hamiltonmorello.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Forest Hill",
+  "cityBasis": "Company location"
  },
  {
   "id": "harli-harpa",
@@ -12277,7 +12836,11 @@
     "inAttio": true,
     "id": "harli-harpa--shane-fallscheer"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hawthorn East",
+  "cityBasis": "Company location"
  },
  {
   "id": "hatcher-advisory",
@@ -12341,7 +12904,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://hatcher.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "headstart-international",
@@ -12425,7 +12992,10 @@
     "id": "headstart-international--sue-gordon"
    }
   ],
-  "description": "Aussie-owned toy company in Dandenong South, VIC that designs its own toy brands and distributes partner brands, selling to retailers for children and families."
+  "description": "Aussie-owned toy company in Dandenong South, VIC that designs its own toy brands and distributes partner brands, selling to retailers for children and families.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "health-lab",
@@ -12495,7 +13065,11 @@
     "id": "health-lab--melanie-andre"
    }
   ],
-  "description": "Plant-based protein snacks and protein powders sold direct online and in stores, marketed for everyday snacking as well as gym use."
+  "description": "Plant-based protein snacks and protein powders sold direct online and in stores, marketed for everyday snacking as well as gym use.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda",
+  "cityBasis": "Company location"
  },
  {
   "id": "healthengine",
@@ -12613,7 +13187,10 @@
     "id": "healthengine--chavaune-samons"
    }
   ],
-  "description": "Australian patient booking platform where people find and book healthcare providers, and a practice software product that handles bookings, reminders, forms and recalls for clinics."
+  "description": "Australian patient booking platform where people find and book healthcare providers, and a practice software product that handles bookings, reminders, forms and recalls for clinics.",
+  "state": "WA",
+  "city": "Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "healthtrack",
@@ -12699,7 +13276,11 @@
     "id": "healthtrack--toni-grinham"
    }
   ],
-  "description": "Queensland-made practice management and clinical information system for specialist practices in Australia and New Zealand, covering billing, diary, reporting and clinical records."
+  "description": "Queensland-made practice management and clinical information system for specialist practices in Australia and New Zealand, covering billing, diary, reporting and clinical records.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Fortitude Valley",
+  "cityBasis": "Company location"
  },
  {
   "id": "heaps-normal",
@@ -12829,7 +13410,10 @@
     "id": "heaps-normal--ray-lau"
    }
   ],
-  "description": "Non-alcoholic beer and drinks brand (under 0.5% ABV) selling cans and bottles online, with shipping across Australia and pickup in Marrickville, NSW."
+  "description": "Non-alcoholic beer and drinks brand (under 0.5% ABV) selling cans and bottles online, with shipping across Australia and pickup in Marrickville, NSW.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "hello-hello-plants",
@@ -12900,7 +13484,11 @@
     "inAttio": true,
     "id": "hello-hello-plants--chris-lucas-marie-lucas"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Campbellfield",
+  "cityBasis": "Company location"
  },
  {
   "id": "hellocfo",
@@ -12951,7 +13539,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.hellocfo.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Ivanhoe East",
+  "cityBasis": "Company location"
  },
  {
   "id": "helloteams",
@@ -13037,7 +13629,10 @@
     "id": "helloteams--rhonlhyn-rivera"
    }
   ],
-  "description": "Setup service for Microsoft Teams Phone calling, adding business phone numbers, call queues and auto-attendants to Microsoft 365 organisations via Operator Connect or Direct Routing."
+  "description": "Setup service for Microsoft Teams Phone calling, adding business phone numbers, call queues and auto-attendants to Microsoft 365 organisations via Operator Connect or Direct Routing.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "heritage-brands",
@@ -13109,7 +13704,11 @@
     "id": "heritage-brands--donna-richardson"
    }
   ],
-  "description": "Australian beauty and wellbeing group owning brands such as Australis, Innoxa, Le Tan, Skin Republic and In Essence, sold to consumers through retail and online."
+  "description": "Australian beauty and wellbeing group owning brands such as Australis, Innoxa, Le Tan, Skin Republic and In Essence, sold to consumers through retail and online.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Springvale",
+  "cityBasis": "Company location"
  },
  {
   "id": "hey-you",
@@ -13173,7 +13772,10 @@
     "id": "hey-you--calum-fraser"
    }
   ],
-  "description": "Sydney order-ahead app (Hey You) where customers order food and drinks from cafes and restaurants in advance and collect digital loyalty rewards. Cited as used by over 1.2 million people."
+  "description": "Sydney order-ahead app (Hey You) where customers order food and drinks from cafes and restaurants in advance and collect digital loyalty rewards. Cited as used by over 1.2 million people.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "highview-accounting-financial",
@@ -13272,7 +13874,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://highview.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Prahran",
+  "cityBasis": "Company location"
  },
  {
   "id": "hm-advisory-formerly-hamilton-murphy",
@@ -13335,7 +13941,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://hamiltonmurphy.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "hmh-advisory-haines-muir-hill",
@@ -13387,7 +13996,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://hmh.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Mont Albert",
+  "cityBasis": "Company location"
  },
  {
   "id": "homie",
@@ -13459,7 +14072,11 @@
     "inAttio": true,
     "id": "homie--nick-pearce-marcus-crook"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Fitzroy",
+  "cityBasis": "Company location"
  },
  {
   "id": "hop-nation-brewing-co",
@@ -13527,7 +14144,10 @@
     "id": "hop-nation-brewing-co--phoebe-crozier-durham"
    }
   ],
-  "description": "Independent craft brewery in Footscray, Melbourne making lager, hazy ales and alcohol-free beers, sold online, at its taproom and through pubs and bottle shops."
+  "description": "Independent craft brewery in Footscray, Melbourne making lager, hazy ales and alcohol-free beers, sold online, at its taproom and through pubs and bottle shops.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "hoppr",
@@ -13597,7 +14217,11 @@
     "id": "hoppr--rahul-shah"
    }
   ],
-  "description": "Addressable TV advertising and audience platform for pay-TV operators and broadcasters, selling ad inventory and household audience segments to advertisers through deal IDs."
+  "description": "Addressable TV advertising and audience platform for pay-TV operators and broadcasters, selling ad inventory and household audience segments to advertisers through deal IDs.",
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "Subiaco",
+  "cityBasis": "Company location"
  },
  {
   "id": "hta-advisory",
@@ -13665,7 +14289,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://au.linkedin.com/company/hta-advisory-pty-ltd"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Yarra",
+  "cityBasis": "Company location"
  },
  {
   "id": "hugh-hamilton-wines",
@@ -13735,7 +14363,10 @@
     "id": "hugh-hamilton-wines--joanne-rowe"
    }
   ],
-  "description": "Six-generation family winery in McLaren Vale, SA selling wine online and at its cellar door, with a Black Sheep Wine Club subscription for members."
+  "description": "Six-generation family winery in McLaren Vale, SA selling wine online and at its cellar door, with a Black Sheep Wine Club subscription for members.",
+  "state": "SA",
+  "city": "McLaren Vale",
+  "cityBasis": "Company location"
  },
  {
   "id": "humanee",
@@ -13802,7 +14433,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://au.linkedin.com/company/wearehumanee"
-  ]
+  ],
+  "state": "SA",
+  "city": "Adelaide",
+  "cityBasis": "Company location"
  },
  {
   "id": "icetana-ai",
@@ -13947,7 +14581,11 @@
     "inAttio": true,
     "id": "icon-by-design--david-light"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Kensington",
+  "cityBasis": "Company location"
  },
  {
   "id": "id4me",
@@ -14017,7 +14655,10 @@
     "id": "id4me--mohit-arora"
    }
   ],
-  "description": "Contact and people-search database sold on monthly subscription to real estate agents, debt collectors and other businesses, covering mobile numbers, emails and addresses."
+  "description": "Contact and people-search database sold on monthly subscription to real estate agents, debt collectors and other businesses, covering mobile numbers, emails and addresses.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "idd-tech",
@@ -14083,7 +14724,11 @@
     "id": "idd-tech--marc-casal"
    }
   ],
-  "description": "Wholly owned CIMIC Group subsidiary building integrated digital delivery software (estimating platform Cats, Siterover, Sensgrid) for construction, resources and services organisations."
+  "description": "Wholly owned CIMIC Group subsidiary building integrated digital delivery software (estimating platform Cats, Siterover, Sensgrid) for construction, resources and services organisations.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "North Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "ikeep",
@@ -14136,7 +14781,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.ikeep.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "indepth-accounting",
@@ -14188,7 +14836,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.indepthaccounting.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Sunshine Coast",
+  "suburb": "Maroochydore",
+  "cityBasis": "Company location"
  },
  {
   "id": "indigo-luna",
@@ -14271,7 +14923,11 @@
     "id": "indigo-luna--nabilah-salsabila"
    }
   ],
-  "description": "Australian women's yoga and lifestyle clothing label selling leggings, tops and swimwear made from organic cotton, viscose and recycled nylon, sold direct online."
+  "description": "Australian women's yoga and lifestyle clothing label selling leggings, tops and swimwear made from organic cotton, viscose and recycled nylon, sold direct online.",
+  "state": "VIC",
+  "city": "Geelong",
+  "suburb": "Torquay",
+  "cityBasis": "Company location"
  },
  {
   "id": "infa-group",
@@ -14355,7 +15011,11 @@
     "id": "infa-group--kate-morris"
    }
   ],
-  "description": "Family-owned Australian baby products company (since 1955) selling car seats, nursery furniture and play products under its InfaSecure, GroTime and TikkTokk brands through its websites and retailers."
+  "description": "Family-owned Australian baby products company (since 1955) selling car seats, nursery furniture and play products under its InfaSecure, GroTime and TikkTokk brands through its websites and retailers.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Emu Plains",
+  "cityBasis": "Company location"
  },
  {
   "id": "infinity22",
@@ -14408,7 +15068,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://infinity22.co/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "inline-partners",
@@ -14475,7 +15138,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://inlinepartners.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Hunters Hill",
+  "cityBasis": "Company location"
  },
  {
   "id": "inmarket-systems",
@@ -14612,7 +15279,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.inpgroup.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "inskin-cosmedics",
@@ -14679,7 +15350,11 @@
     "id": "inskin-cosmedics--robinson-lovell"
    }
   ],
-  "description": "Australian-owned skincare company whose O COSMEDICS, GINGER&ME and INSKIN.CO brands are sold to skin clinics and professionals as partners, plus consumer ranges online."
+  "description": "Australian-owned skincare company whose O COSMEDICS, GINGER&ME and INSKIN.CO brands are sold to skin clinics and professionals as partners, plus consumer ranges online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Sydney Olympic Park",
+  "cityBasis": "Company location"
  },
  {
   "id": "inspace",
@@ -14765,7 +15440,11 @@
     "id": "inspace--diana-hausman"
    }
   ],
-  "description": "Virtual property presentation SaaS giving real estate developers, agents and leasing firms interactive 3D models, digital portfolios and tracked viewer links for sales and leasing."
+  "description": "Virtual property presentation SaaS giving real estate developers, agents and leasing firms interactive 3D models, digital portfolios and tracked viewer links for sales and leasing.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Barangaroo",
+  "cityBasis": "Company location"
  },
  {
   "id": "instant",
@@ -14837,7 +15516,10 @@
     "id": "instant--kevin-thang"
    }
   ],
-  "description": "AI email and SMS retention marketing platform for Shopify brands, creating personalised flows and campaigns. Priced by monthly subscription based on store revenue."
+  "description": "AI email and SMS retention marketing platform for Shopify brands, creating personalised flows and campaigns. Priced by monthly subscription based on store revenue.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "integrated-accountants-pl",
@@ -14901,7 +15583,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://integratedaccountants.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "intrepid-advisory",
@@ -14951,7 +15636,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://intrepidadvisory.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "iq-accountants",
@@ -15003,7 +15691,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://iqaccountants.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Burleigh Heads",
+  "cityBasis": "Company location"
  },
  {
   "id": "jardan",
@@ -15105,7 +15797,11 @@
     "id": "jardan--devanshi-mehta"
    }
   ],
-  "description": "Melbourne furniture, lighting and homewares maker founded in 1987, selling made-to-order Australian-made pieces online and through showrooms in several Australian cities."
+  "description": "Melbourne furniture, lighting and homewares maker founded in 1987, selling made-to-order Australian-made pieces online and through showrooms in several Australian cities.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Scoresby",
+  "cityBasis": "Company location"
  },
  {
   "id": "jeffrey-thomas-partners-jt-p",
@@ -15173,7 +15869,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://jeffreythomas.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "jgr-stn",
@@ -15250,7 +15949,10 @@
     "id": "jgr-stn--taylor-gibbards"
    }
   ],
-  "description": "Gold Coast online women's fashion label founded in 2018 selling dresses, tops and sets direct to customers with worldwide shipping, and stocked by some Australian and US retailers."
+  "description": "Gold Coast online women's fashion label founded in 2018 selling dresses, tops and sets direct to customers with worldwide shipping, and stocked by some Australian and US retailers.",
+  "state": "QLD",
+  "city": "Gold Coast",
+  "cityBasis": "Company location"
  },
  {
   "id": "jim-s-bookkeeping",
@@ -15317,7 +16019,11 @@
   "sourceUrls": [
    "https://au.linkedin.com/company/jim's-bookkeeping-cairns-inner-city-",
    "https://jimsbookkeeping.com.au/bookkeepers-2/bookkeepers-melb-west"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Mooroolbark",
+  "cityBasis": "Company location"
  },
  {
   "id": "jirsch-sutherland",
@@ -15380,7 +16086,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.jirschsutherland.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "johnson-partners",
@@ -15430,7 +16139,11 @@
   ],
   "domain": "johnsonpartners.com.au",
   "website": "https://johnsonpartners.com.au",
-  "flags": "⚠ Sheet contacts belong to an executive-search firm (johnsonpartners.co). The Richmond accounting firm appears to be johnsonpartners.com.au (address match) — verify and find a contact."
+  "flags": "⚠ Sheet contacts belong to an executive-search firm (johnsonpartners.co). The Richmond accounting firm appears to be johnsonpartners.com.au (address match) — verify and find a contact.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Richmond",
+  "cityBasis": "Company location"
  },
  {
   "id": "joolca-australia",
@@ -15499,7 +16212,11 @@
     "id": "joolca-australia--desheng-lin"
    }
   ],
-  "description": "Outdoor gear brand selling portable hot water systems, portable toilets and shower shelters for 4WD, camping and off-grid users, sold direct online with a 30-day trial."
+  "description": "Outdoor gear brand selling portable hot water systems, portable toilets and shower shelters for 4WD, camping and off-grid users, sold direct online with a 30-day trial.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Coburg North",
+  "cityBasis": "Company location"
  },
  {
   "id": "judsonkoman",
@@ -15565,7 +16282,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://judsonkoman.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Milton",
+  "cityBasis": "Company location"
  },
  {
   "id": "just-for-pets-australia",
@@ -15633,7 +16354,11 @@
     "id": "just-for-pets-australia--karyn-feron-shaw"
    }
   ],
-  "description": "Australian pet supplies retailer with more than 60 stores and an online shop selling food, toys, medications and aquarium and small-animal supplies to pet owners."
+  "description": "Australian pet supplies retailer with more than 60 stores and an online shop selling food, toys, medications and aquarium and small-animal supplies to pet owners.",
+  "state": "NSW",
+  "city": "Byron Bay",
+  "suburb": "Suffolk Park",
+  "cityBasis": "Company location"
  },
  {
   "id": "kearney-group",
@@ -15701,7 +16426,11 @@
   "sourceUrls": [
    "https://kearneygroup.com.au/get-to-know-kearney-group/",
    "https://au.linkedin.com/company/kearney-group"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Abbotsford",
+  "cityBasis": "Company location"
  },
  {
   "id": "keeler-hardware",
@@ -15806,7 +16535,11 @@
     "inAttio": true,
     "id": "keepcup--jamie-forsyth-abigail-forsyth"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Clifton Hill",
+  "cityBasis": "Company location"
  },
  {
   "id": "kepler-analytics",
@@ -15909,7 +16642,10 @@
     "id": "kepler-analytics--vaidehi-vijay"
    }
   ],
-  "description": "Retail foot-traffic and sales analytics system that uses in-store sensors to count shoppers and measure conversion, sold to retailers to monitor and compare store performance."
+  "description": "Retail foot-traffic and sales analytics system that uses in-store sensors to count shoppers and measure conversion, sold to retailers to monitor and compare store performance.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "kic-wellness",
@@ -16008,7 +16744,11 @@
   "sourceUrls": [
    "https://kidmanspartners.com.au/",
    "https://kidmanspartners.com.au/about-us/meet-our-people/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Balwyn",
+  "cityBasis": "Company location"
  },
  {
   "id": "kindling",
@@ -16076,7 +16816,10 @@
     "id": "kindling--kelan-wright"
    }
   ],
-  "description": "Sydney B2B marketing company combining AI-driven marketing strategy, creative production and software to plan and run marketing for companies that sell to businesses."
+  "description": "Sydney B2B marketing company combining AI-driven marketing strategy, creative production and software to plan and run marketing for companies that sell to businesses.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "kinsella-chartered-accountants",
@@ -16145,7 +16888,11 @@
   "sourceUrls": [
    "https://kinsella.com.au/services/",
    "https://kinsella.com.au/people/"
-  ]
+  ],
+  "state": "ACT",
+  "city": "Canberra",
+  "suburb": "Barton",
+  "cityBasis": "Company location"
  },
  {
   "id": "kivari",
@@ -16217,7 +16964,11 @@
     "inAttio": true,
     "id": "kivari--kirstin-lee-keysers"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Rosebery",
+  "cityBasis": "Company location"
  },
  {
   "id": "knog",
@@ -16303,7 +17054,11 @@
     "id": "knog--virginia-francis"
    }
   ],
-  "description": "Australian cycling and outdoor lighting brand (Blinder, Frog, Quokka and Bandicoot lights) plus bike bells and alarms, sold online and through retailers to cyclists and outdoor users."
+  "description": "Australian cycling and outdoor lighting brand (Blinder, Frog, Quokka and Bandicoot lights) plus bike bells and alarms, sold online and through retailers to cyclists and outdoor users.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Richmond",
+  "cityBasis": "Company location"
  },
  {
   "id": "kns-accountants-business-advisors",
@@ -16358,7 +17113,11 @@
   "sourceUrls": [
    "https://knsaccountants.com.au/about/",
    "https://knsaccountants.com.au/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Rooty Hill",
+  "cityBasis": "Company location"
  },
  {
   "id": "komo-technologies",
@@ -16495,7 +17254,10 @@
     "inAttio": true,
     "id": "kora-organics--miranda-kerr-george-moskos"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "lahebo",
@@ -16566,7 +17328,11 @@
     "id": "lahebo--cornell-tsiang"
    }
   ],
-  "description": "Australian SaaS for governance, risk and compliance, covering risk registers, incident management, WHS, audits and a legislation library for SMEs in sectors such as NDIS, aged care and construction."
+  "description": "Australian SaaS for governance, risk and compliance, covering risk registers, incident management, WHS, audits and a legislation library for SMEs in sectors such as NDIS, aged care and construction.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Mount Waverley",
+  "cityBasis": "Company location"
  },
  {
   "id": "larsen-jewellery",
@@ -16638,7 +17404,10 @@
     "inAttio": true,
     "id": "larsen-jewellery--lars-larsen-susie-larsen"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "latitude-accountants",
@@ -16706,7 +17475,10 @@
   "sourceUrls": [
    "https://latitudeaccountants.com.au/about/",
    "https://latitudeaccountants.com.au/melbourne-accountants/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "lbw-business-wealth-advisors",
@@ -16771,7 +17543,10 @@
   "sourceUrls": [
    "https://lbwca.com.au/",
    "https://lbwca.com.au/business-advisory-services/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "ldb-group",
@@ -16836,7 +17611,11 @@
   "sourceUrls": [
    "https://www.ldb.com.au/",
    "https://www.ldb.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Blackburn",
+  "cityBasis": "Company location"
  },
  {
   "id": "lee-mathews",
@@ -16906,7 +17685,10 @@
     "id": "lee-mathews--amy-ma"
    }
   ],
-  "description": "Australian womenswear label founded in 1999 selling dresses, shirts, tops and bottoms direct online and through its stores."
+  "description": "Australian womenswear label founded in 1999 selling dresses, shirts, tops and bottoms direct online and through its stores.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "leo-lin",
@@ -16989,7 +17771,10 @@
     "id": "leo-lin--suzanna-greene"
    }
   ],
-  "description": "Sydney-based women's ready-to-wear label launched in 2017, selling hand-printed, bold-colour dresses and separates direct to customers online, including a US store."
+  "description": "Sydney-based women's ready-to-wear label launched in 2017, selling hand-printed, bold-colour dresses and separates direct to customers online, including a US store.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "lgy-accountants",
@@ -17022,7 +17807,10 @@
    "https://moneyminute.com.au/directory/lgy-accountants/",
    "https://exa.ai/library/place/vlrn2hqzj3g"
   ],
-  "flags": "⚠ No principal identifiable from the firm site (first names only). Needs a manual check."
+  "flags": "⚠ No principal identifiable from the firm site (first names only). Needs a manual check.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "lhp-partners-chartered-accountants",
@@ -17090,7 +17878,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.lhppartners.com.au/services/accounting-and-taxation"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Parramatta",
+  "cityBasis": "Company location"
  },
  {
   "id": "lineage-group",
@@ -17157,7 +17949,11 @@
   "sourceUrls": [
    "https://www.lineage.group/",
    "https://www.lineage.group/contact"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Yarra",
+  "cityBasis": "Company location"
  },
  {
   "id": "linton-advisory-group",
@@ -17224,7 +18020,10 @@
   "sourceUrls": [
    "https://www.linton.com.au/cfo-advisory/",
    "https://www.linton.com.au/virtual-cfo/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "liston-newton-advisory",
@@ -17288,7 +18087,11 @@
   "sourceUrls": [
    "https://www.listonnewton.com.au/south-melbourne",
    "https://www.listonnewton.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "lms-advisory",
@@ -17358,7 +18161,11 @@
   "sourceUrls": [
    "https://www.lmsadvisory.com.au/accounting/foundations/",
    "https://www.lmsadvisory.com.au/accounting/strategic/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Parramatta",
+  "cityBasis": "Company location"
  },
  {
   "id": "loco-love",
@@ -17426,7 +18233,10 @@
     "id": "loco-love--josephine-lorenz"
    }
   ],
-  "description": "Australian chocolate brand making organic and functional chocolate, including caramels, truffles and drinking cacao, sold to consumers through its online store in singles, twin packs and gift boxes."
+  "description": "Australian chocolate brand making organic and functional chocolate, including caramels, truffles and drinking cacao, sold to consumers through its online store in singles, twin packs and gift boxes.",
+  "state": "NSW",
+  "city": "Byron Bay",
+  "cityBasis": "Company location"
  },
  {
   "id": "lolly-jar-creative-industry-finance-supp",
@@ -17538,7 +18348,10 @@
   "sourceUrls": [
    "https://lombardipartners.com.au/",
    "https://lombardipartners.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "lorgan",
@@ -17599,7 +18412,10 @@
     "id": "lorgan--sirisha-murahari"
    }
   ],
-  "description": "Sydney AI, IoT and data company selling its Enigma behavioural intelligence and Ellie private generative-AI platforms, which can be deployed on-premise or in private cloud, to enterprises."
+  "description": "Sydney AI, IoT and data company selling its Enigma behavioural intelligence and Ellie private generative-AI platforms, which can be deployed on-premise or in private cloud, to enterprises.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "lowe-lippmann-chartered-accountants",
@@ -17661,7 +18477,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.lowelippmann.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "lucent-advisory",
@@ -17866,7 +18686,10 @@
     "inAttio": true,
     "id": "lusta-hair--kimberly-di-benedetto"
    }
-  ]
+  ],
+  "state": "SA",
+  "city": "Adelaide",
+  "cityBasis": "Company location"
  },
  {
   "id": "lyre-s-spirit-co",
@@ -18008,7 +18831,10 @@
     "id": "lyrebird-health--scott-martin"
    }
   ],
-  "description": "AI medical scribe for GPs, specialists and allied health clinicians. Records consultations and drafts notes, letters and care plans inside EMRs such as Best Practice and Genie."
+  "description": "AI medical scribe for GPs, specialists and allied health clinicians. Records consultations and drafts notes, letters and care plans inside EMRs such as Best Practice and Genie.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "mackay-goodwin",
@@ -18068,7 +18894,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.mackaygoodwin.com.au/contact/melbourne/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "macro-mike",
@@ -18139,7 +18968,11 @@
     "id": "macro-mike--luchy-popstoev"
    }
   ],
-  "description": "Gold Coast health food brand making gluten-free, dairy-free and plant-based protein, snacks and supplements. Sold online, in supermarkets and in health food stores."
+  "description": "Gold Coast health food brand making gluten-free, dairy-free and plant-based protein, snacks and supplements. Sold online, in supermarkets and in health food stores.",
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Burleigh Heads",
+  "cityBasis": "Company location"
  },
  {
   "id": "made-with-plants",
@@ -18204,7 +19037,11 @@
   ],
   "description": "Plant-based meat-free and dairy-free cheese products sold through Woolworths and Coles, and to food service businesses such as Domino's and Grill'd.",
   "domain": "madewithplants.com.au",
-  "website": "https://madewithplants.com.au"
+  "website": "https://madewithplants.com.au",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Surry Hills",
+  "cityBasis": "Company location"
  },
  {
   "id": "makedo",
@@ -18272,7 +19109,11 @@
     "id": "makedo--deborah-nolan"
    }
   ],
-  "description": "Cardboard construction tool kits (Safe-Saw, Scru connectors) for children aged 4+ and families. Sells tools only, not cardboard."
+  "description": "Cardboard construction tool kits (Safe-Saw, Scru connectors) for children aged 4+ and families. Sells tools only, not cardboard.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Abbotsford",
+  "cityBasis": "Company location"
  },
  {
   "id": "managed",
@@ -18358,7 +19199,10 @@
     "id": "managed--alexander-laureti"
    }
   ],
-  "description": "Property management software for Australian rental agencies, with direct rent payment technology (Vecta) that removes the need for a rental trust account."
+  "description": "Property management software for Australian rental agencies, with direct rent payment technology (Vecta) that removes the need for a rental trust account.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "manly-spirits-co",
@@ -18428,7 +19272,10 @@
     "id": "manly-spirits-co--janelle-jordan"
    }
   ],
-  "description": "Northern Beaches Sydney craft distillery making gin, single malt whisky and vodka. Sold direct online and through retail."
+  "description": "Northern Beaches Sydney craft distillery making gin, single malt whisky and vodka. Sold direct online and through retail.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "maptrack",
@@ -18494,7 +19341,11 @@
     "id": "maptrack--lydia-blankenship"
    }
   ],
-  "description": "Asset tracking, maintenance and compliance software for tools, equipment, plant and fleet, using QR scanning, work orders and GPS. Priced per asset for construction and trades teams."
+  "description": "Asset tracking, maintenance and compliance software for tools, equipment, plant and fleet, using QR scanning, work orders and GPS. Priced per asset for construction and trades teams.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Coorparoo",
+  "cityBasis": "Company location"
  },
  {
   "id": "marketplacer",
@@ -18597,7 +19448,10 @@
     "id": "marketplacer--mitchell-lacey"
    }
   ],
-  "description": "Marketplace software that lets retailers, brands and B2B operators run multi-seller online marketplaces, with seller onboarding, order routing and payouts."
+  "description": "Marketplace software that lets retailers, brands and B2B operators run multi-seller online marketplaces, with seller onboarding, order routing and payouts.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "mas-tax-accountants",
@@ -18642,7 +19496,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://mastax.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Keysborough",
+  "cityBasis": "Company location"
  },
  {
   "id": "mastt",
@@ -18713,7 +19571,10 @@
     "id": "mastt--ian-french"
    }
   ],
-  "description": "Construction project controls software covering budgets, change orders, forecasts, risk registers and stakeholder reporting for project managers and asset owners."
+  "description": "Construction project controls software covering budgets, change orders, forecasts, risk registers and stakeholder reporting for project managers and asset owners.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "matthews-steer-accountants-advisors",
@@ -18760,7 +19621,11 @@
   "sourceUrls": [
    "https://www.matthewssteer.com.au/",
    "https://www.matthewssteer.com.au/contact/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Essendon Fields",
+  "cityBasis": "Company location"
  },
  {
   "id": "maximum-business-solutions-bruce-edmunds",
@@ -18811,7 +19676,11 @@
   "sourceUrls": [
    "https://maxbusiness.com.au/about-maximum-business-solutions/",
    "https://maxbusiness.com.au/bookkeeping-beaumaris/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Beaumaris",
+  "cityBasis": "Company location"
  },
  {
   "id": "mayfair-marks",
@@ -18878,7 +19747,11 @@
   "sourceUrls": [
    "https://mayfairmarks.com.au/",
    "https://mayfairmarks.com.au/industry-leading-services/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Surry Hills",
+  "cityBasis": "Company location"
  },
  {
   "id": "mcadam-siemon",
@@ -18942,7 +19815,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.mcadamsiemon.com.au/services/external-cfo/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Upper Mt Gravatt",
+  "cityBasis": "Company location"
  },
  {
   "id": "mcm-house",
@@ -19046,7 +19923,11 @@
     "id": "mcm-house--paddy-brickell-ca"
    }
   ],
-  "description": "Australian designer furniture brand selling indoor and outdoor pieces in natural timber, stone and linen. Sold direct through showrooms and online."
+  "description": "Australian designer furniture brand selling indoor and outdoor pieces in natural timber, stone and linen. Sold direct through showrooms and online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Paddington",
+  "cityBasis": "Company location"
  },
  {
   "id": "mcqueen-group",
@@ -19112,7 +19993,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.mcqueengroup.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "medem",
@@ -19213,7 +20097,10 @@
     "id": "medem--ishita-singh"
    }
   ],
-  "description": "Australian healthcare software group. Medi-Map is an eMAR and care planning system for aged care; Z Software is pharmacy dispensing and point-of-sale software."
+  "description": "Australian healthcare software group. Medi-Map is an eMAR and care planning system for aged care; Z Software is pharmacy dispensing and point-of-sale software.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "mediq-financial-services",
@@ -19258,7 +20145,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.fizo.com.au/listing/mediq-financial/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "medtasker",
@@ -19328,7 +20218,10 @@
     "id": "medtasker--ken-lim"
    }
   ],
-  "description": "Clinical task management and communication platform for hospitals, replacing pagers with on-duty routing, escalation and audit trails for doctors, nurses and pharmacists."
+  "description": "Clinical task management and communication platform for hospitals, replacing pagers with on-duty routing, escalation and audit trails for doctors, nurses and pharmacists.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "meeco",
@@ -19399,7 +20292,10 @@
     "id": "meeco--wendy-marris"
    }
   ],
-  "description": "Identity and data platform (Secure Value Exchange) for issuing and verifying digital credentials and storing personal data. Sold to banks, governments and enterprises."
+  "description": "Identity and data platform (Secure Value Exchange) for issuing and verifying digital credentials and storing personal data. Sold to banks, governments and enterprises.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "meir",
@@ -19483,7 +20379,11 @@
     "id": "meir--kamal-bapna"
    }
   ],
-  "description": "Family-owned Australian designer tapware, showers and sinks for bathrooms and kitchens. Sold through retailers and online, with a lifetime guarantee on tapware."
+  "description": "Family-owned Australian designer tapware, showers and sinks for bathrooms and kitchens. Sold through retailers and online, with a lifetime guarantee on tapware.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Albion",
+  "cityBasis": "Company location"
  },
  {
   "id": "melrose-health",
@@ -19569,7 +20469,11 @@
     "id": "melrose-health--geoff-steinicke",
     "notes": "Stale: sold Melrose in 2010 and retired. Current CEO/CFO added."
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Rowville",
+  "cityBasis": "Company location"
  },
  {
   "id": "menz-confectionery",
@@ -19673,7 +20577,10 @@
     "id": "menz-confectionery--celeste-vazquez-wehrhahne"
    }
   ],
-  "description": "Adelaide confectionery maker of FruChocs, Violet Crumble, Crown Mints and Polly Waffle. Sold in supermarkets and online, with shops in South Australia and exports to Asia and North America."
+  "description": "Adelaide confectionery maker of FruChocs, Violet Crumble, Crown Mints and Polly Waffle. Sold in supermarkets and online, with shops in South Australia and exports to Asia and North America.",
+  "state": "SA",
+  "city": "Adelaide",
+  "cityBasis": "Company location"
  },
  {
   "id": "mgi-joyce-dickson",
@@ -19741,7 +20648,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.mgijd.com.au/services/external-cfo-financial-management/"
-  ]
+  ],
+  "state": "ACT",
+  "city": "Canberra",
+  "suburb": "Griffith",
+  "cityBasis": "Company location"
  },
  {
   "id": "millie-savage",
@@ -19809,7 +20720,10 @@
     "id": "millie-savage--lachlan-h"
    }
   ],
-  "description": "Handmade fine jewellery brand selling rings, earrings, necklaces and wedding bands in sterling silver, gold vermeil and solid gold. Sold online to consumers."
+  "description": "Handmade fine jewellery brand selling rings, earrings, necklaces and wedding bands in sterling silver, gold vermeil and solid gold. Sold online to consumers.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "mindset-health",
@@ -19880,7 +20794,10 @@
     "id": "mindset-health--anna-shersheneva-fcca"
    }
   ],
-  "description": "Developer of prescription-style digital therapy apps for chronic conditions (Nerva for IBS, Evia for menopause, Claria for anxiety, Relio for back pain). Sold to patients via app stores and health plans."
+  "description": "Developer of prescription-style digital therapy apps for chronic conditions (Nerva for IBS, Evia for menopause, Claria for anxiety, Relio for back pain). Sold to patients via app stores and health plans.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "miss-amara",
@@ -19967,7 +20884,10 @@
     "id": "miss-amara--aaron-weller-alexandra-weller",
     "linkedin": "https://www.linkedin.com/in/weller"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "mjc-partners",
@@ -20031,7 +20951,11 @@
   "sourceUrls": [
    "https://www.mjcpartners.com.au/",
    "https://www.mjcpartners.com.au/hello-new-financial-year-2026/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Dandenong",
+  "cityBasis": "Company location"
  },
  {
   "id": "mny-group-chartered-accountants",
@@ -20078,7 +21002,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://mnygroup.com.au/en/contact-us/melbourne-accountant-office/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "mod-io",
@@ -20149,7 +21077,10 @@
     "id": "mod-io--blanche-wang-cpa"
    }
   ],
-  "description": "Middleware for game developers to add user-generated content and mods to their games, with moderation tools, creator marketplace and white-label hub. Founded in Melbourne in 2017."
+  "description": "Middleware for game developers to add user-generated content and mods to their games, with moderation tools, creator marketplace and white-label hub. Founded in Melbourne in 2017.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "mont-adventure-equipment",
@@ -20221,7 +21152,11 @@
     "inAttio": true,
     "id": "mont-adventure-equipment--andrew-montgomery"
    }
-  ]
+  ],
+  "state": "ACT",
+  "city": "Canberra",
+  "suburb": "Fyshwick",
+  "cityBasis": "Company location"
  },
  {
   "id": "moogoo-skin-care",
@@ -20316,7 +21251,11 @@
     "linkedin": "https://www.linkedin.com/in/paul-marzella-87362a6a"
    }
   ],
-  "description": "Australian natural skin, scalp and dental care brand for sensitive and problem-prone skin, including eczema and psoriasis products. Sold online and internationally."
+  "description": "Australian natural skin, scalp and dental care brand for sensitive and problem-prone skin, including eczema and psoriasis products. Sold online and internationally.",
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Burleigh Heads",
+  "cityBasis": "Company location"
  },
  {
   "id": "morris-cohen-glen-co-mcg-co",
@@ -20377,7 +21316,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.morco.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Camberwell",
+  "cityBasis": "Company location"
  },
  {
   "id": "moveactive",
@@ -20455,7 +21398,11 @@
     "inAttio": true,
     "id": "moveactive--melissa-pain-owner-founder"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Brunswick East",
+  "cityBasis": "Company location"
  },
  {
   "id": "muk-haircare",
@@ -20541,7 +21488,10 @@
     "id": "muk-haircare--sasha-raicevic"
    }
   ],
-  "description": "Australian-owned professional haircare brand selling colour, toners and treatments to hair salons and hairdressers."
+  "description": "Australian-owned professional haircare brand selling colour, toners and treatments to hair salons and hairdressers.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "mukti-organics",
@@ -20610,7 +21560,11 @@
     "id": "mukti-organics--mita-noble"
    }
   ],
-  "description": "Certified organic skincare, hair and body care brand made in-house in Mullumbimby, NSW, using native Australian botanicals. Sold online to consumers."
+  "description": "Certified organic skincare, hair and body care brand made in-house in Mullumbimby, NSW, using native Australian botanicals. Sold online to consumers.",
+  "state": "NSW",
+  "city": "Byron Bay",
+  "suburb": "Mullumbimby",
+  "cityBasis": "Company location"
  },
  {
   "id": "mura-boutique",
@@ -20678,7 +21632,10 @@
     "id": "mura-boutique--sayaka-louca"
    }
   ],
-  "description": "Australian online womenswear retailer selling dresses, tops, bottoms, swimwear and accessories to consumers."
+  "description": "Australian online womenswear retailer selling dresses, tops, bottoms, swimwear and accessories to consumers.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "murdoch-partners",
@@ -20737,7 +21694,11 @@
   "sourceUrls": [
    "https://www.murdochpartners.com.au/",
    "https://www.murdochpartners.com.au/contact-us"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Kew",
+  "cityBasis": "Company location"
  },
  {
   "id": "mustard-made",
@@ -20809,7 +21770,10 @@
     "inAttio": true,
     "id": "mustard-made--becca-stern-jess-stern"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Newcastle",
+  "cityBasis": "Company location"
  },
  {
   "id": "mva-bennett",
@@ -20871,7 +21835,10 @@
   "sourceUrls": [
    "https://mvabennett.com.au/",
    "https://mvabennett.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "mybookworks",
@@ -20923,7 +21890,10 @@
   "sourceUrls": [
    "https://mybookworks.com.au/",
    "https://mybookworks.com.au/about-us/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "nak-hair",
@@ -21043,7 +22013,11 @@
     "id": "nak-hair--tamara-marshall"
    }
   ],
-  "description": "Australian-made salon haircare brand with NAK Signature, ROH, NAK Barber and CARE ranges. Sold to consumers and to salons and stylists."
+  "description": "Australian-made salon haircare brand with NAK Signature, ROH, NAK Barber and CARE ranges. Sold to consumers and to salons and stylists.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Eagle Farm",
+  "cityBasis": "Company location"
  },
  {
   "id": "naked-sundays",
@@ -21130,7 +22104,11 @@
     "id": "naked-sundays--tsz-kan-tam"
    }
   ],
-  "description": "Vegan SPF50 sunscreen and makeup brand selling direct to consumers online in Australia and the US. Products include tinted sunscreens and SPF primers."
+  "description": "Vegan SPF50 sunscreen and makeup brand selling direct to consumers online in Australia and the US. Products include tinted sunscreens and SPF primers.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Bondi Beach",
+  "cityBasis": "Company location"
  },
  {
   "id": "natalie-rolt",
@@ -21216,7 +22194,10 @@
     "id": "natalie-rolt--zoe-viskovich"
    }
   ],
-  "description": "Independent Western Australian fashion label designing and making evening, bridal and resort wear. Operates a flagship boutique and studio in WA."
+  "description": "Independent Western Australian fashion label designing and making evening, bridal and resort wear. Operates a flagship boutique and studio in WA.",
+  "state": "WA",
+  "city": "Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "natio",
@@ -21286,7 +22267,11 @@
     "id": "natio--matthew-smith"
    }
   ],
-  "description": "Natural Australian skincare, sun care and makeup brand selling cruelty-free products to consumers through its online store."
+  "description": "Natural Australian skincare, sun care and makeup brand selling cruelty-free products to consumers through its online store.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Heidelberg West",
+  "cityBasis": "Company location"
  },
  {
   "id": "new-wave-accountants-business-advisory",
@@ -21353,7 +22338,10 @@
   "sourceUrls": [
    "https://new-wave.com.au/services/bookkeeping/ecommerce/",
    "https://new-wave.com.au/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Gold Coast",
+  "cityBasis": "Company location"
  },
  {
   "id": "nexba",
@@ -21424,7 +22412,10 @@
     "id": "nexba--jane-hoang"
    }
   ],
-  "description": "Sugar-free kombucha and Better Soda drinks sweetened with a plant-based sweetener, sold to consumers in Australia, the UK and Europe."
+  "description": "Sugar-free kombucha and Better Soda drinks sweetened with a plant-based sweetener, sold to consumers in Australia, the UK and Europe.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "nicholas-the-label",
@@ -21492,7 +22483,11 @@
     "id": "nicholas-the-label--martono-widjaja"
    }
   ],
-  "description": "Women's clothing label founded in Melbourne in 2009, with a Los Angeles base. Sells dresses, skirts, tops and knitwear direct online to customers in many countries."
+  "description": "Women's clothing label founded in Melbourne in 2009, with a Los Angeles base. Sells dresses, skirts, tops and knitwear direct online to customers in many countries.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Cremorne",
+  "cityBasis": "Company location"
  },
  {
   "id": "nimbus",
@@ -21562,7 +22557,10 @@
     "id": "nimbus--justin-gillett"
    }
   ],
-  "description": "Australian cloud workforce management software (time2work) for scheduling, time and attendance and award-compliant payroll. Also sells contact-centre and business continuity tools to enterprises and government."
+  "description": "Australian cloud workforce management software (time2work) for scheduling, time and attendance and award-compliant payroll. Also sells contact-centre and business continuity tools to enterprises and government.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "noggin",
@@ -21648,7 +22646,10 @@
     "id": "noggin--karen-may-patnon-cpa"
    }
   ],
-  "description": "Integrated resilience software covering emergency management, incident and crisis response, business continuity and risk, with mapping, messaging and response plans for organisations."
+  "description": "Integrated resilience software covering emergency management, incident and crisis response, business continuity and risk, with mapping, messaging and response plans for organisations.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "noosa-chocolate-factory",
@@ -21713,7 +22714,11 @@
   ],
   "description": "Noosaville, Queensland chocolate maker handcrafting slabs, rocky road, panned chocolate and gift hampers. Sold in its Queensland stores and online.",
   "domain": "noosachocolatefactory.com.au",
-  "website": "https://noosachocolatefactory.com.au"
+  "website": "https://noosachocolatefactory.com.au",
+  "state": "QLD",
+  "city": "Sunshine Coast",
+  "suburb": "Noosaville",
+  "cityBasis": "Company location"
  },
  {
   "id": "noshu",
@@ -21781,7 +22786,10 @@
     "id": "noshu--simon-miks"
    }
   ],
-  "description": "Australian-made low-sugar snack bars, baking mixes and treats sweetened with plant-based sweeteners. Sold through Woolworths, Coles, Costco and online retailers."
+  "description": "Australian-made low-sugar snack bars, baking mixes and treats sweetened with plant-based sweeteners. Sold through Woolworths, Coles, Costco and online retailers.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "nuzest-life",
@@ -21868,7 +22876,11 @@
     "id": "nuzest-life--maggie-zhang"
    }
   ],
-  "description": "Plant-based protein and greens supplements, including Clean Lean Protein pea protein and Protein + Probiotics blends. Sold to consumers online and in retail."
+  "description": "Plant-based protein and greens supplements, including Clean Lean Protein pea protein and Protein + Probiotics blends. Sold to consumers online and in retail.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Potts Point",
+  "cityBasis": "Company location"
  },
  {
   "id": "o-m-original-mineral",
@@ -22019,7 +23031,11 @@
   "sourceUrls": [
    "https://obbc.com.au/",
    "https://obbc.com.au/contact/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Ivanhoe",
+  "cityBasis": "Company location"
  },
  {
   "id": "omnia-business-solutions",
@@ -22072,7 +23088,11 @@
   "sourceUrls": [
    "https://omniabs.com.au/",
    "https://omniabs.com.au/case-studies/omnia-delivers-financial-turnaround-for-managed-service-provider/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Norwest",
+  "cityBasis": "Company location"
  },
  {
   "id": "oneblink",
@@ -22142,7 +23162,10 @@
     "id": "oneblink--sarah-pollard"
    }
   ],
-  "description": "No-code forms, app and workflow platform used by government agencies and enterprises to digitise paper forms and automate processes, with offline access."
+  "description": "No-code forms, app and workflow platform used by government agencies and enterprises to digitise paper forms and automate processes, with offline access.",
+  "state": "NSW",
+  "city": "Central Coast",
+  "cityBasis": "Company location"
  },
  {
   "id": "oneledger-group",
@@ -22203,7 +23226,11 @@
   "sourceUrls": [
    "https://oneledger.com.au/",
    "https://oneledger.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Port Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "origani",
@@ -22271,7 +23298,10 @@
     "id": "origani--cham-fernando"
    }
   ],
-  "description": "Melbourne-founded certified organic skincare brand (Erda, Manuka Honey Peel, Dermassure ranges). Sold direct to consumers through its online store."
+  "description": "Melbourne-founded certified organic skincare brand (Erda, Manuka Honey Peel, Dermassure ranges). Sold direct to consumers through its online store.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "outcast",
@@ -22375,7 +23405,11 @@
     "id": "outcast--georgia-duffy"
    }
   ],
-  "description": "Online womenswear label selling dresses, tops, bottoms and swimwear that it designs in-house. Adds new drops weekly and sells through its website and app."
+  "description": "Online womenswear label selling dresses, tops, bottoms and swimwear that it designs in-house. Adds new drops weekly and sells through its website and app.",
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Burleigh Heads",
+  "cityBasis": "Company location"
  },
  {
   "id": "papinelle",
@@ -22463,7 +23497,10 @@
     "id": "papinelle--vicki-w"
    }
   ],
-  "description": "Australian sleepwear and loungewear brand selling pyjama sets, nighties and robes in cotton, modal and linen. Sold direct to consumers online."
+  "description": "Australian sleepwear and loungewear brand selling pyjama sets, nighties and robes in cotton, modal and linen. Sold direct to consumers online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "paris-financial",
@@ -22525,7 +23562,11 @@
   "sourceUrls": [
    "https://www.parisfinancial.com.au/",
    "https://www.parisfinancial.com.au/contact/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Blackburn",
+  "cityBasis": "Company location"
  },
  {
   "id": "patison-partners",
@@ -22575,7 +23616,11 @@
   "sourceUrls": [
    "https://www.patison.com.au/",
    "https://www.patison.com.au/contact"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Mulgrave",
+  "cityBasis": "Company location"
  },
  {
   "id": "payfurl",
@@ -22645,7 +23690,10 @@
     "id": "payfurl--dean-herbert"
    }
   ],
-  "description": "Payment orchestration platform founded in 2026 that routes online payments across 70+ providers, with failover, a card vault and optional fraud screening, for merchants and platforms."
+  "description": "Payment orchestration platform founded in 2026 that routes online payments across 70+ providers, with failover, a card vault and optional fraud screening, for merchants and platforms.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "payroll-metrics",
@@ -22746,7 +23794,11 @@
     "id": "payroll-metrics--aniket-dhamane"
    }
   ],
-  "description": "Payroll, timesheet and compliance software for Australian and New Zealand employers, covering award and EBA pay, Single Touch Payroll and SuperStream."
+  "description": "Payroll, timesheet and compliance software for Australian and New Zealand employers, covering award and EBA pay, Single Touch Payroll and SuperStream.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Oakleigh",
+  "cityBasis": "Company location"
  },
  {
   "id": "perfect-accounting-tax-services",
@@ -22859,7 +23911,11 @@
   "sourceUrls": [
    "https://www.ptps.com.au/",
    "https://www.ptps.com.au/contact/melbourne/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "perx-health",
@@ -22930,7 +23986,10 @@
     "id": "perx-health--wendy-chen"
    }
   ],
-  "description": "Digital care management app for high-risk, medically complex members. Sold to health plans, health providers and government agencies, with gift card rewards for completing treatment tasks."
+  "description": "Digital care management app for high-risk, medically complex members. Sold to health plans, health providers and government agencies, with gift card rewards for completing treatment tasks.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "petal-pup",
@@ -23016,7 +24075,8 @@
     "id": "petal-pup--rohini-gurrala"
    }
   ],
-  "description": "Australian-founded online womenswear label selling dresses, playsuits, tops and sets with a laid-back feminine style. Sells online to customers, including through a USA store."
+  "description": "Australian-founded online womenswear label selling dresses, playsuits, tops and sets with a laid-back feminine style. Sells online to customers, including through a USA store.",
+  "state": "QLD"
  },
  {
   "id": "peter-bouchier",
@@ -23085,7 +24145,11 @@
     "inAttio": true,
     "id": "peter-bouchier--peter-bouchier-sue-bouchier"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Moorabbin",
+  "cityBasis": "Company location"
  },
  {
   "id": "peto-australia",
@@ -23200,7 +24264,11 @@
   ],
   "description": "Australian family-owned pet supplies retailer selling dog and cat food, treats, toys and flea products. Sold through stores across Australia and online.",
   "domain": "peto.com.au",
-  "website": "https://peto.com.au"
+  "website": "https://peto.com.au",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Alexandria",
+  "cityBasis": "Company location"
  },
  {
   "id": "petzyo",
@@ -23272,7 +24340,11 @@
     "inAttio": true,
     "id": "petzyo--david-latimer-sam-keil"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Yarra",
+  "cityBasis": "Company location"
  },
  {
   "id": "pgp-consulting",
@@ -23337,7 +24409,10 @@
   "sourceUrls": [
    "https://pgpconsulting.com.au/",
    "https://pgpconsulting.com.au/contact/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "photosentinel",
@@ -23420,7 +24495,10 @@
   ],
   "description": "Solar-powered construction time-lapse and site monitoring cameras (Buildcam) with the Sentinel OS software platform. Sold to builders and project teams; over 5,600 systems deployed in 55 countries.",
   "domain": "photosentinel.com",
-  "website": "https://photosentinel.com"
+  "website": "https://photosentinel.com",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "pilgrim-clothing",
@@ -23492,7 +24570,11 @@
     "inAttio": true,
     "id": "pilgrim-clothing--grant-olver-ken-olver"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Maribyrnong",
+  "cityBasis": "Company location"
  },
  {
   "id": "pillar-performance",
@@ -23578,7 +24660,10 @@
     "id": "pillar-performance--mavra-ioannidou"
    }
   ],
-  "description": "Sports supplements and hydration products, including creatine, magnesium, collagen and electrolyte powders. Sold direct online to athletes and sports teams."
+  "description": "Sports supplements and hydration products, including creatine, magnesium, collagen and electrolyte powders. Sold direct online to athletes and sports teams.",
+  "city": "Melbourne",
+  "state": "VIC",
+  "cityBasis": "Contact location (company location not recorded)"
  },
  {
   "id": "playhq-sports",
@@ -23648,7 +24733,10 @@
     "id": "playhq-sports--anwar-hossain"
    }
   ],
-  "description": "Sports registration and payments platform for clubs and associations. Takes member registrations and fees, offers instalments, and pays organisations out after collection."
+  "description": "Sports registration and payments platform for clubs and associations. Takes member registrations and fees, offers instalments, and pays organisations out after collection.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "polished-brands-urbane-mess",
@@ -23713,7 +24801,10 @@
     "id": "polished-brands-urbane-mess--josie-bassilious"
    }
   ],
-  "description": "Port Melbourne grooming company selling men's hair styling, beard care, skincare and battery grooming products under the Urbane Mess brand."
+  "description": "Port Melbourne grooming company selling men's hair styling, beard care, skincare and battery grooming products under the Urbane Mess brand.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "posca-hydrate",
@@ -23778,7 +24869,10 @@
     "id": "posca-hydrate--laurel-lyn-rubio"
    }
   ],
-  "description": "Australian-made zero-sugar sparkling electrolyte drink with red grape vinegar, marketed as a hydration soda. Sold to consumers for sport, heat and everyday hydration."
+  "description": "Australian-made zero-sugar sparkling electrolyte drink with red grape vinegar, marketed as a hydration soda. Sold to consumers for sport, heat and everyday hydration.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "ppt-ppt-accounting-financial",
@@ -23830,7 +24924,10 @@
   "sourceUrls": [
    "https://www.ppt.com.au/",
    "https://www.ppt.com.au/about/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "prestige-partners-chartered-accountants",
@@ -23882,7 +24979,11 @@
   "sourceUrls": [
    "https://prestigeca.com.au/",
    "https://prestigeca.com.au/services/contract-cfo-services/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "Burswood",
+  "cityBasis": "Company location"
  },
  {
   "id": "prime-partners-chartered-accountants",
@@ -23935,7 +25036,11 @@
   "sourceUrls": [
    "https://pp.tax/",
    "https://pp.tax/industries/retail-ecommerce-accountants/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "North Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "proacct",
@@ -24057,7 +25162,10 @@
     "id": "procurepro--hayden-vowell"
    }
   ],
-  "description": "Construction procurement software for head contractors. Centralises subcontractor tenders, scopes, approvals and contracts on commercial, fit-out and infrastructure projects."
+  "description": "Construction procurement software for head contractors. Centralises subcontractor tenders, scopes, approvals and contracts on commercial, fit-out and infrastructure projects.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "professional-bookkeeping-service",
@@ -24123,7 +25231,11 @@
   "sourceUrls": [
    "https://pbservice.com.au/about/",
    "https://pbservice.com.au/choosing-a-bookkeeper/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Narre Warren",
+  "cityBasis": "Company location"
  },
  {
   "id": "programa",
@@ -24192,7 +25304,10 @@
     "id": "programa--paul-rowlinson"
    }
   ],
-  "description": "Melbourne-based vertical SaaS for architects and interior designers, covering specifications, procurement, client approvals and project management. Used in more than 90 countries."
+  "description": "Melbourne-based vertical SaaS for architects and interior designers, covering specifications, procurement, client approvals and project management. Used in more than 90 countries.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "propic",
@@ -24260,7 +25375,10 @@
     "id": "propic--sage-dempsey"
    }
   ],
-  "description": "AI assistant (Claire) for Australian real estate agencies. Answers buyer and renter enquiries, writes listing copy and flags likely sellers, working with CRMs such as Rex and VaultRE."
+  "description": "AI assistant (Claire) for Australian real estate agencies. Answers buyer and renter enquiries, writes listing copy and flags likely sellers, working with CRMs such as Rex and VaultRE.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "proptech-labs",
@@ -24326,7 +25444,10 @@
     "id": "proptech-labs--gary-hunter"
    }
   ],
-  "description": "Melbourne property software company offering Bricks + Agent maintenance workflows, Inspection Manager, Invoice Automate and the Alex tenant chatbot to property managers."
+  "description": "Melbourne property software company offering Bricks + Agent maintenance workflows, Inspection Manager, Invoice Automate and the Alex tenant chatbot to property managers.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "proud-mary-coffee",
@@ -24396,7 +25517,11 @@
     "id": "proud-mary-coffee--amy-davis"
    }
   ],
-  "description": "Melbourne specialty coffee roaster selling whole-bean coffee by subscription and wholesale to cafes. Operates cafes in Collingwood, Melbourne."
+  "description": "Melbourne specialty coffee roaster selling whole-bean coffee by subscription and wholesale to cafes. Operates cafes in Collingwood, Melbourne.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Collingwood",
+  "cityBasis": "Company location"
  },
  {
   "id": "provectus-algae",
@@ -24454,7 +25579,11 @@
     "inAttio": false
    }
   ],
-  "description": "Biotech developing products from photosynthetic microbes. Its first product, Surf'N'Turf, is a dry feed supplement for ruminant livestock that reduces methane, commercialised via spin-out Proteus Ag."
+  "description": "Biotech developing products from photosynthetic microbes. Its first product, Surf'N'Turf, is a dry feed supplement for ruminant livestock that reduces methane, commercialised via spin-out Proteus Ag.",
+  "state": "QLD",
+  "city": "Sunshine Coast",
+  "suburb": "Noosaville",
+  "cityBasis": "Company location"
  },
  {
   "id": "psyke-ai",
@@ -24517,7 +25646,10 @@
     "linkedin": "https://www.linkedin.com/in/ashleylawsmith"
    }
   ],
-  "description": "Marketing software that builds AI-optimised landing pages and tracks how AI assistants cite a brand. Sold to marketing teams and agencies, deploying to Webflow, WordPress and Shopify."
+  "description": "Marketing software that builds AI-optimised landing pages and tracks how AI assistants cite a brand. Sold to marketing teams and agencies, deploying to Webflow, WordPress and Shopify.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "ptp",
@@ -24603,7 +25735,10 @@
     "id": "ptp--sarino-gigliotti"
    }
   ],
-  "description": "Australian-designed resistance bands, recovery tools and strength training gear for athletes and home gym users. Sold online in Australia and more than 40 countries."
+  "description": "Australian-designed resistance bands, recovery tools and strength training gear for athletes and home gym users. Sold online in Australia and more than 40 countries.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "pure-mama",
@@ -24705,7 +25840,11 @@
     "id": "purebaby--paul-hare"
    }
   ],
-  "description": "Australian-owned organic cotton clothing, swimwear and accessories for babies and children. Sold through its own stores, David Jones concessions and online, with some international distribution."
+  "description": "Australian-owned organic cotton clothing, swimwear and accessories for babies and children. Sold through its own stores, David Jones concessions and online, with some international distribution.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Collingwood",
+  "cityBasis": "Company location"
  },
  {
   "id": "pvw-partners-accountants-advisors",
@@ -24774,7 +25913,10 @@
   "sourceUrls": [
    "https://www.pvwpartners.com/",
    "https://www.pvwpartners.com/taxation-accounting-services/bookkeeping/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Townsville",
+  "cityBasis": "Company location"
  },
  {
   "id": "px4-software",
@@ -24841,7 +25983,10 @@
     "id": "px4-software--kylie-brodsky"
    }
   ],
-  "description": "Cloud-based land and tenure management software for mining and exploration companies. Tracks tenements, agreements, rents and regulatory obligations across jurisdictions, integrated with Esri ArcGIS."
+  "description": "Cloud-based land and tenure management software for mining and exploration companies. Tracks tenements, agreements, rents and regulatory obligations across jurisdictions, integrated with Esri ArcGIS.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "q4-financial",
@@ -24894,7 +26039,10 @@
   "sourceUrls": [
    "https://q4financial.com.au/",
    "https://q4financial.com.au/bookkeeping/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "quill-group",
@@ -24962,7 +26110,11 @@
   "sourceUrls": [
    "https://www.quillgroup.com.au/",
    "https://www.quillgroup.com.au/services/business-advisory/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Southport",
+  "cityBasis": "Company location"
  },
  {
   "id": "qwilr",
@@ -25032,7 +26184,10 @@
     "id": "qwilr--andy-judson"
    }
   ],
-  "description": "Proposal, quote and e-signature software for sales teams, with online payments, engagement analytics and integrations with CRMs such as HubSpot, Salesforce and Pipedrive."
+  "description": "Proposal, quote and e-signature software for sales teams, with online payments, engagement analytics and integrations with CRMs such as HubSpot, Salesforce and Pipedrive.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "r-j-sanderson-associates",
@@ -25080,7 +26235,11 @@
   "sourceUrls": [
    "https://www.rjsanderson.com.au/locations/dandenong-head-office",
    "https://exa.ai/library/place/r4pnr8jkk9t"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Dandenong",
+  "cityBasis": "Company location"
  },
  {
   "id": "rachel-gilbert",
@@ -25150,7 +26309,11 @@
     "id": "rachel-gilbert--danny-bui"
    }
   ],
-  "description": "Sydney-headquartered designer label making evening wear, ready-to-wear and bridal pieces. Sold online and through retail stockists."
+  "description": "Sydney-headquartered designer label making evening wear, ready-to-wear and bridal pieces. Sold online and through retail stockists.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Alexandria",
+  "cityBasis": "Company location"
  },
  {
   "id": "raisely",
@@ -25220,7 +26383,10 @@
     "id": "raisely--math-o-zerbib"
    }
   ],
-  "description": "Fundraising platform for charities and nonprofits, offering donation forms, peer-to-peer campaigns, event ticketing and donor management. Platform fees are funded by optional donor tips."
+  "description": "Fundraising platform for charities and nonprofits, offering donation forms, peer-to-peer campaigns, event ticketing and donor management. Platform fees are funded by optional donor tips.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "rbizz-corporate-accountants",
@@ -25273,7 +26439,10 @@
   "sourceUrls": [
    "https://www.rbizz.com.au/profile",
    "https://www.rbizz.com.au/accountants"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "rcr-partners",
@@ -25342,7 +26511,11 @@
   "sourceUrls": [
    "https://rcrpartners.com.au/business-packages",
    "http://rcrpartners.com.au/services/business-advisory"
-  ]
+  ],
+  "state": "SA",
+  "city": "Adelaide",
+  "suburb": "Norwood",
+  "cityBasis": "Company location"
  },
  {
   "id": "rdl-accountants",
@@ -25407,7 +26580,11 @@
   "sourceUrls": [
    "https://www.rdlaccountants.com.au/",
    "https://www.rdlaccountants.com.au/about-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Blackburn",
+  "cityBasis": "Company location"
  },
  {
   "id": "relevance-ai",
@@ -25513,7 +26690,10 @@
     "id": "relevance-ai--daniel-palmer"
    }
   ],
-  "description": "Enterprise platform for building, running and evaluating AI agents, with a visual workflow builder, evaluation suites, tracing and access controls for business and engineering teams."
+  "description": "Enterprise platform for building, running and evaluating AI agents, with a visual workflow builder, evaluation suites, tracing and access controls for business and engineering teams.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "reposit-power",
@@ -25601,7 +26781,10 @@
     "id": "reposit-power--yash-kalra"
    }
   ],
-  "description": "Australian home energy company selling solar and battery systems that run on its Reposit Controller software. Its No Bill plan covers customers' household electricity charges."
+  "description": "Australian home energy company selling solar and battery systems that run on its Reposit Controller software. Its No Bill plan covers customers' household electricity charges.",
+  "state": "ACT",
+  "city": "Canberra",
+  "cityBasis": "Company location"
  },
  {
   "id": "revelation-software-concepts",
@@ -25685,7 +26868,11 @@
     "id": "revelation-software-concepts--gareth-saldanha"
    }
   ],
-  "description": "Forest Hill, Victoria software company selling Rev-Trac, a platform that automates SAP change delivery and keeps an audit trail. Sold to enterprise SAP teams."
+  "description": "Forest Hill, Victoria software company selling Rev-Trac, a platform that automates SAP change delivery and keeps an audit trail. Sold to enterprise SAP teams.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Forest Hill",
+  "cityBasis": "Company location"
  },
  {
   "id": "rex-software",
@@ -25805,7 +26992,11 @@
     "id": "rex-software--jasmine-evans"
    }
   ],
-  "description": "Real estate software for agencies, including a sales and rentals CRM, trust accounting and portal integrations. Sold to real estate agencies in Australia, New Zealand and the UK."
+  "description": "Real estate software for agencies, including a sales and rentals CRM, trust accounting and portal integrations. Sold to real estate agencies in Australia, New Zealand and the UK.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Newstead",
+  "cityBasis": "Company location"
  },
  {
   "id": "rogerson-kenny-business-accountants",
@@ -25889,7 +27080,11 @@
   "sourceUrls": [
    "https://rogersonkenny.com.au/",
    "https://rogersonkenny.com.au/contact/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Mulgrave",
+  "cityBasis": "Company location"
  },
  {
   "id": "rose-partners",
@@ -25954,7 +27149,11 @@
   "sourceUrls": [
    "https://www.rosepartners.com.au/",
    "https://www.rosepartners.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "rosterfy",
@@ -26096,7 +27295,10 @@
     "id": "rosterfy--melissa-crahan"
    }
   ],
-  "description": "Volunteer and workforce management software for large organisations, covering recruitment, scheduling, training, hour tracking and rewards. Sold to charities, councils, events and sporting bodies."
+  "description": "Volunteer and workforce management software for large organisations, covering recruitment, scheduling, training, hour tracking and rewards. Sold to charities, councils, events and sporting bodies.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "rosy-small-business-services",
@@ -26216,7 +27418,10 @@
     "id": "saddlery-brands-international--sarah-ng"
    }
   ],
-  "description": "Equestrian company that makes and distributes Arena, Bates and Wintec saddles. Sells through retail and importer partners in Australia and other markets."
+  "description": "Equestrian company that makes and distributes Arena, Bates and Wintec saddles. Sells through retail and importer partners in Australia and other markets.",
+  "state": "WA",
+  "city": "Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "sapia-ai",
@@ -26361,7 +27566,10 @@
     "id": "sapia-ai--daniel-tay"
    }
   ],
-  "description": "AI interview and hiring platform for enterprises. Runs text-based chat interviews, scores candidates against role competencies and integrates with applicant tracking systems."
+  "description": "AI interview and hiring platform for enterprises. Runs text-based chat interviews, scores candidates against role competencies and integrates with applicant tracking systems.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "sarah-sebastian",
@@ -26479,7 +27687,11 @@
     "id": "sarah-sebastian--jerry-s"
    }
   ],
-  "description": "Australian fine jewellery studio making diamond, gemstone and gold pieces, including personalised and signature collections. Sold to consumers online."
+  "description": "Australian fine jewellery studio making diamond, gemstone and gold pieces, including personalised and signature collections. Sold to consumers online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Alexandria",
+  "cityBasis": "Company location"
  },
  {
   "id": "saward-dawson",
@@ -26544,7 +27756,11 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://sawarddawson.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Blackburn",
+  "cityBasis": "Company location"
  },
  {
   "id": "scope-systems",
@@ -26650,7 +27866,10 @@
     "id": "scope-systems--natalia-demarco-asa"
    }
   ],
-  "description": "Australian software provider for asset maintenance and ERP. Offers AssetHive mobile maintenance software and Pronto Xi add-ons, aimed at mining, civil and resources companies."
+  "description": "Australian software provider for asset maintenance and ERP. Offers AssetHive mobile maintenance software and Pronto Xi add-ons, aimed at mining, civil and resources companies.",
+  "state": "WA",
+  "city": "Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "securinvest-financial-group",
@@ -26713,7 +27932,11 @@
   "sourceUrls": [
    "https://securinvest.com.au/",
    "https://securinvest.com.au/find-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Scoresby",
+  "cityBasis": "Company location"
  },
  {
   "id": "seiva-advisory",
@@ -26759,7 +27982,11 @@
     ],
     "inAttio": false
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Southbank",
+  "cityBasis": "Company location"
  },
  {
   "id": "sesimi",
@@ -26860,7 +28087,10 @@
     "id": "sesimi--christopher-daoud"
    }
   ],
-  "description": "Brand management SaaS for multi-location brands, covering shared campaign calendars, co-op marketing budgets, digital asset management and brand-compliant creative automation."
+  "description": "Brand management SaaS for multi-location brands, covering shared campaign calendars, co-op marketing budgets, digital asset management and brand-compliant creative automation.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "shaw-downie-chartered-accountants",
@@ -26914,7 +28144,10 @@
   "sourceUrls": [
    "https://shawdownie.com.au/",
    "https://shawdownie.com.au/our-services"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "sheet-society",
@@ -27061,7 +28294,10 @@
     "inAttio": true,
     "id": "shelter-brewing-co--jason-credaro"
    }
-  ]
+  ],
+  "state": "WA",
+  "city": "Busselton",
+  "cityBasis": "Company location"
  },
  {
   "id": "shona-joy",
@@ -27180,7 +28416,10 @@
     "id": "shona-joy--yiwen-eva-xu"
    }
   ],
-  "description": "Australian womenswear label selling dresses, tops, knitwear, suiting and swim pieces online to customers in Australia and New Zealand."
+  "description": "Australian womenswear label selling dresses, tops, knitwear, suiting and swim pieces online to customers in Australia and New Zealand.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "simply-wall-st",
@@ -27250,7 +28489,10 @@
     "id": "simply-wall-st--ashleigh-gehlig"
    }
   ],
-  "description": "Stock research and portfolio tracking app for retail investors, offering company reports, screeners and portfolio analysis on subscription plans. Founded in Sydney in 2014."
+  "description": "Stock research and portfolio tracking app for retail investors, offering company reports, screeners and portfolio analysis on subscription plans. Founded in Sydney in 2014.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "single-o",
@@ -27336,7 +28578,11 @@
     "inAttio": true,
     "id": "single-o--emma-cohen-dion-cohen"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Botany",
+  "cityBasis": "Company location"
  },
  {
   "id": "sir",
@@ -27441,7 +28687,10 @@
     "id": "sir--carina-lu"
    }
   ],
-  "description": "Sydney-based contemporary fashion label making separates, intimates, dresses and knitwear. Sold online to customers in Australia and internationally."
+  "description": "Sydney-based contemporary fashion label making separates, intimates, dresses and knitwear. Sold online to customers in Australia and internationally.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "skipper",
@@ -27513,7 +28762,10 @@
     "inAttio": true,
     "id": "skipper--may-bandi-lachlan-hill"
    }
-  ]
+  ],
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "sky-accountants",
@@ -27580,7 +28832,11 @@
   "sourceUrls": [
    "https://skyaccountants.com.au/",
    "https://skyaccountants.com.au/contact/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Sunbury",
+  "cityBasis": "Company location"
  },
  {
   "id": "skybridge-financial",
@@ -27641,7 +28897,11 @@
   "sourceUrls": [
    "https://skybridgefinancial.com.au/locations/index/bentleigh-melbourne",
    "https://www.skybridgefinancial.com.au/pages/our-team"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Bentleigh",
+  "cityBasis": "Company location"
  },
  {
   "id": "slice",
@@ -27725,7 +28985,10 @@
     "id": "slice--bill-qi"
    }
   ],
-  "description": "Pyrmont, Sydney fintech offering PayLater Travel, a lay-by plan that lets travellers lock in flight prices with a deposit and pay in instalments. Also sells Slice Pay to travel agents."
+  "description": "Pyrmont, Sydney fintech offering PayLater Travel, a lay-by plan that lets travellers lock in flight prices with a deposit and pay in instalments. Also sells Slice Pay to travel agents.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "slickhair",
@@ -27809,7 +29072,10 @@
     "id": "slickhair--heli-vyas"
    }
   ],
-  "description": "Hair styling brand selling anti-frizz sticks, gels, brushes and clips for smooth, slicked-back styles. Sold direct to consumers online."
+  "description": "Hair styling brand selling anti-frizz sticks, gels, brushes and clips for smooth, slicked-back styles. Sold direct to consumers online.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "slomoi-immerman-partners-sip",
@@ -27873,7 +29139,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.slomoipartners.com.au/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "smarter-city-solutions",
@@ -27945,7 +29214,11 @@
     "id": "smarter-city-solutions--kathleen-roth"
    }
   ],
-  "description": "Australian smart-city software for councils and campuses, covering pay-by-phone parking, parking enforcement and online permits (vPermit) that integrate with council systems."
+  "description": "Australian smart-city software for councils and campuses, covering pay-by-phone parking, parking enforcement and online permits (vPermit) that integrate with council systems.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Lane Cove West",
+  "cityBasis": "Company location"
  },
  {
   "id": "smith-feutrill",
@@ -28011,7 +29284,11 @@
   "sourceUrls": [
    "https://smithfeutrill.com.au/",
    "https://smithfeutrill.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hawthorn",
+  "cityBasis": "Company location"
  },
  {
   "id": "solidteknics",
@@ -28097,7 +29374,10 @@
     "inAttio": true,
     "id": "solidteknics--mark-j-henry"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "solskin-beauty-labs",
@@ -28164,7 +29444,11 @@
     "id": "solskin-beauty-labs--jenny-ung"
    }
   ],
-  "description": "Melbourne white-label manufacturer of skincare, haircare, body care and self-tan products. Makes private-label ranges for brands and tanning salons."
+  "description": "Melbourne white-label manufacturer of skincare, haircare, body care and self-tan products. Makes private-label ranges for brands and tanning salons.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Carrum Downs",
+  "cityBasis": "Company location"
  },
  {
   "id": "spell",
@@ -28251,7 +29535,10 @@
     "inAttio": true,
     "id": "spell--sally-tullett"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Byron Bay",
+  "cityBasis": "Company location"
  },
  {
   "id": "splose",
@@ -28356,7 +29643,10 @@
     "id": "splose--shane-mcgrath"
    }
   ],
-  "description": "AI practice management software for allied health clinics such as physiotherapy, occupational therapy and psychology. Covers scheduling, progress notes, invoicing and NDIS claims."
+  "description": "AI practice management software for allied health clinics such as physiotherapy, occupational therapy and psychology. Covers scheduling, progress notes, invoicing and NDIS claims.",
+  "state": "SA",
+  "city": "Adelaide",
+  "cityBasis": "Company location"
  },
  {
   "id": "srs-business-accounting-solutions",
@@ -28411,7 +29701,11 @@
   "sourceUrls": [
    "https://www.srsaccountants.com.au/",
    "https://www.srsaccountants.com.au/contact-us/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Parramatta",
+  "cityBasis": "Company location"
  },
  {
   "id": "st-frock",
@@ -28503,7 +29797,11 @@
     "id": "st-frock--yuanchun-kris-fu-cpa"
    }
   ],
-  "description": "Australian online women's clothing retailer selling dresses, tops, bottoms and knitwear in sizes 8 to 20. Ships across Australia from Sydney."
+  "description": "Australian online women's clothing retailer selling dresses, tops, bottoms and knitwear in sizes 8 to 20. Ships across Australia from Sydney.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Ultimo",
+  "cityBasis": "Company location"
  },
  {
   "id": "st-ali",
@@ -28588,7 +29886,11 @@
     "inAttio": true,
     "id": "st-ali--lachlan-ward"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "standard-ledger",
@@ -28674,7 +29976,10 @@
   "sourceUrls": [
    "https://www.standardledger.co/virtual-cfo/",
    "https://www.standardledger.co/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "stannards-accountants-advisors",
@@ -28738,7 +30043,11 @@
   "sourceUrls": [
    "https://stannards.com.au/",
    "https://stannards.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Yarra",
+  "cityBasis": "Company location"
  },
  {
   "id": "startmate",
@@ -28788,7 +30097,10 @@
     "id": "startmate--jason-fang"
    }
   ],
-  "description": "Startup accelerator for Australian and New Zealand founders. Invests $120k AUD for an 8% stake in companies that have not raised before, over a 14-week program."
+  "description": "Startup accelerator for Australian and New Zealand founders. Invests $120k AUD for an 8% stake in companies that have not raised before, over a 14-week program.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "starward-whisky",
@@ -28876,7 +30188,11 @@
     "id": "starward-whisky--indra-miklavc"
    }
   ],
-  "description": "Port Melbourne distillery making Australian single malt and wheat whiskies, using red wine barrels. Sold online and through its distillery bar, with tours and tastings."
+  "description": "Port Melbourne distillery making Australian single malt and wheat whiskies, using red wine barrels. Sold online and through its distillery bar, with tours and tastings.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Port Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "step-one",
@@ -29042,7 +30358,11 @@
     "id": "stomping-ground-brewing-co--paul-johns"
    }
   ],
-  "description": "Melbourne craft brewery making lagers, pale ales, sours and barrel-aged beers. Sold through its beer halls, bottle shops and online store."
+  "description": "Melbourne craft brewery making lagers, pale ales, sours and barrel-aged beers. Sold through its beer halls, bottle shops and online store.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Collingwood",
+  "cityBasis": "Company location"
  },
  {
   "id": "straand",
@@ -29107,7 +30427,10 @@
     "id": "straand--kristina-brown"
    }
   ],
-  "description": "Melbourne-made scalp and hair care brand selling shampoos, serums and scrubs for dandruff, dryness and oiliness. Sold online and through Priceline pharmacies."
+  "description": "Melbourne-made scalp and hair care brand selling shampoos, serums and scrubs for dandruff, dryness and oiliness. Sold online and through Priceline pharmacies.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "strategem-financial-services",
@@ -29171,7 +30494,10 @@
   "sourceUrls": [
    "https://strategem.com.au/",
    "https://strategem.com.au/contact"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "streamtime",
@@ -29259,7 +30585,10 @@
     "id": "streamtime--julian-retamal"
    }
   ],
-  "description": "Project management and time tracking software for creative agencies, studios and architects. Covers scheduling, quoting, invoicing and job profitability reporting."
+  "description": "Project management and time tracking software for creative agencies, studios and architects. Covers scheduling, quoting, invoicing and job profitability reporting.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "striven-software",
@@ -29329,7 +30658,11 @@
     "id": "striven-software--carol-garnham"
    }
   ],
-  "description": "Australian-owned point-of-sale and business management software for hardware, building supplies and paint retailers, with integrations for Xero, MYOB and QuickBooks."
+  "description": "Australian-owned point-of-sale and business management software for hardware, building supplies and paint retailers, with integrations for Xero, MYOB and QuickBooks.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Mitcham",
+  "cityBasis": "Company location"
  },
  {
   "id": "sullivans-cove-distillery",
@@ -29415,7 +30748,11 @@
     "id": "sullivans-cove-distillery--nainika-mascarenhas"
    }
   ],
-  "description": "Single-cask whisky distillery in Hobart, Tasmania, selling single malt expressions to whisky drinkers and collectors. Runs distillery tours and tastings."
+  "description": "Single-cask whisky distillery in Hobart, Tasmania, selling single malt expressions to whisky drinkers and collectors. Runs distillery tours and tastings.",
+  "state": "TAS",
+  "city": "Hobart",
+  "suburb": "Cambridge",
+  "cityBasis": "Company location"
  },
  {
   "id": "superapi",
@@ -29483,7 +30820,10 @@
     "id": "superapi--paul-turner"
    }
   ],
-  "description": "Embedded superannuation platform that connects payroll and HR software to super funds, handling employee super choice and stapling. Built for software providers and super funds."
+  "description": "Embedded superannuation platform that connects payroll and HR software to super funds, handling employee super choice and stapling. Built for software providers and super funds.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "superguardian",
@@ -29545,7 +30885,10 @@
   "sourceUrls": [
    "https://www.superguardian.com.au/",
    "https://www.superguardian.com.au/who-we-are"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "sy-group-chartered-accountants",
@@ -29609,7 +30952,11 @@
   "sourceUrls": [
    "https://sygroup.com.au/",
    "https://sygroup.com.au/contact-us"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Yarra",
+  "cityBasis": "Company location"
  },
  {
   "id": "synectic-accountants-advisers",
@@ -29678,7 +31025,10 @@
   "sourceUrls": [
    "https://synecticgroup.com.au/business-advice/",
    "https://synecticgroup.com.au/accountants-and-advisers-in-launceston/"
-  ]
+  ],
+  "state": "TAS",
+  "city": "Devonport",
+  "cityBasis": "Company location"
  },
  {
   "id": "synergie-skin",
@@ -29750,7 +31100,10 @@
     "inAttio": true,
     "id": "synergie-skin--terri-vinson-jones"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "take-care-of-books",
@@ -29819,7 +31172,10 @@
   "sourceUrls": [
    "https://takecareofbooks.com.au/",
    "https://takecareofbooks.com.au/not-for-profit/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "tanica",
@@ -29890,7 +31246,10 @@
     "id": "tanica--sophie-dean"
    }
   ],
-  "description": "Sydney-made Australian native aperitif flavoured with Davidson's plum and strawberry gum. Sold to bars, restaurants and bottle shops, and direct online."
+  "description": "Sydney-made Australian native aperitif flavoured with Davidson's plum and strawberry gum. Sold to bars, restaurants and bottle shops, and direct online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "tank-stream-design",
@@ -30010,7 +31369,11 @@
     "id": "tank-stream-design--jennifer-bartolome"
    }
   ],
-  "description": "Queensland coast design company making hats, sunglasses and apparel for outdoor and beach lifestyles across a family of brands, including Wollumbin eyewear."
+  "description": "Queensland coast design company making hats, sunglasses and apparel for outdoor and beach lifestyles across a family of brands, including Wollumbin eyewear.",
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Burleigh",
+  "cityBasis": "Company location"
  },
  {
   "id": "taxoz-accountants",
@@ -30062,7 +31425,11 @@
   "sourceUrls": [
    "https://taxoz.com.au/",
    "https://taxoz.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Broadmeadows",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-a-firm-financial-solutions-group",
@@ -30116,7 +31483,11 @@
   "sourceUrls": [
    "https://theafirm.com.au/",
    "https://theafirm.com.au/financial-solutions/"
-  ]
+  ],
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Varsity Lakes",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-bas-agents",
@@ -30254,7 +31625,10 @@
     "inAttio": true,
     "id": "the-collagen-co--izaak-woodley-josh-woodley-lachlan-arter"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-gild-group",
@@ -30319,7 +31693,11 @@
   "sourceUrls": [
    "https://thegildgroup.com/",
    "https://thegildgroup.com/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Cremorne",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-hopkins-group",
@@ -30386,7 +31764,10 @@
   "sourceUrls": [
    "https://thehopkinsgroup.com.au/about-us/",
    "https://thehopkinsgroup.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-integrated-cfo",
@@ -30523,7 +31904,11 @@
     "inAttio": true,
     "id": "the-jojoba-company--vicki-engsall"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Castle Hill",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-mclaren-vale-distillery",
@@ -30591,7 +31976,10 @@
     "id": "the-mclaren-vale-distillery--joanne-rowe"
    }
   ],
-  "description": "McLaren Vale single malt whisky distillery making whiskies matured and finished in local wine and fortified casks. Sold online and from its tasting room."
+  "description": "McLaren Vale single malt whisky distillery making whiskies matured and finished in local wine and fortified casks. Sold online and from its tasting room.",
+  "state": "SA",
+  "city": "McLaren Vale",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-memo",
@@ -30677,7 +32065,10 @@
     "id": "the-memo--lucinda-green"
    }
   ],
-  "description": "Online baby and parenting retailer selling prams, car seats, cots, breast pumps, toys and nursery furniture from a range of baby brands."
+  "description": "Online baby and parenting retailer selling prams, car seats, cots, breast pumps, toys and nursery furniture from a range of baby brands.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-pen-accounting",
@@ -30731,7 +32122,10 @@
   "sourceUrls": [
    "https://thepenaccounting.com.au/outsourced-finance-team/",
    "https://thepenaccounting.com.au/virtual-cfo/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-somewhere-co",
@@ -30830,7 +32224,10 @@
     "id": "the-somewhere-co--melanie-ragudos"
    }
   ],
-  "description": "Bold, colourful everyday homewares and accessories, including lunch bags, totes, water bottles and kids' items. Sold online to consumers."
+  "description": "Bold, colourful everyday homewares and accessories, including lunch bags, totes, water bottles and kids' items. Sold online to consumers.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "the-vege-chip-company",
@@ -30914,7 +32311,11 @@
     "id": "the-vege-chip-company--mara-douglas"
    }
   ],
-  "description": "Gold Coast gluten-free and plant-based vegetable chips, made in an exclusively gluten-free factory. Sold through Australian supermarkets and distributed internationally."
+  "description": "Gold Coast gluten-free and plant-based vegetable chips, made in an exclusively gluten-free factory. Sold through Australian supermarkets and distributed internationally.",
+  "state": "QLD",
+  "city": "Gold Coast",
+  "suburb": "Currumbin Waters",
+  "cityBasis": "Company location"
  },
  {
   "id": "thn-samios-partners",
@@ -30980,7 +32381,10 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://samiospartners.com.au/virtual-cfo-sydney/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "tixel",
@@ -31084,7 +32488,10 @@
     "id": "tixel--rebecca-egan"
    }
   ],
-  "description": "Ticket resale marketplace where fans buy and sell event tickets at capped prices, backed by a money-back buyer guarantee."
+  "description": "Ticket resale marketplace where fans buy and sell event tickets at capped prices, backed by a money-back buyer guarantee.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "totem-road",
@@ -31154,7 +32561,10 @@
     "id": "totem-road--thao-nguyen"
    }
   ],
-  "description": "Sydney-based solid oak furniture brand selling beds, dining tables and bedroom pieces direct to consumers online and through its Paddington showroom."
+  "description": "Sydney-based solid oak furniture brand selling beds, dining tables and bedroom pieces direct to consumers online and through its Paddington showroom.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "toymonster",
@@ -31221,7 +32631,10 @@
     "id": "toymonster--angela-ju"
    }
   ],
-  "description": "Toy company that designs, sources and distributes kids' brands including Pour PalZ, Jurassic World Captivz and Kuma Paw in Australia and New Zealand."
+  "description": "Toy company that designs, sources and distributes kids' brands including Pour PalZ, Jurassic World Captivz and Kuma Paw in Australia and New Zealand.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "track-em",
@@ -31292,7 +32705,10 @@
     "id": "track-em--andrew-bell"
    }
   ],
-  "description": "Asset and materials tracking software for construction, shutdown and maintenance work in mining, oil and gas. Sold to EPC contractors and owner-operators."
+  "description": "Asset and materials tracking software for construction, shutdown and maintenance work in mining, oil and gas. Sold to EPC contractors and owner-operators.",
+  "state": "WA",
+  "city": "Perth",
+  "cityBasis": "Company location"
  },
  {
   "id": "traction-financial",
@@ -31359,7 +32775,11 @@
   "sourceUrls": [
    "https://traction.com.au/",
    "https://traction.com.au/services/cfo-business-advisory/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "Subiaco",
+  "cityBasis": "Company location"
  },
  {
   "id": "trademutt",
@@ -31427,7 +32847,10 @@
     "id": "trademutt--andrea-biro-farkas"
    }
   ],
-  "description": "Social enterprise workwear brand making conversation-starter work shirts for tradies. Donates 50% of profits to TIACS, a free mental health counselling service for blue-collar workers."
+  "description": "Social enterprise workwear brand making conversation-starter work shirts for tradies. Donates 50% of profits to TIACS, a free mental health counselling service for blue-collar workers.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "trihalo-accountancy",
@@ -31480,7 +32903,11 @@
   "sourceUrls": [
    "https://www.trihalo.com.au/about",
    "https://www.trihalo.com.au/our-services"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Parramatta",
+  "cityBasis": "Company location"
  },
  {
   "id": "true-protein",
@@ -31566,7 +32993,10 @@
     "id": "true-protein--hayley-cho"
    }
   ],
-  "description": "Sydney-blended all-natural sports nutrition brand selling whey and plant protein, creatine, pre-workouts and protein bars. Sells direct online to customers across Australia."
+  "description": "Sydney-blended all-natural sports nutrition brand selling whey and plant protein, creatine, pre-workouts and protein bars. Sells direct online to customers across Australia.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "truescope",
@@ -31650,7 +33080,10 @@
     "id": "truescope--matt-ross-smith"
    }
   ],
-  "description": "Media monitoring and media intelligence software for PR and communications teams. Covers broadcast, print, digital and social coverage with alerts, dashboards and reports."
+  "description": "Media monitoring and media intelligence software for PR and communications teams. Covers broadcast, print, digital and social coverage with alerts, dashboards and reports.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "ufinancial-accounting-tax",
@@ -31701,7 +33134,11 @@
   "sourceUrls": [
    "https://ufinancialaccountingtax.com.au/",
    "https://exa.ai/library/place/jdkt1m0fpyd"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "St Kilda Rd",
+  "cityBasis": "Company location"
  },
  {
   "id": "ultimate-tax-advisory",
@@ -31768,7 +33205,11 @@
   "sourceUrls": [
    "https://ultimate-tax.com.au/",
    "https://ultimate-tax.com.au/services/advisory/"
-  ]
+  ],
+  "state": "WA",
+  "city": "Perth",
+  "suburb": "Mount Lawley",
+  "cityBasis": "Company location"
  },
  {
   "id": "ultra-violette-skincare",
@@ -31854,7 +33295,11 @@
     "inAttio": true,
     "id": "ultra-violette-skincare--rebecca-jefferd"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Cremorne",
+  "cityBasis": "Company location"
  },
  {
   "id": "ultraceuticals",
@@ -32000,7 +33445,11 @@
     "id": "ultraceuticals--bao-ngoc-pham"
    }
   ],
-  "description": "Australian cosmeceutical skincare brand sold through skin therapists, salons, clinics and medispas in Australia, New Zealand, the US and Ireland."
+  "description": "Australian cosmeceutical skincare brand sold through skin therapists, salons, clinics and medispas in Australia, New Zealand, the US and Ireland.",
+  "state": "NSW",
+  "city": "Sydney",
+  "suburb": "Gladesville",
+  "cityBasis": "Company location"
  },
  {
   "id": "underworks",
@@ -32068,7 +33517,11 @@
     "inAttio": true,
     "id": "underworks--sam-todaro"
    }
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Broadmeadows",
+  "cityBasis": "Company location"
  },
  {
   "id": "unity-accounting",
@@ -32184,7 +33637,10 @@
     "inAttio": true,
     "id": "unleash-live--hanno-blankenstein-jason-grier"
    }
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "uppercut-deluxe",
@@ -32253,7 +33709,11 @@
     "id": "uppercut-deluxe--omair-khan"
    }
   ],
-  "description": "Australian men's grooming brand selling pomades, styling products, shave products and beard care. Sold direct online to men."
+  "description": "Australian men's grooming brand selling pomades, styling products, shave products and beard care. Sold direct online to men.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "suburb": "Meadowbrook",
+  "cityBasis": "Company location"
  },
  {
   "id": "v-daq",
@@ -32323,7 +33783,10 @@
     "id": "v-daq--sahri-brown"
    }
   ],
-  "description": "Australian GPS fleet telematics hardware and platform for vehicles, trailers and assets. Includes video safety cameras, fatigue compliance and asset tracking for fleet operators."
+  "description": "Australian GPS fleet telematics hardware and platform for vehicles, trailers and assets. Includes video safety cameras, fatigue compliance and asset tracking for fleet operators.",
+  "state": "NSW",
+  "city": "Wollongong",
+  "cityBasis": "Company location"
  },
  {
   "id": "v2food",
@@ -32496,7 +33959,10 @@
     "id": "valour-sport--shannon-edey"
    }
   ],
-  "description": "Sydney-based custom sportswear manufacturer making team uniforms, school sportswear and supporter merchandise for schools, clubs, associations and elite teams."
+  "description": "Sydney-based custom sportswear manufacturer making team uniforms, school sportswear and supporter merchandise for schools, clubs, associations and elite teams.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "versa-ai",
@@ -32562,7 +34028,10 @@
     "id": "versa-ai--wendy-faraday"
    }
   ],
-  "description": "Custom conversational AI service for enterprise customer care, building and running voice and chat bots billed per resolution. Formerly Versa AI, now trading as Candor AI."
+  "description": "Custom conversational AI service for enterprise customer care, building and running voice and chat bots billed per resolution. Formerly Versa AI, now trading as Candor AI.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "verve-fitness",
@@ -32632,7 +34101,10 @@
     "id": "verve-fitness--natasha-saunders"
    }
   ],
-  "description": "Australian home and commercial gym equipment brand selling power racks, cable trainers, benches and cardio machines direct online to home users and gyms."
+  "description": "Australian home and commercial gym equipment brand selling power racks, cable trainers, benches and cardio machines direct online to home users and gyms.",
+  "state": "QLD",
+  "city": "Gold Coast",
+  "cityBasis": "Company location"
  },
  {
   "id": "vimwood-australia",
@@ -32714,7 +34186,10 @@
     "id": "vimwood-australia--anjalee-moktan"
    }
   ],
-  "description": "Australian fashion accessories supplier designing licensed kids' and women's hair accessories, plus private-label and proprietary ranges for retailers and eCommerce brands."
+  "description": "Australian fashion accessories supplier designing licensed kids' and women's hair accessories, plus private-label and proprietary ranges for retailers and eCommerce brands.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "visibuild",
@@ -32777,7 +34252,10 @@
   ],
   "description": "Construction quality management software for builders and trade contractors. Digitises inspections, ITP sign-offs, defect tracking and handover documentation.",
   "domain": "visibuild.com",
-  "website": "https://visibuild.com"
+  "website": "https://visibuild.com",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "visory",
@@ -32845,7 +34323,10 @@
    "https://www.visory.com.au/melbourne-bookkeeping",
    "https://www.visory.com.au/contact"
   ],
-  "flags": "⚠ Likely competitor/partner: markets AI-assisted bookkeeping and monthly close ('Delphi AI'). Sheet contacts belong to a US 'Visory' — not this firm."
+  "flags": "⚠ Likely competitor/partner: markets AI-assisted bookkeeping and monthly close ('Delphi AI'). Sheet contacts belong to a US 'Visory' — not this firm.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "vital-addition",
@@ -32914,7 +34395,10 @@
   "sourceUrls": [
    "https://vitaladdition.com.au/outsourced-finance-team/",
    "https://vitaladdition.com.au/services/"
-  ]
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "vitality-brands-worldwide",
@@ -33018,7 +34502,11 @@
     "id": "vitality-brands-worldwide--rui-t"
    }
   ],
-  "description": "Health and personal care brand owner with Cancer Council sunscreen, Epzen, Senne Skin and essano skincare. Sold through retailers and online."
+  "description": "Health and personal care brand owner with Cancer Council sunscreen, Epzen, Senne Skin and essano skincare. Sold through retailers and online.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Richmond",
+  "cityBasis": "Company location"
  },
  {
   "id": "walker-wayland-advantage",
@@ -33083,7 +34571,10 @@
   "sourceUrls": [
    "https://www.wwadvantage.com.au/",
    "https://www.wwadvantage.com.au/contact/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "wct-advisory-group",
@@ -33234,7 +34725,11 @@
     "id": "we-are-tailored--nickshala-balakrishnan"
    }
   ],
-  "description": "Melbourne drinks company making ready-to-drink cocktails, craft spirits, cold drip coffee and low-alcohol drinks under its own brands, and offering contract manufacturing for other brands."
+  "description": "Melbourne drinks company making ready-to-drink cocktails, craft spirits, cold drip coffee and low-alcohol drinks under its own brands, and offering contract manufacturing for other brands.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Epping",
+  "cityBasis": "Company location"
  },
  {
   "id": "webuild-construction-software",
@@ -33304,7 +34799,10 @@
     "id": "webuild-construction-software--mike-b"
    }
   ],
-  "description": "Cloud construction management software for small-to-medium commercial builders. Covers bid management, document control, contracts, quality and safety, and project dashboards."
+  "description": "Cloud construction management software for small-to-medium commercial builders. Covers bid management, document control, contracts, quality and safety, and project dashboards.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "wilbur",
@@ -33373,7 +34871,10 @@
     "id": "wilbur--lydia-wu"
    }
   ],
-  "description": "Agentic claims platform for insurers, MGAs, brokers and self-insured organisations. Uses AI to capture claim evidence, triage and orchestrate claim workflows under human approval."
+  "description": "Agentic claims platform for insurers, MGAs, brokers and self-insured organisations. Uses AI to capture claim evidence, triage and orchestrate claim workflows under human approval.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "willis-partners",
@@ -33440,7 +34941,10 @@
   "sourceUrls": [
    "https://willispartners.com.au/virtual-cfo-financial-controller-board-services/",
    "https://willispartners.com.au/management-accounting-in-house-and-onsite/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "wilson-pateras-accountants-advisors",
@@ -33511,7 +35015,11 @@
   "sourceUrls": [
    "https://www.wilsonpateras.com.au/",
    "https://www.wilsonpateras.com.au/contact/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Richmond",
+  "cityBasis": "Company location"
  },
  {
   "id": "wsc-group",
@@ -33575,7 +35083,11 @@
   "sourceUrls": [
    "https://wscgroup.com.au/",
    "https://wscgroup.com.au/page/contact-us"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Docklands",
+  "cityBasis": "Company location"
  },
  {
   "id": "xap",
@@ -33643,7 +35155,10 @@
     "id": "xap--bhavna-gopal"
    }
   ],
-  "description": "Childcare and early learning management software for centres and out-of-school-hours care, covering enrolments, attendance, billing and parent communication. Used by over 2,300 centres."
+  "description": "Childcare and early learning management software for centres and out-of-school-hours care, covering enrolments, attendance, billing and parent communication. Used by over 2,300 centres.",
+  "state": "QLD",
+  "city": "Brisbane",
+  "cityBasis": "Company location"
  },
  {
   "id": "xeople",
@@ -33711,7 +35226,11 @@
     "id": "xeople--cornell-tsiang"
    }
   ],
-  "description": "Recruitment and workforce software for staffing agencies. Entire OnHire handles labour-hire rostering and payroll, and XeopleRecruit is an applicant tracking system for permanent recruiters."
+  "description": "Recruitment and workforce software for staffing agencies. Entire OnHire handles labour-hire rostering and payroll, and XeopleRecruit is an applicant tracking system for permanent recruiters.",
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Mount Waverley",
+  "cityBasis": "Company location"
  },
  {
   "id": "xeta",
@@ -33876,7 +35395,10 @@
   "sourceUrls": [
    "https://ysaccounting.com.au/",
    "https://ysaccounting.com.au/contact-us"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "york-st-brands-tbh-skincare-boost-lab-bo",
@@ -33996,7 +35518,10 @@
     "id": "york-st-brands-tbh-skincare-boost-lab-bo--katie-mcbryde"
    }
   ],
-  "description": "Beauty and wellness brand house behind The Breakout Hack acne care, BOOST LAB serums and Bouf hair regrowth products. Sold through pharmacies and retailers in Australia, New Zealand and the UK."
+  "description": "Beauty and wellness brand house behind The Breakout Hack acne care, BOOST LAB serums and Bouf hair regrowth products. Sold through pharmacies and retailers in Australia, New Zealand and the UK.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "young-henrys",
@@ -34083,7 +35608,10 @@
     "id": "young-henrys--christine-blake"
    }
   ],
-  "description": "Newtown, Sydney craft brewery making beers including Newtowner, served at its Newtown venues and sold through retail. B Corp certified and Australian-owned."
+  "description": "Newtown, Sydney craft brewery making beers including Newtowner, served at its Newtown venues and sold through retail. B Corp certified and Australian-owned.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  },
  {
   "id": "yuki-threads",
@@ -34152,7 +35680,11 @@
     "id": "yuki-threads--lachlan-h"
    }
   ],
-  "description": "Australian snow apparel brand selling outerwear, hoodies, pants and beanies for snow sports, sold online to riders."
+  "description": "Australian snow apparel brand selling outerwear, hoodies, pants and beanies for snow sports, sold online to riders.",
+  "state": "VIC",
+  "city": "Geelong",
+  "suburb": "Torquay",
+  "cityBasis": "Company location"
  },
  {
   "id": "zimsen-partners",
@@ -34216,7 +35748,11 @@
   "sourceUrls": [
    "https://www.zimsenpartners.com.au/",
    "https://www.zimsenpartners.com.au/contact-us/"
-  ]
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Keysborough",
+  "cityBasis": "Company location"
  },
  {
   "id": "zjoosh",
@@ -34286,6 +35822,9 @@
     "id": "zjoosh--tracey-ritchie"
    }
   ],
-  "description": "Australian lifestyle brand selling fashion jewellery, handbags, cashmere, homewares and gifts through 16 stores and online."
+  "description": "Australian lifestyle brand selling fashion jewellery, handbags, cashmere, homewares and gifts through 16 stores and online.",
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
  }
 ]

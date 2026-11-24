@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-22T22:03:31+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-24T02:26:39+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **479**
 - Contacts (de-duplicated): **843**
@@ -80,6 +80,43 @@ Generated 2026-11-22T22:03:31+00:00 by `pipeline/build_data.py`.
 - [override] account lgy-accountants: flagged
 - [override] contact melrose-health--geoff-steinicke: {'likelyLeft': True, 'note': 'Stale: sold Melrose in 2010 and retired. Current CEO/CFO added.'}
 - [override] account visory: flagged
+- [city-unknown] Adventure Operations: location 'AU'
+- [city-unknown] b.box for kids: location 'Australia'
+- [city-unknown] Bali Body: location 'Australia'
+- [city-unknown] Canibuild: location 'Australia'
+- [city-unknown] Ciroa Beauty (Jamesly): location 'AU'
+- [city-unknown] Cooee Foods: location 'AU'
+- [city-unknown] Cubiko: location 'AU'
+- [city-unknown] Cult Design: location None
+- [city-unknown] DisplaySweet: location 'AU'
+- [city-unknown] Emesent: location 'Australia'
+- [city-unknown] FAITHFULL the Brand: location 'Australia'
+- [city-unknown] Firmus Technologies: location 'Australia'
+- [city-unknown] icetana AI: location 'Australia'
+- [city-unknown] InMarket Systems: location 'AU'
+- [city-unknown] Keeler Hardware: location None
+- [city-unknown] KIC Wellness: location None
+- [city-unknown] Komo Technologies: location 'AU'
+- [city-unknown] Lolly Jar - Creative Industry Finance Support: location None
+- [city-unknown] Lucent Advisory: location None
+- [city-unknown] Lumina: location None
+- [city-unknown] Lyre's Spirit Co: location 'Australia'
+- [city-unknown] O&M (Original & Mineral): location 'AU'
+- [city-unknown] Perfect Accounting & Tax Services: location None
+- [city-unknown] Petal & Pup: location 'QLD, AU'
+- [city-unknown] Proacct+: location None
+- [city-unknown] Pure Mama: location None
+- [city-unknown] Rosy Small Business Services: location None
+- [city-unknown] Sheet Society: location 'Australia'
+- [city-unknown] Step One: location 'Australia'
+- [city-unknown] The BAS Agents: location None
+- [city-unknown] The Integrated CFO: location None
+- [city-unknown] Unity Accounting: location None
+- [city-unknown] v2food: location 'AU'
+- [city-unknown] WCT Advisory Group: location None
+- [city-unknown] XETA: location None
+- [city-unknown] XO Accounting: location None
+- [count] cities: Company location 441, unknown 36, Contact location (company location not recorded) 2
 - [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
 - [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
 - [count] outreach: 44 events (0 not matched to an account)

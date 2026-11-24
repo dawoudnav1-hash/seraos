@@ -28,6 +28,9 @@ from datetime import datetime, timezone
 
 import openpyxl
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from locations import is_vague, normalise as normalise_location  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, "data", "raw")
 OUT_DIR = os.path.join(ROOT, "app", "src", "data")
@@ -275,6 +278,8 @@ class Registry:
                 continue
             if k not in acc["_fields"]:  # first source wins (sources processed in priority order)
                 acc["_fields"][k] = v
+            elif k == "location" and is_vague(acc["_fields"][k]) and not is_vague(v):
+                acc["_fields"][k] = v  # a specific place beats "AU" / "Australia"
         self.index(acc)
         return acc
 
@@ -825,7 +830,7 @@ def apply_enrichment(accounts: list[dict]) -> None:
             a["linkedin"] = li
             touched = True
         for src_k, dst_k in (("description", "description"), ("location", "location"), ("staffBasis", "headcountBasis")):
-            if s(e.get(src_k)) and not a.get(dst_k):
+            if s(e.get(src_k)) and (not a.get(dst_k) or (dst_k == "location" and is_vague(a.get(dst_k)) and not is_vague(e[src_k]))):
                 a[dst_k] = s(e[src_k])
                 touched = True
         if isinstance(e.get("services"), list) and e["services"]:
@@ -951,6 +956,50 @@ def apply_enrichment(accounts: list[dict]) -> None:
             a["contacts"].sort(key=lambda c: (bool(c.get("likelyLeft")), not c.get("isPrimary"), role_rank.get(c.get("roleType"), 3)))
 
 
+# ---------------------------------------------------------------- cities
+def assign_cities(accounts: list[dict]) -> None:
+    """Adds city / suburb / state (+ cityBasis) to every account that has a usable location."""
+    basis = Counter()
+    researched = {e["id"]: e for e in _load_list("cities_out.json") if e.get("location") and not e.get("notFound")}
+    for a in accounts:
+        r = researched.get(a["id"])
+        if r and (is_vague(a.get("location")) or not normalise_location(a.get("location")).get("state")):
+            log("city-researched", f"{a['name']}: {a.get('location')!r} -> {r['location']!r} ({r.get('sourceUrl')})")
+            a["location"] = r["location"]
+            loc = normalise_location(a["location"])
+            if loc.get("city"):
+                a.update(loc)
+                a["cityBasis"] = "Web research (Exa)"
+                if SRC_EXA not in a["sources"]:
+                    a["sources"].append(SRC_EXA)
+                basis[a["cityBasis"]] += 1
+                continue
+        loc = normalise_location(a.get("location"))
+        if loc.get("city"):
+            a.update(loc)
+            a["cityBasis"] = "Company location"
+        else:
+            # fall back to where the company's (current) contacts are based, if they agree on an Australian city
+            votes = Counter()
+            for c in a["contacts"]:
+                if c.get("likelyLeft"):
+                    continue
+                cl = normalise_location(c.get("location"))
+                if cl.get("city") and cl.get("state"):
+                    votes[(cl["city"], cl["state"])] += 1
+            if votes:
+                (city, state), n = votes.most_common(1)[0]
+                if n == sum(votes.values()):  # unanimous only
+                    a["city"], a["state"] = city, state
+                    a["cityBasis"] = "Contact location (company location not recorded)"
+            if not a.get("city") and loc.get("state"):
+                a["state"] = loc["state"]
+        basis[a.get("cityBasis", "unknown")] += 1
+        if not a.get("city"):
+            log("city-unknown", f"{a['name']}: location {a.get('location')!r}")
+    log("count", "cities: " + ", ".join(f"{k} {v}" for k, v in basis.most_common()))
+
+
 # ---------------------------------------------------------------- outreach
 def build_outreach(accounts: list[dict]) -> dict:
     path = os.path.join(RAW, "outreach", "events.json")
@@ -1052,6 +1101,7 @@ def checks(accounts: list[dict]) -> None:
 def main() -> int:
     accounts, _ = build()
     apply_enrichment(accounts)
+    assign_cities(accounts)
     for a in accounts:  # drop empty optional fields so output matches the TS contract
         for k in [k for k, v in a.items() if (v is None or v == []) and k not in ("contacts", "sources")]:
             del a[k]
