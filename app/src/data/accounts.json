@@ -508,6 +508,149 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "accounts-bridge",
+  "name": "Accounts Bridge",
+  "domain": "accountsbridge.com.au",
+  "website": "https://accountsbridge.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (31 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Campbellfield (38 Glenbarry Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Shahid Mahmood",
+    "title": "Managing Director",
+    "roleType": "Founder",
+    "email": "shahid@accountsbridge.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/smahmood1975/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "accounts-bridge--shahid-mahmood"
+   },
+   {
+    "name": "Haider Khan",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/haider-khan-8a78a144/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "accounts-bridge--haider-khan"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/accounts-bridge-chartered-accountants-anz",
+  "description": "Bookkeeping, taxation and financial services; also Darwin and Dubbo offices.",
+  "headcountBasis": "LinkedIn (via Clay): 31 employees",
+  "services": [
+   "bookkeeping",
+   "tax",
+   "financial services"
+  ],
+  "employees": "31",
+  "serviceSignal": "Bookkeeping and tax",
+  "fitConfidence": "High",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2.",
+  "signal": "Bookkeeping-led, so coding and reconciliation volume is core. Strong fit.",
+  "signalSummary": "Bookkeeping-led, so coding and reconciliation volume is core. Strong fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://accountsbridge.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Campbellfield",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "accounts-nextgen",
+  "name": "Accounts NextGen",
+  "domain": "accountsnextgen.com.au",
+  "website": "https://accountsnextgen.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (62 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Melbourne CBD (Level 2, 415 Bourke St), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Nick Bhalla",
+    "title": "CEO & Founder",
+    "roleType": "Founder",
+    "email": "nick@accountsnextgen.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/nickbhalla/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "accounts-nextgen--nick-bhalla"
+   },
+   {
+    "name": "Yadanar Moe Yu",
+    "title": "Partner, NIT / NextGen iQ",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/yadanar-moe-yu/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "accounts-nextgen--yadanar-moe-yu"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/accountsnextgenau",
+  "description": "Tech-driven accounting and advisory firm (tax, BAS, bookkeeping, virtual CFO), flagship of NextGen Group (AU + India).",
+  "headcountBasis": "LinkedIn (via Clay): 62 employees",
+  "services": [
+   "tax",
+   "BAS",
+   "bookkeeping",
+   "virtual CFO",
+   "payroll"
+  ],
+  "employees": "62",
+  "serviceSignal": "Accounting and bookkeeping; virtual CFO",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1. Possible competitor: the group also runs NeX Automate (automation).",
+  "signal": "Automation- and cloud-led firm aiming for 1,000+ business clients, but its parent runs its own automation business, so it may build rather than buy.",
+  "signalSummary": "Automation- and cloud-led firm aiming for 1,000+ business clients, but its parent runs its own automation business, so it may build rather than buy.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://accountsnextgen.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "accru-melbourne",
   "name": "Accru Melbourne",
   "domain": "accrumelb.com.au",
@@ -914,6 +1057,90 @@
   "description": "Byron Bay streetwear and apparel label selling men's and women's clothing, including hemp and organic cotton pieces, through its website, its own stores and retailers.",
   "state": "NSW",
   "city": "Byron Bay",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "affinity-advisory",
+  "name": "Affinity Advisory",
+  "domain": "affinity.com.au",
+  "website": "https://affinity.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (28 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Southbank (9 Meaden St) & Geelong, VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Will Horton",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "willh@affinity.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/wahorton/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "affinity-advisory--will-horton"
+   },
+   {
+    "name": "Josh Pearson",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/josh-pearson-68b86015a/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "affinity-advisory--josh-pearson"
+   },
+   {
+    "name": "Linda Cutting",
+    "title": "Practice Manager",
+    "roleType": "Other",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/linda-cutting/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "affinity-advisory--linda-cutting"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/affinity-advisory",
+  "description": "Boutique accounting firm for business consulting and tax; specialises in sports and entertainment.",
+  "headcountBasis": "LinkedIn (via Clay): 28 employees",
+  "services": [
+   "tax",
+   "business consulting"
+  ],
+  "employees": "28",
+  "serviceSignal": "Business consulting and tax",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2. General inbox: info@affinity.com.au; phone 03 9686 0400.",
+  "signal": "Boutique practice with a practice manager. Moderate fit.",
+  "signalSummary": "Boutique practice with a practice manager. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://affinity.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Southbank",
   "cityBasis": "Company location"
  },
  {
@@ -2035,6 +2262,168 @@
   ],
   "state": "NSW",
   "city": "Sydney",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "ashfords",
+  "name": "Ashfords",
+  "domain": "ashfords.com.au",
+  "website": "https://ashfords.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (98 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Dandenong South (148 Logis Blvd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Greg Cusack",
+    "title": "CEO",
+    "roleType": "Executive",
+    "email": "greg.cusack@ashfords.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/greg-cusack/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "ashfords--greg-cusack"
+   },
+   {
+    "name": "Tim Szonyi",
+    "title": "COO",
+    "roleType": "Executive",
+    "email": "tim.szonyi@ashfords.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/timszonyi/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "notes": "Ops lead since Oct 2023; good second contact.",
+    "id": "ashfords--tim-szonyi"
+   },
+   {
+    "name": "Craig Smith",
+    "title": "Partner",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/craig-smith-66323a38/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "ashfords--craig-smith"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/ashfords-accountants-and-advisory",
+  "description": "Fast-growing south-east Melbourne firm: accounting, bookkeeping, super, wealth, financial planning and audit.",
+  "headcountBasis": "LinkedIn (via Clay): 98 employees",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "SMSF",
+   "financial planning",
+   "audit"
+  ],
+  "employees": "98",
+  "serviceSignal": "Accounting and bookkeeping",
+  "fitConfidence": "High",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1. General inbox: info@ashfords.com.au",
+  "signal": "Largest firm in this batch. Says it is at the forefront of new technology, driven by a young staff group. Has a COO, so there's a natural ops buyer. Strong fit.",
+  "signalSummary": "Largest firm in this batch. Says it is at the forefront of new technology, driven by a young staff group. Has a COO, so there's a natural ops buyer. Strong fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://www.ashfords.com.au/contact-us/",
+   "https://www.linkedin.com/company/ashfords-accountants-and-advisory"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Dandenong South",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "asv-wadeson",
+  "name": "ASV Wadeson",
+  "domain": "asvwadeson.com.au",
+  "website": "https://asvwadeson.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (42 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Cheltenham (Suite 1, L2, 27 Grange Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Nurudeen Abbas",
+    "title": "Tax Partner",
+    "roleType": "Executive",
+    "email": "nurudeen.abbas@asvwadeson.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/nurudeen-abbas-89a19720/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "asv-wadeson--nurudeen-abbas"
+   },
+   {
+    "name": "Jose Alguera Lara",
+    "title": "Exit Strategy Specialist",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/jose-alguera-lara-b2605626/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "asv-wadeson--jose-alguera-lara"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/asv-wadeson",
+  "description": "Chartered accountants, auditors and tax advisers for SMEs; Melbourne offices in Cheltenham, Mount Waverley and Springvale, plus NSW and Tasmania.",
+  "headcountBasis": "LinkedIn (via Clay): 42 employees",
+  "services": [
+   "tax",
+   "audit",
+   "business advisory"
+  ],
+  "employees": "42",
+  "serviceSignal": "Tax, audit and accounting",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1. General inbox: reception@asvwadeson.com.au; phone 03 9587 9747.",
+  "signal": "Multi-office SME practice; tax/audit-led. Moderate fit.",
+  "signalSummary": "Multi-office SME practice; tax/audit-led. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://asvwadeson.com.au/contact/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Cheltenham",
   "cityBasis": "Company location"
  },
  {
@@ -4295,6 +4684,77 @@
   "signalSource": "Exa web research",
   "sourceUrls": [
    "https://www.booksonsite.com.au/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "books365",
+  "name": "Books365",
+  "domain": "books365.com.au",
+  "website": "https://books365.com.au",
+  "type": "firm",
+  "typeReason": "Cloud bookkeeping provider (16-21 staff, AU + Philippines)",
+  "segment": "Accounting & advisory",
+  "location": "Melbourne (Level 15, 10 Queens Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Treg",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Luke Woods",
+    "title": "Managing Director",
+    "roleType": "Executive",
+    "email": "luke@books365.com.au",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/lukeowoods/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "books365--luke-woods",
+    "notes": "Email from Clay."
+   },
+   {
+    "name": "Salli Baker",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "salli@books365.com.au",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/salli-b-304061a5",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "books365--salli-baker",
+    "notes": "Email found via Treg and checked deliverable."
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/books365",
+  "description": "Cloud bookkeeping for SMEs from $5 a day: payroll, AP, AR and financial management in real time.",
+  "headcountBasis": "LinkedIn: 16 employees; Clay: 21",
+  "employees": "21",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "accounts payable",
+   "accounts receivable"
+  ],
+  "signal": "Bookkeeping-led model, so coding and reconciliation volume is the core of the work. Strong fit.",
+  "signalSummary": "Bookkeeping-led model, so coding and reconciliation volume is the core of the work. Strong fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://books365.com.au/leadership-team/",
+   "https://linkedin.com/company/books365"
   ],
   "state": "VIC",
   "city": "Melbourne",
@@ -6806,6 +7266,65 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "cscg",
+  "name": "CSCG",
+  "domain": "cscg.com.au",
+  "website": "https://cscg.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (44 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Werribee (108 Watton St), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Oriano Salvalaggio",
+    "title": "Partner",
+    "roleType": "Executive",
+    "email": "osalvalaggio@cscg.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/oriano-salvalaggio-23b823184/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "cscg--oriano-salvalaggio"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/cs-consulting-group-pty-ltd",
+  "description": "Accounting and tax, lending, financial planning, SMSF and bookkeeping firm in Melbourne's west.",
+  "headcountBasis": "LinkedIn (via Clay): 44 employees",
+  "services": [
+   "tax",
+   "bookkeeping",
+   "SMSF",
+   "financial planning",
+   "lending"
+  ],
+  "employees": "44",
+  "serviceSignal": "Accounting, tax and bookkeeping",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1. General inbox: info@cscg.com.au; phone 03 9974 8333.",
+  "signal": "Suburban multi-service practice with bookkeeping. Moderate fit.",
+  "signalSummary": "Suburban multi-service practice with bookkeeping. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://www.cscg.com.au/contact-us/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Werribee",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "cubiko",
   "name": "Cubiko",
   "domain": "cubiko.com.au",
@@ -7182,6 +7701,93 @@
   "description": "Online florist selling same-day flower bouquets, gift hampers and flower subscriptions, handmade by florists daily and delivered across Australia.",
   "state": "VIC",
   "city": "Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "daniel-allison-and-associates",
+  "name": "Daniel Allison & Associates",
+  "domain": "daassociates.com.au",
+  "website": "https://daassociates.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (77 staff)",
+  "segment": "Accounting & advisory",
+  "location": "South Melbourne (Level 1, 184 Clarendon St), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Paul Carr",
+    "title": "Principal",
+    "roleType": "Executive",
+    "email": "paulc@daassociates.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/paul-carr-b70b2725/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "daniel-allison-and-associates--paul-carr"
+   },
+   {
+    "name": "Lauren Mackrell",
+    "title": "Principal",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/lauren-mackrell-45b36335/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "daniel-allison-and-associates--lauren-mackrell"
+   },
+   {
+    "name": "Melody Trinh",
+    "title": "Associate Principal",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/melodytrinh/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "daniel-allison-and-associates--melody-trinh"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/daniel-allison-&-associates",
+  "description": "Tax and advisory firm with specialist legal, assurance and superannuation (AFSL) arms.",
+  "headcountBasis": "LinkedIn (via Clay): 77 employees",
+  "services": [
+   "tax",
+   "business advisory",
+   "assurance",
+   "SMSF",
+   "legal"
+  ],
+  "employees": "77",
+  "serviceSignal": "Tax and advisory",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1. Phone 03 9006 5400.",
+  "signal": "Mid-sized multi-disciplinary practice; tax/advisory-led rather than bookkeeping-led. Moderate fit.",
+  "signalSummary": "Mid-sized multi-disciplinary practice; tax/advisory-led rather than bookkeeping-led. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://www.daassociates.com.au/contact/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Melbourne",
   "cityBasis": "Company location"
  },
  {
@@ -10662,6 +11268,76 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "factor1",
+  "name": "Factor1",
+  "domain": "factor1.com.au",
+  "website": "https://factor1.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (32 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Mount Waverley (1 Ricketts Rd) & Shepparton, VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "David Fitzgerald",
+    "title": "CEO",
+    "roleType": "Executive",
+    "email": "david@factor1.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/david-fitzgerald-22718617/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "factor1--david-fitzgerald"
+   },
+   {
+    "name": "Terry Chung",
+    "title": "Founder & Director",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/terry-chung-fca/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "factor1--terry-chung"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/factor1",
+  "description": "Specialist accountants and advisers for privately owned businesses.",
+  "headcountBasis": "LinkedIn (via Clay): 32 employees",
+  "services": [
+   "tax",
+   "business advisory"
+  ],
+  "employees": "32",
+  "serviceSignal": "Accounting and tax for private businesses",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1.",
+  "signal": "Private-business accounting practice. Moderate fit.",
+  "signalSummary": "Private-business accounting practice. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://factor1.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Mount Waverley",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "faithfull-the-brand",
   "name": "FAITHFULL the Brand",
   "domain": "faithfullthebrand.com",
@@ -11509,6 +12185,78 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "future-advisory",
+  "name": "Future Advisory",
+  "domain": "futureadvisory.com.au",
+  "website": "https://futureadvisory.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (35 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Cremorne (Level 2, 65 Dover St) & Narre Warren, VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Jason Robinson",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "jason@futureadvisory.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/jasonrobinsoncpa1/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "future-advisory--jason-robinson"
+   },
+   {
+    "name": "Greg Bramich",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/gregbramichfutureadvisory/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "future-advisory--greg-bramich"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/future-advisory",
+  "description": "Business advisory and accounting firm with fixed-fee packages and virtual CFO work.",
+  "headcountBasis": "LinkedIn (via Clay): 35 employees",
+  "services": [
+   "accounting",
+   "tax",
+   "business advisory",
+   "virtual CFO"
+  ],
+  "employees": "35",
+  "serviceSignal": "Fixed-fee accounting packages; virtual CFO",
+  "fitConfidence": "High",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2. General inbox: hello@futureadvisory.com.au; phone 1300 225 888.",
+  "signal": "Fixed-fee packages mean every hour saved on reconciliation is margin. Strong fit.",
+  "signalSummary": "Fixed-fee packages mean every hour saved on reconciliation is margin. Strong fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://www.futureadvisory.com.au/contact/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Cremorne",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "g-m-cosmetics-pure-papaya-care",
   "name": "G&M Cosmetics (Pure Papaya Care)",
   "domain": "gandmcosmetics.com.au",
@@ -12187,7 +12935,7 @@
     "emailStatus": "Verified (BlitzAPI): his own firm; Apollo check: confirmed",
     "emailRisk": "caution",
     "linkedin": "https://linkedin.com/in/brynleggett",
-    "notes": "vCFO provided by HelloCFO; email is his HelloCFO address",
+    "notes": "vCFO provided by HelloCFO; email is his HelloCFO address | Rejected Vert on LinkedIn. Do not contact.",
     "isPrimary": true,
     "likelyLeft": false,
     "sources": [
@@ -12679,6 +13427,57 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "hall-chadwick-nsw",
+  "name": "Hall Chadwick (Sydney)",
+  "domain": "hallchadwick.com.au",
+  "website": "https://hallchadwick.com.au",
+  "type": "firm",
+  "typeReason": "Top-20 accounting group (450+ staff nationally)",
+  "segment": "Accounting & advisory",
+  "location": "Sydney (Level 40, 2 Park St), NSW, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Abeed Ahmad",
+    "title": "Director, Forensic Technology",
+    "roleType": "Executive",
+    "email": "aahmad@hallchadwick.com.au",
+    "emailRisk": "ok",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "hall-chadwick-nsw--abeed-ahmad",
+    "notes": "Forensic data analytics lead, not everyday accounting. Emailed 23 Nov."
+   }
+  ],
+  "description": "Sydney office of the Hall Chadwick group: audit, tax, corporate advisory, forensics and insolvency.",
+  "headcountBasis": "PrimeGlobal profile: 450+ staff across the group",
+  "employees": "450+",
+  "services": [
+   "audit",
+   "tax",
+   "corporate advisory",
+   "forensic accounting",
+   "insolvency"
+  ],
+  "signal": "Large group, bigger than the small-to-medium ICP; contact is in forensics. Weak fit.",
+  "signalSummary": "Large group, bigger than the small-to-medium ICP; contact is in forensics. Weak fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://hallchadwick.com.au/our-people/"
+  ],
+  "state": "NSW",
+  "city": "Sydney",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "hall-chadwick-melbourne",
   "name": "Hall Chadwick Melbourne",
   "domain": "hallchadwickmelb.com.au",
@@ -12690,7 +13489,8 @@
   "inAttio": false,
   "sources": [
    "Melbourne Accounting Firm Contacts",
-   "Exa web research"
+   "Exa web research",
+   "Published page (23 Nov research)"
   ],
   "contacts": [
    {
@@ -12722,6 +13522,21 @@
     ],
     "inAttio": false,
     "id": "hall-chadwick-melbourne--roger-darvall-stevens"
+   },
+   {
+    "name": "Alan Ling",
+    "title": "Director, Business Advisory Services",
+    "roleType": "Executive",
+    "email": "ALing@hallchadwickmelb.com.au",
+    "emailRisk": "ok",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "hall-chadwick-melbourne--alan-ling",
+    "notes": "Email from firm website. Emailed 23 Nov."
    }
   ],
   "linkedin": "https://www.linkedin.com/company/hall-chadwick-melbourne",
@@ -13568,7 +14383,8 @@
      "Vert_AU_prospects_Origami"
     ],
     "inAttio": false,
-    "id": "hellocfo--bryn-leggett"
+    "id": "hellocfo--bryn-leggett",
+    "notes": "Rejected Vert on LinkedIn. Do not contact."
    }
   ],
   "linkedin": "https://www.linkedin.com/company/hellocfo",
@@ -14835,6 +15651,76 @@
   ],
   "state": "NSW",
   "city": "Sydney",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "illumin8",
+  "name": "Illumin8",
+  "domain": "illumin8.com.au",
+  "website": "https://illumin8.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (25 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Mornington (81 Watt Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Andrew Van De Beek",
+    "title": "Founder & Head of Purpose",
+    "roleType": "Founder",
+    "email": "andrew@illumin8.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/andrewvandebeek/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "illumin8--andrew-van-de-beek"
+   },
+   {
+    "name": "Michelle Minio",
+    "title": "Practice Manager",
+    "roleType": "Other",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/michelle-minio-133820120/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "illumin8--michelle-minio"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/illumin8-partners",
+  "description": "Accounting and growth firm promising clients 'freedom from standard business processes'.",
+  "headcountBasis": "LinkedIn (via Clay): 25 employees",
+  "services": [
+   "tax",
+   "business advisory"
+  ],
+  "employees": "25",
+  "serviceSignal": "Accounting and business growth",
+  "fitConfidence": "High",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2. General inbox: hello@illumin8.com.au; phone 03 9787 6872.",
+  "signal": "Pitches freedom from manual processes, so automation fits its story. Strong fit.",
+  "signalSummary": "Pitches freedom from manual processes, so automation fits its story. Strong fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://illumin8.com.au"
+  ],
+  "state": "VIC",
+  "city": "Mornington Peninsula",
+  "suburb": "Mornington",
   "cityBasis": "Company location"
  },
  {
@@ -16602,6 +17488,92 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "kennedy-king",
+  "name": "Kennedy King",
+  "domain": "kennedyking.com.au",
+  "website": "https://kennedyking.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (33 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Hawthorn (Level 1, 40 Burwood Rd) & Geelong, VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "John Kennedy",
+    "title": "Founder & Director",
+    "roleType": "Founder",
+    "email": "john@kennedyking.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/john-kennedy-7432108/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "kennedy-king--john-kennedy"
+   },
+   {
+    "name": "Sally King",
+    "title": "Director",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/sally-king-9814b823b/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "kennedy-king--sally-king"
+   },
+   {
+    "name": "Steve Madden",
+    "title": "Director (Geelong)",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/steve-madden-1b845813/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "kennedy-king--steve-madden"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/kennedy-king-chartered-accountants",
+  "description": "Boutique chartered accounting practice (business advisory, tax compliance, SMSF, payroll) founded 2005.",
+  "headcountBasis": "LinkedIn (via Clay): 33 employees; about 30 people on website team page; another LinkedIn source says 10–20",
+  "services": [
+   "tax",
+   "business advisory",
+   "SMSF",
+   "payroll"
+  ],
+  "employees": "33",
+  "serviceSignal": "Accounting and tax compliance",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1. General inbox: mail@kennedyking.com.au; phone 03 9243 6200. Has an HR, Systems & Procedures Manager (Pia Noble).",
+  "signal": "Has a dedicated systems and procedures manager, which suggests openness to process change. Moderate fit.",
+  "signalSummary": "Has a dedicated systems and procedures manager, which suggests openness to process change. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://kennedyking.com.au/our-people/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Hawthorn",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "kepler-analytics",
   "name": "Kepler Analytics",
   "domain": "kepleranalytics.com",
@@ -17328,6 +18300,90 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "koustas-co",
+  "name": "Koustas + Co",
+  "domain": "koustas.com.au",
+  "website": "https://koustas.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (25 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Melbourne (Level 4, 412 St Kilda Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Herc Koustas",
+    "title": "Director",
+    "roleType": "Founder",
+    "email": "herc@koustas.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/herc-koustas-0317b340/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "koustas-co--herc-koustas"
+   },
+   {
+    "name": "Damien Burke",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/damien-burke-b9509232/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "koustas-co--damien-burke"
+   },
+   {
+    "name": "Dylan Davidson",
+    "title": "Principal, Corporate Advisory",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/dylan-davidson-5a678836/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "koustas-co--dylan-davidson"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/koustas-co",
+  "description": "Chartered accountants and business/tax advisers for SMEs, mid-market and family businesses since 1998.",
+  "headcountBasis": "LinkedIn (via Clay): 25 employees",
+  "services": [
+   "tax",
+   "business advisory",
+   "corporate advisory"
+  ],
+  "employees": "25",
+  "serviceSignal": "Tax and business advisory",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2.",
+  "signal": "SME and mid-market advisory practice. Moderate fit.",
+  "signalSummary": "SME and mid-market advisory practice. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://koustas.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "lahebo",
   "name": "Lahebo",
   "domain": "lahebo.com",
@@ -17400,6 +18456,60 @@
   "state": "VIC",
   "city": "Melbourne",
   "suburb": "Mount Waverley",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "larkin-partners",
+  "name": "Larkin Partners",
+  "domain": "larkinpartners.com.au",
+  "website": "https://larkinpartners.com.au",
+  "type": "firm",
+  "typeReason": "Boutique accounting and advisory firm (15 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Ivanhoe (Level 2, 154 Upper Heidelberg Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Roger Larkin",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "roger@larkinpartners.com.au",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/roger-larkin-b61b8613/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "larkin-partners--roger-larkin",
+    "notes": "Email from Clay. Founded the firm; director since Jul 2000."
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/larkin-partners",
+  "description": "Boutique Melbourne accounting and business advisory firm: tax planning, business management accounting and SMSF for SMEs and families.",
+  "headcountBasis": "LinkedIn via Clay: 11-50 employees (15)",
+  "employees": "15",
+  "services": [
+   "tax planning",
+   "business services",
+   "SMSF",
+   "bookkeeping"
+  ],
+  "signal": "Small SME practice with its own accountants and bookkeepers. Moderate fit.",
+  "signalSummary": "Small SME practice with its own accountants and bookkeepers. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://larkinpartners.com.au/about-us/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Ivanhoe",
   "cityBasis": "Company location"
  },
  {
@@ -17855,9 +18965,27 @@
   "inAttio": false,
   "sources": [
    "Melbourne Accounting Firm Contacts",
-   "Exa web research"
+   "Exa web research",
+   "Published page (23 Nov research)"
   ],
-  "contacts": [],
+  "contacts": [
+   {
+    "name": "Harry Liu",
+    "title": "Accountant (SME portfolio, training lead)",
+    "roleType": "Executive",
+    "email": "harry@lgy.com.au",
+    "emailRisk": "caution",
+    "linkedin": "https://au.linkedin.com/in/harry-liu-a75512173",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "lgy-accountants--harry-liu",
+    "notes": "Email found via Treg but not confirmed deliverable. Partners at LGY not identified."
+   }
+  ],
   "domain": "lgy.com.au",
   "website": "https://lgy.com.au",
   "description": "Melbourne CBD accounting firm providing tax planning, bookkeeping, financial reporting, business advice and valuations to small and medium businesses.",
@@ -18091,6 +19219,77 @@
   ],
   "state": "NSW",
   "city": "Sydney",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "lipins-partners",
+  "name": "Lipins Partners",
+  "domain": "lipinspartners.com.au",
+  "website": "https://lipinspartners.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (29 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Balwyn (Level 1, 55 Whitehorse Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Noel Gibson",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "noel.gibson@lipinspartners.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/noel-gibson-79714123/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "lipins-partners--noel-gibson"
+   },
+   {
+    "name": "Manish Sundarjee",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/manish-sundarjee-6a8816102/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "lipins-partners--manish-sundarjee"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/lipins-partners",
+  "description": "Partner-led accounting, tax, financial planning and wealth firm, about 30 years old.",
+  "headcountBasis": "LinkedIn (via Clay): 29 employees",
+  "services": [
+   "tax",
+   "business advisory",
+   "financial planning"
+  ],
+  "employees": "29",
+  "serviceSignal": "Accounting and tax",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2.",
+  "signal": "Partner-led SMB practice. Moderate fit.",
+  "signalSummary": "Partner-led SMB practice. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://lipinspartners.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Balwyn",
   "cityBasis": "Company location"
  },
  {
@@ -19433,6 +20632,90 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "marin-accountants",
+  "name": "Marin Accountants",
+  "domain": "marinaccountants.com.au",
+  "website": "https://www.marinaccountants.com.au",
+  "type": "firm",
+  "typeReason": "Accounting and tax practice (27 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Melbourne (Level 6, 432 St Kilda Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Treg",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Arthur Topalidis",
+    "title": "Managing Director",
+    "roleType": "Executive",
+    "email": "arthurt@marinaccountants.com.au",
+    "emailRisk": "ok",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "marin-accountants--arthur-topalidis",
+    "notes": "Email found via Treg and checked deliverable."
+   },
+   {
+    "name": "Chris Maher",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "chrism@marinaccountants.com.au",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/chrismaherca/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "marin-accountants--chris-maher",
+    "notes": "Email from Clay."
+   },
+   {
+    "name": "Daniel Deutsch",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "danield@marinaccountants.com.au",
+    "emailRisk": "ok",
+    "linkedin": "https://www.linkedin.com/in/danieldeutsch1/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "marin-accountants--daniel-deutsch",
+    "notes": "Email from Clay. Director since Jul 2012."
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/marin-accountants",
+  "description": "Melbourne tax and accounting firm (est. 1981) serving professionals, family offices and business owners.",
+  "headcountBasis": "LinkedIn via Clay: 11-50 employees (27)",
+  "employees": "27",
+  "services": [
+   "tax",
+   "accounting",
+   "business advice"
+  ],
+  "signal": "Established SME/family-group tax and accounting practice; recurring client books. Moderate fit.",
+  "signalSummary": "Established SME/family-group tax and accounting practice; recurring client books. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://marinaccountants.com.au/our-people/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "marketplacer",
   "name": "Marketplacer",
   "domain": "marketplacer.com",
@@ -20668,6 +21951,90 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "mgi-dobbyn-carafa",
+  "name": "MGI Dobbyn Carafa",
+  "domain": "mgidc.com.au",
+  "website": "https://mgidc.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (37 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Melbourne (Level 15, 412 St Kilda Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Anthony Dobbyn",
+    "title": "Director, Corporate Advisory Services",
+    "roleType": "Executive",
+    "email": "adobbyn@mgidc.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/anthony-dobbyn-5957605/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "mgi-dobbyn-carafa--anthony-dobbyn"
+   },
+   {
+    "name": "Devan Bishop",
+    "title": "Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/devanbishop/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "mgi-dobbyn-carafa--devan-bishop"
+   },
+   {
+    "name": "Abhishek Sharma",
+    "title": "Director, Audit & Assurance",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/abhishek-sharma-00172219/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "mgi-dobbyn-carafa--abhishek-sharma"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/mgidc",
+  "description": "Boutique accounting, tax and corporate advisory practice for the SME market; partners from large and mid-tier firms.",
+  "headcountBasis": "LinkedIn (via Clay): 37 employees",
+  "services": [
+   "tax",
+   "audit",
+   "corporate advisory"
+  ],
+  "employees": "37",
+  "serviceSignal": "Accounting, tax and corporate advisory",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1.",
+  "signal": "SME-focused practice run by ex-big-firm partners. Moderate fit.",
+  "signalSummary": "SME-focused practice run by ex-big-firm partners. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://mgidc.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "mgi-joyce-dickson",
   "name": "MGI Joyce Dickson",
   "domain": "mgijd.com.au",
@@ -20972,6 +22339,64 @@
   ],
   "state": "NSW",
   "city": "Sydney",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "mitchell-partners",
+  "name": "Mitchell Partners",
+  "domain": "mitchell.com.au",
+  "website": "https://mitchell.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (40 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Surrey Hills (Suite 4, 109 Union Rd), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Alan Mitchell",
+    "title": "Managing Director",
+    "roleType": "Founder",
+    "email": "am@mitchell.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/alan-mitchell-683b3049/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "mitchell-partners--alan-mitchell"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/mitchell-partners",
+  "description": "Chartered accountants and business advisers for corporate clients and high-net-worth individuals, with a virtual CFO offering.",
+  "headcountBasis": "LinkedIn (via Clay): 40 employees",
+  "services": [
+   "tax",
+   "business advisory",
+   "virtual CFO",
+   "SMSF"
+  ],
+  "employees": "40",
+  "serviceSignal": "Virtual CFO",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1. General inbox: admin@mitchell.com.au; phone 03 9895 9333.",
+  "signal": "Virtual CFO work needs clean, reconciled books every month. Moderate fit.",
+  "signalSummary": "Virtual CFO work needs clean, reconciled books every month. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://www.mitchell.com.au/contact-us/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Surrey Hills",
   "cityBasis": "Company location"
  },
  {
@@ -21872,7 +23297,8 @@
   "inAttio": false,
   "sources": [
    "Melbourne Accounting Firm Contacts",
-   "Exa web research"
+   "Exa web research",
+   "Published page (23 Nov research)"
   ],
   "contacts": [
    {
@@ -21904,6 +23330,53 @@
     ],
     "inAttio": false,
     "id": "mva-bennett--gus-svenson"
+   },
+   {
+    "name": "Travis Fegan",
+    "title": "Managing Partner",
+    "roleType": "Executive",
+    "email": "travis@mvabennett.com.au",
+    "emailRisk": "ok",
+    "linkedin": "https://linkedin.com/in/travis-fegan-89b8314",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "mva-bennett--travis-fegan",
+    "notes": "Email from firm website."
+   },
+   {
+    "name": "Chris Hall",
+    "title": "Partner",
+    "roleType": "Executive",
+    "email": "chris@mvabennett.com.au",
+    "emailRisk": "ok",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "mva-bennett--chris-hall",
+    "notes": "Email from firm website."
+   },
+   {
+    "name": "Andrew Ellem",
+    "title": "Former Managing Partner",
+    "roleType": "Executive",
+    "email": "andrew@mvabennett.com.au",
+    "emailRisk": "ok",
+    "linkedin": "https://linkedin.com/in/andrew-ellem-",
+    "isPrimary": false,
+    "likelyLeft": true,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "mva-bennett--andrew-ellem",
+    "notes": "Left MVA Bennett Jul 2025; now Partner at Prime Financial Group. Don't contact here."
    }
   ],
   "description": "Melbourne CBD accounting firm offering audit, accounting, tax, corporate advisory and SMSF services.",
@@ -26801,6 +28274,64 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "reliable-accountants",
+  "name": "Reliable Accountants",
+  "domain": "rmelbourneaccountants.com.au",
+  "website": "https://rmelbourneaccountants.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (33 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Port Melbourne (1/3 Westside Ave), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Tushar Khanna",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "tushar@rmelbourneaccountants.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/tushar-khanna-ca-87673451/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "reliable-accountants--tushar-khanna"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/reliableaccountants",
+  "description": "Small-business tax, GST and property accounting; works in Xero, MYOB and QuickBooks.",
+  "headcountBasis": "LinkedIn (via Clay): 33 employees",
+  "services": [
+   "tax",
+   "GST/BAS",
+   "bookkeeping",
+   "property accounting"
+  ],
+  "employees": "33",
+  "serviceSignal": "Small-business tax and bookkeeping",
+  "fitConfidence": "High",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2. General inbox: enquiry@rmelbourneaccountants.com.au; phone 1300 049 534.",
+  "signal": "Cloud-ledger SMB work and already talks about automating data. Strong fit.",
+  "signalSummary": "Cloud-ledger SMB work and already talks about automating data. Strong fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://rmelbourneaccountants.com.au/contact-us/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Port Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "reposit-power",
   "name": "Reposit Power",
   "domain": "repositpower.com",
@@ -27461,6 +28992,61 @@
   "city": "Melbourne",
   "suburb": "St Kilda",
   "cityBasis": "Web research (Exa)"
+ },
+ {
+  "id": "rundles",
+  "name": "Rundles Chartered Accountants",
+  "domain": "rundles.com.au",
+  "website": "https://www.rundles.com.au",
+  "type": "firm",
+  "typeReason": "Chartered accounting firm (4 partners, ~20 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Melbourne CBD (Level 1, 500 Collins St), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Treg",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Josh Laing",
+    "title": "Managing Partner",
+    "roleType": "Executive",
+    "email": "joshua.laing@rundles.com.au",
+    "emailRisk": "ok",
+    "linkedin": "https://linkedin.com/in/joshua-laing-33b36a78",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "rundles--josh-laing",
+    "notes": "Email found via Treg and checked deliverable."
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/rundles-chartered-accountants",
+  "description": "Melbourne firm (est. 1965) offering accounting and business services, tax, superannuation, financial planning and audit.",
+  "headcountBasis": "Company description: 4 partners, team of 20",
+  "employees": "20",
+  "services": [
+   "accounting",
+   "business services",
+   "tax",
+   "SMSF",
+   "financial planning",
+   "audit"
+  ],
+  "signal": "Traditional accounting and business services practice with SMSF work. Moderate fit.",
+  "signalSummary": "Traditional accounting and business services practice with SMSF work. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://www.rundles.com.au/about-us"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "cityBasis": "Company location"
  },
  {
   "id": "saddlery-brands-international",
@@ -29018,6 +30604,79 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "slate-accounts",
+  "name": "Slate Accounts",
+  "domain": "slateaccounts.com.au",
+  "website": "https://slateaccounts.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (29 staff)",
+  "segment": "Accounting & advisory",
+  "location": "South Yarra (11 Wilson St), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Michael Kent",
+    "title": "CEO",
+    "roleType": "Founder",
+    "email": "michael@slateaccounts.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/michael-kent-40aab6/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "slate-accounts--michael-kent"
+   },
+   {
+    "name": "Prasnita Latchan",
+    "title": "Practice Leader and Client Partner",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/prasnita-latchan-5ab70523/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "slate-accounts--prasnita-latchan"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/slate-accounts",
+  "description": "Outsourced finance team (bookkeeping to CFO) for 250+ Australian businesses; teams in Melbourne, Sydney and Jaipur.",
+  "headcountBasis": "LinkedIn (via Clay): 29 employees",
+  "services": [
+   "bookkeeping",
+   "payroll",
+   "AP/AR",
+   "financial reporting",
+   "virtual CFO"
+  ],
+  "employees": "29",
+  "serviceSignal": "Outsourced bookkeeping and finance team",
+  "fitConfidence": "High",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2. 40+ staff including Jaipur.",
+  "signal": "Runs daily bookkeeping for 250+ businesses, so reconciliation is the core workload. Strong fit.",
+  "signalSummary": "Runs daily bookkeeping for 250+ businesses, so reconciliation is the core workload. Strong fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://slateaccounts.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "South Yarra",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "slice",
   "name": "Slice",
   "domain": "slicegroup.co",
@@ -29256,6 +30915,64 @@
   ],
   "state": "VIC",
   "city": "Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "smart-business-solutions",
+  "name": "Smart Business Solutions",
+  "domain": "smartbusinesssolutions.com.au",
+  "website": "https://smartbusinesssolutions.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (27 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Mornington (328 Main St), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Shannon Smit",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "shannon@smartbusinesssolutions.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/shannon-smit-4906591/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "smart-business-solutions--shannon-smit"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/smart-business-solutions-accounting-taxation-advisors",
+  "description": "Mornington Peninsula accounting, tax, financial planning and mortgage broking firm.",
+  "headcountBasis": "LinkedIn (via Clay): 27 employees",
+  "services": [
+   "tax",
+   "accounting",
+   "financial planning",
+   "mortgage broking"
+  ],
+  "employees": "27",
+  "serviceSignal": "Accounting and tax",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2.",
+  "signal": "Says it's the Mornington Peninsula's most-awarded firm. Moderate fit.",
+  "signalSummary": "Says it's the Mornington Peninsula's most-awarded firm. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://smartbusinesssolutions.com.au"
+  ],
+  "state": "VIC",
+  "city": "Mornington Peninsula",
+  "suburb": "Mornington",
   "cityBasis": "Company location"
  },
  {
@@ -30873,6 +32590,77 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "suntax",
+  "name": "Suntax",
+  "domain": "suntax.com.au",
+  "website": "https://suntax.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (58 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Sunbury (14 Horne St) & Essendon, VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Brent West",
+    "title": "Director",
+    "roleType": "Executive",
+    "email": "brent.west@suntax.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/brent-west-a6618126/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "suntax--brent-west"
+   },
+   {
+    "name": "Mark Lawry",
+    "title": "Chief Operating Officer",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/mark-lawry-fcpa/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "suntax--mark-lawry"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/suntax",
+  "description": "Personal and business tax and financial services firm since 1989; offices in Sunbury and Essendon.",
+  "headcountBasis": "LinkedIn (via Clay): 58 employees",
+  "services": [
+   "tax",
+   "business services",
+   "financial services"
+  ],
+  "employees": "58",
+  "serviceSignal": "Tax and business services",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1.",
+  "signal": "Two-office suburban practice with a COO; compliance-heavy SMB work. Moderate fit.",
+  "signalSummary": "Two-office suburban practice with a COO; compliance-heavy SMB work. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://suntax.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Sunbury",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "superapi",
   "name": "SuperAPI",
   "domain": "superapi.com.au",
@@ -31754,6 +33542,92 @@
   "cityBasis": "Company location"
  },
  {
+  "id": "the-field-group",
+  "name": "The Field Group",
+  "domain": "fieldgroup.com.au",
+  "website": "https://fieldgroup.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (35 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Chirnside Park (Suite 10, 1 East Ridge Dr) & Cremorne, VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Jon Traynor",
+    "title": "Managing Director",
+    "roleType": "Executive",
+    "email": "jon.traynor@fieldgroup.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/jon-traynor/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "the-field-group--jon-traynor"
+   },
+   {
+    "name": "Muqeet Bilwani",
+    "title": "Audit Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/muqeet-bilwani-8796a030/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "the-field-group--muqeet-bilwani"
+   },
+   {
+    "name": "Frank Zinghini",
+    "title": "Associate Director",
+    "roleType": "Executive",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/thefrankzinga/",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "the-field-group--frank-zinghini"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/the-field-group---accounting",
+  "description": "Accountants and business advisers using current technology for SMB clients; audit arm.",
+  "headcountBasis": "LinkedIn (via Clay): 35 employees",
+  "services": [
+   "accounting",
+   "tax",
+   "audit",
+   "business advisory"
+  ],
+  "employees": "35",
+  "serviceSignal": "Accounting and advisory",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 2.",
+  "signal": "Tech-positive SMB practice. Moderate fit.",
+  "signalSummary": "Tech-positive SMB practice. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://fieldgroup.com.au"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Chirnside Park",
+  "cityBasis": "Company location"
+ },
+ {
   "id": "the-gild-group",
   "name": "The Gild Group",
   "domain": "thegildgroup.com",
@@ -32619,6 +34493,63 @@
   "description": "Ticket resale marketplace where fans buy and sell event tickets at capped prices, backed by a money-back buyer guarantee.",
   "state": "VIC",
   "city": "Melbourne",
+  "cityBasis": "Company location"
+ },
+ {
+  "id": "tnm-consulting",
+  "name": "TNM Consulting",
+  "domain": "tnmconsulting.com.au",
+  "website": "https://tnmconsulting.com.au",
+  "type": "firm",
+  "typeReason": "Accounting / advisory practice (54 staff)",
+  "segment": "Accounting & advisory",
+  "location": "Preston (Level 1, 556 High St), VIC, AU",
+  "inAttio": false,
+  "sources": [
+   "Claude research 23 Nov 2026",
+   "Clay",
+   "Published page (23 Nov research)"
+  ],
+  "contacts": [
+   {
+    "name": "Ryan Richardson",
+    "title": "Partner",
+    "roleType": "Executive",
+    "email": "ryan@tnmconsulting.com.au",
+    "emailRisk": "ok",
+    "emailStatus": "Clay (firm email pattern); not verified",
+    "linkedin": "https://www.linkedin.com/in/ryanrichardson1/",
+    "isPrimary": true,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "tnm-consulting--ryan-richardson"
+   }
+  ],
+  "linkedin": "https://www.linkedin.com/company/tnmconsulting",
+  "description": "Accounting, advisory and planning firm in Melbourne's north.",
+  "headcountBasis": "LinkedIn (via Clay): 54 employees",
+  "services": [
+   "tax",
+   "business advisory",
+   "financial planning"
+  ],
+  "employees": "54",
+  "serviceSignal": "Accounting and advisory",
+  "fitConfidence": "Medium",
+  "listStatus": "New — added Nov 23 (Melbourne 25–100 staff search)",
+  "notes": "Email group 1. General inbox: info@tnmconsulting.com.au; phone 03 9484 8111.",
+  "signal": "50+ staff SMB accounting and advisory practice. Moderate fit.",
+  "signalSummary": "50+ staff SMB accounting and advisory practice. Moderate fit.",
+  "signalSource": "Claude research 23 Nov 2026",
+  "sourceUrls": [
+   "https://www.tnmconsulting.com.au/contact/"
+  ],
+  "state": "VIC",
+  "city": "Melbourne",
+  "suburb": "Preston",
   "cityBasis": "Company location"
  },
  {
@@ -34655,7 +36586,8 @@
   "inAttio": false,
   "sources": [
    "Melbourne Accounting Firm Contacts",
-   "Exa web research"
+   "Exa web research",
+   "Published page (23 Nov research)"
   ],
   "contacts": [
    {
@@ -34687,6 +36619,21 @@
     ],
     "inAttio": false,
     "id": "walker-wayland-advantage--stephen-goode"
+   },
+   {
+    "name": "Martin Phelan",
+    "title": "Partner, Tax & Business Advisory",
+    "roleType": "Executive",
+    "email": "mphelan@wwadvantage.com.au",
+    "emailRisk": "ok",
+    "isPrimary": false,
+    "likelyLeft": false,
+    "sources": [
+     "Claude research 23 Nov 2026"
+    ],
+    "inAttio": false,
+    "id": "walker-wayland-advantage--martin-phelan",
+    "notes": "Email from firm website."
    }
   ],
   "domain": "wwadvantage.com.au",

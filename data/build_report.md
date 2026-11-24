@@ -1,15 +1,15 @@
 # Data build report
 
-Generated 2026-11-24T02:28:47+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-24T02:44:11+00:00 by `pipeline/build_data.py`.
 
-- Accounts (de-duplicated): **479**
-- Contacts (de-duplicated): **843**
-- Sections: firm 194, internal 159, solo 126
-- Segments: Accounting & advisory 194, CPG / Ecom / D2C 173, SaaS 102, AI startup 7, Other 2, VC / Accelerator 1
+- Accounts (de-duplicated): **505**
+- Contacts (de-duplicated): **901**
+- Sections: firm 220, internal 159, solo 126
+- Segments: Accounting & advisory 220, CPG / Ecom / D2C 173, SaaS 102, AI startup 7, Other 2, VC / Accelerator 1
 - Accounts in Attio: 271
-- Accounts with no contacts: 2
-- Contacts with email: 619
-- Outreach events: 44
+- Accounts with no contacts: 1
+- Contacts with email: 655
+- Outreach events: 196
 
 ## Log
 
@@ -73,6 +73,7 @@ Generated 2026-11-24T02:28:47+00:00 by `pipeline/build_data.py`.
 - [override] account bbb-partners: flagged
 - [override] contact creswick-wool--paul-ryzowy: {'likelyLeft': True, 'note': 'Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld.'}
 - [override] account great-wrap: flagged
+- [override] contact gridsight--bryn-leggett: {'note': 'Rejected Vert on LinkedIn. Do not contact.'}
 - [override] account intrepid-advisory: domain intrepidadvisory.com -> intrepidadvisory.com.au
 - [override] contact johnson-partners--jason-johnson: {'likelyLeft': True, 'note': 'johnsonpartners.co is an executive-search firm, not the Richmond accounting firm (Exa research).'}
 - [override] account johnson-partners: domain None -> johnsonpartners.com.au
@@ -80,6 +81,8 @@ Generated 2026-11-24T02:28:47+00:00 by `pipeline/build_data.py`.
 - [override] account lgy-accountants: flagged
 - [override] contact melrose-health--geoff-steinicke: {'likelyLeft': True, 'note': 'Stale: sold Melrose in 2010 and retired. Current CEO/CFO added.'}
 - [override] account visory: flagged
+- [live-merge] note on hellocfo--bryn-leggett: Rejected Vert on LinkedIn. Do not contact.
+- [count] published-page additions: 26 accounts, 58 contacts, 1 notes
 - [city-researched] Adventure Operations: 'AU' -> 'Eagle Farm, QLD, AU' (https://adventureoperations.com.au/)
 - [city-researched] b.box for kids: 'Australia' -> 'Notting Hill, VIC, AU' (https://bbox.com.au/pages/terms-and-conditions)
 - [city-researched] Bali Body: 'Australia' -> 'Brighton, VIC, AU' (https://au.balibodyco.com/pages/privacy-policy)
@@ -117,7 +120,8 @@ Generated 2026-11-24T02:28:47+00:00 by `pipeline/build_data.py`.
 - [city-researched] WCT Advisory Group: None -> 'Brisbane, QLD, AU' (https://www.wctadvisory.com.au/contact-wct-advisory)
 - [city-researched] XETA: None -> 'Bondi Junction, NSW, AU' (https://employmenthero.com/uk/partner/xeta/)
 - [city-researched] XO Accounting: None -> 'Werribee, VIC, AU' (https://linkedin.com/company/xo-accounting-pty-ltd)
-- [count] cities: Company location 440, Web research (Exa) 37, Contact location (company location not recorded) 2
+- [count] cities: Company location 466, Web research (Exa) 37, Contact location (company location not recorded) 2
 - [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
 - [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
-- [count] outreach: 44 events (0 not matched to an account)
+- [count] outreach: 63 events added from the published page
+- [count] outreach: 196 events (0 not matched to an account)

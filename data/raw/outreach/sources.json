@@ -1,7 +1,7 @@
 [
  {
   "name": "Hostinger mailbox (work email)",
-  "detail": "All 37 Sent and 80 Inbox messages scanned. 31 sent messages went to prospect addresses/domains; no inbox message came from a prospect."
+  "detail": "All Sent and Inbox messages scanned up to 24 Nov 2026 (02:43 UTC). Sends to prospects are logged; real replies are logged as replies (Bali Body). Out-of-office auto-replies and a bounce are noted on the sent email instead."
  },
  {
   "name": "Gmail (personal)",

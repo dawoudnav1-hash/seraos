@@ -25,7 +25,7 @@ CAPITAL = {"VIC": "Melbourne", "NSW": "Sydney", "QLD": "Brisbane", "WA": "Perth"
 REGIONAL = {
     # VIC
     "geelong": "Geelong", "torquay": "Geelong", "ballarat": "Ballarat", "bendigo": "Bendigo",
-    "mildura": "Mildura", "sorrento": "Mornington Peninsula", "warragul": "Warragul", "sale": "Sale",
+    "mildura": "Mildura", "sorrento": "Mornington Peninsula", "mornington": "Mornington Peninsula", "warragul": "Warragul", "sale": "Sale",
     # NSW
     "byron bay": "Byron Bay", "suffolk park": "Byron Bay", "mullumbimby": "Byron Bay",
     "newcastle": "Newcastle", "newcastle west": "Newcastle", "wollongong": "Wollongong",

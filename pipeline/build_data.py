@@ -956,6 +956,67 @@ def apply_enrichment(accounts: list[dict]) -> None:
             a["contacts"].sort(key=lambda c: (bool(c.get("likelyLeft")), not c.get("isPrimary"), role_rank.get(c.get("roleType"), 3)))
 
 
+# ---------------------------------------------------------------- additions made on the published page
+SRC_LIVE = "Published page (23 Nov research)"
+
+
+def merge_live_additions(accounts: list[dict]) -> None:
+    """Merge accounts, contacts and notes that another session added directly to the published page
+    (data/raw/live_artifact/accounts.json) and that no other source has."""
+    path = os.path.join(RAW, "live_artifact", "accounts.json")
+    if not os.path.exists(path):
+        return
+    live = json.load(open(path))
+    by_id = {a["id"]: a for a in accounts}
+    by_dom = {d: a for a in accounts for d in [a.get("domain")] + a.get("otherDomains", []) if d}
+    by_name = {name_key(a["name"]): a for a in accounts}
+    n_acc = n_con = n_note = 0
+    for la in live:
+        mine = by_id.get(la["id"])
+        if mine is None:
+            dup = by_dom.get(la.get("domain") or "") or by_name.get(name_key(la["name"]))
+            if dup:
+                log("live-merge", f"live account {la['id']} matches existing {dup['id']}; merging its contacts there")
+                mine = dup
+            else:
+                acc = {k: v for k, v in la.items() if k not in ("city", "suburb", "state", "cityBasis")}
+                acc["sources"] = list(dict.fromkeys(acc.get("sources", []) + [SRC_LIVE]))
+                accounts.append(acc)
+                by_id[acc["id"]] = acc
+                for d in [acc.get("domain")] + acc.get("otherDomains", []):
+                    if d:
+                        by_dom[d] = acc
+                by_name[name_key(acc["name"])] = acc
+                n_acc += 1
+                n_con += len(acc["contacts"])
+                continue
+        con_ids = {c["id"] for c in mine["contacts"]}
+        keys = {person_key(c["name"]) for c in mine["contacts"]}
+        emails = {c.get("email") for c in mine["contacts"] if c.get("email")}
+        for lc in la.get("contacts", []):
+            match = next((c for c in mine["contacts"] if c["id"] == lc["id"] or person_key(c["name"]) == person_key(lc["name"])
+                          or (lc.get("email") and c.get("email") == lc["email"])), None)
+            if match is None:
+                c = dict(lc)
+                if c["id"] in con_ids or not c["id"].startswith(mine["id"] + "--"):
+                    c["id"] = f"{mine['id']}--{slug(c['name'])}"
+                if c["id"] in con_ids or person_key(c["name"]) in keys or (c.get("email") and c["email"] in emails):
+                    continue
+                mine["contacts"].append(c)
+                con_ids.add(c["id"]); keys.add(person_key(c["name"]))
+                n_con += 1
+                if SRC_LIVE not in mine["sources"]:
+                    mine["sources"].append(SRC_LIVE)
+            else:
+                ln = (lc.get("notes") or "").strip()
+                if ln and ln not in (match.get("notes") or ""):
+                    match["notes"] = (match["notes"] + " | " if match.get("notes") else "") + ln
+                    n_note += 1
+                    log("live-merge", f"note on {match['id']}: {ln}")
+    accounts.sort(key=lambda x: x["name"].lower())
+    log("count", f"published-page additions: {n_acc} accounts, {n_con} contacts, {n_note} notes")
+
+
 # ---------------------------------------------------------------- cities
 def assign_cities(accounts: list[dict]) -> None:
     """Adds city / suburb / state (+ cityBasis) to every account that has a usable location."""
@@ -1008,6 +1069,17 @@ def build_outreach(accounts: list[dict]) -> dict:
     extra = os.path.join(RAW, "outreach", "events_extra.json")
     if os.path.exists(extra):
         events_in += json.load(open(extra))
+    for f in sorted(glob.glob(os.path.join(RAW, "outreach", "events_hostinger_*.json"))):
+        known = {e.get("id") for e in events_in}
+        events_in += [e for e in json.load(open(f)) if e.get("id") not in known]
+    live_o = os.path.join(RAW, "live_artifact", "outreach.json")
+    if os.path.exists(live_o):
+        known = {e.get("id") for e in events_in}
+        added = [e for e in json.load(open(live_o)).get("events", []) if e.get("id") not in known]
+        for e in added:  # matching is recomputed below from the counterparty emails
+            e.pop("accountId", None); e.pop("contactId", None)
+        events_in += added
+        log("count", f"outreach: {len(added)} events added from the published page")
     sources = json.load(open(notes_path)) if os.path.exists(notes_path) else []
     by_email: dict[str, list[tuple[str, str]]] = defaultdict(list)
     acc_name = {a["id"]: a["name"] for a in accounts}
@@ -1101,6 +1173,7 @@ def checks(accounts: list[dict]) -> None:
 def main() -> int:
     accounts, _ = build()
     apply_enrichment(accounts)
+    merge_live_additions(accounts)
     assign_cities(accounts)
     for a in accounts:  # drop empty optional fields so output matches the TS contract
         for k in [k for k, v in a.items() if (v is None or v == []) and k not in ("contacts", "sources")]:
