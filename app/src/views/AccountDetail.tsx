@@ -2,6 +2,7 @@ import { Fragment, memo, useEffect, useRef, useState, type ReactNode } from 'rea
 import { EventLine } from '../components/events';
 import { Badge, EmailLink, ExtLink, Icon, Linkify, LinkedInLink, ScorePill, SourceBadges, StatusPill } from '../components/ui';
 import { kindLabel } from '../lib/events';
+import { cityDisplay, cityOf, stateOf } from '../lib/filters';
 import { formatDate } from '../lib/format';
 import { displayUrl, safeUrl } from '../lib/links';
 import { TYPE_LABEL } from '../lib/stats';
@@ -271,6 +272,16 @@ export const AccountDetail = memo(function AccountDetail({
             <TextField label="Description" value={a.description} wide />
             <Field label="Segment">{a.segment}</Field>
             <TextField label="Sector" value={a.sector} />
+            {(cityOf(a) || stateOf(a)) && (
+              <Field label="City">
+                <span data-testid="account-city">{cityDisplay(a) || <span className="muted">Unknown{stateOf(a) ? ` (${stateOf(a)})` : ''}</span>}</span>
+                {a.cityBasis && a.cityBasis !== 'Company location' && (
+                  <span className="field-note" data-testid="account-city-basis">
+                    Based on: {a.cityBasis}
+                  </span>
+                )}
+              </Field>
+            )}
             <TextField label="Location" value={a.location} />
             {(a.employees || a.employeeRange) && (
               <Field label="Employees">

@@ -1,5 +1,5 @@
 import { useDeferredValue, useMemo, useState, type KeyboardEvent, type MouseEvent } from 'react';
-import { Badge, EmailLink, EmptyState, Icon, LinkedInLink, SearchBox, Segmented, Select, SourceBadges, StatusPill } from '../components/ui';
+import { Badge, ContactedToggle, EmailLink, EmptyState, Icon, LinkedInLink, SearchBox, Segmented, Select, SourceBadges, StatusPill } from '../components/ui';
 import { copyText, dateStamp, downloadText, toCsv } from '../lib/csv';
 import { kindLabel } from '../lib/events';
 import {
@@ -8,21 +8,39 @@ import {
   type Section,
   type SortDir,
   type SortValue,
+  type ContactedFilter,
+  CONTACTED_FILTERS,
   DEFAULT_CONTACT_FILTERS,
   activeFilterCount,
   buildContactRows,
+  cityOf,
+  cityOptions,
+  citySortKey,
+  citySubtitle,
   compareSortValues,
+  contactedCounts,
   filterContactRows,
+  inSection,
+  locationSelectOptions,
+  matchesOutreach,
+  normalizeOutreach,
+  outreachSelectValue,
   SECTIONS,
+  stateOptions,
+  withContacted,
+  withOutreachStatus,
+  withoutOutreach,
+  withState,
 } from '../lib/filters';
 import { formatDate, localISODate } from '../lib/format';
 import { compareSegments, segmentOf, TYPE_LABEL } from '../lib/stats';
 import { STATUS_LABEL, STATUS_ORDER, statusRank, type OutreachStatus } from '../lib/status';
 import { useAppData } from '../state/AppData';
+import type { Account } from '../types';
 import { accountHref } from '../state/router';
 import { usePersistentState } from '../state/usePersistentState';
 
-type ColId = 'name' | 'title' | 'account' | 'section' | 'segment' | 'email' | 'linkedin' | 'location' | 'status' | 'lastTouch' | 'sources';
+type ColId = 'name' | 'title' | 'account' | 'section' | 'segment' | 'city' | 'email' | 'linkedin' | 'location' | 'status' | 'lastTouch' | 'sources';
 
 const SECTION_SHORT: Record<Section, string> = { firm: 'Firms', internal: 'Internal finance', solo: '1-person', all: 'All' };
 
@@ -32,6 +50,7 @@ const COLS: readonly { id: ColId; label: string; width: number; defaultDir: Sort
   { id: 'account', label: 'Account', width: 200, defaultDir: 'asc', sort: (r) => r.account.name.toLowerCase() },
   { id: 'section', label: 'Section', width: 150, defaultDir: 'asc', sort: (r) => r.account.type },
   { id: 'segment', label: 'Segment', width: 150, defaultDir: 'asc', sort: (r) => r.account.segment },
+  { id: 'city', label: 'City', width: 160, defaultDir: 'asc', sort: (r) => citySortKey(r.account) },
   { id: 'email', label: 'Email', width: 270, defaultDir: 'asc', sort: (r) => r.contact.email?.toLowerCase() },
   { id: 'linkedin', label: 'LinkedIn', width: 90, defaultDir: 'asc', sort: (r) => (r.contact.linkedin ? 0 : 1) },
   { id: 'location', label: 'Location', width: 150, defaultDir: 'asc', sort: (r) => r.contact.location?.toLowerCase() },
@@ -44,14 +63,21 @@ const COL_IDS = COLS.map((c) => c.id);
 function validate(v: unknown): ContactFilters | undefined {
   if (!v || typeof v !== 'object') return undefined;
   const r = v as Partial<ContactFilters>;
-  return {
-    query: typeof r.query === 'string' ? r.query : '',
+  const s = (x: unknown) => (typeof x === 'string' ? x : '');
+  return normalizeOutreach<ContactFilters>({
+    query: s(r.query),
     section: SECTIONS.includes(r.section as Section) ? (r.section as Section) : 'all',
-    segment: typeof r.segment === 'string' ? r.segment : '',
+    contacted: CONTACTED_FILTERS.includes(r.contacted as ContactedFilter) ? (r.contacted as ContactedFilter) : 'all',
+    city: s(r.city),
+    state: s(r.state),
+    segment: s(r.segment),
     emailRisk: r.emailRisk === 'ok' || r.emailRisk === 'caution' || r.emailRisk === 'none' ? r.emailRisk : '',
     status: STATUS_ORDER.includes(r.status as OutreachStatus) ? (r.status as OutreachStatus) : '',
-  };
+  });
 }
+
+/** City / State option counts on this page are contact counts. */
+const contactCount = (a: Account) => a.contacts.length;
 
 /** Rows rendered per "page"; the rest load on demand to keep huge lists snappy. */
 const PAGE = 300;
@@ -67,7 +93,10 @@ export function Contacts() {
   const deferred = useDeferredValue(filters);
 
   const rows = useMemo(() => buildContactRows(accounts, index), [accounts, index]);
-  const sectionFiltered = useMemo(() => filterContactRows(rows, { ...deferred, section: 'all' }), [rows, deferred]);
+  // Every filter except section / outreach; the section tabs and the contacted toggle each count from here.
+  const baseFiltered = useMemo(() => filterContactRows(rows, withoutOutreach({ ...deferred, section: 'all' })), [rows, deferred]);
+  const sectionFiltered = useMemo(() => baseFiltered.filter((r) => matchesOutreach(r.activity.status, deferred)), [baseFiltered, deferred]);
+  const outreachCounts = useMemo(() => contactedCounts(baseFiltered.filter((r) => inSection(r, deferred.section))), [baseFiltered, deferred.section]);
   const counts = useMemo(() => {
     const c: Record<Section, number> = { all: sectionFiltered.length, firm: 0, internal: 0, solo: 0 };
     for (const r of sectionFiltered) c[r.account.type]++;
@@ -82,11 +111,17 @@ export function Contacts() {
       .map((x) => x.r);
   }, [sectionFiltered, deferred.section, sort]);
   const segments = useMemo(() => [...new Set(accounts.map(segmentOf))].sort(compareSegments), [accounts]);
+  const cityOpts = useMemo(
+    () => locationSelectOptions(cityOptions(accounts, contactCount, filters.state), filters.city, 'All', 'Unknown'),
+    [accounts, filters.state, filters.city],
+  );
+  const stateOpts = useMemo(() => locationSelectOptions(stateOptions(accounts, contactCount), filters.state, 'All', 'No state'), [accounts, filters.state]);
 
-  const setFilter = <K extends keyof ContactFilters>(k: K, v: ContactFilters[K]) => {
+  const update = (fn: (f: ContactFilters) => ContactFilters) => {
     setLimit(PAGE);
-    setFilters((f) => ({ ...f, [k]: v }));
+    setFilters(fn);
   };
+  const setFilter = <K extends keyof ContactFilters>(k: K, v: ContactFilters[K]) => update((f) => ({ ...f, [k]: v }));
 
   const go = (r: ContactRow) => {
     window.location.hash = accountHref(r.account.id, r.contact.id);
@@ -104,7 +139,7 @@ export function Contacts() {
 
   const buildCsv = () =>
     toCsv(
-      ['Contact ID', 'Name', 'Title', 'Role type', 'Account', 'Account ID', 'Section', 'Segment', 'Email', 'Email risk', 'Email status', 'LinkedIn', 'Location', 'Primary', 'Likely left', 'Outreach status', 'Last touch', 'Sources'],
+      ['Contact ID', 'Name', 'Title', 'Role type', 'Account', 'Account ID', 'Section', 'Segment', 'City', 'Suburb', 'State', 'Email', 'Email risk', 'Email status', 'LinkedIn', 'Location', 'Primary', 'Likely left', 'Outreach status', 'Last touch', 'Sources'],
       sorted.map((r) => [
         r.contact.id,
         r.contact.name,
@@ -114,6 +149,9 @@ export function Contacts() {
         r.account.id,
         TYPE_LABEL[r.account.type],
         r.account.segment,
+        r.account.city,
+        r.account.suburb,
+        r.account.state,
         r.contact.email,
         r.contact.emailRisk,
         r.contact.emailStatus,
@@ -150,7 +188,10 @@ export function Contacts() {
         testIdPrefix="contact-section-tab"
       />
       <div className="toolbar">
-        <SearchBox value={filters.query} onChange={(v) => setFilter('query', v)} placeholder="Search name, email, title, account…" testId="contacts-search" />
+        <ContactedToggle value={filters.contacted} counts={outreachCounts} onChange={(v) => update((f) => withContacted(f, v))} noun="contacts" testIdPrefix="contact-contacted" />
+        <SearchBox value={filters.query} onChange={(v) => setFilter('query', v)} placeholder="Search name, email, account, city…" testId="contacts-search" />
+        <Select label="City" value={filters.city} onChange={(v) => setFilter('city', v)} options={cityOpts} testId="contacts-filter-city" />
+        <Select label="State" value={filters.state} onChange={(v) => update((f) => withState(f, v, accounts))} options={stateOpts} testId="contacts-filter-state" />
         <Select
           label="Segment"
           value={filters.segment}
@@ -170,19 +211,22 @@ export function Contacts() {
         />
         <Select
           label="Outreach"
-          value={filters.status}
-          onChange={(v) => setFilter('status', v)}
-          options={[{ value: '', label: 'Any' }, ...STATUS_ORDER.map((s) => ({ value: s, label: STATUS_LABEL[s] }))]}
+          value={outreachSelectValue(filters)}
+          onChange={(v) => update((f) => withOutreachStatus(f, v))}
+          options={[{ value: '', label: filters.contacted === 'contacted' ? 'Any contacted' : 'Any' }, ...STATUS_ORDER.map((s) => ({ value: s, label: STATUS_LABEL[s] }))]}
         />
         {(activeFilterCount(filters) > 0 || filters.query) && (
-          <button type="button" className="btn btn-ghost" onClick={() => setFilters(DEFAULT_CONTACT_FILTERS)}>
+          <button type="button" className="btn btn-ghost" onClick={() => update(() => DEFAULT_CONTACT_FILTERS)}>
             <Icon name="x" size={12} /> Clear
           </button>
         )}
-        <div className="toolbar-spacer" />
+      </div>
+
+      <div className="toolbar results-bar">
         <span className="result-count" data-testid="contacts-count">
           {sorted.length.toLocaleString('en-AU')} {sorted.length === 1 ? 'contact' : 'contacts'}
         </span>
+        <div className="toolbar-spacer" />
         <button type="button" className="btn" onClick={exportCsv} disabled={!sorted.length}>
           <Icon name="download" /> CSV
         </button>
@@ -265,6 +309,18 @@ export function Contacts() {
                       <span className={`badge badge-type-${r.account.type}`}>{SECTION_SHORT[r.account.type]}</span>
                     </td>
                     <td>{r.account.segment}</td>
+                    <td>
+                      {cityOf(r.account) ? (
+                        <div className="stack" data-testid="contact-city-cell" data-city={cityOf(r.account)}>
+                          <span className="clamp-1">{cityOf(r.account)}</span>
+                          {citySubtitle(r.account) && <span className="sub clamp-1">{citySubtitle(r.account)}</span>}
+                        </div>
+                      ) : (
+                        <span className="muted" data-testid="contact-city-cell" data-city="">
+                          —
+                        </span>
+                      )}
+                    </td>
                     <td>
                       <span className="email-cell">
                         <EmailLink email={c.email} />

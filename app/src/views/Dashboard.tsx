@@ -4,8 +4,10 @@ import { EventLine } from '../components/events';
 import { Icon, Segmented, EmptyState } from '../components/ui';
 import { DATE_RANGES, type DateRange } from '../lib/events';
 import { formatInt, formatRate, formatDateTime } from '../lib/format';
-import { computeDashboardStats, type BreakdownRow } from '../lib/stats';
+import { UNKNOWN } from '../lib/filters';
+import { computeDashboardStats, OTHER_CITIES, type BreakdownRow, type CityRow } from '../lib/stats';
 import { useAppData } from '../state/AppData';
+import { accountsByCityHref } from '../state/router';
 import { usePersistentState } from '../state/usePersistentState';
 
 function Kpi({
@@ -62,8 +64,11 @@ function BreakdownTable({ rows, first }: { rows: BreakdownRow[]; first: string }
           <tr>
             <th scope="col">{first}</th>
             <th scope="col" className="num">Accounts</th>
+            <th scope="col" className="num" title="Accounts with no outreach event at all, over all time (same as the Accounts view)">
+              Not contacted
+            </th>
             <th scope="col" className="num">Contacts</th>
-            <th scope="col" className="num">Touched</th>
+            <th scope="col" className="num" title="Accounts with at least one event in the selected range">Touched</th>
             <th scope="col" className="num">Sent</th>
             <th scope="col" className="num">Replies</th>
             <th scope="col" className="num">Meetings</th>
@@ -75,6 +80,7 @@ function BreakdownTable({ rows, first }: { rows: BreakdownRow[]; first: string }
             <tr key={r.key}>
               <th scope="row">{r.label}</th>
               <td className="num">{formatInt(r.accounts)}</td>
+              <td className="num" data-testid="not-contacted-cell">{formatInt(r.accountsNotContacted)}</td>
               <td className="num">{formatInt(r.contacts)}</td>
               <td className="num">
                 {formatInt(r.accountsTouched)}
@@ -86,6 +92,103 @@ function BreakdownTable({ rows, first }: { rows: BreakdownRow[]; first: string }
               <td className="num">{formatRate(r.replyRate)}</td>
             </tr>
           ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function PctBar({ value, total }: { value: number; total: number }) {
+  const rate = total > 0 ? value / total : null;
+  return (
+    <span className="pct">
+      <span className="pct-bar" aria-hidden="true">
+        <i style={{ width: `${Math.min(100, (rate ?? 0) * 100)}%` }} />
+      </span>
+      <span className="pct-val">{formatRate(rate)}</span>
+    </span>
+  );
+}
+
+function CityTable({ rows, total, range }: { rows: CityRow[]; total: CityRow; range: DateRange }) {
+  if (!rows.length) return <EmptyState title="No accounts" />;
+  const rangeLabel = DATE_RANGES.find((r) => r.id === range)?.label ?? range;
+  const go = (r: CityRow) => {
+    window.location.hash = accountsByCityHref(r.key);
+  };
+  const cells = (r: CityRow) => (
+    <>
+      <td className="num" data-testid="by-city-accounts">{formatInt(r.accounts)}</td>
+      <td className="num">{formatInt(r.accountsContacted)}</td>
+      <td className="num" data-testid="by-city-not-contacted">{formatInt(r.accountsNotContacted)}</td>
+      <td className="num">
+        <PctBar value={r.accountsContacted} total={r.accounts} />
+      </td>
+      <td className="num col-sep">{formatInt(r.contacts)}</td>
+      <td className="num col-sep">{formatInt(r.sent)}</td>
+      <td className="num">{formatInt(r.replies)}</td>
+      <td className="num">{formatInt(r.meetings)}</td>
+    </>
+  );
+  return (
+    <div className="mini-table-wrap">
+      <table className="mini-table city-table" data-testid="by-city-table">
+        <thead>
+          <tr className="group-head">
+            <td />
+            <th scope="colgroup" colSpan={4}>
+              <span>Accounts · all time</span>
+            </th>
+            <td className="col-sep" />
+            <th scope="colgroup" colSpan={3} className="col-sep">
+              <span>Activity · {range === 'all' ? 'all time' : `last ${rangeLabel}`}</span>
+            </th>
+          </tr>
+          <tr>
+            <th scope="col">City</th>
+            <th scope="col" className="num">Accounts</th>
+            <th scope="col" className="num" title="Accounts with at least one outreach event (sent, connection, seen, replied or meeting), ever">
+              Contacted
+            </th>
+            <th scope="col" className="num" title="Accounts with no outreach event at all, ever — same as the Accounts view">
+              Not contacted
+            </th>
+            <th scope="col" className="num">% contacted</th>
+            <th scope="col" className="num col-sep">Contacts</th>
+            <th scope="col" className="num col-sep">Sent</th>
+            <th scope="col" className="num">Replies</th>
+            <th scope="col" className="num">Meetings</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => {
+            const linkable = r.key !== OTHER_CITIES;
+            const name = r.key === UNKNOWN ? <span className="muted">Unknown</span> : r.label;
+            return (
+              <tr
+                key={r.key}
+                className={linkable ? 'clickable' : undefined}
+                onClick={linkable ? (e) => !(e.target as HTMLElement).closest('a') && go(r) : undefined}
+                data-testid="by-city-row"
+                data-city={r.key}
+              >
+                <th scope="row">
+                  {linkable ? (
+                    <a href={accountsByCityHref(r.key)} title={`Show accounts in ${r.key === UNKNOWN ? 'an unknown city' : r.label}`}>
+                      {name}
+                    </a>
+                  ) : (
+                    <span title={r.cities.join(', ')}>{name}</span>
+                  )}
+                </th>
+                {cells(r)}
+              </tr>
+            );
+          })}
+          <tr className="total" data-testid="by-city-total">
+            <th scope="row">Total</th>
+            {cells(total)}
+          </tr>
         </tbody>
       </table>
     </div>
@@ -307,7 +410,7 @@ export function Dashboard() {
         </Card>
       </div>
 
-      <div className="grid-2">
+      <div className="grid-2 breakdowns">
         <Card title="By section">
           <BreakdownTable rows={s.byType} first="Section" />
         </Card>
@@ -315,6 +418,28 @@ export function Dashboard() {
           <BreakdownTable rows={s.bySegment} first="Segment" />
         </Card>
       </div>
+      <p className="card-foot muted small foot-wide">
+        <b>Not contacted</b> = accounts with no outreach event of any kind, ever (imported or logged here) — it ignores the date range so it
+        always matches the Accounts view. <b>Touched</b>, Sent, Replies and Meetings count events in the selected range.
+      </p>
+
+      <Card
+        title="By city"
+        testId="by-city"
+        actions={
+          <span className="muted small">
+            {formatInt(s.accountsNotContacted)} of {formatInt(s.totalAccounts)} accounts not contacted yet
+          </span>
+        }
+      >
+        <CityTable rows={s.byCity} total={s.byCityTotal} range={range} />
+        <p className="card-foot muted small">
+          Contacted / Not contacted are <b>all time</b> (any event ever, incl. ones logged here), so they match the Accounts view whatever the
+          range. Sent, Replies and Meetings respect the range; each event counts once, under the city of the account it was logged against
+          (events matching no account are left out), so rows add up to the Total. “Other” sums the smaller cities — hover it to see which. A
+          contact’s city is its account’s. Click a city to open its accounts.
+        </p>
+      </Card>
 
       <Card title="Recent activity" testId="recent-activity" actions={<span className="muted small">latest {Math.min(25, s.recent.length)}</span>}>
         {s.recent.length ? (

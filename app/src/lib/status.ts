@@ -17,6 +17,11 @@ export function statusRank(s: OutreachStatus): number {
   return STATUS_ORDER.indexOf(s);
 }
 
+/** "Contacted" in the broad sense: any matched event (sent, connection, seen, replied, meeting). */
+export function isContacted(s: OutreachStatus): boolean {
+  return s !== 'not_contacted';
+}
+
 /** The status a single event implies on its own. */
 export function eventStatus(e: OutreachEvent): OutreachStatus {
   if (e.kind === 'meeting') return 'meeting';

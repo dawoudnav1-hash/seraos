@@ -64,6 +64,8 @@ const ACCOUNT_STRING_FIELDS = [
   'attioId',
 ] as const;
 
+const LOCATION_FIELDS = ['city', 'suburb', 'state', 'cityBasis'] as const;
+
 const CONTACT_STRING_FIELDS = [
   'title',
   'roleType',
@@ -135,6 +137,11 @@ export function normalizeAccounts(raw: unknown): { accounts: Account[]; warnings
     for (const f of ACCOUNT_STRING_FIELDS) {
       const v = str(r[f]);
       if (v !== undefined) a[f] = v;
+    }
+    // Location fields are used as filter / group keys, so they are stored trimmed (state upper-cased).
+    for (const f of LOCATION_FIELDS) {
+      const v = str(r[f])?.trim();
+      if (v) a[f] = f === 'state' ? v.toUpperCase() : v;
     }
     const fh = num(r.financeHeadcount);
     if (fh !== undefined) a.financeHeadcount = fh;

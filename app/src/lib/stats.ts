@@ -10,7 +10,8 @@ import {
   isSentEvent,
   rangeStart,
 } from './events';
-import { type EventIndex, buildEventIndex, normEmail, statusRank } from './status';
+import { UNKNOWN, cityOf } from './filters';
+import { type EventIndex, accountActivity, buildEventIndex, isContacted, normEmail, statusRank } from './status';
 
 /** a / b, or null when the denominator is 0 (rendered as "—"). */
 export function safeRate(numerator: number, denominator: number): number | null {
@@ -102,8 +103,31 @@ export interface BreakdownRow extends Tally {
   label: string;
   accounts: number;
   contacts: number;
+  /** accounts with at least one event in the selected range */
   accountsTouched: number;
+  /** accounts whose derived status is not "Not contacted", over ALL time (ignores the range) */
+  accountsContacted: number;
+  /** accounts - accountsContacted (all time) — the same number the Accounts view shows */
+  accountsNotContacted: number;
 }
+
+/** A row of the dashboard "By city" table. */
+export interface CityRow extends Tally {
+  /** a city name, OTHER_CITIES, UNKNOWN, or TOTAL */
+  key: string;
+  label: string;
+  /** the cities this row aggregates (one for a city row, many for "Other") */
+  cities: string[];
+  accounts: number;
+  contacts: number;
+  /** all time, like BreakdownRow.accountsContacted */
+  accountsContacted: number;
+  accountsNotContacted: number;
+}
+
+export const OTHER_CITIES = '__other__';
+export const TOTAL_KEY = '__total__';
+export const BY_CITY_TOP = 12;
 
 export interface WeekBucket {
   /** epoch ms of Monday 00:00 UTC */
@@ -148,6 +172,13 @@ export interface DashboardStats extends Tally {
   channels: ChannelRow[];
   byType: BreakdownRow[];
   bySegment: BreakdownRow[];
+  /** top cities by account count, then "Other", then "Unknown" */
+  byCity: CityRow[];
+  /** totals for the By-city table (computed independently; equals the sum of byCity) */
+  byCityTotal: CityRow;
+  /** accounts contacted / not contacted over ALL time (ignores the range) */
+  accountsContacted: number;
+  accountsNotContacted: number;
   funnel: FunnelStage[];
   weekly: WeekBucket[];
   recent: OutreachEvent[];
@@ -274,6 +305,7 @@ function breakdown(
   accounts: readonly Account[],
   events: readonly OutreachEvent[],
   index: EventIndex,
+  allTime: EventIndex,
   keyOf: (a: Account) => string,
   labelOf: (k: string) => string,
   order: (a: string, b: string) => number,
@@ -291,13 +323,117 @@ function breakdown(
     const evs = events.filter((e) => (index.eventAccounts.get(e.id) ?? []).some((id) => g.accountIds.has(id)));
     let touched = 0;
     let contacts = 0;
+    let contacted = 0;
     for (const a of g.accounts) {
       contacts += a.contacts.length;
       if (index.byAccount.has(a.id)) touched++;
+      if (isContacted(accountActivity(allTime, a.id).status)) contacted++;
     }
-    rows.push({ key: k, label: labelOf(k), accounts: g.accounts.length, contacts, accountsTouched: touched, ...tally(evs, index) });
+    rows.push({
+      key: k,
+      label: labelOf(k),
+      accounts: g.accounts.length,
+      contacts,
+      accountsTouched: touched,
+      accountsContacted: contacted,
+      accountsNotContacted: g.accounts.length - contacted,
+      ...tally(evs, index),
+    });
   }
   return rows.sort((a, b) => order(a.key, b.key));
+}
+
+/**
+ * The account an event is attributed to for the By-city table: its own `accountId` when that matched, else the
+ * first account it matched. Each event therefore lands in exactly one row, so the rows add up to the total
+ * (an event whose email matches contacts at two accounts would otherwise count twice).
+ */
+export function primaryAccountId(e: OutreachEvent, index: EventIndex): string | undefined {
+  const ids = index.eventAccounts.get(e.id) ?? [];
+  return e.accountId && ids.includes(e.accountId) ? e.accountId : ids[0];
+}
+
+/**
+ * Dashboard "By city": the `top` cities by account count (ties by name), then "Other" aggregating the remaining
+ * known cities, then "Unknown" (no city). Accounts / Contacts / Contacted / Not contacted are all time; Sent,
+ * Replies and Meetings count events in range (`events` + `index` are the in-range ones), each event attributed
+ * once via `primaryAccountId`. Unmatched events belong to no city and are excluded from every row and the total.
+ */
+export function computeByCity(
+  accounts: readonly Account[],
+  events: readonly OutreachEvent[],
+  index: EventIndex,
+  allTime: EventIndex,
+  top = BY_CITY_TOP,
+): { rows: CityRow[]; total: CityRow } {
+  interface Acc {
+    cities: Set<string>;
+    accounts: number;
+    contacts: number;
+    contacted: number;
+    events: OutreachEvent[];
+  }
+  const blank = (): Acc => ({ cities: new Set(), accounts: 0, contacts: 0, contacted: 0, events: [] });
+  const byCity = new Map<string, Acc>();
+  const keyOfAccount = new Map<string, string>();
+  for (const a of accounts) {
+    const k = cityOf(a) || UNKNOWN;
+    keyOfAccount.set(a.id, k);
+    let g = byCity.get(k);
+    if (!g) byCity.set(k, (g = blank()));
+    if (k !== UNKNOWN) g.cities.add(k);
+    g.accounts++;
+    g.contacts += a.contacts.length;
+    if (isContacted(accountActivity(allTime, a.id).status)) g.contacted++;
+  }
+  const matched: OutreachEvent[] = [];
+  for (const e of events) {
+    const aid = primaryAccountId(e, index);
+    const k = aid ? keyOfAccount.get(aid) : undefined;
+    if (k === undefined) continue;
+    byCity.get(k)!.events.push(e);
+    matched.push(e);
+  }
+
+  const known = [...byCity.entries()]
+    .filter(([k]) => k !== UNKNOWN)
+    .sort((x, y) => y[1].accounts - x[1].accounts || x[0].localeCompare(y[0]));
+  const groups: [string, string, Acc][] = known.slice(0, top).map(([k, g]) => [k, k, g]);
+  const rest = known.slice(top);
+  if (rest.length) {
+    const other = blank();
+    for (const [k, g] of rest) {
+      other.cities.add(k);
+      other.accounts += g.accounts;
+      other.contacts += g.contacts;
+      other.contacted += g.contacted;
+      other.events.push(...g.events);
+    }
+    groups.push([OTHER_CITIES, `Other (${rest.length} ${rest.length === 1 ? 'city' : 'cities'})`, other]);
+  }
+  const unknown = byCity.get(UNKNOWN);
+  if (unknown) groups.push([UNKNOWN, 'Unknown', unknown]);
+
+  const toRow = (key: string, label: string, g: Pick<Acc, 'accounts' | 'contacts' | 'contacted' | 'events'> & { cities: Iterable<string> }): CityRow => ({
+    key,
+    label,
+    cities: [...g.cities].sort(),
+    accounts: g.accounts,
+    contacts: g.contacts,
+    accountsContacted: g.contacted,
+    accountsNotContacted: g.accounts - g.contacted,
+    ...tally(g.events, index),
+  });
+  const rows = groups.map(([k, label, g]) => toRow(k, label, g));
+
+  let contacts = 0,
+    contacted = 0;
+  for (const a of accounts) {
+    contacts += a.contacts.length;
+    if (isContacted(accountActivity(allTime, a.id).status)) contacted++;
+  }
+  const total = toRow(TOTAL_KEY, 'Total', { cities: known.map(([k]) => k), accounts: accounts.length, contacts, contacted, events: matched });
+  return { rows, total };
 }
 
 export interface StatsInput {
@@ -312,6 +448,8 @@ export interface StatsInput {
 export function computeDashboardStats({ accounts, events, range, now, recentLimit = 25 }: StatsInput): DashboardStats {
   const inRange = filterByRange(events, range, now);
   const index = buildEventIndex(accounts, inRange);
+  // "Contacted / Not contacted" ignore the range (they must match the Accounts view), so they need an all-time index.
+  const allTime = range === 'all' ? index : buildEventIndex(accounts, events);
   const t = tally(inRange, index);
 
   let sentEmail = 0,
@@ -355,6 +493,7 @@ export function computeDashboardStats({ accounts, events, range, now, recentLimi
     accounts,
     inRange,
     index,
+    allTime,
     typeKey,
     (k) => TYPE_LABEL[k as AccountType] ?? 'Other',
     (a, b) => {
@@ -363,7 +502,8 @@ export function computeDashboardStats({ accounts, events, range, now, recentLimi
       return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
     },
   );
-  const bySegment = breakdown(accounts, inRange, index, segmentOf, (k) => k, compareSegments);
+  const bySegment = breakdown(accounts, inRange, index, allTime, segmentOf, (k) => k, compareSegments);
+  const byCity = computeByCity(accounts, inRange, index, allTime);
 
   return {
     ...t,
@@ -381,6 +521,10 @@ export function computeDashboardStats({ accounts, events, range, now, recentLimi
     channels,
     byType,
     bySegment,
+    byCity: byCity.rows,
+    byCityTotal: byCity.total,
+    accountsContacted: byCity.total.accountsContacted,
+    accountsNotContacted: byCity.total.accountsNotContacted,
     funnel,
     weekly: weeklySeries(inRange, range, now),
     recent: inRange.slice().sort(compareEventsDesc).slice(0, recentLimit),

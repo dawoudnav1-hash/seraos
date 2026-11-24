@@ -9,6 +9,8 @@ export interface Route {
   accountId?: string;
   /** ?contact=<contactId> highlight inside the account */
   contactId?: string;
+  /** #/accounts?city=<city> — show All accounts filtered to that city (UNKNOWN = no city) */
+  city?: string;
   /** increments on every hash change so repeated navigation to the same link is handled */
   nonce: number;
 }
@@ -31,11 +33,17 @@ export function parseHash(hash: string): Route {
   const params = new URLSearchParams(query);
   const c = params.get('contact');
   if (c) route.contactId = c;
+  const city = params.get('city');
+  if (city && view === 'accounts') route.city = city;
   return route;
 }
 
 export function accountHref(accountId: string, contactId?: string): string {
   return `#/accounts/${encodeURIComponent(accountId)}${contactId ? `?contact=${encodeURIComponent(contactId)}` : ''}`;
+}
+
+export function accountsByCityHref(city: string): string {
+  return `#/accounts?city=${encodeURIComponent(city)}`;
 }
 
 /** Updates the address bar without triggering navigation (keeps refresh-to-same-view working). */

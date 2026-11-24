@@ -1,5 +1,5 @@
 import { memo, useCallback, useDeferredValue, useEffect, useMemo, useRef, useState, type MouseEvent } from 'react';
-import { EmptyState, Icon, Logo, Popover, SearchBox, Segmented, Select } from '../components/ui';
+import { Badge, ContactedToggle, EmptyState, Icon, Logo, Popover, SearchBox, Segmented, Select } from '../components/ui';
 import { copyText, dateStamp, downloadText, toCsv } from '../lib/csv';
 import {
   type AccountFilters,
@@ -7,18 +7,33 @@ import {
   type Section,
   type SortDir,
   type TriState,
+  CONTACTED_FILTERS,
   DEFAULT_ACCOUNT_FILTERS,
+  UNKNOWN,
   activeFilterCount,
   buildAccountRows,
+  cityOptions,
   compareSortValues,
+  contactedCounts,
   filterAccountRows,
   inSection,
+  locationSelectOptions,
+  matchesOutreach,
+  normalizeOutreach,
+  outreachSelectValue,
   SECTIONS,
   sectionCounts,
+  stateOptions,
+  withContacted,
+  withOutreachStatus,
+  withoutOutreach,
+  withState,
+  type ContactedFilter,
 } from '../lib/filters';
 import { safeUrl, displayUrl } from '../lib/links';
 import { compareSegments, segmentOf, TYPE_LABEL } from '../lib/stats';
 import { STATUS_LABEL, STATUS_ORDER, type OutreachStatus } from '../lib/status';
+import { readJSON } from '../lib/storage';
 import { useAppData } from '../state/AppData';
 import { replaceHash, accountHref, type Route } from '../state/router';
 import { usePersistentState } from '../state/usePersistentState';
@@ -45,27 +60,53 @@ function validateFilters(v: unknown): AccountFilters | undefined {
   if (!v || typeof v !== 'object') return undefined;
   const r = v as Partial<AccountFilters>;
   const tri = (x: unknown): TriState => (x === 'yes' || x === 'no' ? x : 'any');
-  return {
-    query: typeof r.query === 'string' ? r.query : '',
-    segment: typeof r.segment === 'string' ? r.segment : '',
+  const s = (x: unknown) => (typeof x === 'string' ? x : '');
+  return normalizeOutreach<AccountFilters>({
+    query: s(r.query),
+    contacted: CONTACTED_FILTERS.includes(r.contacted as ContactedFilter) ? (r.contacted as ContactedFilter) : 'all',
+    city: s(r.city),
+    state: s(r.state),
+    segment: s(r.segment),
     minSignal: typeof r.minSignal === 'number' && r.minSignal >= 0 && r.minSignal <= 5 ? r.minSignal : 0,
     hasEmail: tri(r.hasEmail),
     status: STATUS_ORDER.includes(r.status as OutreachStatus) ? (r.status as OutreachStatus) : '',
     inAttio: tri(r.inAttio),
-    source: typeof r.source === 'string' ? r.source : '',
-  };
+    source: s(r.source),
+  });
 }
+
+/** Per-column visibility overrides; columns not listed use their `defaultVisible`. */
+type ColumnPrefs = Partial<Record<AccountColumnId, boolean>>;
+const COLUMN_PREFS_KEY = 'seraos.accounts.columns.v2';
+
+function validateColumnPrefs(v: unknown): ColumnPrefs | undefined {
+  if (!v || typeof v !== 'object' || Array.isArray(v)) return undefined;
+  const out: ColumnPrefs = {};
+  for (const [k, x] of Object.entries(v)) if (COLUMN_IDS.includes(k as AccountColumnId) && typeof x === 'boolean') out[k as AccountColumnId] = x;
+  return out;
+}
+
+/** Carries over columns hidden with the old (v1) hidden-list preference. */
+function legacyColumnPrefs(): ColumnPrefs {
+  const old = readJSON<unknown>('seraos.accounts.hiddenColumns.v1', undefined);
+  return isStrArr(old) ? (validateColumnPrefs(Object.fromEntries(old.map((id) => [id, false]))) ?? {}) : {};
+}
+
+const isColumnVisible = (c: AccountColumn, prefs: ColumnPrefs) => !!c.alwaysVisible || (prefs[c.id] ?? c.defaultVisible);
 
 const AccountRowView = memo(function AccountRowView({
   row,
   cols,
   open,
   onToggle,
+  moved,
 }: {
   row: AccountRow;
   cols: readonly AccountColumn[];
   open: boolean;
   onToggle: (id: string) => void;
+  /** kept on screen while open although it no longer matches the outreach filter */
+  moved?: boolean;
 }) {
   const a = row.account;
   const detailId = `detail-${a.id}`;
@@ -78,7 +119,7 @@ const AccountRowView = memo(function AccountRowView({
   };
   return (
     <tr
-      className={'account-row' + (open ? ' open' : '')}
+      className={'account-row' + (open ? ' open' : '') + (moved ? ' moved' : '')}
       onClick={onClick}
       data-testid="account-row"
       data-account-id={a.id}
@@ -102,6 +143,11 @@ const AccountRowView = memo(function AccountRowView({
                 <Logo url={a.logoUrl} name={a.name} size={22} />
                 <span className="company-name">{a.name}</span>
               </button>
+              {moved && (
+                <Badge tone="moved" title="No longer matches the Outreach filter — it leaves the list when you collapse it.">
+                  Now {STATUS_LABEL[row.activity.status].toLowerCase()}
+                </Badge>
+              )}
               {site && (
                 <a className="company-domain" href={site} target="_blank" rel="noopener noreferrer" title={site}>
                   {a.domain ?? displayUrl(site)}
@@ -129,7 +175,7 @@ export function Accounts({ route }: { route: Route }) {
     const r = v as Partial<SortState> | null;
     return r && COLUMN_IDS.includes(r.col as AccountColumnId) && (r.dir === 'asc' || r.dir === 'desc') ? (r as SortState) : undefined;
   });
-  const [hidden, setHidden] = usePersistentState<string[]>('seraos.accounts.hiddenColumns.v1', [], (v) => (isStrArr(v) ? v : undefined));
+  const [colPrefs, setColPrefs] = usePersistentState<ColumnPrefs>(COLUMN_PREFS_KEY, legacyColumnPrefs(), validateColumnPrefs);
   const [collapsed, setCollapsed] = usePersistentState<string[]>('seraos.accounts.collapsedGroups.v1', [], (v) => (isStrArr(v) ? v : undefined));
   const [open, setOpen] = useState<ReadonlySet<string>>(() => new Set());
   const openRef = useRef(open);
@@ -139,18 +185,33 @@ export function Accounts({ route }: { route: Route }) {
 
   const deferredFilters = useDeferredValue(filters);
   const rows = useMemo(() => buildAccountRows(accounts, index), [accounts, index]);
-  const filtered = useMemo(() => filterAccountRows(rows, deferredFilters), [rows, deferredFilters]);
+  // Every filter except Contacted / Outreach status: the base for the toggle counts.
+  const baseFiltered = useMemo(() => filterAccountRows(rows, withoutOutreach(deferredFilters)), [rows, deferredFilters]);
+  const filtered = useMemo(() => baseFiltered.filter((r) => matchesOutreach(r.activity.status, deferredFilters)), [baseFiltered, deferredFilters]);
   const counts = useMemo(() => sectionCounts(filtered), [filtered]);
-  const cols = useMemo(() => ACCOUNT_COLUMNS.filter((c) => c.alwaysVisible || !hidden.includes(c.id)), [hidden]);
+  const outreachCounts = useMemo(() => contactedCounts(baseFiltered.filter((r) => inSection(r, section))), [baseFiltered, section]);
+  const cols = useMemo(() => ACCOUNT_COLUMNS.filter((c) => isColumnVisible(c, colPrefs)), [colPrefs]);
+
+  // An open account whose status changes (e.g. you log "Email sent" while viewing "Not contacted") stays on
+  // screen, marked "Now contacted", until it is collapsed or the filters change — so you can keep working on it.
+  const [kept, setKept] = useState<ReadonlySet<string>>(() => new Set());
+  const matchingIds = useMemo(() => new Set(filtered.filter((r) => inSection(r, section)).map((r) => r.account.id)), [filtered, section]);
+  const matchingRef = useRef(matchingIds);
+  matchingRef.current = matchingIds;
+  const filterKey = JSON.stringify(deferredFilters) + '|' + section;
+  useEffect(() => {
+    setKept(new Set([...openRef.current].filter((id) => matchingRef.current.has(id))));
+  }, [filterKey]);
 
   const sorted = useMemo(() => {
     const col = ACCOUNT_COLUMNS.find((c) => c.id === sort.col) ?? ACCOUNT_COLUMNS[0]!;
-    return filtered
-      .filter((r) => inSection(r, section))
+    return baseFiltered
+      .filter((r) => inSection(r, section) && (matchingIds.has(r.account.id) || (kept.has(r.account.id) && open.has(r.account.id))))
       .map((r) => ({ r, v: col.sort(r) }))
       .sort((x, y) => compareSortValues(x.v, y.v, sort.dir) || x.r.account.name.localeCompare(y.r.account.name))
       .map((x) => x.r);
-  }, [filtered, section, sort]);
+  }, [baseFiltered, section, sort, matchingIds, kept, open]);
+  const nMatching = sorted.length - sorted.filter((r) => !matchingIds.has(r.account.id)).length;
 
   const groups = useMemo(() => {
     const m = new Map<string, AccountRow[]>();
@@ -164,6 +225,11 @@ export function Accounts({ route }: { route: Route }) {
   }, [sorted]);
 
   const segments = useMemo(() => [...new Set(accounts.map(segmentOf))].sort(compareSegments), [accounts]);
+  const cityOpts = useMemo(
+    () => locationSelectOptions(cityOptions(accounts, undefined, filters.state), filters.city, 'All', 'Unknown'),
+    [accounts, filters.state, filters.city],
+  );
+  const stateOpts = useMemo(() => locationSelectOptions(stateOptions(accounts), filters.state, 'All', 'No state'), [accounts, filters.state]);
   const sources = useMemo(() => [...new Set(accounts.flatMap((a) => a.sources))].sort(), [accounts]);
 
   // Keep the detail panel as wide as the visible table area (not the full scroll width).
@@ -184,6 +250,12 @@ export function Accounts({ route }: { route: Route }) {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id);
       else next.add(id);
+      return next;
+    });
+    setKept((prev) => {
+      const next = new Set(prev);
+      if (willOpen) next.add(id);
+      else next.delete(id);
       return next;
     });
     if (willOpen) replaceHash(accountHref(id));
@@ -209,10 +281,23 @@ export function Accounts({ route }: { route: Route }) {
     const seg = segmentOf(row.account);
     setCollapsed((c) => (c.includes(seg) ? c.filter((x) => x !== seg) : c));
     setOpen((prev) => (prev.has(id) ? prev : new Set(prev).add(id)));
+    setKept((prev) => (prev.has(id) ? prev : new Set(prev).add(id)));
     setNotice(msgs.length ? msgs.join(' ') : null);
     setScrollTarget(id);
     // Intentionally keyed on the route only: re-running when filters change would undo the user's edits.
   }, [route.nonce, route.accountId, rows.length]);
+
+  // #/accounts?city=<city> (from the dashboard By-city table): All accounts in that city, nothing else filtered.
+  useEffect(() => {
+    const city = route.city;
+    if (!city) return;
+    const hadFilters = activeFilterCount(filters) > 0 || !!filters.query;
+    setSection('all');
+    setFilters({ ...DEFAULT_ACCOUNT_FILTERS, city });
+    setNotice(hadFilters ? `Showing all accounts in ${city === UNKNOWN ? 'an unknown city' : city}; other filters were cleared.` : null);
+    replaceHash('#/accounts');
+    // Keyed on the route only, like the deep link above.
+  }, [route.nonce, route.city]);
 
   useEffect(() => {
     if (!scrollTarget) return;
@@ -235,6 +320,7 @@ export function Accounts({ route }: { route: Route }) {
   });
 
   const setFilter = <K extends keyof AccountFilters>(k: K, v: AccountFilters[K]) => setFilters((f) => ({ ...f, [k]: v }));
+  const setContacted = (v: ContactedFilter) => setFilters((f) => withContacted(f, v));
   const toggleGroup = (seg: string) => setCollapsed((c) => (c.includes(seg) ? c.filter((x) => x !== seg) : [...c, seg]));
   const onSort = (c: AccountColumn) =>
     setSort((s) => (s.col === c.id ? { col: c.id, dir: s.dir === 'asc' ? 'desc' : 'asc' } : { col: c.id, dir: c.defaultDir }));
@@ -268,12 +354,15 @@ export function Accounts({ route }: { route: Route }) {
       />
 
       <div className="toolbar">
+        <ContactedToggle value={filters.contacted} counts={outreachCounts} onChange={setContacted} noun="accounts" testIdPrefix="contacted" />
         <SearchBox
           value={filters.query}
           onChange={(v) => setFilter('query', v)}
-          placeholder="Search companies, contacts, signals…"
+          placeholder="Search companies, contacts, cities…"
           testId="accounts-search"
         />
+        <Select label="City" value={filters.city} onChange={(v) => setFilter('city', v)} options={cityOpts} testId="filter-city" />
+        <Select label="State" value={filters.state} onChange={(v) => setFilters((f) => withState(f, v, accounts))} options={stateOpts} testId="filter-state" />
         <Select
           label="Segment"
           value={filters.segment}
@@ -300,9 +389,9 @@ export function Accounts({ route }: { route: Route }) {
         />
         <Select
           label="Outreach"
-          value={filters.status}
-          onChange={(v) => setFilter('status', v)}
-          options={[{ value: '', label: 'Any' }, ...STATUS_ORDER.map((s) => ({ value: s, label: STATUS_LABEL[s] }))]}
+          value={outreachSelectValue(filters)}
+          onChange={(v) => setFilters((f) => withOutreachStatus(f, v))}
+          options={[{ value: '', label: filters.contacted === 'contacted' ? 'Any contacted' : 'Any' }, ...STATUS_ORDER.map((s) => ({ value: s, label: STATUS_LABEL[s] }))]}
           testId="filter-status"
         />
         <Select
@@ -326,10 +415,14 @@ export function Accounts({ route }: { route: Route }) {
             <Icon name="x" size={12} /> Clear
           </button>
         )}
-        <div className="toolbar-spacer" />
+      </div>
+
+      <div className="toolbar results-bar">
         <span className="result-count" data-testid="result-count" aria-live="polite">
-          {sorted.length.toLocaleString('en-AU')} {sorted.length === 1 ? 'account' : 'accounts'}
+          {nMatching.toLocaleString('en-AU')} {nMatching === 1 ? 'account' : 'accounts'}
+          {sorted.length > nMatching && <span className="muted"> + {sorted.length - nMatching} kept open</span>}
         </span>
+        <div className="toolbar-spacer" />
         <button type="button" className="btn" onClick={() => setCollapsed([])} data-testid="expand-groups" disabled={!collapsed.length}>
           Expand groups
         </button>
@@ -342,15 +435,21 @@ export function Accounts({ route }: { route: Route }) {
               <label key={c.id} className="check">
                 <input
                   type="checkbox"
-                  checked={!hidden.includes(c.id)}
-                  onChange={(e) => setHidden((h) => (e.target.checked ? h.filter((x) => x !== c.id) : [...h, c.id]))}
+                  checked={isColumnVisible(c, colPrefs)}
+                  onChange={(e) => setColPrefs((p) => ({ ...p, [c.id]: e.target.checked }))}
+                  data-testid={`column-toggle-${c.id}`}
                 />
                 {c.label}
               </label>
             ))}
-            <button type="button" className="btn btn-sm" onClick={() => setHidden([])}>
-              Show all
-            </button>
+            <div className="col-picker-actions">
+              <button type="button" className="btn btn-sm" onClick={() => setColPrefs(Object.fromEntries(COLUMN_IDS.map((id) => [id, true])))}>
+                Show all
+              </button>
+              <button type="button" className="btn btn-sm btn-ghost" onClick={() => setColPrefs({})}>
+                Defaults
+              </button>
+            </div>
           </div>
         </Popover>
         <button type="button" className="btn" onClick={exportCsv} data-testid="export-csv" disabled={!sorted.length}>
@@ -427,7 +526,14 @@ export function Accounts({ route }: { route: Route }) {
                     list.map((r) => {
                       const isOpen = open.has(r.account.id);
                       return isOpen ? (
-                        <AccountWithDetail key={r.account.id} row={r} cols={cols} onToggle={onToggle} highlightContactId={route.accountId === r.account.id ? highlightContact : undefined} />
+                        <AccountWithDetail
+                          key={r.account.id}
+                          row={r}
+                          cols={cols}
+                          onToggle={onToggle}
+                          moved={!matchingIds.has(r.account.id)}
+                          highlightContactId={route.accountId === r.account.id ? highlightContact : undefined}
+                        />
                       ) : (
                         <AccountRowView key={r.account.id} row={r} cols={cols} open={false} onToggle={onToggle} />
                       );
@@ -446,16 +552,18 @@ function AccountWithDetail({
   row,
   cols,
   onToggle,
+  moved,
   highlightContactId,
 }: {
   row: AccountRow;
   cols: readonly AccountColumn[];
   onToggle: (id: string) => void;
+  moved: boolean;
   highlightContactId?: string;
 }) {
   return (
     <>
-      <AccountRowView row={row} cols={cols} open onToggle={onToggle} />
+      <AccountRowView row={row} cols={cols} open onToggle={onToggle} moved={moved} />
       <tr className="detail-row" id={`detail-${row.account.id}`}>
         <td colSpan={cols.length}>
           <div className="detail-sticky">

@@ -38,6 +38,11 @@ export interface Account {
   sector?: string;            // short sub-industry text
   description?: string;
   location?: string;          // 'Sydney, NSW, AU' etc.
+  city?: string;              // normalised metro / regional centre: 'Melbourne', 'Sydney', 'Gold Coast', 'Byron Bay', ...
+                              // (absent = unknown). Contacts have no city of their own: a contact's city is its account's.
+  suburb?: string;            // e.g. 'Richmond', 'Burleigh Heads' (absent when the location is the city itself)
+  state?: string;             // 'VIC' | 'NSW' | 'QLD' | 'WA' | 'SA' | 'TAS' | 'ACT' | 'NT' (absent outside Australia, e.g. 'Tauranga')
+  cityBasis?: string;         // 'Company location' | 'Contact location (company location not recorded)' | e.g. 'Web research (Exa)'
   employees?: string;         // headcount as text
   employeeRange?: string;
   financeHeadcount?: number | null;

@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 import { ExtLink, LinkedInLink, ScorePill, SourceBadges, StatusPill } from '../components/ui';
 import type { CsvValue } from '../lib/csv';
 import { DASH, formatDate, localISODate } from '../lib/format';
-import { type AccountRow, type SortDir, type SortValue, leadingNumber, moneyValue } from '../lib/filters';
+import { type AccountRow, type SortDir, type SortValue, cityOf, citySortKey, citySubtitle, leadingNumber, moneyValue } from '../lib/filters';
 import { safeUrl } from '../lib/links';
 import { STATUS_LABEL, statusRank } from '../lib/status';
 import { TYPE_LABEL } from '../lib/stats';
@@ -10,6 +10,7 @@ import { TYPE_LABEL } from '../lib/stats';
 export type AccountColumnId =
   | 'company'
   | 'segment'
+  | 'city'
   | 'description'
   | 'website'
   | 'linkedin'
@@ -61,6 +62,31 @@ export function summaryOf(r: AccountRow): string | undefined {
   return a.signalSummary ?? firstLine(a.signal) ?? firstLine(a.keySignals) ?? firstLine(a.serviceSignal);
 }
 
+/** Tooltip for a city cell: the raw location text, plus the basis when it isn't the company's own location. */
+export function cityTitle(r: AccountRow): string | undefined {
+  const a = r.account;
+  const parts = [a.location, a.cityBasis && a.cityBasis !== 'Company location' ? `City basis: ${a.cityBasis}` : undefined].filter(Boolean);
+  return parts.length ? parts.join('\n') : undefined;
+}
+
+function CityCell({ row }: { row: AccountRow }) {
+  const city = cityOf(row.account);
+  if (!city) {
+    return (
+      <span className="muted" data-testid="city-cell" data-city="" title={cityTitle(row) ?? 'City unknown'}>
+        {DASH}
+      </span>
+    );
+  }
+  const sub = citySubtitle(row.account);
+  return (
+    <div className="stack" data-testid="city-cell" data-city={city} title={cityTitle(row)}>
+      <span className="clamp-1">{city}</span>
+      {sub && <span className="sub clamp-1">{sub}</span>}
+    </div>
+  );
+}
+
 export const ACCOUNT_COLUMNS: readonly AccountColumn[] = [
   {
     id: 'company',
@@ -85,6 +111,16 @@ export const ACCOUNT_COLUMNS: readonly AccountColumn[] = [
         {r.account.sector && <span className="sub clamp-1" title={r.account.sector}>{r.account.sector}</span>}
       </div>
     ),
+  },
+  {
+    id: 'city',
+    label: 'City',
+    width: 160,
+    defaultVisible: true,
+    defaultDir: 'asc',
+    title: 'City (suburb, state). Unknown sorts last.',
+    sort: (r) => citySortKey(r.account),
+    render: (r) => <CityCell row={r} />,
   },
   {
     id: 'description',
@@ -120,7 +156,8 @@ export const ACCOUNT_COLUMNS: readonly AccountColumn[] = [
     id: 'location',
     label: 'Location',
     width: 150,
-    defaultVisible: true,
+    defaultVisible: false, // raw source text; the City column covers it
+    title: 'Location as recorded in the source',
     defaultDir: 'asc',
     sort: (r) => r.account.location?.toLowerCase(),
     render: (r) => <span className="clamp-1" title={r.account.location}>{text(r.account.location)}</span>,
@@ -251,6 +288,9 @@ export const CSV_HEADERS = [
   'Website',
   'LinkedIn',
   'Location',
+  'City',
+  'Suburb',
+  'State',
   'Employees',
   'Finance headcount',
   'Revenue',
@@ -283,6 +323,9 @@ export function accountCsvRow(r: AccountRow): CsvValue[] {
     a.website,
     a.linkedin,
     a.location,
+    a.city,
+    a.suburb,
+    a.state,
     a.employees ?? a.employeeRange,
     a.financeHeadcount ?? null,
     a.revenue,

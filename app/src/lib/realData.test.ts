@@ -35,6 +35,11 @@ describe('generated data in src/data', () => {
       expect(s.accountsTouched).toBeLessThanOrEqual(s.totalAccounts);
       expect(s.contactsReached).toBeLessThanOrEqual(s.totalContacts);
       expect(s.funnel.map((f) => f.count)).toEqual([...s.funnel.map((f) => f.count)].sort((x, y) => y - x));
+      // By-city rows partition the accounts and the matched events
+      for (const k of ['accounts', 'contacts', 'accountsContacted', 'accountsNotContacted', 'sent', 'replies', 'meetings'] as const) {
+        expect(s.byCity.reduce((n, r) => n + r[k], 0)).toBe(s.byCityTotal[k]);
+      }
+      expect(s.byCityTotal.accounts).toBe(s.totalAccounts);
     }
   });
 });

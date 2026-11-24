@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useId, useRef, useState, type ReactNode } from 'react';
 import { displayUrl, mailtoHref, safeUrl } from '../lib/links';
 import { initials } from '../lib/format';
+import { CONTACTED_FILTERS, type ContactedFilter } from '../lib/filters';
 import { STATUS_LABEL, type OutreachStatus } from '../lib/status';
 
 /* ---------------- icons (inline SVG, currentColor) ---------------- */
@@ -284,22 +285,25 @@ export function Segmented<T extends string>({
   onChange,
   label,
   testIdPrefix,
+  className,
 }: {
-  options: readonly { id: T; label: ReactNode; count?: number }[];
+  options: readonly { id: T; label: ReactNode; count?: number; title?: string }[];
   value: T;
   onChange: (v: T) => void;
   label: string;
   testIdPrefix?: string;
+  className?: string;
 }) {
   return (
-    <div className="segmented" role="tablist" aria-label={label}>
+    <div className={'segmented' + (className ? ' ' + className : '')} role="tablist" aria-label={label}>
       {options.map((o) => (
         <button
           key={o.id}
           type="button"
           role="tab"
           aria-selected={o.id === value}
-          className={o.id === value ? 'active' : ''}
+          title={o.title}
+          className={`seg-${o.id}` + (o.id === value ? ' active' : '')}
           onClick={() => onChange(o.id)}
           data-testid={testIdPrefix ? `${testIdPrefix}-${o.id}` : undefined}
         >
@@ -312,6 +316,52 @@ export function Segmented<T extends string>({
         </button>
       ))}
     </div>
+  );
+}
+
+/* ---------------- contacted / not contacted toggle ---------------- */
+
+const CONTACTED_OPTION: Record<ContactedFilter, { label: string; title: string }> = {
+  all: { label: 'All', title: 'Contacted and not contacted' },
+  not_contacted: { label: 'Not contacted', title: 'No outreach event of any kind yet (imported or logged manually)' },
+  contacted: { label: 'Contacted', title: 'At least one event: sent, connection, seen, replied or meeting' },
+};
+
+export function ContactedToggle({
+  value,
+  counts,
+  onChange,
+  noun,
+  testIdPrefix,
+}: {
+  value: ContactedFilter;
+  counts: Record<ContactedFilter, number>;
+  onChange: (v: ContactedFilter) => void;
+  noun: string;
+  testIdPrefix: string;
+}) {
+  return (
+    <Segmented
+      className="segmented-contacted"
+      label={`Show ${noun} by outreach`}
+      value={value}
+      onChange={onChange}
+      testIdPrefix={testIdPrefix}
+      options={CONTACTED_FILTERS.map((id) => ({
+        id,
+        title: CONTACTED_OPTION[id].title,
+        count: counts[id],
+        label:
+          id === 'all' ? (
+            CONTACTED_OPTION[id].label
+          ) : (
+            <>
+              <i className="dot" aria-hidden="true" />
+              {CONTACTED_OPTION[id].label}
+            </>
+          ),
+      }))}
+    />
   );
 }
 

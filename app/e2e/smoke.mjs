@@ -92,6 +92,33 @@ async function main() {
     await page.waitForFunction((v) => location.hash.startsWith(`#/${v}`), view);
   };
   const messagesSent = async () => intOf(await kpi('messages-sent'));
+  const countOf = async (testId) => intOf(await page.getByTestId(testId).textContent());
+  const toggleCounts = async (prefix) => ({
+    all: await countOf(`${prefix}-count-all`),
+    nc: await countOf(`${prefix}-count-not_contacted`),
+    c: await countOf(`${prefix}-count-contacted`),
+  });
+  /** Waits until `selector` matches exactly n elements (or times out quietly — the check that follows reports it). */
+  const waitForCount = (selector, n) =>
+    page.waitForFunction(([sel, k]) => document.querySelectorAll(sel).length === k, [selector, n], { timeout: 5000 }).catch(() => {});
+  /** Waits until every rendered `cellSel` carries data-city=city (i.e. a city filter has been applied). */
+  const waitForCity = (cellSel, city) =>
+    page
+      .waitForFunction(
+        ([sel, c]) => {
+          const cells = [...document.querySelectorAll(sel)];
+          return cells.length > 0 && cells.every((e) => e.getAttribute('data-city') === c);
+        },
+        [cellSel, city],
+        { timeout: 5000 },
+      )
+      .catch(() => {});
+  const waitForText = (testId, n) =>
+    page
+      .waitForFunction(([id, k]) => (document.querySelector(`[data-testid="${id}"]`)?.textContent ?? '').replace(/[,\s]/g, '').startsWith(String(k)), [testId, n], {
+        timeout: 5000,
+      })
+      .catch(() => {});
 
   try {
     step('Dashboard');
@@ -140,6 +167,120 @@ async function main() {
     check((await page.getByTestId('account-row').count()) === total - groupSize, `Collapsing a group hides its ${groupSize} rows`);
     await firstGroup.click();
     check((await page.getByTestId('account-row').count()) === total, 'Expanding the group restores them');
+
+    step('Accounts — Not contacted / Contacted toggle');
+    {
+      for (const s of ['all', 'firm']) {
+        await page.getByTestId(`section-tab-${s}`).click();
+        const t = await toggleCounts('contacted');
+        const tab = await countOf(`section-tab-count-${s}`);
+        check(t.nc + t.c === t.all && t.all === tab, `Tab "${s}": Not contacted ${t.nc} + Contacted ${t.c} = All ${t.all} = tab count ${tab}`);
+      }
+      await page.getByTestId('section-tab-all').click();
+      const t = await toggleCounts('contacted');
+      for (const [id, n, wantContacted] of [
+        ['not_contacted', t.nc, false],
+        ['contacted', t.c, true],
+      ]) {
+        await page.getByTestId(`contacted-${id}`).click();
+        if (await expandGroups.isEnabled()) await expandGroups.click();
+        await waitForCount('[data-testid=account-row]', n);
+        const rendered = await page.getByTestId('account-row').count();
+        check(rendered === n && (await countOf('result-count')) === n, `"${id}": control count ${n} = rendered rows ${rendered}`);
+        const pills = await page.locator('[data-testid=account-row] .pill.status').allTextContents();
+        check(pills.length === n && pills.every((p) => (p.trim() === 'Not contacted') !== wantContacted), `"${id}": every row's Outreach pill agrees`);
+        const tabCount = await countOf('section-tab-count-all');
+        check(tabCount === n, `"${id}": the All tab count follows the toggle (${tabCount})`);
+      }
+      await page.getByTestId('contacted-all').click();
+      await waitForCount('[data-testid=account-row]', t.all);
+      check((await page.getByTestId('account-row').count()) === t.all, 'Back to "All" restores every row');
+    }
+
+    step('Accounts — City filter vs dashboard By city');
+    {
+      await page.getByTestId('section-tab-all').click();
+      const citySelect = page.getByTestId('filter-city');
+      const topCity = await citySelect.evaluate((el) => [...el.options].find((o) => o.value)?.value);
+      check(!!topCity, `City filter lists cities, top one: ${topCity}`);
+      await citySelect.selectOption(topCity);
+      await waitForCity('[data-testid=account-row] [data-testid=city-cell]', topCity);
+      if (await expandGroups.isEnabled()) await expandGroups.click();
+      const n = await countOf('section-tab-count-all');
+      await waitForCount('[data-testid=account-row]', n);
+      const cities = await page.locator('[data-testid=account-row] [data-testid=city-cell]').evaluateAll((els) => els.map((e) => e.getAttribute('data-city')));
+      check(cities.length === n && n > 0 && cities.every((c) => c === topCity), `All ${n} rendered rows show ${topCity} (${cities.length} city cells)`);
+      const t = await toggleCounts('contacted');
+      check(t.nc + t.c === t.all && t.all === n, `${topCity}: Not contacted ${t.nc} + Contacted ${t.c} = ${n}`);
+      await page.screenshot({ path: join(SHOTS, 'accounts-city.png'), clip: { x: 0, y: 0, width: 1440, height: 420 } });
+
+      await gotoView('dashboard');
+      const row = page.locator(`[data-testid=by-city-row][data-city="${topCity}"]`);
+      await row.waitFor();
+      const dashAccounts = intOf(await row.getByTestId('by-city-accounts').textContent());
+      const dashNc = intOf(await row.getByTestId('by-city-not-contacted').textContent());
+      check(dashAccounts === n, `Dashboard By-city "${topCity}" accounts ${dashAccounts} = Accounts view ${n}`);
+      check(dashNc === t.nc, `Dashboard By-city "${topCity}" not contacted ${dashNc} = Accounts toggle ${t.nc}`);
+      {
+        const totals = await page.getByTestId('by-city-table').evaluate((table) => {
+          const col = (sel) => [...table.querySelectorAll(`[data-testid=by-city-row] [data-testid=${sel}]`)].reduce((s, td) => s + Number(td.textContent.replace(/\D/g, '')), 0);
+          const tot = (sel) => Number(table.querySelector(`[data-testid=by-city-total] [data-testid=${sel}]`).textContent.replace(/\D/g, ''));
+          return { rows: col('by-city-accounts'), total: tot('by-city-accounts'), ncRows: col('by-city-not-contacted'), ncTotal: tot('by-city-not-contacted') };
+        });
+        check(totals.rows === totals.total && totals.ncRows === totals.ncTotal, `By-city rows add up to the Total (${totals.rows} accounts, ${totals.ncRows} not contacted)`);
+      }
+      await page.getByTestId('by-city').screenshot({ path: join(SHOTS, 'dashboard-by-city.png') });
+
+      // Clear the filter on Accounts, then come back through the dashboard link: it must re-apply the city on the All tab.
+      await gotoView('accounts');
+      await page.getByTestId('filter-city').selectOption('');
+      await page.getByTestId('section-tab-firm').click();
+      await gotoView('dashboard');
+      await page.locator(`[data-testid=by-city-row][data-city="${topCity}"]`).click();
+      await page.waitForFunction(() => location.hash.startsWith('#/accounts'));
+      await page.getByTestId('accounts-table').waitFor();
+      await waitForText('result-count', n);
+      check(
+        (await page.getByTestId('filter-city').inputValue()) === topCity &&
+          (await page.getByTestId('section-tab-all').getAttribute('aria-selected')) === 'true' &&
+          (await countOf('result-count')) === n,
+        `Clicking "${topCity}" on the dashboard opens Accounts › All filtered to it (${n})`,
+      );
+      await page.getByTestId('filter-city').selectOption('');
+    }
+
+    step('Accounts — log "Email sent" on a not-contacted contact');
+    {
+      await page.getByTestId('section-tab-all').click();
+      await page.getByTestId('contacted-not_contacted').click();
+      if (await expandGroups.isEnabled()) await expandGroups.click();
+      const before = await toggleCounts('contacted');
+      const target = await page.evaluate(
+        () => [...document.querySelectorAll('[data-testid=account-row]')].find((r) => Number(r.getAttribute('data-contacts')) > 0)?.getAttribute('data-account-id'),
+      );
+      check(!!target, `Found a not-contacted account with contacts (${target})`);
+      const trow = page.locator(`[data-testid=account-row][data-account-id="${target}"]`);
+      await trow.getByTestId('account-toggle').click();
+      const tdetail = page.locator(`[data-testid=account-detail][data-account-id="${target}"]`);
+      await tdetail.waitFor();
+      const tc = tdetail.getByTestId('contact-row').first();
+      check((await tc.locator('.pill.status').textContent())?.trim() === 'Not contacted', 'Its first contact starts as Not contacted');
+      await tc.getByTestId('log-email-sent').click();
+      await waitForText('contacted-count-not_contacted', before.nc - 1);
+      const after = await toggleCounts('contacted');
+      check(after.nc === before.nc - 1 && after.c === before.c + 1 && after.all === before.all, `Not contacted ${before.nc} → ${after.nc}, Contacted ${before.c} → ${after.c}`);
+      check((await tc.locator('.pill.status').textContent())?.trim() === 'Contacted', 'The contact now shows Contacted');
+      check(await trow.isVisible(), 'The open account stays on screen while you work on it');
+      check((await trow.locator('.badge-moved').textContent())?.trim() === 'Now contacted', 'and is marked "Now contacted"');
+      await tc.getByTestId('toggle-history').click();
+      await tdetail.locator('.history-row [data-testid=delete-event]').first().click();
+      await waitForText('contacted-count-not_contacted', before.nc);
+      const restored = await toggleCounts('contacted');
+      check(restored.nc === before.nc && restored.c === before.c, `Deleting the manual event restores ${before.nc} / ${before.c}`);
+      check((await page.evaluate(() => localStorage.getItem('seraos.manualEvents.v1'))) === '[]', 'No manual events left behind');
+      await trow.getByTestId('account-toggle').click();
+      await page.getByTestId('contacted-all').click();
+    }
 
     step('Accounts — CSV export matches visible rows');
     {
@@ -225,6 +366,36 @@ async function main() {
     await page.getByText('No accounts match').waitFor();
     check(true, 'Search with no hits shows an empty state');
     await page.getByTestId('accounts-search').fill('');
+
+    step('Contacts — Not contacted / Contacted toggle and City filter');
+    {
+      await gotoView('contacts');
+      await page.getByTestId('contacts-table').waitFor();
+      await page.getByTestId('contact-section-tab-all').click();
+      const t = await toggleCounts('contact-contacted');
+      check(t.nc + t.c === t.all && t.all === (await countOf('contacts-count')), `Contacts: Not contacted ${t.nc} + Contacted ${t.c} = All ${t.all}`);
+      for (const [id, n] of [
+        ['not_contacted', t.nc],
+        ['contacted', t.c],
+      ]) {
+        await page.getByTestId(`contact-contacted-${id}`).click();
+        await waitForText('contacts-count', n);
+        const rendered = await page.getByTestId('contact-list-row').count();
+        check((await countOf('contacts-count')) === n && rendered === Math.min(n, 300), `Contacts "${id}": count ${n}, rendered ${rendered}`);
+      }
+      await page.getByTestId('contact-contacted-all').click();
+      const citySelect = page.getByTestId('contacts-filter-city');
+      const topCity = await citySelect.evaluate((el) => [...el.options].find((o) => o.value)?.value);
+      await citySelect.selectOption(topCity);
+      await waitForCity('[data-testid=contact-list-row] [data-testid=contact-city-cell]', topCity);
+      const n = await countOf('contact-section-tab-count-all');
+      await waitForText('contacts-count', n);
+      const cities = await page.locator('[data-testid=contact-list-row] [data-testid=contact-city-cell]').evaluateAll((els) => els.map((e) => e.getAttribute('data-city')));
+      check(cities.length === Math.min(n, 300) && cities.every((c) => c === topCity), `Contacts in ${topCity}: all ${cities.length} rendered rows show it`);
+      const tc = await toggleCounts('contact-contacted');
+      check(tc.nc + tc.c === tc.all && tc.all === n, `Contacts in ${topCity}: ${tc.nc} + ${tc.c} = ${n}`);
+      await citySelect.selectOption('');
+    }
 
     step('Contacts tab');
     await gotoView('contacts');

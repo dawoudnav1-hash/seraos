@@ -3,11 +3,13 @@
 A static single-page app (Vite + React 19 + TypeScript, no backend) for Vert's B2B outreach to Australian
 finance teams and accounting firms. It has three views plus a data page:
 
-- **Dashboard**: outreach KPIs, weekly activity, funnel, channel/section/segment breakdowns, coverage, recent activity.
+- **Dashboard**: outreach KPIs, weekly activity, funnel, channel/section/segment/city breakdowns, coverage, recent
+  activity.
 - **Accounts**: tabs for *Accounting & advisory firms* / *Internal finance teams* / *1-person* / *All*, grouped by
-  segment. Click a row to expand the account: overview, alpha/signal, finance team, contacts, and a timeline. Each
-  contact has buttons to log outreach.
-- **Contacts**: flat, searchable list of every lead. Click one to open its account.
+  segment, with an *All · Not contacted · Contacted* toggle and City / State filters. Click a row to expand the
+  account: overview, alpha/signal, finance team, contacts, and a timeline. Each contact has buttons to log outreach.
+- **Contacts**: flat, searchable list of every lead, with the same toggle and City / State filters. Click one to open
+  its account.
 - **Data**: export, import or clear manually logged events, plus when the data was generated and where it came from.
 
 ## Run
@@ -73,6 +75,27 @@ The **outreach status** of a contact or account is the highest-precedence event 
 
 Precedence is Meeting > Replied > Seen > Contacted > Not contacted. *Last touch* is the newest dated event.
 
+### Contacted vs not contacted
+
+**Contacted** means a derived status other than *Not contacted*, i.e. at least one matched event of any kind (sent,
+connection, seen, replied, meeting — imported or logged here); `isContacted()` in `status.ts`. A contact uses its own
+status, an account its account status (so a contacted account can still have not-contacted contacts).
+
+- The toggle and the detailed *Outreach* select share one state (`OutreachFilter` in `filters.ts`): picking
+  *Not contacted* in either moves the other, a specific status (Seen, Replied…) implies *Contacted*, and leaving
+  *Contacted* clears it. The toggle's counts apply every other filter (section tab, search, city, …) but not the
+  outreach filter itself, so *Not contacted + Contacted = All*; the section tab counts include the toggle.
+- If you log an event on an open account so that it no longer matches the toggle, it stays on screen (marked
+  "Now contacted") until you collapse it or change a filter.
+
+### City
+
+`city` / `suburb` / `state` / `cityBasis` come from the pipeline (see `DATA_CONTRACT.md`); a contact's city is its
+account's. A missing city is "Unknown" and a missing state (e.g. Tauranga, NZ) is "No state" in the filters. The City
+column shows city with "suburb, state" underneath and sorts unknowns last; the raw *Location* column is hidden by
+default (Columns menu). Search matches city, suburb and state. Choosing a State clears a City outside that state.
+CSV exports include City, Suburb and State.
+
 ## Stat definitions (`src/lib/stats.ts`)
 
 These follow *Kind semantics* in `DATA_CONTRACT.md`.
@@ -85,6 +108,14 @@ These follow *Kind semantics* in `DATA_CONTRACT.md`.
   messaged, the rate is shown as "—".
 - **Accounts touched / Contacts reached**: accounts or contacts with at least one event in the selected range.
 - **Funnel**: known contacts whose derived status reached at least each stage in the range.
+- **Not contacted / Contacted** (section, segment and city tables): accounts with no event / at least one event,
+  over **all time** — they ignore the date range, so they always match the Accounts view. *Touched* is the
+  range-dependent counterpart (accounts with an event in the range); with *All* the two agree.
+- **By city**: the 12 cities with the most accounts, then *Other* (the rest, summed), then *Unknown*. Accounts,
+  Contacts and Contacted / Not contacted are all time; Sent, Replies and Meetings count events in the range. Each event
+  counts once, under the city of the account it was logged against (its `accountId`, else the first account it
+  matched); unmatched events are left out, so the rows add up to the Total row. Clicking a city opens
+  `#/accounts?city=<city>` (All tab, other filters cleared).
 - **Date ranges**: 7d, 30d and 90d keep events dated on or after `now − N days`. The lower bound is inclusive and there
   is no upper bound, so slightly future-dated events are not dropped. *All* keeps everything, including events
   without a valid date (these are left out of the weekly chart). Weeks start Monday, in UTC.

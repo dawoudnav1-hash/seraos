@@ -628,9 +628,10 @@ code {
   flex-direction: column;
   gap: 2px;
 }
-.col-picker .btn {
+.col-picker-actions {
+  display: flex;
+  gap: 6px;
   margin-top: 6px;
-  align-self: flex-start;
 }
 
 /* ============ badges / pills ============ */
@@ -704,8 +705,14 @@ code {
   background: currentColor;
 }
 .status-not_contacted {
-  background: var(--st-none-bg);
+  /* calm: outlined, hollow dot — every Contacted+ status is a filled, coloured pill */
+  background: transparent;
   color: var(--st-none-fg);
+  box-shadow: inset 0 0 0 1px var(--border-strong);
+}
+.status-not_contacted .dot {
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px currentColor;
 }
 .status-contacted {
   background: var(--st-contacted-bg);
@@ -1770,4 +1777,116 @@ code {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+/* ============ contacted toggle / city ============ */
+.results-bar {
+  margin-top: -6px;
+}
+/* Size each filter select to its current value instead of its longest option (Chromium; others keep auto). */
+.toolbar .select select {
+  field-sizing: content;
+  min-width: 44px;
+}
+@media (max-width: 1599px) {
+  .grid-2.breakdowns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.toolbar .segmented button {
+  height: 24px; /* 24 + padding + border = the 30px of the other toolbar controls */
+  padding: 0 10px;
+}
+.segmented-contacted .dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 6px;
+  border-radius: 50%;
+  vertical-align: 0;
+}
+.segmented-contacted .seg-not_contacted .dot {
+  box-shadow: inset 0 0 0 1.5px var(--st-none-fg);
+}
+.segmented-contacted .seg-contacted .dot {
+  background: var(--st-contacted-fg);
+}
+.segmented-contacted button.active .count {
+  font-weight: 600;
+}
+.badge-moved {
+  align-self: flex-start;
+  margin: 2px 0 0 50px;
+  background: var(--st-contacted-bg);
+  color: var(--st-contacted-fg);
+  border-color: transparent;
+}
+.account-row.moved .company-name {
+  color: var(--text-2);
+}
+.field-note {
+  display: block;
+  margin-top: 1px;
+  font-size: 11.5px;
+  color: var(--text-3);
+}
+.foot-wide {
+  margin: -6px 0 0;
+}
+
+.city-table .group-head th {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  text-align: center;
+  padding: 6px 8px 0;
+}
+.city-table .group-head th span {
+  display: block;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border-strong);
+}
+.city-table .group-head th,
+.city-table .group-head td {
+  border-bottom: 0;
+}
+.city-table .col-sep {
+  border-left: 1px solid var(--border);
+}
+.city-table tr.clickable {
+  cursor: pointer;
+}
+.city-table tr.clickable:hover th,
+.city-table tr.clickable:hover td {
+  background: var(--hover);
+}
+.city-table tbody th a {
+  color: var(--text);
+}
+.city-table tbody th a:hover {
+  color: var(--accent);
+}
+.pct {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.pct-bar {
+  width: 64px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--surface-3);
+  overflow: hidden;
+}
+.pct-bar i {
+  display: block;
+  height: 100%;
+  background: var(--st-contacted-fg);
+  border-radius: 2px;
+}
+.pct-val {
+  min-width: 34px;
 }
