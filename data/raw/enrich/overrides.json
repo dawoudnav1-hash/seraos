@@ -49,5 +49,8 @@
   "bbb-partners": {
    "flag": "Acquired by Cutcher & Neale in July 2025 (LinkedIn). Check who now owns the relationship."
   }
+ },
+ "excludeAccounts": {
+  "4orward": "Removed at the owner's request (comment on the published page, 25 Nov 2026)."
  }
 }

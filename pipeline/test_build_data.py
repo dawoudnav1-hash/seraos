@@ -52,6 +52,12 @@ by_domain = {d: a for a in A for d in [a.get("domain")] + a.get("otherDomains", 
 by_name = {B.name_key(a["name"]): a for a in A}
 
 
+EXCLUDED = {k for k in json.load(open(os.path.join(ROOT, "data", "raw", "enrich", "overrides.json"))).get("excludeAccounts", {})}
+check(not (EXCLUDED & set(ids)), "excluded accounts must not appear in the output")
+for e in O["events"]:
+    check(e.get("accountId") not in EXCLUDED, f"event {e['id']} still points at an excluded account")
+
+
 def locate(name, domain=None):
     if domain and domain in by_domain:
         return by_domain[domain]
@@ -112,6 +118,8 @@ for r in B.read_tab("melbourne.xlsx", "Contacts"):
         if e:
             acc = acc or next((a for a in A if any(c.get("email") == str(e).lower() for c in a["contacts"])), None)
     acc = acc or by_name.get(B.name_key(r["Firm"])) or next((a for a in A if B.loose_name_key(a["name"]) == B.loose_name_key(r["Firm"])), None)
+    if B.slug(r["Firm"]) in EXCLUDED or B.name_key(r["Firm"]) in {B.name_key(x) for x in EXCLUDED}:
+        continue
     check(acc is not None, f"melbourne firm missing {r['Firm']}")
     for i in (1, 2):
         if r.get(f"Contact {i} Name"):

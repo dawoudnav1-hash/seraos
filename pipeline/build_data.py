@@ -1017,6 +1017,32 @@ def merge_live_additions(accounts: list[dict]) -> None:
     log("count", f"published-page additions: {n_acc} accounts, {n_con} contacts, {n_note} notes")
 
 
+# ---------------------------------------------------------------- exclusions
+def excluded_ids() -> dict:
+    ov_path = os.path.join(RAW, "enrich", "overrides.json")
+    return json.load(open(ov_path)).get("excludeAccounts", {}) if os.path.exists(ov_path) else {}
+
+
+def exclude_accounts(accounts: list[dict]) -> None:
+    """Drop accounts the owner removed from the list (overrides.json -> excludeAccounts)."""
+    ex = excluded_ids()
+    keep = [a for a in accounts if a["id"] not in ex]
+    for a in accounts:
+        if a["id"] in ex:
+            log("excluded", f"{a['name']} ({a['id']}): {ex[a['id']]}")
+    missing = set(ex) - {a["id"] for a in accounts}
+    for m in missing:
+        log("excluded", f"{m}: listed in excludeAccounts but no such account")
+    for a in accounts:
+        if a["id"] in ex:
+            EXCLUDED_KEYS.update(d for d in [a.get("domain")] + a.get("otherDomains", []) if d)
+            EXCLUDED_KEYS.update(c["email"].lower() for c in a["contacts"] if c.get("email"))
+    accounts[:] = keep
+
+
+EXCLUDED_KEYS: set[str] = set()  # domains + contact emails of excluded accounts (their outreach is dropped too)
+
+
 # ---------------------------------------------------------------- cities
 def assign_cities(accounts: list[dict]) -> None:
     """Adds city / suburb / state (+ cityBasis) to every account that has a usable location."""
@@ -1130,6 +1156,17 @@ def build_outreach(accounts: list[dict]) -> dict:
         if "accountId" not in ev and not hit:
             unmatched += 1
         out.append(ev)
+    if EXCLUDED_KEYS:
+        def excluded_event(ev):
+            if ev.get("accountId"):
+                return False
+            ems = [x.lower() for x in ev.get("counterpartyEmails") or []]
+            return bool(ems) and all(x in EXCLUDED_KEYS or (email_domain(x) or "") in EXCLUDED_KEYS for x in ems)
+        dropped = [e["id"] for e in out if excluded_event(e)]
+        out = [e for e in out if not excluded_event(e)]
+        unmatched -= len(dropped)
+        for d in dropped:
+            log("excluded", f"outreach event {d} dropped (excluded account)")
     out.sort(key=lambda x: x.get("date") or "")
     log("count", f"outreach: {len(out)} events ({unmatched} not matched to an account)")
     return {"generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"), "sources": sources, "events": out}
@@ -1174,6 +1211,7 @@ def main() -> int:
     accounts, _ = build()
     apply_enrichment(accounts)
     merge_live_additions(accounts)
+    exclude_accounts(accounts)
     assign_cities(accounts)
     for a in accounts:  # drop empty optional fields so output matches the TS contract
         for k in [k for k, v in a.items() if (v is None or v == []) and k not in ("contacts", "sources")]:

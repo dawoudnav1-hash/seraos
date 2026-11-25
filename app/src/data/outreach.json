@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T02:44:11+00:00",
+ "generatedAt": "2026-11-25T10:52:11+00:00",
  "sources": [
   {
    "name": "Hostinger mailbox (work email)",
@@ -2573,19 +2573,6 @@
    "subject": "Idea for Baumgartners",
    "accountId": "baumgartners",
    "contactId": "baumgartners--aaron-fitchett"
-  },
-  {
-   "id": "hostinger:INBOX.Sent:189",
-   "date": "2026-11-24T02:23:46Z",
-   "channel": "email",
-   "kind": "sent",
-   "source": "hostinger",
-   "counterpartyEmails": [
-    "michaelt@4orward.com"
-   ],
-   "subject": "Idea for 4orward",
-   "accountId": "4orward",
-   "contactId": "4orward--michael-trajcevski"
   }
  ]
 }

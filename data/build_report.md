@@ -1,15 +1,15 @@
 # Data build report
 
-Generated 2026-11-24T02:44:11+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-25T10:52:11+00:00 by `pipeline/build_data.py`.
 
-- Accounts (de-duplicated): **505**
-- Contacts (de-duplicated): **901**
-- Sections: firm 220, internal 159, solo 126
-- Segments: Accounting & advisory 220, CPG / Ecom / D2C 173, SaaS 102, AI startup 7, Other 2, VC / Accelerator 1
+- Accounts (de-duplicated): **504**
+- Contacts (de-duplicated): **899**
+- Sections: firm 219, internal 159, solo 126
+- Segments: Accounting & advisory 219, CPG / Ecom / D2C 173, SaaS 102, AI startup 7, Other 2, VC / Accelerator 1
 - Accounts in Attio: 271
 - Accounts with no contacts: 1
-- Contacts with email: 655
-- Outreach events: 196
+- Contacts with email: 653
+- Outreach events: 195
 
 ## Log
 
@@ -83,6 +83,7 @@ Generated 2026-11-24T02:44:11+00:00 by `pipeline/build_data.py`.
 - [override] account visory: flagged
 - [live-merge] note on hellocfo--bryn-leggett: Rejected Vert on LinkedIn. Do not contact.
 - [count] published-page additions: 26 accounts, 58 contacts, 1 notes
+- [excluded] 4orward (4orward): Removed at the owner's request (comment on the published page, 25 Nov 2026).
 - [city-researched] Adventure Operations: 'AU' -> 'Eagle Farm, QLD, AU' (https://adventureoperations.com.au/)
 - [city-researched] b.box for kids: 'Australia' -> 'Notting Hill, VIC, AU' (https://bbox.com.au/pages/terms-and-conditions)
 - [city-researched] Bali Body: 'Australia' -> 'Brighton, VIC, AU' (https://au.balibodyco.com/pages/privacy-policy)
@@ -120,8 +121,9 @@ Generated 2026-11-24T02:44:11+00:00 by `pipeline/build_data.py`.
 - [city-researched] WCT Advisory Group: None -> 'Brisbane, QLD, AU' (https://www.wctadvisory.com.au/contact-wct-advisory)
 - [city-researched] XETA: None -> 'Bondi Junction, NSW, AU' (https://employmenthero.com/uk/partner/xeta/)
 - [city-researched] XO Accounting: None -> 'Werribee, VIC, AU' (https://linkedin.com/company/xo-accounting-pty-ltd)
-- [count] cities: Company location 466, Web research (Exa) 37, Contact location (company location not recorded) 2
+- [count] cities: Company location 465, Web research (Exa) 37, Contact location (company location not recorded) 2
 - [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
 - [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
 - [count] outreach: 63 events added from the published page
-- [count] outreach: 196 events (0 not matched to an account)
+- [excluded] outreach event hostinger:INBOX.Sent:189 dropped (excluded account)
+- [count] outreach: 195 events (0 not matched to an account)
