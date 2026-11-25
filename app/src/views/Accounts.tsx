@@ -22,6 +22,7 @@ import {
   normalizeOutreach,
   outreachSelectValue,
   SECTIONS,
+  visibleSections,
   sectionCounts,
   stateOptions,
   withContacted,
@@ -171,6 +172,9 @@ export function Accounts({ route }: { route: Route }) {
   const [section, setSection] = usePersistentState<Section>('seraos.accounts.section.v1', 'firm', (v) =>
     SECTIONS.includes(v as Section) ? (v as Section) : undefined,
   );
+  useEffect(() => {
+    if (!visibleSections(accounts).includes(section)) setSection('all');
+  }, [accounts, section, setSection]);
   const [filters, setFilters] = usePersistentState<AccountFilters>('seraos.accounts.filters.v1', DEFAULT_ACCOUNT_FILTERS, validateFilters);
   const [sort, setSort] = usePersistentState<SortState>('seraos.accounts.sort.v1', DEFAULT_SORT, (v) => {
     const r = v as Partial<SortState> | null;
@@ -350,7 +354,7 @@ export function Accounts({ route }: { route: Route }) {
         label="Account section"
         value={section}
         onChange={setSection}
-        options={SECTIONS.map((s) => ({ id: s, label: SECTION_LABEL[s], count: counts[s] }))}
+        options={visibleSections(accounts).map((s) => ({ id: s, label: SECTION_LABEL[s], count: counts[s] }))}
         testIdPrefix="section-tab"
       />
 

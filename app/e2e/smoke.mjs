@@ -147,7 +147,7 @@ async function main() {
     await gotoView('accounts');
     await page.getByTestId('accounts-table').waitFor();
     const expandGroups = page.getByTestId('expand-groups');
-    for (const s of ['firm', 'services', 'internal', 'solo', 'all']) {
+    for (const s of ['firm', 'internal', 'solo', 'all']) {
       await page.getByTestId(`section-tab-${s}`).click();
       if (await expandGroups.isEnabled()) await expandGroups.click();
       const expected = intOf(await page.getByTestId(`section-tab-count-${s}`).textContent());

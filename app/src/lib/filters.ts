@@ -386,3 +386,9 @@ export function filterContactRows(rows: readonly ContactRow[], f: ContactFilters
     return true;
   });
 }
+
+/** Section tabs worth showing: 'all' plus every type that has at least one account. */
+export function visibleSections(accounts: readonly { type: string }[]): Section[] {
+  const present = new Set(accounts.map((a) => a.type));
+  return SECTIONS.filter((s) => s === 'all' || present.has(s));
+}

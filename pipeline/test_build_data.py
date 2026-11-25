@@ -60,6 +60,25 @@ for e in O["events"]:
     check(e.get("accountId") not in EXCLUDED, f"event {e['id']} still points at an excluded account")
 
 
+# names/domains of deliberately excluded accounts (so their source rows are not reported missing)
+_excl_names, _excl_domains = set(), set()
+for src in ("enrich/firm_categories.json", "live_artifact/accounts.json", "enrich/firms_A_out.json", "enrich/firms_B_out.json"):
+    pth = os.path.join(ROOT, "data", "raw", src)
+    if os.path.exists(pth):
+        for x in json.load(open(pth)):
+            if x.get("id") in EXCLUDED:
+                if x.get("name"):
+                    _excl_names.add(B.name_key(x["name"]))
+                for k in ("domain", "website"):
+                    if x.get(k):
+                        _excl_domains.add(B.domain_of(x[k]))
+_excl_names |= {B.name_key(i.replace("-", " ")) for i in EXCLUDED}
+
+
+def is_excluded(name, domain=None):
+    return B.name_key(name) in _excl_names or B.slug(name) in EXCLUDED or (domain and domain in _excl_domains)
+
+
 def locate(name, domain=None):
     if domain and domain in by_domain:
         return by_domain[domain]
@@ -104,11 +123,16 @@ for at, pt, key in (("Ecom - Accounts", "Ecom - Prospects", "Brand"), ("Accounti
     for r in B.read_tab("origami.xlsx", at):
         src_accounts += 1
         acc = locate(r[key], B.domain_of(r.get("Website")))
+        if acc is None and is_excluded(r[key], B.domain_of(r.get("Website"))):
+            m[r[key]] = "EXCLUDED"
+            continue
         check(acc is not None, f"origami account missing {r[key]}")
         m[r[key]] = acc
     for r in B.read_tab("origami.xlsx", pt):
         src_contacts += 1
         acc = m.get(r[key])
+        if acc == "EXCLUDED":
+            continue
         check(acc is not None and has_contact(acc, r["Name"], r.get("Email")), f"origami contact missing {r['Name']} @ {r[key]}")
 
 mel_found = 0

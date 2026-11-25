@@ -1,4 +1,4 @@
-import { useDeferredValue, useMemo, useState, type KeyboardEvent, type MouseEvent } from 'react';
+import { useDeferredValue, useEffect, useMemo, useState, type KeyboardEvent, type MouseEvent } from 'react';
 import { Badge, ContactedToggle, EmailLink, EmptyState, Icon, LinkedInLink, SearchBox, Segmented, Select, SourceBadges, StatusPill } from '../components/ui';
 import { copyText, dateStamp, downloadText, toCsv } from '../lib/csv';
 import { kindLabel } from '../lib/events';
@@ -26,6 +26,7 @@ import {
   normalizeOutreach,
   outreachSelectValue,
   SECTIONS,
+  visibleSections,
   stateOptions,
   withContacted,
   withOutreachStatus,
@@ -85,6 +86,9 @@ const PAGE = 300;
 export function Contacts() {
   const { accounts, index, toast } = useAppData();
   const [filters, setFilters] = usePersistentState<ContactFilters>('seraos.contacts.filters.v1', DEFAULT_CONTACT_FILTERS, validate);
+  useEffect(() => {
+    if (!visibleSections(accounts).includes(filters.section)) setFilters((f) => ({ ...f, section: 'all' }));
+  }, [accounts, filters.section, setFilters]);
   const [sort, setSort] = usePersistentState<{ col: ColId; dir: SortDir }>('seraos.contacts.sort.v1', { col: 'name', dir: 'asc' }, (v) => {
     const r = v as { col?: ColId; dir?: SortDir } | null;
     return r && COL_IDS.includes(r.col as ColId) && (r.dir === 'asc' || r.dir === 'desc') ? { col: r.col as ColId, dir: r.dir } : undefined;
@@ -184,7 +188,7 @@ export function Contacts() {
         label="Contact section"
         value={filters.section}
         onChange={(v) => setFilter('section', v)}
-        options={SECTIONS.map((s) => ({ id: s, label: SECTION_SHORT[s], count: counts[s] }))}
+        options={visibleSections(accounts).map((s) => ({ id: s, label: SECTION_SHORT[s], count: counts[s] }))}
         testIdPrefix="contact-section-tab"
       />
       <div className="toolbar">

@@ -1,15 +1,15 @@
 # Data build report
 
-Generated 2026-11-25T11:03:47+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-25T11:09:14+00:00 by `pipeline/build_data.py`.
 
-- Accounts (de-duplicated): **504**
-- Contacts (de-duplicated): **899**
+- Accounts (de-duplicated): **450**
+- Contacts (de-duplicated): **810**
 - Sections: firm 165, internal 159, solo 126
-- Segments: CPG / Ecom / D2C 173, Accounting & advisory 165, SaaS 102, Bookkeeping & BAS 20, Other financial services 16, Outsourced CFO & finance 15, AI startup 7, Outsourcing for accounting firms 3, Other 2, VC / Accelerator 1
+- Segments: CPG / Ecom / D2C 173, Accounting & advisory 165, SaaS 102, AI startup 7, Other 2, VC / Accelerator 1
 - Accounts in Attio: 271
 - Accounts with no contacts: 1
-- Contacts with email: 653
-- Outreach events: 195
+- Contacts with email: 572
+- Outreach events: 149
 
 ## Log
 
@@ -84,7 +84,61 @@ Generated 2026-11-25T11:03:47+00:00 by `pipeline/build_data.py`.
 - [live-merge] note on hellocfo--bryn-leggett: Rejected Vert on LinkedIn. Do not contact.
 - [count] published-page additions: 26 accounts, 58 contacts, 1 notes
 - [excluded] 4orward (4orward): Removed at the owner's request (comment on the published page, 25 Nov 2026).
-- [count] moved out of accounting firms: Bookkeeping & BAS 20, Other financial services 16, Outsourced CFO & finance 15, Outsourcing for accounting firms 3
+- [excluded] Accolution (accolution): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Accountant Assist (accountant-assist): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourcing for accounting firms).
+- [excluded] Accounting Gurus (accounting-gurus): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourcing for accounting firms).
+- [excluded] Accounts Bridge (accounts-bridge): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] AGS Financial Group (ags-financial-group): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Alexander and Co Consulting (alexander-and-co-consulting): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] BBB Partners (bbb-partners): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Beam Bookkeeping (beam-bookkeeping): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Bio101 (bio101): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] Books Onsite (books-onsite): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Books365 (books365): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Boutique Accounts (boutique-accounts): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] BRI Ferrier (Melbourne) (bri-ferrier-melbourne): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] CFO On Call (cfo-on-call): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] DMG Partners (dmg-partners): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] DVT McLeods (dvt-mcleods): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Elevate SMEs (elevate-smes): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] End of Month Angels (end-of-month-angels): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] ESUPERFUND (esuperfund): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Evource (evource): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] EzyGrowth (ezygrowth): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Focus Partners Australia (focus-partners-australia): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Grey Space Advisory (grey-space-advisory): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] HelloCFO (hellocfo): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] HM Advisory (formerly Hamilton Murphy) (hm-advisory-formerly-hamilton-murphy): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] iKeep (ikeep): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Jim's Bookkeeping (jim-s-bookkeeping): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Jirsch Sutherland (jirsch-sutherland): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] JudsonKoman (judsonkoman): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] Lineage Group (lineage-group): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Linton Advisory Group (linton-advisory-group): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] Lolly Jar - Creative Industry Finance Support (lolly-jar-creative-industry-finance-supp): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] Lucent Advisory (lucent-advisory): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Lumina (lumina): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] Mackay Goodwin (mackay-goodwin): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Maximum Business Solutions & Bruce Edmunds (maximum-business-solutions-bruce-edmunds): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] McQueen Group (mcqueen-group): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Mybookworks (mybookworks): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Professional Bookkeeping Service (professional-bookkeeping-service): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Rosy Small Business Services (rosy-small-business-services): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Securinvest Financial Group (securinvest-financial-group): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Slate Accounts (slate-accounts): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] Standard Ledger (standard-ledger): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] SuperGuardian (superguardian): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Take Care Of Books (take-care-of-books): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] TaxOz Accountants (taxoz-accountants): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourcing for accounting firms).
+- [excluded] The BAS Agents (the-bas-agents): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] The Integrated CFO (the-integrated-cfo): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] The Pen Accounting (the-pen-accounting): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] Visory (visory): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).
+- [excluded] Vital Addition (vital-addition): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] WCT Advisory Group (wct-advisory-group): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).
+- [excluded] Willis Partners (willis-partners): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [excluded] XETA (xeta): Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).
+- [count] moved out of accounting firms: 
 - [city-researched] Adventure Operations: 'AU' -> 'Eagle Farm, QLD, AU' (https://adventureoperations.com.au/)
 - [city-researched] b.box for kids: 'Australia' -> 'Notting Hill, VIC, AU' (https://bbox.com.au/pages/terms-and-conditions)
 - [city-researched] Bali Body: 'Australia' -> 'Brighton, VIC, AU' (https://au.balibodyco.com/pages/privacy-policy)
@@ -103,28 +157,65 @@ Generated 2026-11-25T11:03:47+00:00 by `pipeline/build_data.py`.
 - [city-researched] Keeler Hardware: None -> 'North Willoughby, NSW, AU' (https://www.ndiscommission.gov.au/provider-registration/keeler-hardware)
 - [city-researched] KIC Wellness: None -> 'Cremorne, VIC, AU' (https://play.google.com/store/apps/details?hl=en_AU&id=com.kic.kicapp)
 - [city-researched] Komo Technologies: 'AU' -> 'Sydney, NSW, AU' (https://www.komo.tech/faqs)
-- [city-researched] Lolly Jar - Creative Industry Finance Support: None -> 'Surry Hills, NSW, AU' (https://www.lollyaccounts.com.au/)
-- [city-researched] Lucent Advisory: None -> 'Adelaide, SA, AU' (https://www.lucentadvisory.com.au/services/outsourced-accounting-and-bookkeeping/)
-- [city-researched] Lumina: None -> 'Sydney, NSW, AU' (https://www.lumina.com.au/contact/)
 - [city-researched] Lyre's Spirit Co: 'Australia' -> 'Leichhardt, NSW, AU' (https://lyres.com/pages/terms-conditions)
 - [city-researched] O&M (Original & Mineral): 'AU' -> 'Redfern, NSW, AU' (https://originalmineralpro.com/policies/contact-information)
 - [city-researched] Perfect Accounting & Tax Services: None -> 'Direk, SA, AU' (https://www.perfectaccounting.com.au/offices/)
 - [city-researched] Petal & Pup: 'QLD, AU' -> 'Pinkenba, QLD, AU' (https://petalandpup.com.au/pages/contact-us)
 - [city-researched] Proacct+: None -> 'Heidelberg, VIC, AU' (https://proacctplus.com.au/contact/)
 - [city-researched] Pure Mama: None -> 'Tauranga, NZ' (https://linkedin.com/company/pure-mama-skincare)
-- [city-researched] Rosy Small Business Services: None -> 'St Kilda, VIC, AU' (https://rosy.business/contact-us/)
 - [city-researched] Sheet Society: 'Australia' -> 'Brunswick, VIC, AU' (https://sheetsociety.com/en-nz/help/privacy-policy)
 - [city-researched] Step One: 'Australia' -> 'Surry Hills, NSW, AU' (https://stepone.life/pages/terms-and-conditions-of-sale)
-- [city-researched] The BAS Agents: None -> 'Erina, NSW, AU' (https://www.thebasagents.com.au/contact-us)
-- [city-researched] The Integrated CFO: None -> 'Marcoola, QLD, AU' (https://www.concaveintel.com/business/the-integrated-cfo-78654812227)
 - [city-researched] Unity Accounting: None -> 'Caringbah, NSW, AU' (https://i24app.com/au/find-an-accountant/profile/unity-accounting-2229)
 - [city-researched] v2food: 'AU' -> 'Sydney, NSW, AU' (https://mergr.com/company/v2-food)
-- [city-researched] WCT Advisory Group: None -> 'Brisbane, QLD, AU' (https://www.wctadvisory.com.au/contact-wct-advisory)
-- [city-researched] XETA: None -> 'Bondi Junction, NSW, AU' (https://employmenthero.com/uk/partner/xeta/)
 - [city-researched] XO Accounting: None -> 'Werribee, VIC, AU' (https://linkedin.com/company/xo-accounting-pty-ltd)
-- [count] cities: Company location 465, Web research (Exa) 37, Contact location (company location not recorded) 2
-- [REVIEW-email-on-multiple-accounts] bryn@hellocfo.com.au: ['GRIDSIGHT', 'HelloCFO']
+- [count] cities: Company location 419, Web research (Exa) 29, Contact location (company location not recorded) 2
 - [REVIEW-email-on-multiple-accounts] alexander@lmsadvisory.com.au: ['LMS Advisory', 'Managed']
 - [count] outreach: 63 events added from the published page
+- [excluded] outreach event hostinger:INBOX.Sent:5 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:7 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:11 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:19 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:21 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:22 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:28 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:31 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:34 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:35 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:37 dropped (excluded account)
 - [excluded] outreach event hostinger:INBOX.Sent:189 dropped (excluded account)
-- [count] outreach: 195 events (0 not matched to an account)
+- [excluded] outreach event hostinger:INBOX.Sent:183 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:173 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:164 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:159 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:157 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:148 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:145 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:137 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:132 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:129 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:123 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:119 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:118 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:117 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:114 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:112 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:109 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:107 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:106 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:105 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:104 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:46 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:47 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:51 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:54 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:55 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:57 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:59 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:63 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:67 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:70 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:77 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:79 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:94 dropped (excluded account)
+- [excluded] outreach event hostinger:INBOX.Sent:102 dropped (excluded account)
+- [count] outreach: 149 events (0 not matched to an account)
