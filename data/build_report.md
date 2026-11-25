@@ -1,11 +1,11 @@
 # Data build report
 
-Generated 2026-11-25T11:03:07+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-25T11:03:47+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **504**
 - Contacts (de-duplicated): **899**
-- Sections: firm 219, internal 159, solo 126
-- Segments: Accounting & advisory 219, CPG / Ecom / D2C 173, SaaS 102, AI startup 7, Other 2, VC / Accelerator 1
+- Sections: firm 165, internal 159, solo 126
+- Segments: CPG / Ecom / D2C 173, Accounting & advisory 165, SaaS 102, Bookkeeping & BAS 20, Other financial services 16, Outsourced CFO & finance 15, AI startup 7, Outsourcing for accounting firms 3, Other 2, VC / Accelerator 1
 - Accounts in Attio: 271
 - Accounts with no contacts: 1
 - Contacts with email: 653
@@ -84,6 +84,7 @@ Generated 2026-11-25T11:03:07+00:00 by `pipeline/build_data.py`.
 - [live-merge] note on hellocfo--bryn-leggett: Rejected Vert on LinkedIn. Do not contact.
 - [count] published-page additions: 26 accounts, 58 contacts, 1 notes
 - [excluded] 4orward (4orward): Removed at the owner's request (comment on the published page, 25 Nov 2026).
+- [count] moved out of accounting firms: Bookkeeping & BAS 20, Other financial services 16, Outsourced CFO & finance 15, Outsourcing for accounting firms 3
 - [city-researched] Adventure Operations: 'AU' -> 'Eagle Farm, QLD, AU' (https://adventureoperations.com.au/)
 - [city-researched] b.box for kids: 'Australia' -> 'Notting Hill, VIC, AU' (https://bbox.com.au/pages/terms-and-conditions)
 - [city-researched] Bali Body: 'Australia' -> 'Brighton, VIC, AU' (https://au.balibodyco.com/pages/privacy-policy)

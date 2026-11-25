@@ -69,7 +69,7 @@ describe('contacted / not contacted — accounts', () => {
   it('combines with the section tab counts, search and city', () => {
     const { accountRows } = setup();
     const nc = filterAccountRows(accountRows, { ...DEFAULT_ACCOUNT_FILTERS, contacted: 'not_contacted' });
-    expect(sectionCounts(nc)).toEqual({ all: 2, firm: 0, internal: 2, solo: 0 });
+    expect(sectionCounts(nc)).toEqual({ all: 2, firm: 0, services: 0, internal: 2, solo: 0 });
     const sydney = filterAccountRows(accountRows, withoutOutreach({ ...DEFAULT_ACCOUNT_FILTERS, city: 'Sydney' }));
     expect(contactedCounts(sydney)).toEqual({ all: 3, contacted: 2, not_contacted: 1 });
   });
@@ -159,7 +159,7 @@ describe('city / state filters', () => {
 
   it('city filter drives the section tab counts', () => {
     const { accountRows } = setup();
-    expect(sectionCounts(filterAccountRows(accountRows, { ...DEFAULT_ACCOUNT_FILTERS, city: 'Sydney' }))).toEqual({ all: 3, firm: 0, internal: 3, solo: 0 });
+    expect(sectionCounts(filterAccountRows(accountRows, { ...DEFAULT_ACCOUNT_FILTERS, city: 'Sydney' }))).toEqual({ all: 3, firm: 0, services: 0, internal: 3, solo: 0 });
   });
 
   it('state filter, incl. accounts with no state (e.g. a New Zealand city)', () => {

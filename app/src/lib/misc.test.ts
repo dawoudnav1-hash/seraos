@@ -121,7 +121,7 @@ describe('fixture data end-to-end', () => {
   });
   it('section counts and search (accent-folded, contact emails)', () => {
     const rows = buildAccountRows(accounts, index);
-    expect(sectionCounts(rows)).toEqual({ all: 9, firm: 2, internal: 5, solo: 2 });
+    expect(sectionCounts(rows)).toEqual({ all: 9, firm: 2, services: 0, internal: 5, solo: 2 });
     expect(filterAccountRows(rows, { ...DEFAULT_ACCOUNT_FILTERS, query: 'zoe nguyen' }).map((r) => r.account.id)).toEqual([
       'kowhai-partners',
     ]);

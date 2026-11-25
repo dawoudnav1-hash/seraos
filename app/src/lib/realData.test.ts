@@ -27,7 +27,7 @@ describe('generated data in src/data', () => {
   it('section counts add up and every stat is computable', () => {
     const index = buildEventIndex(a.accounts, o.outreach.events);
     const counts = sectionCounts(buildAccountRows(a.accounts, index));
-    expect(counts.firm + counts.internal + counts.solo).toBe(counts.all);
+    expect(counts.firm + counts.services + counts.internal + counts.solo).toBe(counts.all);
     expect(buildContactRows(a.accounts, index).length).toBe(a.accounts.reduce((n, x) => n + x.contacts.length, 0));
     for (const range of ['7d', '30d', '90d', 'all'] as const) {
       const s = computeDashboardStats({ accounts: a.accounts, events: o.outreach.events, range, now: Date.now() });

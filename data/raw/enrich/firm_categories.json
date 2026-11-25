@@ -1,0 +1,1754 @@
+[
+ {
+  "id": "abbotts-group",
+  "name": "Abbotts Group",
+  "category": "accounting_firm",
+  "reason": "West Perth firm offering business and taxation services, financial planning, finance broking, insurance and legal referral for businesses and individuals",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "abound-group",
+  "name": "Abound Group",
+  "category": "accounting_firm",
+  "reason": "Melbourne accounting group (Melbourne CBD and Ascot Vale) providing tax returns, bookkeeping, business advisory, financial planning and finance",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "accolution",
+  "name": "Accolution",
+  "category": "bookkeeping",
+  "reason": "Online bookkeeping, BAS agent and virtual CFO services for small businesses on Xero/QuickBooks.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "accountant-assist",
+  "name": "Accountant Assist",
+  "category": "outsourcer_to_firms",
+  "reason": "Offshore/white-label bookkeeping, payroll, SMSF and tax-prep support for accountants and bookkeepers.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "accounten",
+  "name": "Accounten",
+  "category": "accounting_firm",
+  "reason": "Bookkeeping, payroll, virtual CFO, audit preparation and tax services for individuals and small-to-medium businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "accounting-gurus",
+  "name": "Accounting Gurus",
+  "category": "outsourcer_to_firms",
+  "reason": "Offshore and onshore accounting outsourcing (bookkeeping, payroll, tax, SMSF) for Australian accounting firms.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "accountinghq",
+  "name": "AccountingHQ",
+  "category": "accounting_firm",
+  "reason": "Melbourne accounting firm (founded 1976) focused on tax compliance, business strategy, financial planning and lending",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "accounts-bridge",
+  "name": "Accounts Bridge",
+  "category": "bookkeeping",
+  "reason": "Bookkeeping-led practice with tax and financial services for small businesses.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "accounts-nextgen",
+  "name": "Accounts NextGen",
+  "category": "accounting_firm",
+  "reason": "Melbourne accounting, tax and advisory firm for businesses.",
+  "confidence": "medium",
+  "checkedWeb": true
+ },
+ {
+  "id": "accru-melbourne",
+  "name": "Accru Melbourne",
+  "category": "accounting_firm",
+  "reason": "Hawthorn East firm offering audit, business advisory, not-for-profit advisory, superannuation, tax, lending and wealth management",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "accumulus-advisory",
+  "name": "Accumulus Advisory",
+  "category": "accounting_firm",
+  "reason": "Essendon accounting and business advisory firm offering tax, bookkeeping, virtual CFO, forecasting, SMSF and Xero cloud accounting for small business",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "adviceco-ca",
+  "name": "AdviceCo CA",
+  "category": "accounting_firm",
+  "reason": "Central Coast NSW accountancy and financial planning firm (formerly Robson Partners) providing accounting, tax, wealth and business advice",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "affinity-advisory",
+  "name": "Affinity Advisory",
+  "category": "accounting_firm",
+  "reason": "Boutique accounting firm for business consulting and tax; specialises in sports and entertainment",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "afm-services",
+  "name": "AFM Services",
+  "category": "accounting_firm",
+  "reason": "Norwood (Adelaide) firm providing accounting, bookkeeping, payroll, advisory, tax and wealth strategy for small-to-medium businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "afp-advisory-group",
+  "name": "AFP Advisory Group",
+  "category": "accounting_firm",
+  "reason": "Sydney accounting, tax and advisory firm plus finance/loans division serving business owners, HNW individuals and family offices",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "ags-financial-group",
+  "name": "AGS Financial Group",
+  "category": "other",
+  "reason": "Financial planning, SMSF and mortgage group; accounting is secondary.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "aims-australia-tax-accountants",
+  "name": "AIMS Australia Tax Accountants",
+  "category": "accounting_firm",
+  "reason": "Melbourne CPA practice specialising in complex Australian and cross-border tax for HNW private clients, expats and non-residents",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "aintree-group",
+  "name": "Aintree Group",
+  "category": "accounting_firm",
+  "reason": "Integrated professional services firm combining accounting, legal, wealth and business advisory in Melbourne and Sydney",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "alexander-and-co-consulting",
+  "name": "Alexander and Co Consulting",
+  "category": "bookkeeping",
+  "reason": "Bookkeeping, payroll and CFO services for start-ups and small businesses.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "alexander-spencer-cpa",
+  "name": "Alexander Spencer CPA",
+  "category": "accounting_firm",
+  "reason": "Camberwell accounting firm (est",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "andresen-mccarthy-partners",
+  "name": "Andresen McCarthy Partners",
+  "category": "accounting_firm",
+  "reason": "Eltham boutique accounting firm (founded 1983) with six partners serving sole traders, SMEs and larger commercial clients in tax, superannuation and business management",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "armada-accountants-advisors",
+  "name": "Armada Accountants & Advisors",
+  "category": "accounting_firm",
+  "reason": "Perth accounting firm offering tax, audit, bookkeeping, CFO services and financial planning to individuals, business owners and investors",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "ashfords",
+  "name": "Ashfords",
+  "category": "accounting_firm",
+  "reason": "Fast-growing south-east Melbourne firm: accounting, bookkeeping, super, wealth, financial planning and audit",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "asv-wadeson",
+  "name": "ASV Wadeson",
+  "category": "accounting_firm",
+  "reason": "Chartered accountants, auditors and tax advisers for SMEs; Melbourne offices in Cheltenham, Mount Waverley and Springvale, plus NSW and Tasmania",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "baumgartners",
+  "name": "Baumgartners",
+  "category": "accounting_firm",
+  "reason": "Full-service accounting, tax, audit and advisory firm in Melbourne's eastern suburbs (founded 1983) with a Brisbane office",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "bbb-partners",
+  "name": "BBB Partners",
+  "category": "other",
+  "reason": "SMSF, lending and financial services adviser for medical professionals.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "beam-bookkeeping",
+  "name": "Beam Bookkeeping",
+  "category": "bookkeeping",
+  "reason": "Outsourced bookkeeping, payroll, BAS and reconciliations for small to large businesses.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "bell-partners-melbourne",
+  "name": "Bell Partners (Melbourne)",
+  "category": "accounting_firm",
+  "reason": "Melbourne office of Bell Partners offering accounting, tax, wealth, legal, finance, insurance and audit services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "bentleys-victoria",
+  "name": "Bentleys Victoria",
+  "category": "accounting_firm",
+  "reason": "Victorian office of the Bentleys network (formerly McLean Delmo Bentleys) offering business advisory, accounting and audit services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "bio101",
+  "name": "Bio101",
+  "category": "outsourced_finance",
+  "reason": "Outsourced CFO and finance function for life-science startups.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "bishop-collins-chartered-accountants",
+  "name": "Bishop Collins Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "Central Coast NSW chartered accountants and registered auditors with fixed-fee engagements covering tax, audit, bookkeeping, outsourced CFO and SMSF",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "bloom-money",
+  "name": "BLOOM money.",
+  "category": "accounting_firm",
+  "reason": "Accounting practice offering BAS, tax, bookkeeping and virtual CFO services plus courses and templates for small business owners",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "bongiorno-group",
+  "name": "Bongiorno Group",
+  "category": "accounting_firm",
+  "reason": "Melbourne firm (founded 1964) providing tax and accounting, financial planning, insurance and lending to medical, dental and high-net-worth clients",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "books-onsite",
+  "name": "Books Onsite",
+  "category": "bookkeeping",
+  "reason": "Onsite bookkeeping and BAS service for small and medium businesses.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "books365",
+  "name": "Books365",
+  "category": "bookkeeping",
+  "reason": "Cloud bookkeeping and payroll for SMEs.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "boss-private-clients",
+  "name": "Boss Private Clients",
+  "category": "accounting_firm",
+  "reason": "Boutique accounting and advisory practice in Melbourne's CBD acting for private clients, with tax and retirement advice",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "bourne-weir",
+  "name": "Bourne & Weir",
+  "category": "accounting_firm",
+  "reason": "Melbourne boutique accounting firm (founded 1990) offering tax, advisory, SMSF and virtual CFO services to individuals, families and growing businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "boutique-accounts",
+  "name": "Boutique Accounts",
+  "category": "bookkeeping",
+  "reason": "Bookkeeping and payroll delivery team for businesses, plus tax and software consulting.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "breathe-accounting",
+  "name": "Breathe Accounting",
+  "category": "accounting_firm",
+  "reason": "Bunbury (WA) accounting firm providing bookkeeping, tax and accounting, payroll, superannuation and business advisory to local businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "bri-ferrier-melbourne",
+  "name": "BRI Ferrier (Melbourne)",
+  "category": "other",
+  "reason": "Insolvency, business recovery and forensic accounting practice.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "businessdepot",
+  "name": "businessDEPOT",
+  "category": "accounting_firm",
+  "reason": "Brisbane-based multi-disciplinary firm for SMEs offering accounting, tax, bookkeeping, financial planning, legal, marketing and business broking in one place",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "byrons",
+  "name": "BYRONS",
+  "category": "accounting_firm",
+  "reason": "Sydney independent advisory and accounting firm (founded 1955, 18 directors, 80+ staff, PrimeGlobal member) with audit, tax, outsourced CFO, SMSF and corporate recovery",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "cfo-on-call",
+  "name": "CFO On Call",
+  "category": "outsourced_finance",
+  "reason": "Network of part-time virtual CFOs and financial controllers for SMEs.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "charterpoint",
+  "name": "Charterpoint",
+  "category": "accounting_firm",
+  "reason": "Accounting, audit, grants management and financial consulting firm serving government, corporate and not-for-profit clients, based in Canberra",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "clear-tax-accountants",
+  "name": "Clear Tax Accountants",
+  "category": "accounting_firm",
+  "reason": "Melbourne accounting and advisory firm (founded 2018) offering tax, business advisory, SMSF, property tax planning, bookkeeping and ASIC compliance to individuals, investors and business owners",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "code-one-accountants",
+  "name": "Code One Accountants",
+  "category": "accounting_firm",
+  "reason": "Perth accounting firm (founded 1973 as Quarles & Co) serving the building and medical industries with tax, SMSF, business improvement and lending",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "collins-co",
+  "name": "Collins & Co",
+  "category": "accounting_firm",
+  "reason": "Footscray business and wealth advisory firm (since 1954) offering accounting, bookkeeping, audit, wealth planning, lending, succession and cloud accounting; describes itself as the largest accounting ",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "connect-advisors",
+  "name": "Connect Advisors",
+  "category": "accounting_firm",
+  "reason": "Melbourne CBD firm providing taxation, SMSF, bookkeeping, forensic accounting and business advisory to multinationals, start-ups and small businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "crawford-accountants",
+  "name": "Crawford Accountants",
+  "category": "accounting_firm",
+  "reason": "Kew accounting firm (est",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "credible-accounting",
+  "name": "Credible Accounting",
+  "category": "accounting_firm",
+  "reason": "Boutique firm in Norwest, Sydney providing bookkeeping, payroll, tax, business advisory and fractional CFO support to small business owners across Australia",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "cscg",
+  "name": "CSCG",
+  "category": "accounting_firm",
+  "reason": "Accounting and tax, lending, financial planning, SMSF and bookkeeping firm in Melbourne's west",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "daniel-allison-and-associates",
+  "name": "Daniel Allison & Associates",
+  "category": "accounting_firm",
+  "reason": "Tax and advisory firm with specialist legal, assurance and superannuation (AFSL) arms",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "davidsons-accountants-business-consultan",
+  "name": "Davidsons Accountants & Business Consultants",
+  "category": "accounting_firm",
+  "reason": "Geelong accounting firm (founded 1905) with offices in Newtown and Torquay offering business services, tax, audit, succession, SMSF and cloud consulting/bookkeeping",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "dawson-group",
+  "name": "Dawson Group",
+  "category": "accounting_firm",
+  "reason": "Southern NSW business advisory and accounting firm (Cootamundra since 1918) with offices in Goulburn, Yass and Narooma serving SMBs, investors and retirees",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "dfk-benjamin-king-money-dfk-bkm",
+  "name": "DFK Benjamin King Money (DFK BKM)",
+  "category": "accounting_firm",
+  "reason": "Richmond accounting firm (founded 1960) with Camberwell office offering tax, strategic business advice, wealth, cloud accounting, SMSF and audit; member of the DFK alliance",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "dfk-laurence-varnay",
+  "name": "DFK Laurence Varnay",
+  "category": "accounting_firm",
+  "reason": "Sydney accountancy and business advisory firm (since 1957) offering accounting, tax, audit, outsourced CFO, SMSF administration, bookkeeping and cloud accounting support",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "dfk-nugents",
+  "name": "DFK Nugents",
+  "category": "accounting_firm",
+  "reason": "Southbank (Melbourne) and Griffith NSW business advisory firm offering compliance and tax, SMSF, corporate secretarial, virtual CFO, cloud solutions, valuations and wealth management; Xero Platinum Pa",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "dhm-partners",
+  "name": "DHM Partners",
+  "category": "accounting_firm",
+  "reason": "Mildura (regional Victoria) accounting and business advisory firm providing tax, bookkeeping, SMSF, wealth and business planning",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "diagno-accountants-and-financial-strateg",
+  "name": "Diagno Accountants and Financial Strategists",
+  "category": "accounting_firm",
+  "reason": "CPA firm (since 1996) providing accounting and tax, financial reporting and forecasting, superannuation and outsourced CFO to emerging and established businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "dmg-partners",
+  "name": "DMG Partners",
+  "category": "other",
+  "reason": "Financial-planning-led practice with accounting as a secondary line.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "dpm-financial-services",
+  "name": "DPM Financial Services",
+  "category": "accounting_firm",
+  "reason": "Melbourne and Sydney financial services group (60+ years) serving medical professionals with tax and accounting, insurance, wealth, lending, property advocacy and legal",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "dry-kirkness",
+  "name": "Dry Kirkness",
+  "category": "accounting_firm",
+  "reason": "West Perth chartered accountants (est",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "dvt-mcleods",
+  "name": "DVT McLeods",
+  "category": "other",
+  "reason": "Restructuring and insolvency advisory firm.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "eagle-accounting",
+  "name": "Eagle Accounting",
+  "category": "accounting_firm",
+  "reason": "Cairns accounting firm for tourism/hospitality (management rights), medical practices and SMSFs, offering tax, bookkeeping and payroll with Xero and MYOB expertise",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "ecovis-clark-jacobs",
+  "name": "ECOVIS Clark Jacobs",
+  "category": "accounting_firm",
+  "reason": "ECOVIS network accounting and business advisers (tax, medical, family office) with outsourced accounting as one line.",
+  "confidence": "medium",
+  "checkedWeb": true
+ },
+ {
+  "id": "ega-corporate-advisers",
+  "name": "EGA Corporate Advisers",
+  "category": "accounting_firm",
+  "reason": "Melbourne accounting practice that structures client businesses and provides accounting and tax services, leveraging its business networks",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "elevate-accounting",
+  "name": "Elevate Accounting",
+  "category": "accounting_firm",
+  "reason": "South Perth firm providing accounting, tax, cloud accounting, CFO solutions, forecasting and business strategy for Western Australian businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "elevate-smes",
+  "name": "Elevate SMEs",
+  "category": "bookkeeping",
+  "reason": "Outsourced finance admin: bookkeeping, payroll, AP/AR and reconciliations for growing businesses.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "empire-accountants",
+  "name": "Empire Accountants",
+  "category": "accounting_firm",
+  "reason": "Brisbane accounting firm offering proactive tax planning, business advisory and fixed monthly fees for small and medium businesses and NFPs, using Xero",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "end-of-month-angels",
+  "name": "End of Month Angels",
+  "category": "bookkeeping",
+  "reason": "Outsourced trust accounting and bookkeeping for real estate agencies.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "endurego-tax",
+  "name": "EndureGo Tax",
+  "category": "accounting_firm",
+  "reason": "CPA tax and accounting firm with offices in Ashfield, Belrose (Sydney) and Adelaide offering tax, BAS, bookkeeping, SMSF and ATO debt support to small businesses and individuals",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "enspira-financial",
+  "name": "Enspira Financial",
+  "category": "accounting_firm",
+  "reason": "Relationship-based advisory accounting firm with Sydney headquarters and Brookvale office; its Melbourne practice rebranded as Guava Lane in July 2025",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "esuperfund",
+  "name": "ESUPERFUND",
+  "category": "other",
+  "reason": "SMSF establishment and administration provider.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "esv-business-advice-and-accounting",
+  "name": "ESV Business Advice and Accounting",
+  "category": "accounting_firm",
+  "reason": "Mid-tier Sydney business advisory and accounting firm offering advisory, tax, audit, outsourced CFO, family office and fraud services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "evource",
+  "name": "Evource",
+  "category": "bookkeeping",
+  "reason": "India-supported outsourced bookkeeping, payroll and AP/AR for real estate, strata and SMEs.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "ezygrowth",
+  "name": "EzyGrowth",
+  "category": "other",
+  "reason": "Business growth, coaching and virtual CFO franchise-style network.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "factor1",
+  "name": "Factor1",
+  "category": "accounting_firm",
+  "reason": "Specialist accountants and advisers for privately owned businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "float-accounting-advisory",
+  "name": "Float Accounting & Advisory",
+  "category": "accounting_firm",
+  "reason": "Accounting firm offering tax, bookkeeping, payroll, virtual CFO and business advisory with a focus on e-commerce and automation; offices in Preston, Melbourne, Williamstown and Frankston",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "focus-partners-australia",
+  "name": "Focus Partners Australia",
+  "category": "other",
+  "reason": "Financial planning practice, not accounting.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "fortuna-advisory-group",
+  "name": "Fortuna Advisory Group",
+  "category": "accounting_firm",
+  "reason": "Multi-service group (West Perth HQ, 16 offices) covering business advisory, tax and accounting, financial planning, insurance, legal, IT, HR, mortgage broking, CFO services and bookkeeping",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "future-advisory",
+  "name": "Future Advisory",
+  "category": "accounting_firm",
+  "reason": "Business advisory and accounting firm with fixed-fee packages and virtual CFO work",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "grey-space-advisory",
+  "name": "Grey Space Advisory",
+  "category": "outsourced_finance",
+  "reason": "Runs the full finance function for small businesses via virtual CFO and bookkeeping.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "growth-team",
+  "name": "Growth Team",
+  "category": "accounting_firm",
+  "reason": "Chadstone accounting and growth advisory firm providing tax, outsourced bookkeeping/accounting and virtual CFO for hospitality, e-commerce, creatives and professional services SMBs",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "guests-accounting",
+  "name": "Guests Accounting",
+  "category": "accounting_firm",
+  "reason": "Caulfield North accounting firm (since 1945) providing accounting and tax to individuals, sole traders, professionals, local and international businesses and manufacturers",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "hall-chadwick-nsw",
+  "name": "Hall Chadwick (Sydney)",
+  "category": "accounting_firm",
+  "reason": "Sydney office of the Hall Chadwick group: audit, tax, corporate advisory, forensics and insolvency",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "hall-chadwick-melbourne",
+  "name": "Hall Chadwick Melbourne",
+  "category": "accounting_firm",
+  "reason": "Melbourne arm of national mid-market accounting group Hall Chadwick offering accounting, audit, tax, forensic, valuation and insolvency services",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "hamilton-morello",
+  "name": "Hamilton Morello",
+  "category": "accounting_firm",
+  "reason": "Forest Hill chartered accountants and business advisers (since 1992) servicing small-to-medium businesses and individuals, with financial planners on staff",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "hatcher-advisory",
+  "name": "Hatcher Advisory",
+  "category": "accounting_firm",
+  "reason": "Melbourne strategic advisory and accounting firm for business owners covering tax planning, business advice, restructuring, performance improvement and SMSF",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "hellocfo",
+  "name": "HelloCFO",
+  "category": "outsourced_finance",
+  "reason": "Virtual CFO, accounting and advisory for startups and high-growth companies.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "highview-accounting-financial",
+  "name": "Highview Accounting & Financial",
+  "category": "accounting_firm",
+  "reason": "Victorian and Queensland advisory group (Cranbourne HQ, seven offices incl",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "hm-advisory-formerly-hamilton-murphy",
+  "name": "HM Advisory (formerly Hamilton Murphy)",
+  "category": "other",
+  "reason": "Corporate and personal insolvency and restructuring practice.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "hmh-advisory-haines-muir-hill",
+  "name": "hmh Advisory (Haines Muir Hill)",
+  "category": "accounting_firm",
+  "reason": "Mont Albert chartered accountants and financial advisers (since 1977) providing business and wealth advice to family businesses and SMEs, including tax, audit, SMSF and cloud accounting",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "hta-advisory",
+  "name": "HTA Advisory",
+  "category": "accounting_firm",
+  "reason": "South Yarra and Sunshine Coast firm (founded 2008) giving small and medium businesses proactive accounting, tax, business planning, management reporting, wealth and finance advice",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "humanee",
+  "name": "Humanee",
+  "category": "accounting_firm",
+  "reason": "Adelaide business advisory and accounting firm providing tax, virtual CFO, forecasting and reporting, structuring and M&A support",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "ikeep",
+  "name": "iKeep",
+  "category": "bookkeeping",
+  "reason": "Outsourced bookkeeping, payroll and finance team for businesses; also offers white-label bookkeeping to accounting firms.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "illumin8",
+  "name": "Illumin8",
+  "category": "accounting_firm",
+  "reason": "Accounting and growth firm promising clients 'freedom from standard business processes'",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "indepth-accounting",
+  "name": "Indepth Accounting",
+  "category": "accounting_firm",
+  "reason": "Award-winning Maroochydore firm (founded 2018) providing business advisory, accounting, SMSF administration and tax compliance; Xero file set-up and virtual CFO offered",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "infinity22",
+  "name": "Infinity22",
+  "category": "accounting_firm",
+  "reason": "Cloud-based accounting, tax, business advisory and virtual CFO firm for SMEs, e-commerce and SaaS clients (Xero, Shopify, Zapier-integrated), Melbourne HQ with Brisbane offices",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "inline-partners",
+  "name": "Inline Partners",
+  "category": "accounting_firm",
+  "reason": "Hunters Hill (Sydney) firm providing bookkeeping, accounting, tax advice and CFO services to small businesses with a Philippines support team",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "inp-group",
+  "name": "INP Group",
+  "category": "accounting_firm",
+  "reason": "Chartered accounting firm focused on Asian-market clients with services including accounting, audit, bookkeeping and payroll, business advisory, SMSF, corporate accounting and statutory reporting; off",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "integrated-accountants-pl",
+  "name": "Integrated Accountants PL",
+  "category": "accounting_firm",
+  "reason": "Melbourne tax and accounting firm with branches in Werribee, Caroline Springs, Perth and Adelaide offering individual tax returns, bookkeeping and business accounting",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "intrepid-advisory",
+  "name": "Intrepid Advisory",
+  "category": "accounting_firm",
+  "reason": "Brisbane accountants specialising in Australian Shopify and Amazon brand owners, providing bookkeeping, tax and grants services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "iq-accountants",
+  "name": "IQ Accountants",
+  "category": "accounting_firm",
+  "reason": "Gold Coast cloud accounting firm offering business advisory, tax planning, management accounting, company secretarial and fixed-fee 'IQ Bookkeeping' packages; MYOB-certified",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "jeffrey-thomas-partners-jt-p",
+  "name": "Jeffrey Thomas & Partners (JT&P)",
+  "category": "accounting_firm",
+  "reason": "Melbourne chartered accounting and advisory firm (since 1981) serving individuals, credit unions, solicitor and real estate trust accounts, NFPs and SMEs; relocated to Level 18, 114 William St in June",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "jim-s-bookkeeping",
+  "name": "Jim's Bookkeeping",
+  "category": "bookkeeping",
+  "reason": "Franchised bookkeeping and BAS network for small businesses.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "jirsch-sutherland",
+  "name": "Jirsch Sutherland",
+  "category": "other",
+  "reason": "Independent insolvency and business recovery practice.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "johnson-partners",
+  "name": "Johnson Partners",
+  "category": "accounting_firm",
+  "reason": "Four-decade Melbourne accounting and business advisory firm run by tax partners.",
+  "confidence": "medium",
+  "checkedWeb": true
+ },
+ {
+  "id": "judsonkoman",
+  "name": "JudsonKoman",
+  "category": "outsourced_finance",
+  "reason": "Virtual/part-time CFO and management accounting for businesses.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "kearney-group",
+  "name": "Kearney Group",
+  "category": "accounting_firm",
+  "reason": "Integrated business and financial advisory group (founded 1986) offering business advisory, commercial bookkeeping, private wealth and strategic lending to businesses and households",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "kennedy-king",
+  "name": "Kennedy King",
+  "category": "accounting_firm",
+  "reason": "Boutique chartered accounting practice (business advisory, tax compliance, SMSF, payroll) founded 2005",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "kidmans-partners",
+  "name": "Kidmans Partners",
+  "category": "accounting_firm",
+  "reason": "Balwyn-based integrated firm (since 1999) providing tax, accounting, bookkeeping, audit, SMSF, wealth management and lending to SMEs, not-for-profits and individuals",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "kinsella-chartered-accountants",
+  "name": "Kinsella Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "Chartered accounting firm in Canberra (ACT) providing tax consulting, financial reporting, virtual CFO and an outsourced finance function to SMEs",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "kns-accountants-business-advisors",
+  "name": "KNS Accountants Business Advisors",
+  "category": "accounting_firm",
+  "reason": "Western Sydney (Rooty Hill) accounting firm established 2014 offering tax, accounting, bookkeeping, payroll, SMSF and auditing to individuals, sole traders, trusts and companies",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "koustas-co",
+  "name": "Koustas + Co",
+  "category": "accounting_firm",
+  "reason": "Chartered accountants and business/tax advisers for SMEs, mid-market and family businesses since 1998",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "larkin-partners",
+  "name": "Larkin Partners",
+  "category": "accounting_firm",
+  "reason": "Boutique Melbourne accounting and business advisory firm: tax planning, business management accounting and SMSF for SMEs and families",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "latitude-accountants",
+  "name": "Latitude Accountants",
+  "category": "accounting_firm",
+  "reason": "Chartered accountancy firm with offices in NSW, VIC and SA (Melbourne office at 289 Flinders Lane) providing accounting, tax, advisory, superannuation and structuring to small and medium businesses an",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lbw-business-wealth-advisors",
+  "name": "LBW Business + Wealth Advisors",
+  "category": "accounting_firm",
+  "reason": "Geelong-based accounting, wealth, audit and assurance advisory firm (40+ years) with offices in Geelong West and Melbourne CBD, serving individuals and businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "ldb-group",
+  "name": "LDB Group",
+  "category": "accounting_firm",
+  "reason": "Blackburn-based accounting and advisory group (since 1986) offering accounting, tax, business advisory, superannuation, wealth management and property services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lgy-accountants",
+  "name": "LGY Accountants",
+  "category": "accounting_firm",
+  "reason": "Melbourne CBD accounting firm providing tax planning, bookkeeping, financial reporting, business advice and valuations to small and medium businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lhp-partners-chartered-accountants",
+  "name": "LHP Partners Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "Parramatta (Sydney) chartered accountants providing tax, accounting, bookkeeping, payroll, and advisory to small businesses, companies, trusts and individuals",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lineage-group",
+  "name": "Lineage Group",
+  "category": "other",
+  "reason": "Family enterprise and governance adviser for business families.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "linton-advisory-group",
+  "name": "Linton Advisory Group",
+  "category": "outsourced_finance",
+  "reason": "Virtual CFO-led advisory (budgeting, M&A, valuation) for SMEs.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "lipins-partners",
+  "name": "Lipins Partners",
+  "category": "accounting_firm",
+  "reason": "Partner-led accounting, tax, financial planning and wealth firm, about 30 years old",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "liston-newton-advisory",
+  "name": "Liston Newton Advisory",
+  "category": "accounting_firm",
+  "reason": "Accounting and financial advisory firm with offices in South Melbourne, Melbourne CBD, Malvern, Donald, Sydney and Gold Coast; Platinum Xero Partner offering business accounting, Xero bookkeeping, tax",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lms-advisory",
+  "name": "LMS Advisory",
+  "category": "accounting_firm",
+  "reason": "Parramatta (Sydney) accounting and advisory firm offering cloud accounting, bookkeeping, payroll, financial reporting, month-end close, tax compliance and outsourced CFO/M&A advisory",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lolly-jar-creative-industry-finance-supp",
+  "name": "Lolly Jar - Creative Industry Finance Support",
+  "category": "outsourced_finance",
+  "reason": "Outsourced/part-time finance departments for creative agencies (AP/AR, payroll, reporting).",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lombardi-partners",
+  "name": "Lombardi Partners",
+  "category": "accounting_firm",
+  "reason": "Melbourne accounting and business advisory firm with offices in Melbourne CBD, Geelong and Malvern, offering cloud accounting and business advice",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lowe-lippmann-chartered-accountants",
+  "name": "Lowe Lippmann Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "St Kilda Road chartered accounting and advisory firm (75+ years) offering strategic advisory, audit and assurance, insolvency, tax and compliance, corporate secretarial, international tax and financia",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "lucent-advisory",
+  "name": "Lucent Advisory",
+  "category": "bookkeeping",
+  "reason": "Outsourced bookkeeping, payroll and accounting support for small businesses on fixed monthly fees.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "lumina",
+  "name": "Lumina",
+  "category": "outsourced_finance",
+  "reason": "Outsourced CFO and finance team for fund managers, PE and family offices.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mackay-goodwin",
+  "name": "Mackay Goodwin",
+  "category": "other",
+  "reason": "Insolvency and restructuring firm.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "marin-accountants",
+  "name": "Marin Accountants",
+  "category": "accounting_firm",
+  "reason": "Melbourne tax and accounting firm (est",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mas-tax-accountants",
+  "name": "MAS Tax Accountants",
+  "category": "accounting_firm",
+  "reason": "Keysborough-headquartered tax and accounting firm (1300 627 829) offering accounting and bookkeeping services with multiple Melbourne offices",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "matthews-steer-accountants-advisors",
+  "name": "Matthews Steer Accountants & Advisors",
+  "category": "accounting_firm",
+  "reason": "Essendon Fields accounting, tax and business advisory firm with 30+ years in business, serving transport, construction, manufacturing, property, professional services and start-up clients",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "maximum-business-solutions-bruce-edmunds",
+  "name": "Maximum Business Solutions & Bruce Edmunds",
+  "category": "bookkeeping",
+  "reason": "Bookkeeping-first Xero partner practice working alongside an accounting firm.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "mayfair-marks",
+  "name": "Mayfair Marks",
+  "category": "accounting_firm",
+  "reason": "Surry Hills (Sydney) accountancy and advisory firm providing bookkeeping, tax planning, SMSF, business advisory, restructuring and virtual CFO services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mcadam-siemon",
+  "name": "McAdam Siemon",
+  "category": "accounting_firm",
+  "reason": "Queensland CPA/accounting firm (Upper Mt Gravatt, Forest Glen, Noosa) offering accounting, tax and an external/outsourced CFO ('Your CFO') service to SMEs",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mcqueen-group",
+  "name": "McQueen Group",
+  "category": "other",
+  "reason": "Wealth-led integrated financial advisory group; accounting one of several lines.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "mediq-financial-services",
+  "name": "MEDIQ Financial Services",
+  "category": "accounting_firm",
+  "reason": "Melbourne (Queens Rd) accountants and financial advisers (AFS licensee 529906) serving medical professionals",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "mgi-dobbyn-carafa",
+  "name": "MGI Dobbyn Carafa",
+  "category": "accounting_firm",
+  "reason": "Boutique accounting, tax and corporate advisory practice for the SME market; partners from large and mid-tier firms",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mgi-joyce-dickson",
+  "name": "MGI Joyce Dickson",
+  "category": "accounting_firm",
+  "reason": "Canberra (Griffith ACT) accounting firm providing tax compliance, business advisory, SMSF, valuations and external CFO services including monthly management reporting",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mitchell-partners",
+  "name": "Mitchell Partners",
+  "category": "accounting_firm",
+  "reason": "Chartered accountants and business advisers for corporate clients and high-net-worth individuals, with a virtual CFO offering",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mjc-partners",
+  "name": "MJC Partners",
+  "category": "accounting_firm",
+  "reason": "South-east Melbourne accounting firm (since 1980) with offices in Dandenong and St Kilda Road, 5 partners and 30+ staff, offering tax, bookkeeping, business planning and coaching, and finance solution",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mny-group-chartered-accountants",
+  "name": "MNY Group Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "Chartered accounting firm founded 2011 in Melbourne (Queens Rd/St Kilda Rd) providing tax, financial consultancy and compliance, company setup, trusts and valuations",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "morris-cohen-glen-co-mcg-co",
+  "name": "Morris Cohen Glen & Co (MCG & Co)",
+  "category": "accounting_firm",
+  "reason": "Camberwell accounting, business and financial advice firm established in 1925, serving businesses, investors and overseas clients entering the Australian market",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "murdoch-partners",
+  "name": "Murdoch Partners",
+  "category": "accounting_firm",
+  "reason": "Kew-based firm with Accounting and Private Wealth arms (Murdoch Partners / Murdoch Wealth) at 17 Cotham Road",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mva-bennett",
+  "name": "MVA Bennett",
+  "category": "accounting_firm",
+  "reason": "Melbourne CBD accounting firm offering audit, accounting, tax, corporate advisory and SMSF services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "mybookworks",
+  "name": "Mybookworks",
+  "category": "bookkeeping",
+  "reason": "Brisbane bookkeeping and BAS agent practice for small businesses.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "new-wave-accountants-business-advisory",
+  "name": "New Wave Accountants & Business Advisory",
+  "category": "accounting_firm",
+  "reason": "Gold Coast boutique accounting and business advisory firm for founders doing $1M+, specialising in ecommerce, trades, medical and property clients with bookkeeping and virtual CFO services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "o-brien-accountants-advisors",
+  "name": "O'Brien Accountants & Advisors",
+  "category": "accounting_firm",
+  "reason": "Ivanhoe accounting and business advisory firm offering advisory, accounting and tax, SMSF, financial planning, CFO advisory, valuations, HR and marketing services for growth-focused business owners an",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "omnia-business-solutions",
+  "name": "Omnia Business Solutions",
+  "category": "accounting_firm",
+  "reason": "Norwest (Sydney) firm providing accounting, bookkeeping, payroll and consulting for small and medium businesses, including outsourced CFO engagements",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "oneledger-group",
+  "name": "OneLedger Group",
+  "category": "accounting_firm",
+  "reason": "Port Melbourne accounting, finance and insurance practice describing itself as a rapidly growing team that supports clients with technology-led accounting",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "paris-financial",
+  "name": "Paris Financial",
+  "category": "accounting_firm",
+  "reason": "Small business tax accountants (45 years) with offices in Blackburn and East Melbourne, also offering private wealth, lending and SMSF",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "patison-partners",
+  "name": "Patison Partners",
+  "category": "accounting_firm",
+  "reason": "Accountants and business advisors with 70-year history, offices in Mulgrave and Warragul; five directors",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "perfect-accounting-tax-services",
+  "name": "Perfect Accounting & Tax Services",
+  "category": "accounting_firm",
+  "reason": "Accounting and tax firm with integrated support in Adelaide, Sydney and Melbourne offering BAS, payroll, tax planning, SMSF, audit representation and virtual CFO, and promoting AI-driven automation",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "perta-thomson-partners-ptp",
+  "name": "Perta Thomson Partners (PTP)",
+  "category": "accounting_firm",
+  "reason": "Accounting, business advisory and financial planning firm founded 2004 with offices in Melbourne (South Melbourne), Geelong, Shepparton and Cobram",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "pgp-consulting",
+  "name": "PGP Consulting",
+  "category": "accounting_firm",
+  "reason": "Boutique Melbourne CBD accounting and business advisory firm serving HNW individuals, athletes and media personalities, family businesses, family offices and medium corporate groups",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "ppt-ppt-accounting-financial",
+  "name": "PPT (PPT Accounting / Financial)",
+  "category": "accounting_firm",
+  "reason": "Ballarat-headquartered accounting and financial planning firm (est",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "prestige-partners-chartered-accountants",
+  "name": "Prestige Partners Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "Perth (Burswood, WA) SME accounting and business advisory firm established 2012, offering contract CFO services and fixed-price monthly accounting packages",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "prime-partners-chartered-accountants",
+  "name": "Prime Partners Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "Chartered accounting and business advisory firm in North Sydney with a second office in Orange NSW, serving retail/e-commerce brands, founders, professionals and families",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "proacct",
+  "name": "Proacct+",
+  "category": "accounting_firm",
+  "reason": "Multi-service firm offering accounting and tax, bookkeeping, virtual CFO, mortgages, financial planning and a 30-year niche in clubs and body corporate management",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "professional-bookkeeping-service",
+  "name": "Professional Bookkeeping Service",
+  "category": "bookkeeping",
+  "reason": "Bookkeeping and BAS agent practice since 1983 serving trades, retail and e-commerce.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "pvw-partners-accountants-advisors",
+  "name": "PVW Partners Accountants + Advisors",
+  "category": "accounting_firm",
+  "reason": "Northern Australia accounting, tax and advisory firm (est",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "q4-financial",
+  "name": "q4 financial",
+  "category": "accounting_firm",
+  "reason": "Brisbane accounting, business advice, wealth management and bookkeeping firm (27+ years) with Xero Certified Advisors handling BAS, payroll, reconciliations and some CFO responsibilities for clients",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "quill-group",
+  "name": "Quill Group",
+  "category": "accounting_firm",
+  "reason": "Southport (Gold Coast, QLD) financial services business operating since 1999 serving family businesses and families with accounting and tax, business advisory (virtual CFO) and wealth services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "r-j-sanderson-associates",
+  "name": "R J Sanderson & Associates",
+  "category": "accounting_firm",
+  "reason": "Dandenong-headquartered tax, accounting and financial planning practice with multiple south-east Melbourne offices",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "rbizz-corporate-accountants",
+  "name": "RBizz Corporate Accountants",
+  "category": "accounting_firm",
+  "reason": "CA/CPA-led firm (Melbourne CBD HQ, offices in Sydney, Brisbane, Perth) offering accounting, tax, bookkeeping, virtual CFO and advisory to Australian and international businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "rcr-partners",
+  "name": "RCR Partners",
+  "category": "accounting_firm",
+  "reason": "Adelaide (Norwood, SA) accounting and advisory firm offering Xero-based compliance, advisory and Virtual CFO packages with optional bookkeeping",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "rdl-accountants",
+  "name": "RDL Accountants",
+  "category": "accounting_firm",
+  "reason": "Blackburn accounting firm (60+ years) with 25-35 specialists offering audit and assurance, business services, financial planning, not-for-profit, superannuation and tax",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "reliable-accountants",
+  "name": "Reliable Accountants",
+  "category": "accounting_firm",
+  "reason": "Small-business tax, GST and property accounting; works in Xero, MYOB and QuickBooks",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "rogerson-kenny-business-accountants",
+  "name": "Rogerson Kenny Business Accountants",
+  "category": "accounting_firm",
+  "reason": "Mulgrave business accountants (50+ years) providing tax and compliance, SMSF, bookkeeping on cloud tools and virtual CFO services to businesses, families and property investors",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "rose-partners",
+  "name": "Rose Partners",
+  "category": "accounting_firm",
+  "reason": "South Melbourne accountants and advisors focused on growing businesses and the healthcare sector (Rose Health), offering professional and advisory services and health-practice valuations",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "rosy-small-business-services",
+  "name": "Rosy Small Business Services",
+  "category": "bookkeeping",
+  "reason": "Outsourced bookkeeping and finance admin (AP/AR, reconciliations, BAS) for small businesses.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "rundles",
+  "name": "Rundles Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "Melbourne firm (est",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "saward-dawson",
+  "name": "Saward Dawson",
+  "category": "accounting_firm",
+  "reason": "Blackburn chartered accountants (Russell Bedford network) with 80+ staff providing audit and assurance, business advisory, consulting, SMSF, tax and wealth management to businesses, not-for-profits an",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "securinvest-financial-group",
+  "name": "Securinvest Financial Group",
+  "category": "other",
+  "reason": "Financial advice-led firm with accounting as one of four disciplines.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "seiva-advisory",
+  "name": "SEIVA Advisory",
+  "category": "accounting_firm",
+  "reason": "Melbourne accounting, tax and advisory firm for business owners.",
+  "confidence": "medium",
+  "checkedWeb": true
+ },
+ {
+  "id": "shaw-downie-chartered-accountants",
+  "name": "Shaw Downie Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "Sydney chartered accountants (Level 3, 47 York St) offering an end-to-end finance and tax solution: outsourced accounting (management reporting, payroll, AP/AR, treasury, month-end reporting) plus tax",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "sky-accountants",
+  "name": "Sky Accountants",
+  "category": "accounting_firm",
+  "reason": "Accountants and business advisors with VIC offices in Wendouree/Ballarat, Sunbury and Bacchus Marsh, using cloud accounting on fixed fees for trades, hospitality and healthcare clients",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "skybridge-financial",
+  "name": "Skybridge Financial",
+  "category": "accounting_firm",
+  "reason": "Accounting, bookkeeping, business tax, financial planning and SMSF firm based in Inverell NSW with a Bentleigh (Melbourne) office, which expanded in 2026 via a merger with Stephens Platffuss & Co",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "slate-accounts",
+  "name": "Slate Accounts",
+  "category": "outsourced_finance",
+  "reason": "Outsourced finance team from bookkeeping to CFO for 250+ businesses.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "slomoi-immerman-partners-sip",
+  "name": "Slomoi Immerman Partners (SIP)",
+  "category": "accounting_firm",
+  "reason": "Melbourne CBD chartered accounting firm offering business services, tax consulting, superannuation, family office, Asia desk, financial modelling and succession planning",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "smart-business-solutions",
+  "name": "Smart Business Solutions",
+  "category": "accounting_firm",
+  "reason": "Mornington Peninsula accounting, tax, financial planning and mortgage broking firm",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "smith-feutrill",
+  "name": "Smith Feutrill",
+  "category": "accounting_firm",
+  "reason": "Hawthorn accounting and financial services firm offering accounting, tax, virtual CFO advisory, back office support (bookkeeping, payroll, accounts management), corporate secretarial, SMSF, wealth and",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "srs-business-accounting-solutions",
+  "name": "SRS Business & Accounting Solutions",
+  "category": "accounting_firm",
+  "reason": "Parramatta (Sydney) chartered accountant practice founded 2010 by Simon Semaan offering accounting, tax, SMSF and SMSF audit, and finance and accounting outsourcing (AP, AR, budgeting, reconciliations",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "standard-ledger",
+  "name": "Standard Ledger",
+  "category": "outsourced_finance",
+  "reason": "Fixed-fee fractional CFO and bookkeeping packages for startups.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "stannards-accountants-advisors",
+  "name": "Stannards Accountants & Advisors",
+  "category": "accounting_firm",
+  "reason": "South Yarra accountants and business advisors offering business services, corporate finance, audit and assurance, grants and incentives, tax consulting and virtual CFO",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "strategem-financial-services",
+  "name": "Strategem Financial Services",
+  "category": "accounting_firm",
+  "reason": "Bendigo-headquartered financial services firm with a Melbourne CBD office offering accounting and taxation, wealth management, risk insurance, business advisory, superannuation and audit",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "suntax",
+  "name": "Suntax",
+  "category": "accounting_firm",
+  "reason": "Personal and business tax and financial services firm since 1989; offices in Sunbury and Essendon",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "superguardian",
+  "name": "SuperGuardian",
+  "category": "other",
+  "reason": "Specialist SMSF administrator (with chartered accounting arm), SMSF-led.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "sy-group-chartered-accountants",
+  "name": "SY Group Chartered Accountants",
+  "category": "accounting_firm",
+  "reason": "South Yarra chartered accounting firm (50+ years) offering taxation, corporate secretarial, superannuation, accounting and business advisory and financial planning",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "synectic-accountants-advisers",
+  "name": "Synectic Accountants & Advisers",
+  "category": "accounting_firm",
+  "reason": "Tasmanian accountants and advisers (offices in Devonport, Launceston and Hobart) offering accounting, tax, business advice incl",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "take-care-of-books",
+  "name": "Take Care Of Books",
+  "category": "bookkeeping",
+  "reason": "Cloud bookkeeping and BAS agent practice for commercial and NFP/NDIS clients.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "taxoz-accountants",
+  "name": "TaxOz Accountants",
+  "category": "outsourcer_to_firms",
+  "reason": "India-supported back-office outsourcer doing white-label bookkeeping, BAS and tax prep for accounting firms.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "the-a-firm-financial-solutions-group",
+  "name": "The A Firm Financial Solutions Group",
+  "category": "accounting_firm",
+  "reason": "Gold Coast (Varsity Lakes) chartered accountants and business advisors providing accounting, tax, Xero bookkeeping, SMSF, estate planning and CFO solutions with monthly profitability reports",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "the-bas-agents",
+  "name": "The BAS Agents",
+  "category": "bookkeeping",
+  "reason": "Registered BAS agents providing bookkeeping, BAS and payroll for SMBs.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "the-field-group",
+  "name": "The Field Group",
+  "category": "accounting_firm",
+  "reason": "Accountants and business advisers using current technology for SMB clients; audit arm",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "the-gild-group",
+  "name": "The Gild Group",
+  "category": "accounting_firm",
+  "reason": "Multidisciplinary SME professional services group (Cremorne VIC HQ; offices in Moorabbin, Essendon North, Surry Hills and Townsville) spanning accounting, tax, wealth, R&D and grants, legal and market",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "the-hopkins-group",
+  "name": "The Hopkins Group",
+  "category": "accounting_firm",
+  "reason": "Melbourne CBD group (est",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "the-integrated-cfo",
+  "name": "The Integrated CFO",
+  "category": "outsourced_finance",
+  "reason": "Virtual/fractional CFO packages with budgets and cash flow management.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "the-pen-accounting",
+  "name": "The Pen Accounting",
+  "category": "outsourced_finance",
+  "reason": "Virtual CFO and managed outsourced finance team with offshore finance officers.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "thn-samios-partners",
+  "name": "THN & Samios Partners",
+  "category": "accounting_firm",
+  "reason": "Sydney CBD CPA accounting and tax advisory firm offering accountant-led virtual CFO services with monthly management reporting, forecasting and board packs, working on Xero and other platforms",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "tnm-consulting",
+  "name": "TNM Consulting",
+  "category": "accounting_firm",
+  "reason": "Accounting, advisory and planning firm in Melbourne's north",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "traction-financial",
+  "name": "Traction Financial",
+  "category": "accounting_firm",
+  "reason": "Subiaco (Perth, WA) accounting and advisory firm offering accounting and tax, virtual CFO/business advisory and Xero/MYOB cloud bookkeeping managed by Chartered Accountants",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "trihalo-accountancy",
+  "name": "Trihalo Accountancy",
+  "category": "accounting_firm",
+  "reason": "Parramatta (Sydney) CPA practice providing bookkeeping, payroll, tax, statutory reporting, virtual CFO and Xero automation/analytics for individuals and businesses",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "ufinancial-accounting-tax",
+  "name": "UFinancial Accounting & Tax",
+  "category": "accounting_firm",
+  "reason": "Melbourne (580 St Kilda Rd) accounting, business advisory, taxation and compliance reporting firm for individuals and businesses, with a team of about seven including accountants and a director",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "ultimate-tax-advisory",
+  "name": "Ultimate Tax & Advisory",
+  "category": "accounting_firm",
+  "reason": "Perth (Mount Lawley, WA) boutique tax and advisory firm covering BAS, tax, financial statements, business advisory and virtual CFO for business owners",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "unity-accounting",
+  "name": "Unity Accounting",
+  "category": "accounting_firm",
+  "reason": "Accounting firm providing bookkeeping, payroll, business operations systems and an outsourced 'Your CFO' service to SMEs, not-for-profits and Aboriginal Land Councils",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "visory",
+  "name": "Visory",
+  "category": "bookkeeping",
+  "reason": "AI-assisted bookkeeping and finance operations provider for businesses.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "vital-addition",
+  "name": "Vital Addition",
+  "category": "outsourced_finance",
+  "reason": "Outsourced finance team (bookkeeper, management accountant, CFO) for startups and SMEs.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "walker-wayland-advantage",
+  "name": "Walker Wayland Advantage",
+  "category": "accounting_firm",
+  "reason": "Melbourne CBD accounting firm (90+ years, ISO quality certified) offering accounting advisory and bookkeeping, audit and assurance, tax, business advisory, SMSF and virtual CFO",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "wct-advisory-group",
+  "name": "WCT Advisory Group",
+  "category": "other",
+  "reason": "Insolvency, corporate finance and valuation advisory with fractional CFO as a side line.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "willis-partners",
+  "name": "Willis Partners",
+  "category": "outsourced_finance",
+  "reason": "Virtual CFO and financial controller (incl. secondments) services.",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "wilson-pateras-accountants-advisors",
+  "name": "Wilson Pateras Accountants & Advisors",
+  "category": "accounting_firm",
+  "reason": "Award-winning accounting and advisory firm with offices in Richmond, Geelong, Bendigo and two in Sydney, serving businesses and individuals with accounting, tax, advisory and wealth services",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "wsc-group",
+  "name": "WSC Group",
+  "category": "accounting_firm",
+  "reason": "CPA accountants and business advisors specialising in property investment tax, business advice and SMSF, with HQ in Sydney South and offices in Sydney CBD, Brisbane, Melbourne (Docklands) and Newcastl",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "xeta",
+  "name": "XETA",
+  "category": "outsourced_finance",
+  "reason": "CA-founded outsourced finance team and tax firm for 200+ businesses.",
+  "confidence": "medium",
+  "checkedWeb": false
+ },
+ {
+  "id": "xo-accounting",
+  "name": "XO Accounting",
+  "category": "accounting_firm",
+  "reason": "Xero Platinum Partner offering fixed-price accounting, bookkeeping, payroll, virtual CFO and coaching for businesses, SMSFs, NFPs and rental property owners across Australia and New Zealand",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "y-s-accounting",
+  "name": "Y&S Accounting",
+  "category": "accounting_firm",
+  "reason": "CPA practice operating since 2008 providing tax return preparation and business/tax advice to individuals and businesses, with offices in Melbourne CBD and Darlinghurst NSW (and Sydney, Adelaide, Bris",
+  "confidence": "high",
+  "checkedWeb": false
+ },
+ {
+  "id": "zimsen-partners",
+  "name": "Zimsen Partners",
+  "category": "accounting_firm",
+  "reason": "Keysborough accounting firm and platinum Xero partner of Chartered Accountants, CPAs and SMSF specialists offering accounting and tax, business advisory, SMSF and structuring to small business and ind",
+  "confidence": "high",
+  "checkedWeb": false
+ }
+]
