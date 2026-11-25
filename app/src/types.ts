@@ -1,6 +1,6 @@
 // Copied verbatim from DATA_CONTRACT.md — keep in sync with the contract.
 
-export type AccountType = 'firm' | 'internal' | 'solo';
+export type AccountType = 'firm' | 'internal' | 'solo' | 'services';
 // firm     = accounting / bookkeeping / advisory practice (external firm)
 // internal = company with an in-house finance team of 2+ people
 // solo     = one-person setup: a company whose finance function is a single person,

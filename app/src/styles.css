@@ -682,6 +682,11 @@ code {
   color: var(--st-contacted-fg);
   border-color: transparent;
 }
+.badge-type-services {
+  background: var(--sc2-bg);
+  color: var(--sc2-fg);
+  border-color: transparent;
+}
 .badge-type-solo {
   background: var(--st-meeting-bg);
   color: var(--st-meeting-fg);

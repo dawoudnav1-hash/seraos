@@ -6,7 +6,7 @@ import { sanitizeEvents } from './events';
  * DATA_CONTRACT.md, but the UI must never crash if a field is missing or mistyped.
  */
 
-const TYPES: readonly AccountType[] = ['firm', 'internal', 'solo'];
+const TYPES: readonly AccountType[] = ['firm', 'services', 'internal', 'solo'];
 
 function str(v: unknown): string | undefined {
   if (typeof v === 'string') {

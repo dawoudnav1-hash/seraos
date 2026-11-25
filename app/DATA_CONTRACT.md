@@ -6,7 +6,9 @@ The app reads two generated files (produced by `pipeline/build_data.py`, never e
 - `src/data/outreach.json` — `{ generatedAt: string, sources: SourceNote[], events: OutreachEvent[] }`
 
 ```ts
-export type AccountType = 'firm' | 'internal' | 'solo';
+export type AccountType = 'firm' | 'internal' | 'solo' | 'services';
+// services = not a public accounting practice: outsourcing for accounting firms, bookkeeping/BAS,
+//            outsourced CFO/finance, or other financial services (segment says which).
 // firm     = accounting / bookkeeping / advisory practice (external firm)
 // internal = company with an in-house finance team of 2+ people
 // solo     = one-person setup: a company whose finance function is a single person,
@@ -40,7 +42,7 @@ export interface Account {
   logoUrl?: string;
   type: AccountType;
   typeReason: string;
-  segment: string;            // 'SaaS' | 'CPG / Ecom / D2C' | 'AI startup' | 'Accounting & advisory' | 'VC / Accelerator' | 'Other'
+  segment: string;            // 'Outsourcing for accounting firms' | 'Bookkeeping & BAS' | 'Outsourced CFO & finance' | 'Other financial services' | 'SaaS' | 'CPG / Ecom / D2C' | 'AI startup' | 'Accounting & advisory' | 'VC / Accelerator' | 'Other'
   sector?: string;            // short sub-industry text
   description?: string;
   location?: string;          // 'Sydney, NSW, AU' etc.

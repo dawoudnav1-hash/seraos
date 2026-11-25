@@ -42,7 +42,7 @@ import { usePersistentState } from '../state/usePersistentState';
 
 type ColId = 'name' | 'title' | 'account' | 'section' | 'segment' | 'city' | 'email' | 'linkedin' | 'location' | 'status' | 'lastTouch' | 'sources';
 
-const SECTION_SHORT: Record<Section, string> = { firm: 'Firms', internal: 'Internal finance', solo: '1-person', all: 'All' };
+const SECTION_SHORT: Record<Section, string> = { firm: 'Firms', services: 'Services', internal: 'Internal finance', solo: '1-person', all: 'All' };
 
 const COLS: readonly { id: ColId; label: string; width: number; defaultDir: SortDir; sort: (r: ContactRow) => SortValue }[] = [
   { id: 'name', label: 'Name', width: 220, defaultDir: 'asc', sort: (r) => r.contact.name.toLowerCase() },
@@ -98,7 +98,7 @@ export function Contacts() {
   const sectionFiltered = useMemo(() => baseFiltered.filter((r) => matchesOutreach(r.activity.status, deferred)), [baseFiltered, deferred]);
   const outreachCounts = useMemo(() => contactedCounts(baseFiltered.filter((r) => inSection(r, deferred.section))), [baseFiltered, deferred.section]);
   const counts = useMemo(() => {
-    const c: Record<Section, number> = { all: sectionFiltered.length, firm: 0, internal: 0, solo: 0 };
+    const c: Record<Section, number> = { all: sectionFiltered.length, firm: 0, services: 0, internal: 0, solo: 0 };
     for (const r of sectionFiltered) c[r.account.type]++;
     return c;
   }, [sectionFiltered]);

@@ -29,9 +29,11 @@ check(len(ids) == len(set(ids)), "account ids unique")
 cids = [c["id"] for a in A for c in a["contacts"]]
 check(len(cids) == len(set(cids)), "contact ids unique")
 for a in A:
-    check(a["type"] in ("firm", "internal", "solo"), f"bad type {a['id']}")
+    check(a["type"] in ("firm", "internal", "solo", "services"), f"bad type {a['id']}")
+    check((a["type"] == "services") == (a["segment"] in B.SERVICE_SEGMENTS.values()), f"services type/segment mismatch {a['id']}")
     check(bool(a.get("typeReason")), f"typeReason missing {a['id']}")
-    check(a["segment"] in ("SaaS", "CPG / Ecom / D2C", "AI startup", "Accounting & advisory", "VC / Accelerator", "Other"), f"bad segment {a['id']}")
+    check(a["segment"] in ("SaaS", "CPG / Ecom / D2C", "AI startup", "Accounting & advisory", "VC / Accelerator", "Other",
+                              "Outsourcing for accounting firms", "Bookkeeping & BAS", "Outsourced CFO & finance", "Other financial services"), f"bad segment {a['id']}")
     if a["segment"] == "Accounting & advisory":
         check(a["type"] in ("firm", "solo"), f"accounting firm typed internal {a['id']}")
     for c in a["contacts"]:

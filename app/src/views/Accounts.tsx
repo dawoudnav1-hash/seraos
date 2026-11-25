@@ -44,6 +44,7 @@ const SECTION_LABEL: Record<Section, string> = {
   firm: TYPE_LABEL.firm,
   internal: TYPE_LABEL.internal,
   solo: TYPE_LABEL.solo,
+  services: TYPE_LABEL.services,
   all: 'All',
 };
 

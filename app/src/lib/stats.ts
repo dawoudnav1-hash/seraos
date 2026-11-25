@@ -187,14 +187,19 @@ export interface DashboardStats extends Tally {
 }
 
 export const TYPE_LABEL: Record<AccountType, string> = {
-  firm: 'Accounting & advisory firms',
+  firm: 'Accounting firms',
+  services: 'Outsourcing & finance services',
   internal: 'Internal finance teams',
   solo: '1-person',
 };
-export const TYPE_ORDER: readonly AccountType[] = ['firm', 'internal', 'solo'];
+export const TYPE_ORDER: readonly AccountType[] = ['firm', 'services', 'internal', 'solo'];
 
 export const SEGMENT_ORDER: readonly string[] = [
   'Accounting & advisory',
+  'Outsourcing for accounting firms',
+  'Bookkeeping & BAS',
+  'Outsourced CFO & finance',
+  'Other financial services',
   'SaaS',
   'CPG / Ecom / D2C',
   'AI startup',

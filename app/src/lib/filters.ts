@@ -2,7 +2,7 @@ import type { Account, AccountType, Contact } from '../types';
 import { type EntityActivity, type EventIndex, type OutreachStatus, EMPTY_ACTIVITY, isContacted, normEmail } from './status';
 
 export type Section = 'all' | AccountType;
-export const SECTIONS: readonly Section[] = ['firm', 'internal', 'solo', 'all'];
+export const SECTIONS: readonly Section[] = ['firm', 'services', 'internal', 'solo', 'all'];
 
 /** Lower-case, accent-folded text for search ("Zoë" matches "zoe"). */
 export function foldText(s: string): string {
@@ -271,7 +271,7 @@ export function filterAccountRows(rows: readonly AccountRow[], f: AccountFilters
 }
 
 export function sectionCounts(rows: readonly AccountRow[]): Record<Section, number> {
-  const out: Record<Section, number> = { all: rows.length, firm: 0, internal: 0, solo: 0 };
+  const out: Record<Section, number> = { all: rows.length, firm: 0, services: 0, internal: 0, solo: 0 };
   for (const r of rows) out[r.account.type]++;
   return out;
 }

@@ -1043,6 +1043,42 @@ def exclude_accounts(accounts: list[dict]) -> None:
 EXCLUDED_KEYS: set[str] = set()  # domains + contact emails of excluded accounts (their outreach is dropped too)
 
 
+# ---------------------------------------------------------------- firm vs services
+SERVICE_SEGMENTS = {
+    "outsourcer_to_firms": "Outsourcing for accounting firms",
+    "bookkeeping": "Bookkeeping & BAS",
+    "outsourced_finance": "Outsourced CFO & finance",
+    "other": "Other financial services",
+}
+
+
+def apply_firm_categories(accounts: list[dict]) -> None:
+    """Accounts in the accounting segment that are not public accounting practices move to type 'services'
+    (data/raw/enrich/firm_categories.json, reviewed classification of every firm)."""
+    path = os.path.join(RAW, "enrich", "firm_categories.json")
+    if not os.path.exists(path):
+        return
+    cats = {c["id"]: c for c in json.load(open(path))}
+    moved = Counter()
+    unclassified = []
+    for a in accounts:
+        if a["segment"] != SEG_ACC:
+            continue
+        c = cats.get(a["id"])
+        if c is None:
+            unclassified.append(a["name"])
+            continue
+        if c["category"] == "accounting_firm":
+            continue
+        a["type"] = "services"
+        a["segment"] = SERVICE_SEGMENTS[c["category"]]
+        a["typeReason"] = c["reason"]
+        moved[a["segment"]] += 1
+    for n in unclassified:
+        log("firm-unclassified", f"{n}: not in firm_categories.json (left as an accounting firm)")
+    log("count", "moved out of accounting firms: " + ", ".join(f"{k} {v}" for k, v in moved.most_common()))
+
+
 # ---------------------------------------------------------------- cities
 def assign_cities(accounts: list[dict]) -> None:
     """Adds city / suburb / state (+ cityBasis) to every account that has a usable location."""
@@ -1203,7 +1239,7 @@ def checks(accounts: list[dict]) -> None:
         if len(lst) > 1:
             log("REVIEW-email-on-multiple-accounts", f"{e}: {lst}")
     for a in accounts:
-        if a["type"] not in ("firm", "internal", "solo"):
+        if a["type"] not in ("firm", "internal", "solo", "services"):
             raise AssertionError(a)
 
 
@@ -1212,6 +1248,7 @@ def main() -> int:
     apply_enrichment(accounts)
     merge_live_additions(accounts)
     exclude_accounts(accounts)
+    apply_firm_categories(accounts)
     assign_cities(accounts)
     for a in accounts:  # drop empty optional fields so output matches the TS contract
         for k in [k for k, v in a.items() if (v is None or v == []) and k not in ("contacts", "sources")]:
