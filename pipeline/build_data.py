@@ -1243,6 +1243,24 @@ def checks(accounts: list[dict]) -> None:
             raise AssertionError(a)
 
 
+def build_research_bundle() -> None:
+    """Bundle every dossier in data/raw/research that passes pipeline/validate_research.py into app/src/data/research.json."""
+    import validate_research as V
+    accounts_list = json.load(open(os.path.join(OUT_DIR, "accounts.json")))
+    accounts = {a["id"]: a for a in accounts_list}
+    contacts = {c["id"]: (a["id"], c) for a in accounts_list for c in a["contacts"]}
+    bundle = {}
+    for f in sorted(glob.glob(os.path.join(RAW, "research", "*.json"))):
+        errs = V.validate(f, accounts, contacts)
+        if errs:
+            log("research-rejected", f"{os.path.basename(f)}: {errs[0]}" + (f" (+{len(errs) - 1} more)" if len(errs) > 1 else ""))
+            continue
+        d = json.load(open(f))
+        bundle[d["accountId"]] = d
+    json.dump(bundle, open(os.path.join(OUT_DIR, "research.json"), "w"), ensure_ascii=False, indent=1)
+    log("count", f"research dossiers bundled: {len(bundle)}")
+
+
 def main() -> int:
     accounts, _ = build()
     apply_enrichment(accounts)
@@ -1258,6 +1276,7 @@ def main() -> int:
     os.makedirs(OUT_DIR, exist_ok=True)
     json.dump(accounts, open(os.path.join(OUT_DIR, "accounts.json"), "w"), ensure_ascii=False, indent=1)
     json.dump(outreach, open(os.path.join(OUT_DIR, "outreach.json"), "w"), ensure_ascii=False, indent=1)
+    build_research_bundle()
 
     n_c = sum(len(a["contacts"]) for a in accounts)
     by_type = Counter(a["type"] for a in accounts)
