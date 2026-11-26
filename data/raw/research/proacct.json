@@ -1,0 +1,281 @@
+{
+ "accountId": "proacct",
+ "accountName": "Proacct+",
+ "status": "complete",
+ "summary": "Proacct+ is a Heidelberg VIC firm combining accounting and tax, bookkeeping, virtual CFO, financial planning and mortgages. It runs a long-standing niche managing finances for ski clubs and body corporates, with monthly bank reconciliations and quarterly BAS on its service list. Partner Anthony Contessa is a CPA whose LinkedIn lists MYOB.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://proacctplus.com.au/services/clubs-body-corporate-management/",
+   "title": "Clubs & Body Corporate Management - Proacct+",
+   "type": "website",
+   "publisher": "Proacct+",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://proacctplus.com.au/contact/",
+   "title": "Contact - Proacct+",
+   "type": "website",
+   "publisher": "Proacct+",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/anthony-contessa-7636a314b",
+   "title": "Anthony Contessa - Partner at Proacct | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-24"
+  },
+  {
+   "id": "S4",
+   "url": "https://proacctplus.com.au/services/",
+   "title": "Services - Proacct+",
+   "type": "website",
+   "publisher": "Proacct+",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://proacctplus.com.au/services/virtual-cfo/",
+   "title": "Virtual CFO - Proacct+",
+   "type": "website",
+   "publisher": "Proacct+",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://proacctplus.com.au/services/bookkeeping/",
+   "title": "Bookkeeping - Proacct+",
+   "type": "website",
+   "publisher": "Proacct+",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://proacctplus.com.au",
+   "title": "Home - Proacct+",
+   "type": "website",
+   "publisher": "Proacct+",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://abr.business.gov.au/ABN/View?abn=62651519569",
+   "title": "ABN Lookup: Proacct Plus Advisors & Accountants Pty Ltd",
+   "type": "registry",
+   "publisher": "Australian Business Register",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Proacct Plus Pty Ltd is at 2/81 Burgundy Street, Heidelberg VIC 3084, and its contact page shows the proacct.com.au email domain alongside the proacctplus.com.au website, confirming they are the same firm.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "e office@proacct.com.au w proacctplus.com.au",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Anthony Contessa is listed as a current Partner at Proacct+ (Heidelberg) since July 2021.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Jul 2021 - Present (5 years and 3 months) in Australia",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "ABN Lookup shows an active Proacct Plus Advisors & Accountants Pty Ltd with main location VIC 3084.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "PROACCT PLUS ADVISORS & ACCOUNTANTS PTY LTD",
+   "date": null,
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "Proacct+ has a niche managing finances for clubs and body corporates.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "With over 30 years of experience, we have developed a niche looking after clubs and body corporates",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Its club and body corporate service list includes monthly bank reconciliations and quarterly BAS preparation.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Monthly Bank Reconciliations",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Clients it looks after include ski clubs and body corporates such as Australian Alpine Club (Falls Creek).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Australian Alpine Club (Falls Creek)",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm says that although committee members change, it provides consistency for clubs.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "While committee members come and go, we are always there to provide consistency, transparency, and reliability.",
+   "date": null,
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Anthony Contessa is CPA qualified and his LinkedIn lists MYOB among his skills.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Skilled in Microsoft Excel, MYOB, APS, Communication, and Accounting.",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Proacct+ offers a virtual CFO service.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "A virtual CFO is similar to an in-house chief financial officer in that you get the benefits of having an experienced financial professional",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The firm has a separate bookkeeping service that handles daily processing and payroll.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Daily processing",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Proacct+ combines financial planning, mortgage lending and accounting under one roof.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "offers financial planning, mortgage lending and accounting services all under the same roof",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Anthony Contessa",
+   "title": "Partner",
+   "contactId": "proacct--anthony-contessa",
+   "linkedin": "https://www.linkedin.com/in/anthony-contessa-7636a314b",
+   "claimIds": [
+    "C2",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Monthly bank reconciliations are an explicit deliverable for recurring club and body corporate clients, a repeatable reconciliation workload.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C4"
+   ]
+  },
+  {
+   "text": "Committees turn over while Proacct+ stays constant, so a traceable audit trail suits their consistency pitch.",
+   "claimIds": [
+    "C7"
+   ]
+  },
+  {
+   "text": "Virtual CFO and bookkeeping lines both depend on faster reconciling.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Multi-service firm (planning and mortgages too); accounting is one of three pillars.",
+   "claimIds": [
+    "C11"
+   ]
+  },
+  {
+   "text": "Anthony's LinkedIn mentions MYOB only; no confirmed use of an AI reconciliation tool either way.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No blog, news, podcast or recent LinkedIn posts from the firm or Anthony found.",
+  "No job ads found.",
+  "No Xero/MYOB partner directory listing found."
+ ],
+ "searches": [
+  {
+   "query": "Proacct+ Heidelberg accountants Anthony Contessa",
+   "results": 7
+  },
+  {
+   "query": "Proacct+ clubs body corporate management accounting specialist services page",
+   "results": 7
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "proacct--anthony-contessa",
+   "subject": "Reconciliation at Proacct+",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C8"
+   ],
+   "body": "Hi Anthony,\n\nNoticed Proacct+ has built a niche looking after clubs and body corporates, with monthly bank reconciliations and quarterly BAS on the service list. That is a lot of recurring reconciling, and your LinkedIn lists MYOB. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail rather than AI that auto-codes and guesses. How much of your team's month goes on reconciling across your club clients? Open to a 10 min walkthrough?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "proacct--anthony-contessa",
+   "subject": "Re: Reconciliation at Proacct+",
+   "claimIds": [
+    "C7",
+    "C5"
+   ],
+   "body": "Hi Anthony,\n\nFollowing up on my note last week. Your clubs page says committee members come and go while Proacct+ stays consistent and transparent, which is also what a traceable reconciliation trail gives a new treasurer. Vert reconciles and cash codes in minutes and shows how every match was made. Could I show you on one club's month?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

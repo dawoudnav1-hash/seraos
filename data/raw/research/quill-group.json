@@ -1,0 +1,325 @@
+{
+ "accountId": "quill-group",
+ "accountName": "Quill Group",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Quill Group is a Southport (Gold Coast) accounting, tax, advisory and financial planning firm serving family businesses and families, with offices across South East Queensland. Managing Director Eric Nicol has spent his whole finance career at Quill and won a Tech Innovator award in the Accountants Daily 30 Under 30 awards. The firm's advisers act as virtual CFOs and also manage clients' bookkeeping and payroll.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.quillgroup.com.au/",
+   "title": "Quill Group | A Relationship That Goes Beyond Numbers",
+   "type": "website",
+   "publisher": "Quill Group",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.quillgroup.com.au/services/business-advisory/",
+   "title": "Business Advisory | Quill Group",
+   "type": "website",
+   "publisher": "Quill Group",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.quillgroup.com.au/team/eric-nicol/",
+   "title": "Eric Nicol | Quill Group",
+   "type": "website",
+   "publisher": "Quill Group",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/ericnicol1",
+   "title": "Eric Nicol - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.accountantsdaily.com.au/30u30/winners/2019-winners-and-finalists",
+   "title": "2019 winners and finalists - Accountants Daily 30 Under 30",
+   "type": "news",
+   "publisher": "Accountants Daily",
+   "date": "2019-12-01"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/cassienicol_awards-accountantsdaily-accounting-activity-6609724152733675520-N0TT",
+   "title": "Quill Group post reshared by Cassie N.",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2019-12-09"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.quillgroup.com.au/services/accounting-tax/",
+   "title": "Accounting & Tax | Quill Group",
+   "type": "website",
+   "publisher": "Quill Group",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://www.quillgroup.com.au/about-us/",
+   "title": "About Quill Group",
+   "type": "website",
+   "publisher": "Quill Group",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://www.quillgroup.com.au/careers/",
+   "title": "Careers | Quill Group",
+   "type": "website",
+   "publisher": "Quill Group",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Quill Group's Gold Coast office is at Level 3, 1 Lawson Street, Southport QLD 4215.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Level 3, 1 Lawson Street, Southport QLD 4215",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Eric Nicol is Managing Director of Quill Group (since Oct 2023), per his LinkedIn profile indexed Oct 2026 and the firm's team page.",
+   "sourceIds": [
+    "S4",
+    "S3"
+   ],
+   "quote": "Managing Director (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Eric has worked at Quill for his entire 18-year finance career.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "having worked at Quill for all of his 18 year finance career",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Eric Nicol won the Tech Innovator award in the Accountants Daily 30 Under 30 awards (Quill's post dated Dec 2019).",
+   "sourceIds": [
+    "S6",
+    "S5"
+   ],
+   "quote": "Cassie won the Multi-service award, and Eric won the Tech Innovator award.",
+   "date": "2019-12",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "Quill's team page says Eric won Accounting Tech Innovator of the Year in 2020 (the Accountants Daily lists show a 2019 win and a 2020 finalist entry, so the year is unclear).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "won Accounting Tech Innovator of the Year in 2020",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "Quill's business advisors position themselves as virtual CFOs for business owners.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Our business advisors become your virtual CFO.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Quill's accounting and tax service includes managing the client's business accounting role (bookkeeping and payroll), management accounts and cloud accounting solutions.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Manage the business accounting role (Bookkeeping and Payroll)",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Quill focuses on family businesses, working families and retired families.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "committed to working with family businesses, working families and retired families",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "50% of Quill's people have been with the firm over 5 years.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "50% of our people have been with us over 5 years",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "LinkedIn lists Quill at 20-30 employees (+4-5% YoY), with offices in Eight Mile Plains, Parkside, Maroochydore and Alice Springs besides Southport.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "has 20-30 employees (+4-5% YoY)",
+   "date": "2026-10",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "The careers page says Quill is always looking for talented people; applications go to a general HR email.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "We are always looking for talented people to join our team!",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Quill's team page lists Relationship Managers, Account Managers and Accountants in its accounting team, as well as Executive and Associate Director Relationship Managers.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Relationship Manager | Executive Director",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Eric Nicol",
+   "title": "Managing Director",
+   "contactId": "quill-group--eric-nicol",
+   "linkedin": "https://www.linkedin.com/in/ericnicol1",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Ben Harrison",
+   "title": "Relationship Manager | Associate Director",
+   "contactId": "quill-group--ben-harrison",
+   "linkedin": "https://www.linkedin.com/in/ben-harrison-446542150",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Eric has a Tech Innovator award and 18 years inside Quill, so he is likely open to accounting-tech conversations (and may already have a stack in place).",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Advisers act as virtual CFOs and manage clients' bookkeeping and payroll, so reconciliation quality sits underneath the advice.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Multi-office firm focused on family businesses with a stable, long-tenured team.",
+   "claimIds": [
+    "C8",
+    "C9",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Eric's tech-innovator profile suggests Quill may already use automation or an AI tool; ask what they use before pitching.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Quill is QLD-based and advisory/planning led with no explicit bookkeeping brand; the second contact, Ben Harrison, is a Relationship Manager/Associate Director rather than a partner.",
+   "claimIds": [
+    "C12",
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "Could not read the Accountants Daily award pages in full: the 2019 page lists Eric as Tech Innovator winner; the 2020 page lists him as a finalist.",
+  "No recent blog, podcast or Facebook posts found; no specific job ad found.",
+  "No evidence found of which reconciliation or automation tools Quill uses."
+ ],
+ "searches": [
+  {
+   "query": "fetch: quillgroup.com.au home, business-advisory, about-us",
+   "results": 3
+  },
+  {
+   "query": "Eric Nicol Quill Group Southport managing director",
+   "results": 10
+  },
+  {
+   "query": "Quill Group Eric Nicol Accounting Tech Innovator of the Year 2020",
+   "results": 6
+  },
+  {
+   "query": "Quill Group Southport careers accountant bookkeeper job",
+   "results": 7
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "quill-group--eric-nicol",
+   "subject": "Reconciliation behind Quill's virtual CFO work",
+   "body": "Hi Eric,\n\nI saw you won the Tech Innovator award in the Accountants Daily 30 Under 30 awards and that Quill's advisors act as virtual CFOs for family businesses. Tech-minded firms often hit the same wall: bank reconciliation still eats the hours before any advice is given. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail on every match. Where does reconciling sit in your team's workflow today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "quill-group--eric-nicol",
+   "subject": "Re: Reconciliation behind Quill's virtual CFO work",
+   "body": "Hi Eric,\n\nFollowing up on my last note. Quill's accounting team will take on a client's business accounting role, including bookkeeping and payroll. When that work sits with an account manager, how is the reconciling checked before it reaches the client? Happy to show Vert in a ten minute walkthrough, and I'd value your view as someone who has spent his whole career at Quill and won a tech award.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C3",
+    "C4"
+   ]
+  }
+ }
+}

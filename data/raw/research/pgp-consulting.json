@@ -1,0 +1,292 @@
+{
+ "accountId": "pgp-consulting",
+ "accountName": "PGP Consulting",
+ "status": "identity_unconfirmed",
+ "researchedAt": "2026-11-26",
+ "summary": "The firm is real and locked: PGP Consulting Pty Ltd, a Melbourne boutique accounting and advisory firm at 31 Queen Street (Accountants Daily 2026 Boutique Firm of the Year, 20+ employees). The record's primary contact, Bill Franchini (Owner), could not be tied to it: his LinkedIn headline describes ownership of a different 'PGP Consulting.com' software consultancy, and he is not on the firm's team page. No drafts were written.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://pgpconsulting.com.au/contact/",
+   "title": "PGP Consulting - Contact",
+   "type": "website",
+   "publisher": "PGP Consulting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://pgpconsulting.com.au/our-people/",
+   "title": "Our People - PGP Consulting",
+   "type": "website",
+   "publisher": "PGP Consulting",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://ca.linkedin.com/in/pgpbill",
+   "title": "Bill Franchini - Owner, PGP Consulting.com and Computer Software Consultant",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/pgpconsultingptyltd",
+   "title": "PGP Consulting Pty Ltd LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/pgpconsultingptyltd_australianaccountingawards-accounting-activity-7472773770705784832-AkIp",
+   "title": "PGP named Boutique Accounting Firm of the Year",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-06-16"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/pgpconsultingptyltd_greatplacetowork-accountingcareers-melbournejobs-activity-7517804783991197696-Lt5q",
+   "title": "We're growing our team at PGP Consulting",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-19"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/pgpconsultingptyltd_officeopening-teamculture-newoffice-activity-7451825600144576512-6ZNG",
+   "title": "Opening of new Queen Street office",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-04-20"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.linkedin.com/posts/jonathankyvelidis_maven-partners-australia-is-pleased-to-be-activity-7491354343984766976-d93d",
+   "title": "Maven Partners post: General Manager role at PGP Consulting",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-08-07"
+  },
+  {
+   "id": "S9",
+   "url": "https://pgpconsulting.com.au",
+   "title": "PGP Consulting - Melbourne Accounting & Business Advisory",
+   "type": "website",
+   "publisher": "PGP Consulting",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "PGP Consulting (pgpconsulting.com.au) is based at Level 11, 31 Queen Street, Melbourne.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 11, 31 Queen Street Melbourne VIC 3000",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "The firm's people page presents Peter Piasente as the founding partner, alongside partners Dallas Ibrhaim, Nick Schaeffer and Rhiannon Clews (Bill Franchini is not among the profiles read).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Peter established PGP Consulting with a mission of delivering simple, yet effective strategies for people’s financial needs",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Bill Franchini's LinkedIn headline describes him as owner of 'PGP Consulting.com' and a computer software consultant, not an owner of the Melbourne accounting firm.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Owner, PGP Consulting.com and Computer Software Consultant",
+   "date": null,
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "LinkedIn lists Nick Schaeffer and Donna Marcus as Directors of PGP Consulting Pty Ltd.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Nick Schaeffer: Director",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "PGP was named Boutique Accounting Firm of the Year (20+ Employees) at the 2026 Accountants Daily Australian Accounting Awards.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "PGP has been named Boutique Accounting Firm of the Year (20+ Employees) at the 2026 Accountants Daily Australian Accounting Awards",
+   "date": "2026-06",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "PGP was hiring a Senior SMSF Accountant and an Intermediate Accountant (Business Services) in October 2026.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "We currently have two exciting opportunities to join us in Melbourne:",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "PGP opened a new Queen Street office in April 2026.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "we celebrated the opening of our new Queen Street office",
+   "date": "2026-04",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "A recruiter announced a newly created General Manager role at PGP Consulting in August 2026.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "partnering with PGP Consulting Pty Ltd on the appointment of a newly created General Manager role in Melbourne",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "PGP serves high net worth individuals, professional athletes, media personalities, family businesses and family offices.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Professional Athletes, Media Personalities, and Influencers",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "PGP's team page describes Samuel Albanese as the firm's Xero expert, and notes a Senior Accountant who prepares management reports using Fathom.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "considered by colleagues and clients as the Xero expert",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Bill Franchini",
+   "title": "Owner (per record; unverified)",
+   "contactId": "pgp-consulting--bill-franchini",
+   "linkedin": "https://www.linkedin.com/in/pgpbill",
+   "claimIds": [
+    "C3",
+    "C2"
+   ]
+  },
+  {
+   "name": "Nick Schaeffer",
+   "title": "Partner / Director",
+   "contactId": null,
+   "linkedin": "https://linkedin.com/in/nick-schaeffer-34631845",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "name": "Rhiannon Clews",
+   "title": "Partner",
+   "contactId": null,
+   "linkedin": null,
+   "claimIds": [
+    "C2",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "If outreach is re-targeted to a verified partner (Nick Schaeffer, Rhiannon Clews or Donna Marcus): award win, new office and active hiring suggest growth and capacity pressure.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Newly created General Manager role signals an operations/efficiency agenda.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Primary contact Bill Franchini cannot be linked to the Melbourne firm; his LinkedIn headline points to a different PGP Consulting.com software business. Do not email william@pgpconsulting.com.au until verified.",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "text": "Second contact Panos Papadopoulos is flagged in the record as the Greek PGP Consulting (pgp-consulting.gr), a different company; excluded.",
+   "claimIds": []
+  },
+  {
+   "text": "Client mix is HNW, family office and athlete-oriented boutique, weaker fit for volume reconciliation.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "Could not confirm Bill Franchini works at PGP Consulting Pty Ltd (not on the team page; LinkedIn headline points to a different PGP Consulting.com).",
+  "Direct fetch of his LinkedIn profile failed (not found); only the search headline was read.",
+  "No verified partner email in accounts.json; Nick Schaeffer, Donna Marcus and Rhiannon Clews would need to be added and email-verified.",
+  "No podcast, video or Facebook/Instagram content found.",
+  "The full team page was truncated for some staff."
+ ],
+ "searches": [
+  {
+   "query": "site:pgpconsulting.com.au home/contact/our-people (fetch)",
+   "results": 3
+  },
+  {
+   "query": "Bill Franchini PGP Consulting Melbourne accountant",
+   "results": 6
+  },
+  {
+   "query": "Franchini PGP Consulting Melbourne William Franchini accountant linkedin pgpbill",
+   "results": 2
+  },
+  {
+   "query": "linkedin.com/in/pgpbill Bill Franchini",
+   "results": 1
+  },
+  {
+   "query": "PGP Consulting Melbourne accountants Xero Fathom recent news LinkedIn post 2026",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": null
+ }
+}
