@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-26T11:11:54+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-26T11:15:12+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **450**
 - Contacts (de-duplicated): **810**
@@ -219,4 +219,5 @@ Generated 2026-11-26T11:11:54+00:00 by `pipeline/build_data.py`.
 - [excluded] outreach event hostinger:INBOX.Sent:94 dropped (excluded account)
 - [excluded] outreach event hostinger:INBOX.Sent:102 dropped (excluded account)
 - [count] outreach: 149 events (0 not matched to an account)
-- [count] research dossiers bundled: 0
+- [research-rejected] ega-corporate-advisers.json: source S5 is not cited by any claim (+2 more)
+- [count] research dossiers bundled: 8

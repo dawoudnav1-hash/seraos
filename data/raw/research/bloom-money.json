@@ -1,0 +1,322 @@
+{
+ "accountId": "bloom-money",
+ "accountName": "BLOOM money.",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "BLOOM money. is a small Gold Coast/Brisbane outsourced-finance and virtual CFO practice run by sisters Jaimie Scott (CPA) and Olivia (CA), with a strong e-commerce client base. Jaimie recently spoke on a podcast about Shopify vs Xero numbers and A2X, and shared her Xero/Dext/Fathom stack; the firm advertised a Senior Accountant role in 2026 aimed at cutting busywork.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://bloommoney.com.au",
+   "title": "Bloom Money home",
+   "type": "website",
+   "publisher": "Bloom Money",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://bloommoney.com.au/about",
+   "title": "Bloom Money About",
+   "type": "website",
+   "publisher": "Bloom Money",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/jaimie-scott2020",
+   "title": "Jaimie Scott LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "S4",
+   "url": "https://brightredmarketing.com.au/podcast/why-you-can-t-trust-your-shopify-numbers-for-a-profitable-ecommerce-store-with-jaimie-from-bloom-money",
+   "title": "Why you can't trust your Shopify numbers, with Jaimie from Bloom Money",
+   "type": "podcast",
+   "publisher": "Bright Red Marketing",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://ascendhq.com.au/groups/bloom-money/forum/topic/the-ultimate-finance-tech-stack-platforms-i-use-to-save-time-boost-clarity/",
+   "title": "The ultimate Finance tech stack: Platforms I Use To Save Time & Boost Clarity",
+   "type": "other",
+   "publisher": "Ascend (Bloom Money group)",
+   "date": "2025-11-19"
+  },
+  {
+   "id": "S6",
+   "url": "https://movetomore.com.au/job/c0cfb4ee-68f3-4f2a-a6cb-3d55cd7d8b08/",
+   "title": "Senior Accountant, Outsourced Finance",
+   "type": "job",
+   "publisher": "Move To More Regional Jobs",
+   "date": "2026-08-27"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/bloommoney_excited-to-be-growing-the-bloom-money-team-activity-7417413008253063168-eyKl",
+   "title": "BLOOM money. LinkedIn post: growing the team",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-01-15"
+  },
+  {
+   "id": "S8",
+   "url": "https://bloommoney.com.au/services",
+   "title": "Bloom Money services",
+   "type": "website",
+   "publisher": "Bloom Money",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "BLOOM money. operates from bloommoney.com.au with a Gold Coast (Southport) contact address.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "sayhi@bloommoney.com.au Southport, Gold Coast",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Jaimie Scott is a Director and current Finance Business Partner at BLOOM money. (since Dec 2020), based in Brisbane.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Dec 2020 - Present (5 years and 11 months) in Brisbane, State of Queensland, Australia",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Jaimie appeared on the Bright Red Marketing podcast about why Shopify numbers and Xero profit and loss do not match for eCommerce businesses.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "why your Shopify dashboard and your Xero profit and loss almost never match",
+   "date": null,
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "On the podcast Jaimie named A2X as the best Shopify-to-Xero connector she has used.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "the best one I've used is A2X",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Jaimie said that with automations set up, a Shopify-connected Xero file can nearly reconcile automatically.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "you can nearly get it reconciling automatically",
+   "date": null,
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Jaimie posted a video on the platforms she uses daily: Ignition, Dext, Xero, Fathom.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "I cover tools like Ignition, Dext, Xero, Fathom, and the value of having a Fractional CFO",
+   "date": "2025-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "BLOOM money. advertised a Senior Accountant (Outsourced Finance) role on the Gold Coast in August 2026.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Bloom Money is seeking a Senior Accountant (Outsourced Finance) to join their team!",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The job ad describes a team passionate about cutting out busywork.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "passionate about cutting out busywork in favour of meaningful, high-quality work",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "BLOOM money. also posted on LinkedIn in January 2026 about growing the team with a Senior Accountant.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We’re on the lookout for a Senior Accountant who enjoys working closely with clients and delivering real financial clarity.",
+   "date": "2026-01",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Services include bank reconciliation, BAS, payroll and management accounting/virtual CFO.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Bank Reconciliation",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "A client testimonial describes outsourced finance for a rapidly expanding Brisbane online brand selling into North America and Europe.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "outsourced finance expertise for a rapidly expanding Brisbane based online brand",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "The About page lists six team members including a CPA bookkeeper, so the practice is small.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Shaina is our detail-loving Bookkeeper and CPA.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "The firm's homepage currently contains an unrelated online-casino promotional paragraph, suggesting the site may have been tampered with.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Wild Card City Casino – Australia’s Silent Strike",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Jaimie Scott",
+   "title": "Director",
+   "contactId": "bloom-money--jaimie-scott",
+   "linkedin": "https://www.linkedin.com/in/jaimie-scott2020",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Jaimie's podcast on Shopify vs Xero numbers and her A2X comment, with the point that files can nearly auto-reconcile: Vert handles the residual reconciliation that connectors leave.",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Hiring a Senior Accountant while valuing less busywork suggests capacity pressure on reconciliation and month-end.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Her own tech-stack video (Dext, Xero, Fathom) shows she is tool-curious; ask where reconciliation still bottlenecks.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Already runs automation (A2X, Dext); may see little gap. Very small team.",
+   "claimIds": [
+    "C4",
+    "C6",
+    "C12"
+   ]
+  },
+  {
+   "text": "Homepage appears to contain injected casino spam; website may be compromised, treat site content with care.",
+   "claimIds": [
+    "C13"
+   ]
+  }
+ ],
+ "gaps": [
+  "Podcast and tech-stack video dates not shown on pages (podcast date unknown).",
+  "No Facebook/Instagram posts retrievable.",
+  "LinkedIn employee count (3) conflicts with About page (six people).",
+  "No MYOB/Xero partner directory entry found."
+ ],
+ "searches": [
+  {
+   "query": "site:bloommoney.com.au home/about/blog/services/academy (fetch)",
+   "results": 5
+  },
+  {
+   "query": "Jaimie Scott BLOOM money Brisbane director virtual CFO",
+   "results": 6
+  },
+  {
+   "query": "Bloom Money Gold Coast Brisbane senior accountant job vacancy",
+   "results": 2
+  },
+  {
+   "query": "Bloom Money accountants Xero e-commerce virtual CFO Dext Hubdoc tools",
+   "results": 3
+  },
+  {
+   "query": "Bloom Money facebook instagram",
+   "results": 0
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "bloom-money--jaimie-scott",
+   "subject": "Reconciling Shopify and Xero at Bloom",
+   "body": "Hi Jaimie, I read the transcript of your Bright Red Marketing episode on why Shopify and the Xero profit and loss almost never match, including your point that A2X can get a file close to reconciling automatically. I also saw Bloom is hiring a Senior Accountant and values cutting out busywork. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace instead of AI that guesses. Where do the leftover manual reconciliations sit for your eCommerce clients, after A2X and Dext?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C7",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "bloom-money--jaimie-scott",
+   "subject": "Re: Reconciling Shopify and Xero at Bloom",
+   "body": "Hi Jaimie, following up on my note last week. Your video on the platforms you use every day, Ignition, Dext, Xero and Fathom, made me curious: with that stack in place, is reconciliation still the slow step when a new client's Xero file lands messy? If so, I'd happily show Vert on a sample file in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C11"
+   ]
+  }
+ }
+}

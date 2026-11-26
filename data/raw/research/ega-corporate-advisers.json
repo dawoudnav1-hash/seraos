@@ -1,0 +1,257 @@
+{
+ "accountId": "ega-corporate-advisers",
+ "accountName": "EGA Corporate Advisers",
+ "status": "thin",
+ "researchedAt": "2026-11-26",
+ "summary": "EGA Corporate Advisers (ega.com.au) is a Melbourne accounting and corporate advisory practice at 468 St Kilda Road, founded in 2005 and listed on LinkedIn with 29 employees. Its site says two partners personally oversee every client and it offers accounting, tax and compliance alongside structuring, estate and succession advice. Lilian Bone is a current Associate Director who has been at the firm since 2005 and has been quoted as EGA's Superannuation Manager. Public detail on the firm's tech stack and recent activity is thin.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "http://ega.com.au/",
+   "title": "EGA Corporate Advisers",
+   "type": "website",
+   "publisher": "EGA Corporate Advisers",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/in/lilian-bone-b54356a0",
+   "title": "Lilian Bone - Associate Director at EGA Corporate Advisers Pty Ltd | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/ega-corporate-advisors-pty-ltd",
+   "title": "EGA Corporate Advisers Pty Ltd | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.smsfcompliance.com.au/about-us",
+   "title": "About Us | SMSF Compliance Audits",
+   "type": "website",
+   "publisher": "SMSF Compliance Audits",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.signalhire.com/companies/ega-corporate-advisers-pty-ltd",
+   "title": "EGA Corporate Advisers Pty Ltd Information | SignalHire Company Profile",
+   "type": "directory",
+   "publisher": "SignalHire",
+   "date": "2026-09-11"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "EGA Corporate Advisers' own site (ega.com.au) lists its address as Level 12, 468 St Kilda Road, Melbourne, so the Melbourne firm is confirmed.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 12, 468 St Kilda Road, Melbourne, VIC 3004",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "LinkedIn lists EGA Corporate Advisers as an accounting firm headquartered in Melbourne with 29 employees, founded in 2005.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "EGA Corporate Advisers Pty Ltd employs 29 people (+2.6% YoY, +1 person), founded in 2005.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Lilian Bone is shown as Associate Director at EGA on her LinkedIn, with her EGA role marked current since September 2005, so she still works there.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Senior Manager - EGA Corporate Advisers Pty Ltd (Current) Sep 2005 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Lilian is a CPA with a Bachelor's degree in accounting from Swinburne and about 21 years of experience.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Certified Practising Accountant by CPA Australia",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Lilian is quoted as Superannuation Manager at EGA Accountants in a testimonial on the SMSF Compliance Audits website, saying EGA switched to them after a disappointing experience with another audit firm.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We switched to SMSF Compliance Audits after a disappointing experience with another audit firm.",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "EGA's site says its two partners personally oversee every client's business, each client having a designated team.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "They personally oversee every clients' business. This ensures that each client has a designated team of professionals",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "EGA positions itself beyond traditional accounting, with services including accounting and business advice, tax and compliance, corporate structuring, estate planning and succession planning.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "practical solution orientated corporate advice well beyond what you typically expect from a traditional accounting practice",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "SignalHire's EGA profile (updated September 2026) lists a Director of Technology under its former-employee role changes, which may mean Bart Kratochvil has left; unconfirmed.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Former Employees: Role Changes",
+   "date": "2026-09",
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "EGA says the team is led by senior managers supported by the partners, with a dedicated team of accounting specialists.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "The team is led by experienced senior managers who are supported by the partners to deliver tailored results for our clients.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Lilian Bone",
+   "title": "Associate Director",
+   "contactId": "ega-corporate-advisers--lilian-bone",
+   "linkedin": "https://www.linkedin.com/in/lilian-bone-b54356a0",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Bart Kratochvil",
+   "title": "Director of Technology",
+   "contactId": "ega-corporate-advisers--bart-kratochvil",
+   "linkedin": "https://www.linkedin.com/in/bart-kratochvil-a864728a",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Lilian's SMSF auditor testimonial shows she runs the superannuation side and cares about audit quality and a clean file; an audit-trail angle fits.",
+   "claimIds": [
+    "C5",
+    "C4"
+   ]
+  },
+  {
+   "text": "Partners personally oversee every client, with senior managers leading teams, so review time sits with seniors like Lilian.",
+   "claimIds": [
+    "C6",
+    "C8",
+    "C3"
+   ]
+  },
+  {
+   "text": "Advice-heavy positioning (structuring, estate, succession) means time freed from reconciliation goes straight to higher-value work.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Primary contact Bart Kratochvil (Director of Technology) could not be verified as current: his LinkedIn URL did not resolve and SignalHire lists a Director of Technology among its 'former employees' role changes. A Bart Kratochvil now appears as an AI engineer elsewhere but the match is unconfirmed. Writing to Lilian instead.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "Firm site positions EGA as advisory-led and 'beyond a traditional accounting practice', so reconciliation volume may be modest.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No firm blog, newsletter, podcast, Facebook or Instagram content found.",
+  "No EGA-attributed job ads found, so hiring signals are unknown (an unnamed St Kilda Road recruiter ad could not be tied to EGA and was not used).",
+  "No Xero/MYOB partner listing or other tech stack evidence for EGA found.",
+  "Could not verify whether Bart Kratochvil still works at EGA.",
+  "Lilian's testimonial page is undated."
+ ],
+ "searches": [
+  {
+   "query": "fetch ega.com.au home and subpages",
+   "results": 1
+  },
+  {
+   "query": "Bart Kratochvil EGA Corporate Advisers Director of Technology",
+   "results": 4
+  },
+  {
+   "query": "fetch Lilian Bone and Bart Kratochvil LinkedIn, SignalHire EGA profile",
+   "results": 2
+  },
+  {
+   "query": "Lilian Bone EGA Corporate Advisers Associate Director Melbourne",
+   "results": 5
+  },
+  {
+   "query": "EGA Accountants St Kilda Road Melbourne senior accountant job Xero MYOB",
+   "results": 0
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "ega-corporate-advisers--lilian-bone",
+   "subject": "Reconciliations at EGA",
+   "body": "Hi Lilian,\n\nI saw your testimonial for SMSF Compliance Audits as EGA's Superannuation Manager, and that you've been at the firm since 2005, and EGA's site says the partners personally oversee every client, so I expect the senior team ends up reviewing a lot of reconciliation work before it goes out. I built Vert to turn hours of manual reconciliation into minutes, with a traceable match behind each line so review is quick and nothing is guessed. How much of your team's month goes on reconciling before review?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C3",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "ega-corporate-advisers--lilian-bone",
+   "subject": "Re: Reconciliations at EGA",
+   "body": "Hi Lilian,\n\nFollowing up on my note last week. EGA's site says its advice goes well beyond a traditional accounting practice, and as the person running super I'd guess reconciliation and cash coding are the steps you'd most like to hand off. Vert does them with a traceable match behind every line. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C5"
+   ]
+  }
+ }
+}

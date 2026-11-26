@@ -1,1 +1,2589 @@
-{}
+{
+ "afp-advisory-group": {
+  "accountId": "afp-advisory-group",
+  "accountName": "AFP Advisory Group",
+  "status": "complete",
+  "researchedAt": "2026-11-26",
+  "summary": "AFP Advisory Group (AFP Accounting, Tax & Business Advisory) is a Sydney firm headquartered in Norwest, serving high-net-worth family groups and medium-scale enterprises, with a Virtual CFO line and a finance and loans division. Alex Flyak has been Managing Partner since 2014. The team is very small (about 5 on LinkedIn) and part of the bookkeeping workforce is in the Philippines. Recent LinkedIn posts cover the 2026-27 Budget and business lending.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://afpaccounting.com.au/",
+    "title": "AFP Accounting, Tax & Business Advisory | Sydney Advisors",
+    "type": "website",
+    "publisher": "AFP Accounting",
+    "date": null
+   },
+   {
+    "id": "S2",
+    "url": "https://afpaccounting.com.au/alex-flyak/",
+    "title": "Alex Flyak - AFP Accounting, Tax & Business Advisory",
+    "type": "website",
+    "publisher": "AFP Accounting",
+    "date": null
+   },
+   {
+    "id": "S3",
+    "url": "https://afpaccounting.com.au/virtual-cfo/",
+    "title": "Virtual CFO - AFP Accounting",
+    "type": "website",
+    "publisher": "AFP Accounting",
+    "date": null
+   },
+   {
+    "id": "S4",
+    "url": "https://linkedin.com/company/afp-accounting",
+    "title": "AFP Advisory Group - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-05-20"
+   },
+   {
+    "id": "S5",
+    "url": "https://linkedin.com/in/alexander-flyak",
+    "title": "Alexander Flyak - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-11-10"
+   },
+   {
+    "id": "S6",
+    "url": "https://afpaccounting.com.au/news/",
+    "title": "News - AFP Accounting",
+    "type": "blog",
+    "publisher": "AFP Accounting",
+    "date": "2026-05-20"
+   },
+   {
+    "id": "S7",
+    "url": "https://afpaccounting.com.au/about/",
+    "title": "About - AFP Accounting",
+    "type": "website",
+    "publisher": "AFP Accounting",
+    "date": null
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "AFP is an integrated accounting, tax and advisory firm in Sydney serving high-net-worth family groups and medium-scale enterprises.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "We are an integrated professional accounting, taxation and advisory firm in Sydney, Australia.",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "AFP's HQ is in Norwest, NSW, with a second office at Barangaroo.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "HQ - Suite 5.03, Level 5, Infinity Park Commercial, 7 Maitland Place, Norwest, NSW 2153",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "Alex Flyak became Managing Partner of AFP in 2014 and is listed as a current Director on LinkedIn (updated Nov 2026).",
+    "sourceIds": [
+     "S2",
+     "S5"
+    ],
+    "quote": "Alex became the Managing Partner of AFP in 2014",
+    "date": "2026-11",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C4",
+    "text": "Alex is a Chartered Accountant and Chartered Tax Advisor with a stated interest in developing and connecting future leaders inside and outside the AFP team.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "Alex has a particular interest and passion for developing and connecting future leaders – both inside and outside of the AFP team.",
+    "date": null,
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C5",
+    "text": "AFP offers a Virtual CFO service that includes software solutions and management reporting.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "From software solutions to help streamline your processes, to financial and management reporting to keep you updated on your financial performance, AFP’s Virtual CFOs are here to help.",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C6",
+    "text": "AFP's Virtual CFO page says its software solutions use technology to deliver services quickly and efficiently.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "use technology to provide our services as quickly and efficiently as possible",
+    "date": null,
+    "category": "tech",
+    "confidence": "high"
+   },
+   {
+    "id": "C7",
+    "text": "AFP posted on LinkedIn on 20 May 2026 about reforms in the 2026-27 Federal Budget affecting CGT, negative gearing and trusts.",
+    "sourceIds": [
+     "S4",
+     "S6"
+    ],
+    "quote": "The 2026–27 Federal Budget has introduced major reforms to CGT, negative gearing, and trust taxation",
+    "date": "2026-05-20",
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "AFP posted on LinkedIn on 1 May 2026 about what lenders focus on in business loans, including cash flow sustainability.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Clear use of funds ✅ Cash flow sustainability ✅ Loan structure (not just rate)",
+    "date": "2026-05-01",
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C9",
+    "text": "AFP's workforce is distributed across Australia and the Philippines (LinkedIn company data), and an AU Bookkeeper based in the Philippines lists AFP as current employer.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "Its workforce is distributed across Australia and Philippines.",
+    "date": "2026-11",
+    "category": "hiring",
+    "confidence": "medium"
+   },
+   {
+    "id": "C10",
+    "text": "AFP's team page lists a Bookkeeping & Business Administration Manager (Carly Martin).",
+    "sourceIds": [
+     "S7"
+    ],
+    "quote": "Carly Martin Bookkeeping & Business Administration Manager",
+    "date": null,
+    "category": "firm",
+    "confidence": "high"
+   },
+   {
+    "id": "C11",
+    "text": "LinkedIn company data lists Xero and MYOB in AFP's tech stack (third-party aggregated data).",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Tech Stack: amp, impact, microsoft, mix, myob, well, xero",
+    "date": null,
+    "category": "tech",
+    "confidence": "medium"
+   },
+   {
+    "id": "C12",
+    "text": "AFP is very small: LinkedIn shows 5 employees, down 14.3% year on year.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "AFP Advisory Group employs 5 people (-14.3% YoY, -1 person), founded in 2011.",
+    "date": null,
+    "category": "firm",
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Alexander Flyak",
+    "title": "Managing Partner / Director",
+    "contactId": "afp-advisory-group--alexander-flyak",
+    "linkedin": "https://www.linkedin.com/in/alexander-flyak",
+    "claimIds": [
+     "C3",
+     "C4"
+    ]
+   }
+  ],
+  "hooks": [
+   {
+    "text": "Virtual CFO offering rests on management reporting; part of the bookkeeping team is offshore in the Philippines, so review of reconciliations is a likely time sink (inference).",
+    "claimIds": [
+     "C5",
+     "C9"
+    ]
+   },
+   {
+    "text": "May 2026 LinkedIn posts on the Budget and on lender expectations (cash flow sustainability) show the firm talks to clients about cash flow and structuring.",
+    "claimIds": [
+     "C7",
+     "C8"
+    ]
+   },
+   {
+    "text": "Alex's stated interest in developing future leaders may suit a pitch about freeing junior staff from manual reconciling.",
+    "claimIds": [
+     "C4"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Very small team (5 on LinkedIn, shrinking) and HNW/tax/structuring focus; weak volume fit for reconciliation tooling.",
+    "claimIds": [
+     "C12",
+     "C1"
+    ]
+   },
+   {
+    "text": "Offshore bookkeeping may mean reconciliations are handled by a BPO provider who might not adopt new tools.",
+    "claimIds": [
+     "C9"
+    ]
+   }
+  ],
+  "gaps": [
+   "No blog posts or podcast appearances by Alex found beyond the firm's news page.",
+   "No public job ads found; careers page lists no open roles.",
+   "No Facebook/Instagram activity found.",
+   "Tech stack (Xero/MYOB) only from an aggregator, not AFP itself."
+  ],
+  "searches": [
+   {
+    "query": "site:afpaccounting.com.au home, about, careers, virtual CFO",
+    "results": 5
+   },
+   {
+    "query": "Alexander Flyak AFP Advisory Group director Sydney accountant",
+    "results": 8
+   },
+   {
+    "query": "AFP Accounting Tax & Business Advisory Norwest news OR careers OR Xero OR Philippines team",
+    "results": 8
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "afp-advisory-group--alexander-flyak",
+    "subject": "Reconciling behind AFP's Virtual CFO work",
+    "body": "Hi Alex,\n\nNoticed AFP's May post on the 2026–27 Budget reforms to CGT, negative gearing and trusts, and that your Virtual CFO service leans on management reporting. That reporting is only as good as the reconciliations underneath it, and with part of your bookkeeping team in the Philippines, I'd guess review time is where the hours go. I built Vert to turn hours of manual reconciliation into minutes, with a traceable trail and no guessing on coding. Do you review offshore reconciliations by hand today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C7",
+     "C5",
+     "C9",
+     "C3"
+    ]
+   },
+   "followUp": {
+    "contactId": "afp-advisory-group--alexander-flyak",
+    "subject": "Re: Reconciling behind AFP's Virtual CFO work",
+    "body": "Hi Alex,\n\nFollowing up on my note. Your May LinkedIn post on what lenders look for in a business loan listed cash flow sustainability, and that starts with clean, reconciled books. Vert reconciles and cash codes with a traceable trail, so whoever prepares the numbers, you can trust them quickly. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C8",
+     "C5"
+    ]
+   }
+  }
+ },
+ "bentleys-victoria": {
+  "accountId": "bentleys-victoria",
+  "accountName": "Bentleys Victoria",
+  "status": "complete",
+  "researchedAt": "2026-11-26",
+  "summary": "Bentleys Victoria is the Hawthorn-based Victorian member of the Bentleys network, rebranded from McLean Delmo Bentleys in July 2025 and led by CEO Jack Delmo, who also runs M&A and growth. It is an 80+ person firm hiring accountants in Hawthorn working in Xero and MYOB. Jack's public activity is about tax reform, succession and M&A rather than technology.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://www.bentleys.com.au/offices/bentleys-victoria/",
+    "title": "Bentleys Victoria | Chartered Accountants & Business Advisors",
+    "type": "website",
+    "publisher": "Bentleys",
+    "date": null
+   },
+   {
+    "id": "S2",
+    "url": "https://www.bentleys.com.au/advisors/jack-delmo/",
+    "title": "Jack Delmo - Chief Executive Officer | Bentleys Victoria",
+    "type": "website",
+    "publisher": "Bentleys",
+    "date": null
+   },
+   {
+    "id": "S3",
+    "url": "https://linkedin.com/in/jackdelmo",
+    "title": "Jack Delmo | LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-10-26"
+   },
+   {
+    "id": "S4",
+    "url": "https://www.bentleys.com.au/insights/bentleys-victoria-announces-two-senior-promotions/",
+    "title": "Bentleys Victoria Announces Two Senior Promotions",
+    "type": "news",
+    "publisher": "Bentleys",
+    "date": "2024-07-01"
+   },
+   {
+    "id": "S5",
+    "url": "https://www.consultancy.com.au/news/11433/mclean-delmo-bentleys-rebrands-as-bentleys-victoria-after-12-years",
+    "title": "McLean Delmo Bentleys rebrands as Bentleys Victoria after 12 years",
+    "type": "news",
+    "publisher": "Consultancy.com.au",
+    "date": "2025-07-02"
+   },
+   {
+    "id": "S6",
+    "url": "https://www.linkedin.com/posts/jackdelmo_last-night-bentleys-australia-and-new-zealand-activity-7503972929173426176-rhk7",
+    "title": "Jack Delmo LinkedIn post on federal budget tax changes",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-09-11"
+   },
+   {
+    "id": "S7",
+    "url": "https://employmenthero.com/jobs/organisations/mclean-delmo-bentleys-pty-ltd/",
+    "title": "Bentleys (Victoria) Pty Ltd Jobs & Careers | Employment Hero",
+    "type": "job",
+    "publisher": "Employment Hero",
+    "date": null
+   },
+   {
+    "id": "S8",
+    "url": "https://www.simplyhired.com.au/job/tBkcCY3HUD_uMfTQ-eC4ikocuemcFEdsegySKjLoQf_bhMnmBj2GXg",
+    "title": "Senior Accountant - Bentleys Victoria | Hawthorn VIC",
+    "type": "job",
+    "publisher": "SimplyHired",
+    "date": null
+   },
+   {
+    "id": "S9",
+    "url": "https://www.xbert.io/blog/the-secret-of-top-tier-firms-reducing-rework-and-giving-great-advice",
+    "title": "The secret of top tier firms reducing rework and giving great advice",
+    "type": "blog",
+    "publisher": "XBert",
+    "date": null
+   },
+   {
+    "id": "S10",
+    "url": "https://www.linkedin.com/posts/jackdelmo_its-never-too-earlier-to-start-preparing-activity-7463507461761576962-yQO8",
+    "title": "Jack Delmo LinkedIn post on succession, investment or scale",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-05-22"
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "Bentleys Victoria's own site (bentleys.com.au) lists offices in Hawthorn (302 Burwood Rd), Woodend and Wallan.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "We have offices in Hawthorn, Woodend and Wallan.",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "Jack Delmo is currently CEO of Bentleys Victoria and a National Board Member of Bentleys.",
+    "sourceIds": [
+     "S2",
+     "S3"
+    ],
+    "quote": "Jack Delmo is the Chief Executive Officer at Bentleys Victoria.",
+    "date": "2026-10",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "Jack Delmo leads Bentleys Victoria's M&A strategy and growth team, looking for like-minded businesses to partner with.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "Jack also leads Bentleys Victoria M&A strategy and growth team, with a key focus on finding likeminded individuals and businesses to partner with.",
+    "date": null,
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C4",
+    "text": "Bentleys Victoria opened two regional offices, in Woodend and Kilmore, during Jack Delmo's time as COO.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Bentleys Victoria has experienced significant expansion, including the opening of two regional offices in Woodend and Kilmore, Victoria.",
+    "date": "2024-07",
+    "category": "growth",
+    "confidence": "medium"
+   },
+   {
+    "id": "C5",
+    "text": "Bentleys Victoria describes itself as a Top 12 AFR firm of 80+ employees.",
+    "sourceIds": [
+     "S8"
+    ],
+    "quote": "Bentleys Victoria is a purpose driven Top 12 AFR firm. We are a close-knit firm of 80+ employees",
+    "date": null,
+    "category": "firm",
+    "confidence": "high"
+   },
+   {
+    "id": "C6",
+    "text": "Bentleys Victoria had an Accounting Manager role open in Hawthorn, posted 25 Oct 2026.",
+    "sourceIds": [
+     "S7"
+    ],
+    "quote": "Accounting Manager at Bentleys (Victoria) Pty Ltd • Hawthorn, Victoria 3122 • Full-time • Hybrid posted 25 Oct 2026",
+    "date": "2026-10",
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C7",
+    "text": "The Senior Accountant role in Hawthorn (posted 30 Sep 2026) requires IT skills in MYOB AE and other MYOB packages and Xero.",
+    "sourceIds": [
+     "S7",
+     "S8"
+    ],
+    "quote": "Strong IT skills (MYOB AE and other MYOB accounting packages, XERO, Microsoft Office suite including Excel).",
+    "date": "2026-09",
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "The Senior Accountant role involves processing client documentation and preparing journals and work papers for financial reports.",
+    "sourceIds": [
+     "S8"
+    ],
+    "quote": "Effectively process client documentation, preparing journals and work papers to produce financial reports in accordance with accounting standards.",
+    "date": "2026-09",
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C9",
+    "text": "Bentleys Victoria's services span taxation, business advisory, audit and assurance, finance and lending, financial planning and SMSF.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Our services include: - Specialist taxation and business advisory services - Audit and assurance services",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C10",
+    "text": "Jack Delmo was a panellist at a May 2026 Bentleys event on business succession, M&A and more.",
+    "sourceIds": [
+     "S10"
+    ],
+    "quote": "Thank you to our speakers Charith Mandadige, Ray Short and Matt Skelley FTI CA and panellists Jack Delmo Ashley Sorrenti, Joshua King and Ronan Fenton.",
+    "date": "2026-05",
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C11",
+    "text": "Jack Delmo posted in September 2026 on federal budget tax changes, stressing maximising asset values at 30 June 2027.",
+    "sourceIds": [
+     "S6"
+    ],
+    "quote": "Maximising asset values at 30 June 2027 is imperative to taking advantage of the 50% CGT discount available.",
+    "date": "2026-09",
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C12",
+    "text": "McLean Delmo Bentleys rebranded as Bentleys Victoria from 1 July 2025.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "The Victorian branch of advisory firm Bentleys has rebranded from McLean Delmo Bentleys to Bentleys Victoria",
+    "date": "2025-07",
+    "category": "news",
+    "confidence": "high"
+   },
+   {
+    "id": "C13",
+    "text": "Fahmid Ahmed is listed on the Bentleys Victoria team page as Partner/Director.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Fahmid Ahmed Partner/Director Bentleys Victoria",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C14",
+    "text": "Bentleys Queensland (a separate member firm) formally partnered with XBert to cut manual checks in its bookkeeping team.",
+    "sourceIds": [
+     "S9"
+    ],
+    "quote": "After extensive testing and assessment, Bentleys Queensland announced a formal partnership with XBert.",
+    "date": null,
+    "category": "tech",
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Jack Delmo",
+    "title": "CEO, Bentleys Victoria",
+    "contactId": "bentleys-victoria--jack-delmo",
+    "linkedin": "https://www.linkedin.com/in/jackdelmo",
+    "claimIds": [
+     "C2",
+     "C3",
+     "C10",
+     "C11"
+    ]
+   },
+   {
+    "name": "Fahmid Ahmed",
+    "title": "Partner/Director",
+    "contactId": "bentleys-victoria--fahmid-ahmed",
+    "linkedin": null,
+    "claimIds": [
+     "C13"
+    ]
+   }
+  ],
+  "hooks": [
+   {
+    "text": "Active hiring of a Senior Accountant and Accounting Manager in Hawthorn, with a Senior Accountant role built around processing client documents and journals in Xero and MYOB: reconciliation load is a capacity issue.",
+    "claimIds": [
+     "C6",
+     "C7",
+     "C8"
+    ]
+   },
+   {
+    "text": "Jack leads M&A and growth and the firm has added regional offices; absorbing new practices and offices makes a consistent reconciliation process valuable.",
+    "claimIds": [
+     "C3",
+     "C4",
+     "C10"
+    ]
+   },
+   {
+    "text": "Jack's recent public focus is tax reform and succession planning, so an efficiency pitch should be framed around partner and manager capacity rather than technology.",
+    "claimIds": [
+     "C10",
+     "C11"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Jack Delmo has no email on file, so outreach goes to Partner/Director Fahmid Ahmed; Jack may be best reached via LinkedIn or a warm intro.",
+    "claimIds": [
+     "C2",
+     "C13"
+    ]
+   },
+   {
+    "text": "Part of a national network of independent member firms; another member firm (Bentleys Queensland) already uses XBert, so tooling may be influenced network-wide.",
+    "claimIds": [
+     "C14"
+    ]
+   },
+   {
+    "text": "Audit and advisory-led, large firm (80+ staff); weak-to-moderate fit per account notes.",
+    "claimIds": [
+     "C5",
+     "C9"
+    ]
+   }
+  ],
+  "gaps": [
+   "No podcast, video, Facebook or Instagram content found for Jack Delmo or Bentleys Victoria.",
+   "No Bentleys Victoria statement found on its own use of AI or automation; Bentleys-wide AI article is by another author (Sandie Boswell).",
+   "No blog content found authored by Fahmid Ahmed; his LinkedIn was not located.",
+   "No Xero or MYOB partner-status page found for Bentleys Victoria."
+  ],
+  "searches": [
+   {
+    "query": "Jack Delmo Bentleys Victoria CEO",
+    "results": 8
+   },
+   {
+    "query": "site:bentleys.com.au Bentleys Victoria news insights",
+    "results": 8
+   },
+   {
+    "query": "Bentleys Victoria job vacancy accountant Hawthorn Seek",
+    "results": 5
+   },
+   {
+    "query": "Bentleys Victoria Jack Delmo AI technology automation accounting firm podcast OR interview OR linkedin post",
+    "results": 8
+   },
+   {
+    "query": "Jack Delmo Bentleys Victoria podcast OR webinar OR facebook",
+    "results": 5
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "bentleys-victoria--fahmid-ahmed",
+    "subject": "Reconciling at Bentleys Victoria",
+    "body": "Hi Fahmid,\n\nSaw Bentleys Victoria is hiring an Accounting Manager and a Senior Accountant in Hawthorn, and the Senior Accountant role is about processing client documentation and preparing journals across Xero and MYOB. That is the work Vert takes off a team. It reconciles and cash codes with a traceable audit trail, so hours of manual reconciliation become minutes. With Jack leading growth and M&A, I'd guess consistent processes across offices matter. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C6",
+     "C7",
+     "C8",
+     "C3"
+    ]
+   },
+   "followUp": {
+    "contactId": "bentleys-victoria--fahmid-ahmed",
+    "subject": "Re: Reconciling at Bentleys Victoria",
+    "body": "Hi Fahmid,\n\nFollowing up on my note last week. Jack was on a panel in May about succession and M&A, and Bentleys Victoria has opened offices in Woodend and Kilmore in recent years. When a practice joins, how much of the onboarding goes on getting its client reconciliations working the way the rest of the firm does? Happy to show how Vert handles that in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C10",
+     "C4"
+    ]
+   }
+  }
+ },
+ "bloom-money": {
+  "accountId": "bloom-money",
+  "accountName": "BLOOM money.",
+  "status": "complete",
+  "researchedAt": "2026-11-26",
+  "summary": "BLOOM money. is a small Gold Coast/Brisbane outsourced-finance and virtual CFO practice run by sisters Jaimie Scott (CPA) and Olivia (CA), with a strong e-commerce client base. Jaimie recently spoke on a podcast about Shopify vs Xero numbers and A2X, and shared her Xero/Dext/Fathom stack; the firm advertised a Senior Accountant role in 2026 aimed at cutting busywork.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://bloommoney.com.au",
+    "title": "Bloom Money home",
+    "type": "website",
+    "publisher": "Bloom Money",
+    "date": null
+   },
+   {
+    "id": "S2",
+    "url": "https://bloommoney.com.au/about",
+    "title": "Bloom Money About",
+    "type": "website",
+    "publisher": "Bloom Money",
+    "date": null
+   },
+   {
+    "id": "S3",
+    "url": "https://linkedin.com/in/jaimie-scott2020",
+    "title": "Jaimie Scott LinkedIn profile",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-11-08"
+   },
+   {
+    "id": "S4",
+    "url": "https://brightredmarketing.com.au/podcast/why-you-can-t-trust-your-shopify-numbers-for-a-profitable-ecommerce-store-with-jaimie-from-bloom-money",
+    "title": "Why you can't trust your Shopify numbers, with Jaimie from Bloom Money",
+    "type": "podcast",
+    "publisher": "Bright Red Marketing",
+    "date": null
+   },
+   {
+    "id": "S5",
+    "url": "https://ascendhq.com.au/groups/bloom-money/forum/topic/the-ultimate-finance-tech-stack-platforms-i-use-to-save-time-boost-clarity/",
+    "title": "The ultimate Finance tech stack: Platforms I Use To Save Time & Boost Clarity",
+    "type": "other",
+    "publisher": "Ascend (Bloom Money group)",
+    "date": "2025-11-19"
+   },
+   {
+    "id": "S6",
+    "url": "https://movetomore.com.au/job/c0cfb4ee-68f3-4f2a-a6cb-3d55cd7d8b08/",
+    "title": "Senior Accountant, Outsourced Finance",
+    "type": "job",
+    "publisher": "Move To More Regional Jobs",
+    "date": "2026-08-27"
+   },
+   {
+    "id": "S7",
+    "url": "https://www.linkedin.com/posts/bloommoney_excited-to-be-growing-the-bloom-money-team-activity-7417413008253063168-eyKl",
+    "title": "BLOOM money. LinkedIn post: growing the team",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-01-15"
+   },
+   {
+    "id": "S8",
+    "url": "https://bloommoney.com.au/services",
+    "title": "Bloom Money services",
+    "type": "website",
+    "publisher": "Bloom Money",
+    "date": null
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "BLOOM money. operates from bloommoney.com.au with a Gold Coast (Southport) contact address.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "sayhi@bloommoney.com.au Southport, Gold Coast",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "Jaimie Scott is a Director and current Finance Business Partner at BLOOM money. (since Dec 2020), based in Brisbane.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "Dec 2020 - Present (5 years and 11 months) in Brisbane, State of Queensland, Australia",
+    "date": "2026-11",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "Jaimie appeared on the Bright Red Marketing podcast about why Shopify numbers and Xero profit and loss do not match for eCommerce businesses.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "why your Shopify dashboard and your Xero profit and loss almost never match",
+    "date": null,
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C4",
+    "text": "On the podcast Jaimie named A2X as the best Shopify-to-Xero connector she has used.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "the best one I've used is A2X",
+    "date": null,
+    "category": "tech",
+    "confidence": "high"
+   },
+   {
+    "id": "C5",
+    "text": "Jaimie said that with automations set up, a Shopify-connected Xero file can nearly reconcile automatically.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "you can nearly get it reconciling automatically",
+    "date": null,
+    "category": "pain",
+    "confidence": "high"
+   },
+   {
+    "id": "C6",
+    "text": "Jaimie posted a video on the platforms she uses daily: Ignition, Dext, Xero, Fathom.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "I cover tools like Ignition, Dext, Xero, Fathom, and the value of having a Fractional CFO",
+    "date": "2025-11",
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C7",
+    "text": "BLOOM money. advertised a Senior Accountant (Outsourced Finance) role on the Gold Coast in August 2026.",
+    "sourceIds": [
+     "S6"
+    ],
+    "quote": "Bloom Money is seeking a Senior Accountant (Outsourced Finance) to join their team!",
+    "date": "2026-08",
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "The job ad describes a team passionate about cutting out busywork.",
+    "sourceIds": [
+     "S6"
+    ],
+    "quote": "passionate about cutting out busywork in favour of meaningful, high-quality work",
+    "date": "2026-08",
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C9",
+    "text": "BLOOM money. also posted on LinkedIn in January 2026 about growing the team with a Senior Accountant.",
+    "sourceIds": [
+     "S7"
+    ],
+    "quote": "We’re on the lookout for a Senior Accountant who enjoys working closely with clients and delivering real financial clarity.",
+    "date": "2026-01",
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C10",
+    "text": "Services include bank reconciliation, BAS, payroll and management accounting/virtual CFO.",
+    "sourceIds": [
+     "S8"
+    ],
+    "quote": "Bank Reconciliation",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C11",
+    "text": "A client testimonial describes outsourced finance for a rapidly expanding Brisbane online brand selling into North America and Europe.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "outsourced finance expertise for a rapidly expanding Brisbane based online brand",
+    "date": null,
+    "category": "clients",
+    "confidence": "medium"
+   },
+   {
+    "id": "C12",
+    "text": "The About page lists six team members including a CPA bookkeeper, so the practice is small.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "Shaina is our detail-loving Bookkeeper and CPA.",
+    "date": null,
+    "category": "firm",
+    "confidence": "high"
+   },
+   {
+    "id": "C13",
+    "text": "The firm's homepage currently contains an unrelated online-casino promotional paragraph, suggesting the site may have been tampered with.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Wild Card City Casino – Australia’s Silent Strike",
+    "date": null,
+    "category": "firm",
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Jaimie Scott",
+    "title": "Director",
+    "contactId": "bloom-money--jaimie-scott",
+    "linkedin": "https://www.linkedin.com/in/jaimie-scott2020",
+    "claimIds": [
+     "C2",
+     "C3",
+     "C4",
+     "C5",
+     "C6"
+    ]
+   }
+  ],
+  "hooks": [
+   {
+    "text": "Jaimie's podcast on Shopify vs Xero numbers and her A2X comment, with the point that files can nearly auto-reconcile: Vert handles the residual reconciliation that connectors leave.",
+    "claimIds": [
+     "C3",
+     "C4",
+     "C5"
+    ]
+   },
+   {
+    "text": "Hiring a Senior Accountant while valuing less busywork suggests capacity pressure on reconciliation and month-end.",
+    "claimIds": [
+     "C7",
+     "C8"
+    ]
+   },
+   {
+    "text": "Her own tech-stack video (Dext, Xero, Fathom) shows she is tool-curious; ask where reconciliation still bottlenecks.",
+    "claimIds": [
+     "C6"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Already runs automation (A2X, Dext); may see little gap. Very small team.",
+    "claimIds": [
+     "C4",
+     "C6",
+     "C12"
+    ]
+   },
+   {
+    "text": "Homepage appears to contain injected casino spam; website may be compromised, treat site content with care.",
+    "claimIds": [
+     "C13"
+    ]
+   }
+  ],
+  "gaps": [
+   "Podcast and tech-stack video dates not shown on pages (podcast date unknown).",
+   "No Facebook/Instagram posts retrievable.",
+   "LinkedIn employee count (3) conflicts with About page (six people).",
+   "No MYOB/Xero partner directory entry found."
+  ],
+  "searches": [
+   {
+    "query": "site:bloommoney.com.au home/about/blog/services/academy (fetch)",
+    "results": 5
+   },
+   {
+    "query": "Jaimie Scott BLOOM money Brisbane director virtual CFO",
+    "results": 6
+   },
+   {
+    "query": "Bloom Money Gold Coast Brisbane senior accountant job vacancy",
+    "results": 2
+   },
+   {
+    "query": "Bloom Money accountants Xero e-commerce virtual CFO Dext Hubdoc tools",
+    "results": 3
+   },
+   {
+    "query": "Bloom Money facebook instagram",
+    "results": 0
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "bloom-money--jaimie-scott",
+    "subject": "Reconciling Shopify and Xero at Bloom",
+    "body": "Hi Jaimie, I read the transcript of your Bright Red Marketing episode on why Shopify and the Xero profit and loss almost never match, including your point that A2X can get a file close to reconciling automatically. I also saw Bloom is hiring a Senior Accountant and values cutting out busywork. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace instead of AI that guesses. Where do the leftover manual reconciliations sit for your eCommerce clients, after A2X and Dext?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C3",
+     "C4",
+     "C7",
+     "C8"
+    ]
+   },
+   "followUp": {
+    "contactId": "bloom-money--jaimie-scott",
+    "subject": "Re: Reconciling Shopify and Xero at Bloom",
+    "body": "Hi Jaimie, following up on my note last week. Your video on the platforms you use every day, Ignition, Dext, Xero and Fathom, made me curious: with that stack in place, is reconciliation still the slow step when a new client's Xero file lands messy? If so, I'd happily show Vert on a sample file in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C6",
+     "C11"
+    ]
+   }
+  }
+ },
+ "bongiorno-group": {
+  "accountId": "bongiorno-group",
+  "accountName": "Bongiorno Group",
+  "status": "complete",
+  "summary": "Bongiorno Group is a Melbourne practice (St Kilda Road, since 1964) serving medical and dental professionals across tax, accounting, planning, insurance and lending. Directors Mitchell McKeown and Ricky Caldow recorded a November 2026 Money Doctors episode on credit card surcharges and practice cashflow. The firm is individual-client oriented, so fit for close automation is weak.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://bongiorno.com.au",
+    "title": "home — Bongiorno Group",
+    "type": "website",
+    "publisher": "Bongiorno Group",
+    "date": null
+   },
+   {
+    "id": "S2",
+    "url": "https://www.linkedin.com/posts/bongiorno-group_cardsurcharge-medical-medicalpractice-activity-7526784234938839040-krgp",
+    "title": "Credit card surcharges have been banned... | Bongiorno Group | LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn (Bongiorno Group)",
+    "date": "2026-11-12"
+   },
+   {
+    "id": "S3",
+    "url": "https://bongiorno.com.au/about-us/meet-our-directors/",
+    "title": "meet our directors — Bongiorno Group",
+    "type": "website",
+    "publisher": "Bongiorno Group",
+    "date": null
+   },
+   {
+    "id": "S4",
+    "url": "https://bongiorno.com.au/payday-super-is-coming-what-every-employer-needs-to-know/",
+    "title": "Payday Super Is Coming: What Every Employer Needs to Know",
+    "type": "podcast",
+    "publisher": "The Money Doctors / Bongiorno Group",
+    "date": "2026-03-05"
+   },
+   {
+    "id": "S5",
+    "url": "https://bongiorno.com.au/digital-bookkeeping-from-shoeboxes-to-the-cloud/",
+    "title": "Digital bookkeeping: from shoeboxes to the cloud",
+    "type": "podcast",
+    "publisher": "The Money Doctors / Bongiorno Group",
+    "date": "2024-07-09"
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "Bongiorno Group's own site lists its office at level 2, 431 St Kilda Road, Melbourne VIC 3004.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "level 2, 431 st kilda road melbourne VIC 3004",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "The firm's website names Mitchell McKeown and Nick Fennessy as directors.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "welcome to the bongiorno group with directors Mitchell McKeown and Nick Fennessy",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "Mitch McKeown is listed as a Director who works with doctors in training.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "Director Mitch works with young medical professionals to advise on the best financial platform to kick-start their careers.",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C4",
+    "text": "Mitchell McKeown co-hosted a Bongiorno LinkedIn-promoted podcast episode in November 2026, confirming he is currently active at the firm.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "Bongiorno Group directors Ricky Caldow and Mitchell McKeown, unpack what the change means for practice owners and doctors managing business cashflow.",
+    "date": "2026-11",
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C5",
+    "text": "The November 2026 episode covered the ban on credit card surcharges and why practice owners should review merchant facility agreements.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "why now is the time to review merchant facility agreements and negotiate with banks",
+    "date": "2026-11",
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C6",
+    "text": "Since 1964 the firm has focused on medical and dental professionals.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "since 1964 we have been helping medical and dental professionals to grow, manage and protect their wealth.",
+    "date": null,
+    "category": "firm",
+    "confidence": "high"
+   },
+   {
+    "id": "C7",
+    "text": "Bongiorno is the preferred tax and accounting partner for AMA Victoria.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "The Bongiorno Group is the preferred tax and accounting partner for the AMA Victoria",
+    "date": "2026-11",
+    "category": "clients",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "The firm offers tax and business services alongside financial planning, insurance and borrowing.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Our highly experienced tax professionals are across current and changing rules and regulations, ensuring the best advice for your tax, accounting and business needs.",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C9",
+    "text": "A March 2026 podcast covered Payday Super and its impact on practice owners running weekly or fortnightly payrolls.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "particularly those running weekly or fortnightly payrolls, as late payments attract SG charges, interest, and loss of tax deductibility",
+    "date": "2026-03",
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C10",
+    "text": "A July 2024 episode discussed digital bookkeeping and real-time access to financial data for collaborating with the accountant.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "Digital bookkeeping, on the other hand, enables real-time access to financial data, allowing you to collaborate more effectively with your accountant.",
+    "date": "2024-07",
+    "category": "content",
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Mitchell McKeown",
+    "title": "Director",
+    "contactId": "bongiorno-group--mitchell-mckeown",
+    "linkedin": "https://www.linkedin.com/in/mitchmckeown",
+    "claimIds": [
+     "C2",
+     "C3",
+     "C4"
+    ]
+   },
+   {
+    "name": "Hannah Sheppard",
+    "title": "Executive Assistant to CEO & Director",
+    "contactId": "bongiorno-group--hannah-sheppard",
+    "linkedin": "https://www.linkedin.com/in/hannah-sheppard-044248145",
+    "claimIds": []
+   }
+  ],
+  "hooks": [
+   {
+    "text": "Mitchell's November 2026 podcast on the card surcharge ban and practice cashflow gives a timely, specific opener about practice-owner finances.",
+    "claimIds": [
+     "C4",
+     "C5"
+    ]
+   },
+   {
+    "text": "The Payday Super episode shows the firm advises practice owners on payroll/super compliance, which ties to reconciliation load.",
+    "claimIds": [
+     "C9"
+    ]
+   },
+   {
+    "text": "The firm has already publicly promoted digital bookkeeping and real-time data access to clients.",
+    "claimIds": [
+     "C10"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Individual-client, wealth and tax oriented practice for doctors; no outsourced bookkeeping or close service listed, so fit is weak.",
+    "claimIds": [
+     "C6",
+     "C8"
+    ]
+   },
+   {
+    "text": "Primary contact Hannah Sheppard is an executive assistant, not a decision-maker; drafts go to director Mitchell McKeown instead.",
+    "claimIds": [
+     "C2"
+    ]
+   }
+  ],
+  "gaps": [
+   "No Xero/MYOB partner listing or tech stack mention found on the firm's own pages.",
+   "Only recruiter-posted job ads found (firm not named by itself), so not cited.",
+   "No Facebook/Instagram or news coverage found."
+  ],
+  "searches": [
+   {
+    "query": "Bongiorno Group Melbourne accountants news blog Mitchell McKeown",
+    "results": 7
+   },
+   {
+    "query": "Bongiorno Group accountant job Melbourne St Kilda Road Xero tax accountant vacancy",
+    "results": 4
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "bongiorno-group--mitchell-mckeown",
+    "subject": "Reconciliation at Bongiorno Group",
+    "claimIds": [
+     "C4",
+     "C5",
+     "C8"
+    ],
+    "body": "Hi Mitchell,\n\nSaw your November episode with Ricky on the credit card surcharge ban and why practice owners should review merchant facility agreements. That kind of merchant and cashflow detail ends up in your clients' books, and your team handles their tax, accounting and business work. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail rather than AI that guesses. How much of your team's time goes on cleaning up practice clients' transactions before tax and BAS? Open to a 10 min walkthrough?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+   },
+   "followUp": {
+    "contactId": "bongiorno-group--mitchell-mckeown",
+    "subject": "Re: Reconciliation at Bongiorno Group",
+    "claimIds": [
+     "C9",
+     "C10"
+    ],
+    "body": "Hi Mitchell,\n\nFollowing up on my note last week. Ricky's Payday Super episode flagged weekly and fortnightly payrolls as the pressure point for practice owners, and the firm has also talked about digital bookkeeping giving clients real-time access to their data. Vert reconciles and cash codes in minutes with a full audit trail. Would it be worth seeing it run on one practice client's month?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+   }
+  },
+  "researchedAt": "2026-11-26"
+ },
+ "boss-private-clients": {
+  "accountId": "boss-private-clients",
+  "accountName": "Boss Private Clients",
+  "status": "complete",
+  "researchedAt": "2026-11-26",
+  "summary": "Boss Private Clients is a boutique Melbourne CBD accounting and advisory practice (23 staff on LinkedIn, workforce split between Australia and the Philippines) acting for private clients and family businesses. It runs a visible bookkeeping team alongside its accountants and has made recent hires (a bookkeeper in January 2026, a senior accountant in May 2026). Director Sam Marzano focuses on entity structures and wealth planning for family businesses.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://bossprivateclients.com.au/about-us",
+    "title": "About Us - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S2",
+    "url": "https://bossprivateclients.com.au/about-us/our-people/sam-marzano/",
+    "title": "Sam Marzano - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S3",
+    "url": "https://linkedin.com/in/bpc-sam-marzano",
+    "title": "Sam Marzano - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-10-28"
+   },
+   {
+    "id": "S4",
+    "url": "https://linkedin.com/company/boss-private-clients-accountants-and-advisors",
+    "title": "Boss Private Clients - Accountants and Advisors - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": null
+   },
+   {
+    "id": "S5",
+    "url": "https://bossprivateclients.com.au/about-us/our-people/allyza-tolentino/",
+    "title": "Allyza Tolentino - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S6",
+    "url": "https://bossprivateclients.com.au/about-us/our-people/",
+    "title": "Our People - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S7",
+    "url": "https://bossprivateclients.com.au/services/business-services/",
+    "title": "Business Services - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S8",
+    "url": "https://bossprivateclients.com.au/about-us/our-people/marlene-espino/",
+    "title": "Marlene Espino - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S9",
+    "url": "https://bossprivateclients.com.au/services/management-accounting/",
+    "title": "Management Accounting - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S10",
+    "url": "https://bossprivateclients.com.au/about-us/our-people/daniel-cuda/",
+    "title": "Daniel Cuda - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S11",
+    "url": "https://bossprivateclients.com.au/about-us/our-people/sarah-pathmanathan/",
+    "title": "Sarah Pathmanathan - Boss Private Clients",
+    "type": "website",
+    "publisher": "Boss Private Clients",
+    "date": null
+   },
+   {
+    "id": "S12",
+    "url": "https://linkedin.com/in/daniel-cuda-3a94b0140",
+    "title": "Daniel Cuda - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-11-10"
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "Boss Private Clients is a boutique accounting and advisory practice based in Melbourne's CBD (Level 2, 428 Little Bourke St).",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Boss Private Clients is a boutique accounting and advisory practice based in Melbourne’s CBD",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "Sam Marzano is listed as a Director of Boss Private Clients (since Jan 2011) on his LinkedIn profile, last updated Oct 2026.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "Director at Boss Private Clients",
+    "date": "2026-10",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "Sam Marzano advises privately owned small to medium businesses and high net worth individuals, with a particular interest in family wealth strategies.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "he combines this experience to advise privately owned small to medium sized business and high net worth individuals",
+    "date": null,
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C4",
+    "text": "Sam Marzano has a particular interest in companies, trusts and self-managed super funds as tools for family long-term goals.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "use of entities such as companies, trusts, and self-managed superannuation funds as the tools in assisting families achieve their long-term goals",
+    "date": null,
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C5",
+    "text": "The firm's workforce is distributed across Australia and the Philippines.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Its workforce is distributed across Australia and Philippines.",
+    "date": null,
+    "category": "firm",
+    "confidence": "medium"
+   },
+   {
+    "id": "C6",
+    "text": "LinkedIn lists the firm at 23 employees, up 23.1% year on year.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "employs 23 people (+23.1% YoY, +6 people)",
+    "date": null,
+    "category": "growth",
+    "confidence": "medium"
+   },
+   {
+    "id": "C7",
+    "text": "Allyza Tolentino joined Boss as a Bookkeeper in January 2026.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "Allyza joined Boss Private Clients (BPC) as a Bookkeeper in January 2026.",
+    "date": "2026-01",
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "Sarah Pathmanathan joined as a Senior Accountant in May 2026.",
+    "sourceIds": [
+     "S11"
+    ],
+    "quote": "Sarah joined Boss Private Clients as a Senior Accountant in May 2026.",
+    "date": "2026-05",
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C9",
+    "text": "The firm's people page lists several bookkeepers and two Bookkeeper Managers alongside senior accountants and accountants.",
+    "sourceIds": [
+     "S6"
+    ],
+    "quote": "Bookkeeper Manager",
+    "date": null,
+    "category": "firm",
+    "confidence": "high"
+   },
+   {
+    "id": "C10",
+    "text": "The firm prepares monthly, quarterly or annual financial statements and BAS for companies, trusts, partnerships and super funds.",
+    "sourceIds": [
+     "S7"
+    ],
+    "quote": "the preparation of either monthly, quarterly or annual Financial Statements and Business Activity Statements",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C11",
+    "text": "Entity types served include proprietary companies, trusts and superannuation funds.",
+    "sourceIds": [
+     "S7"
+    ],
+    "quote": "Proprietary companies Sole Traders Trusts Partnerships Joint Ventures Superannuation Funds",
+    "date": null,
+    "category": "clients",
+    "confidence": "high"
+   },
+   {
+    "id": "C12",
+    "text": "Management accounting offering includes regular KPI review meetings and cash flow, P&L and balance sheet forecasts.",
+    "sourceIds": [
+     "S9"
+    ],
+    "quote": "Prepare cash flow, profit and loss account and balance sheet forecasts",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C13",
+    "text": "Team members work in Xero; a bookkeeping team member lists Xero payroll and accounting systems experience.",
+    "sourceIds": [
+     "S8"
+    ],
+    "quote": "experienced in payroll and accounting systems, including Xero",
+    "date": null,
+    "category": "tech",
+    "confidence": "high"
+   },
+   {
+    "id": "C14",
+    "text": "Account record lists Daniel Cuda as Founder, but the firm's own page shows him as an accountant who joined in October 2017 (Manager).",
+    "sourceIds": [
+     "S10",
+     "S12"
+    ],
+    "quote": "Daniel joined Boss Private Clients as an accountant in October, 2017.",
+    "date": null,
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C15",
+    "text": "The careers page says the firm is always looking for accountants to join its growing business.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "We are always looking for accountants to join our growing business.",
+    "date": null,
+    "category": "hiring",
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Sam Marzano",
+    "title": "Director",
+    "contactId": "boss-private-clients--sam-marzano",
+    "linkedin": "https://www.linkedin.com/in/bpc-sam-marzano",
+    "claimIds": [
+     "C2",
+     "C3",
+     "C4"
+    ]
+   },
+   {
+    "name": "Daniel Cuda",
+    "title": "Manager (record says Founder)",
+    "contactId": "boss-private-clients--daniel-cuda",
+    "linkedin": "https://www.linkedin.com/in/daniel-cuda-3a94b0140",
+    "claimIds": [
+     "C14"
+    ]
+   }
+  ],
+  "hooks": [
+   {
+    "text": "Sam advises family businesses using companies, trusts and SMSFs, so each client has several entities to reconcile; the firm has a dedicated bookkeeping team doing that load.",
+    "claimIds": [
+     "C3",
+     "C4",
+     "C9",
+     "C11"
+    ]
+   },
+   {
+    "text": "Recent hiring (bookkeeper Jan 2026, senior accountant May 2026) and +23% headcount growth suggest volume is outpacing capacity.",
+    "claimIds": [
+     "C6",
+     "C7",
+     "C8"
+    ]
+   },
+   {
+    "text": "Offshore (Philippines) staff mean review and audit trail matter more than raw speed.",
+    "claimIds": [
+     "C5",
+     "C10"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Account record lists Daniel Cuda as Founder; the firm site shows him as a Manager (accountant since 2017). Directors are Sam Marzano, Sam Cimino, Peter Stranges, Paul Troiano.",
+    "claimIds": [
+     "C14"
+    ]
+   },
+   {
+    "text": "Email check: the firm's people page appears to list sam@ for Sam Cimino and smarzano@ for Sam Marzano, but accounts.json has sam@ for Sam Marzano. Verify the address before sending (the people page layout is ambiguous).",
+    "claimIds": [
+     "C2"
+    ]
+   },
+   {
+    "text": "Fit is private-client tax/structuring led, with bookkeeping a supporting line; weak-to-moderate fit.",
+    "claimIds": [
+     "C1",
+     "C10"
+    ]
+   }
+  ],
+  "gaps": [
+   "No firm blog, newsletters, podcasts, Facebook posts or news coverage found.",
+   "No public job ad or evidence of a specific reconciliation tool (no Dext/Hubdoc/AI mentions).",
+   "Could not confirm the Philippines claim from the firm's own site; it comes from LinkedIn aggregate data."
+  ],
+  "searches": [
+   {
+    "query": "Daniel Cuda Boss Private Clients accountant Melbourne",
+    "results": 6
+   },
+   {
+    "query": "Sam Marzano Boss Private Clients director",
+    "results": 8
+   },
+   {
+    "query": "Boss Private Clients Melbourne bookkeeper accountant job Xero MYOB",
+    "results": 9
+   },
+   {
+    "query": "site:facebook.com Boss Private Clients accountants Melbourne",
+    "results": 0
+   },
+   {
+    "query": "fetch: home, about-us, careers, our-people, business-services, management-accounting",
+    "results": 6
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "boss-private-clients--sam-marzano",
+    "subject": "Reconciling across family entities at Boss",
+    "body": "Hi Sam,\n\nI noticed you advise family businesses on companies, trusts and SMSFs, and that Boss added Allyza as a bookkeeper in January. Several entities per family means a lot of bank feeds to reconcile before the planning conversation even starts. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail that shows why each match was made. How much of your bookkeeping team's week goes on reconciling before an accountant can review?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C4",
+     "C7",
+     "C11"
+    ]
+   },
+   "followUp": {
+    "contactId": "boss-private-clients--sam-marzano",
+    "subject": "Re: Reconciling across family entities at Boss",
+    "body": "Hi Sam,\n\nFollowing up on my note last week. I saw Sarah joined as a Senior Accountant in May, and Boss now has a Bookkeeper Manager team alongside the accountants. When a new accountant picks up a family group with several entities, how does the reconciliation get checked today? Happy to show Vert on a sample ledger in a ten minute walkthrough.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C8",
+     "C9"
+    ]
+   }
+  }
+ },
+ "charterpoint": {
+  "accountId": "charterpoint",
+  "accountName": "Charterpoint",
+  "status": "complete",
+  "researchedAt": "2026-11-26",
+  "summary": "Charterpoint (charterpoint.com.au) is a Canberra accounting, audit and advisory firm with offices in Fyshwick and Manuka, focused on government and not-for-profit clients, and the firm says it has over 40 professionals across Canberra, Sydney and Melbourne. Dr Irmagard Van Rensburg is a Principal and CA ANZ member who leads audit and risk work. The firm lists outsourced accounting for not-for-profits and has been building its own lease accounting model that produces monthly journal entries. Fit is weak to moderate because the work skews to government audit and advisory rather than high-volume bookkeeping.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://charterpoint.com.au",
+    "title": "Charterpoint | Accounting, Audit & Advisory | Canberra",
+    "type": "website",
+    "publisher": "Charterpoint",
+    "date": null
+   },
+   {
+    "id": "S2",
+    "url": "https://charterpoint.com.au/about",
+    "title": "About Us & Our Directors | Charterpoint Canberra",
+    "type": "website",
+    "publisher": "Charterpoint",
+    "date": null
+   },
+   {
+    "id": "S3",
+    "url": "https://linkedin.com/in/irmagard-vanrensburg",
+    "title": "Dr Irmagard Van Rensburg - Principal, Charterpoint | LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-11-08"
+   },
+   {
+    "id": "S4",
+    "url": "https://linkedin.com/company/charterpoint-pty-ltd-",
+    "title": "Charterpoint | LinkedIn company page",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": null
+   },
+   {
+    "id": "S5",
+    "url": "https://www.charterpoint.com.au/graduate-roles",
+    "title": "Graduate Opportunities | Charterpoint",
+    "type": "website",
+    "publisher": "Charterpoint",
+    "date": null
+   },
+   {
+    "id": "S6",
+    "url": "https://au.indeed.com/viewjob?from=serp&jk=a3c2dd2fbf18a027&vjs=3",
+    "title": "Varied Accounting Roles - Canberra ACT",
+    "type": "job",
+    "publisher": "Indeed",
+    "date": null
+   },
+   {
+    "id": "S7",
+    "url": "https://www.linkedin.com/posts/charterpoint-pty-ltd-_hiring-jobopportunity-jobopening-activity-7284781812030058496-pdOM",
+    "title": "Join Our Team at Charterpoint (Financial Management Accountant)",
+    "type": "linkedin",
+    "publisher": "Charterpoint on LinkedIn",
+    "date": "2025-01-14"
+   },
+   {
+    "id": "S8",
+    "url": "https://insight.avata.net.au/AusTender/Detail/CN4261296",
+    "title": "CN4261296: Dr Irmagard Vanrensburg - Australian National Audit Office",
+    "type": "registry",
+    "publisher": "AusTender via Insight Portal",
+    "date": "2026-07-15"
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "Charterpoint's own site describes it as an accounting, advisory and financial consulting firm serving government, corporate and community organisations across Canberra and Australia.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Providing specialist accounting, advisory and financial consulting services to government, corporate and community organisations across Canberra and Australia.",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "Charterpoint (charterpoint.com.au) was established in 2012 and LinkedIn lists it as headquartered in Manuka with an office in Fyshwick, ACT, so it is the Canberra firm and not the UK Charterpoint group.",
+    "sourceIds": [
+     "S2",
+     "S4"
+    ],
+    "quote": "Charterpoint was established in 2012 when three like-minded individuals came together",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "The firm says it has over 40 professionals across Canberra, Sydney and Melbourne.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Charterpoint has over 40 professionals across Canberra, Sydney and Melbourne",
+    "date": null,
+    "category": "firm",
+    "confidence": "high"
+   },
+   {
+    "id": "C4",
+    "text": "Dr Irmagard Van Rensburg is listed on the Charterpoint team page and her LinkedIn shows her as current Principal at Charterpoint (Canberra), so she still works there.",
+    "sourceIds": [
+     "S2",
+     "S3"
+    ],
+    "quote": "Principal, Charterpoint | Audit | Risk Management | Performance Reviews | Financial Reporting | Consulting",
+    "date": "2026-11",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C5",
+    "text": "Irmagard is a qualified Chartered Accountant who says she has more than 15 years of audit, review and assurance experience with government and private sector clients.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "I am a qualified Chartered Accountant and have more than 15 years of experience providing audit, review and assurance services",
+    "date": "2026-11",
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C6",
+    "text": "Irmagard has recently worked on fraud risk assessments and fraud control plans for a charitable organisation.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "Undertaking comprehensive fraud risk assessments for a charitable organisation and developing fraud control plans",
+    "date": "2026-11",
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C7",
+    "text": "Charterpoint offers outsourced accounting services and accounting support for not-for-profits.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Charterpoint offers a range of services for the Not-For-Profit sector including accounting support and guidance and outsourced accounting services.",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "In June 2026 Charterpoint posted that its leasing model produces monthly journal entries out to June 2049, with a web-based version in the works.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Charterpoint leasing model now caters for monthly journal entries out to June 2049, and we're working on a web based version.",
+    "date": "2026-06",
+    "category": "content",
+    "confidence": "high"
+   },
+   {
+    "id": "C9",
+    "text": "In May 2024 Charterpoint was building a migration tool to move clients' existing leases into its leasing model while keeping the last audited opening balances intact.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Charterpoint is currently working on a migration tool to allow your current leases to be seamlessly migrated to our leasing model",
+    "date": "2024-05",
+    "category": "content",
+    "confidence": "medium"
+   },
+   {
+    "id": "C10",
+    "text": "Graduate hires at Charterpoint support audits for not-for-profit clients and government agencies.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "support audit processes for Not-for-Profit clients and various Government agencies.",
+    "date": null,
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C11",
+    "text": "Charterpoint advertised for a Financial Management Accountant in January 2025 and has advertised accountant roles across financial management, costing and general management accounting.",
+    "sourceIds": [
+     "S7",
+     "S6"
+    ],
+    "quote": "Charterpoint is seeking a skilled Financial Management Accountant to join our distinguished financial advisory and consulting firm.",
+    "date": "2025-01",
+    "category": "hiring",
+    "confidence": "medium"
+   },
+   {
+    "id": "C12",
+    "text": "AusTender shows the Australian National Audit Office awarded Charterpoint a contract titled in Irmagard's name, signed July 2026 and running to mid-2027, so she is an active engagement lead on government audit work.",
+    "sourceIds": [
+     "S8"
+    ],
+    "quote": "Australian National Audit Office · Australian National Audit Office · Audit services",
+    "date": "2026-07",
+    "category": "news",
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Dr Irmagard Van Rensburg",
+    "title": "Principal",
+    "contactId": "charterpoint--dr-irmagard-van-rensburg",
+    "linkedin": "https://www.linkedin.com/in/irmagard-vanrensburg",
+    "claimIds": [
+     "C4",
+     "C5",
+     "C6",
+     "C12"
+    ]
+   }
+  ],
+  "hooks": [
+   {
+    "text": "The June 2026 leasing model post: the firm builds its own tooling that outputs journal entries, so automation of journals is something they already value.",
+    "claimIds": [
+     "C8",
+     "C9"
+    ]
+   },
+   {
+    "text": "Outsourced accounting for not-for-profits is the one service where bank reconciliation and cash coding volume is plausible.",
+    "claimIds": [
+     "C7",
+     "C10"
+    ]
+   },
+   {
+    "text": "Irmagard's fraud risk and assurance background suggests an audit-trail, traceable-matching angle will land better than a speed-only pitch.",
+    "claimIds": [
+     "C5",
+     "C6"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Firm is mostly government audit, advisory and ICT work; bookkeeping/reconciliation volume is probably small, so fit is weak to moderate.",
+    "claimIds": [
+     "C1",
+     "C10",
+     "C12"
+    ]
+   },
+   {
+    "text": "Account record lists Adrian Goose (adrian@charterpointgroup.co.uk) as primary, but that is a different UK company with the same name, so he is excluded and Irmagard is the contact.",
+    "claimIds": [
+     "C2"
+    ]
+   },
+   {
+    "text": "Irmagard is an audit principal rather than a bookkeeping lead, so she may forward the email to someone else.",
+    "claimIds": [
+     "C4",
+     "C5"
+    ]
+   }
+  ],
+  "gaps": [
+   "No podcast, YouTube, Facebook or Instagram presence found for the firm or Irmagard.",
+   "No Xero/MYOB partner listing or reconciliation-tool mentions found, so tech stack is unknown.",
+   "No firm blog or news section found; no posts by Irmagard herself found.",
+   "Could not confirm whether the lease model is a product sold to clients or an internal tool."
+  ],
+  "searches": [
+   {
+    "query": "fetch charterpoint.com.au home, about, our-team",
+    "results": 2
+   },
+   {
+    "query": "Irmagard van Rensburg Charterpoint Principal",
+    "results": 5
+   },
+   {
+    "query": "site:charterpoint.com.au services outsourced accounting not-for-profit grants management careers",
+    "results": 5
+   },
+   {
+    "query": "Charterpoint Canberra accounting firm news LinkedIn posts job ad accountant",
+    "results": 6
+   },
+   {
+    "query": "Charterpoint leasing model AASB 16 journal entries web based version",
+    "results": 1
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "charterpoint--dr-irmagard-van-rensburg",
+    "subject": "Charterpoint's leasing model and NFP reconciliations",
+    "body": "Hi Irmagard,\n\nCharterpoint's June post on your leasing model, with monthly journal entries running out to June 2049, caught my eye. It says your team builds its own tooling when standard software falls short. I also saw you offer outsourced accounting for not-for-profits, which is where hand reconciliation tends to eat the hours. I built Vert to turn hours of manual reconciliation into minutes, with a trace behind every match so nothing is guessed. How much of your NFP accounting is still reconciled by hand?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C8",
+     "C7",
+     "C4"
+    ]
+   },
+   "followUp": {
+    "contactId": "charterpoint--dr-irmagard-van-rensburg",
+    "subject": "Re: Charterpoint's leasing model and NFP reconciliations",
+    "body": "Hi Irmagard,\n\nFollowing up on my note last week. Your graduate roles page says the team supports audits for not-for-profit clients, so I wondered how clean the books are when they arrive. If bank reconciliations and cash coding are still done by hand before audit, Vert could take that off your team. Open to a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C10",
+     "C7"
+    ]
+   }
+  }
+ },
+ "clear-tax-accountants": {
+  "accountId": "clear-tax-accountants",
+  "accountName": "Clear Tax Accountants",
+  "status": "complete",
+  "researchedAt": "2026-11-26",
+  "summary": "Clear Tax Accountants is a Melbourne firm founded in 2018 by Ash Jindal and Yuvraj Verma, focused on small business and property tax, with bookkeeping and a team split between Australia and India. Its real website is cleartax.com.au (the cleartax.net.au domain on file is a mismatch, though contact Vasu Makkar is a verified Clear Tax employee in India). Yuvraj was quoted in a press release on 24 Nov 2026 and the firm is hiring client-facing accountants.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://cleartax.com.au/",
+    "title": "Melbourne Tax Accountants - Clear Tax",
+    "type": "website",
+    "publisher": "Clear Tax Accountants",
+    "date": null
+   },
+   {
+    "id": "S2",
+    "url": "https://cleartax.com.au/team/",
+    "title": "Our Team - Clear Tax",
+    "type": "website",
+    "publisher": "Clear Tax Accountants",
+    "date": null
+   },
+   {
+    "id": "S3",
+    "url": "https://linkedin.com/in/yuvraj-verma-tax-accountant",
+    "title": "Yuvraj Verma - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-11-01"
+   },
+   {
+    "id": "S4",
+    "url": "https://www.prlog.org/13185277-fake-ato-messages-and-tax-refund-scams-clear-tax-urges-australians-to-stay-alert.html",
+    "title": "Fake ATO Messages and Tax Refund Scams: Clear Tax Urges Australians to Stay Alert",
+    "type": "news",
+    "publisher": "PRLog",
+    "date": "2026-11-24"
+   },
+   {
+    "id": "S5",
+    "url": "https://cleartax.com.au/bookkeeping/",
+    "title": "Bookkeeping Consultants Australia - Clear Tax",
+    "type": "website",
+    "publisher": "Clear Tax Accountants",
+    "date": null
+   },
+   {
+    "id": "S6",
+    "url": "https://cleartax.com.au/careers/",
+    "title": "Careers with Clear Tax Accountants",
+    "type": "job",
+    "publisher": "Clear Tax Accountants",
+    "date": null
+   },
+   {
+    "id": "S7",
+    "url": "https://www.linkedin.com/company/clear-tax-accountants",
+    "title": "Clear Tax Accountants - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2025-04-25"
+   },
+   {
+    "id": "S8",
+    "url": "https://linkedin.com/in/vasu-makkar",
+    "title": "Vasu Makkar - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-10-29"
+   },
+   {
+    "id": "S9",
+    "url": "https://www.youtube.com/watch?v=NKXJOjXYxk4",
+    "title": "Ash & Yuvraj Share their experience | Driving Growth With Grownomics EP5",
+    "type": "video",
+    "publisher": "Grownomics Digital Marketing Agency",
+    "date": "2024-09-05"
+   },
+   {
+    "id": "S10",
+    "url": "https://cleartax.com.au/services/melbourne-xero-accountants-services/",
+    "title": "Xero Accounting - Clear Tax",
+    "type": "website",
+    "publisher": "Clear Tax Accountants",
+    "date": null
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "Clear Tax Accountants operates from cleartax.com.au, with a Melbourne CBD office at 120 Spencer Street and other offices in Victoria, Parramatta and Adelaide.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "Clear Tax Accountants Level 22 (WeWork), 120 Spencer Street, Melbourne, VIC 3000, Australia",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "Yuvraj Verma is Co-Founder and Director of Clear Tax Accountants and still current per his LinkedIn (checked Nov 2026).",
+    "sourceIds": [
+     "S3",
+     "S2"
+    ],
+    "quote": "Co-Founder ▸Tax Accountant ▸Director - Clear Tax Accountants (Current)",
+    "date": "2026-11",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "Vasu Makkar (contact on file with a cleartax.net.au email) is a current Clear Tax Accountants employee, Global Process Owner - Individual Tax, based in India.",
+    "sourceIds": [
+     "S8"
+    ],
+    "quote": "Global Process Owner - Individual Tax (Current) Nov 2025 - Present",
+    "date": "2026-10",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C4",
+    "text": "Yuvraj was quoted in a Clear Tax press release dated 24 Nov 2026 warning about fake ATO refund scams.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Tax time ends on a set date, but scammers don't follow the ATO calendar,",
+    "date": "2026-11-24",
+    "category": "news",
+    "confidence": "high"
+   },
+   {
+    "id": "C5",
+    "text": "Yuvraj says he works exclusively with small business owners and gives proactive advice through the year, on tax planning, cash flow, business structure and deductions.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "I work exclusively with small business owners who want an accountant that's in their corner all year, not just at tax time.",
+    "date": "2026-11",
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C6",
+    "text": "Clear Tax's bookkeeping service includes reconciliation, accounts payable and receivable, payroll processing and statement preparation.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "Our services include reconciliation, accounts payable and accounts receivable management, payroll processing, and statement preparation.",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C7",
+    "text": "Clear Tax markets Xero accounting services and manages clients' Xero accounts.",
+    "sourceIds": [
+     "S10"
+    ],
+    "quote": "Manage your Xero accounts",
+    "date": null,
+    "category": "tech",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "Vasu Makkar's LinkedIn says he implements process automation and efficiency improvements across Xero, MYOB, QuickBooks and Lodgeit at Clear Tax.",
+    "sourceIds": [
+     "S8"
+    ],
+    "quote": "Implement process automation and efficiency improvements across Xero, MYOB, QuickBooks, and Lodgeit.",
+    "date": "2026-10",
+    "category": "tech",
+    "confidence": "high"
+   },
+   {
+    "id": "C9",
+    "text": "Clear Tax's careers page lists Client-Facing Accountant roles (Melbourne and Brisbane) focused on moving beyond compliance into advisory, plus a Mortgage Broker role.",
+    "sourceIds": [
+     "S6"
+    ],
+    "quote": "Client-Facing Accountant role focused on advisory, client relationships, and strategic thinking. Move beyond compliance and grow your career with a forward-thinking firm.",
+    "date": null,
+    "category": "hiring",
+    "confidence": "high"
+   },
+   {
+    "id": "C10",
+    "text": "LinkedIn shows Clear Tax grew 33.3% year on year to 54 employees (April 2025 snapshot), with a workforce distributed across India and Australia.",
+    "sourceIds": [
+     "S7"
+    ],
+    "quote": "Clear Tax Accountants employs 54 people (+33.3% YoY, +16 people), founded in 2018.",
+    "date": "2025-04",
+    "category": "growth",
+    "confidence": "medium"
+   },
+   {
+    "id": "C11",
+    "text": "Clear Tax says its Melbourne accountants use cloud-based accounting software and real-time financial reporting.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Our Melbourne business accountants utilize cloud-based accounting software and real-time financial reporting",
+    "date": null,
+    "category": "tech",
+    "confidence": "high"
+   },
+   {
+    "id": "C12",
+    "text": "Yuvraj and Ash Jindal appeared in a Grownomics podcast/video episode about their journey from Ireland to Australia and building Clear Tax.",
+    "sourceIds": [
+     "S9"
+    ],
+    "quote": "we came over to Australia you know I came first and then I asked Ash",
+    "date": "2024-09",
+    "category": "content",
+    "confidence": "medium"
+   },
+   {
+    "id": "C13",
+    "text": "Clear Tax's firm positioning is tax, structuring and property for small business owners, with an Indian professional network supporting cross-border advisory.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "Australian-led cross-border advisory backed by our trusted Indian professional network",
+    "date": null,
+    "category": "firm",
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Yuvraj Verma",
+    "title": "Co-Founder and Director",
+    "contactId": "clear-tax-accountants--yuvraj-verma",
+    "linkedin": "https://www.linkedin.com/in/yuvraj-verma-tax-accountant",
+    "claimIds": [
+     "C2",
+     "C4",
+     "C5"
+    ]
+   },
+   {
+    "name": "Vasu Makkar",
+    "title": "Global Process Owner - Individual Tax",
+    "contactId": "clear-tax-accountants--vasu-makkar",
+    "linkedin": "https://www.linkedin.com/in/vasu-makkar",
+    "claimIds": [
+     "C3",
+     "C8"
+    ]
+   }
+  ],
+  "hooks": [
+   {
+    "text": "Yuvraj's 24 Nov 2026 press-release quote on scams shows he is active publicly right now; opener can reference it.",
+    "claimIds": [
+     "C4"
+    ]
+   },
+   {
+    "text": "Bookkeeping service lists reconciliation and payroll across Xero and QuickBooks, with a team split between Melbourne and India; reconciling volume is likely high (inference).",
+    "claimIds": [
+     "C6",
+     "C7",
+     "C10"
+    ]
+   },
+   {
+    "text": "Hiring client-facing advisory accountants to 'move beyond compliance': automating reconciliation frees capacity for advisory.",
+    "claimIds": [
+     "C9"
+    ]
+   },
+   {
+    "text": "Vasu Makkar is already driving process automation across Xero, MYOB and QuickBooks, so the firm is open to tooling (possible internal champion).",
+    "claimIds": [
+     "C8"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Primary contact Vasu Makkar's email is on cleartax.net.au, not the firm's cleartax.com.au domain; unverified deliverability, so draft goes to Yuvraj (cleartax.com.au).",
+    "claimIds": [
+     "C3",
+     "C1"
+    ]
+   },
+   {
+    "text": "Core business is tax returns and property/structuring; bookkeeping is one service among many, so reconciliation volume may be modest.",
+    "claimIds": [
+     "C13",
+     "C6"
+    ]
+   },
+   {
+    "text": "Cleartax.com (India) is an unrelated e-invoicing/finance platform that shares the brand name; do not confuse the two.",
+    "claimIds": [
+     "C1"
+    ]
+   }
+  ],
+  "gaps": [
+   "No firm blog posts about reconciliation or close found.",
+   "Yuvraj's own LinkedIn posts were not retrievable beyond his profile.",
+   "No Facebook/Instagram content reviewed.",
+   "The cleartax.net.au site returned no content; its relationship to the firm is unconfirmed beyond Vasu Makkar's employment."
+  ],
+  "searches": [
+   {
+    "query": "Clear Tax Accountants Melbourne cleartax.com.au about team bookkeeping",
+    "results": 8
+   },
+   {
+    "query": "Yuvraj Verma Clear Tax Accountants co-founder director Melbourne",
+    "results": 8
+   },
+   {
+    "query": "Clear Tax Accountants Melbourne job bookkeeper OR accountant vacancy seek OR careers",
+    "results": 5
+   },
+   {
+    "query": "Vasu Makkar ClearTax Global Process Owner Individual Tax",
+    "results": 5
+   },
+   {
+    "query": "fetch cleartax.net.au and cleartax.com.au home",
+    "results": 1
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "clear-tax-accountants--yuvraj-verma",
+    "subject": "Reconciling at Clear Tax",
+    "body": "Hi Yuvraj,\n\nSaw your line in Clear Tax's press release this week that scammers don't follow the ATO calendar. Your bookkeeping service lists reconciliation, payroll and statement preparation, and with a team split between Melbourne and India I'd guess reconciling eats a big share of the month. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail showing how every transaction was matched. Is reconciliation something you are trying to take off your team's plate?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C4",
+     "C6",
+     "C10"
+    ]
+   },
+   "followUp": {
+    "contactId": "clear-tax-accountants--yuvraj-verma",
+    "subject": "Re: Reconciling at Clear Tax",
+    "body": "Hi Yuvraj,\n\nFollowing up on my note. I saw Clear Tax is hiring client-facing accountants to move beyond compliance into advisory. Automating reconciliation and cash coding is one way to free the team you already have for that advisory work. Vert works alongside Xero. Worth a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C9",
+     "C7"
+    ]
+   }
+  }
+ },
+ "eagle-accounting": {
+  "accountId": "eagle-accounting",
+  "accountName": "Eagle Accounting",
+  "status": "complete",
+  "summary": "Eagle Accounting is a Cairns CPA practice (about 11 staff) run by directors Chris Ganfield and Miriam Eagle, specialising in management rights, medical, hospitality and construction clients. It offers Xero and MYOB bookkeeping and payroll, trust account audit and an external CFO function. Little recent public content was found, so personalisation rests on service and person pages.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://www.eagleaccounting.com.au/",
+    "title": "Business Accounting & Advice Specialists - Eagle Accounting",
+    "type": "website",
+    "publisher": "Eagle Accounting",
+    "date": null
+   },
+   {
+    "id": "S2",
+    "url": "https://www.eagleaccounting.com.au/our-team/",
+    "title": "Our Team - Eagle Accounting",
+    "type": "website",
+    "publisher": "Eagle Accounting",
+    "date": null
+   },
+   {
+    "id": "S3",
+    "url": "https://linkedin.com/in/chris-ganfield-91272a20",
+    "title": "Chris Ganfield - Director at Eagle Accounting | LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-10-27"
+   },
+   {
+    "id": "S4",
+    "url": "https://www.linkedin.com/posts/chris-ganfield-91272a20_we-are-looking-for-a-motivated-individual-activity-6856178033741721600-30rZ",
+    "title": "Chris Ganfield post: bookkeeper wanted",
+    "type": "linkedin",
+    "publisher": "LinkedIn (Chris Ganfield)",
+    "date": "2021-10-19"
+   },
+   {
+    "id": "S5",
+    "url": "https://www.eagleaccounting.com.au/category/uncategorized/",
+    "title": "Uncategorized Archives - Eagle Accounting",
+    "type": "blog",
+    "publisher": "Eagle Accounting",
+    "date": null
+   },
+   {
+    "id": "S6",
+    "url": "https://linkedin.com/company/eagleaccounting",
+    "title": "Eagle Accounting | LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": null
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "Eagle Accounting's own site gives its address as 18 Minnie Street, Cairns QLD 4870.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "18 MINNIE STREET, CAIRNS QLD 4870",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "Chris Ganfield is a Director (CPA) on the firm's team page and his LinkedIn profile lists Eagle Accounting as his current role since 2014.",
+    "sourceIds": [
+     "S2",
+     "S3"
+    ],
+    "quote": "Jun 2014 - Present (12 years and 4 months)",
+    "date": "2026-10",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "Miriam Eagle is a Director (FCPA) at the firm, known for management rights and motels expertise.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "Miriam is well known for her expertise in management rights and motels, but also services a broad portfolio of other industries.",
+    "date": null,
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C4",
+    "text": "Eagle Accounting positions itself as a leading management rights accounting firm.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "We can proudly claim to be one the leading management rights accounting firms in Australia.",
+    "date": null,
+    "category": "firm",
+    "confidence": "high"
+   },
+   {
+    "id": "C5",
+    "text": "Chris specialises in medical, construction and hospitality clients and manages the firm's audit function including real estate trust accounts.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Chris also manages the audit function, in particular the audit of trust accounts for the real estate industry and QBCC ‘Minimum Financial Requirements’ reporting.",
+    "date": null,
+    "category": "person",
+    "confidence": "high"
+   },
+   {
+    "id": "C6",
+    "text": "The firm offers bookkeeping and payroll with Xero or MYOB set-up and training.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Set up and training in Xero or MYOB software",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C7",
+    "text": "Bookkeeping and payroll services include year-end reconciliation of payroll and superannuation.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Reconciliation of payroll and superannuation at year end",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "The firm lists an external CFO function among its project services.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "External CFO function",
+    "date": null,
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C9",
+    "text": "Leanne Vandenhooven is the firm's resident Xero and MYOB expert for set-up, training and troubleshooting.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "As our resident Xero and MYOB expert, she is the go to person for set up, training and troubleshooting in these software packages.",
+    "date": null,
+    "category": "tech",
+    "confidence": "high"
+   },
+   {
+    "id": "C10",
+    "text": "In October 2021 Chris posted that the firm was hiring a bookkeeper, describing a small team of Xero and MYOB consultants.",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "business administration support (provided by a small team of Xero and MYOB consultants)",
+    "date": "2021-10",
+    "category": "hiring",
+    "confidence": "medium"
+   },
+   {
+    "id": "C11",
+    "text": "The firm's blog covers client-facing tax topics such as visa tax deductions when hiring foreign employees.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "We are seeing more clients sourcing workers from overseas, as Australia faces a skills shortage",
+    "date": null,
+    "category": "content",
+    "confidence": "medium"
+   },
+   {
+    "id": "C12",
+    "text": "LinkedIn lists the firm's workforce at 11 employees.",
+    "sourceIds": [
+     "S6"
+    ],
+    "quote": "Employees: 11",
+    "date": null,
+    "category": "firm",
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Chris Ganfield",
+    "title": "Director - CPA",
+    "contactId": "eagle-accounting--chris-ganfield",
+    "linkedin": "https://www.linkedin.com/in/chris-ganfield-91272a20",
+    "claimIds": [
+     "C2",
+     "C5"
+    ]
+   },
+   {
+    "name": "Miriam Eagle",
+    "title": "Director - FCPA",
+    "contactId": "eagle-accounting--miriam-eagle",
+    "linkedin": "https://www.linkedin.com/in/miriam-eagle-84568594",
+    "claimIds": [
+     "C3"
+    ]
+   }
+  ],
+  "hooks": [
+   {
+    "text": "Chris runs the audit function (real estate trust accounts) and the firm sells Xero/MYOB bookkeeping and payroll, both reconciliation-heavy.",
+    "claimIds": [
+     "C5",
+     "C6",
+     "C7"
+    ]
+   },
+   {
+    "text": "Management rights specialism means recurring, similar ledgers across motel and resort clients, which suits repeatable reconciliation.",
+    "claimIds": [
+     "C4",
+     "C3"
+    ]
+   },
+   {
+    "text": "External CFO function sits on top of bookkeeping work, so faster reconciling frees time for advice.",
+    "claimIds": [
+     "C8"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Small regional firm (about 11 staff) with a Xero/MYOB specialist in-house; may be comfortable with current manual process.",
+    "claimIds": [
+     "C9",
+     "C12"
+    ]
+   },
+   {
+    "text": "Hiring evidence is from 2021, so not a current growth signal.",
+    "claimIds": [
+     "C10"
+    ]
+   }
+  ],
+  "gaps": [
+   "No recent (2025-2026) LinkedIn posts, news or podcast appearances found for Chris or the firm.",
+   "No Xero partner directory entry or AI/automation tool mentions found.",
+   "Blog post date not shown on the archive page."
+  ],
+  "searches": [
+   {
+    "query": "Eagle Accounting Cairns Chris Ganfield Miriam Eagle",
+    "results": 7
+   },
+   {
+    "query": "Eagle Accounting Cairns blog news article OR seek job accountant bookkeeper",
+    "results": 6
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "eagle-accounting--chris-ganfield",
+    "subject": "Reconciliation at Eagle Accounting",
+    "claimIds": [
+     "C5",
+     "C6",
+     "C7"
+    ],
+    "body": "Hi Chris,\n\nNoticed Eagle Accounting offers bookkeeping and payroll on Xero and MYOB, and that you also manage the audit function, including real estate trust accounts. Both come down to reconciling, which is the part that eats the hours before the advice. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail rather than AI that auto-codes and guesses. How much of your team's month goes on reconciling across your Xero and MYOB clients? Open to a 10 min walkthrough?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+   },
+   "followUp": {
+    "contactId": "eagle-accounting--chris-ganfield",
+    "subject": "Re: Reconciliation at Eagle Accounting",
+    "claimIds": [
+     "C4",
+     "C5"
+    ],
+    "body": "Hi Chris,\n\nFollowing up on my note last week. Eagle Accounting calls itself one of the leading management rights firms, and with trust account audits on your plate too, I'd guess there is a lot of repeat reconciling across similar ledgers. Vert reconciles and cash codes in minutes with a full audit trail. Is that a part of the month you'd want to hand off, or is it already well under control?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+   }
+  },
+  "researchedAt": "2026-11-26"
+ }
+}

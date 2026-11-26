@@ -1,0 +1,253 @@
+{
+ "accountId": "bongiorno-group",
+ "accountName": "Bongiorno Group",
+ "status": "complete",
+ "summary": "Bongiorno Group is a Melbourne practice (St Kilda Road, since 1964) serving medical and dental professionals across tax, accounting, planning, insurance and lending. Directors Mitchell McKeown and Ricky Caldow recorded a November 2026 Money Doctors episode on credit card surcharges and practice cashflow. The firm is individual-client oriented, so fit for close automation is weak.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://bongiorno.com.au",
+   "title": "home — Bongiorno Group",
+   "type": "website",
+   "publisher": "Bongiorno Group",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/posts/bongiorno-group_cardsurcharge-medical-medicalpractice-activity-7526784234938839040-krgp",
+   "title": "Credit card surcharges have been banned... | Bongiorno Group | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Bongiorno Group)",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "S3",
+   "url": "https://bongiorno.com.au/about-us/meet-our-directors/",
+   "title": "meet our directors — Bongiorno Group",
+   "type": "website",
+   "publisher": "Bongiorno Group",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://bongiorno.com.au/payday-super-is-coming-what-every-employer-needs-to-know/",
+   "title": "Payday Super Is Coming: What Every Employer Needs to Know",
+   "type": "podcast",
+   "publisher": "The Money Doctors / Bongiorno Group",
+   "date": "2026-03-05"
+  },
+  {
+   "id": "S5",
+   "url": "https://bongiorno.com.au/digital-bookkeeping-from-shoeboxes-to-the-cloud/",
+   "title": "Digital bookkeeping: from shoeboxes to the cloud",
+   "type": "podcast",
+   "publisher": "The Money Doctors / Bongiorno Group",
+   "date": "2024-07-09"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Bongiorno Group's own site lists its office at level 2, 431 St Kilda Road, Melbourne VIC 3004.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "level 2, 431 st kilda road melbourne VIC 3004",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "The firm's website names Mitchell McKeown and Nick Fennessy as directors.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "welcome to the bongiorno group with directors Mitchell McKeown and Nick Fennessy",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Mitch McKeown is listed as a Director who works with doctors in training.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director Mitch works with young medical professionals to advise on the best financial platform to kick-start their careers.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Mitchell McKeown co-hosted a Bongiorno LinkedIn-promoted podcast episode in November 2026, confirming he is currently active at the firm.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Bongiorno Group directors Ricky Caldow and Mitchell McKeown, unpack what the change means for practice owners and doctors managing business cashflow.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The November 2026 episode covered the ban on credit card surcharges and why practice owners should review merchant facility agreements.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "why now is the time to review merchant facility agreements and negotiate with banks",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Since 1964 the firm has focused on medical and dental professionals.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "since 1964 we have been helping medical and dental professionals to grow, manage and protect their wealth.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Bongiorno is the preferred tax and accounting partner for AMA Victoria.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "The Bongiorno Group is the preferred tax and accounting partner for the AMA Victoria",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm offers tax and business services alongside financial planning, insurance and borrowing.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Our highly experienced tax professionals are across current and changing rules and regulations, ensuring the best advice for your tax, accounting and business needs.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "A March 2026 podcast covered Payday Super and its impact on practice owners running weekly or fortnightly payrolls.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "particularly those running weekly or fortnightly payrolls, as late payments attract SG charges, interest, and loss of tax deductibility",
+   "date": "2026-03",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "A July 2024 episode discussed digital bookkeeping and real-time access to financial data for collaborating with the accountant.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Digital bookkeeping, on the other hand, enables real-time access to financial data, allowing you to collaborate more effectively with your accountant.",
+   "date": "2024-07",
+   "category": "content",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Mitchell McKeown",
+   "title": "Director",
+   "contactId": "bongiorno-group--mitchell-mckeown",
+   "linkedin": "https://www.linkedin.com/in/mitchmckeown",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Hannah Sheppard",
+   "title": "Executive Assistant to CEO & Director",
+   "contactId": "bongiorno-group--hannah-sheppard",
+   "linkedin": "https://www.linkedin.com/in/hannah-sheppard-044248145",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Mitchell's November 2026 podcast on the card surcharge ban and practice cashflow gives a timely, specific opener about practice-owner finances.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "The Payday Super episode shows the firm advises practice owners on payroll/super compliance, which ties to reconciliation load.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "The firm has already publicly promoted digital bookkeeping and real-time data access to clients.",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Individual-client, wealth and tax oriented practice for doctors; no outsourced bookkeeping or close service listed, so fit is weak.",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  },
+  {
+   "text": "Primary contact Hannah Sheppard is an executive assistant, not a decision-maker; drafts go to director Mitchell McKeown instead.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Xero/MYOB partner listing or tech stack mention found on the firm's own pages.",
+  "Only recruiter-posted job ads found (firm not named by itself), so not cited.",
+  "No Facebook/Instagram or news coverage found."
+ ],
+ "searches": [
+  {
+   "query": "Bongiorno Group Melbourne accountants news blog Mitchell McKeown",
+   "results": 7
+  },
+  {
+   "query": "Bongiorno Group accountant job Melbourne St Kilda Road Xero tax accountant vacancy",
+   "results": 4
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "bongiorno-group--mitchell-mckeown",
+   "subject": "Reconciliation at Bongiorno Group",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C8"
+   ],
+   "body": "Hi Mitchell,\n\nSaw your November episode with Ricky on the credit card surcharge ban and why practice owners should review merchant facility agreements. That kind of merchant and cashflow detail ends up in your clients' books, and your team handles their tax, accounting and business work. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail rather than AI that guesses. How much of your team's time goes on cleaning up practice clients' transactions before tax and BAS? Open to a 10 min walkthrough?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "bongiorno-group--mitchell-mckeown",
+   "subject": "Re: Reconciliation at Bongiorno Group",
+   "claimIds": [
+    "C9",
+    "C10"
+   ],
+   "body": "Hi Mitchell,\n\nFollowing up on my note last week. Ricky's Payday Super episode flagged weekly and fortnightly payrolls as the pressure point for practice owners, and the firm has also talked about digital bookkeeping giving clients real-time access to their data. Vert reconciles and cash codes in minutes with a full audit trail. Would it be worth seeing it run on one practice client's month?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

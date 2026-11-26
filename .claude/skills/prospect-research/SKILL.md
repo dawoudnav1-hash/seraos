@@ -50,7 +50,7 @@ Aim for 10–25 claims. If fewer than 6 can be found, say so in `gaps` — never
 - `gaps`: what you looked for and could not find.
 
 ## Step 5 — Drafts (grounded, in Dawoud's voice)
-Write `drafts.first` (if not yet contacted) and `drafts.followUp` (always). Rules:
+Write `drafts.first` (if not yet contacted), `drafts.followUp` (always) and `drafts.followUp2` (always: a final, shorter nudge 25–60 words, a third distinct angle, sent ~7 days after the first follow-up). Rules:
 - Only facts from `claims`; list every claim used in `claimIds`. No invented numbers, clients, or compliments.
 - Specificity test: delete the firm name — would the email still obviously be about THIS firm? If not, rewrite. Must reference ≥ 2 claims, at least one about the person or something they published/did.
 - 60–110 words for first touch, 35–80 for follow-up. Plain text. No links except the signature. No "I hope this finds you well", no "quick question", no emojis, no bullet lists.
@@ -92,7 +92,8 @@ Fix every error it reports and re-run until it prints `OK`. Do not hand back a d
   "searches": [{"query": "…", "results": 3}],
   "drafts": {
     "first": {"contactId": "…", "subject": "…", "body": "…", "claimIds": ["…"]},
-    "followUp": {"contactId": "…", "subject": "…", "body": "…", "claimIds": ["…"]}
+    "followUp": {"contactId": "…", "subject": "…", "body": "…", "claimIds": ["…"]},
+    "followUp2": {"contactId": "…", "subject": "…", "body": "…", "claimIds": ["…"]}
   }
 }
 ```

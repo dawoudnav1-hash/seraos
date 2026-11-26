@@ -1,0 +1,367 @@
+{
+ "accountId": "bentleys-victoria",
+ "accountName": "Bentleys Victoria",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Bentleys Victoria is the Hawthorn-based Victorian member of the Bentleys network, rebranded from McLean Delmo Bentleys in July 2025 and led by CEO Jack Delmo, who also runs M&A and growth. It is an 80+ person firm hiring accountants in Hawthorn working in Xero and MYOB. Jack's public activity is about tax reform, succession and M&A rather than technology.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.bentleys.com.au/offices/bentleys-victoria/",
+   "title": "Bentleys Victoria | Chartered Accountants & Business Advisors",
+   "type": "website",
+   "publisher": "Bentleys",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.bentleys.com.au/advisors/jack-delmo/",
+   "title": "Jack Delmo - Chief Executive Officer | Bentleys Victoria",
+   "type": "website",
+   "publisher": "Bentleys",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/jackdelmo",
+   "title": "Jack Delmo | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-26"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.bentleys.com.au/insights/bentleys-victoria-announces-two-senior-promotions/",
+   "title": "Bentleys Victoria Announces Two Senior Promotions",
+   "type": "news",
+   "publisher": "Bentleys",
+   "date": "2024-07-01"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.consultancy.com.au/news/11433/mclean-delmo-bentleys-rebrands-as-bentleys-victoria-after-12-years",
+   "title": "McLean Delmo Bentleys rebrands as Bentleys Victoria after 12 years",
+   "type": "news",
+   "publisher": "Consultancy.com.au",
+   "date": "2025-07-02"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/jackdelmo_last-night-bentleys-australia-and-new-zealand-activity-7503972929173426176-rhk7",
+   "title": "Jack Delmo LinkedIn post on federal budget tax changes",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-11"
+  },
+  {
+   "id": "S7",
+   "url": "https://employmenthero.com/jobs/organisations/mclean-delmo-bentleys-pty-ltd/",
+   "title": "Bentleys (Victoria) Pty Ltd Jobs & Careers | Employment Hero",
+   "type": "job",
+   "publisher": "Employment Hero",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://www.simplyhired.com.au/job/tBkcCY3HUD_uMfTQ-eC4ikocuemcFEdsegySKjLoQf_bhMnmBj2GXg",
+   "title": "Senior Accountant - Bentleys Victoria | Hawthorn VIC",
+   "type": "job",
+   "publisher": "SimplyHired",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://www.xbert.io/blog/the-secret-of-top-tier-firms-reducing-rework-and-giving-great-advice",
+   "title": "The secret of top tier firms reducing rework and giving great advice",
+   "type": "blog",
+   "publisher": "XBert",
+   "date": null
+  },
+  {
+   "id": "S10",
+   "url": "https://www.linkedin.com/posts/jackdelmo_its-never-too-earlier-to-start-preparing-activity-7463507461761576962-yQO8",
+   "title": "Jack Delmo LinkedIn post on succession, investment or scale",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-05-22"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Bentleys Victoria's own site (bentleys.com.au) lists offices in Hawthorn (302 Burwood Rd), Woodend and Wallan.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We have offices in Hawthorn, Woodend and Wallan.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Jack Delmo is currently CEO of Bentleys Victoria and a National Board Member of Bentleys.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Jack Delmo is the Chief Executive Officer at Bentleys Victoria.",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Jack Delmo leads Bentleys Victoria's M&A strategy and growth team, looking for like-minded businesses to partner with.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Jack also leads Bentleys Victoria M&A strategy and growth team, with a key focus on finding likeminded individuals and businesses to partner with.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Bentleys Victoria opened two regional offices, in Woodend and Kilmore, during Jack Delmo's time as COO.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Bentleys Victoria has experienced significant expansion, including the opening of two regional offices in Woodend and Kilmore, Victoria.",
+   "date": "2024-07",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "Bentleys Victoria describes itself as a Top 12 AFR firm of 80+ employees.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Bentleys Victoria is a purpose driven Top 12 AFR firm. We are a close-knit firm of 80+ employees",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Bentleys Victoria had an Accounting Manager role open in Hawthorn, posted 25 Oct 2026.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Accounting Manager at Bentleys (Victoria) Pty Ltd • Hawthorn, Victoria 3122 • Full-time • Hybrid posted 25 Oct 2026",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The Senior Accountant role in Hawthorn (posted 30 Sep 2026) requires IT skills in MYOB AE and other MYOB packages and Xero.",
+   "sourceIds": [
+    "S7",
+    "S8"
+   ],
+   "quote": "Strong IT skills (MYOB AE and other MYOB accounting packages, XERO, Microsoft Office suite including Excel).",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The Senior Accountant role involves processing client documentation and preparing journals and work papers for financial reports.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Effectively process client documentation, preparing journals and work papers to produce financial reports in accordance with accounting standards.",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Bentleys Victoria's services span taxation, business advisory, audit and assurance, finance and lending, financial planning and SMSF.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Our services include: - Specialist taxation and business advisory services - Audit and assurance services",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Jack Delmo was a panellist at a May 2026 Bentleys event on business succession, M&A and more.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "Thank you to our speakers Charith Mandadige, Ray Short and Matt Skelley FTI CA and panellists Jack Delmo Ashley Sorrenti, Joshua King and Ronan Fenton.",
+   "date": "2026-05",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Jack Delmo posted in September 2026 on federal budget tax changes, stressing maximising asset values at 30 June 2027.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Maximising asset values at 30 June 2027 is imperative to taking advantage of the 50% CGT discount available.",
+   "date": "2026-09",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "McLean Delmo Bentleys rebranded as Bentleys Victoria from 1 July 2025.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "The Victorian branch of advisory firm Bentleys has rebranded from McLean Delmo Bentleys to Bentleys Victoria",
+   "date": "2025-07",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "Fahmid Ahmed is listed on the Bentleys Victoria team page as Partner/Director.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Fahmid Ahmed Partner/Director Bentleys Victoria",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C14",
+   "text": "Bentleys Queensland (a separate member firm) formally partnered with XBert to cut manual checks in its bookkeeping team.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "After extensive testing and assessment, Bentleys Queensland announced a formal partnership with XBert.",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Jack Delmo",
+   "title": "CEO, Bentleys Victoria",
+   "contactId": "bentleys-victoria--jack-delmo",
+   "linkedin": "https://www.linkedin.com/in/jackdelmo",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "name": "Fahmid Ahmed",
+   "title": "Partner/Director",
+   "contactId": "bentleys-victoria--fahmid-ahmed",
+   "linkedin": null,
+   "claimIds": [
+    "C13"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Active hiring of a Senior Accountant and Accounting Manager in Hawthorn, with a Senior Accountant role built around processing client documents and journals in Xero and MYOB: reconciliation load is a capacity issue.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Jack leads M&A and growth and the firm has added regional offices; absorbing new practices and offices makes a consistent reconciliation process valuable.",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C10"
+   ]
+  },
+  {
+   "text": "Jack's recent public focus is tax reform and succession planning, so an efficiency pitch should be framed around partner and manager capacity rather than technology.",
+   "claimIds": [
+    "C10",
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Jack Delmo has no email on file, so outreach goes to Partner/Director Fahmid Ahmed; Jack may be best reached via LinkedIn or a warm intro.",
+   "claimIds": [
+    "C2",
+    "C13"
+   ]
+  },
+  {
+   "text": "Part of a national network of independent member firms; another member firm (Bentleys Queensland) already uses XBert, so tooling may be influenced network-wide.",
+   "claimIds": [
+    "C14"
+   ]
+  },
+  {
+   "text": "Audit and advisory-led, large firm (80+ staff); weak-to-moderate fit per account notes.",
+   "claimIds": [
+    "C5",
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video, Facebook or Instagram content found for Jack Delmo or Bentleys Victoria.",
+  "No Bentleys Victoria statement found on its own use of AI or automation; Bentleys-wide AI article is by another author (Sandie Boswell).",
+  "No blog content found authored by Fahmid Ahmed; his LinkedIn was not located.",
+  "No Xero or MYOB partner-status page found for Bentleys Victoria."
+ ],
+ "searches": [
+  {
+   "query": "Jack Delmo Bentleys Victoria CEO",
+   "results": 8
+  },
+  {
+   "query": "site:bentleys.com.au Bentleys Victoria news insights",
+   "results": 8
+  },
+  {
+   "query": "Bentleys Victoria job vacancy accountant Hawthorn Seek",
+   "results": 5
+  },
+  {
+   "query": "Bentleys Victoria Jack Delmo AI technology automation accounting firm podcast OR interview OR linkedin post",
+   "results": 8
+  },
+  {
+   "query": "Jack Delmo Bentleys Victoria podcast OR webinar OR facebook",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "bentleys-victoria--fahmid-ahmed",
+   "subject": "Reconciling at Bentleys Victoria",
+   "body": "Hi Fahmid,\n\nSaw Bentleys Victoria is hiring an Accounting Manager and a Senior Accountant in Hawthorn, and the Senior Accountant role is about processing client documentation and preparing journals across Xero and MYOB. That is the work Vert takes off a team. It reconciles and cash codes with a traceable audit trail, so hours of manual reconciliation become minutes. With Jack leading growth and M&A, I'd guess consistent processes across offices matter. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C8",
+    "C3"
+   ]
+  },
+  "followUp": {
+   "contactId": "bentleys-victoria--fahmid-ahmed",
+   "subject": "Re: Reconciling at Bentleys Victoria",
+   "body": "Hi Fahmid,\n\nFollowing up on my note last week. Jack was on a panel in May about succession and M&A, and Bentleys Victoria has opened offices in Woodend and Kilmore in recent years. When a practice joins, how much of the onboarding goes on getting its client reconciliations working the way the rest of the firm does? Happy to show how Vert handles that in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C4"
+   ]
+  }
+ }
+}

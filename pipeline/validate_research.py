@@ -90,9 +90,9 @@ def validate(path, accounts, contacts):
             errs.append(f"person {p.get('name')} contactId {p['contactId']} not in accounts.json")
     drafts = d.get("drafts") or {}
     if status == "identity_unconfirmed":
-        if any(drafts.get(k) for k in ("first", "followUp")):
+        if any(drafts.get(k) for k in ("first", "followUp", "followUp2")):
             errs.append("identity_unconfirmed dossiers must not contain drafts")
-    for kind, (lo, hi) in (("first", (60, 110)), ("followUp", (35, 80))):
+    for kind, (lo, hi) in (("first", (60, 110)), ("followUp", (35, 80)), ("followUp2", (25, 60))):
         dr = drafts.get(kind)
         if not dr:
             continue

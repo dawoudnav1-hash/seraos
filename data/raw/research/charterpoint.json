@@ -1,0 +1,319 @@
+{
+ "accountId": "charterpoint",
+ "accountName": "Charterpoint",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Charterpoint (charterpoint.com.au) is a Canberra accounting, audit and advisory firm with offices in Fyshwick and Manuka, focused on government and not-for-profit clients, and the firm says it has over 40 professionals across Canberra, Sydney and Melbourne. Dr Irmagard Van Rensburg is a Principal and CA ANZ member who leads audit and risk work. The firm lists outsourced accounting for not-for-profits and has been building its own lease accounting model that produces monthly journal entries. Fit is weak to moderate because the work skews to government audit and advisory rather than high-volume bookkeeping.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://charterpoint.com.au",
+   "title": "Charterpoint | Accounting, Audit & Advisory | Canberra",
+   "type": "website",
+   "publisher": "Charterpoint",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://charterpoint.com.au/about",
+   "title": "About Us & Our Directors | Charterpoint Canberra",
+   "type": "website",
+   "publisher": "Charterpoint",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/irmagard-vanrensburg",
+   "title": "Dr Irmagard Van Rensburg - Principal, Charterpoint | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/charterpoint-pty-ltd-",
+   "title": "Charterpoint | LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.charterpoint.com.au/graduate-roles",
+   "title": "Graduate Opportunities | Charterpoint",
+   "type": "website",
+   "publisher": "Charterpoint",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://au.indeed.com/viewjob?from=serp&jk=a3c2dd2fbf18a027&vjs=3",
+   "title": "Varied Accounting Roles - Canberra ACT",
+   "type": "job",
+   "publisher": "Indeed",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/charterpoint-pty-ltd-_hiring-jobopportunity-jobopening-activity-7284781812030058496-pdOM",
+   "title": "Join Our Team at Charterpoint (Financial Management Accountant)",
+   "type": "linkedin",
+   "publisher": "Charterpoint on LinkedIn",
+   "date": "2025-01-14"
+  },
+  {
+   "id": "S8",
+   "url": "https://insight.avata.net.au/AusTender/Detail/CN4261296",
+   "title": "CN4261296: Dr Irmagard Vanrensburg - Australian National Audit Office",
+   "type": "registry",
+   "publisher": "AusTender via Insight Portal",
+   "date": "2026-07-15"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Charterpoint's own site describes it as an accounting, advisory and financial consulting firm serving government, corporate and community organisations across Canberra and Australia.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Providing specialist accounting, advisory and financial consulting services to government, corporate and community organisations across Canberra and Australia.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Charterpoint (charterpoint.com.au) was established in 2012 and LinkedIn lists it as headquartered in Manuka with an office in Fyshwick, ACT, so it is the Canberra firm and not the UK Charterpoint group.",
+   "sourceIds": [
+    "S2",
+    "S4"
+   ],
+   "quote": "Charterpoint was established in 2012 when three like-minded individuals came together",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "The firm says it has over 40 professionals across Canberra, Sydney and Melbourne.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Charterpoint has over 40 professionals across Canberra, Sydney and Melbourne",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Dr Irmagard Van Rensburg is listed on the Charterpoint team page and her LinkedIn shows her as current Principal at Charterpoint (Canberra), so she still works there.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Principal, Charterpoint | Audit | Risk Management | Performance Reviews | Financial Reporting | Consulting",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Irmagard is a qualified Chartered Accountant who says she has more than 15 years of audit, review and assurance experience with government and private sector clients.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "I am a qualified Chartered Accountant and have more than 15 years of experience providing audit, review and assurance services",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Irmagard has recently worked on fraud risk assessments and fraud control plans for a charitable organisation.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Undertaking comprehensive fraud risk assessments for a charitable organisation and developing fraud control plans",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Charterpoint offers outsourced accounting services and accounting support for not-for-profits.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Charterpoint offers a range of services for the Not-For-Profit sector including accounting support and guidance and outsourced accounting services.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In June 2026 Charterpoint posted that its leasing model produces monthly journal entries out to June 2049, with a web-based version in the works.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Charterpoint leasing model now caters for monthly journal entries out to June 2049, and we're working on a web based version.",
+   "date": "2026-06",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "In May 2024 Charterpoint was building a migration tool to move clients' existing leases into its leasing model while keeping the last audited opening balances intact.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Charterpoint is currently working on a migration tool to allow your current leases to be seamlessly migrated to our leasing model",
+   "date": "2024-05",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Graduate hires at Charterpoint support audits for not-for-profit clients and government agencies.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "support audit processes for Not-for-Profit clients and various Government agencies.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Charterpoint advertised for a Financial Management Accountant in January 2025 and has advertised accountant roles across financial management, costing and general management accounting.",
+   "sourceIds": [
+    "S7",
+    "S6"
+   ],
+   "quote": "Charterpoint is seeking a skilled Financial Management Accountant to join our distinguished financial advisory and consulting firm.",
+   "date": "2025-01",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "AusTender shows the Australian National Audit Office awarded Charterpoint a contract titled in Irmagard's name, signed July 2026 and running to mid-2027, so she is an active engagement lead on government audit work.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Australian National Audit Office · Australian National Audit Office · Audit services",
+   "date": "2026-07",
+   "category": "news",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Dr Irmagard Van Rensburg",
+   "title": "Principal",
+   "contactId": "charterpoint--dr-irmagard-van-rensburg",
+   "linkedin": "https://www.linkedin.com/in/irmagard-vanrensburg",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6",
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "The June 2026 leasing model post: the firm builds its own tooling that outputs journal entries, so automation of journals is something they already value.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Outsourced accounting for not-for-profits is the one service where bank reconciliation and cash coding volume is plausible.",
+   "claimIds": [
+    "C7",
+    "C10"
+   ]
+  },
+  {
+   "text": "Irmagard's fraud risk and assurance background suggests an audit-trail, traceable-matching angle will land better than a speed-only pitch.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Firm is mostly government audit, advisory and ICT work; bookkeeping/reconciliation volume is probably small, so fit is weak to moderate.",
+   "claimIds": [
+    "C1",
+    "C10",
+    "C12"
+   ]
+  },
+  {
+   "text": "Account record lists Adrian Goose (adrian@charterpointgroup.co.uk) as primary, but that is a different UK company with the same name, so he is excluded and Irmagard is the contact.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Irmagard is an audit principal rather than a bookkeeping lead, so she may forward the email to someone else.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, YouTube, Facebook or Instagram presence found for the firm or Irmagard.",
+  "No Xero/MYOB partner listing or reconciliation-tool mentions found, so tech stack is unknown.",
+  "No firm blog or news section found; no posts by Irmagard herself found.",
+  "Could not confirm whether the lease model is a product sold to clients or an internal tool."
+ ],
+ "searches": [
+  {
+   "query": "fetch charterpoint.com.au home, about, our-team",
+   "results": 2
+  },
+  {
+   "query": "Irmagard van Rensburg Charterpoint Principal",
+   "results": 5
+  },
+  {
+   "query": "site:charterpoint.com.au services outsourced accounting not-for-profit grants management careers",
+   "results": 5
+  },
+  {
+   "query": "Charterpoint Canberra accounting firm news LinkedIn posts job ad accountant",
+   "results": 6
+  },
+  {
+   "query": "Charterpoint leasing model AASB 16 journal entries web based version",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "charterpoint--dr-irmagard-van-rensburg",
+   "subject": "Charterpoint's leasing model and NFP reconciliations",
+   "body": "Hi Irmagard,\n\nCharterpoint's June post on your leasing model, with monthly journal entries running out to June 2049, caught my eye. It says your team builds its own tooling when standard software falls short. I also saw you offer outsourced accounting for not-for-profits, which is where hand reconciliation tends to eat the hours. I built Vert to turn hours of manual reconciliation into minutes, with a trace behind every match so nothing is guessed. How much of your NFP accounting is still reconciled by hand?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C7",
+    "C4"
+   ]
+  },
+  "followUp": {
+   "contactId": "charterpoint--dr-irmagard-van-rensburg",
+   "subject": "Re: Charterpoint's leasing model and NFP reconciliations",
+   "body": "Hi Irmagard,\n\nFollowing up on my note last week. Your graduate roles page says the team supports audits for not-for-profit clients, so I wondered how clean the books are when they arrive. If bank reconciliations and cash coding are still done by hand before audit, Vert could take that off your team. Open to a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C7"
+   ]
+  }
+ }
+}

@@ -1,0 +1,287 @@
+{
+ "accountId": "eagle-accounting",
+ "accountName": "Eagle Accounting",
+ "status": "complete",
+ "summary": "Eagle Accounting is a Cairns CPA practice (about 11 staff) run by directors Chris Ganfield and Miriam Eagle, specialising in management rights, medical, hospitality and construction clients. It offers Xero and MYOB bookkeeping and payroll, trust account audit and an external CFO function. Little recent public content was found, so personalisation rests on service and person pages.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.eagleaccounting.com.au/",
+   "title": "Business Accounting & Advice Specialists - Eagle Accounting",
+   "type": "website",
+   "publisher": "Eagle Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.eagleaccounting.com.au/our-team/",
+   "title": "Our Team - Eagle Accounting",
+   "type": "website",
+   "publisher": "Eagle Accounting",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/chris-ganfield-91272a20",
+   "title": "Chris Ganfield - Director at Eagle Accounting | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/chris-ganfield-91272a20_we-are-looking-for-a-motivated-individual-activity-6856178033741721600-30rZ",
+   "title": "Chris Ganfield post: bookkeeper wanted",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Chris Ganfield)",
+   "date": "2021-10-19"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.eagleaccounting.com.au/category/uncategorized/",
+   "title": "Uncategorized Archives - Eagle Accounting",
+   "type": "blog",
+   "publisher": "Eagle Accounting",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/eagleaccounting",
+   "title": "Eagle Accounting | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Eagle Accounting's own site gives its address as 18 Minnie Street, Cairns QLD 4870.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "18 MINNIE STREET, CAIRNS QLD 4870",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Chris Ganfield is a Director (CPA) on the firm's team page and his LinkedIn profile lists Eagle Accounting as his current role since 2014.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Jun 2014 - Present (12 years and 4 months)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Miriam Eagle is a Director (FCPA) at the firm, known for management rights and motels expertise.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Miriam is well known for her expertise in management rights and motels, but also services a broad portfolio of other industries.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Eagle Accounting positions itself as a leading management rights accounting firm.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We can proudly claim to be one the leading management rights accounting firms in Australia.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Chris specialises in medical, construction and hospitality clients and manages the firm's audit function including real estate trust accounts.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Chris also manages the audit function, in particular the audit of trust accounts for the real estate industry and QBCC ‘Minimum Financial Requirements’ reporting.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The firm offers bookkeeping and payroll with Xero or MYOB set-up and training.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Set up and training in Xero or MYOB software",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Bookkeeping and payroll services include year-end reconciliation of payroll and superannuation.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Reconciliation of payroll and superannuation at year end",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm lists an external CFO function among its project services.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "External CFO function",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Leanne Vandenhooven is the firm's resident Xero and MYOB expert for set-up, training and troubleshooting.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "As our resident Xero and MYOB expert, she is the go to person for set up, training and troubleshooting in these software packages.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "In October 2021 Chris posted that the firm was hiring a bookkeeper, describing a small team of Xero and MYOB consultants.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "business administration support (provided by a small team of Xero and MYOB consultants)",
+   "date": "2021-10",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "The firm's blog covers client-facing tax topics such as visa tax deductions when hiring foreign employees.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We are seeing more clients sourcing workers from overseas, as Australia faces a skills shortage",
+   "date": null,
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn lists the firm's workforce at 11 employees.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Employees: 11",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Chris Ganfield",
+   "title": "Director - CPA",
+   "contactId": "eagle-accounting--chris-ganfield",
+   "linkedin": "https://www.linkedin.com/in/chris-ganfield-91272a20",
+   "claimIds": [
+    "C2",
+    "C5"
+   ]
+  },
+  {
+   "name": "Miriam Eagle",
+   "title": "Director - FCPA",
+   "contactId": "eagle-accounting--miriam-eagle",
+   "linkedin": "https://www.linkedin.com/in/miriam-eagle-84568594",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Chris runs the audit function (real estate trust accounts) and the firm sells Xero/MYOB bookkeeping and payroll, both reconciliation-heavy.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Management rights specialism means recurring, similar ledgers across motel and resort clients, which suits repeatable reconciliation.",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  },
+  {
+   "text": "External CFO function sits on top of bookkeeping work, so faster reconciling frees time for advice.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Small regional firm (about 11 staff) with a Xero/MYOB specialist in-house; may be comfortable with current manual process.",
+   "claimIds": [
+    "C9",
+    "C12"
+   ]
+  },
+  {
+   "text": "Hiring evidence is from 2021, so not a current growth signal.",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent (2025-2026) LinkedIn posts, news or podcast appearances found for Chris or the firm.",
+  "No Xero partner directory entry or AI/automation tool mentions found.",
+  "Blog post date not shown on the archive page."
+ ],
+ "searches": [
+  {
+   "query": "Eagle Accounting Cairns Chris Ganfield Miriam Eagle",
+   "results": 7
+  },
+  {
+   "query": "Eagle Accounting Cairns blog news article OR seek job accountant bookkeeper",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "eagle-accounting--chris-ganfield",
+   "subject": "Reconciliation at Eagle Accounting",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ],
+   "body": "Hi Chris,\n\nNoticed Eagle Accounting offers bookkeeping and payroll on Xero and MYOB, and that you also manage the audit function, including real estate trust accounts. Both come down to reconciling, which is the part that eats the hours before the advice. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail rather than AI that auto-codes and guesses. How much of your team's month goes on reconciling across your Xero and MYOB clients? Open to a 10 min walkthrough?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "eagle-accounting--chris-ganfield",
+   "subject": "Re: Reconciliation at Eagle Accounting",
+   "claimIds": [
+    "C4",
+    "C5"
+   ],
+   "body": "Hi Chris,\n\nFollowing up on my note last week. Eagle Accounting calls itself one of the leading management rights firms, and with trust account audits on your plate too, I'd guess there is a lot of repeat reconciling across similar ledgers. Vert reconciles and cash codes in minutes with a full audit trail. Is that a part of the month you'd want to hand off, or is it already well under control?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

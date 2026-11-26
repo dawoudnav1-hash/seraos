@@ -1,0 +1,390 @@
+{
+ "accountId": "boss-private-clients",
+ "accountName": "Boss Private Clients",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Boss Private Clients is a boutique Melbourne CBD accounting and advisory practice (23 staff on LinkedIn, workforce split between Australia and the Philippines) acting for private clients and family businesses. It runs a visible bookkeeping team alongside its accountants and has made recent hires (a bookkeeper in January 2026, a senior accountant in May 2026). Director Sam Marzano focuses on entity structures and wealth planning for family businesses.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://bossprivateclients.com.au/about-us",
+   "title": "About Us - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://bossprivateclients.com.au/about-us/our-people/sam-marzano/",
+   "title": "Sam Marzano - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/bpc-sam-marzano",
+   "title": "Sam Marzano - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/boss-private-clients-accountants-and-advisors",
+   "title": "Boss Private Clients - Accountants and Advisors - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://bossprivateclients.com.au/about-us/our-people/allyza-tolentino/",
+   "title": "Allyza Tolentino - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://bossprivateclients.com.au/about-us/our-people/",
+   "title": "Our People - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://bossprivateclients.com.au/services/business-services/",
+   "title": "Business Services - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://bossprivateclients.com.au/about-us/our-people/marlene-espino/",
+   "title": "Marlene Espino - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://bossprivateclients.com.au/services/management-accounting/",
+   "title": "Management Accounting - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S10",
+   "url": "https://bossprivateclients.com.au/about-us/our-people/daniel-cuda/",
+   "title": "Daniel Cuda - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S11",
+   "url": "https://bossprivateclients.com.au/about-us/our-people/sarah-pathmanathan/",
+   "title": "Sarah Pathmanathan - Boss Private Clients",
+   "type": "website",
+   "publisher": "Boss Private Clients",
+   "date": null
+  },
+  {
+   "id": "S12",
+   "url": "https://linkedin.com/in/daniel-cuda-3a94b0140",
+   "title": "Daniel Cuda - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-10"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Boss Private Clients is a boutique accounting and advisory practice based in Melbourne's CBD (Level 2, 428 Little Bourke St).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Boss Private Clients is a boutique accounting and advisory practice based in Melbourne’s CBD",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Sam Marzano is listed as a Director of Boss Private Clients (since Jan 2011) on his LinkedIn profile, last updated Oct 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director at Boss Private Clients",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Sam Marzano advises privately owned small to medium businesses and high net worth individuals, with a particular interest in family wealth strategies.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "he combines this experience to advise privately owned small to medium sized business and high net worth individuals",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Sam Marzano has a particular interest in companies, trusts and self-managed super funds as tools for family long-term goals.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "use of entities such as companies, trusts, and self-managed superannuation funds as the tools in assisting families achieve their long-term goals",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The firm's workforce is distributed across Australia and the Philippines.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Its workforce is distributed across Australia and Philippines.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "LinkedIn lists the firm at 23 employees, up 23.1% year on year.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "employs 23 people (+23.1% YoY, +6 people)",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Allyza Tolentino joined Boss as a Bookkeeper in January 2026.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Allyza joined Boss Private Clients (BPC) as a Bookkeeper in January 2026.",
+   "date": "2026-01",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Sarah Pathmanathan joined as a Senior Accountant in May 2026.",
+   "sourceIds": [
+    "S11"
+   ],
+   "quote": "Sarah joined Boss Private Clients as a Senior Accountant in May 2026.",
+   "date": "2026-05",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The firm's people page lists several bookkeepers and two Bookkeeper Managers alongside senior accountants and accountants.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Bookkeeper Manager",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The firm prepares monthly, quarterly or annual financial statements and BAS for companies, trusts, partnerships and super funds.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "the preparation of either monthly, quarterly or annual Financial Statements and Business Activity Statements",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Entity types served include proprietary companies, trusts and superannuation funds.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Proprietary companies Sole Traders Trusts Partnerships Joint Ventures Superannuation Funds",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "Management accounting offering includes regular KPI review meetings and cash flow, P&L and balance sheet forecasts.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Prepare cash flow, profit and loss account and balance sheet forecasts",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "Team members work in Xero; a bookkeeping team member lists Xero payroll and accounting systems experience.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "experienced in payroll and accounting systems, including Xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C14",
+   "text": "Account record lists Daniel Cuda as Founder, but the firm's own page shows him as an accountant who joined in October 2017 (Manager).",
+   "sourceIds": [
+    "S10",
+    "S12"
+   ],
+   "quote": "Daniel joined Boss Private Clients as an accountant in October, 2017.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C15",
+   "text": "The careers page says the firm is always looking for accountants to join its growing business.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We are always looking for accountants to join our growing business.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Sam Marzano",
+   "title": "Director",
+   "contactId": "boss-private-clients--sam-marzano",
+   "linkedin": "https://www.linkedin.com/in/bpc-sam-marzano",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Daniel Cuda",
+   "title": "Manager (record says Founder)",
+   "contactId": "boss-private-clients--daniel-cuda",
+   "linkedin": "https://www.linkedin.com/in/daniel-cuda-3a94b0140",
+   "claimIds": [
+    "C14"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Sam advises family businesses using companies, trusts and SMSFs, so each client has several entities to reconcile; the firm has a dedicated bookkeeping team doing that load.",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C9",
+    "C11"
+   ]
+  },
+  {
+   "text": "Recent hiring (bookkeeper Jan 2026, senior accountant May 2026) and +23% headcount growth suggest volume is outpacing capacity.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Offshore (Philippines) staff mean review and audit trail matter more than raw speed.",
+   "claimIds": [
+    "C5",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Account record lists Daniel Cuda as Founder; the firm site shows him as a Manager (accountant since 2017). Directors are Sam Marzano, Sam Cimino, Peter Stranges, Paul Troiano.",
+   "claimIds": [
+    "C14"
+   ]
+  },
+  {
+   "text": "Email check: the firm's people page appears to list sam@ for Sam Cimino and smarzano@ for Sam Marzano, but accounts.json has sam@ for Sam Marzano. Verify the address before sending (the people page layout is ambiguous).",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Fit is private-client tax/structuring led, with bookkeeping a supporting line; weak-to-moderate fit.",
+   "claimIds": [
+    "C1",
+    "C10"
+   ]
+  }
+ ],
+ "gaps": [
+  "No firm blog, newsletters, podcasts, Facebook posts or news coverage found.",
+  "No public job ad or evidence of a specific reconciliation tool (no Dext/Hubdoc/AI mentions).",
+  "Could not confirm the Philippines claim from the firm's own site; it comes from LinkedIn aggregate data."
+ ],
+ "searches": [
+  {
+   "query": "Daniel Cuda Boss Private Clients accountant Melbourne",
+   "results": 6
+  },
+  {
+   "query": "Sam Marzano Boss Private Clients director",
+   "results": 8
+  },
+  {
+   "query": "Boss Private Clients Melbourne bookkeeper accountant job Xero MYOB",
+   "results": 9
+  },
+  {
+   "query": "site:facebook.com Boss Private Clients accountants Melbourne",
+   "results": 0
+  },
+  {
+   "query": "fetch: home, about-us, careers, our-people, business-services, management-accounting",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "boss-private-clients--sam-marzano",
+   "subject": "Reconciling across family entities at Boss",
+   "body": "Hi Sam,\n\nI noticed you advise family businesses on companies, trusts and SMSFs, and that Boss added Allyza as a bookkeeper in January. Several entities per family means a lot of bank feeds to reconcile before the planning conversation even starts. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail that shows why each match was made. How much of your bookkeeping team's week goes on reconciling before an accountant can review?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7",
+    "C11"
+   ]
+  },
+  "followUp": {
+   "contactId": "boss-private-clients--sam-marzano",
+   "subject": "Re: Reconciling across family entities at Boss",
+   "body": "Hi Sam,\n\nFollowing up on my note last week. I saw Sarah joined as a Senior Accountant in May, and Boss now has a Bookkeeper Manager team alongside the accountants. When a new accountant picks up a family group with several entities, how does the reconciliation get checked today? Happy to show Vert on a sample ledger in a ten minute walkthrough.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  }
+ }
+}

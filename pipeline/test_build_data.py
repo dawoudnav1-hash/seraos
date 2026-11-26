@@ -174,6 +174,12 @@ for e in O["events"]:
         check(e["contactId"] in con_ids, f"event {e['id']} -> unknown contact")
         check(e["contactId"].startswith(e["accountId"] + "--"), f"event {e['id']} contact/account mismatch")
 
+# --- rating
+for a in A:
+    check(isinstance(a.get("rating"), int) and 0 <= a["rating"] <= 100, f"rating out of range {a['id']}")
+    check(a.get("grade") in ("A", "B", "C", "D"), f"bad grade {a['id']}")
+    check(bool(a.get("ratingReasons")), f"no rating reasons {a['id']}")
+
 # --- cities
 from locations import normalise as _norm, is_vague as _vague  # noqa: E402
 STATES_OK = {"VIC", "NSW", "QLD", "WA", "SA", "TAS", "ACT", "NT"}

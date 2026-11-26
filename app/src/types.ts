@@ -98,3 +98,77 @@ export interface OutreachEvent {
 }
 
 export interface SourceNote { name: string; detail: string; }
+
+/* ---------- prospect research dossiers (src/data/research.json = ResearchData) ---------- */
+
+export type ResearchStatus = 'complete' | 'identity_unconfirmed' | 'thin';
+export type ResearchSourceType =
+  | 'website' | 'blog' | 'podcast' | 'video' | 'linkedin' | 'facebook' | 'instagram'
+  | 'news' | 'job' | 'directory' | 'registry' | 'other';
+export type ClaimCategory =
+  | 'identity' | 'firm' | 'person' | 'services' | 'clients' | 'growth'
+  | 'hiring' | 'tech' | 'content' | 'news' | 'pain' | 'personal';
+
+export interface ResearchSource {
+  id: string;                 // 'S1'
+  url: string;                // http(s)
+  title?: string;
+  type: ResearchSourceType;
+  publisher?: string;
+  date?: string | null;       // 'YYYY-MM-DD' or null
+}
+
+export interface ResearchClaim {
+  id: string;                 // 'C1'
+  text: string;               // one atomic, checkable statement
+  sourceIds: string[];        // >= 1 source that says it
+  quote?: string;             // <= 30 words verbatim from the source
+  date?: string | null;       // 'YYYY-MM' / 'YYYY-MM-DD' or null
+  category: ClaimCategory;
+  confidence: 'high' | 'medium';
+}
+
+export interface ResearchPerson {
+  name: string;
+  title?: string;
+  contactId?: string | null;  // id from accounts.json
+  linkedin?: string | null;
+  claimIds: string[];
+}
+
+/** A hook (personalisation angle) or a risk, resting on claims. */
+export interface ResearchNote {
+  text: string;
+  claimIds: string[];
+}
+
+export interface ResearchSearch {
+  query: string;
+  results: number;
+}
+
+export interface DraftEmail {
+  contactId: string;
+  subject: string;
+  body: string;
+  claimIds: string[];
+}
+
+export interface Dossier {
+  accountId: string;
+  accountName?: string;
+  status: ResearchStatus;
+  researchedAt?: string;      // ISO date
+  summary?: string;
+  sources: ResearchSource[];
+  claims: ResearchClaim[];
+  people: ResearchPerson[];
+  hooks: ResearchNote[];
+  risks: ResearchNote[];
+  gaps: string[];
+  searches: ResearchSearch[];
+  drafts: { first: DraftEmail | null; followUp: DraftEmail | null };
+}
+
+/** src/data/research.json: dossiers keyed by account id. */
+export type ResearchData = Record<string, Dossier>;

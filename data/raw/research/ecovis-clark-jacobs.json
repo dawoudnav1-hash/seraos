@@ -1,0 +1,311 @@
+{
+ "accountId": "ecovis-clark-jacobs",
+ "accountName": "ECOVIS Clark Jacobs",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "ECOVIS Clark Jacobs is an independently owned member of the ECOVIS network with offices in Sydney (Walsh Bay), Brisbane and Perth; its own site lists no Melbourne office, which conflicts with the Melbourne St Kilda Rd address in the account record. Andrew Pratt is a current Manager at the firm, has 13+ years in public practice, works with family groups and high net worth clients, and co-owns two veterinary businesses. The firm positions itself around medical, dental and veterinary professionals, family offices and business owners.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://ecovisclarkjacobs.com.au/contact/",
+   "title": "Get In Touch With Us! - ECOVIS Clark Jacobs",
+   "type": "website",
+   "publisher": "ECOVIS Clark Jacobs",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://ecovisclarkjacobs.com.au/team/andrew-pratt/",
+   "title": "Andrew Pratt - ECOVIS Clark Jacobs",
+   "type": "website",
+   "publisher": "ECOVIS Clark Jacobs",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/andrew-pratt-accru",
+   "title": "Andrew Pratt - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S4",
+   "url": "https://ecovisclarkjacobs.com.au/",
+   "title": "ECOVIS Clark Jacobs - Home",
+   "type": "website",
+   "publisher": "ECOVIS Clark Jacobs",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://ecovisclarkjacobs.com.au/wp-content/uploads/2024/07/Ecovis_Brochure_v3-2024.pdf",
+   "title": "ECOVIS Clark Jacobs brochure 2024",
+   "type": "other",
+   "publisher": "ECOVIS Clark Jacobs",
+   "date": "2024-07-01"
+  },
+  {
+   "id": "S6",
+   "url": "https://au.linkedin.com/in/sokveasna-toek-ba9a9b228",
+   "title": "Sokveasna Toek - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://global.ecovis.com/australia/about-us/",
+   "title": "ECOVIS Clark Jacobs - Accounting, Audit and Tax Consulting",
+   "type": "directory",
+   "publisher": "ECOVIS International",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "The firm's own contact page lists offices in Sydney (Walsh Bay), Brisbane (Fortitude Valley) and Perth (West Perth); no Melbourne office is listed.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 2, Piers 2 & 3, 13 Hickson Road Walsh Bay NSW 2000",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Andrew Pratt is a current Manager at ECOVIS Clark Jacobs (since Oct 2022), with a LinkedIn profile indexed Nov 2026 and a profile on the firm's team page.",
+   "sourceIds": [
+    "S3",
+    "S2"
+   ],
+   "quote": "Oct 2022 - Present (4 years and 1 month) in Australia",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Andrew Pratt has over 13 years in public practice.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "With over 13 years in public practice",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Andrew co-owns two veterinary businesses and says that gives him familiarity with small-business financial challenges.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "As a co-owner of two veterinary businesses, he is intimately familiar with the daily financial challenges faced by small enterprises.",
+   "date": "2026-11",
+   "category": "personal",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Andrew has worked extensively with family groups and high net worth individuals.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Having worked extensively with family groups and high net worth individuals",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The firm targets medical, dental and allied health professionals, family offices and business owners, and offers outsourced accounting and bookkeeping.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "These core areas are supported by our full suite of accounting services, outsourced accounting, and bookkeeping services",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm's brochure says it is a seven-partner firm in Sydney's CBD.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We are currently a seven-partner firm with a core staff of highly trained professionals.",
+   "date": "2024-07",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "The firm is involved with clients in budgeting and regular management reporting.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "proactive involvement with management in operational areas such as budgeting, regular management reporting, and financial progress monitoring",
+   "date": "2024-07",
+   "category": "services",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "ECOVIS Clark Jacobs is an independently owned member of the ECOVIS International network.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "autonomous, independently owned member of the ECOVIS International network",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Sokveasna Toek's LinkedIn headline says Senior Manager, Business Services at ECOVIS Clark Jacobs (Melbourne) and also lists a Managing Director role at ECOVIS Scott & Partners from Jun 2026.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Senior Manager I Business Services at ECOVIS Clark Jacobs. Melbourne",
+   "date": "2026-06",
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn lists the firm at 50-60 employees, headquartered in Walsh Bay NSW.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "ECOVIS Clark Jacobs has 50-60 employees.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Andrew Pratt",
+   "title": "Business Owner / Manager",
+   "contactId": "ecovis-clark-jacobs--andrew-pratt",
+   "linkedin": "https://www.linkedin.com/in/andrew-pratt-accru",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Sokveasna Toek",
+   "title": "Managing Director (per account record); Senior Manager Business Services (per LinkedIn)",
+   "contactId": "ecovis-clark-jacobs--sokveasna-toek",
+   "linkedin": "https://www.linkedin.com/in/sokveasna-toek-ba9a9b228",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Andrew co-owns two veterinary businesses and works at a firm built around vet, medical and dental practices, so he sees reconciliation from both the adviser and the owner side.",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  {
+   "text": "Family-group and high net worth work means many entities and bank accounts per client to reconcile.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Management reporting and outsourced bookkeeping offering relies on timely, trustworthy reconciliations.",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Location mismatch: the account record says Melbourne (616 St Kilda Rd, which appears to be another firm's building), but the firm's own site lists only Sydney, Brisbane and Perth offices and Andrew Pratt is Sydney-based. Confirm the right firm/office before sending.",
+   "claimIds": [
+    "C1",
+    "C2"
+   ]
+  },
+  {
+   "text": "Sokveasna Toek has no email on record and her LinkedIn mentions a separate Managing Director role at 'ECOVIS Scott & Partners' (Jun 2026), so a Melbourne arm or rebrand may exist that could not be confirmed.",
+   "claimIds": [
+    "C10"
+   ]
+  },
+  {
+   "text": "Andrew is a Manager rather than a director/partner, so he may not be the buyer; the firm is a seven-partner Sydney practice part of an international network.",
+   "claimIds": [
+    "C2",
+    "C7",
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No firm blog, newsletter, podcast, news or Facebook content found.",
+  "No job ads found for the firm.",
+  "Could not confirm any Melbourne office; the ecovis.com.au site timed out with an SSL error so the ecovisclarkjacobs.com.au site was used.",
+  "No evidence found of accounting automation tools (Dext, Hubdoc, Karbon etc.)."
+ ],
+ "searches": [
+  {
+   "query": "ECOVIS Clark Jacobs Melbourne accountants Andrew Pratt",
+   "results": 9
+  },
+  {
+   "query": "ECOVIS 616 St Kilda Road Melbourne accountants",
+   "results": 3
+  },
+  {
+   "query": "Sokveasna Toek Managing Director ECOVIS",
+   "results": 2
+  },
+  {
+   "query": "ECOVIS Scott & Partners Melbourne accountants",
+   "results": 5
+  },
+  {
+   "query": "Scott Partners Malvern joins ECOVIS Clark Jacobs Melbourne office announcement 2026",
+   "results": 3
+  },
+  {
+   "query": "fetch: ecovisclarkjacobs.com.au home, our-team, contact",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "ecovis-clark-jacobs--andrew-pratt",
+   "subject": "Reconciling at ECOVIS Clark Jacobs",
+   "body": "Hi Andrew,\n\nI saw you co-own two veterinary businesses alongside your Manager role at ECOVIS Clark Jacobs, and that the firm builds its offer around medical, dental and veterinary practices. That puts you on both sides of the reconciliation grind, as adviser and as owner. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail on every match rather than a guess. How much of the bookkeeping for your professional-practice clients is still reconciled by hand?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6",
+    "C2"
+   ]
+  },
+  "followUp": {
+   "contactId": "ecovis-clark-jacobs--andrew-pratt",
+   "subject": "Re: Reconciling at ECOVIS Clark Jacobs",
+   "body": "Hi Andrew,\n\nFollowing up on my note last week. You've worked extensively with family groups and high net worth clients, which usually means a trust, a company and several accounts per family. How does your team keep reconciliation consistent across those groups at month end? Happy to show Vert on a sample ledger in a ten minute walkthrough.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C3"
+   ]
+  }
+ }
+}

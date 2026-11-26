@@ -85,6 +85,9 @@ export interface Account {
   attioId?: string;
   otherAttioIds?: string[];   // Attio has duplicate records for this company (merged here)
   otherDomains?: string[];    // additional domains seen for this company
+  rating: number;              // 0-100 account score (pipeline/rating.py)
+  grade: 'A' | 'B' | 'C' | 'D'; // A >= 80, B 66-79, C 50-65, D < 50
+  ratingReasons: string[];     // itemised breakdown, one line per component
   inAttio: boolean;
   sources: string[];
   contacts: Contact[];

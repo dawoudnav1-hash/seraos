@@ -1273,6 +1273,13 @@ def main() -> int:
             del a[k]
     checks(accounts)
     outreach = build_outreach(accounts)
+    from rating import rate
+    ev_by_acc = defaultdict(list)
+    for e in outreach["events"]:
+        if e.get("accountId"):
+            ev_by_acc[e["accountId"]].append(e)
+    for a in accounts:
+        a.update(rate(a, ev_by_acc.get(a["id"], [])))
     os.makedirs(OUT_DIR, exist_ok=True)
     json.dump(accounts, open(os.path.join(OUT_DIR, "accounts.json"), "w"), ensure_ascii=False, indent=1)
     json.dump(outreach, open(os.path.join(OUT_DIR, "outreach.json"), "w"), ensure_ascii=False, indent=1)
