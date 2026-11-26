@@ -217,6 +217,17 @@
    "confidence": "medium"
   },
   {
+   "id": "C13",
+   "text": "RJS's home page lists taxation, accounting and business advisory (including BAS and cashflow), wealth management, loan solutions and SMSF services for Victorian individuals and business owners.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "individuals and business owners across Victoria have turned to the team at R J Sanderson & Associates for all manner of accounting, wealth management, business advisory and finance services",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
    "id": "C12",
    "text": "RJS describes a Mornington senior partner and manager as a CPA who assists with how to create efficiencies through the use of technology and tightening internal processes.",
    "sourceIds": [

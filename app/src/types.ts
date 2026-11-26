@@ -1,6 +1,7 @@
 // Copied verbatim from DATA_CONTRACT.md — keep in sync with the contract.
 
 export type AccountType = 'firm' | 'internal' | 'solo' | 'services';
+export type Grade = Account['grade'];
 // firm     = accounting / bookkeeping / advisory practice (external firm)
 // internal = company with an in-house finance team of 2+ people
 // solo     = one-person setup: a company whose finance function is a single person,
@@ -77,6 +78,9 @@ export interface Account {
   attioId?: string;
   otherAttioIds?: string[];   // Attio has duplicate records for this company (merged here)
   otherDomains?: string[];    // additional domains seen for this company
+  rating: number;              // 0-100 account score (pipeline/rating.py)
+  grade: 'A' | 'B' | 'C' | 'D'; // A >= 80, B 66-79, C 50-65, D < 50
+  ratingReasons: string[];     // itemised breakdown, one line per component
   inAttio: boolean;
   sources: string[];
   contacts: Contact[];
@@ -167,7 +171,7 @@ export interface Dossier {
   risks: ResearchNote[];
   gaps: string[];
   searches: ResearchSearch[];
-  drafts: { first: DraftEmail | null; followUp: DraftEmail | null };
+  drafts: { first: DraftEmail | null; followUp: DraftEmail | null; followUp2?: DraftEmail | null };
 }
 
 /** src/data/research.json: dossiers keyed by account id. */

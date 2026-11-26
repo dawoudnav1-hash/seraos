@@ -1,4 +1,4 @@
-import type { Account, AccountType, Contact, OutreachEvent, SourceNote } from '../types';
+import type { Account, AccountType, Contact, Grade, OutreachEvent, SourceNote } from '../types';
 import { sanitizeEvents } from './events';
 
 /**
@@ -64,6 +64,13 @@ const ACCOUNT_STRING_FIELDS = [
   'attioId',
 ] as const;
 
+export const GRADES: readonly Grade[] = ['A', 'B', 'C', 'D'];
+
+/** Grade bands from DATA_CONTRACT.md: A >= 80, B 66-79, C 50-65, D < 50. */
+export function gradeFor(rating: number): Grade {
+  return rating >= 80 ? 'A' : rating >= 66 ? 'B' : rating >= 50 ? 'C' : 'D';
+}
+
 const LOCATION_FIELDS = ['city', 'suburb', 'state', 'cityBasis'] as const;
 
 const CONTACT_STRING_FIELDS = [
@@ -110,7 +117,8 @@ export function normalizeAccounts(raw: unknown): { accounts: Account[]; warnings
   const contactIds = new Set<string>();
   let dupAccounts = 0,
     dupContacts = 0,
-    invalid = 0;
+    invalid = 0,
+    noRating = 0;
   raw.forEach((item, i) => {
     if (!item || typeof item !== 'object') {
       invalid++;
@@ -132,8 +140,15 @@ export function normalizeAccounts(raw: unknown): { accounts: Account[]; warnings
       segment: str(r.segment) ?? 'Other',
       inAttio: r.inAttio === true,
       sources: strArr(r.sources),
+      rating: 0,
+      grade: 'D',
+      ratingReasons: strArr(r.ratingReasons),
       contacts: [],
     };
+    const rt = num(r.rating);
+    if (typeof rt === 'number') a.rating = Math.max(0, Math.min(100, Math.round(rt)));
+    else noRating++;
+    a.grade = GRADES.includes(r.grade as Grade) ? (r.grade as Grade) : gradeFor(a.rating);
     for (const f of ACCOUNT_STRING_FIELDS) {
       const v = str(r[f]);
       if (v !== undefined) a[f] = v;
@@ -173,6 +188,7 @@ export function normalizeAccounts(raw: unknown): { accounts: Account[]; warnings
   if (dupAccounts) warnings.push(`${dupAccounts} duplicate account id(s) ignored.`);
   if (dupContacts) warnings.push(`${dupContacts} duplicate contact id(s) ignored.`);
   if (invalid) warnings.push(`${invalid} malformed account record(s) ignored.`);
+  if (noRating) warnings.push(`${noRating} account(s) have no rating — shown as 0 (grade D).`);
   return { accounts, warnings };
 }
 

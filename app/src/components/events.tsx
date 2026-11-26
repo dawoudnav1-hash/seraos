@@ -1,5 +1,5 @@
 import type { OutreachEvent } from '../types';
-import { eventTime, kindLabel } from '../lib/events';
+import { eventTime, isManualEvent, kindLabel } from '../lib/events';
 import { formatDateTime, relativeTime } from '../lib/format';
 import type { EventIndex } from '../lib/status';
 import { accountHref } from '../state/router';
@@ -52,7 +52,7 @@ export function EventLine({
   const t = eventTime(event);
   const aid = eventAccountId(event, index);
   const account = aid ? index.accountById.get(aid) : undefined;
-  const manual = event.source === 'manual';
+  const manual = isManualEvent(event);
   const text = event.subject ?? event.snippet;
   return (
     <li className={`event kind-${event.kind} ch-${event.channel}`} data-testid="event-line" data-event-id={event.id}>
@@ -82,7 +82,7 @@ export function EventLine({
         <time dateTime={t != null ? new Date(t).toISOString() : undefined} title={formatDateTime(t)}>
           {relativeTime(t, now)}
         </time>
-        <span className={'src' + (manual ? ' src-manual' : '')}>{manual ? 'manual' : event.source}</span>
+        <span className={'src' + (manual ? ' src-manual' : '')}>{event.source === 'page-send' ? 'sent from page' : manual ? 'manual' : event.source}</span>
         {manual && onDelete && (
           <button
             type="button"

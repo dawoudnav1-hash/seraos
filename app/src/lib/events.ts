@@ -117,12 +117,50 @@ export function dedupeById(events: readonly OutreachEvent[]): OutreachEvent[] {
   return out;
 }
 
+/** Source of an email sent from the Outreach page (stored with the manual events). */
+export const PAGE_SEND_SOURCE = 'page-send';
+
+/** Sources a locally stored (manual) event may carry. Anything else is stored as 'manual'. */
+export function manualSource(source: unknown): 'manual' | typeof PAGE_SEND_SOURCE {
+  return source === PAGE_SEND_SOURCE ? PAGE_SEND_SOURCE : 'manual';
+}
+
+/** True for events that live in this browser (logged by hand or sent from the page) and can be deleted. */
+export function isManualEvent(e: Pick<OutreachEvent, 'source'>): boolean {
+  return e.source === 'manual' || e.source === PAGE_SEND_SOURCE;
+}
+
+const DEDUPE_WINDOW_MS = 48 * 3_600_000;
+const normSubject = (s: string | undefined) => (s ?? '').trim().toLowerCase();
+
+/**
+ * A 'page-send' event duplicates an imported one when the pipeline later picks the same email up from the
+ * mailbox: a generated `sent` event with a shared counterparty email (case-insensitive), the same subject
+ * (trimmed, case-insensitive) and a date within 48 hours.
+ */
+export function isDuplicatePageSend(e: OutreachEvent, generated: readonly OutreachEvent[]): boolean {
+  if (e.source !== PAGE_SEND_SOURCE || e.kind !== 'sent') return false;
+  const t = eventTime(e);
+  const emails = new Set((e.counterpartyEmails ?? []).map((x) => x.trim().toLowerCase()).filter(Boolean));
+  if (t == null || !emails.size) return false;
+  const subj = normSubject(e.subject);
+  return generated.some((g) => {
+    if (g.kind !== 'sent' || normSubject(g.subject) !== subj) return false;
+    const tg = eventTime(g);
+    if (tg == null || Math.abs(tg - t) > DEDUPE_WINDOW_MS) return false;
+    return (g.counterpartyEmails ?? []).some((x) => emails.has(x.trim().toLowerCase()));
+  });
+}
+
 /**
  * Generated + manual events, de-duplicated by id. Generated events win on id collisions
- * (a manual event can never shadow pipeline data).
+ * (a manual event can never shadow pipeline data). Emails sent from the page are dropped once the
+ * pipeline has imported the same email from the mailbox (see `isDuplicatePageSend`).
  */
 export function mergeEvents(generated: readonly OutreachEvent[], manual: readonly OutreachEvent[]): OutreachEvent[] {
-  return dedupeById([...generated, ...manual]);
+  const sentGenerated = generated.filter((g) => g.kind === 'sent');
+  const kept = sentGenerated.length ? manual.filter((m) => !isDuplicatePageSend(m, sentGenerated)) : manual;
+  return dedupeById([...generated, ...kept]);
 }
 
 export type DateRange = '7d' | '30d' | '90d' | 'all';
@@ -183,7 +221,7 @@ export function parseImport(text: string): { events: OutreachEvent[]; rejected: 
   let rejected = 0;
   for (const r of arr) {
     const e = sanitizeEvent(r);
-    if (e && eventTime(e) != null) events.push({ ...e, source: 'manual' });
+    if (e && eventTime(e) != null) events.push({ ...e, source: manualSource(e.source) });
     else rejected++;
   }
   return { events, rejected };

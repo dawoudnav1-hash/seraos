@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import type { LoadedData } from '../dataSource';
-import { mergeEvents, newManualId, sanitizeEvents } from '../lib/events';
+import { manualSource, mergeEvents, newManualId, sanitizeEvents } from '../lib/events';
 import { buildEventIndex, type EventIndex } from '../lib/status';
 import { MANUAL_EVENTS_KEY, readJSON, storageAvailable, writeJSON } from '../lib/storage';
 import type { OutreachEvent } from '../types';
@@ -13,7 +13,7 @@ export interface ToastMsg {
   tone?: 'info' | 'error';
 }
 
-export type NewManualEvent = Omit<OutreachEvent, 'id' | 'date' | 'source'> & { date?: string };
+export type NewManualEvent = Omit<OutreachEvent, 'id' | 'date' | 'source'> & { date?: string; source?: 'manual' | 'page-send' };
 
 interface AppDataValue extends LoadedData {
   generatedEvents: OutreachEvent[];
@@ -35,7 +35,7 @@ interface AppDataValue extends LoadedData {
 const Ctx = createContext<AppDataValue | null>(null);
 
 function loadManual(): OutreachEvent[] {
-  return sanitizeEvents(readJSON<unknown>(MANUAL_EVENTS_KEY, [])).map((e) => ({ ...e, source: 'manual' }));
+  return sanitizeEvents(readJSON<unknown>(MANUAL_EVENTS_KEY, [])).map((e) => ({ ...e, source: manualSource(e.source) }));
 }
 
 export function AppDataProvider({ data, children }: { data: LoadedData; children: ReactNode }) {
@@ -78,7 +78,7 @@ export function AppDataProvider({ data, children }: { data: LoadedData; children
 
   const addManualEvent = useCallback((e: NewManualEvent): OutreachEvent => {
     const now = Date.now();
-    const full: OutreachEvent = { ...e, id: newManualId(now), date: e.date ?? new Date(now).toISOString(), source: 'manual' };
+    const full: OutreachEvent = { ...e, id: newManualId(now), date: e.date ?? new Date(now).toISOString(), source: manualSource(e.source) };
     setManualEvents((list) => [...list, full]);
     return full;
   }, []);
@@ -96,7 +96,7 @@ export function AppDataProvider({ data, children }: { data: LoadedData; children
       for (const e of incoming) {
         if (existing.has(e.id)) continue;
         existing.add(e.id);
-        fresh.push({ ...e, source: 'manual' });
+        fresh.push({ ...e, source: manualSource(e.source) });
       }
       if (fresh.length) setManualEvents((list) => [...list, ...fresh]);
       return { added: fresh.length, skipped: incoming.length - fresh.length };

@@ -13,6 +13,9 @@ export function account(id: string, contacts: Contact[] = [], extra: Partial<Acc
     segment: 'SaaS',
     inAttio: false,
     sources: [],
+    rating: 60,
+    grade: 'C',
+    ratingReasons: [],
     contacts,
     ...extra,
   };
