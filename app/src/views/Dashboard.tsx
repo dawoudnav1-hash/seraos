@@ -98,6 +98,43 @@ function BreakdownTable({ rows, first }: { rows: BreakdownRow[]; first: string }
   );
 }
 
+function GradeTable({ rows }: { rows: GradeRow[] }) {
+  return (
+    <div className="mini-table-wrap">
+      <table className="mini-table grade-table">
+        <thead>
+          <tr>
+            <th scope="col">Grade</th>
+            <th scope="col" className="num">Accounts</th>
+            <th scope="col" className="num">Contacted</th>
+            <th scope="col" className="num">Not contacted</th>
+            <th scope="col" className="num">Avg rating</th>
+            <th scope="col">Coverage</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr key={r.grade} data-testid="grade-row" data-grade={r.grade}>
+              <th scope="row">
+                <GradePill grade={r.grade} showRating={false} /> <span className="muted small">{GRADE_BAND[r.grade]}</span>
+              </th>
+              <td className="num">{formatInt(r.accounts)}</td>
+              <td className="num">{formatInt(r.contacted)}</td>
+              <td className="num">{formatInt(r.notContacted)}</td>
+              <td className="num">{r.avgRating ?? '—'}</td>
+              <td>
+                <PctBar value={r.contacted} total={r.accounts} />
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+const GRADE_BAND: Record<GradeRow['grade'], string> = { A: '80+', B: '66–79', C: '50–65', D: '< 50' };
+
 function PctBar({ value, total }: { value: number; total: number }) {
   const rate = total > 0 ? value / total : null;
   return (
@@ -422,6 +459,10 @@ export function Dashboard() {
         <b>Not contacted</b> = accounts with no outreach event of any kind, ever (imported or logged here) — it ignores the date range so it
         always matches the Accounts view. <b>Touched</b>, Sent, Replies and Meetings count events in the selected range.
       </p>
+
+      <Card title="By grade" testId="by-grade" actions={<span className="muted small">all time · account rating 0–100</span>}>
+        <GradeTable rows={byGrade} />
+      </Card>
 
       <Card
         title="By city"

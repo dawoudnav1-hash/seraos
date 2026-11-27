@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-26T11:15:12+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-27T00:45:42+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **450**
 - Contacts (de-duplicated): **810**
@@ -71,6 +71,7 @@ Generated 2026-11-26T11:15:12+00:00 by `pipeline/build_data.py`.
 - [override] account abound-group: domain theaboundgroup.com -> aboundgroup.com.au
 - [override] account abound-group: flagged
 - [override] account bbb-partners: flagged
+- [override] contact boss-private-clients--sam-marzano: {'note': "Check email before sending: the firm's people page appears to pair sam@ with Sam Cimino and smarzano@ with Sam Marzano (research, 27 Nov)."}
 - [override] contact creswick-wool--paul-ryzowy: {'likelyLeft': True, 'note': 'Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld.'}
 - [override] account great-wrap: flagged
 - [override] contact gridsight--bryn-leggett: {'note': 'Rejected Vert on LinkedIn. Do not contact.'}
@@ -219,5 +220,5 @@ Generated 2026-11-26T11:15:12+00:00 by `pipeline/build_data.py`.
 - [excluded] outreach event hostinger:INBOX.Sent:94 dropped (excluded account)
 - [excluded] outreach event hostinger:INBOX.Sent:102 dropped (excluded account)
 - [count] outreach: 149 events (0 not matched to an account)
-- [research-rejected] ega-corporate-advisers.json: source S5 is not cited by any claim (+2 more)
-- [count] research dossiers bundled: 8
+- [research-rejected] meir.json: draft first goes to a contact with no email (+2 more)
+- [count] research dossiers bundled: 85

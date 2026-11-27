@@ -1,0 +1,268 @@
+{
+ "accountId": "fortuna-advisory-group",
+ "accountName": "Fortuna Advisory Group",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Fortuna Advisory Group is a West Perth-headquartered multiservice accounting and advisory group founded by Dinesh Aggarwal in 2012, now with 16 offices, listed in the AFR Top 100 Accounting Firms for 2025 and expanding to the East Coast by inviting firms to merge in. Dinesh has spoken about outsourcing as part of a holistic mix of in-house, remote and global staff. He has been emailed twice already (16 and 23 Nov 2026).",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://fortunaadvisors.com.au/about-us",
+   "title": "About Fortuna Advisory Group | Perth WA",
+   "type": "website",
+   "publisher": "Fortuna Advisory Group",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/dineshaggarwalcpa",
+   "title": "Dinesh Aggarwal LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/dineshaggarwalcpa_fortunaadvisorygroup-perth-businessadvisory-activity-7472468056385077248-sRrw",
+   "title": "Dinesh Aggarwal LinkedIn post: one office to 16 offices",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-06-16"
+  },
+  {
+   "id": "S4",
+   "url": "https://blog.xero.com/accountants-bookkeepers/advisory-all-rounder-bridging-the-skills-gap/",
+   "title": "The advisory all rounder bridging the skills gap",
+   "type": "blog",
+   "publisher": "Xero Blog",
+   "date": "2023-03-06"
+  },
+  {
+   "id": "S5",
+   "url": "https://fortunaadvisors.com.au/careers",
+   "title": "Careers | Fortuna Advisory Group",
+   "type": "job",
+   "publisher": "Fortuna Advisory Group",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://fortunaadvisors.com.au",
+   "title": "Fortuna Advisory Group | Accountants & Financial Advisors",
+   "type": "website",
+   "publisher": "Fortuna Advisory Group",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Dinesh Aggarwal founded Fortuna Advisory Group (fortunaadvisors.com.au) in 2012.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Dinesh Aggarwal founded Fortuna Advisory Group in 2012 to fulfill his vision of providing trusted financial guidance",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Dinesh is Founder and Group CEO of Fortuna in West Perth (LinkedIn current role).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Nov 2013 - Present (13 years) in West Perth",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Fortuna says it has grown into a national team of 122 professionals serving more than 12,000 clients.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Fortuna has grown into a national team of 122 professionals, proudly serving more than 12,000 clients across Australia",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Dinesh says Fortuna is expanding into the East Coast and offering firms the opportunity to merge in on its growth model.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Fortuna are now focused on expanding into the East Coast, offering partners the opportunity to merge with Fortuna and leverage on our proven growth model.",
+   "date": "2026-11",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In June 2026 Dinesh posted that Fortuna has grown from one office to 16 offices and eight service divisions.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Today we have 16 offices, eight service divisions and thousands of clients across Australia and internationally.",
+   "date": "2026-06",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Fortuna was listed number 40 on the AFR Top 100 Accounting Firms list for 2025.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Listed # 40 on the AFR Top 100 Accounting Firms List for 2025",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Dinesh has described outsourcing as part of a holistic recruitment strategy covering in-house, remote and global staff.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "It’s no longer considered a standalone entity but part of a holistic recruitment strategy encompassing in-house, remote and global staff.",
+   "date": "2023-03",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "Dinesh said Fortuna has worked with employees in the Philippines and India.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We’ve worked with employees in the Philippines and India in the past",
+   "date": "2023-03",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Fortuna's careers page describes the firm as rapidly expanding.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Fortuna Advisory Group is a rapidly expanding firm where innovation meets tradition.",
+   "date": null,
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Fortuna offers bookkeeping services alongside tax, advisory and CFO services.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "balanced books, accurate records, and financial clarity",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Dinesh Aggarwal",
+   "title": "Founder & Group CEO",
+   "contactId": "fortuna-advisory-group--dinesh-aggarwal",
+   "linkedin": "https://www.linkedin.com/in/dineshaggarwalcpa",
+   "claimIds": [
+    "C1",
+    "C2",
+    "C4",
+    "C5",
+    "C7"
+   ]
+  },
+  {
+   "name": "John Shingleton",
+   "title": "Managing Director",
+   "contactId": "fortuna-advisory-group--john-shingleton",
+   "linkedin": "https://www.linkedin.com/in/john-shingleton-55b405291",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "East Coast expansion by inviting firms to merge in: onboarding each merged firm's books and keeping reconciliation consistent across 16 offices.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Dinesh's view that outsourcing is part of a holistic in-house/remote/global mix: traceable reconciliation makes offshore work faster to review.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Scale (122 people, 12,000+ clients) with bookkeeping and CFO services means many recurring closes.",
+   "claimIds": [
+    "C3",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Dinesh has already received two emails (16 Nov 'Cash coding at Fortuna' and 23 Nov 'Quick chat, Dinesh?'); avoid more than the planned nudges.",
+   "claimIds": []
+  },
+  {
+   "text": "Group includes a Managed IT arm and eight service divisions; technology decisions may be centralised or built in-house. LinkedIn headcount (30-40) conflicts with the site's 122.",
+   "claimIds": [
+    "C3",
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or video content found for the last 12 months; the outsourcing quotes are from a 2023 Xero blog.",
+  "No Facebook or Instagram content retrieved.",
+  "No dated job ads found (careers page is generic).",
+  "Tech stack beyond Xero (via 2023 sponsored content) not confirmed."
+ ],
+ "searches": [
+  {
+   "query": "site:fortunaadvisors.com.au home/about/careers (fetch)",
+   "results": 3
+  },
+  {
+   "query": "Dinesh Aggarwal Fortuna Advisory Group founder Group CEO Perth",
+   "results": 9
+  },
+  {
+   "query": "Xero blog Dinesh Aggarwal outsourcing (fetch)",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "fortuna-advisory-group--dinesh-aggarwal",
+   "subject": "Re: Quick chat, Dinesh?",
+   "body": "Hi Dinesh, following up on my earlier notes. You've said Fortuna is expanding into the East Coast and inviting firms to merge in on your growth model. Each merged firm brings its own books and habits, so I'd guess keeping reconciliation consistent across 16 offices is a real challenge. Would it help to see how Vert handles a sample Xero file in 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "fortuna-advisory-group--dinesh-aggarwal",
+   "subject": "Re: Quick chat, Dinesh?",
+   "body": "Hi Dinesh, last note. You've described outsourcing as part of a holistic mix of in-house, remote and global staff. Vert gives every reconciliation a traceable trail, which makes reviewing that work quicker. If that's useful I'm happy to share a short demo, and if not, thank you for your time.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C10"
+   ]
+  }
+ }
+}

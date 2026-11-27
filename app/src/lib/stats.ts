@@ -1,4 +1,4 @@
-import type { Account, AccountType, OutreachEvent } from '../types';
+import type { Account, AccountType, Grade, OutreachEvent } from '../types';
 import {
   type Channel,
   type DateRange,
@@ -536,4 +536,26 @@ export function computeDashboardStats({ accounts, events, range, now, recentLimi
     coverage: computeCoverage(accounts),
     index,
   };
+}
+
+/* ---------- by grade ---------- */
+
+export interface GradeRow {
+  grade: Grade;
+  accounts: number;
+  /** all time, like the Accounts view */
+  contacted: number;
+  notContacted: number;
+  /** mean rating of the grade's accounts (null when none) */
+  avgRating: number | null;
+}
+
+/** Accounts / contacted / not contacted per grade A–D, over all time. */
+export function computeByGrade(accounts: readonly Account[], index: EventIndex): GradeRow[] {
+  return (['A', 'B', 'C', 'D'] as const).map((grade) => {
+    const list = accounts.filter((a) => a.grade === grade);
+    const contacted = list.filter((a) => isContacted((index.byAccount.get(a.id)?.status) ?? 'not_contacted')).length;
+    const sum = list.reduce((n, a) => n + a.rating, 0);
+    return { grade, accounts: list.length, contacted, notContacted: list.length - contacted, avgRating: list.length ? Math.round(sum / list.length) : null };
+  });
 }
