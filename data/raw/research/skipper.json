@@ -1,0 +1,269 @@
+{
+ "accountId": "skipper",
+ "accountName": "SKIPPER",
+ "status": "complete",
+ "summary": "SKIPPER (formerly Tirtyl) is a Brisbane just-add-water cleaning and personal care brand founded in 2020. It sells through Shopify, Amazon and, since April 2026, 500+ Coles stores. In June 2026 it advertised its first finance hires with a brief to build systems and tap emerging tech; Tasman Forgie is listed as Finance Manager.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://skipper.org/pages/about-us",
+   "title": "We Are Skipper | About Us (previously Tirtyl)",
+   "type": "website",
+   "publisher": "SKIPPER",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/skipperclean",
+   "title": "SKIPPER | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.signalhire.com/companies/tirtyl",
+   "title": "SKIPPER: Detailed Company Information & Corporate Profile",
+   "type": "directory",
+   "publisher": "SignalHire",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/skipperclean_a-note-from-may-our-co-founder-after-a-many-activity-7448209517735038976-9HdF",
+   "title": "A note from May, our Co-Founder | SKIPPER",
+   "type": "linkedin",
+   "publisher": "LinkedIn (SKIPPER)",
+   "date": "2026-04-10"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/skipperclean_calling-any-cpaca-accountants-in-brisbane-activity-7471053960770924544-JkjD",
+   "title": "Calling any CPA/CA accountants in Brisbane | SKIPPER",
+   "type": "linkedin",
+   "publisher": "LinkedIn (SKIPPER)",
+   "date": "2026-06-12"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/maybandi_ahoy-ahoy-were-hiring-two-roles-at-skipper-activity-7469597390602387456-is4x",
+   "title": "Ahoy ahoy! We're hiring two roles at SKIPPER | May Bandi",
+   "type": "linkedin",
+   "publisher": "LinkedIn (May Bandi)",
+   "date": "2026-06-08"
+  },
+  {
+   "id": "S7",
+   "url": "https://au.linkedin.com/jobs/view/chief-of-staff-startup-at-skipper-4425057306",
+   "title": "SKIPPER hiring Chief of Staff - Startup",
+   "type": "job",
+   "publisher": "LinkedIn Jobs",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "skipper.org says Skipper was formerly known as Tirtyl and was founded in 2020 by May Bandi and Lachlan Hill.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Founded in 2020 by May Bandi and Lachlan Hill following a career break, Skipper (formerly known as Tirtyl)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "SKIPPER's LinkedIn company page gives Brisbane, Queensland as its headquarters and skipper.org as its homepage.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Headquartered in Brisbane, Queensland, Australia.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "A SignalHire company profile (updated Sept 2026) lists Tasman Forgie as SKIPPER's Finance Manager.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Tasman Forgie Finance Manager",
+   "date": "2026-09",
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "SKIPPER announced on LinkedIn in April 2026 that its dish tab is on shelf in 500+ Coles stores nationwide.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Bringing the only Aussie-made dish tab to 500+ Coles stores nationwide.",
+   "date": "2026-04",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In June 2026 SKIPPER advertised its first hire in the Finance function, with a focus on tapping emerging tech.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Unique role as our first hire in the Finance function, with a focus on tapping emerging tech to elevate the traditional role of an in-house Accountant.",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Co-founder May Bandi described the first finance hire as building systems, owning management financials and leading commercial analysis.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Building systems, owning management financials and leading commercial analysis/strategic initiatives.",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "May Bandi's June 2026 post said the Accountant (FinOps) role includes implementing better systems and processes and owning the relationship with SKIPPER's tax advisors.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "strategic projects (implementing better systems & processes), owning the relationship with our tax advisors",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "SKIPPER describes itself as a multi-channel e-commerce business across Shopify, Amazon and Coles, spanning Australia and the US.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We're a multi-channel e-commerce business (Shopify, Amazon, and a recent retail launch in Coles) spanning Australia and the US",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Tasman Forgie",
+   "title": "Finance Manager",
+   "contactId": "skipper--tasman-forgie",
+   "linkedin": "https://www.linkedin.com/in/tasman-forgie-aa508613a",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "name": "May Bandi",
+   "title": "Co-Founder - Commercial & Finance",
+   "contactId": "skipper--may-bandi-lachlan-hill",
+   "linkedin": "https://www.linkedin.com/in/maybandi",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Coles launch adds retailer remittances and deductions alongside Shopify and Amazon payouts, so the close just got more complex.",
+   "claimIds": [
+    "C4",
+    "C8"
+   ]
+  },
+  {
+   "text": "First finance hire was briefed to build systems and use emerging tech; Vert fits that remit.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Finance owns the relationship with tax advisors, so an audit trail on reconciliations matters.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Tasman Forgie's role is confirmed only by a third-party directory (SignalHire, Sept 2026) and his LinkedIn profile could not be fetched; the Finance Manager role was still advertised in June 2026, so confirm he is current.",
+   "claimIds": [
+    "C3",
+    "C5"
+   ]
+  },
+  {
+   "text": "Finance team is brand new and may already be choosing systems; no tool stack for finance was found.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance-specific tech stack (Xero/MYOB/Link My Books etc.) found.",
+  "Tasman Forgie's LinkedIn profile could not be fetched, no posts by him found.",
+  "No podcast, Facebook or news coverage on finance operations found."
+ ],
+ "searches": [
+  {
+   "query": "SKIPPER cleaning products Brisbane Coles 500 stores Tirtyl",
+   "results": 6
+  },
+  {
+   "query": "Tasman Forgie Finance Manager SKIPPER Brisbane",
+   "results": 5
+  },
+  {
+   "query": "SKIPPER Finance Manager job Brisbane Eagle Farm Xero Shopify Amazon",
+   "results": 5
+  },
+  {
+   "query": "\"Tasman Forgie\" accountant",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "skipper--tasman-forgie",
+   "subject": "Coles, Shopify and Amazon in one close",
+   "body": "Hi Tasman,\n\nSkipper landing in 500+ Coles stores on top of Shopify and Amazon means your month-end now has retailer remittances and deductions sitting next to DTC and marketplace payouts. The finance function was also advertised as a first hire with a brief to tap emerging tech, which is exactly where I work. I built Vert to turn 4 hours of reconciliation into 5 minutes, with every match traceable rather than guessed. How are you handling Coles and Amazon payouts against the ledger today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "skipper--tasman-forgie",
+   "subject": "Re: Coles, Shopify and Amazon in one close",
+   "body": "Hi Tasman,\n\nFollowing up on my note last week. May's brief for the first finance hire was building systems and owning management financials. In my experience reporting stalls on reconciliations, not the analysis. I can show how Vert clears a month of payout and bank reconciliations in minutes, with an audit trail you could hand your tax advisors. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "skipper--tasman-forgie",
+   "subject": "Re: Coles, Shopify and Amazon in one close",
+   "body": "Hi Tasman,\n\nLast nudge from me. A retail launch like Coles often brings deductions and short-pays that are fiddly to chase at month-end. If that is landing on your desk, I would be glad to show how Vert matches them automatically. If the timing is off, no worries at all.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C8",
+    "C3"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

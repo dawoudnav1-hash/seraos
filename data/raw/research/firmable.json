@@ -1,0 +1,322 @@
+{
+ "accountId": "firmable",
+ "accountName": "Firmable",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Firmable is a Melbourne-headquartered AI B2B sales intelligence company that raised a $14M Series A in March 2026 for US expansion. Sam Leigh became Head of Finance in April 2026 and the team hired a Senior Financial Accountant (Alex Choo, July 2026) to run close across five jurisdictions. The finance team is AI-forward: the ad is explicit about AI, and a cadet is building AI-assisted accounting tools.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://jobs.airtree.vc/companies/firmable-2/jobs/81685239-senior-financial-accountant",
+   "title": "Senior Financial Accountant @ Firmable",
+   "type": "job",
+   "publisher": "Airtree Job Board",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "S2",
+   "url": "https://firmable.ai/resources/news/firmable-raises-14m-series-a-to-take-ai-native-sales-platform-global/",
+   "title": "Firmable Raises $14m Series A to Take AI-Native Sales Platform Global",
+   "type": "news",
+   "publisher": "Firmable",
+   "date": "2026-03-02"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.firmable.ai/",
+   "title": "Firmable",
+   "type": "website",
+   "publisher": "Firmable",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/sam-leigh-ca-50364922a",
+   "title": "Sam Leigh (CA) | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/alex-choo-b1382577",
+   "title": "Alex Choo | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-26"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/in/lucas-hoang-1549b8350",
+   "title": "Lucas Hoang | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "S7",
+   "url": "https://devpost.com/software/cafoo",
+   "title": "Luyten | Devpost",
+   "type": "other",
+   "publisher": "Devpost",
+   "date": "2026-10-25"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.linkedin.com/posts/johnhenderson_leigh-jaspers-firmable-finds-backers-to-activity-7434073769792647168-2lxT",
+   "title": "John Henderson on Firmable Series A | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-03-02"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Firmable is headquartered in Melbourne and San Francisco.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Firmable is headquartered in Melbourne, Australia, and San Francisco, CA",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Sam Leigh is Head of Finance at Firmable (since April 2026, after an interim stint from November 2025).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Head of Finance at Firmable | ex-Goldman Sachs",
+   "date": "2026-04",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Firmable raised a $14 million Series A led by Airtree on 2 March 2026 to fund US expansion.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "has raised $14 million in Series A funding led by Airtree",
+   "date": "2026-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Firmable's Senior Financial Accountant ad covers five jurisdictions in one finance function: Australia, New Zealand, US, Singapore and India.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Five jurisdictions, one finance function.",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The role owns month-end close including intercompany reconciliations across all entities.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Month-end close: journal entries, accruals, prepayments, intercompany reconciliations across all entities",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The finance stack includes Xero, Airwallex and Razorpay.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "maintaining and improving processes across Xero, Airwallex, Razorpay, and billing/payroll platforms",
+   "date": "2026-06",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The role processes USD, NZD, SGD, INR and AUD including FX reconciliations.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "processing across USD, NZD, SGD, INR, and AUD, including FX reconciliations",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The ad says Firmable is AI-native, with AI-assisted close commentary and automated reconciliation checks.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "AI-assisted close commentary, automated reconciliation checks, agentic research on tax and accounting standards",
+   "date": "2026-06",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Alex Choo joined as Senior Financial Accountant in July 2026.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Senior Financial Accountant @ Firmable",
+   "date": "2026-07",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Lucas Hoang, Accounting Cadet, is building AI-assisted tools to streamline accounting workflows at Firmable.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "building AI-assisted tools to streamline accounting workflows",
+   "date": "2026-03",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Lucas Hoang started a Devpost hackathon project, Luyten, an agentic finance ERP where AI agents do the month-end close with approval before posting.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "An agentic finance ERP where AI agents do the month-end close but requires approval before postage",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Airtree's John Henderson said Firmable is expanding into Singapore and the US and hiring in both locations.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "They are expanding into Singapore and the US and hiring in both locations.",
+   "date": "2026-03",
+   "category": "growth",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Sam Leigh",
+   "title": "Head of Finance",
+   "contactId": "firmable--sam-leigh",
+   "linkedin": "https://linkedin.com/in/sam-leigh-ca-50364922a",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "name": "Alex Choo",
+   "title": "Senior Financial Accountant",
+   "contactId": "firmable--alex-choo",
+   "linkedin": "https://linkedin.com/in/alex-choo-b1382577",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "name": "Lucas Hoang",
+   "title": "Accounting Cadet",
+   "contactId": "firmable--lucas-hoang",
+   "linkedin": "https://linkedin.com/in/lucas-hoang-1549b8350",
+   "claimIds": [
+    "C10",
+    "C11"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "New Head of Finance plus five-jurisdiction close hiring ad: multi-entity and intercompany recs are the pain.",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Series A and US expansion drive entity and FX complexity.",
+   "claimIds": [
+    "C3",
+    "C12",
+    "C7"
+   ]
+  },
+  {
+   "text": "AI-native culture: position Vert as the traceable, ready-made alternative.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Strong in-house AI appetite: cadet building AI accounting tools and Luyten hackathon project (agentic month-end close). May prefer to build, or see Vert as competing with DIY. Write to Sam, not Lucas.",
+   "claimIds": [
+    "C10",
+    "C11",
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No dated posts by Sam Leigh found.",
+  "Total finance headcount not independently confirmed."
+ ],
+ "searches": [
+  {
+   "query": "Firmable Series A AirTree Sam Leigh Head of Finance",
+   "results": 10
+  },
+  {
+   "query": "Firmable Senior Financial Accountant job",
+   "results": 5
+  },
+  {
+   "query": "Lucas Hoang Accounting Cadet Firmable",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "firmable--sam-leigh",
+   "subject": "Five-entity close at Firmable",
+   "body": "Hi Sam,\n\nCongrats on stepping up to Head of Finance in April. Your Senior Financial Accountant ad describes five jurisdictions, one finance function, with intercompany reconciliations in every close and Airwallex and Razorpay feeding the ledger. After the March Series A took Firmable into the US, that load only grows. I'm building Vert, which reconciles and cash codes with a traceable audit trail instead of guessing, turning hours of recs into minutes. How much of your close still goes on intercompany and payout matching?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "firmable--sam-leigh",
+   "subject": "Re: Five-entity close at Firmable",
+   "body": "Hi Sam,\n\nFollowing up on my note last week. Your ad lists processing across USD, NZD, SGD, INR and AUD with FX reconciliations, and Alex Choo joined as Senior Financial Accountant in July. A 5-jurisdiction close usually breaks on FX and intercompany differences. Vert flags and traces those, so your team reviews exceptions instead of matching lines. Can I show you on a sample Xero file?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "firmable--sam-leigh",
+   "subject": "Re: Five-entity close at Firmable",
+   "body": "Hi Sam,\n\nLast note from me. Your ad says AI is the default operating mode at Firmable, including automated reconciliation checks. Vert is the ready-made version for Xero, Airwallex and Razorpay, with every match traceable for audit. Worth 10 minutes to compare it with your own approach?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C6",
+    "C2"
+   ]
+  }
+ }
+}

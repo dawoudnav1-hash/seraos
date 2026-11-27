@@ -1,0 +1,313 @@
+{
+ "accountId": "thn-samios-partners",
+ "accountName": "THN & Samios Partners",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "THN & Samios Partners is a CPA accounting and tax advisory firm on George St in Sydney CBD, led by Principal Vania Wang (who acquired Samios Partners in 2019) with Sophie Ding and Sophia Zhang as partners. It offers an accountant-led virtual CFO service with monthly management reporting and works on Xero. Sophie Ding was named a Partner of the Year finalist in the Australian Accounting Awards 2026 and shared the firm's Pay Day Super post in March 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://samiospartners.com.au/who-we-are/",
+   "title": "About Us | Sydney Accountants | THN & Samios Partners",
+   "type": "website",
+   "publisher": "THN & Samios Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/sophieding",
+   "title": "Sophie Ding - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/sophieding_pay-day-super-is-on-the-way-and-will-change-activity-7437646303053987840-a1Pu",
+   "title": "Pay Day Super post - Sophie Ding",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-03-11"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/thn-partners_awards-aaa-accounting-activity-7472425379241213952-OkDy",
+   "title": "Samios Partners shortlisted for the Australian Accounting Awards 2026",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-06-15"
+  },
+  {
+   "id": "S5",
+   "url": "https://samiospartners.com.au/virtual-cfo-sydney/",
+   "title": "Virtual CFO Sydney | THN & Samios Partners",
+   "type": "website",
+   "publisher": "THN & Samios Partners",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://samiospartners.com.au",
+   "title": "CPA Accountants Sydney CBD | THN & Samios Partners",
+   "type": "website",
+   "publisher": "THN & Samios Partners",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.accountantsdaily.com.au/australian-accounting-awards/winners/2026-winners-and-finalists",
+   "title": "2026 Winners & Finalists - Australian Accounting Awards",
+   "type": "news",
+   "publisher": "Accountants Daily",
+   "date": "2026-06-12"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "THN & Samios Partners is a Sydney accounting and tax firm based on George St, Sydney CBD.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We are Sydney accountants and tax advisers based on George St",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Sophie Ding is Associate Partner at THN & Samios Partners (since Jul 2023) per LinkedIn; the firm site lists her as Partner, Taxation & Business Advisory.",
+   "sourceIds": [
+    "S2",
+    "S1"
+   ],
+   "quote": "Associate Partner - THN & Samios Partners (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Sophie Ding was named a finalist for Partner of the Year in the Australian Accounting Awards 2026.",
+   "sourceIds": [
+    "S4",
+    "S7"
+   ],
+   "quote": "We are proud to say we were named as a finalist in the Australian Accounting Awards 2026 \"Partner Of The year\"",
+   "date": "2026-06",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Sophie shared the firm's Pay Day Super post in March 2026, saying businesses should review systems and processes now.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Pay Day Super is on the way and will change how super contributions are managed through payroll.",
+   "date": "2026-03",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The shared post framed Pay Day Super as being about cash-flow timing, payroll systems and compliance risk.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "this isn’t about paying more super, it’s about cash-flow timing, payroll systems, and compliance risk.",
+   "date": "2026-03",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Sophie focuses on taxation, financial reporting, family trusts, business structuring and SMSFs for high-net-worth individuals, business owners and family groups.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "individual and corporate taxation, tax planning, financial reporting, family trusts, business structuring and self-managed superannuation funds.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm's virtual CFO service includes monthly management reporting of profit, cash and balance sheet with commentary.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Monthly management reporting: profit, cash and balance sheet in a format you can actually use",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The virtual CFO page says the firm works with Xero and other major platforms, and alongside a client's internal bookkeeper or finance team.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We work with Xero and the other major accounting platforms, and alongside your internal bookkeeper or finance team.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The firm's homepage offers an 'Accounting Admin' service where it takes on clients' reconciliation.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Leave the reconciliation to us and ensure that your books are compliance ready.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Virtual CFO clients include professional practices (medical, dental, legal, consulting) managing multiple entities, and family groups with trading businesses, trusts and investments.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Professional practices such as medical, dental, legal and consulting firms managing multiple partners, entities and income streams.",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Vania Wang established her practice in 2017 and acquired Samios Partners in 2019; she is Principal & Director.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Established her accounting practice in 2017 and acquired Samios Partners in 2019.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn lists the firm at 1-10 employees (-10% YoY), headquartered in Sydney.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "THN & Samios Partners has 1-10 employees (-10% YoY).",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Sophie Ding",
+   "title": "Associate Partner (LinkedIn) / Partner (firm site)",
+   "contactId": "thn-samios-partners--sophie-ding",
+   "linkedin": "https://www.linkedin.com/in/sophieding",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C6"
+   ]
+  },
+  {
+   "name": "Vania Wang",
+   "title": "Principal & Director",
+   "contactId": "thn-samios-partners--vania-wang",
+   "linkedin": "https://www.linkedin.com/in/vaniawang-sydneyaccountant",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Sophie's Partner of the Year finalist nomination (Australian Accounting Awards 2026) is a recent, public win to open with.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Her Pay Day Super post flags payroll and cash-flow timing; the virtual CFO pack (profit, cash, balance sheet) depends on reconciliations being done early each month.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C7"
+   ]
+  },
+  {
+   "text": "Virtual CFO clients include multi-entity professional practices and family groups, which multiply reconciliations; the firm works on Xero alongside client bookkeepers whose feeds may arrive messy.",
+   "claimIds": [
+    "C8",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small firm (1-10 staff, down 10% YoY on LinkedIn); limited seat count and budget.",
+   "claimIds": [
+    "C12"
+   ]
+  },
+  {
+   "text": "NSW-based, whereas most of the target list is Victorian.",
+   "claimIds": [
+    "C1"
+   ]
+  },
+  {
+   "text": "Titles differ across sources (Sophie is Associate Partner on LinkedIn, Partner on the firm site, Senior Accountant in the awards post and directory listings).",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video or Facebook content found.",
+  "No job ads found for the firm.",
+  "No evidence of tools beyond Xero and 'other major platforms'."
+ ],
+ "searches": [
+  {
+   "query": "fetch: samiospartners.com.au home and virtual-cfo-sydney",
+   "results": 2
+  },
+  {
+   "query": "Sophie Ding Samios Partners Sydney associate partner",
+   "results": 10
+  },
+  {
+   "query": "fetch: Sophie Ding LinkedIn post, firm awards post, who-we-are",
+   "results": 3
+  },
+  {
+   "query": "Vania Wang Samios Partners Sydney partner accountant",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "thn-samios-partners--sophie-ding",
+   "subject": "Reconciling behind your virtual CFO packs",
+   "body": "Hi Sophie,\n\nCongratulations on being named a Partner of the Year finalist in the Australian Accounting Awards. I also saw your Pay Day Super post flagging payroll systems and cash-flow timing. Your virtual CFO page promises monthly profit, cash and balance sheet reporting, which only lands on time if reconciliations are done early. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail on every match. How long does it take your team to get a client's books reconciled each month?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C7"
+   ]
+  },
+  "followUp": {
+   "contactId": "thn-samios-partners--sophie-ding",
+   "subject": "Re: Reconciling behind your virtual CFO packs",
+   "body": "Hi Sophie,\n\nFollowing up on my note last week. Your virtual CFO page says you work on Xero alongside a client's own bookkeeper. When their bank feeds arrive late or messy, how much does that hold up the monthly pack? Happy to show how Vert handles that step in a ten minute walkthrough.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C7",
+    "C4"
+   ]
+  }
+ }
+}

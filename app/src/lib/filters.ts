@@ -1,4 +1,4 @@
-import type { Account, AccountType, Contact } from '../types';
+import type { Account, AccountType, Contact, Grade } from '../types';
 import { type EntityActivity, type EventIndex, type OutreachStatus, EMPTY_ACTIVITY, isContacted, normEmail } from './status';
 
 export type Section = 'all' | AccountType;
@@ -122,6 +122,29 @@ export function withState<T extends LocationFilter>(f: T, state: string, account
   return { ...f, state, city: keepCity ? f.city : '' };
 }
 
+/* ---------- rating / grade ---------- */
+
+/** Grade filter: the grades to keep; empty = any grade. */
+export function matchesGrades(a: Pick<Account, 'grade'>, grades: readonly Grade[]): boolean {
+  return !grades.length || grades.includes(a.grade);
+}
+
+/** Valid, de-duplicated, ordered grade list from persisted / untrusted input. */
+export function validGrades(v: unknown): Grade[] {
+  if (!Array.isArray(v)) return [];
+  return (['A', 'B', 'C', 'D'] as const).filter((g) => v.includes(g));
+}
+
+/** Rating sort key: rating, grade as tie-break (both higher = better). */
+export function ratingSortValue(a: Pick<Account, 'rating' | 'grade'>): number {
+  return (Number.isFinite(a.rating) ? a.rating : 0) * 10 + (4 - 'ABCD'.indexOf(a.grade));
+}
+
+/** Higher rating first; ties keep their order (stable sort). */
+export function compareByRating(a: Pick<Account, 'rating' | 'grade'>, b: Pick<Account, 'rating' | 'grade'>): number {
+  return ratingSortValue(b) - ratingSortValue(a);
+}
+
 /* ---------- contacted / not contacted ---------- */
 
 export type ContactedFilter = 'all' | 'not_contacted' | 'contacted';
@@ -227,6 +250,7 @@ export type TriState = 'any' | 'yes' | 'no';
 
 export interface AccountFilters extends OutreachFilter, LocationFilter {
   query: string;
+  grades: Grade[]; // [] = any
   segment: string; // '' = any
   minSignal: number; // 0 = any
   hasEmail: TriState;
@@ -236,6 +260,7 @@ export interface AccountFilters extends OutreachFilter, LocationFilter {
 
 export const DEFAULT_ACCOUNT_FILTERS: AccountFilters = {
   query: '',
+  grades: [],
   contacted: 'all',
   city: '',
   state: '',
@@ -255,6 +280,7 @@ function tri(v: TriState, actual: boolean): boolean {
 export function accountMatches(row: AccountRow, f: AccountFilters, terms: readonly string[]): boolean {
   const a = row.account;
   if (f.segment && a.segment !== f.segment) return false;
+  if (!matchesGrades(a, f.grades)) return false;
   if (f.minSignal > 0 && !(typeof a.signalScore === 'number' && a.signalScore >= f.minSignal)) return false;
   if (!tri(f.hasEmail, row.hasEmail)) return false;
   if (!matchesOutreach(row.activity.status, f)) return false;
@@ -284,6 +310,10 @@ export function activeFilterCount(f: AccountFilters | ContactFilters): number {
   let n = 0;
   for (const [k, v] of Object.entries(f)) {
     if (k === 'query') continue;
+    if (Array.isArray(v)) {
+      if (v.length) n++;
+      continue;
+    }
     if (v !== '' && v !== 0 && v !== 'any' && v !== 'all') n++;
   }
   return n;
@@ -358,6 +388,7 @@ export function buildContactRows(accounts: readonly Account[], index: EventIndex
 
 export interface ContactFilters extends OutreachFilter, LocationFilter {
   query: string;
+  grades: Grade[]; // [] = any (the account's grade)
   section: Section;
   segment: string;
   emailRisk: '' | 'ok' | 'caution' | 'none';
@@ -365,6 +396,7 @@ export interface ContactFilters extends OutreachFilter, LocationFilter {
 
 export const DEFAULT_CONTACT_FILTERS: ContactFilters = {
   query: '',
+  grades: [],
   section: 'all',
   contacted: 'all',
   city: '',
@@ -379,6 +411,7 @@ export function filterContactRows(rows: readonly ContactRow[], f: ContactFilters
   return rows.filter((r) => {
     if (!inSection(r, f.section)) return false;
     if (f.segment && r.account.segment !== f.segment) return false;
+    if (!matchesGrades(r.account, f.grades)) return false;
     if (f.emailRisk && (r.contact.emailRisk ?? (r.contact.email ? 'ok' : 'none')) !== f.emailRisk) return false;
     if (!matchesOutreach(r.activity.status, f)) return false;
     if (!matchesLocation(r.account, f)) return false;

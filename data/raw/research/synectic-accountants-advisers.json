@@ -1,0 +1,303 @@
+{
+ "accountId": "synectic-accountants-advisers",
+ "accountName": "Synectic Accountants & Advisers",
+ "status": "complete",
+ "summary": "Synectic is a Tasmanian-owned chartered accounting and advisory firm (Devonport, Launceston, Hobart, about 40 staff) led by owner and CEO Gareth Atkins. It is a Xero Platinum Partner with audit as a core service, offers virtual CFO work, and has built a Synectic Digital line around data frameworks and AI, including an in-house engineering effort on the Anthropic API.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://synecticgroup.com.au/accounting-systems-and-technology/",
+   "title": "Accounting Systems and Technology",
+   "type": "website",
+   "publisher": "Synectic",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://synecticgroup.com.au/",
+   "title": "Synectic Accountants & Advisers",
+   "type": "website",
+   "publisher": "Synectic",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/gareth-atkins-11a34a11",
+   "title": "Gareth Atkins profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/claire-connelly-fcpa-cia-13646948_modern-data-analytics-and-ai-frameworks-activity-7368470245046431744-XbcX",
+   "title": "Synectic Digital post",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-09-02"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/synectic_data-ai-analyst-graduate-undergraduate-activity-7396350929584865280-F1Fy",
+   "title": "Data and AI Analyst job post",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-11-18"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/in/kyleboyes",
+   "title": "Kyle Boyes profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S7",
+   "url": "https://synecticgroup.com.au/team/",
+   "title": "Synectic team",
+   "type": "website",
+   "publisher": "Synectic",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://synecticgroup.com.au/business-advice/",
+   "title": "Synectic Business Advice",
+   "type": "website",
+   "publisher": "Synectic",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://synecticgroup.com.au/wp-content/uploads/2026/08/Synectic_Audit_Brochure_2026-08.pdf",
+   "title": "Audit brochure",
+   "type": "other",
+   "publisher": "Synectic",
+   "date": "2026-08-01"
+  },
+  {
+   "id": "S10",
+   "url": "https://www.linkedin.com/posts/suzeatkinson_30-years-ive-worked-with-gareth-atkins-activity-6949570692128350208-k2ae",
+   "title": "Gareth 30 years post",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2022-07-04"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Synectic is a Tasmanian owned and operated chartered accounting and financial services firm with about 40 staff.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Synectic is a Tasmanian owned and operated Chartered Accounting and Financial Services firm.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Gareth Atkins is Owner and CEO of Synectic Group on LinkedIn, current as of Nov 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Owner and CEO Synectic Group",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Gareth began as a trainee accountant at Synectic and became a Director in 2005; he is CEO and Accounting Director.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Gareth began his career at Synectic as a Trainee Accountant in 1991, becoming a Director in 2005.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Synectic is a Xero Platinum Partner and won Xero's TAS Accounting Partner of the Year in 2017.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "As Xero Platinum Partners, we have a wealth of experience in making Xero easy",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Synectic has a team of 40 staff across offices in Devonport, Hobart and Launceston.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "With a team of 40 brilliant and dedicated staff",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Synectic announced Synectic Digital to help businesses build data frameworks, generate automated analytics and capture AI opportunities.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We're expanding our services to help businesses set up data frameworks, generate automated analytics, and capture the huge opportunities of AI",
+   "date": "2025-09",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Synectic advertised for a Data and AI Analyst for its Digital and Advisory team in Devonport.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We are seeking a talented Data and AI Analyst to join our expanding Digital and Advisory team in Devonport.",
+   "date": "2025-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "A Synectic software engineer says he builds the firm's internal platform including BI dashboards and AI tooling on the Anthropic API.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "AI tooling on the Anthropic API",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Synectic lists virtual CFO services among its business advice offering.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Virtual CFO services",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Synectic describes audit as a core service under Gareth's leadership.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "has been integral to Synectic's commitment to audit as a core service.",
+   "date": "2026-08",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Synectic celebrated Gareth's 30 years at the Devonport office in July 2022.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "celebrated director Gareth Atkins ' 30 years of service with the firm.",
+   "date": "2022-07",
+   "category": "personal",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Gareth Atkins",
+   "title": "Owner / CEO",
+   "contactId": "synectic-accountants-advisers--gareth-atkins",
+   "linkedin": "https://www.linkedin.com/in/gareth-atkins-11a34a11",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C11"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Synectic Digital sells AI and data frameworks to clients; applying the same to internal reconciliations is a natural step.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Xero Platinum Partner with audit as a core service: traceable automation matters.",
+   "claimIds": [
+    "C4",
+    "C10"
+   ]
+  },
+  {
+   "text": "Virtual CFO work depends on clean month-end reconciliations.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Synectic is building internal AI tooling on the Anthropic API, so it may prefer to build rather than buy.",
+   "claimIds": [
+    "C8",
+    "C7"
+   ]
+  },
+  {
+   "text": "Tasmania-based; the firm is more advisory and audit weighted than pure bookkeeping.",
+   "claimIds": [
+    "C1",
+    "C10"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or press interviews with Gareth found.",
+  "Revenue and exact bookkeeping volumes not confirmed."
+ ],
+ "searches": [
+  {
+   "query": "Gareth Atkins Synectic Accountants & Advisers Tasmania",
+   "results": 10
+  },
+  {
+   "query": "Synectic Tasmania accounting systems and technology data frameworks AI reporting",
+   "results": 6
+  },
+  {
+   "query": "fetch synecticgroup.com.au business-advice and home",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "synectic-accountants-advisers--gareth-atkins",
+   "subject": "Re: Idea for Synectic",
+   "body": "Hi Gareth,\n\nFollowing up on my note earlier this week. I saw Synectic Digital is helping clients build data frameworks and capture the opportunities of AI, and that you advertised for a Data and AI Analyst. Reconciliation is a practical place to apply that inside your own practice, and Vert keeps every match traceable to source. Open to a 10 minute walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "synectic-accountants-advisers--gareth-atkins",
+   "subject": "Re: Idea for Synectic",
+   "body": "Hi Gareth,\n\nLast nudge from me. As Xero Platinum Partners with audit as a core service under your leadership, you will care that automation leaves an audit trail. That is how Vert works, and it also supports your virtual CFO clients. Happy to show you in 10 minutes if useful.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C10",
+    "C9",
+    "C3"
+   ]
+  }
+ }
+}

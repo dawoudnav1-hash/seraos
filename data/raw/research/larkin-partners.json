@@ -1,0 +1,278 @@
+{
+ "accountId": "larkin-partners",
+ "accountName": "Larkin Partners",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Larkin Partners is a boutique Ivanhoe (Melbourne) accounting and advisory firm led by Roger Larkin, who has been director since 2000. It serves SMEs, high net worth families and SMSFs and moved all clients onto cloud accounting (Xero and MYOB) so the team could forecast and tax-plan ahead of year end. LinkedIn lists about 11 staff, slightly down year on year.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://larkinpartners.com.au/about-us/",
+   "title": "About Us - Larkin Partners",
+   "type": "website",
+   "publisher": "Larkin Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/roger-larkin-b61b8613",
+   "title": "Roger Larkin - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://larkinpartners.com.au/tax-planning-and-forecasting/",
+   "title": "Tax Planning and Forecasting - Larkin Partners",
+   "type": "blog",
+   "publisher": "Larkin Partners",
+   "date": "2022-03-02"
+  },
+  {
+   "id": "S4",
+   "url": "https://larkinpartners.com.au/our-services/business-services/",
+   "title": "Business Services - Larkin Partners",
+   "type": "website",
+   "publisher": "Larkin Partners",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/company/larkin-partners",
+   "title": "Larkin Partners - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://larkinpartners.com.au/news/",
+   "title": "News - Larkin Partners (blog)",
+   "type": "blog",
+   "publisher": "Larkin Partners",
+   "date": "2024-01-01"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Larkin Partners is based at Level 2, 154 Upper Heidelberg Road, Ivanhoe VIC 3079.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 2 154 Upper Heidelberg Road Ivanhoe VIC 3079",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Roger Larkin is the Director of Larkin Partners and has been since the firm's start in Jul 2000 (LinkedIn profile indexed Nov 2026).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Larkin Partners was founded 21 years ago and I have been the director ever since.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Roger has more than 29 years of accounting experience.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "With a Bachelor of Economics – Accounting and +29 years of experience under my belt",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Roger says he has built a team of expert accountants and bookkeepers.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I've developed a quality team of expert accountants and bookkeepers",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "A Larkin Partners blog post says the firm moved all clients onto cloud-based accounting software such as MYOB and Xero, which let the team forecast and tax plan proactively.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Larkin Partners also made a bold business decision to start putting all clients onto cloud- based accounting software",
+   "date": "2022-03",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "The same post contrasts today with the old days of keying in bank statements and reconciling cashbooks by hand, when the team was always behind on client files.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "keying in manual bank statements, reconciling cashbooks, printed workpapers all filed in a manilla folder",
+   "date": "2022-03",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Business services include management accounting, accounting budgets, and cloud accounting application and support.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Cloud accounting application and support",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm says strong accounting systems, controls and practices are synonymous with business success.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Strong accounting systems, controls and practices are synonymous with business success.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The firm says it invests in education and innovative technology.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "our continual investment in education and our implementation of innovative technology",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Larkin Partners works with individuals and high net worth families, small to medium businesses, sole traders and partnerships, and SMSFs.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Individuals & high net worth families",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn lists the firm at 11 employees (-6.7% YoY) and its tech stack as MYOB, QuickBooks and Xero.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Tech Stack: medium, myob, quickbooks, xero",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "The firm's blog is last active around Jan 2024 and covers EOFY, tax planning and small business reviews.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Closing the Chapter: A Small Business Reflection on 2023 and Strategic Adjustments for the Future",
+   "date": "2023-12",
+   "category": "content",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Roger Larkin",
+   "title": "Director",
+   "contactId": "larkin-partners--roger-larkin",
+   "linkedin": "https://www.linkedin.com/in/roger-larkin-b61b8613/",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "The firm's own blog says moving every client to cloud software let the team forecast and tax plan before year end; reconciliation speed decides how early forecasts can start.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Roger prides himself on strong systems and controls and says the firm invests in innovative technology.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Team of accountants and bookkeepers serving SMEs and HNW families on Xero/MYOB.",
+   "claimIds": [
+    "C4",
+    "C10",
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small firm (about 11 staff, shrinking slightly) with a tax-planning focus; modest seat count.",
+   "claimIds": [
+    "C11"
+   ]
+  },
+  {
+   "text": "Blog and LinkedIn activity is stale (last posts around Jan 2024) so there is no recent personal hook.",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent (2025-2026) blog, podcast, news, Facebook or LinkedIn posts found.",
+  "No job ads found.",
+  "No evidence of an AI reconciliation tool in use."
+ ],
+ "searches": [
+  {
+   "query": "fetch: larkinpartners.com.au home, about-us",
+   "results": 2
+  },
+  {
+   "query": "Roger Larkin Larkin Partners Ivanhoe accountant",
+   "results": 10
+  },
+  {
+   "query": "fetch: larkinpartners.com.au business-services",
+   "results": 1
+  },
+  {
+   "query": "Larkin Partners Ivanhoe accountants Xero bookkeeper job OR news OR blog 2026",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "larkin-partners--roger-larkin",
+   "subject": "Re: Quick chat, Roger?",
+   "body": "Hi Roger,\n\nFollowing up on my note earlier this week. I read your Larkin Partners post on putting all clients onto cloud software so the team could forecast and tax plan ahead of year end instead of catching up afterwards. Bank reconciliation usually decides how early those forecasts can start. How long after month end are your clients' books typically reconciled? Happy to show you how Vert shortens that in ten minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C4"
+   ]
+  }
+ }
+}

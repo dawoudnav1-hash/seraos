@@ -1,0 +1,282 @@
+{
+ "accountId": "latitude-accountants",
+ "accountName": "Latitude Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Latitude Accountants is a multi-office chartered accounting firm (Melbourne office at 289 Flinders Lane) and Xero Platinum Partner with 2,000+ clients and a team in Tarlac, Philippines. Nathan Lobb, the contact already emailed on 24 Nov 2026, is its Marketing Manager (and Wakewood co-founder), not a firm co-founder as the account record says; he produces the firm's podcasts. John Saade is CEO and was appointed to the RBA Small Business Finance Advisory Panel in 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://latitudeaccountants.com.au/melbourne-accountants/",
+   "title": "Melbourne Accountants | Latitude Accountants",
+   "type": "website",
+   "publisher": "Latitude Accountants",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/nathanlobb7",
+   "title": "Nathan Lobb - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S3",
+   "url": "https://latitudeaccountants.com.au/nathan-lobb/",
+   "title": "Nathan Lobb - Chartered Accounting | Latitude Accountants",
+   "type": "website",
+   "publisher": "Latitude Accountants",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/nathanlobb7_the-smsf-property-ban-explained-reaction-activity-7475343653016584192-136W",
+   "title": "SMSF property ban explained reaction - Nathan Lobb",
+   "type": "linkedin",
+   "publisher": "Nathan Lobb on LinkedIn",
+   "date": "2026-06-24"
+  },
+  {
+   "id": "S5",
+   "url": "https://latitudeaccountants.com.au/about/",
+   "title": "About Us | Latitude Accountants",
+   "type": "website",
+   "publisher": "Latitude Accountants",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://latitudeaccountants.com.au/john-saade/",
+   "title": "John Saade - Chartered Accounting | Latitude Accountants",
+   "type": "website",
+   "publisher": "Latitude Accountants",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://latitudeaccountants.com.au/podcasts/",
+   "title": "Podcasts | Latitude Accountants",
+   "type": "podcast",
+   "publisher": "Latitude Accountants",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Latitude's Melbourne office is Suite 5, Level 6, 289 Flinders Lane, Melbourne VIC 3000.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Suite 5, Level 6, 289 Flinders Lane, Melbourne VIC 3000",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Nathan Lobb is listed on LinkedIn as the current Marketing Manager at Latitude Accountants (since Aug 2024) and co-founder of Wakewood.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Marketing Manager - Latitude Accountants (Current) Aug 2024 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Nathan produces Latitude's video and podcast network, including The CEO Breakdown with John Saade, The Account Rant and The Lat Chat.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Nathan also produces Latitude's video and podcast network, including The CEO Breakdown with John Saade, The Account Rant, The Lat Chat",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Nathan runs Latitude's whole marketing function in house, as its sole in-house marketer.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "As Latitude's sole in house marketer, Nathan manages every channel the firm uses to reach business owners.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In June 2026 Nathan posted a reaction to news about proposed SMSF residential property borrowing restrictions.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "major news broke around the proposed SMSF residential property borrowing restrictions",
+   "date": "2026-06",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Latitude is a Xero Platinum Partner and says it works with more than 2,000 clients nationwide.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We work with more than 2,000 clients nationwide",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Latitude tells clients it is with them every month and every quarter, not only at tax time.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We don't just show up at tax time. We're in your corner every month, every quarter, every decision.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Latitude has a team in Tarlac, Philippines alongside its Sydney, Marrickville, Melbourne and South Australia offices.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "as well as the firm's team in Tarlac, Philippines.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "John Saade (CEO) was appointed to the Reserve Bank of Australia's Small Business Finance Advisory Panel in 2026.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "In 2026 he was appointed to the Reserve Bank of Australia's Small Business Finance Advisory Panel.",
+   "date": "2026",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Latitude lists accounting, BAS and bookkeeping alongside tax and advisory for Melbourne businesses.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "we don’t just handle your bookkeeping or lodge your BAS and disappear.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Latitude publishes a podcast called The Account Rant where its accountants debate tax and money topics.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Tax and money, argued out by accountants",
+   "date": null,
+   "category": "content",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Nathan Lobb",
+   "title": "Marketing Manager (account record says Co-Founder)",
+   "contactId": "latitude-accountants--nathan-lobb",
+   "linkedin": "https://www.linkedin.com/in/nathanlobb7",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "John Saade",
+   "title": "CEO and Co-Founder",
+   "contactId": "latitude-accountants--john-saade",
+   "linkedin": "https://www.linkedin.com/in/john-saade-3104452b",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Nathan produces the firm's podcasts and John Saade's RBA panel appointment is a visible story; use the content angle to ask who owns the monthly bookkeeping workflow.",
+   "claimIds": [
+    "C3",
+    "C9"
+   ]
+  },
+  {
+   "text": "Latitude promises every-month support to 2,000+ clients with an offshore team, so reconciliation volume is high.",
+   "claimIds": [
+    "C7",
+    "C6",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "The primary contact Nathan Lobb is Marketing Manager, not a co-founder or finance buyer; John Saade (CEO) is the better decision-maker and is already in accounts.json.",
+   "claimIds": [
+    "C2",
+    "C4"
+   ]
+  },
+  {
+   "text": "Xero Platinum Partner with a large offshore team; may already have internal automation.",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No evidence of which reconciliation or practice-management tools Latitude uses.",
+  "No hiring posts found for bookkeeping or accounting roles.",
+  "No Facebook or Instagram review done."
+ ],
+ "searches": [
+  {
+   "query": "site:latitudeaccountants.com.au about and melbourne pages",
+   "results": 2
+  },
+  {
+   "query": "Nathan Lobb Latitude Accountants co-founder",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "latitude-accountants--nathan-lobb",
+   "subject": "Re: Idea for Latitude Accountants",
+   "body": "Hi Nathan,\n\nFollowing up on my note earlier this week. Latitude tells clients it is in their corner every month and every quarter, and with more than 2,000 clients and a team in Tarlac, that is a lot of monthly reconciling. Vert cuts it to minutes with a traceable audit trail. Since you run marketing, who looks after the bookkeeping workflow? Happy to speak with them directly.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C6",
+    "C8",
+    "C4"
+   ]
+  },
+  "followUp2": {
+   "contactId": "latitude-accountants--nathan-lobb",
+   "subject": "Re: Idea for Latitude Accountants",
+   "body": "Hi Nathan,\n\nLast note from me. You produce Latitude's podcasts, and John Saade's RBA panel appointment makes a good story for them. If faster reconciling is on the radar, an intro to whoever owns client bookkeeping would be appreciated. If not, no problem at all.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C9"
+   ]
+  }
+ }
+}

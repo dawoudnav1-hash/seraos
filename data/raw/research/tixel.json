@@ -1,0 +1,301 @@
+{
+ "accountId": "tixel",
+ "accountName": "Tixel",
+ "status": "complete",
+ "summary": "Tixel is a Melbourne-headquartered fan-to-fan ticket marketplace founded in 2017, now live in the US and UK as well as Australia. Head of Finance Shannon Joseph recently posted about automating fan refunds via Stripe Treasury and is hiring a Financial Accountant to run a multi-entity close and help rebuild finance around AI and automation.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://jobs.polymer.co/tixel/40857",
+   "title": "Financial Accountant at Tixel",
+   "type": "job",
+   "publisher": "Tixel (Polymer)",
+   "date": "2026-07-31"
+  },
+  {
+   "id": "S2",
+   "url": "https://tixel.com/about",
+   "title": "No More Missing Out",
+   "type": "website",
+   "publisher": "Tixel",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/shannonmnjoseph",
+   "title": "Shannon Joseph profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/shannonmnjoseph_my-first-stripe-tour-in-sydney-and-a-memorable-activity-7496455778418196482-59OA",
+   "title": "Shannon Joseph: Stripe Tour post",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-08-21"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/shannonmnjoseph_im-hiring-for-an-exciting-role-on-my-team-activity-7490244707206443008-cgQB",
+   "title": "Shannon Joseph: hiring post",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-08-04"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/shannonmnjoseph_finance-business-partner-12m-contract-activity-7385808862337167360-dQeG",
+   "title": "Shannon Joseph: Finance Business Partner post",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-10-19"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/shannonmnjoseph_tixel-australian-face-value-ticket-exchange-activity-7343933547239374850-SwQ0",
+   "title": "Shannon Joseph: Tixel live in the US",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-06-26"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Tixel was created in 2017 and its HQ is in Melbourne.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Tixel was created in 2017 after our music-loving founders were burnt by a fake ticket scam.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Shannon Joseph is currently Head of Finance at Tixel in Melbourne, since Jan 2025.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Head of Finance - Tixel (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Shannon posted that paying refunds to fans from Tixel's own funds was the one money flow not yet automated on Stripe.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Paying refunds to our fans directly out of our own funds was the one money flow we'd not been able to automate on Stripe.",
+   "date": "2026-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Tixel is an early adopter of Stripe Treasury, which made refunds a single approval with less manual handling.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "As an early adopter of Stripe Treasury, it's now a single approval with less manual handling on our side",
+   "date": "2026-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Tixel's Financial Accountant role owns day-to-day financial operations and month-end close across all entities.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Own day-to-day financial operations and a clean, efficient month-end close across all our entities.",
+   "date": "2026-07",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The same job ad describes the finance team as transforming around AI and automation.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "a high-impact seat at the ground floor of a finance team transforming around AI and automation.",
+   "date": "2026-07",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The role supports Tixel across Australia, the UK and the US.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "supporting Tixel across Australia, the UK, and the US.",
+   "date": "2026-07",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Shannon posted that the new hire will help shape the finance function as Tixel scales globally.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "help shape the finance function as we continue to scale globally, beyond just reporting the numbers.",
+   "date": "2026-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Shannon's Finance Business Partner post (Oct 2025) says the hire will help evolve financial systems and processes as Tixel scales globally.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Help evolve Tixel's financial systems and processes as we scale globally",
+   "date": "2025-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Shannon shared that Tixel went live in the US.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Big news – Tixel is officially live in the US!",
+   "date": "2025-06",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "The role includes putting AI and smarter tooling to work in finance processes.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Process, Systems & AI: Help build the way finance runs, putting AI and smarter tooling to work so the whole team moves faster.",
+   "date": "2026-07",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "Tixel partners with promoters and events including Beyond the Valley and Boardmasters to verify resale tickets.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Tixel supports event promoters to verify resale tickets and provide a better experience for fans",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "Shannon's earlier roles include Senior Manager on Block's Afterpay Finance team.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Senior Manager - Afterpay Finance",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Shannon Joseph",
+   "title": "Head of Finance",
+   "contactId": "tixel--shannon-joseph",
+   "linkedin": "https://linkedin.com/in/shannonmnjoseph",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C13"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Shannon's Stripe Tour post on automating refunds shows she hunts down manual money flows; reconciling those flows to the ledger is the next step.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Financial Accountant ad: multi-entity close across AU/UK/US with finance being rebuilt around AI and automation.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Scaling globally with a US launch makes multi-currency and intercompany recs heavier.",
+   "claimIds": [
+    "C10",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Finance already leans on Stripe Treasury automation and is building its own AI tooling, so it may build or use another vendor.",
+   "claimIds": [
+    "C4",
+    "C11"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance stack (ERP/Xero) confirmed from a primary source.",
+  "No podcast found."
+ ],
+ "searches": [
+  {
+   "query": "Shannon Joseph Tixel Head of Finance",
+   "results": 8
+  },
+  {
+   "query": "fetch Tixel Financial Accountant job ad and about page",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "tixel--shannon-joseph",
+   "subject": "Reconciling Tixel's refunds and payouts",
+   "body": "Hi Shannon,\n\nYour Stripe Tour post about automating fan refunds with Stripe Treasury stuck with me. The next question is how every refund and payout then reconciles at month-end. With your Financial Accountant role covering a close across Australia, the UK and the US, and a team rebuilding around AI, that looks like the natural thing to automate. I built Vert to turn 4 hours of reconciliation into 5 minutes, with every match traceable. How is that handled across your entities today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp": {
+   "contactId": "tixel--shannon-joseph",
+   "subject": "Re: Reconciling Tixel's refunds and payouts",
+   "body": "Hi Shannon,\n\nFollowing up on my note last week. Your Financial Accountant ad talks about putting AI and smarter tooling to work in finance, and you said the new hire will help shape the function as Tixel scales globally. That makes now a good time to decide how reconciliations run before habits set. Could I show you Vert on a sample month of payouts in 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C11",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "tixel--shannon-joseph",
+   "subject": "Re: Reconciling Tixel's refunds and payouts",
+   "body": "Hi Shannon,\n\nLast nudge from me. With Tixel live in the US and finance systems evolving as you scale globally, multi-currency and intercompany reconciliations only get heavier. If useful, I can show how Vert handles them in 10 minutes. If the timing is off, no worries.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C9"
+   ]
+  }
+ }
+}

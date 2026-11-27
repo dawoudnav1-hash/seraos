@@ -1,0 +1,247 @@
+{
+ "accountId": "traction-financial",
+ "accountName": "Traction Financial",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Traction Financial is a Subiaco WA firm of Chartered Accountants, a Xero Gold Champion and MYOB Partner, started in 2018. Lauren Bushby is co-founder, COO and CFO and leads digital transformation; the firm sells virtual CFO packages with monthly performance reports. Its bookkeeping lead says she wants to replace repetitive bookkeeping tasks with apps.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://traction.com.au/",
+   "title": "Accounting & Financial Strategy in Subiaco - Traction Financial",
+   "type": "website",
+   "publisher": "Traction Financial",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://traction.com.au/about-us/",
+   "title": "About Us - Traction Financial",
+   "type": "website",
+   "publisher": "Traction Financial",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://traction.com.au/services/cfo-business-advisory/",
+   "title": "CFO & Business Advisory - Traction Financial",
+   "type": "website",
+   "publisher": "Traction Financial",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/lauren-bushby",
+   "title": "Lauren Bushby | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/company/tractionfinancial",
+   "title": "Traction Financial | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Traction Financial trades from Suite 10, 22 Railway Road, Subiaco WA; its site is traction.com.au (the input domain tractionfinancial.com.au differs).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Suite 10, 22 Railway Road, SUBIACO WA 6008",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Lauren Bushby CA is listed as COO & CFO on the leadership team alongside CEO Julian Eve.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Lauren Bushby CA COO & CFO",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Lauren's LinkedIn shows her as current Owner/Director of Traction Financial (since Jan 2019).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Owner/Director - Traction Financial (Current)",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Traction was started in 2018 and Lauren is its other co-founder.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We started Traction in 2018",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Lauren is the go-to for digital transformation, helping businesses implement cloud-based tools that save time.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "She’s our go-to for digital transformation - helping businesses implement cloud-based tools that save time and boost performance.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Traction offers cloud-based bookkeeping as Xero Gold Champions and MYOB Partners.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "as Xero Gold Champions and MYOB Partners",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Traction's Growth and Scale CFO packages include monthly or quarterly financial insight and business performance reports.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Monthly Financial Insight and Business Performance Reports",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Traction's vCFO service oversees the finance function whether the client has an in-house team, a bookkeeper or self-manages.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "whether you have an in-house team, a bookkeeper, or manage it yourself",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Traction's bookkeeping and advisory lead Jenina Nunag looks for apps to replace the repetitive nature of bookkeeping tasks and data processing.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "keeping up to date with apps and solutions available to replace the repetitive nature of bookkeeping tasks and data processing",
+   "date": null,
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Traction's LinkedIn company profile shows 5 employees (+20% YoY) with a workforce across Australia and the Philippines.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Traction Financial employs 5 people (+20.0% YoY, +1 person)",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Lauren Bushby",
+   "title": "COO & CFO / Owner-Director",
+   "contactId": "traction-financial--lauren-bushby",
+   "linkedin": "https://www.linkedin.com/in/lauren-bushby",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5"
+   ]
+  },
+  {
+   "name": "Julian Eve",
+   "title": "CEO",
+   "contactId": null,
+   "linkedin": "https://www.linkedin.com/in/julianeve",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Lauren leads digital transformation and Traction sells monthly performance reports on higher CFO tiers: reconciliation speed gates reporting turnaround.",
+   "claimIds": [
+    "C5",
+    "C7"
+   ]
+  },
+  {
+   "text": "The bookkeeping team is actively looking for apps to replace repetitive tasks (Jenina Nunag).",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "Xero Gold Champion and MYOB Partner: reconciliations run across both platforms.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Digital transformation is already a selling point; she may favour tools she picks herself or already uses.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No dated Lauren posts or podcast found; Facebook/Instagram not found; no live careers page located."
+ ],
+ "searches": [
+  {
+   "query": "Traction Financial Subiaco site",
+   "results": 5
+  },
+  {
+   "query": "Lauren Bushby Traction Subiaco",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "traction-financial--lauren-bushby",
+   "subject": "Re: Idea for Traction Financial",
+   "body": "Hi Lauren,\n\nFollowing up on my note on Monday. You lead digital transformation at Traction, and your Growth and Scale CFO packages promise monthly performance reports, which depend on the reconciling being done first. Vert takes reconciliation from 4 hours to 5 minutes across Xero and MYOB files, with traceable matches. Can I show you on a sample file?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "traction-financial--lauren-bushby",
+   "subject": "Re: Idea for Traction Financial",
+   "body": "Hi Lauren,\n\nLast nudge. Jenina on your team is looking for apps to replace repetitive bookkeeping and data processing. Vert is built for exactly that step in Xero and MYOB, and I'd be glad to show you both a 10 minute walkthrough this week.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C9"
+   ]
+  }
+ }
+}

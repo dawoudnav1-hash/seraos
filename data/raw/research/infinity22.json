@@ -1,0 +1,302 @@
+{
+ "accountId": "infinity22",
+ "accountName": "Infinity22",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Infinity22 is a Melbourne-headquartered cloud accounting and virtual CFO firm that started in eCommerce and now describes itself as a multidisciplinary advisory practice. Founder and CEO Thomas Sparks says the firm is building a Financial Operating System for SMEs with AI-enabled finance systems layered over Xero. It was hiring a senior R&D tax specialist in September 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://infinity22.co",
+   "title": "Infinity22 | Tax, Accounting & Business Advisory Services for SMEs",
+   "type": "website",
+   "publisher": "Infinity22",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://infinity22.co/about",
+   "title": "Specialised eCommerce Accountant Services | Infinity22 About",
+   "type": "website",
+   "publisher": "Infinity22",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/in/ecommerceaccountant",
+   "title": "Thomas Sparks CA - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/infinity22co",
+   "title": "Infinity22 - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/ecommerceaccountant_virtualcfo-cloudaccounting-advisory-activity-7335589811795218433-pGaR",
+   "title": "Thomas Sparks post on Building the Virtual CFO Firm in the Cloud",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-06-03"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/ecommerceaccountant_hiring-activity-7504336317992955904-hbp9",
+   "title": "Thomas Sparks hiring post: senior R&D tax specialist",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "S7",
+   "url": "https://castro.fm/episode/mW83CL",
+   "title": "In Conversation with Thomas Sparks, CEO of Infinity 22 - Books To The Boardroom",
+   "type": "podcast",
+   "publisher": "Books To The Boardroom",
+   "date": "2020-11-18"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.linkedin.com/posts/ecommerceaccountant_gday-e-commerce-legends-running-an-online-activity-7198124151969075200-qGLr",
+   "title": "Thomas Sparks post on top e-commerce issues",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2024-05-20"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Infinity22 is headquartered in Melbourne, Victoria, with offices in Fortitude Valley, Brisbane, and Albany Creek.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Headquartered in Melbourne, Victoria, Australia, with offices in Fortitude Valley, Brisbane, and Albany Creek.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Thomas Sparks is Founder and CEO of Infinity22 (current role, since Dec 2017), per his LinkedIn profile indexed Nov 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Founder and CEO - Infinity22 (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Thomas describes Infinity22 as building a Financial Operating System for SMEs.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Today we're building what I call a Financial Operating System for SMEs.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Thomas says Infinity22 now offers AI-enabled finance systems layered over platforms like Xero.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "AI enabled finance systems layered over platforms like Xero",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Thomas says most Infinity22 clients are doing $1m plus in revenue and want to raise capital, improve margins or build an internal finance function.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Most of our clients are doing $1m plus in revenue",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Infinity22's about page says it uses Xero alongside eCommerce tools such as Dear Inventory, A2X and Spotlight Reporting.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We love using Xero and so do our clients but also advise the use of other eCommerce software such as Dear Inventory, A2X and Spotlight Reporting",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Infinity22 says its advisory work depends on monthly management accounting and financial controllership for clients.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "monthly management accounting and financial controllership services",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Thomas posted in Sept 2026 that Infinity22 is hiring a senior R&D tax specialist, hybrid across several cities.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "We're hiring a senior R&D tax specialist at Infinity22.",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "In June 2025 Thomas posted about reading Building the Virtual CFO Firm in the Cloud, keen on scaling the firm faster.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We’re building something special at Infinity22, and I’m always hungry to learn from those who’ve walked the path ahead",
+   "date": "2025-06",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "In May 2024 Thomas posted that inventory can be a cash flow killer for e-commerce businesses.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Inventory can be a real cash flow killer",
+   "date": "2024-05",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Thomas appeared on the Books To The Boardroom podcast (Nov 2020) discussing moving Infinity22 toward E-Commerce businesses.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Thomas speaks about the decision to move his company in that direction",
+   "date": "2020-11",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Infinity22's site lists accounting and tax, bookkeeping and virtual CFO services.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "From Accounting & Tax and Bookkeeping to Virtual CFO services",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "Infinity22 has a workforce distributed across Australia, the Philippines and the United States.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Its workforce is distributed across Australia, Philippines, and United States.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Thomas Sparks",
+   "title": "Founder and CEO",
+   "contactId": "infinity22--thomas-sparks",
+   "linkedin": "https://www.linkedin.com/in/ecommerceaccountant",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Thomas's own Financial Operating System / AI-over-Xero framing: reconciliation is the unglamorous layer that has to be trusted for that to work.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Xero plus A2X and Dear Inventory stack means payout and inventory reconciliations recur monthly across eCommerce clients.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Active hiring (senior R&D tax role) shows capacity pressure on specialist time.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Thomas already positions Infinity22 around AI-enabled finance systems, so he may build or buy his own automation.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Infinity22 posts found specifically about reconciliation pain; no recent Xero partner tier confirmed."
+ ],
+ "searches": [
+  {
+   "query": "infinity22.co site fetch",
+   "results": 3
+  },
+  {
+   "query": "Thomas Sparks Infinity22 ecommerce accountant podcast/post",
+   "results": 8
+  },
+  {
+   "query": "Infinity22 hiring bookkeeper accountant job",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "infinity22--thomas-sparks",
+   "subject": "Re: Payout reconciliation at Infinity22",
+   "body": "Hi Thomas, following up on my earlier notes. You describe Infinity22 as building a Financial Operating System for SMEs, with AI-enabled finance systems layered over Xero. Reconciliation is usually where that stalls, especially for clients on A2X and Dear Inventory. Vert does the matching and cash coding with a full audit trail. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "infinity22--thomas-sparks",
+   "subject": "Re: Payout reconciliation at Infinity22",
+   "body": "Hi Thomas, last nudge from me. You posted in September that you're hiring a senior R&D tax specialist, so team capacity is clearly a live topic. If monthly management accounting is eating your accountants' hours, Vert gives them back. Worth a short chat?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C7"
+   ]
+  }
+ }
+}

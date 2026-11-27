@@ -1,0 +1,239 @@
+{
+ "accountId": "prestige-partners-chartered-accountants",
+ "accountName": "Prestige Partners Chartered Accountants",
+ "status": "complete",
+ "summary": "Prestige Partners is a Burswood (Perth) SME accounting and advisory firm established in 2012 by directors James Wyrewenaden and Salim Pradhan. It sells tiered monthly packages and contract CFO services, runs a team of accountants and bookkeepers with support in the Philippines, and has advertised for accountants citing growth. Two earlier emails have gone to Salim; the drafts here take new angles (growth and review load, fixed-fee margin).",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://prestigeca.com.au/",
+   "title": "Home - Prestige Partners",
+   "type": "website",
+   "publisher": "Prestige Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://prestigeca.com.au/about-us/",
+   "title": "About Us - Prestige Partners",
+   "type": "website",
+   "publisher": "Prestige Partners",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/salim-pradhan-9aa77a240",
+   "title": "Salim Pradhan | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-23"
+  },
+  {
+   "id": "S4",
+   "url": "https://prestigeca.com.au/services/contract-cfo-services/",
+   "title": "Contract CFO Services - Prestige Partners",
+   "type": "website",
+   "publisher": "Prestige Partners",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/demi-ward-076411140",
+   "title": "Demi Ward | LinkedIn (repost of firm hiring post)",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/prestige-partners-chartered-accountants",
+   "title": "Prestige Partners Chartered Accountants | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Prestige Partners' own site gives its address as 8 Claude Street, Burswood WA 6100, and says it was established in 2012 by James Wyrewenaden and Salim Pradhan.",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "Established in 2012 by James Wyrewenaden and Salim Pradhan, Prestige Partners has grown into a leading business advisory and taxation firm.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Salim Pradhan is listed as a Director on the firm's team page and his LinkedIn profile shows Director at Prestige Partners Chartered Accountants as a current role.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Director - Prestige Partners Chartered Accountants (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "The firm advertised for an Intermediate Accountant in June 2024, citing recent growth, and the post was reshared by staff.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We’re hiring! Due to recent growth, we are seeking an Intermediate Accountant to join our team.",
+   "date": "2024-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Prestige's contract CFO offer has staff monitor client financial health, usually with cloud technology.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Monitor the financial health and well-being of the business, usually with cloud technology.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Prestige sells tiered packages whose top Growth tier includes monthly review meetings and cashflow budgeting.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Cashflow Budgeting and Business Coaching",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The firm says it believes cloud accounting is the future but also in getting its hands dirty with clients.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Whilst we believe technology and cloud-based accounting is the future of accounting, we also believe in getting our hands dirty.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Prestige's LinkedIn page says its workforce is distributed across Australia and the Philippines.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Its workforce is distributed across Australia and Philippines.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm describes itself as one of Perth's leading SME accounting companies supporting small business owners.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Prestige Partners is one of Perth’s leading SME accounting companies with decades of experience supporting hundreds of business owners and their families",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Salim Pradhan",
+   "title": "Director",
+   "contactId": "prestige-partners-chartered-accountants--salim-pradhan",
+   "linkedin": "https://www.linkedin.com/in/salim-pradhan-9aa77a240",
+   "claimIds": [
+    "C1",
+    "C2"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Growth hiring plus offshore support means more preparers whose reconciliation work a senior has to review.",
+   "claimIds": [
+    "C3",
+    "C7"
+   ]
+  },
+  {
+   "text": "Packaged monthly fees with review meetings mean reconciliation hours come straight out of margin.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "Cloud-first but hands-on positioning suits a traceable reconciliation tool.",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Two earlier emails have already gone to Salim with no recorded reply; keep this nudge light.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "No evidence found of the firm's reconciliation tooling; may already use a competing tool.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts or podcast appearances by Salim himself found (the CPA Australia podcast features co-director James Wyrewenaden).",
+  "No Xero partner tier, award or news coverage found.",
+  "LinkedIn company page headcount (8) conflicts with the team page (about 20 people); not used."
+ ],
+ "searches": [
+  {
+   "query": "Salim Pradhan Prestige Partners Chartered Accountants Perth director",
+   "results": 8
+  },
+  {
+   "query": "Prestige Partners Burswood accountant job bookkeeper Xero seek OR linkedin hiring",
+   "results": 6
+  },
+  {
+   "query": "prestigeca.com.au home and contract CFO pages (fetch)",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "prestige-partners-chartered-accountants--salim-pradhan",
+   "subject": "Re: Less reconciling, more CFO work at Prestige Partners",
+   "body": "Hi Salim,\n\nFollowing up on my earlier notes. Prestige has been adding accountants on the back of recent growth, with offshore support in the Philippines as well. The catch with scaling that way is review time, since every extra preparer is more reconciliations for a senior to check. Vert reconciles and cash codes with a traceable audit trail, so reviewers look at exceptions instead of everything. Would a short walkthrough be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "prestige-partners-chartered-accountants--salim-pradhan",
+   "subject": "Re: Less reconciling, more CFO work at Prestige Partners",
+   "body": "Hi Salim,\n\nLast one from me. Prestige sells fixed monthly packages with review meetings, so hours spent matching bank feeds come straight out of margin. If I could show you Vert clearing a client's month of reconciliations in about 5 minutes, would that be worth a look? Happy to leave it there if not.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

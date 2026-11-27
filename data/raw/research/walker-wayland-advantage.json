@@ -1,0 +1,280 @@
+{
+ "accountId": "walker-wayland-advantage",
+ "accountName": "Walker Wayland Advantage",
+ "status": "complete",
+ "summary": "Walker Wayland Advantage is a Melbourne CBD firm (William Street, over 90 years) offering accounting and bookkeeping, audit, tax, business advisory and virtual CFO, and is part of the Walker Wayland Australasia and BKR networks. Martin Phelan is a long-standing partner. The firm's own 2023 virtual CFO article describes completing a client's monthly reconciliations and removing manual accounting functions, a strong new angle for a follow-up.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.wwadvantage.com.au/our-people/",
+   "title": "Leadership Team - Walker Wayland Advantage",
+   "type": "website",
+   "publisher": "Walker Wayland Advantage",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.wwadvantage.com.au/martin-phelan/",
+   "title": "Martin Phelan - Walker Wayland Advantage",
+   "type": "website",
+   "publisher": "Walker Wayland Advantage",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.wwadvantage.com.au/post/have-you-considered-a-virtual-cfo-accounting-team/",
+   "title": "Have You Considered a Virtual CFO & Accounting Team?",
+   "type": "blog",
+   "publisher": "Walker Wayland Advantage",
+   "date": "2023-09-14"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.wwadvantage.com.au/virtual-cfo/",
+   "title": "Virtual CFO Melbourne | Walker Wayland Advantage",
+   "type": "website",
+   "publisher": "Walker Wayland Advantage",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://au.linkedin.com/company/wwadvantage",
+   "title": "Walker Wayland Advantage | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.wwadvantage.com.au/",
+   "title": "Personal & Business Accountants in Melbourne | Walker Wayland Advantage",
+   "type": "website",
+   "publisher": "Walker Wayland Advantage",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.wwadvantage.com.au/about/",
+   "title": "About | Walker Wayland Advantage",
+   "type": "website",
+   "publisher": "Walker Wayland Advantage",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "The firm's own site gives its address as Level 22, 114 William Street, Melbourne VIC 3000.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Walker Wayland Advantage Level 22, 114 William Street, Melbourne Vic 3000 Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Martin Phelan is Partner, Tax & Business Advisory, a partner/director since 1999, with the firm email mphelan@wwadvantage.com.au.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Martin joined the firm in 1990 and became a partner/director in 1999.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Martin Phelan is a member of the Worldwide Board of BKR International and former Chair of its Asia-Pacific Regional Board.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Martin is a member of the Worldwide Board of BKR International and the former Chair of the Asia-Pacific Regional Board.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Martin's specialist areas include valuations, cash flows and budgeting and he advises business owners on taxation, structures and succession.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Valuations, Cash Flows & Budgeting",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The firm's virtual CFO service includes ongoing bookkeeping and monthly management reporting.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Ongoing bookkeeping services.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "A firm article describes the virtual CFO team stepping in when a client's finance manager resigned, to complete monthly reconciliations and board reporting.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "complete the monthly reconciliations & compliance reporting usually performed by outgoing finance managers",
+   "date": "2023-09",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "The same article says the engagement identified the opportunity to remove manual accounting functions, improving the timeliness of reporting and reducing data-entry errors.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "identify the opportunity to remove manual accounting functions within the business, which improved the timeliness of reporting",
+   "date": "2023-09",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "In September 2026 the firm's LinkedIn page posted about draft legislation for a 30 per cent minimum tax on discretionary trusts.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "The Government has released draft legislation to implement the core components of the 30 per cent minimum tax on discretionary trusts announced in the 2026-27 Budget.",
+   "date": "2026-09",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "In July 2026 the firm posted about the ATO's latest small business benchmarks.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "The ATO has released its latest small business benchmarks, covering 100 industries",
+   "date": "2026-07",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The firm says it is the only full-service accounting firm that is ISO quality certified.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "We are the only full-service accounting firm that is ISO quality certified.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "The firm is part of the Walker Wayland Australasia and BKR International groups.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "as part of the Walker Wayland Australasia and BKR International group of accountants",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn lists the firm at 14 employees, down 7.3% year on year.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Walker Wayland Advantage employs 14 people (-7.3% YoY, -3 people)",
+   "date": "2026-09",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Martin Phelan",
+   "title": "Partner, Tax & Business Advisory",
+   "contactId": "walker-wayland-advantage--martin-phelan",
+   "linkedin": null,
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "New angle: the firm's own virtual CFO article describes completing a client's monthly reconciliations and removing manual functions, which maps directly to Vert.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C5"
+   ]
+  },
+  {
+   "text": "Martin's remit on valuations, cash flows and budgeting, plus the firm's recent LinkedIn posts on trusts and ATO benchmarks, show a business-advisory focus where clean books matter.",
+   "claimIds": [
+    "C4",
+    "C8",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Small team (about 14 on LinkedIn, down year on year) and a firm that emphasises ISO-certified, personal service; may favour proven manual process.",
+   "claimIds": [
+    "C12",
+    "C10"
+   ]
+  },
+  {
+   "text": "Martin Phelan is a senior partner focused on tax and corporate transactions rather than day-to-day bookkeeping; may forward to a virtual CFO lead.",
+   "claimIds": [
+    "C2",
+    "C4"
+   ]
+  },
+  {
+   "text": "The reconciliation article is from September 2023, so older than 18 months.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent posts or interviews by Martin personally found.",
+  "No Xero/MYOB/Dext tech stack mentions on the firm's own pages found.",
+  "LinkedIn URL for Martin not found."
+ ],
+ "searches": [
+  {
+   "query": "Walker Wayland Advantage Melbourne Martin Phelan partner tax business advisory",
+   "results": 8
+  },
+  {
+   "query": "Walker Wayland Advantage news article 2026 OR LinkedIn post OR job vacancy",
+   "results": 7
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "walker-wayland-advantage--martin-phelan",
+   "subject": "Re: Quick chat, Martin?",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C5"
+   ],
+   "body": "Hi Martin,\n\nFollowing up on my note last week. Your virtual CFO article described stepping in to complete a client's monthly reconciliations when their finance manager resigned, and then finding manual accounting functions to remove. Vert does that reconciling and cash coding in minutes, with an audit trail on every match, so your virtual CFO team could take on more without more hours. Would a short look at how it works on an engagement like that be useful?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

@@ -1,0 +1,262 @@
+{
+ "accountId": "connect-advisors",
+ "accountName": "Connect Advisors",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Connect Advisors is a Docklands (Melbourne) accounting and business services firm offering tax, SMSF, outsourced CFO, bookkeeping and forensic accounting. Anna Wijeyesinghe, a Chartered Accountant and Xero Certified Advisor with Financial Controller and virtual CFO experience, was appointed Company Director in January 2025. The firm serves clients from multinationals to start-ups.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://connectadvisors.com.au/",
+   "title": "Connect Advisors | Business Services Firm",
+   "type": "website",
+   "publisher": "Connect Advisors",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://connectadvisors.com.au/our-people/",
+   "title": "Our People - Connect Advisors",
+   "type": "website",
+   "publisher": "Connect Advisors",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://connectadvisors.com.au/about-us/",
+   "title": "About Us - Connect Advisors",
+   "type": "website",
+   "publisher": "Connect Advisors",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/anna-wijeyesinghe-b7984476",
+   "title": "Anna Wijeyesinghe - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/jason-zhang-1a6665bb_leadership-newappointment-teamgrowth-activity-7286920049448140800-rMYP",
+   "title": "Special Announcement - Anna Wijeyesinghe appointed Company Director",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Jason Zhang)",
+   "date": "2025-01-20"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/connect-advisors",
+   "title": "Connect Advisors - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Connect Advisors operates from Level 8, Tower 3, 18-38 Siddeley Street, Docklands VIC 3008.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 8, Tower 3, 18-38 Siddeley Street, Docklands VIC 3008",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Anna Wijeyesinghe is a current Director of Connect Advisors (since January 2025).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Director (Current) Jan 2025 - Present",
+   "date": "2025-01",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Anna was announced as Company Director in January 2025 after about four years at the firm.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Anna Wijeyesinghe has been appointed as Company Director at Connect Advisors.",
+   "date": "2025-01",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Anna has worked as Financial Controller and Virtual CFO in a variety of businesses.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Anna has acted as Financial Controller and Virtual CFO in a variety of businesses.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Anna has managed and reviewed accounting and internal controls and implemented policies and software systems in organisations.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "She has managed and reviewed accounting and internal controls to implement policies and software systems within a number of organisations.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Anna is a Xero Certified Advisor.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Xero Certified Advisor",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm offers outsourced CFO services, positioned as a shift from the traditional finance function.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "By outsourcing this finance function, we can enable you and your executives to improve business performance and shareholder value.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Connect Advisors serves a diversified client base from multinationals to start-ups and small businesses.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Our teams serve a diversified client base including Multi-national companies to start-ups and small businesses.",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The practice comprises 2 directors/associates and around 18 staff and consultants.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Our practice comprises 2 directors/associates and around 18 staff and consultants.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "The firm offers individual, business and NFP accounting services alongside tax, advisory, SMSF and forensic accounting.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Individual, business and NFP accounting services",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "In 2019 the practice merged its accounting and tax business with Kingston & Knight Accountants.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "In 2019 the practice merged its accounting and tax business with Kingston & Knight Accountants.",
+   "date": "2019",
+   "category": "news",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Anna Wijeyesinghe",
+   "title": "Director",
+   "contactId": "connect-advisors--anna-wijeyesinghe",
+   "linkedin": "https://www.linkedin.com/in/anna-wijeyesinghe-b7984476",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Anna has implemented policies and software systems as a Financial Controller, so she will care about traceability and controls in any reconciliation tool.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Outsourced CFO line plus diverse clients (multinationals to start-ups) means varied reconciliation work behind the advice.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Newly appointed director (Jan 2025) shaping the firm's next phase.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Headcount sources conflict (LinkedIn lists 10, firm site says around 18 plus consultants); other firms named Connect Advisors/Connect Accountants & Advisors exist (US construction, NSW) and were excluded.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Anna-authored posts, podcasts or articles found.",
+  "No job ads for the Melbourne firm found.",
+  "No mention of Dext, Hubdoc or an AI reconciliation tool."
+ ],
+ "searches": [
+  {
+   "query": "Anna Wijeyesinghe Connect Advisors Melbourne director",
+   "results": 8
+  },
+  {
+   "query": "Connect Advisors Docklands accountants hiring OR post linkedin",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "connect-advisors--anna-wijeyesinghe",
+   "subject": "Re: Idea for Connect Advisors",
+   "body": "Hi Anna,\n\nFollowing up on my note last week. You've been a Financial Controller and virtual CFO and put software systems and internal controls in place, so I suspect you want any AI near the books to be traceable rather than guessing. That is how Vert works: it reconciles and cash codes 2x faster and every match can be traced back. Would that matter for your outsourced CFO clients?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "connect-advisors--anna-wijeyesinghe",
+   "subject": "Re: Idea for Connect Advisors",
+   "body": "Hi Anna,\n\nOne last note. Your clients range from multinationals to start-ups, so the reconciling behind your CFO work varies a lot. Having run finance as a Financial Controller and virtual CFO, would you be open to a 10 min walkthrough of how Vert handles it?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C8"
+   ]
+  }
+ }
+}

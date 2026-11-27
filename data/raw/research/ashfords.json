@@ -1,0 +1,269 @@
+{
+ "accountId": "ashfords",
+ "accountName": "Ashfords",
+ "status": "complete",
+ "summary": "Ashfords is a multidisciplinary accounting and advisory firm in Dandenong South, Melbourne, led by CEO Greg Cusack, who also chairs AGN Asia Pacific. It is a Xero Platinum Partner with an Ashfords Digital automation arm and an offshore team in the Philippines, and in November 2026 hosted AGN's World Congress in Sydney. A follow-up to Greg's earlier email is drafted with new angles.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.ashfords.com.au/",
+   "title": "Ashfords Accountants and Advisory",
+   "type": "website",
+   "publisher": "Ashfords",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/greg-cusack",
+   "title": "Greg Cusack | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "S3",
+   "url": "https://ashfords.com.au/about/our-team/greg-cusack/",
+   "title": "About Greg Cusack - CEO of Ashfords",
+   "type": "website",
+   "publisher": "Ashfords",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/ashfords-accountants-and-advisory_we-proudly-welcomed-the-accounting-world-activity-7529053466397294593-oU0P",
+   "title": "Ashfords hosts AGN International 2026 World Congress",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Ashfords)",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "S5",
+   "url": "https://toaglobal.com/au/blog/speak-to-people-who-have-outsourced/",
+   "title": "Speak to People Who Have Outsourced | TOA Global",
+   "type": "blog",
+   "publisher": "TOA Global",
+   "date": "2023-12-05"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.ashfords.com.au/services/ashfords-digital/",
+   "title": "Ashfords Digital",
+   "type": "website",
+   "publisher": "Ashfords",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://resuminder.com/jobs/10611930-senior-client-manager-bookkeeping-at-ashfords-accountants-advisory",
+   "title": "Senior Client Manager - Bookkeeping at Ashfords",
+   "type": "job",
+   "publisher": "ResuMinder",
+   "date": "2026-06-26"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Ashfords' own site gives its address as Level 3, 148 Logis Blvd, Dandenong South VIC 3175.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Address: Level 3, 148 Logis Blvd, Dandenong South VIC 3175",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Greg Cusack's LinkedIn profile lists him as CEO of Ashfords, current, since January 2016.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Jan 2016 - Present (10 years and 9 months)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Greg Cusack is AGN Asia Pacific Regional Chair and a member of the AGN World Board.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "He serves as AGN Asia Pacific Regional Chair and is a member of the AGN World Board.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In November 2026 Ashfords hosted AGN International's World Congress in Sydney and thanked Greg Cusack for his contributions to the strategy sessions.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Thank you to our CEO Greg Cusack and Director Andrew White for their valuable contributions to the strategy sessions",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "As of late 2023 Ashfords had a team of 90 including 15 offshore team members in the Philippines.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "whose current team of 90 professionals includes 15 offshore team members in the Philippines",
+   "date": "2023-12",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "Ashfords is a Xero Platinum Partner and runs Ashfords Digital, which integrates and automates clients' accounting and tech functions.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "As a Xero Platinum Partner, we are the experts in supporting clients to migrate to or implement Xero",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Ashfords advertised a Senior Client Manager - Bookkeeping role in 2026 requiring Xero, MYOB and QuickBooks and supervising a team.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Role: overseeing bookkeeping, providing insights, supervising team",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Ashfords said in a LinkedIn post that efficient systems create operational excellence and let new staff reach full productivity faster.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Establishing efficient systems sets your business free and creates a culture of operational excellence that enables seamless scaling",
+   "date": "2023-12",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Greg Cusack has led the firm through the integration of two suburban practices.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "the successful integration of two suburban practices",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Greg Cusack",
+   "title": "CEO",
+   "contactId": "ashfords--greg-cusack",
+   "linkedin": "https://www.linkedin.com/in/greg-cusack/",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Ashfords Digital sells automation to clients, so automating its own bookkeeping reconciliations is a natural next step.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Offshore team plus a stated belief in systems for fast onboarding fits a standardised, traceable reconciliation process.",
+   "claimIds": [
+    "C5",
+    "C8"
+   ]
+  },
+  {
+   "text": "Greg is just back from hosting the AGN World Congress, a good moment for a light check-in.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Greg's email address is a firm-pattern guess not verified; an earlier email already went out (23 Nov).",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "As a Xero Platinum Partner with its own digital/automation arm, Ashfords may already have preferred reconciliation tooling or compete on advisory.",
+   "claimIds": [
+    "C6"
+   ]
+  },
+  {
+   "text": "The offshore headcount and systems post are from 2023, so may be out of date.",
+   "claimIds": [
+    "C5",
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent posts by Greg himself found beyond the firm's World Congress post.",
+  "Specific reconciliation or AI tools used by the firm not found.",
+  "COO Tim Szonyi's activity not researched in depth."
+ ],
+ "searches": [
+  {
+   "query": "Greg Cusack Ashfords CEO accountants Dandenong",
+   "results": 9
+  },
+  {
+   "query": "Ashfords Accountants and Advisory Dandenong South hiring bookkeeper accountant technology automation Xero",
+   "results": 7
+  },
+  {
+   "query": "ashfords.com.au home (fetch)",
+   "results": 1
+  },
+  {
+   "query": "TOA Global Ashfords outsourcing story (fetch)",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "ashfords--greg-cusack",
+   "subject": "Re: Idea for Ashfords",
+   "body": "Hi Greg,\n\nFollowing up on my note last week. Ashfords advertised a Senior Client Manager for bookkeeping this year, and as a Xero Platinum Partner with Ashfords Digital selling automation to clients, your own bookkeeping team is probably the next place to apply it. Vert cuts 4 hours of manual reconciliation to 5 minutes, with every match traceable. Who on your side owns the bookkeeping workflow and would be best to show it to?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "ashfords--greg-cusack",
+   "subject": "Re: Idea for Ashfords",
+   "body": "Hi Greg,\n\nOne last note, now that the AGN World Congress is behind you. Ashfords has said efficient systems let new staff reach full productivity faster, and a standardised reconciliation process across the Melbourne and Philippines teams is exactly what Vert gives you. Worth 10 minutes to see it?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C8"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

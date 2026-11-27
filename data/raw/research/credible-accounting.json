@@ -1,0 +1,308 @@
+{
+ "accountId": "credible-accounting",
+ "accountName": "Credible Accounting",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Credible Accounting is a five-person boutique accounting firm in Norwest, Sydney, founded in 2016 by Dev Punjani, offering bookkeeping, tax, payroll and fractional CFO services on fixed fees. Dev recently appeared on a small business podcast (Oct 2026) and the firm published a March 2026 article on its seven-point monthly reporting framework. LinkedIn shows 5 staff, up 75% YoY.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://credibleaccounting.com.au/about-us/",
+   "title": "About us - Credible Accounting",
+   "type": "website",
+   "publisher": "Credible Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://credibleaccounting.com.au/",
+   "title": "Credible Accounting home",
+   "type": "website",
+   "publisher": "Credible Accounting",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://credibleaccounting.com.au/services/bookkeeping/",
+   "title": "Embedded Bookkeeping for Growing Businesses",
+   "type": "website",
+   "publisher": "Credible Accounting",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://credibleaccounting.com.au/services/fractional-cfo/",
+   "title": "Fractional CFO for Scaling Businesses",
+   "type": "website",
+   "publisher": "Credible Accounting",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://credibleaccounting.com.au/the-numbers-dont-lie-unless-the-books-do/",
+   "title": "The Numbers Don't Lie. Unless the Books Do.",
+   "type": "blog",
+   "publisher": "Credible Accounting",
+   "date": "2026-03-10"
+  },
+  {
+   "id": "S6",
+   "url": "https://exa.ai/library/podcast/89mgwywfqqv/episode/yysjhvrr6b8",
+   "title": "Let's Talk Numbers, Clarity, and Small Business Growth with Dev Punjani",
+   "type": "podcast",
+   "publisher": "Let's Talk small Business with Mitchell Wilson",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/company/credible-accounting",
+   "title": "Credible Accounting | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://linkedin.com/in/devpunjani",
+   "title": "Dev Punjani | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Credible Accounting is a boutique firm based in Norwest, Sydney, founded in 2016.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Based in Norwest Sydney, we are a boutique firm that works with clients across Australia.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Dev Punjani is the founder and Director of Credible Accounting (current on LinkedIn).",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Director - Credible Accounting (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "LinkedIn lists Credible Accounting at 5 employees, up 75% year on year.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Credible Accounting employs 5 people (+75.0% YoY, +3 people), founded in 2016.",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "Dev appeared on the Let's Talk small Business podcast (episode 56, October 2026).",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Today's guest, Dev Punjani, founder and director of Credible Accounting",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "On the podcast Dev said business owners' first mistake is coding transactions to the wrong ledger accounts, which makes decisions wrong.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "business owners get wrong is the coding of the transactions, coding towards the general ledger accounts",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Dev said that when onboarding books, the first thing they do is clean them up and show a before-and-after picture.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "when we onboard the books, we clean up the books",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Dev's firm began as bookkeeping for other accounting firms, which passed bookkeeping requirements to it.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "we were basically passing on the bookkeeper's, uh, bookkeeping side of things or client requirements directly to us",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Credible's March 2026 article describes a seven-point monthly reporting framework including cashflow forecasting and KPIs.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Credible formalises this through a seven-point monthly reporting framework covering profit and loss, profit margins, budget analysis, KPIs, cashflow forecasting, and entity growth analysis.",
+   "date": "2026-03",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The same article says onboarding includes assembling two to three years of financial records and rectifying data misalignment in the accounting software.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "rectifying the data misalignment in the accounting software",
+   "date": "2026-03",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The bookkeeping service reviews transaction coding for accuracy, not just reconciliation.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Transaction coding reviewed for accuracy, not just reconciliation",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "The site claims 100% coding accuracy and 90% reduction in manual processing errors from a multi-entity services firm case.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Coding accuracy across client ledgers",
+   "date": "",
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Credible offers fractional CFO and finance function support, including KPI design and runway visibility.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Runway and burn rate visibility so timing decisions are made with full information",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "They offer fixed-fee pricing and work with hospitality, start-ups and not-for-profits.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We work with hospitality, multi-national companies, start-ups, not-for-profit organisations, service industry and more.",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Dev Punjani",
+   "title": "Director / Founder",
+   "contactId": "credible-accounting--dev-punjani",
+   "linkedin": "https://www.linkedin.com/in/devpunjani",
+   "claimIds": [
+    "C1",
+    "C2",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Dev says wrong transaction coding is the first thing owners get wrong, and the firm sells coding accuracy. Vert's traceable cash coding matches that value.",
+   "claimIds": [
+    "C5",
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "text": "Seven-point monthly reporting framework depends on timely reconciliation.",
+   "claimIds": [
+    "C8",
+    "C3"
+   ]
+  },
+  {
+   "text": "Team of 5 growing 75% YoY: capacity is the constraint.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Already markets 'automation' and 100% coding accuracy on a client case, so may believe the problem is solved.",
+   "claimIds": [
+    "C11"
+   ]
+  },
+  {
+   "text": "Already emailed twice (16 Nov and 23 Nov) with no reply logged.",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Xero/MYOB partner status or specific tools (Dext, Hubdoc) found.",
+  "No open job ads found."
+ ],
+ "searches": [
+  {
+   "query": "Credible Accounting Norwest Sydney fractional CFO Dev Punjani",
+   "results": 10
+  },
+  {
+   "query": "Dev Punjani podcast",
+   "results": 1
+  },
+  {
+   "query": "credibleaccounting.com.au services",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "credible-accounting--dev-punjani",
+   "subject": "Re: Quick chat, Dev?",
+   "body": "Hi Dev,\n\nOn Mitchell Wilson's podcast you said the first thing owners get wrong is coding transactions to the right ledger accounts, and that you clean up the books at onboarding. Vert reconciles and cash codes with an audit trail for every match, so that clean-up takes minutes instead of hours. Could I show you on one of your client files?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "credible-accounting--dev-punjani",
+   "subject": "Re: Quick chat, Dev?",
+   "body": "Hi Dev,\n\nYour seven-point monthly reporting framework only works if the books underneath it are reconciled early. With a team of 5 and clients growing, Vert gets that done in minutes. Is a 10 min look worth it this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C3"
+   ]
+  }
+ }
+}

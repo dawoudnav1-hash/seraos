@@ -1,0 +1,379 @@
+{
+ "accountId": "abbotts-group",
+ "accountName": "Abbotts Group",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Abbotts Group is a West Perth chartered accounting, wealth, finance broking and personal insurance group founded in 1990 with up to 40 professional staff. Its accounting arm has absorbed two practices (2023 and 2024), runs its own bookkeeping team and has advertised for a client services administrator in 2026. Both contacts on file (Bez Esquivel, Scott Reid) sit in the finance broking and insurance arms, not the accounting arm that would use Vert.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://abbotts.net.au/",
+   "title": "Empowering Financial Success for All | Abbotts Group",
+   "type": "website",
+   "publisher": "Abbotts Group",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://abbotts.net.au/about/our-people/",
+   "title": "Our People - Abbotts Group",
+   "type": "website",
+   "publisher": "Abbotts Group",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://abbotts.net.au/team-members/bez-esquivel/",
+   "title": "Bez Esquivel - Abbotts Group",
+   "type": "website",
+   "publisher": "Abbotts Group",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/bezesquivel",
+   "title": "Bernardo (Bez) Esquivel - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S5",
+   "url": "https://abbotts.net.au/about/history/",
+   "title": "Our Rich History and Legacy | Abbotts Group",
+   "type": "website",
+   "publisher": "Abbotts Group",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://abbotts.net.au/business-services/",
+   "title": "Business Accountant Perth | Chartered Accountants | Abbotts",
+   "type": "website",
+   "publisher": "Abbotts Group",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/abbotts-pty-ltd_client-services-administrator-job-in-west-activity-7427260153898545152-Glpg",
+   "title": "We're Growing! Experienced Client Services Administrator | West Perth",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-02-11"
+  },
+  {
+   "id": "S8",
+   "url": "https://au.trabajo.org/job-5010-6892e85d10e756106d1d226ebd953d35",
+   "title": "Senior Bookkeeper in Perth Western Australia - Abbotts Chartered Accountants",
+   "type": "job",
+   "publisher": "Trabajo",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://abbotts.net.au/about/careers/",
+   "title": "Careers - Abbotts Group",
+   "type": "website",
+   "publisher": "Abbotts Group",
+   "date": null
+  },
+  {
+   "id": "S10",
+   "url": "https://abbotts.net.au/team-members/debra-selkirk/",
+   "title": "Debra Selkirk - Abbotts Group",
+   "type": "website",
+   "publisher": "Abbotts Group",
+   "date": null
+  },
+  {
+   "id": "S11",
+   "url": "https://abbotts.net.au/team-members/scott-reid/",
+   "title": "Scott Reid - Abbotts Group",
+   "type": "website",
+   "publisher": "Abbotts Group",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Abbotts Group is based at 813 Wellington Street, West Perth WA 6005 (account domain abbotts.net.au matches).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "813 Wellington Street West Perth, WA 6005",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Bez Esquivel is listed as Director, Abbotts Finance Brokers on the firm site, and his LinkedIn (indexed Nov 2026) shows Managing Director - Abbotts Finance Brokers as current since Sep 2014.",
+   "sourceIds": [
+    "S2",
+    "S4"
+   ],
+   "quote": "Managing Director - Abbotts Finance Brokers",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Bez merged his finance broking business into Abbotts Finance Brokers in September 2014 and is one of its owners and directors.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Bez merged his finance broking business with Abbotts Finance Brokers in September 2014",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Bez has a career of over 20 years spanning finance sales, business management and information technology services.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "A career spanning over 20 years in Finance Sales, Business Management and Information Technology Services",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Abbotts Chartered Accountants acquired another accounting practice (David Clarkes') in 2023.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Abbotts Chartered Accountants acquired David Clarkes accounting practice",
+   "date": "2023",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Patrick Thatcher merged his accounting practice into Abbotts Chartered Accountants in 2024 and became a director.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Patrick Thatcher merged his accounting practice with Abbotts Chartered Accountants",
+   "date": "2024",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm's business services include bookkeeping run by its own bookkeeping team, or reviewed against a client's internal team's numbers.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Bookkeeping, run by our own bookkeeping team or reviewed against the numbers your internal team produces",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The homepage says Abbotts provides bookkeeping, payroll and cloud accounting services to many businesses across Perth and Australia.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Abbotts provides industry-leading bookkeeping, payroll and cloud accounting services to many businesses across Perth and Australia.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Abbotts says its systems integrate with cloud accounting software and prepare clients for Payday Super.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Our systems integrate seamlessly with modern cloud accounting software, ensuring your business is fully prepared for compliance mandates like Payday Super.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Abbotts Chartered Accountants posted a 'We're Growing!' ad on LinkedIn in Feb 2026 for a Client Services Administrator with Xero or MYOB skills.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Abbotts Chartered Accountants is seeking an experienced Client Services Administrator to join our established West Perth office.",
+   "date": "2026-02",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "An undated Senior Bookkeeper ad for Abbotts Chartered Accountants mentions managing accounts payable and receivable, payroll and BAS for a portfolio of small business clients, and Xero or MYOB.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "We are seeking an experienced Senior Bookkeeper to join our team.",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "The careers page says the team comprises up to 40 professional staff.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Our team comprises up to 40 professional staff",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "Abbotts bookkeeper Debra Selkirk is certified in Xero and MYOB.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "fully certified in Xero and MYOB",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C14",
+   "text": "Scott Reid is Director of Abbotts Personal Insurance, which merged with Abbotts in 2024; he advises on personal protection cover, not accounting.",
+   "sourceIds": [
+    "S11"
+   ],
+   "quote": "Director, Abbotts Personal Insurance",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C15",
+   "text": "The firm says its clients stay an average of 20 years.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Our clients stay with us for an average of 20 years",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Bez Esquivel",
+   "title": "Director / Managing Director, Abbotts Finance Brokers",
+   "contactId": "abbotts-group--bernardo-bez-esquivel",
+   "linkedin": "https://www.linkedin.com/in/bezesquivel",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Scott Reid",
+   "title": "Director, Abbotts Personal Insurance",
+   "contactId": "abbotts-group--scott-reid",
+   "linkedin": "https://www.linkedin.com/in/scott-reid-lifeinsuranceexpert",
+   "claimIds": [
+    "C14"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Two accounting practices absorbed in 2023 and 2024 means acquired clients' books to bring onto one process; the bookkeeping team sits in the accounting arm.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Bez has an IT-services background alongside finance, so he may be open to a tech conversation and can route to the accounting directors.",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  },
+  {
+   "text": "Feb 2026 'We're Growing!' hiring post and cloud accounting/Payday Super positioning show a firm investing in systems and capacity.",
+   "claimIds": [
+    "C10",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Neither contact is in the accounting arm: Bez is a finance broker and Scott Reid is an insurance adviser. The accounting leaders (Executive Chairman/CEO Christopher Higham; Group Directors Eric Ballard, Kyle Flugge, Patrick Thatcher) are not on file, so the email must ask for the right person.",
+   "claimIds": [
+    "C2",
+    "C14"
+   ]
+  },
+  {
+   "text": "Perth-based, outside the Melbourne focus; multi-service group where accounting is one arm among wealth, broking, insurance and legal.",
+   "claimIds": [
+    "C1",
+    "C12"
+   ]
+  },
+  {
+   "text": "Headcount sources conflict (LinkedIn 16, site 26+, careers page up to 40).",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video or Facebook content found.",
+  "The Senior Bookkeeper ad is on a third-party board with no posting date.",
+  "No evidence of a specific reconciliation or automation tool in use.",
+  "No individual LinkedIn profiles for the accounting directors were read."
+ ],
+ "searches": [
+  {
+   "query": "fetch: abbotts.net.au home, about, our-people",
+   "results": 1
+  },
+  {
+   "query": "Abbotts Group West Perth accountants Bez Esquivel Scott Reid",
+   "results": 10
+  },
+  {
+   "query": "Abbotts Chartered Accountants West Perth job client manager bookkeeper vacancy",
+   "results": 8
+  },
+  {
+   "query": "fetch: business-services, history, Bez Esquivel LinkedIn",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "abbotts-group--bernardo-bez-esquivel",
+   "subject": "Bookkeeping across Abbotts' acquired practices",
+   "body": "Hi Bez,\n\nAbbotts has taken on two accounting practices, one in 2023 and the other in 2024 and it runs its own bookkeeping team for clients. That is a lot of acquired client books to bring onto one process. With your IT background as well as finance, I thought you would want to hear about Vert, which turns hours of manual reconciliation into minutes with an audit trail on every match. Are you the right person for this, or is there someone on the accounting side I should ask?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp": {
+   "contactId": "abbotts-group--bernardo-bez-esquivel",
+   "subject": "Re: Bookkeeping across Abbotts' acquired practices",
+   "body": "Hi Bez,\n\nFollowing up on my note last week. I saw Abbotts posted a \"We're Growing!\" ad in February, and your bookkeepers work in both Xero and MYOB. Switching acquired clients between systems usually leaves reconciliation as the slow step. Could you point me to whoever runs your bookkeeping team? A ten minute walkthrough of Vert is all I'm after.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C13"
+   ]
+  }
+ }
+}

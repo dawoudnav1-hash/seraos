@@ -1,0 +1,322 @@
+{
+ "accountId": "the-somewhere-co",
+ "accountName": "The Somewhere Co.",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "The Somewhere Co. is a Brisbane (Newstead) lifestyle brand selling through retail, wholesale, marketplaces and eCommerce across three brands. Its finance team (Finance Manager Crystal Thornton, Accountant Jonathan Fletcher, offshore Bookkeeper Melanie Ragudos) runs daily Cin7-into-Xero closes and bank recs per its own job ads, and a Group Finance Manager role has been advertised.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://thesomewhereco.com",
+   "title": "The Somewhere Co - Bold & Colourful Everyday Wares",
+   "type": "website",
+   "publisher": "The Somewhere Co.",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/crystal-thornton-217a52b9",
+   "title": "Crystal Thornton - Finance Manager, The Somewhere Co.",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/in/ragudosmelanie",
+   "title": "Melanie Ragudos - Bookkeeper",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.onlinejobs.ph/jobseekers/job/Finance-Officer-1254634",
+   "title": "Finance Officer - OnlineJobs.ph (The Somewhere Co.)",
+   "type": "job",
+   "publisher": "OnlineJobs.ph",
+   "date": "2025-09-01"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.collegerecruiter.com/job/2929409508-group-finance-leader--drive-growth-across-brands",
+   "title": "Group Finance Leader - Drive Growth Across Brands",
+   "type": "job",
+   "publisher": "College Recruiter (RGIT Australia ad)",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/melissa-northey-4781b462_finance-manager-job-in-newstead-brisbane-activity-7436964213849468929-tZ1z",
+   "title": "Finance Manager opportunity at The Somewhere Co. Group - Melissa Northey",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-03-10"
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/in/jonathan-fletcher-0a5075146",
+   "title": "Jonathan Fletcher - Accountant, The Somewhere Co.",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "S8",
+   "url": "https://thesomewhereco.com/pages/work-with-us",
+   "title": "Work With Us - The Somewhere Co.",
+   "type": "website",
+   "publisher": "The Somewhere Co.",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "The Somewhere Co. operates the website thesomewhereco.com selling colourful everyday wares.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "The Somewhere Co - Bold & Colourful Everyday Wares",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "The Somewhere Co. is headquartered in Newstead, Queensland, with an office in Brisbane.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Headquartered in Newstead, Queensland, Australia, with an office in Brisbane.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Melanie Ragudos is a currently listed Bookkeeper at The Somewhere Co. (since Nov 2024), Xero certified.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Accounting & Finance Assistant | Bookkeeper | Xero & QuickBooks Online Certified | Remote-Ready",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Melanie Ragudos holds Xero certifications, including the Xero Certification Programme.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Xero Certification Programme by Xero",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "A Finance Officer ad (Sep 2025) lists a daily close of Cin7 into Xero and month-end revenue reconciliations with channel allocations.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Daily close of Cin7 into Xero, month-end revenue reconciliations including channel allocations, and bank reconciliation reports.",
+   "date": "2025-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The same ad lists daily bank reconciliations and a monthly credit card reconciliation.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Conduct daily bank reconciliations, including monthly credit card reconciliation.",
+   "date": "2025-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "A Group Finance Manager ad covers three brands (The Somewhere Co., The Somewhere Co. Mini, SMWR) across retail, wholesale, marketplaces and eCommerce, in Australia and internationally.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "own financial operations across its three brands—The Somewhere Co., The Somewhere Co. Mini, and SMWR—spanning retail, wholesale, marketplaces and eCommerce",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "In March 2026 a recruiter posted that the Finance Manager role sits at the centre of a lifestyle brand across eCommerce, wholesale and retail with global expansion underway.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "operating across eCommerce, wholesale and retail, with global expansion underway.",
+   "date": "2026-03",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Crystal Thornton is Finance Manager at The Somewhere Co. since Nov 2025.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Nov 2025 - Present (1 year) in Brisbane, State of Queensland, Australia",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The Somewhere Co.'s workforce is distributed across Australia, the United Kingdom and the Philippines.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Its workforce is distributed across Australia, United Kingdom, and Philippines.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Jonathan Fletcher joined as Accountant in Brisbane in June 2026.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Jun 2026 - Present (5 months) in Brisbane, State of Queensland, Australia",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "The company describes itself as one of the fastest-growing lifestyle brands in Australia.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Fancy working for one of the fastest-growing lifestyle brands in Australia?",
+   "date": "2026",
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Melanie Ragudos",
+   "title": "Bookkeeper",
+   "contactId": "the-somewhere-co--melanie-ragudos",
+   "linkedin": "https://www.linkedin.com/in/ragudosmelanie",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Crystal Thornton",
+   "title": "Finance Manager",
+   "contactId": "the-somewhere-co--crystal-thornton",
+   "linkedin": "https://linkedin.com/in/crystal-thornton-217a52b9",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "name": "Jonathan Fletcher",
+   "title": "Accountant",
+   "contactId": "the-somewhere-co--jonathan-fletcher",
+   "linkedin": "https://www.linkedin.com/in/jonathan-fletcher-0a5075146",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Own job ad describes the exact workload: daily Cin7-into-Xero close and channel revenue recs.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Three brands across several channels feeding Xero makes payout/revenue recs a close bottleneck; new Group Finance Manager hire signals a process-tightening window.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Only Melanie Ragudos (offshore bookkeeper) has a verified email; the Finance Manager (Crystal Thornton, the buyer) has none, so outreach goes to the day-to-day user and asks to be pointed to Crystal.",
+   "claimIds": [
+    "C3",
+    "C9"
+   ]
+  },
+  {
+   "text": "Group Finance Manager role may be filled/changing; finance leadership may shift.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcasts, blog posts or press quotes from finance staff found.",
+  "No Facebook/Instagram finance signals found.",
+  "Could not confirm whether the Group Finance Manager role has been filled."
+ ],
+ "searches": [
+  {
+   "query": "The Somewhere Co. Brisbane lifestyle brand group Group Finance Manager",
+   "results": 8
+  },
+  {
+   "query": "fetch thesomewhereco.com home",
+   "results": 1
+  },
+  {
+   "query": "fetch Finance Officer ad onlinejobs.ph",
+   "results": 1
+  },
+  {
+   "query": "fetch Melanie Ragudos LinkedIn",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "the-somewhere-co--melanie-ragudos",
+   "subject": "Cin7 into Xero at The Somewhere Co.",
+   "body": "Hi Melanie,\n\nThe Somewhere Co.'s Finance Officer ad from last year describes a daily close of Cin7 into Xero, plus month-end revenue reconciliations with channel allocations. That is a lot of matching across retail, wholesale and online, and I can see you are Xero certified, so you probably know it well. I built Vert to turn hours of reconciliation into minutes, with a trace behind every match so nothing is guessed. Who owns channel revenue recs at month-end today, and would a short look at how Vert handles them be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C3",
+    "C4"
+   ]
+  },
+  "followUp": {
+   "contactId": "the-somewhere-co--melanie-ragudos",
+   "subject": "Re: Cin7 into Xero at The Somewhere Co.",
+   "body": "Hi Melanie,\n\nFollowing up on my note last week. The Group Finance Manager role covers three brands, The Somewhere Co., The Somewhere Co. Mini and SMWR, across retail, wholesale, marketplaces and eCommerce. With that many channels feeding Xero, I'd guess revenue and payout recs are the slowest part of close. Is that fair, and is Crystal the right person to show Vert to?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C9",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "the-somewhere-co--melanie-ragudos",
+   "subject": "Re: Cin7 into Xero at The Somewhere Co.",
+   "body": "Hi Melanie,\n\nLast nudge from me. The ad also mentions daily bank reconciliations and a monthly credit card reconciliation, which Vert can do in minutes with a full audit trail. Happy to show it in 10 minutes, or I'll leave it there.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C3"
+   ]
+  }
+ }
+}

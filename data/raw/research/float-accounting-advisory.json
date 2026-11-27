@@ -1,0 +1,266 @@
+{
+ "accountId": "float-accounting-advisory",
+ "accountName": "Float Accounting & Advisory",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Float Accounting & Advisory is a Preston VIC firm (offices in Melbourne, Williamstown and Frankston) offering tax, bookkeeping, payroll, advisory and automation, with an e-commerce focus. Adam Abela is Co-Founder and CEO (listed as Head of Advisory on the site), with a long operations background, and has published on process documentation and cloud accounting.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.floataccounting.com.au/",
+   "title": "Business Tax Accountants | Business Advisory | Float Accounting",
+   "type": "website",
+   "publisher": "Float Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/adamabela",
+   "title": "Adam Abela | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/float-accounting",
+   "title": "Float Accounting & Advisory | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/adamabela_cloud-accounting-what-is-it-and-why-your-activity-6953245574968074240-UkPj",
+   "title": "Cloud accounting post | Adam Abela",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2022-07-14"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.floataccounting.com.au/why-business-systemisation-is-so-important-building-and-documenting-processes-in-your-business/",
+   "title": "Process Documentation: How to build and document business processes",
+   "type": "blog",
+   "publisher": "Float Accounting",
+   "date": "2022-02-28"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.floataccounting.com.au/cloud-accounting/",
+   "title": "Cloud Accounting | Xero & Cloud Apps | Float Accounting",
+   "type": "website",
+   "publisher": "Float Accounting",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Float's website lists Adam Abela (CPBA) as Head of Advisory on its team.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Adam Abela | CPBA",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Adam's LinkedIn (indexed Nov 2026) shows him as current Co-Founder & CEO of Float Accounting & Advisory.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Co-Founder & CEO @ Float Accounting | Leading Operational Excellence",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Float is headquartered in Preston, Victoria, with offices in Melbourne, Williamstown and Frankston.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Headquartered in Preston, Victoria, Australia, with offices in Melbourne, Williamstown, and Frankston.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Float describes its team as tax, accounting, finance, business, automation and outsourcing experts.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "tax, accounting, finance, business, automation and outsourcing experts",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Float says it is trusted by hundreds of growing Australian businesses.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Trusted by hundreds of growing aussie businesses",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "Adam has close to two decades of management and operations experience.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "With close to two decades of experience in management and operations",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Adam published a video on building and documenting business processes (Feb 2022).",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Adam Abela, CEO of Float Accounting, discusses how to build processes and create process documentation in your business.",
+   "date": "2022-02",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "Adam posted that Float uses Xero and are Xero Certified Partners (Jul 2022).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "At Float Accounting, we are Xero Certified Partners.",
+   "date": "2022-07",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Float's LinkedIn profile lists e-commerce among the sectors it serves.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "They offer a range of services including e-commerce, retail, wholesale",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Float helps clients get onto Xero and build an app stack for efficiency.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Float Accounting will get your business on to Xero and help you build your App Stack so you can gain efficiency and security",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Float's LinkedIn tech profile lists Xero, MYOB and QuickBooks; headcount shown as 3 (-20% YoY).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Tech Stack: asic, myob, microsoft, microsoft office, quickbooks, xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Adam Abela",
+   "title": "Co-Founder & CEO / Head of Advisory",
+   "contactId": "float-accounting-advisory--adam-abela",
+   "linkedin": "https://www.linkedin.com/in/adamabela",
+   "claimIds": [
+    "C1",
+    "C2",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Adam talks publicly about systemising and documenting processes: reconciliation is the obvious repeatable process.",
+   "claimIds": [
+    "C7",
+    "C6"
+   ]
+  },
+  {
+   "text": "E-commerce focus with Xero app stack implies high-volume payout and platform reconciliation.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  },
+  {
+   "text": "Small team across four locations means hours saved go straight to advisory capacity.",
+   "claimIds": [
+    "C3",
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Adam is an operations leader, not a CPA; the principal accountant (Adrian Monarca) may own tooling decisions.",
+   "claimIds": [
+    "C1",
+    "C2"
+   ]
+  },
+  {
+   "text": "Team looks very small (LinkedIn shows 3), so budget may be limited.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "gaps": [
+  "Float website pages could not be fetched directly (HTTP 500); relied on search excerpts. No careers/hiring page, podcast, or recent posts found."
+ ],
+ "searches": [
+  {
+   "query": "Adam Abela Float Accounting",
+   "results": 8
+  },
+  {
+   "query": "Float Accounting ecommerce automation Xero",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "float-accounting-advisory--adam-abela",
+   "subject": "Re: Idea for Float",
+   "body": "Hi Adam,\n\nFollowing up on my note on Tuesday. You've spoken about documenting business processes, and Float helps clients build an app stack around Xero. Reconciliation across hundreds of client files is the repeatable process worth automating first. Vert takes 4 hours of manual reconciling down to 5 minutes, with every match traceable. Could I show it on a sample file?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C10",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "float-accounting-advisory--adam-abela",
+   "subject": "Re: Idea for Float",
+   "body": "Hi Adam,\n\nLast note from me. With close to two decades in operations, you'll know where time leaks. For Float, with offices in Preston, Melbourne, Williamstown and Frankston, reconciling is likely one of them. Vert gives that time back to advisory work. Happy to show it in 10 minutes if useful.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C3"
+   ]
+  }
+ }
+}

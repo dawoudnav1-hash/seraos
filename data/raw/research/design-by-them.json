@@ -1,0 +1,259 @@
+{
+ "accountId": "design-by-them",
+ "accountName": "DESIGN BY THEM",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "DesignByThem is a Sydney furniture and lighting brand founded in 2007 that pays royalties to Australian designers and manufactures globally. Ellen Yang joined as Head of Finance in January 2026 after leading regional finance and ERP consolidation at SharkNinja APAC. The founders discuss cashflow and systems openly in a November 2025 interview and a July 2026 podcast.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://au.linkedin.com/in/ellenyang1",
+   "title": "Ellen Yang - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/designbythem",
+   "title": "DESIGN BY THEM - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.bespokecareers.com/articles/are-australian-designers-thinking-too-small-designbythem/",
+   "title": "The Secret to Building a Successful Design Business - Design By Them",
+   "type": "blog",
+   "publisher": "Bespoke Careers",
+   "date": "2025-11-17"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.buildbeautifulpodcast.com/2516687/episodes/19423922-he-got-a-30k-loan-for-a-pool-party-it-started-a-global-design-brand-nicholas-karlovasitis",
+   "title": "He Got a $30K Loan for a Pool Party - Nicholas Karlovasitis",
+   "type": "podcast",
+   "publisher": "Build Beautiful",
+   "date": "2026-07-02"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.designbythem.com/en-us/pages/meet-the-team",
+   "title": "Meet The Team - DESIGN BY THEM",
+   "type": "website",
+   "publisher": "DesignByThem",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "DesignByThem is a Sydney-based Australian company designing and selling furniture, lighting and home accessories with worldwide shipping.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Design By Them is an Australian company that specializes in designing and selling unique Australian designed furniture, lighting, and home accessories.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Ellen Yang is Head of Finance at DesignByThem, in the role since January 2026 and shown as current.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Head of Finance - DESIGN BY THEM (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Ellen previously led the finance team across four countries at SharkNinja APAC and consolidated ERP systems across the region.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Spearheaded Finance IT system initiatives, consolidating ERP systems across the region and improved core finance processes",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Ellen's LinkedIn includes leading automation of month-end processes in an earlier role as Senior Financial Accountant.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "I was responsible for driving automation by leading the automation of month end processes.",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Founders said in a November 2025 interview that the best invoices they pay are designer royalties, which they would pay instead of logistics bills.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We would happily pay those all day instead of logistics bills.",
+   "date": "2025-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In the same interview Sarah Gibson said the team are geeks for systems and love a spreadsheet as much as a prototype.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We are geeks for systems. We love a spreadsheet as much as a prototype.",
+   "date": "2025-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The founders discussed pricing and cashflow, and said business coaches talked about cash flow while they focused on aesthetics.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The conversation gets into IP, copies, pricing, cashflow, and why treating business as a design problem changed everything for them.",
+   "date": "2025-11",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "A July 2026 podcast says Design By Them has a team of 35 and dealers across Dubai, the UK, the Netherlands and the US.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "has a team of 35 and dealers across Dubai, the UK, the Netherlands, and the US",
+   "date": "2026-07",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "DesignByThem's team page lists Nehal Motta as Financial Accountant and Jason Ju as Head of Systems.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Nehal Motta",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "The company says it manufactures with factories around the world and pays real royalties to Australian designers.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "backing Australian designers with real royalties, and choosing factories around the world",
+   "date": "2025-11",
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Ellen Yang",
+   "title": "Head of Finance",
+   "contactId": "design-by-them--ellen-yang",
+   "linkedin": "https://www.linkedin.com/in/ellenyang1",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Nehal Motta",
+   "title": "Finance Manager",
+   "contactId": "design-by-them--nehal-motta",
+   "linkedin": "https://linkedin.com/in/nehal-motta-058ab17",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Founders said the best invoices they pay are designer royalties - royalty and logistics invoice flow is core to the business",
+   "claimIds": [
+    "C5",
+    "C10"
+   ]
+  },
+  {
+   "text": "Ellen is new (Jan 2026) with ERP consolidation and month-end automation background, so likely receptive to tooling",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "International growth with dealers in four regions adds multi-currency payments and recs",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Public sources do not confirm Ellen's exact tooling views; Cin7/Xero/Dext stack comes only from Vert's internal notes, not cited here",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Ellen Yang posts or talks found",
+  "Tech stack (Xero, Cin7, Dext) not independently confirmed in a public source",
+  "No current finance job ads found"
+ ],
+ "searches": [
+  {
+   "query": "Design By Them Sarah Gibson Nicholas Karlovasitis founders interview cash flow",
+   "results": 8
+  },
+  {
+   "query": "Design By Them Ellen Yang Head of Finance",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "design-by-them--ellen-yang",
+   "subject": "Month-end at DesignByThem",
+   "body": "Hi Ellen,\n\nI read how Sarah and Nick call designer royalties the best invoices they pay, ahead of logistics bills, and that DesignByThem is now selling through dealers in Dubai, the UK, the Netherlands and the US. That is a lot of royalty, freight and multi-currency payments to reconcile each month. I built Vert, which turns hours of manual reconciliation into minutes with a traceable audit trail. Given you led month-end automation earlier in your career, how much of the close at DesignByThem is still manual?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C8",
+    "C4"
+   ]
+  },
+  "followUp": {
+   "contactId": "design-by-them--ellen-yang",
+   "subject": "Re: Month-end at DesignByThem",
+   "body": "Hi Ellen,\n\nFollowing up on my note last week. Your move from consolidating ERP systems across SharkNinja APAC to DesignByThem suggests you have strong views on what a tidy close looks like. Where would you most want hours back: supplier and freight bills, or bank and payout recs? Happy to show Vert on either in ten minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C2"
+   ]
+  },
+  "followUp2": {
+   "contactId": "design-by-them--ellen-yang",
+   "subject": "Re: Month-end at DesignByThem",
+   "body": "Hi Ellen,\n\nLast nudge from me. Sarah's line about loving a spreadsheet as much as a prototype made me think reconciliation might be where the team wants fewer spreadsheets. If a faster, traceable close is on your list this year, I would value ten minutes of your view.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  }
+ }
+}

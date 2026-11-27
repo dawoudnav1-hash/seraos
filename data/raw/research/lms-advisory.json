@@ -1,0 +1,301 @@
+{
+ "accountId": "lms-advisory",
+ "accountName": "LMS Advisory",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "LMS Advisory is a Parramatta CPA-led accounting and advisory firm run by Managing Director Alexander Laureti. It lists Month End Close and bank and credit card reconciliations among its services and works across MYOB, Xero and QuickBooks. Laureti has spoken publicly about wanting software to handle manual processing, and his LinkedIn headline includes 'AI+'.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.lmsadvisory.com.au/",
+   "title": "LMS Advisory | Parramatta Accountants & Business Advisors",
+   "type": "website",
+   "publisher": "LMS Advisory",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.lmsadvisory.com.au/about/team/alexander-laureti/",
+   "title": "Alexander Laureti - LMS Advisory",
+   "type": "website",
+   "publisher": "LMS Advisory",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/alexanderlaureti",
+   "title": "Alexander Laureti | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.lmsadvisory.com.au/accounting/foundations/",
+   "title": "LMS Advisory | Foundational Accounting Services",
+   "type": "website",
+   "publisher": "LMS Advisory",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.lmsadvisory.com.au/accounting/bookkeeping/",
+   "title": "Bookkeeping - LMS Advisory",
+   "type": "website",
+   "publisher": "LMS Advisory",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.lmsadvisory.com.au/wp-content/uploads/2026/05/LMS_2026-27_Company_Tax_Update.pdf",
+   "title": "2026-27 Company Tax Update briefing",
+   "type": "other",
+   "publisher": "LMS Advisory",
+   "date": "2026-05-12"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.accountantsdaily.com.au/business/15582-cerebiz-cloud-based-tools-for-myob-and-xero-go-beyond-accounting",
+   "title": "Cerebiz Cloud Based Tools for MYOB and Xero go beyond accounting",
+   "type": "news",
+   "publisher": "Accountants Daily",
+   "date": "2021-04-19"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.lmsadvisory.com.au/about/employment-opportunities/cadet-accountant/",
+   "title": "Hiring Cadet Accountant - LMS Advisory",
+   "type": "job",
+   "publisher": "LMS Advisory",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://linkedin.com/company/lms-advisory",
+   "title": "LMS Advisory Pty Ltd | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "LMS Advisory operates from Level 6, 91 George Street, Parramatta NSW, matching the lmsadvisory.com.au domain.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 6, 91 George street, Parramatta, NSW, 2150",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Alexander Laureti is Managing Director and has been principal of LMS Advisory since 2010.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "As principal of LMS Advisory since 2010",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Alexander's LinkedIn (indexed Nov 2026) shows him as current Managing Director of LMS Advisory, with 'AI+' in his headline.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Managing Director - LMS Advisory Pty Ltd (Current)",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Alexander's LinkedIn headline includes 'AI+'.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Entrepreneur | Investor | AI+ | MD @ LMS Advisory",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "LMS lists Month End Close and Balance Sheet Optimisation among its foundation accounting services.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Month End Close",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "LMS bookkeeping services include bank and credit card reconciliations.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Bank and credit card reconciliations",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Alexander delivered a briefing on the 2026-27 Federal Budget company tax measures.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "A briefing from Alexander Laureti, Managing Director, LMS Advisory Delivered: 12 May 2026",
+   "date": "2026-05",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In a 2021 Accountants Daily case study Alexander said he wants software to do the manual processing in the background so staff do productive work.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "let the software do the manual processing component in the background",
+   "date": "2021-04",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "A Cadet Accountant role at LMS involves reconciling client records in MYOB, Xero and QuickBooks.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Reconciling and adjusting clients financial records and financial accounts in MYOB, Xero and Quickbooks.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "LMS advertises itself as tech-first and hiring to incorporate new tools.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Tech First – We are always looking to incorporate the best new tech to deliver exceptional client outcomes",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "LMS's LinkedIn company tech profile lists MYOB, QuickBooks and Xero.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Tech Stack: asic, myob, quickbooks, xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "LMS bookkeeping is delivered through Keep My Books Online alongside the firm.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "LMS Bookkeeping proudly incorporates Keep My Books Online",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Alexander Laureti",
+   "title": "Managing Director",
+   "contactId": "lms-advisory--alexander-laureti",
+   "linkedin": "https://www.linkedin.com/in/alexanderlaureti",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Alexander has said he wants software to handle manual processing so staff do higher-value work, and his headline says AI+: receptive to automation.",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C8"
+   ]
+  },
+  {
+   "text": "Month End Close is a listed service and juniors reconcile across MYOB, Xero and QuickBooks: reconciliation load is multi-platform.",
+   "claimIds": [
+    "C5",
+    "C9",
+    "C11"
+   ]
+  },
+  {
+   "text": "Separate bookkeeping arm (Keep My Books Online) means reconciliation volume sits across two teams.",
+   "claimIds": [
+    "C6",
+    "C12"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Alexander already uses automation (Cerebiz) so may compare Vert to existing tools (2021 source).",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No dated Alexander posts on reconciliation pain found; no podcast found; Facebook/Instagram not checked in depth."
+ ],
+ "searches": [
+  {
+   "query": "LMS Advisory website",
+   "results": 6
+  },
+  {
+   "query": "Alexander Laureti LMS Advisory",
+   "results": 8
+  },
+  {
+   "query": "LMS Advisory careers Xero MYOB",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "lms-advisory--alexander-laureti",
+   "subject": "Re: Idea for LMS Advisory",
+   "body": "Hi Alexander,\n\nFollowing up on my note on Monday. LMS lists Month End Close as a foundation service, and your cadet role has juniors reconciling client records across MYOB, Xero and QuickBooks. Vert takes that reconciliation work from 4 hours to 5 minutes, with every match traceable. Could I show it running on one of your client files?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C9",
+    "C11"
+   ]
+  },
+  "followUp2": {
+   "contactId": "lms-advisory--alexander-laureti",
+   "subject": "Re: Idea for LMS Advisory",
+   "body": "Hi Alexander,\n\nOne last note. In a 2021 Accountants Daily piece you said you want software handling the manual processing in the background. Vert does that for reconciliation and cash coding across your MYOB and Xero files. If a 10 minute walkthrough helps, I'll set one up.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C11"
+   ]
+  }
+ }
+}

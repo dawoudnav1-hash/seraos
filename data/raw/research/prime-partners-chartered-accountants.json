@@ -1,0 +1,327 @@
+{
+ "accountId": "prime-partners-chartered-accountants",
+ "accountName": "Prime Partners Chartered Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Prime Partners is a North Sydney chartered accounting and advisory firm with a second office in Orange and a retail/e-commerce specialism. It runs an outsourced Finance Hub (external finance team plus virtual CFO) and is hiring a senior accountant for it. Director James Carey is the firm's thought leader and has publicly experimented with ChatGPT for internal reporting.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://pp.tax/",
+   "title": "Prime Partners home",
+   "type": "website",
+   "publisher": "Prime Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://pp.tax/about-us/our-team/james-carey/",
+   "title": "James Carey profile",
+   "type": "website",
+   "publisher": "Prime Partners",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/james-carey-b4b5384a",
+   "title": "James Carey LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "S4",
+   "url": "https://pp.tax/services/external-finance-team-virtual-cfo/",
+   "title": "External Finance Team & Virtual CFO",
+   "type": "website",
+   "publisher": "Prime Partners",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://pp.tax/careers/senior-accountant-finance-hub/",
+   "title": "Job: Senior Accountant, Finance Hub",
+   "type": "job",
+   "publisher": "Prime Partners",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.acuitymag.com/technology/how-are-ca-anz-members-using-ai",
+   "title": "How are CA ANZ members using AI",
+   "type": "news",
+   "publisher": "Acuity",
+   "date": "2024-09-05"
+  },
+  {
+   "id": "S7",
+   "url": "https://pp.tax/insights/articles/orbit-accounting-joins-prime-partners-interview-with-greg-dennis/",
+   "title": "Orbit Joins Prime Partners",
+   "type": "blog",
+   "publisher": "Prime Partners",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://pp.tax/industries/retail-ecommerce-accountants/",
+   "title": "Accountants for Retail & E-commerce",
+   "type": "website",
+   "publisher": "Prime Partners",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://pp.tax/about-us/our-team/greg-dennis/",
+   "title": "Greg Dennis profile",
+   "type": "website",
+   "publisher": "Prime Partners",
+   "date": null
+  },
+  {
+   "id": "S10",
+   "url": "https://pp.tax/insights/articles/prime-partners-automates-accounts/",
+   "title": "How Prime Partners Automates Its Accounts",
+   "type": "blog",
+   "publisher": "Prime Partners",
+   "date": "2017-11-02"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Prime Partners is a chartered accounting and business advisory firm based in North Sydney with a second office in Orange.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Prime Partners is a chartered accounting and business advisory firm based in North Sydney, with a second office in Orange serving the Central West.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "James Carey is listed as a current Director of Prime Partners, in the role since December 2012.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director - Prime Partners Chartered Accountants (Current) Dec 2012 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "James Carey is Prime's primary thought leader and webinar presenter, and is helping clients put AI to work on repetitive admin.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "James is also helping clients put AI to work.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Acuity reported James used ChatGPT to build an internal reporting dashboard for his team, replacing an ad hoc, manual reporting process.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Carey has been dabbling with ChatGPT with a trial-and-error approach that has yielded some neat results.",
+   "date": "2024-09",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "James moved from coding bank statements by hand to Xero in 2012 and has said time saved on data entry goes to talking to clients about their business.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "By not spending a client's accounting dollars on doing data entry, we could then spend that time talking to them about their business.",
+   "date": "2020-05",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Prime offers an outsourced finance department, the Finance Hub, as a service.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "business advisory, an outsourced finance department, self-managed super, and R&D tax incentives",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The Finance Hub external finance team covers AP and AR oversight, bank reconciliation governance, payroll review, BAS preparation and general ledger maintenance.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "bank reconciliation governance, payroll review, BAS preparation and general ledger maintenance",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Prime is advertising for a senior accountant to take a lead role in the Finance Hub, acting as the outsourced finance function for growing businesses.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We are looking for a senior accountant to take a lead role in our Finance Hub, acting as the outsourced finance function for growing businesses.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The Finance Hub uses a 50/50 onshore and offshore delivery model.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "The Finance Hub applies a 50/50 onshore and offshore delivery model",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Prime Partners serves online and direct-to-consumer, fashion and apparel, and food and beverage brands.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "We work with online and direct-to-consumer brands, fashion and apparel labels, food and beverage brands",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Orbit Accounting has joined Prime Partners; the combined team has moved into North Sydney.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Orbit Accounting has joined Prime Partners.",
+   "date": null,
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "Prime started using Xero in 2012 and links Receipt Bank (now Dext) to it.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "We started using Xero back in 2012 and have always practised what we preach.",
+   "date": "2017-11",
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "James Carey",
+   "title": "Director",
+   "contactId": "prime-partners-chartered-accountants--james-carey",
+   "linkedin": "https://www.linkedin.com/in/james-carey-b4b5384a",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Greg Dennis",
+   "title": "Director, Finance Hub",
+   "contactId": null,
+   "linkedin": null,
+   "claimIds": [
+    "C9",
+    "C11"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Finance Hub is hiring a senior accountant; reconciliation load per client portfolio is the constraint Vert removes.",
+   "claimIds": [
+    "C8",
+    "C7"
+   ]
+  },
+  {
+   "text": "James has publicly used ChatGPT to fix a manual reporting process and positions himself as helping clients apply AI, so he is open to AI tooling but will value traceability.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Retail and e-commerce brand clients run multi-channel payouts that feed reconciliation work in the Finance Hub.",
+   "claimIds": [
+    "C10",
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Orbit merger and Finance Hub build-out mean tooling decisions may sit with Greg Dennis (Finance Hub director) rather than James.",
+   "claimIds": [
+    "C11",
+    "C9"
+   ]
+  },
+  {
+   "text": "James is an AI-forward adopter and the firm may already use its own automation or consult on AI; check for an incumbent tool.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No dated recent LinkedIn posts or podcasts by James found.",
+  "Current reconciliation tooling (Dext/A2X/other) not confirmed beyond 2017 Xero/Receipt Bank article.",
+  "Date of the Orbit merger not stated on the page."
+ ],
+ "searches": [
+  {
+   "query": "James Carey Prime Partners Chartered Accountants North Sydney director",
+   "results": 8
+  },
+  {
+   "query": "Prime Partners Orbit Accounting Finance Hub outsourced finance Xero reconciliation",
+   "results": 6
+  },
+  {
+   "query": "fetch pp.tax home, retail e-commerce page, Orbit article",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "prime-partners-chartered-accountants--james-carey",
+   "subject": "Re: Idea for Prime Partners",
+   "body": "Hi James, following up on my note last week. I noticed Prime is hiring a senior accountant to lead the Finance Hub, and your services page lists bank reconciliation governance as part of it. Vert reconciles and cash codes with a trail you can trace, so each accountant can carry a bigger client portfolio. How much of a Finance Hub client's month goes on reconciling before the reporting starts?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C7",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "prime-partners-chartered-accountants--james-carey",
+   "subject": "Re: Idea for Prime Partners",
+   "body": "Hi James, last note from me. I read in Acuity how you used ChatGPT to replace a manual reporting process for your team. Client reconciling feels like the same kind of frustration. Would a 10 min look at how Vert handles it be worthwhile?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  }
+ }
+}

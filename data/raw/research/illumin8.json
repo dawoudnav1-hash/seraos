@@ -1,0 +1,274 @@
+{
+ "accountId": "illumin8",
+ "accountName": "Illumin8",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Illumin8 is a Mornington, VIC accounting and bookkeeping firm founded in 2012 by Andrew Van De Beek, serving ecommerce, trades, creative, alcohol and hospitality clients on Xero. Its site lists Shopify and Innovation services, and past and current hiring posts stress automating Xero work. Andrew has described a limited role focused on purpose and culture, so day-to-day reconciliation owners may sit elsewhere in the team.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://illumin8.com.au",
+   "title": "Illumin8: Accounting For Your Tomorrow",
+   "type": "website",
+   "publisher": "Illumin8",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/andrewvandebeek",
+   "title": "Andrew Van De Beek FCA LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/andrewvandebeek_illumin8-were-accounting-for-your-tomorrow-activity-6999128503401029632-HFob",
+   "title": "Junior Bookkeeper Role post",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Andrew Van De Beek)",
+   "date": "2022-11-17"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/kristianreyes_a-great-role-has-become-available-with-one-activity-7468099563292303360-uagt",
+   "title": "Reshare of Andrew's Accountant role post",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Kris Reyes)",
+   "date": "2026-06-04"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.rmit.edu.au/alumni/stories/interviews/5-minutes-with-andrew-van-de-beek",
+   "title": "5 minutes with Andrew Van De Beek",
+   "type": "other",
+   "publisher": "RMIT University",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://news.alia.asia/en/contributions/illumin8/",
+   "title": "Why Andrew Van De Beek Gave Away Equity",
+   "type": "news",
+   "publisher": "Alia",
+   "date": "2026-11-22"
+  },
+  {
+   "id": "S7",
+   "url": "https://au.seek.com/illumin8-partners-jobs",
+   "title": "Illumin8 Partners jobs",
+   "type": "job",
+   "publisher": "SEEK",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Illumin8 is based at 81 Watt Rd, Mornington VIC 3931.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "81 Watt Rd, Mornington VIC, 3931",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Andrew Van De Beek is the current Founder & Head of Purpose of Illumin8 (since May 2012), based in Mornington.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Founder & Head of Purpose - Illumin8 (Current) May 2012 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Andrew says that since returning in July 2023 he has a limited role focused on purpose, culture, leadership development and growth, and spends less time with clients.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I don't spend all that much time with clients anymore",
+   "date": "2023-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Andrew's 2022 bookkeeper ad sought someone who wants to automate Xero to free time for the fun side of bookkeeping.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Someone that wants to automate the crap out of Xero to drive more time for the 'fun' side of bookkeeping.",
+   "date": "2022-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "In June 2026 a recruiter reshared Andrew's post saying Illumin8 is hiring an Accountant, with clients including some scaling online stores.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Some are scaling online stores.",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Illumin8's site lists a Shopify service and an Innovation service about integrating technology to save time.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Integrating technology into your systems can save you time and simplify many of your processes.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Illumin8's site says it serves agencies, Shopify and online retail, tradie, hospitality and professional clients.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Online retail is all about smart management.",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Illumin8 supports over 300 businesses and had over 20 team members per Andrew's RMIT alumni interview.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Now with over 20 team members & over 300 businesses that we support",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Illumin8 was named Fast-Growing Firm of the Year at the 2021 Australian Accounting Awards, per a November 2026 Alia feature.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Fast-Growing Firm of the Year at the 2021 Australian Accounting Awards",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Illumin8 is advertising Intermediate and Senior Accountant roles in Mornington with hands-on BAS, ITR and Xero exposure.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Hands-on BAS, ITR & Xero exposure with varied clients.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Andrew Van De Beek",
+   "title": "Founder & Head of Purpose",
+   "contactId": "illumin8--andrew-van-de-beek",
+   "linkedin": "https://www.linkedin.com/in/andrewvandebeek/",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "His 2022 bookkeeper ad asked for someone to automate Xero; Vert is that, applied to reconciliations.",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  {
+   "text": "Hiring accountants again (2026) while serving Shopify/online retail clients, where payout reconciliation is heavy.",
+   "claimIds": [
+    "C5",
+    "C10",
+    "C7"
+   ]
+  },
+  {
+   "text": "Innovation service line means the firm already sells technology-led efficiency.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Andrew now has a limited, culture-focused role and little client time, so he may not own reconciliation workflow; may need to be passed to the team.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Firm may already use Xero automation tools; none confirmed.",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No named reconciliation or Practice-Manager owner with a verified email found (Michelle Minio has no email on record).",
+  "No podcast transcript reviewed; Andrew hosts an accounting podcast but episodes were not located.",
+  "No tool stack beyond Xero and Shopify mentions."
+ ],
+ "searches": [
+  {
+   "query": "illumin8.com.au home",
+   "results": 1
+  },
+  {
+   "query": "Andrew Van De Beek Illumin8 Mornington accountant founder",
+   "results": 10
+  },
+  {
+   "query": "illumin8 Mornington bookkeeper OR accountant job vacancy",
+   "results": 6
+  },
+  {
+   "query": "Alia Illumin8 feature fetch",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "illumin8--andrew-van-de-beek",
+   "subject": "Re: Idea for Illumin8",
+   "body": "Hi Andrew, following up on my earlier note. Your 2022 bookkeeper ad asked for someone who wants to automate the crap out of Xero. Illumin8 also looks after Shopify and online retail clients, where payouts never match the bank one to one. Which reconciliations is your team still doing by hand there? Vert turns them into minutes, with a trail you can trace.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "illumin8--andrew-van-de-beek",
+   "subject": "Re: Idea for Illumin8",
+   "body": "Hi Andrew, last nudge from me. Your post about hiring another Accountant mentions clients scaling online stores. Another pair of hands helps, but so does taking the routine reconciling off them first. Worth ten minutes to see Vert on a sample Xero file, or is someone else on your team better placed?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C10"
+   ]
+  }
+ }
+}

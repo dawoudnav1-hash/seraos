@@ -1,0 +1,335 @@
+{
+ "accountId": "rdl-accountants",
+ "accountName": "RDL Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "RDL Accountants is a Chartered Accounting firm in Blackburn, Melbourne, with 60+ years of history, tax as its major activity, and audit, business services and not-for-profit work. Matthew Hung, Director since 2013, spoke in a 2025 Bigfish case study about being the first call for clients and being selective about AI features. The firm was advertising for tax and business services intermediates, seniors and graduates in November 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.rdlaccountants.com.au/",
+   "title": "Accounting Service Melbourne | Accountants Blackburn | RDL",
+   "type": "website",
+   "publisher": "RDL Accountants",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.rdlaccountants.com.au/about-us/",
+   "title": "Experienced Accounting Firm | RDL Accountants",
+   "type": "website",
+   "publisher": "RDL Accountants",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/matthew-hung-3318a548",
+   "title": "Matthew Hung - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.rdlaccountants.com.au/our-team/matthew-hung/",
+   "title": "Matthew Hung - RDL Accountants",
+   "type": "website",
+   "publisher": "RDL Accountants",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://bigfish.com.au/case-study-consistency-counts/",
+   "title": "Consistency Counts - IT Support Case Study | RDL Accountants",
+   "type": "blog",
+   "publisher": "Bigfish Technology",
+   "date": "2025-08-18"
+  },
+  {
+   "id": "S6",
+   "url": "https://workmundi.com/vaga/c2Vlazo5NTg3Njk3Mw",
+   "title": "Tax/Business Services - Intermediates and Seniors - RDL Accountants",
+   "type": "job",
+   "publisher": "WorkMundi (RDL job ad)",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "S7",
+   "url": "https://collegerecruiter.com/job/3031013088-graduate-accountants-tax--biz-services-hybrid-ca-study",
+   "title": "Graduate Accountants - Tax & Biz Services (Hybrid CA Study)",
+   "type": "job",
+   "publisher": "College Recruiter (RDL job ad)",
+   "date": "2026-11"
+  },
+  {
+   "id": "S8",
+   "url": "https://linkedin.com/company/rdl-accountants",
+   "title": "RDL Accountants - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://www.rdlaccountants.com.au/careers/",
+   "title": "Careers | RDL Accountants",
+   "type": "website",
+   "publisher": "RDL Accountants",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "RDL Accountants is at 60-64 Railway Rd, Blackburn, Victoria, with 60+ years in business.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "RDL Accountants 60-64 Railway Rd, Blackburn 3130 PO Box 1088, Blackburn North 3130",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Matthew Hung has been a Director of RDL Accountants since July 2013 (partner appointed 2013), still current on LinkedIn (Oct 2026).",
+   "sourceIds": [
+    "S3",
+    "S2"
+   ],
+   "quote": "Director (Current) Jul 2013 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Matthew Hung is a Fellow Chartered Accountant who works primarily with business clients and has skills in management accounting, business consulting and tax planning.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "He has specialised skills in Management Accounting, Business Consulting and Tax Planning",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In an August 2025 Bigfish case study, Matthew said RDL aims to be the first call clients make, like a GP for business.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We aim to be the first call our clients make,\" says Matthew Hung, Director at RDL Accountants. \"Like a GP for business",
+   "date": "2025-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In the same case study Matthew said every platform RDL uses seems to have a new AI feature, but the firm does not want features it won't use and wants to find what is right for it.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Every platform we're using seems to have some new AI feature. But we don't want 100 features we don't use. It's about finding what's right for us.",
+   "date": "2025-08",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Matthew named cyber security as a key technology risk because RDL holds a lot of sensitive data.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "A key risk is obviously cyber security. How do we protect as much as we can, but also keep things working efficiently?",
+   "date": "2025-08",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "RDL has used Bigfish Technology as its IT partner since 2008.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "RDL has chosen Bigfish Technology as their IT solutions partner since 2008.",
+   "date": "2025-08",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "RDL's about page says taxation is the firm's major activity, alongside accounting, auditing, financial management and superannuation.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "The major activity is in the field of taxation.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "RDL advertised on 13 Nov 2026 for Tax/Business Services Intermediates and Seniors, describing itself as a dynamic and growing firm.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "RDL Accountants is a dynamic and growing Chartered Accounting firm based in Blackburn.",
+   "date": "2026-11-13",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "RDL is also recruiting Graduate Accountants for Tax & Business Services, with study assistance toward CA qualification.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Graduate Accountants – Tax & Business Services",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "RDL's Tax and Business Services division serves business clients across a diverse range of industries.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "The firm’s Tax and Business Services division services business clients in a diverse range of industries.",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn shows RDL with 17 employees (+9.1% YoY), while the website claims over 35 specialists.",
+   "sourceIds": [
+    "S8",
+    "S1"
+   ],
+   "quote": "RDL Accountants employs 17 people (+9.1% YoY, +2 people).",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "RDL's careers page describes it as a vibrant, growing practice in Melbourne's eastern suburbs.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Interested in joining a vibrant, growing practice in Melbourne’s eastern suburbs?",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Matthew Hung",
+   "title": "Director",
+   "contactId": "rdl-accountants--matthew-hung",
+   "linkedin": "https://www.linkedin.com/in/matthew-hung-3318a548",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Fraser Holt",
+   "title": "Director & Senior Financial Advisor",
+   "contactId": "rdl-accountants--fraser-holt",
+   "linkedin": "https://www.linkedin.com/in/fraser-holt-5a399365",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Matthew's own words on AI: platforms keep adding AI features, RDL wants only what's right for it. Position Vert as one focused job, reconciliation, rather than another feature set.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "Active hiring of tax/business services intermediates, seniors and graduates in Nov 2026 shows capacity pressure.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  },
+  {
+   "text": "'GP for business' positioning: time freed from compilation work supports being the first call for clients.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Tax-dominant practice with audit and not-for-profit work; limited bookkeeping or month-end signal.",
+   "claimIds": [
+    "C8"
+   ]
+  },
+  {
+   "text": "Matthew is cautious on AI and cyber risk; will want a security and data-handling story, and IT decisions run through Bigfish.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Headcount conflicting (17 on LinkedIn vs 35+ on website), so firm size is uncertain.",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "gaps": [
+  "No firm blog posts on reconciliation or close found; the firm's news posts cover tax and super topics.",
+  "No podcast or video by Matthew found.",
+  "Practice management or bookkeeping tech stack (Xero/MYOB/Dext) not confirmed.",
+  "No Facebook/Instagram content reviewed."
+ ],
+ "searches": [
+  {
+   "query": "site:rdlaccountants.com.au home, about-us, news",
+   "results": 3
+  },
+  {
+   "query": "Matthew Hung RDL Accountants director Blackburn",
+   "results": 8
+  },
+  {
+   "query": "RDL Accountants Blackburn careers OR job OR Xero OR MYOB OR Dext",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "rdl-accountants--matthew-hung",
+   "subject": "A focused AI use at RDL",
+   "body": "Hi Matthew,\n\nIn the Bigfish case study you said every platform seems to have a new AI feature, but you don't want 100 features you don't use. That is how I built Vert: one job, reconciliation and cash coding, turned from hours into minutes, with a traceable audit trail instead of guessing. RDL advertising for tax and business services intermediates and seniors this month suggests the team is busy, and that capacity is better spent on advice than matching transactions. Is reconciliation somewhere RDL would consider AI?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C9",
+    "C4"
+   ]
+  },
+  "followUp": {
+   "contactId": "rdl-accountants--matthew-hung",
+   "subject": "Re: A focused AI use at RDL",
+   "body": "Hi Matthew,\n\nFollowing up on my note. You described RDL as the first call clients make, like a GP for business. That is hard when your seniors are tied up on reconciling. Vert takes the reconciliation and cash coding so they keep time for those client questions, and every match is traceable. Worth a 10 min look this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  }
+ }
+}

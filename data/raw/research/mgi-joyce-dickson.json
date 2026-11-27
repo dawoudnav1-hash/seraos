@@ -1,0 +1,287 @@
+{
+ "accountId": "mgi-joyce-dickson",
+ "accountName": "MGI Joyce Dickson",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "MGI Joyce|Dickson is a Griffith (Canberra) ACT accounting and advisory firm and MGI network member. Matthew Bramhall has been a Partner since March 2021 and lists Outsourced Financial Controller among his specialties. The firm sells external CFO services including monthly management reports and was recruiting a Senior Financial Controller and Business Services seniors in May 2026. Two emails already sent (16 and 23 Nov 2026); follow-ups take new angles.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.mgijd.com.au/services/external-cfo-financial-management/",
+   "title": "External CFO Services & Financial Management",
+   "type": "website",
+   "publisher": "MGI Joyce|Dickson",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.mgijd.com.au/who-we-are/our-people/matthew-bramhall/",
+   "title": "Matthew Bramhall",
+   "type": "website",
+   "publisher": "MGI Joyce|Dickson",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/matthew-bramhall-4667b649",
+   "title": "Matthew Bramhall - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.accountantsdaily.com.au/australian-accounting-awards/winners/2022-winners-and-finalists",
+   "title": "2022 Winners and finalists",
+   "type": "news",
+   "publisher": "Accountants Daily",
+   "date": "2022-05-03"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/mgijd_office-manager-job-in-griffith-canberra-activity-7462000959678812161-8z9f",
+   "title": "We currently have two exciting opportunities available",
+   "type": "linkedin",
+   "publisher": "MGI Joyce|Dickson on LinkedIn",
+   "date": "2026-05-18"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/mgijd_senior-accountant-business-services-job-activity-7460490992345886720-KJC8",
+   "title": "Two additional opportunities within our Business Services Team",
+   "type": "linkedin",
+   "publisher": "MGI Joyce|Dickson on LinkedIn",
+   "date": "2026-05-14"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.mgijd.com.au/careers/",
+   "title": "Careers - MGI Joyce|Dickson",
+   "type": "website",
+   "publisher": "MGI Joyce|Dickson",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "MGI Joyce|Dickson's office is at Level 1, 65 Canberra Avenue, Griffith ACT 2603.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 1 65 Canberra Avenue GRIFFITH ACT 2603 Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Matthew Bramhall is listed on LinkedIn as a current Partner at MGI Joyce|Dickson, in the role since March 2021.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Partner (Current) Mar 2021 - Present (5 years and 8 months) in Canberra",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "The firm's own profile page lists Outsourced Financial Controller among Matthew's areas of expertise.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Outsourced Financial Controller (FC)",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Matthew's profile says he has experience improving cash flow management and implementing business process.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "He has experience in small business restructuring, business valuations, improving cash flow management and implementing business process.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Matthew was a finalist for New Partner of the Year in the 2022 Australian Accounting Awards.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "New Partner of the Year Matthew Bramhall, MGI Joyce|Dickson",
+   "date": "2022-05",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "In May 2026 the firm advertised a Senior Financial Controller (Hybrid - Client & Internal) role alongside an Office Manager.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Senior Financial Controller (Hybrid – Client & Internal)",
+   "date": "2026-05",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In May 2026 the firm said it was continuing to grow and recruiting a Senior Accountant and a Senior Advisor / Manager for Business Services.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "we are continuing to grow across the firm and are excited to advertise two additional opportunities within our Business Services Team.",
+   "date": "2026-05",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm's external CFO service includes preparation of monthly management reports.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Preparation of monthly management reports",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The external CFO offer is positioned as specialist CFO support on demand for businesses that do not need a full-time CFO.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "a lot of businesses don’t require a full-time CFO, which is why they offer a cost effective option of accessing specialist CFO support on demand",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The firm can supply accountants, bookkeepers or CFOs to clients depending on their needs.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Whether you need the assistance of an accountant, bookkeeper or CFO, we can ensure you have access to the resources you need when you need them.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "The firm's careers page cites access to a national and global network through MGI Australasia.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Access to a national and global network through MGI Australasia.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Matthew Bramhall",
+   "title": "Partner",
+   "contactId": "mgi-joyce-dickson--matthew-bramhall",
+   "linkedin": "https://www.linkedin.com/in/matthew-bramhall-4667b649",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Pat Fitzsimmons",
+   "title": "Partner",
+   "contactId": "mgi-joyce-dickson--pat-fitzsimmons",
+   "linkedin": "https://www.linkedin.com/in/pat-fitzsimmons-541082a0",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "May 2026 Senior Financial Controller (client and internal) hire plus Matthew's own Outsourced FC specialty: the controller function is being scaled and close work sits under it.",
+   "claimIds": [
+    "C6",
+    "C3"
+   ]
+  },
+  {
+   "text": "External CFO service includes monthly management reports, which depend on reconciled books every month.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Matthew lists cash flow management and business process improvement as his focus.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Two emails already sent to Matthew with no reply logged; a third angle is the last in the sequence. The firm is tax and SMSF heavy, with external CFO as one line of service.",
+   "claimIds": [
+    "C8",
+    "C7"
+   ]
+  },
+  {
+   "text": "Part of the MGI network, so tooling decisions may involve network standards.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "gaps": [
+  "No personal posts, podcasts or articles by Matthew found beyond his firm bio and a 2022 award finalist listing.",
+  "No evidence of the firm's practice software stack (Xero, MYOB, Dext etc.).",
+  "No Facebook or Instagram activity found.",
+  "A 2021 news article put the firm at 50 staff against 39 in the account record; not cited."
+ ],
+ "searches": [
+  {
+   "query": "MGI Joyce Dickson external CFO services page",
+   "results": 1
+  },
+  {
+   "query": "Matthew Bramhall MGI Joyce Dickson partner Canberra",
+   "results": 10
+  },
+  {
+   "query": "MGI Joyce Dickson Canberra careers bookkeeper accountant vacancy 2026",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "mgi-joyce-dickson--matthew-bramhall",
+   "subject": "Re: Less reconciling, more CFO work at MGI Joyce Dickson",
+   "body": "Hi Matthew,\n\nFollowing up on my earlier notes. MGI Joyce|Dickson advertised a Senior Financial Controller (Hybrid – Client & Internal) in May, and your profile lists Outsourced Financial Controller as a specialty. Vert reconciles ledgers in minutes with a traceable audit trail, so that person's time goes to reporting and advice rather than matching. Would a 10 min walkthrough this week be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "mgi-joyce-dickson--matthew-bramhall",
+   "subject": "Re: Quick chat, Matthew?",
+   "body": "Hi Matthew,\n\nLast note from me. Your external CFO service includes preparing monthly management reports, and with your focus on cash flow management, those depend on books being reconciled each month. Vert gets that reconciling done in minutes. If now is not the right time, tell me and I will leave it there.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C4"
+   ]
+  }
+ }
+}

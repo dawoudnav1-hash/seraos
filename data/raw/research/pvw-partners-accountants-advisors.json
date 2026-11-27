@@ -1,0 +1,296 @@
+{
+ "accountId": "pvw-partners-accountants-advisors",
+ "accountName": "PVW Partners Accountants + Advisors",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Townsville-based accounting, tax and advisory firm (est. 1918, independent of PwC since 2017) with offices in Townsville, Cairns, Innisfail and Darwin and a team of over 80. Greg Peel is a founding partner. The firm sells virtual CFO and advanced bookkeeping across Xero, MYOB and QBO, is hiring Senior Consultants and is growing its Darwin office. Already emailed once on 23 Nov 2026; two follow-ups drafted.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.pvwpartners.com/greg-peel/",
+   "title": "Greg Peel | PVW Partners",
+   "type": "website",
+   "publisher": "PVW Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/greg-peel-29003813",
+   "title": "Greg Peel - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.pvwpartners.com/taxation-accounting-services/bookkeeping/",
+   "title": "Bookkeeping | PVW Partners",
+   "type": "website",
+   "publisher": "PVW Partners",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.pvwpartners.com/",
+   "title": "Accountants Townsville | PVW Partners",
+   "type": "website",
+   "publisher": "PVW Partners",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/pvw-partners_accountants-your-next-career-move-starts-activity-7506524951559184386-biyi",
+   "title": "Accountants: Your Next Career Move Starts Here",
+   "type": "linkedin",
+   "publisher": "PVW Partners",
+   "date": "2026-09-18"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/pvw-partners_pvwpartners-businessadvisory-successionplanning-activity-7432552821977284608-9T1H",
+   "title": "Darwin office news",
+   "type": "linkedin",
+   "publisher": "PVW Partners",
+   "date": "2026-02-25"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.pvwpartners.com/family-succession-why-you-need-to-start-planning-now/",
+   "title": "Family Succession - Why you need to start planning now",
+   "type": "blog",
+   "publisher": "PVW Partners",
+   "date": "2023-06-13"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.pvwpartners.com/brake-lights-ahead-for-townsville-businesses/",
+   "title": "Brake Lights Ahead for Townsville Businesses",
+   "type": "blog",
+   "publisher": "PVW Partners",
+   "date": "2026-10-08"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Greg Peel is a founding Partner of PVW Partners, per the firm's own site.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Greg is a founding Partner of PVW Partners and represents the \"P\" in the firm’s name.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Greg Peel is currently Partner at PVW Partners in Townsville, listed on LinkedIn (profile updated Nov 2026).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Partner at PVW Partners",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "PVW is Townsville-headquartered, a team of over 80 people with more than 1,800 family and individual client groups.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "With a team of over 80 people and more than 1,800 family and individual client groups",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "PVW's bookkeeping offer includes virtual CFO services, advanced bookkeeping and proactive financial management.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "With virtual CFO services, advanced bookkeeping, and proactive financial management, we step in where you need us most",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "PVW lists troubleshooting and error checking of client books as a service.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Identify and resolve financial discrepancies before they become costly problems.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "PVW supports client software including Xero, Reckon, QBO and MYOB plus automation tools.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Get the most out of your accounting software, including Xero, Reckon, QBO, MYOB, and automation tools.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In Sept 2026 PVW advertised for Senior Consultants for its Tax and Accounting teams in Townsville and Cairns.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We're on the hunt for Senior Consultants to join our growing Tax and Accounting teams in both Townsville and Cairns.",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In Feb 2026 PVW announced its Darwin team was growing and moving to a refurbished office in Cullen Bay.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "As our NT team continues to grow and our client base expands, it’s time for a new space to match our momentum.",
+   "date": "2026-02",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Greg Peel wrote a PVW article on family succession planning (June 2023).",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "The best thing you can do to make sure your legacy lasts is to take stock and think about succession planning for your family",
+   "date": "2023-06",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Greg Peel's listed expertise includes detailed financial modelling for budgeting and strategic planning, and agri-business advisory.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Transaction services and detailed financial modelling (for budgeting, strategic planning and capital raisings, in primary production and other sectors)",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "PVW's October 2026 Business Confidence Survey found Townsville customers delaying purchasing decisions, with partner Sonia Chalk commenting.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Businesses are continuing to employ and invest, but customers are taking longer to commit and spending more carefully.",
+   "date": "2026-10",
+   "category": "content",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Greg Peel",
+   "title": "Partner",
+   "contactId": "pvw-partners-accountants-advisors--greg-peel",
+   "linkedin": "https://www.linkedin.com/in/greg-peel-29003813",
+   "claimIds": [
+    "C1",
+    "C2",
+    "C9",
+    "C10"
+   ]
+  },
+  {
+   "name": "Carl Valentine",
+   "title": "Managing Partner",
+   "contactId": "pvw-partners-accountants-advisors--carl-valentine",
+   "linkedin": "https://www.linkedin.com/in/carl-valentine-7011281",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Their bookkeeping/virtual CFO line promises error checking and discrepancy resolution, which is exactly the reconciliation work Vert speeds up.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Hiring Senior Consultants and growing Darwin: reconciliation time recovered is capacity without headcount.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Multi-ledger support (Xero, Reckon, QBO, MYOB) means a tool must be platform-agnostic.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Greg Peel is an agribusiness/succession tax partner rather than the bookkeeping lead, so he may forward to Carl Valentine or the bookkeeping team.",
+   "claimIds": [
+    "C10"
+   ]
+  },
+  {
+   "text": "Firm already says it offers 'automation tools' to clients; may have an existing AI/automation stack.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, YouTube or Facebook content found for Greg Peel.",
+  "Firm's own internal reconciliation tooling (Dext, Hubdoc, Karbon etc.) not confirmed.",
+  "Content of the 23 Nov 2026 first email not available; follow-ups only lightly reference it."
+ ],
+ "searches": [
+  {
+   "query": "Greg Peel PVW Partners Partner Townsville",
+   "results": 6
+  },
+  {
+   "query": "PVW Partners accountants news Townsville Cairns Darwin 2026",
+   "results": 6
+  },
+  {
+   "query": "site:pvwpartners.com bookkeeping / careers / home (fetched)",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "pvw-partners-accountants-advisors--greg-peel",
+   "subject": "Re: Idea for PVW Partners",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ],
+   "body": "Hi Greg,\n\nFollowing up on my note earlier this week. Your bookkeeping page promises to identify and resolve financial discrepancies before they become costly problems, and that is the work Vert does fastest. It reconciles and cash codes in minutes rather than hours, with every match traceable, across the Xero, QBO and MYOB files your team supports. With PVW hiring Senior Consultants, would a 10 min walkthrough on a real client file be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "pvw-partners-accountants-advisors--greg-peel",
+   "subject": "Re: Idea for PVW Partners",
+   "claimIds": [
+    "C7",
+    "C8"
+   ],
+   "body": "Hi Greg,\n\nLast nudge from me. PVW is hiring Senior Consultants in Townsville and Cairns while the Darwin team grows. Winning back reconciliation hours is often the cheapest capacity before adding headcount. Happy to show you how Vert does it in 10 minutes, or leave it with you if the timing is wrong.\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

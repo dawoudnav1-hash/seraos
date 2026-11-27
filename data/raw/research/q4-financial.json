@@ -1,0 +1,248 @@
+{
+ "accountId": "q4-financial",
+ "accountName": "q4 financial",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "q4 financial is a Brisbane CBD accounting, wealth and bookkeeping practice led by directors Kelly Hill and Alethea Rose. Kelly says the firm deliberately partners with a select group of clients, many in medical and health sectors, and its bookkeeping team runs bank reconciliation, AP, AR and payroll on cloud software with Xero Certified Advisors.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://q4financial.com.au/bookkeeping/",
+   "title": "Bookkeeper Brisbane - Tailored Bookkeeping Services",
+   "type": "website",
+   "publisher": "q4 financial",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://q4financial.com.au/our-people/kelly-hill/",
+   "title": "Kelly Hill - q4 financial",
+   "type": "website",
+   "publisher": "q4 financial",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/kellyhillq4",
+   "title": "Kelly Hill - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/kellyhillq4_q4-financial-about-us-activity-7489919158222995456-KkEK",
+   "title": "Kelly Hill post on partnering with a select group of clients",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-08-03"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/kellyhillq4_were-moving-on-up-to-level-17300-activity-7368476821727694848-2tBC",
+   "title": "We're moving on up - Kelly Hill",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-09-02"
+  },
+  {
+   "id": "S6",
+   "url": "https://q4financial.com.au/",
+   "title": "Brisbane Accounting Advisor - Succession Planning - q4 financial",
+   "type": "website",
+   "publisher": "q4 financial",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "q4 financial is based at Level 17, 300 Adelaide Street, Brisbane QLD 4000.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 17 300 Adelaide Street Brisbane QLD 4000",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Kelly Hill is a Director of q4 financial, in the role since October 2011.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director (Current) Oct 2011 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Kelly's clients are family-owned businesses, partnerships and professional service providers, often in medical, health and well-being sectors.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "family-owned businesses, partnerships and professional service providers often in medical, health and well-being sectors",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In an August 2026 post Kelly said q4 is deliberately not trying to be the biggest firm in Brisbane and instead partners with a select group of clients.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We've made a deliberate choice: to partner with a select group of clients so we can invest more time in understanding what matters most to them",
+   "date": "2026-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Kelly said many client relationships have been built over years and that quality of relationships, not client count, is the measure of success.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "success isn't measured by how many clients we have. It's measured by the quality of the relationships we build",
+   "date": "2026-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The bookkeeping team comprises Xero Certified Advisors supported by accountants, handling BAS, IAS, bank statements and payroll.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Our bookkeeping team comprise XERO Certified Advisors supported by our highly qualified accountants.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "q4 manages bank reconciliation, accounts payable, accounts receivable and payroll in one team and offers ongoing bookkeeping packages.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "all bookkeeping services for bank reconciliation, accounts payable, accounts receivable and payroll managed by one team of trusted advisors",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm says it regularly sees business owners bogged down in bookkeeping, best outsourced to a specialist.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "We regularly see business owners getting bogged down in this area of their business and it is often our experience that this function is best outsourced to a specialist.",
+   "date": null,
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "q4 moved up to Level 17 of its Adelaide Street building from 1 September 2025.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "From 1 September, you'll find us a little higher in the sky. Same building, same details, just a better view!",
+   "date": "2025-09",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "q4 financial has over 27 years of experience and offers tax & accounting, business advice, wealth management and bookkeeping.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "With over 27 years' experience we use our expertise to create a flexible, personalised plan for your business.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Kelly Hill",
+   "title": "Director",
+   "contactId": "q4-financial--kelly-hill",
+   "linkedin": "https://www.linkedin.com/in/kellyhillq4",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Kelly's August post: a deliberately selective client base where time goes into understanding clients; bookkeeping reconciliation load should not eat that advice time.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Bookkeeping team runs bank rec, AP, AR and payroll for every package client, so reconciliation volume scales with each client.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Firm itself says owners get bogged down in bookkeeping, so outsourced bookkeeping is a core line.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Practice is positioned heavily on wealth and advice, so bookkeeping may be a smaller line; already emailed twice without reply.",
+   "claimIds": [
+    "C10",
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No job ads, podcasts or press coverage found.",
+  "No mention of an AI reconciliation tool or Dext/Hubdoc."
+ ],
+ "searches": [
+  {
+   "query": "Kelly Hill q4 financial Brisbane director",
+   "results": 8
+  },
+  {
+   "query": "site:q4financial.com.au bookkeeping",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "q4-financial--kelly-hill",
+   "subject": "Re: Quick chat, Kelly?",
+   "body": "Hi Kelly,\n\nYour August post on partnering with a select group of clients so you can invest more time in understanding them stuck with me. Your Xero-certified team handles bank reconciliation, AP, AR and payroll for those clients, and every minute there is time not spent on advice. Vert turns hours of manual reconciliation into minutes. How much of that bookkeeping load still lands on your senior people?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "q4-financial--kelly-hill",
+   "subject": "Re: Quick chat, Kelly?",
+   "body": "Hi Kelly,\n\nOne last note. You've said many of your client relationships have been built over years, and you note owners get bogged down in bookkeeping, which is why you take it on. If Vert could make your team's reconciling 2x faster, would that be worth a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C8"
+   ]
+  }
+ }
+}

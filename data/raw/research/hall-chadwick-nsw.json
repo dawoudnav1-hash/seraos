@@ -1,0 +1,254 @@
+{
+ "accountId": "hall-chadwick-nsw",
+ "accountName": "Hall Chadwick (Sydney)",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Hall Chadwick is a large national chartered accounting and advisory firm (59 partners and 920+ professionals per its site) with its Sydney office at Level 40, 2 Park Street. Abeed Ahmad joined as Director, Forensic Technology in April 2026 after EY, HKA and Axiom Forensics, and is a data analytics specialist in transaction tracing across millions of records, ASIC remediation and class action work. The firm added two forensic partners in May 2026. Fit is weak for everyday reconciliation, so the follow-up leans on his transaction-matching background and asks about the right internal owner.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://hallchadwick.com.au/our-people/abeed-ahmad/",
+   "title": "Abeed Ahmad | Hall Chadwick",
+   "type": "website",
+   "publisher": "Hall Chadwick",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/abeed-ahmad",
+   "title": "Abeed Ahmad - Director, Hall Chadwick | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://hallchadwick.com.au/wp-content/uploads/Abeed-Ahmad_2026.pdf",
+   "title": "Abeed Ahmad - Forensic Technology profile (PDF)",
+   "type": "other",
+   "publisher": "Hall Chadwick",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.consultancy.com.au/news/12189/hall-chadwick-bolsters-its-forensics-practice-with-three-senior-additions",
+   "title": "Hall Chadwick bolsters its Forensics practice with three senior additions",
+   "type": "news",
+   "publisher": "Consultancy.com.au",
+   "date": "2026-05-27"
+  },
+  {
+   "id": "S5",
+   "url": "https://hallchadwick.com.au",
+   "title": "Home Page | Hall Chadwick",
+   "type": "website",
+   "publisher": "Hall Chadwick",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://hallchadwick.com.au/services/forensic-technology/",
+   "title": "Forensic Technology | Hall Chadwick",
+   "type": "website",
+   "publisher": "Hall Chadwick",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Hall Chadwick's Sydney office is at Level 40, 2 Park Street, Sydney NSW, per Abeed's firm profile.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Level 40, 2 Park Street Sydney NSW 2000 Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Abeed Ahmad is Director, Forensic Technology at Hall Chadwick, listed on the firm's people page, and his LinkedIn shows the Director role as current since April 2026.",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "Director - Hall Chadwick (Current) Apr 2026 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Abeed delivered transaction tracing and financial analysis across millions of records and multi-source enterprise datasets to support expert witness reports and dispute resolution.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Delivered transaction tracing and financial analysis involving millions of records and multi-source enterprise datasets",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Abeed has led forensic analytics engagements on ASIC remediation programs, class actions, Fair Work investigations and complex litigation.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Abeed has led large-scale forensic analytics engagements involving ASIC remediation programs, class actions, Fair Work investigations",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "At EY Abeed designed and guided the build of 'EY Virtual', a SQL, Excel and Power BI analytics solution used to flag possible fraud in claims for a global insurance client.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Led a new technology solution named \"EY Virtual\" used for management analytics for a global insurance client to identify possible frauds in the claims.",
+   "date": "2022-05",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "Abeed's listed qualifications include Generative AI and its Business Applications (TAFE NSW) and a Data Science Specialisation from Johns Hopkins.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Generative AI and its Business Applications, TAFE NSW",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In May 2026 Hall Chadwick added two forensic partners, Tim Myers and Kirrilly Waring, taking its forensics partner and director numbers to eight.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "extend Hall Chadwick's forensics partner and director numbers to eight",
+   "date": "2026-05",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Hall Chadwick says it has 59 partners and 920+ professionals and is a member of PrimeGlobal.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Backed by 59 partners and a team of 920+ professionals",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The forensic technology practice offers digital forensics, expert reports and eDiscovery, with documents hosted on an on-premises Hall Chadwick platform.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Secure hosting of electronic information within our on-premises Hall Chadwick document hosting platform.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Abeed Ahmad",
+   "title": "Director, Forensic Technology",
+   "contactId": "hall-chadwick-nsw--abeed-ahmad",
+   "linkedin": "https://linkedin.com/in/abeed-ahmad",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Abeed's day job is tracing and matching transactions across millions of records with an evidence trail; Vert's traceable matching is a direct analogue and lets the follow-up speak his language.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Newly arrived (April 2026) technology-minded director in a forensics practice that just added two partners, so he is likely building tooling and open to new approaches.",
+   "claimIds": [
+    "C2",
+    "C7",
+    "C6"
+   ]
+  },
+  {
+   "text": "His fraud-analytics build at EY shows he evaluates tools on auditability, matching Vert's no-guessing positioning.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Hall Chadwick is a 920+ person firm, well above the small-to-medium ICP, and Abeed sits in forensics rather than day-to-day accounting; he may not own reconciliation tooling.",
+   "claimIds": [
+    "C8",
+    "C2"
+   ]
+  },
+  {
+   "text": "Forensic Technology infrastructure is on-premises and evidence-focused, so data handling and security reviews would be heavy.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "Abeed joined only in April 2026 and may have limited internal sway yet.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, YouTube, webinar, Facebook or Instagram content found for Abeed or the Sydney office.",
+  "No posts by Abeed on LinkedIn were surfaced, only his profile.",
+  "No evidence of Hall Chadwick's reconciliation or bookkeeping software or tech stack.",
+  "The first email sent on 23 Nov was not re-read, so the follow-up avoids repeating its content."
+ ],
+ "searches": [
+  {
+   "query": "Abeed Ahmad Hall Chadwick forensic technology director Sydney",
+   "results": 7
+  },
+  {
+   "query": "fetch hallchadwick.com.au home and our-people",
+   "results": 2
+  },
+  {
+   "query": "fetch consultancy.com.au forensics additions article and forensic technology service page",
+   "results": 2
+  },
+  {
+   "query": "Hall Chadwick Abeed Ahmad joins forensic technology director appointment",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "hall-chadwick-nsw--abeed-ahmad",
+   "subject": "Re: Quick chat, Abeed?",
+   "body": "Hi Abeed,\n\nFollowing up on my note earlier this week. Your profile says you've traced transactions across millions of records for ASIC remediation and class action work, so you'll know how much effort goes into cleaning and matching before any analysis starts. Vert matches bank and ledger lines with a traceable reason behind every match. Does your team ever need that on client data, or does it sit with another part of Hall Chadwick? Open to a 10 min chat?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ }
+}

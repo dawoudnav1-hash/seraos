@@ -1,0 +1,331 @@
+{
+ "accountId": "future-advisory",
+ "accountName": "Future Advisory",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Future Advisory is a Melbourne (Cremorne) accounting and advisory firm led by Jason Robinson and Greg Bramich, offering published fixed-fee Xero-based packages and a separate virtual CFO service. Jason co-hosts the weekly Numbers Game podcast. The firm has grown revenue strongly and uses Ignition and Xero Practice Manager.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://futureadvisory.com.au/",
+   "title": "Future Advisory home",
+   "type": "website",
+   "publisher": "Future Advisory",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://futureadvisory.com.au/pricing/",
+   "title": "Pricing & packages",
+   "type": "website",
+   "publisher": "Future Advisory",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://futureadvisory.com.au/services/accounting-and-tax/vcfo/",
+   "title": "Virtual CFO",
+   "type": "website",
+   "publisher": "Future Advisory",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://thenumbersgamepodcast.com.au/",
+   "title": "The Numbers Game podcast",
+   "type": "podcast",
+   "publisher": "The Numbers Game",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "S5",
+   "url": "https://thenumbersgamepodcast.com.au/the-most-expensive-day-in-aussie-small-business-history",
+   "title": "EP 284 The Most Expensive Day in Aussie Small Business History",
+   "type": "podcast",
+   "publisher": "The Numbers Game",
+   "date": "2026-07-06"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.ignitionapp.com/customers/future-advisory",
+   "title": "Future Advisory customer story",
+   "type": "other",
+   "publisher": "Ignition",
+   "date": "2024-11-01"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.simplyhired.com.au/job/dw29coYcO2owcC8Cv0-Cl_KngOxCeB3mwVrmwO4K0oOKx-EGkAK5DQ",
+   "title": "Bookkeeper Cloud Accountant - Future Advisory",
+   "type": "job",
+   "publisher": "SimplyHired",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://thenumbersgamepodcast.com.au/jason-robinson",
+   "title": "Jason Robinson - The Numbers Game",
+   "type": "podcast",
+   "publisher": "The Numbers Game",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://futureadvisory.com.au/office/cremorne/",
+   "title": "Accountants in Cremorne",
+   "type": "website",
+   "publisher": "Future Advisory",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Future Advisory is director-led by Jason Robinson (FCPA) and Greg Bramich (FCPA).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Director-led Jason Robinson (FCPA) and Greg Bramich (FCPA)",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "The Cremorne office is at Level 2, 65 Dover Street, Cremorne, Victoria.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Location Level 2, 65 Dover Street, Cremorne, Victoria, Australia 3121",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Jason co-hosts the weekly Numbers Game podcast with Nick Reilly, now at more than 300 episodes over five years.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "five years and more than 300 episodes",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In EP 284 (July 2026) Jason worked out that new 1 July costs add around $50,000 a year for a 10-person business.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Jase has done the maths on a 10-person business and the cost is around $50,000 extra a year on the basics alone.",
+   "date": "2026-07",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The firm describes itself as Xero-based, cloud-first, with a 28-strong team.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "28-strong team One team across accounting and advisory",
+   "date": "",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Future Advisory publishes fixed monthly packages from $800 per month.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Packages from $800 per month",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Bookkeeping is an optional add-on to every package.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Bookkeeping is optional: keep your own bookkeeper, or add ours.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Virtual CFO is a separate, scoped service covering forecasting, cash flow and KPIs.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Forecasting, cash flow, KPIs and the numbers behind your biggest decisions",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Per Ignition's case study the firm grew revenue by over $1 million annually for two consecutive years.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Future Advisory grew its revenue by over $1 million annually for two consecutive years",
+   "date": "2024-11",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "The firm runs more than 2,000 jobs in Xero Practice Manager, deployed through Ignition.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "The firm has more than 2,000 jobs in XPM",
+   "date": "2024-11",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "Jason described upselling an hour a week of bookkeeping as a way to lift a client from $10,000 to $15,000.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Here's a package where we add on an hour a week of bookkeeping",
+   "date": "2024-11",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Future Advisory serves e-commerce and retail clients with inventory and cross-border tax advice.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Scale with integrated inventory and cross-border tax advice.",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "A Bookkeeper Cloud Accountant ad has the role reconciling Xero files and tracking bookkeeping hours against the fixed fee to manage scope creep.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Manage hours spent on bookkeeping clients compared to fixed fee charge and manage scope creep",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C14",
+   "text": "Jason is a Fellow CPA whose firm has been a two-time Xero Partner of the Year.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "a team of more than twenty (and a two-time Xero Partner of the Year)",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Jason Robinson",
+   "title": "Director & Co-Founder",
+   "contactId": "future-advisory--jason-robinson",
+   "linkedin": "https://www.linkedin.com/in/jasonrobinsoncpa1/",
+   "claimIds": [
+    "C1",
+    "C3",
+    "C4",
+    "C14"
+   ]
+  },
+  {
+   "name": "Greg Bramich",
+   "title": "Director & Co-Founder",
+   "contactId": "future-advisory--greg-bramich",
+   "linkedin": "https://www.linkedin.com/in/gregbramichfutureadvisory/",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Fixed-fee packages with optional bookkeeping and scope-creep tracking: reconciliation hours are margin.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C13"
+   ]
+  },
+  {
+   "text": "Jason's weekly podcast and EP 284 small-business cost maths: he thinks in cost per business.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Heavily systemised firm (Ignition, XPM) so may already have strong processes; no AI reconciliation tool found either way.",
+   "claimIds": [
+    "C10"
+   ]
+  },
+  {
+   "text": "Greg Bramich has no email on file, so outreach only to Jason.",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "gaps": [
+  "No dated LinkedIn posts by Jason retrieved.",
+  "Whether they already use Dext/Hubdoc or an AI rec tool is not stated.",
+  "Body of the earlier outreach email is not available in outreach.json."
+ ],
+ "searches": [
+  {
+   "query": "Future Advisory futureadvisory.com.au Jason Robinson",
+   "results": 10
+  },
+  {
+   "query": "Jason Robinson Future Advisory Numbers Game podcast",
+   "results": 6
+  },
+  {
+   "query": "Future Advisory jobs hiring Melbourne",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "future-advisory--jason-robinson",
+   "subject": "Re: Idea for Future Advisory",
+   "body": "Hi Jason,\n\nFollowing up on my note from last week. Your pricing page publishes packages from $800 per month, and your Cloud Accountant role tracks bookkeeping hours against the fixed fee to manage scope creep. Reconciliation is where those hours usually leak. Vert turns it from hours into minutes, so more of the fee stays as margin. Open to a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C13"
+   ]
+  },
+  "followUp2": {
+   "contactId": "future-advisory--jason-robinson",
+   "subject": "Re: Idea for Future Advisory",
+   "body": "Hi Jason,\n\nSaw EP 284 and your maths on the $50,000 a year that 1 July adds for a 10-person business. Hand reconciliation is a cost firms rarely count the same way. Vert hands a lot of those hours back. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  }
+ }
+}

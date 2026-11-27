@@ -1,0 +1,210 @@
+{
+ "accountId": "srs-business-accounting-solutions",
+ "accountName": "SRS Business & Accounting Solutions",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "SRS is a small Parramatta Chartered Accountant practice founded in 2010 by owner Simon Semaan. Beyond tax and SMSF work it sells an outsourced finance function ('Make us your CFO') covering AP, AR, budgeting and reconciliations, and a client testimonial says Simon manages their overall finance function.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.srsaccountants.com.au/",
+   "title": "Home - SRS Business & Accounting Solutions",
+   "type": "website",
+   "publisher": "SRS Business & Accounting Solutions",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/simon-semaan-70964511",
+   "title": "Simon Semaan - Owner, SRS Business & Accounting Solutions",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-20"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/srs-business-&-accounting-solutions",
+   "title": "SRS Business & Accounting Solutions - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.srsaccountants.com.au/about-us/",
+   "title": "About us - SRS Business & Accounting Solutions",
+   "type": "website",
+   "publisher": "SRS Business & Accounting Solutions",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "SRS Business & Accounting Solutions is a Chartered Accountant practice founded in 2010 by Simon Semaan, located in Parramatta (Level 49, 8 Parramatta Square).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "SRS Business & Accounting Solutions is a Chartered Accountant practice that was founded in 2010 by Simon Semaan.",
+   "date": "2026",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Simon Semaan is currently Owner of SRS Business & Accounting Solutions (since July 2010) per his LinkedIn profile.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Owner @ SRS Business & Accounting Solutions | Accounting, Business Consultant, Tax Planning, R&D Consultant and Expert Consultant.",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "SRS offers a finance and accounting outsourcing service, 'Make us your CFO', covering accounts payable, receivable, budgeting, reconciliations, inventory management and cost accounting.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Let our dedicated, expert staff handle your finance function. From accounts payables, accounts receivables, budgeting, reconciliations, inventory management and cost accounting.",
+   "date": "2026",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "A client testimonial from Jacobsen International says Simon manages the overall finance function for their business.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Simon manages the overall finance function for our business, which allows us to focus on our core business",
+   "date": "2026",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Simon lists his specialties as SME business advisory, tax and SMSF audits.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Specialties: SME Business Advisory, Tax, SMSF Audits",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "SRS also offers SMSF audits, described as timely and cost effective.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Timely, cost effective SMSF audits",
+   "date": "2026",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "LinkedIn shows SRS as a very small practice (1-10 employees).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "SRS Business & Accounting Solutions has 1-10 employees, founded in 2010.",
+   "date": "2026",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "SRS says it also serves interstate and international clients.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We also provide services to interstate and international clients",
+   "date": "2026",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Simon Semaan",
+   "title": "Owner",
+   "contactId": "srs-business-accounting-solutions--simon-semaan",
+   "linkedin": "https://linkedin.com/in/simon-semaan-70964511",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Outsourced finance function for clients runs on repeating reconciliations, run personally by Simon per the Jacobsen testimonial.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Very small team, so reconciliation hours directly cap how many outsourced-CFO clients Simon can take on.",
+   "claimIds": [
+    "C7",
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small practice (1-10 staff; LinkedIn lists 2), so budget and team to adopt new software may be limited.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No blog, podcast, news or social posts by Simon or the firm found.",
+  "No current job ads found for SRS.",
+  "About page says office in Merrylands West while home/contact pages say Parramatta; Parramatta used (home, contact, LinkedIn, ABN-linked registry agree).",
+  "Tech stack (Xero/MYOB) not stated on the site."
+ ],
+ "searches": [
+  {
+   "query": "SRS Business & Accounting Solutions Parramatta Simon Semaan",
+   "results": 7
+  },
+  {
+   "query": "fetch srsaccountants.com.au home and contact",
+   "results": 2
+  },
+  {
+   "query": "SRS Business & Accounting Solutions Parramatta accountant job / news / Xero / MYOB",
+   "results": 0
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "srs-business-accounting-solutions--simon-semaan",
+   "subject": "Re: Idea for SRS",
+   "body": "Hi Simon,\n\nFollowing up on my note earlier this week. Your site's 'Make us your CFO' service covers reconciliations alongside AP, AR and budgeting, and the Jacobsen International testimonial says you manage their overall finance function. With a small team, I'd guess reconciliations are the part that caps how many clients like that you can take on. Vert does them in minutes with a trace on every match. How are you handling them now?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "srs-business-accounting-solutions--simon-semaan",
+   "subject": "Re: Idea for SRS",
+   "body": "Hi Simon,\n\nLast note from me. If reconciliations for your outsourced finance clients still run by hand, I can show Vert turning that into minutes in a 10 minute call, using your own workflow as the example. Worth a look, or should I leave it?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ }
+}

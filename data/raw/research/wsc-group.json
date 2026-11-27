@@ -1,0 +1,342 @@
+{
+ "accountId": "wsc-group",
+ "accountName": "WSC Group",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "WSC Group is a Sydney-headquartered accounting and advisory firm (property investment tax, business advice, SMSF) with a Docklands, Melbourne office. It is majority-owned by ASX-listed Count Limited and agreed in August 2026 to merge with CountPlus One. It was named 2026 Count Firm of the Year. Client Manager and executive committee member Jonathan Karanikas leads its not-for-profit accounting and assurance work.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://wscgroup.com.au/page/jonathan-karanikas",
+   "title": "Jonathan Karanikas | Client Manager - WSC Group",
+   "type": "website",
+   "publisher": "WSC Group",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/jonathan-karanikas",
+   "title": "Jonathan Karanikas | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-07-18"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.nioda.org.au/staff/jonathan-karanikas",
+   "title": "Mr Jonathan Karanikas | NIODA",
+   "type": "other",
+   "publisher": "NIODA",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://wscgroup.com.au/",
+   "title": "WSC Group | Home",
+   "type": "website",
+   "publisher": "WSC Group",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://wscgroup.com.au/page/contact-us",
+   "title": "WSC Group | Contact us",
+   "type": "website",
+   "publisher": "WSC Group",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0736zn71vx58ld.pdf",
+   "title": "Count Limited Annual Report 2026",
+   "type": "news",
+   "publisher": "ASX / Count Limited",
+   "date": "2026-08-26"
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/company/wsc-group",
+   "title": "WSC Group | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.count.au/article/collaboration-the-key-to-success-for-wsc",
+   "title": "Collaboration the key to success for WSC",
+   "type": "news",
+   "publisher": "Count",
+   "date": "2024-01-07"
+  },
+  {
+   "id": "S9",
+   "url": "https://wscgroup.com.au/latest_news/monthly-payg-instalments-a-cash-flow-choice-or-a-future-requirement",
+   "title": "Monthly PAYG instalments: a cash-flow choice or a future requirement?",
+   "type": "blog",
+   "publisher": "WSC Group",
+   "date": "2026-11-24"
+  },
+  {
+   "id": "S10",
+   "url": "https://wscgroup.com.au/business-startups-webinars",
+   "title": "WSC Group Business Startup Recorded Webinar Series",
+   "type": "video",
+   "publisher": "WSC Group",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "WSC Group's own site (wscgroup.com.au) lists a Melbourne office at Suite 212B, 757 Bourke Street, Docklands VIC 3008, alongside a Sydney South head office.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "VIC - MELBOURNE Suite 212B, 757 Bourke Street, Docklands VIC 3008",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Jonathan Karanikas is currently a Client Manager and executive committee member at WSC Group, and a shareholder.",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "Jonathon is an client manager and member of the executive committee at WSC Group.",
+   "date": "2026-07",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "WSC Group has a special focus on property investment tax, business advice and self-managed superannuation funds.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "WSC Group is your trusted advisor with a special focus in property investment tax, business advice and self-managed superannuation funds.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Jonathan Karanikas' focus is audit and assurance and strategic management accounting, particularly for not-for-profits and charities.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "His experience and focus have largely been on audit and assurance, and strategic management accounting service, particularly for not-for-profits and charities.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "A NIODA profile says Jonathan leads WSC's accounting and assurance services for not-for-profits and serves over 230 national and international charities.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Jonathan leads the firm in its accounting and assurance services for not-for-profit organisations, and serves a portfolio of over 230 national and international charities.",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "WSC Group was named 2026 Count Firm of the Year and Managing Director Catherine Simons 2026 Leader of the Year, announced at the Count.ed Conference.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We're proud to share that WSC Group has been named 2026 Count Firm of the Year",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Count Limited entered binding agreements on 14 Aug 2026 to merge WSC Group with CountPlus One, with completion expected 1 September 2026.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Count Limited entered into binding agreements to merge WSC Group – Aust Pty Ltd (WSC) and CountPlus One Pty Ltd (CNS).",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "After the merger Count would hold approximately 70.2% of WSC; Count had already lifted its stake to 50.01% on 15 Dec 2025.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "resulting in Count holding approximately 70.2% of the merged entity.",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Jonathan Karanikas co-presented a WSC recorded webinar on budgeting and forecasting.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "Join David Shaw and Jonathan Karanikas for insight into why budget and forecasting is integral to achieving your business goals.",
+   "date": null,
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "WSC's 24 Nov 2026 article on monthly PAYG instalments says accounting software could help automate the additional monthly reporting.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Monthly reporting may also create additional administrative work, although accounting software could help automate parts of the process.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn lists MYOB, QuickBooks and Xero in WSC's tech stack.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Tech Stack: myob, quickbooks, xero, well, amp",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "WSC joined the Count community in July 2022 and in 2024 had a national presence with over 40 employees.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "While WSC has a national presence and over 40 employees",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "Count's annual report says Count Gold Coast's migration to Xero was guided by the Count network and rolled out across acquired businesses as a standardised operating model.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Support from the Count network guided the firm’s migration to Xero and its broader software ecosystem, which was subsequently rolled out across the acquired businesses",
+   "date": "2026-08",
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Jonathan Karanikas",
+   "title": "Associate Principal / Client Manager",
+   "contactId": "wsc-group--jonathan-karanikas",
+   "linkedin": "https://www.linkedin.com/in/jonathan-karanikas",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Jonathan leads NFP accounting and assurance for a large charity portfolio, so client-book reconciliation volume sits with him; WSC's recent Count Firm of the Year award gives a natural opener.",
+   "claimIds": [
+    "C5",
+    "C4",
+    "C6"
+   ]
+  },
+  {
+   "text": "Merger with CountPlus One increases client books to keep current; WSC's own article says software can help automate monthly reporting.",
+   "claimIds": [
+    "C7",
+    "C8",
+    "C10"
+   ]
+  },
+  {
+   "text": "Budgeting and forecasting is a published theme for Jonathan; faster reconciliation feeds it.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Majority-owned by ASX-listed Count Limited (about 58.7% from July 2026, around 70.2% post merger): software and process decisions may be set at network level; Count has standardised Xero-based stacks across firms.",
+   "claimIds": [
+    "C8",
+    "C13"
+   ]
+  },
+  {
+   "text": "Recent merger with CountPlus One means integration priorities; contacts and roles may change.",
+   "claimIds": [
+    "C7"
+   ]
+  },
+  {
+   "text": "Primary contact on the account record is Emily Delandro, an executive assistant and not a decision-maker (account notes), so the draft goes to Jonathan Karanikas instead.",
+   "claimIds": []
+  },
+  {
+   "text": "Property tax and SMSF focus with limited bookkeeping signal; weak-to-moderate fit per account notes.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, Facebook or Instagram content found for Jonathan Karanikas.",
+  "No current job ads found on the WSC careers page (it links to a vacancies list not retrieved).",
+  "Jonathan's own blog posts date from 2021-2023; no recent LinkedIn posts found.",
+  "Title discrepancy: WSC page says Client Manager, LinkedIn headline says Manager; account record says Associate Principal."
+ ],
+ "searches": [
+  {
+   "query": "WSC Group accountants property tax Jonathan Karanikas",
+   "results": 10
+  },
+  {
+   "query": "site:wscgroup.com.au",
+   "results": 10
+  },
+  {
+   "query": "Jonathan Karanikas WSC Group Associate Principal linkedin",
+   "results": 8
+  },
+  {
+   "query": "WSC Group Count Limited network company accountants careers bookkeeper Xero MYOB cloud accounting",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "wsc-group--jonathan-karanikas",
+   "subject": "Reconciling charity books at WSC",
+   "body": "Hi Jonathan,\n\nCongratulations on WSC being named 2026 Count Firm of the Year. Your NIODA profile says you lead WSC's accounting and assurance work for not-for-profits and serve over 230 charities, which is a lot of client books to keep reconciled before assurance starts. Vert reconciles and cash codes with a traceable audit trail, turning hours of manual reconciliation into minutes. How much of your team's month goes on reconciling before the assurance work can begin?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C5"
+   ]
+  },
+  "followUp": {
+   "contactId": "wsc-group--jonathan-karanikas",
+   "subject": "Re: Reconciling charity books at WSC",
+   "body": "Hi Jonathan,\n\nFollowing up on my note last week. WSC's latest piece on monthly PAYG instalments says accounting software could help automate the extra reporting, and with the merger with CountPlus One agreed in August you may soon have more client books to keep current. How are you planning to keep reconciliations up to date across the combined firm? Happy to show how Vert helps in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C7"
+   ]
+  }
+ }
+}
