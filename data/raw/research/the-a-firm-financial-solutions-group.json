@@ -1,0 +1,225 @@
+{
+ "accountId": "the-a-firm-financial-solutions-group",
+ "accountName": "The A Firm Financial Solutions Group",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "The A Firm is a small Gold Coast (Varsity Lakes) chartered accounting and advisory practice led by CEO Annette Bedford, who has 30 years in accounting and founded the First Class Accounts bookkeeping franchise. Its services include bookkeeping with bank reconciliations and monthly reporting, Xero training and CFO solutions. Annette offers a free 15-minute meet and greet to new clients.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://theafirm.com.au/",
+   "title": "The A Firm Financial Solutions Group home",
+   "type": "website",
+   "publisher": "The A Firm",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://theafirm.com.au/financial-solutions/",
+   "title": "Our Financial Solutions",
+   "type": "website",
+   "publisher": "The A Firm",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/annette-bedford",
+   "title": "Annette Bedford LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.crediblebusinesses.com/21843/the-a-firm",
+   "title": "The A Firm | Expert Accountants in Varsity Lakes",
+   "type": "directory",
+   "publisher": "Credible Businesses",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "The A Firm's office is at 17/220 Varsity Parade, Varsity Lakes QLD.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "OUR OFFICE: 17/220, Varsity Parade, Varsity Lakes, Qld 4227",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "The A Firm describes itself as chartered accountants and business advisors serving the Gold Coast from its Varsity Lakes office.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Chartered accountants and business advisors committed to making meaningful improvements to your business finances.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Annette Bedford is the current CEO, Strategic Director of The A Firm Financial Solutions Group (since July 2012).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "CEO, Strategic Director - The A Firm Financial Solutions Group (Current) Jul 2012 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Annette founded the First Class Accounts bookkeeping franchise system, which grew to over 200 franchisees in 3 years.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "First Class Accounts bookkeeping franchise system which grew to over 200 franchisees in 3 years",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The A Firm offers a free 15-minute meet and greet with its CEO Annette Bedford.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "a zero cost, obligation-free 15-minute friendly appointment. You'll meet our CEO Annette Bedford",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The A Firm's bookkeeping service lists bank reconciliations, accounts payable and receivable and monthly reporting.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Bank reconciliations",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The A Firm also sells Xero training and CFO solutions.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Xero tax training",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "LinkedIn lists The A Firm at 1-10 employees (5), headquartered in Robina QLD.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The A Firm Financial Solutions Group has 1-10 employees",
+   "date": "2026-10",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Annette holds a Bachelor of Commerce, is an FCA, Registered Company Auditor and Registered Tax Agent.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Fellow of the Institute of Chartered Accountants in Australia, Registered Company Auditor, and Tax Agent",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Annette Bedford",
+   "title": "CEO, Strategic Director",
+   "contactId": "the-a-firm-financial-solutions-group--annette-bedford",
+   "linkedin": "https://www.linkedin.com/in/annette-bedford",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Annette built a bookkeeping franchise to 200+ franchisees, so she values repeatable bookkeeping systems.",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "text": "Bookkeeping line lists bank recs and monthly reporting, the core of Vert.",
+   "claimIds": [
+    "C6"
+   ]
+  },
+  {
+   "text": "Her own meet-and-greet format is a natural low-friction ask to mirror.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small firm (about 5 staff on LinkedIn); budget may be limited.",
+   "claimIds": [
+    "C8"
+   ]
+  },
+  {
+   "text": "No evidence of recent posts, hiring or public statements about tooling.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent posts, podcasts or news found for Annette or the firm.",
+  "No job ads found.",
+  "Headcount differs between input (9) and LinkedIn (5)."
+ ],
+ "searches": [
+  {
+   "query": "fetch theafirm.com.au home and financial solutions",
+   "results": 2
+  },
+  {
+   "query": "Annette Bedford The A Firm Varsity Lakes CEO",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "the-a-firm-financial-solutions-group--annette-bedford",
+   "subject": "Re: Idea for The A Firm",
+   "body": "Hi Annette, following up on my earlier note. You grew First Class Accounts to over 200 franchisees in 3 years, so you know bookkeeping only scales on repeatable systems. The A Firm's bookkeeping service lists bank reconciliations and monthly reporting. How much of that matching is still done by hand? Vert does it in minutes, with a trail you can trace, and I'd gladly show you on a sample.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "the-a-firm-financial-solutions-group--annette-bedford",
+   "subject": "Re: Idea for The A Firm",
+   "body": "Hi Annette, last nudge from me. Your site offers a free 15-minute meet and greet with you, so I'll borrow the format: 15 minutes, Vert on a sample Xero file, and you decide if it earns a place in your bookkeeping. Would next week suit?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C7"
+   ]
+  }
+ }
+}

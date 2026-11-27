@@ -1,0 +1,225 @@
+{
+ "accountId": "knog",
+ "accountName": "Knog",
+ "status": "complete",
+ "summary": "Knog is a Richmond (Melbourne) cycling and outdoor accessories design brand founded in 2002, with offices in Melbourne, Europe and the USA and suppliers across South East Asia. Andrew Hedding has been CFO since November 2009 and Virginia Francis Finance Manager since October 2007, a very stable finance team with no visible change trigger.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/company/knog-pty.-ltd.",
+   "title": "Knog | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/andrew-hedding-43199031",
+   "title": "Andrew Hedding | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://knog.com/pages/about-us",
+   "title": "Our Story | Knog",
+   "type": "website",
+   "publisher": "Knog",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/virginia-francis-a132b793",
+   "title": "Virginia Francis | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Knog's LinkedIn page gives its headquarters as Richmond, Victoria, with a workforce across Australia and China.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Headquartered in Richmond, Victoria, Australia, with offices in Cremorne and melbourne. Its workforce is distributed across Australia and China.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Andrew Hedding's LinkedIn profile lists him as CFO of Knog, current, since November 2009.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Nov 2009 - Present (17 years)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Andrew's LinkedIn says Knog works with manufacturers and suppliers across a range of technologies throughout South East Asia.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We work with manufactures and suppliers specialising in a huge range of technologies throughout South East Asia.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Andrew's LinkedIn says Knog has offices in Melbourne, Europe and the USA.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "With offices in Melbourne, Europe and the USA",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Knog introduced the Scout Bike Alarm & Finder in 2022 and the Frog, the world's first silicone bike light, in 2008.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "in 2022, Knog introduced the Scout Bike Alarm & Finder.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Virginia Francis is Finance Manager at Knog, current, since October 2007.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Oct 2007 - Present (19 years)",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Knog describes a Melbourne-based team of over 20 designers, engineers, marketers, logistics and finance people.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "lead a Melbourne (Australia) based team of over 20 designers, engineers, marketers, logistics and finance folk.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Andrew Hedding",
+   "title": "CFO",
+   "contactId": "knog--andrew-hedding",
+   "linkedin": "https://www.linkedin.com/in/andrew-hedding-43199031",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Virginia Francis",
+   "title": "Finance Manager",
+   "contactId": "knog--virginia-francis",
+   "linkedin": "https://linkedin.com/in/virginia-francis-a132b793",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Offices in Melbourne, Europe and the USA plus South East Asian suppliers imply multi-currency payables and receivables to reconcile monthly.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Long-tenured CFO and Finance Manager pair running a close for a product range that keeps expanding.",
+   "claimIds": [
+    "C2",
+    "C6",
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Finance team stable for 15+ years with no hiring or change trigger; likely low urgency and entrenched process.",
+   "claimIds": [
+    "C2",
+    "C6"
+   ]
+  },
+  {
+   "text": "Finance tech stack not found; claims about FX or distributor complexity are inference only.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance job ads, posts by Andrew or Virginia, podcast or recent news found.",
+  "Shopify and distributor setup only appears in a third-party tech profile; not used.",
+  "Virginia Francis's email is not on file, so Andrew is the only draftable contact."
+ ],
+ "searches": [
+  {
+   "query": "Knog Richmond Melbourne bike lights Andrew Hedding CFO Virginia Francis",
+   "results": 10
+  },
+  {
+   "query": "knog.com about-us (fetch)",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "knog--andrew-hedding",
+   "subject": "Month-end at Knog",
+   "body": "Hi Andrew,\n\nSince 2009 as Knog's CFO you have seen the range grow from the Frog light to the Scout bike alarm, now run with offices in Melbourne, Europe and the USA and suppliers across South East Asia. That is a lot of currencies and counterparties to close each month. I built Vert to turn 4 hours of manual reconciliation into 5 minutes, with every match traceable rather than guessed. How long does month-end take you and Virginia today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "knog--andrew-hedding",
+   "subject": "Re: Month-end at Knog",
+   "body": "Hi Andrew,\n\nFollowing up on my note last week. With suppliers across South East Asia and offices in Europe and the USA, I imagine foreign currency payments and receipts are a big part of your close. Vert matches them to the ledger and flags exceptions with an audit trail. Is FX or distributor receipts the bigger time sink for you and Virginia?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "knog--andrew-hedding",
+   "subject": "Re: Month-end at Knog",
+   "body": "Hi Andrew,\n\nLast note from me. As the range has grown from the Frog to outdoor lights and the Scout alarm, the transactions behind each month-end have probably grown too. If a faster close would help, I can show Vert in 10 minutes. If not, no worries.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

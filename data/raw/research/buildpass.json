@@ -1,0 +1,272 @@
+{
+ "accountId": "buildpass",
+ "accountName": "BuildPass",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "BuildPass is a Richmond, VIC construction site-management and AI software company with a US presence in Austin. It raised a seed round in October 2024 to enter the US, sells a Win & Pay finance bolt-on integrated with Xero and QuickBooks, and Richard Zhou has been Finance Manager since March 2025 after BDO's M&A team.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/richard-zhou-9bb142161",
+   "title": "Richard Zhou - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.buildpass.ai/blog/raise-announcement-seed",
+   "title": "BuildPass Raises $7.5m Seed Funding",
+   "type": "blog",
+   "publisher": "BuildPass",
+   "date": "2024-10-24"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.startupdaily.net/topic/funding/construction-tech-startup-buildpass-erects-7-5-million-seed-round/",
+   "title": "Construction tech startup BuildPass erects $7.5 million Seed round",
+   "type": "news",
+   "publisher": "Startup Daily",
+   "date": "2024-10-24"
+  },
+  {
+   "id": "S4",
+   "url": "https://buildpass.ai/integrations",
+   "title": "Integrations: Xero, QuickBooks and more | BuildPass AU",
+   "type": "website",
+   "publisher": "BuildPass",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://buildpass.ai/plans",
+   "title": "BuildPass Construction Software Plans",
+   "type": "website",
+   "publisher": "BuildPass",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/buildpass",
+   "title": "BuildPass - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://company.buildpass.ai/about",
+   "title": "About BuildPass",
+   "type": "website",
+   "publisher": "BuildPass",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "BuildPass is headquartered in Richmond, Victoria.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Headquartered in Richmond, Victoria, Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Richard Zhou has been Finance Manager at BuildPass since March 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager - BuildPass (Current) Mar 2025 - Present",
+   "date": "2025-03",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Before BuildPass, Richard was a Senior Manager in M&A at BDO in Australia.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Senior Manager - M&A Dec 2024 - Mar 2025",
+   "date": "2025-03",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "BuildPass announced a seed round led by Carthona Capital in October 2024.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "BuildPass has raised $7.5 million in Seed funding, led by Carthona Capital",
+   "date": "2024-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The seed round was reported as funding BuildPass's move on the US market.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "BuildPass has raised $7.5 million in a Seed round as it makes a move on the US market.",
+   "date": "2024-10",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "LinkedIn lists 58 BuildPass employees, up 48.8% year on year.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "BuildPass employs 58 people (+48.8% YoY, +21 people)",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "BuildPass integrates with Xero and QuickBooks Online so customers' approved bills reach the accounting file without retyping.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Connect Xero or QuickBooks Online from Win & Pay and your bookkeeper stops retyping invoices.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Its Win & Pay bolt-on covers progress claims, invoices, retention, bills, WIP and cash forecast.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Progress claims Invoices Retention Subcontractor progress claims Bills WIP Cash forecast",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The Enterprise plan supports multiple entities.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Multiple entities, single sign on, custom access and permissions",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "BuildPass is an Australian and North American company with teams in Richmond and Austin, Texas.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We're an Australian and North American company, with teams in Richmond, Victoria and Austin, Texas.",
+   "date": null,
+   "category": "growth",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Richard Zhou",
+   "title": "Finance Manager",
+   "contactId": "buildpass--richard-zhou",
+   "linkedin": "https://linkedin.com/in/richard-zhou-9bb142161",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Richard joined after the seed round as the company moved on the US, with teams in Richmond and Austin: a close spanning two markets.",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C10"
+   ]
+  },
+  {
+   "text": "BuildPass sells bill-to-ledger automation to customers, so reducing retyping in his own close is a natural framing.",
+   "claimIds": [
+    "C7"
+   ]
+  },
+  {
+   "text": "Fast headcount growth since the raise.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "BuildPass itself sells finance workflow (Win & Pay, Xero/QuickBooks integrations); possible partner as well as prospect. Interim CFO Mike Grobe has no email on file and was not contacted.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance job ads or posts by Richard found.",
+  "Stripe/QuickBooks usage in the account notes could not be confirmed from a primary source.",
+  "No podcasts or Facebook pages found."
+ ],
+ "searches": [
+  {
+   "query": "BuildPass Richard Zhou Finance Manager Richmond construction software",
+   "results": 10
+  },
+  {
+   "query": "BuildPass seed funding raise Matt Perrott",
+   "results": 6
+  },
+  {
+   "query": "buildpass.ai integrations and plans",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "buildpass--richard-zhou",
+   "subject": "Month-end across Richmond and Austin at BuildPass",
+   "body": "Hi Richard,\n\nNoticed BuildPass raised its seed round in October 2024 to move on the US market, and that you joined as Finance Manager in March 2025 after BDO's M&A team. With teams in Richmond and Austin, I'd guess your close now spans two markets. I've spent the past year asking finance leaders why AI automation in accounting sticks or quietly fails. That became Vert, which reconciles and cash codes 2x faster with a trail you can trace. How much of your month-end goes on reconciling before the reporting starts?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C10"
+   ]
+  },
+  "followUp": {
+   "contactId": "buildpass--richard-zhou",
+   "subject": "Re: Month-end across Richmond and Austin at BuildPass",
+   "body": "Hi Richard,\n\nFollowing up on my note last week. BuildPass sends approved bills into Xero or QuickBooks so your customers' bookkeepers stop retyping, so I'd expect you, coming from BDO's M&A team, want the same on your own books. Vert matches bank feeds and payouts to the ledger with a trace you can check. Which part of your close still gets ticked off by hand?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "buildpass--richard-zhou",
+   "subject": "Re: Month-end across Richmond and Austin at BuildPass",
+   "body": "Hi Richard,\n\nLast note from me. Since the seed round BuildPass has grown quickly, and finance workload usually grows faster than the team. Worth 10 min to see how Vert could take reconciling off your plate?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  }
+ }
+}

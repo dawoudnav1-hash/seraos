@@ -1,0 +1,267 @@
+{
+ "accountId": "goldfield-banks-australia",
+ "accountName": "Goldfield & Banks Australia",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Goldfield & Banks is a Sydney-headquartered luxury fragrance house founded in 2016, selling through distributors and department stores across dozens of countries. In September-October 2026 it launched in Kenya via Space X Maven, held Dubai events with Luxe House UAE and Revalue, and unveiled a perfume at Printemps Haussmann in Paris through distributor Differentes Latitudes. Finance Manager Paul Sander, an ex-Deloitte auditor in the role since December 2024, runs a very small finance function.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/paul-sander-5458a4167",
+   "title": "Paul Sander LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/goldfield-banks-australia",
+   "title": "Goldfield & Banks Australia LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-09"
+  },
+  {
+   "id": "S3",
+   "url": "https://nairobilifestyle.co.ke/goldfield-banks-kenya-launch/",
+   "title": "Goldfield & Banks Launches in Kenya",
+   "type": "news",
+   "publisher": "Nairobi Lifestyle",
+   "date": "2026-09-17"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.arabianbusiness.com/abnews/the-australian-brand-making-waves-in-middle-east-perfumery",
+   "title": "The Australian brand making waves in Middle East perfumery",
+   "type": "news",
+   "publisher": "Arabian Business",
+   "date": "2025-09-22"
+  },
+  {
+   "id": "S5",
+   "url": "https://goldfieldandbanks.com/",
+   "title": "Goldfield & Banks Official Site",
+   "type": "website",
+   "publisher": "Goldfield & Banks",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Goldfield & Banks's own site presents it as an Australian luxury fragrance house.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Goldfield & Banks Official Site | Australian Luxury Fragrance House",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Goldfield & Banks Australia is headquartered in Sydney with an office in Waverley, and was founded in 2016.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Headquartered in Sydney, New South Wales, Australia, with an office in Waverley.",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Paul Sander is the current Finance Manager at Goldfield & Banks Australia in Sydney, in the role since December 2024.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager - Goldfield & Banks Australia (Current) Dec 2024 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Paul's profile says he spent seven years at Deloitte France auditing companies from start-ups to listed groups.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "I've worked at Deloitte France for the past 7 years and audited a wide range of companies from start-up to listed companies.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In September 2026 Goldfield & Banks officially launched in Kenya through luxury fragrance distributor Space X Maven.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "has officially launched in Kenya through luxury fragrance distributor Space X Maven",
+   "date": "2026-09",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In October 2026 the brand unveiled Sunset Hour Dark Peach at Printemps Haussmann in Paris and thanked its distributor Differentes Latitudes.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Thank you to Printemps Haussmann, our distributor Différentes Latitudes",
+   "date": "2026-10",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Goldfield & Banks held Dubai events in 2026 with partners Luxe House UAE and Revalue Consulting.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We are equally grateful to our partners Luxe House UAE and Revalue Consulting",
+   "date": "2026-07",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Nairobi Lifestyle reports the independent house has a presence in 52 countries and more than 1,000 points of sale.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "a presence in 52 countries and more than 1,000 points of sale globally",
+   "date": "2026-09",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Founder Dimitri Weber told Arabian Business the brand would launch its own local ecommerce for the Middle East and has a regional partnership with Al Tayer.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We are soon going to launch our own Goldfield & Banks e-com, local, for this region",
+   "date": "2025-09",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Weber told Arabian Business he had no choice but to raise capital to go to the next level.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "I have no choice now but to raise capital and go to the next level.",
+   "date": "2025-09",
+   "category": "news",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Paul Sander",
+   "title": "Finance Manager",
+   "contactId": "goldfield-banks-australia--paul-sander",
+   "linkedin": "https://www.linkedin.com/in/paul-sander-5458a4167",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Dimitri Weber",
+   "title": "Founder & Creative Director",
+   "contactId": "goldfield-banks-australia--dimitri-weber",
+   "linkedin": "https://linkedin.com/in/dimitri-weber-3813426",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Rapid 2026 market openings (Kenya, Dubai, Paris) all run through distributors, so remittances, currencies and short-pays land on a one-person finance function.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7",
+    "C3"
+   ]
+  },
+  {
+   "text": "Paul's audit background (Deloitte France) suggests he values a clean, traceable trail over opaque AI.",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "text": "Planned regional ecommerce adds payment-platform payouts to reconcile.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Founder said in 2025 the company may raise capital; ownership or finance process could change.",
+   "claimIds": [
+    "C10"
+   ]
+  },
+  {
+   "text": "Country and revenue figures vary between sources (52, 70, 80 countries), so no figures are used in drafts beyond what is cited.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Paul Sander posts, podcasts or interviews found.",
+  "No finance job ad or confirmed accounting stack (Xero/NetSuite etc.).",
+  "Finance headcount of 1 comes from Attio, not a public source."
+ ],
+ "searches": [
+  {
+   "query": "fetch goldfieldandbanks.com home and founder page",
+   "results": 2
+  },
+  {
+   "query": "Goldfield & Banks Paul Sander finance manager Paris Kenya Dubai launch",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "goldfield-banks-australia--paul-sander",
+   "subject": "Distributor payments at Goldfield & Banks",
+   "body": "Hi Paul, Goldfield & Banks has had a big few months, with a Kenya launch through Space X Maven, Dubai events with Luxe House UAE and a Printemps Haussmann unveiling in Paris through your distributor Différentes Latitudes. For a finance manager that means more distributors and remittances to match against invoices. Coming from Deloitte audit, you will care that the trail is clean. I built Vert to turn hours of manual reconciliation into minutes, with a trace you can follow rather than AI that guesses. How are you matching distributor payments across markets today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7",
+    "C4"
+   ]
+  },
+  "followUp": {
+   "contactId": "goldfield-banks-australia--paul-sander",
+   "subject": "Re: Distributor payments at Goldfield & Banks",
+   "body": "Hi Paul, following up on my note last week. With distributors in Kenya, Paris and the Gulf, I'm curious whether payments arrive in different currencies and who matches each remittance to the right invoice. If that sits with you alone, I'd show how Vert handles it on a sample ledger. Is that the slowest part of your close?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "goldfield-banks-australia--paul-sander",
+   "subject": "Re: Distributor payments at Goldfield & Banks",
+   "body": "Hi Paul, last nudge from me. Dimitri told Arabian Business a local ecommerce site for the Middle East is coming, which adds another set of platform payouts to reconcile on top of distributors. Happy to show you Vert on a sample in ten minutes, if that would help before it lands.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C3"
+   ]
+  }
+ }
+}

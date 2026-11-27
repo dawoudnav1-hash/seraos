@@ -1,0 +1,245 @@
+{
+ "accountId": "elevate-accounting",
+ "accountName": "Elevate Accounting",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Elevate Accounting is a South Perth boutique firm founded by Shane Crommelin in 2016, with about 19 staff, a cloud-technology focus, bookkeeping and payroll plus CFO-style advisory, and multiple national awards. It promoted a sixth director in July 2026 and has advertised for a Supervisor/Manager to grow the team.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://elevateaccounting.com.au/about",
+   "title": "About Us - Elevate Accounting",
+   "type": "website",
+   "publisher": "Elevate Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://elevateaccounting.com.au",
+   "title": "Elevate Accounting home",
+   "type": "website",
+   "publisher": "Elevate Accounting",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/shane-crommelin-1896014b",
+   "title": "Shane Crommelin LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "S4",
+   "url": "https://elevateaccounting.com.au/people/shane-crommelin/",
+   "title": "Shane Crommelin - Elevate Accounting",
+   "type": "website",
+   "publisher": "Elevate Accounting",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://elevateaccounting.com.au/celebrating-the-promotion-of-ashlee-carter-to-director/",
+   "title": "Celebrating the Promotion of Ashlee Carter to Director",
+   "type": "blog",
+   "publisher": "Elevate Accounting",
+   "date": "2026-07-06"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/shane-crommelin-1896014b_supervisormanager-job-in-south-perth-perth-activity-7337722350689234946-CUy0",
+   "title": "Shane Crommelin: Supervisor/Manager hiring post",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Shane Crommelin)",
+   "date": "2025-06-09"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Elevate Accounting is based at Level 9, 1 Richardson Street, South Perth WA.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Level 9, 1 Richardson Street, South Perth",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Shane Crommelin is Director & Founder of Elevate Accounting (since July 2016), based in South Perth.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director & Founder - Elevate Accounting (Current) Jul 2016 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Shane is a Certified Xero Advisor and left a Partner role at a large national firm to found Elevate.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Certified Xero Advisor",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Elevate says it embraces cloud technology for automation and insights.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "embrace Cloud technology for automation and insights",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Elevate says its team of 19 staff cover bookkeeping, payroll, accounting, tax, strategy, financing and business sale.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Our experienced team of 19 staff have over 200 years of combined experience.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In July 2026 Elevate promoted Ashlee Carter to Director and Shareholder, joining a director group that includes Shane.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We are delighted to announce the promotion of Ashlee Carter to Director and Shareholder at Elevate Accounting.",
+   "date": "2026-07",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Shane posted that Elevate is growing and looking for an experienced Supervisor/Manager to help grow the team.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Elevate Accounting are growing, and we are looking for an experienced Supervisor/Manager to help grow the team.",
+   "date": "2025-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Elevate won Australian Accounting Awards New Partner of the Year in 2024 and multiple Business Advisory Firm of the Year titles.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "WINNER 2024 New Partner of the Year",
+   "date": null,
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Elevate offers bookkeeping and payroll, cash flow management and tax strategy to WA businesses.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Bookkeeping and Payroll",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Shane Crommelin",
+   "title": "Director & Founder",
+   "contactId": "elevate-accounting--shane-crommelin",
+   "linkedin": "https://www.linkedin.com/in/shane-crommelin-1896014b",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C7"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Elevate already positions on cloud automation; Vert adds reconciliation speed with a traceable trail.",
+   "claimIds": [
+    "C4",
+    "C9"
+   ]
+  },
+  {
+   "text": "Supervisor/Manager hiring post suggests capacity pressure in the review layer.",
+   "claimIds": [
+    "C7",
+    "C5"
+   ]
+  },
+  {
+   "text": "New sixth director shows growth; Shane's Certified Xero Advisor status makes Xero-native workflow credible.",
+   "claimIds": [
+    "C6",
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Shane also leads Modus Capital, so attention may be split.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Hiring post is from June 2025 and may be stale.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or recent Shane-authored content found.",
+  "No confirmed tool stack beyond Xero and general cloud claims.",
+  "Current open roles not confirmed."
+ ],
+ "searches": [
+  {
+   "query": "fetch elevateaccounting.com.au home and about",
+   "results": 2
+  },
+  {
+   "query": "Shane Crommelin Elevate Accounting South Perth director",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "elevate-accounting--shane-crommelin",
+   "subject": "Re: Idea for Elevate Accounting",
+   "body": "Hi Shane, following up on my earlier note. Elevate says it embraces cloud technology for automation, and your 19 staff cover bookkeeping and payroll right through the business lifecycle. As a Certified Xero Advisor, where do you still see the manual work in month-end for bookkeeping clients? Vert matches bank lines and ledgers in minutes with a trail a reviewer can trace, and I'd love to show you.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "elevate-accounting--shane-crommelin",
+   "subject": "Re: Idea for Elevate Accounting",
+   "body": "Hi Shane, last nudge from me. You posted that Elevate was looking for an experienced Supervisor/Manager to help grow the team. Reconciliation review often lands on that desk, and Vert is built to take the matching off it. Ten minutes to see it on a sample file?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C6"
+   ]
+  }
+ }
+}

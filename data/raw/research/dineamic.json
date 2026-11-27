@@ -1,0 +1,245 @@
+{
+ "accountId": "dineamic",
+ "accountName": "Dineamic",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Dineamic is a Keysborough ready-meal maker (est. 2008) selling direct, via stockists including Coles and Woolworths, and to NDIS and Home Care providers. Davide Sofia is Financial Controller and Demand Planner; Linc Douglas is Financial Coordinator.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/company/dineamic",
+   "title": "Dineamic - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/davide-sofia-85262a132",
+   "title": "Davide Sofia - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.dineamic.com.au/",
+   "title": "Dineamic - Healthy Meals Delivered",
+   "type": "website",
+   "publisher": "Dineamic",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.dineamic.com.au/pages/dineamic-stockists",
+   "title": "Coles, Woolworths & Other Dineamic Stockists",
+   "type": "website",
+   "publisher": "Dineamic",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/linc-douglas",
+   "title": "Linc Douglas - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-20"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Dineamic is a Keysborough, Victoria ready-meal maker founded in 2008 that delivers fresh meals and sells through stores and stockists.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Buy online for delivery to your door, from our stores, or stockists.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Davide Sofia is Financial Controller & Demand Planner at Dineamic, current since January 2022 (at the company since August 2017).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Financial Controller & Demand Planner (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Davide gained CPA Australia associate membership (ASA) in July 2025.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Associate Member (ASA) by CPA Australia",
+   "date": "2025-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Dineamic says it is a registered NDIS provider and works with Home Care Package providers.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We’re a registered NDIS provider and work with Home Care Package providers too.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Dineamic delivers fresh ready meals to over 4,000 suburbs across Australia for a flat $15 refrigerated shipping fee.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Enjoy fresh, ready meals delivered to over 4,000 suburbs across Australia",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Dineamic lists Coles, Woolworths and other stockists on its stockist page.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Coles, Woolworths & Other Dineamic Stockists",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "LinkedIn shows Dineamic employing 30 people, up 11.9% year on year.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Dineamic employs 30 people (+11.9% YoY, +5 people)",
+   "date": "2026-11",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "Linc Douglas, a CPA, has been Financial Coordinator at Dineamic since February 2022.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Financial Coordinator - Dineamic Australia (Current)",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Dineamic describes itself as an Australian owned manufacturer of ready meals with a focus on ethically sourced ingredients.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Australian owned manufacturer of ready meals with a strong focus on corporate responsibility",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Davide Sofia",
+   "title": "Financial Controller",
+   "contactId": "dineamic--davide-sofia",
+   "linkedin": "https://linkedin.com/in/davide-sofia-85262a132",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Linc Douglas",
+   "title": "Financial Coordinator",
+   "contactId": null,
+   "linkedin": "https://linkedin.com/in/linc-douglas",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Several revenue channels (delivery, stores, supermarkets, NDIS and Home Care providers) each settle differently for a small finance team",
+   "claimIds": [
+    "C1",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Davide's recent CPA Australia associate membership suggests a professionalising finance function",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Finance team is two people (Davide and Linc Douglas); budget for new tooling may be limited",
+   "claimIds": [
+    "C2",
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts, podcasts or press by Davide found",
+  "No finance job ads found",
+  "Accounting system not confirmed; no recent news signal"
+ ],
+ "searches": [
+  {
+   "query": "Dineamic ready meals Keysborough Davide Sofia Financial Controller",
+   "results": 8
+  },
+  {
+   "query": "dineamic stockists page fetch",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "dineamic--davide-sofia",
+   "subject": "Dineamic's channels and month-end",
+   "body": "Hi Davide,\n\nDineamic sells fresh meals direct to over 4,000 suburbs, through Coles and Woolworths, and to NDIS and Home Care Package providers. Each of those channels settles differently, which is a lot for a small finance team to reconcile at month-end. I built Vert, which turns hours of manual reconciliation into minutes with a traceable audit trail instead of guesswork. Congratulations on your CPA Australia associate membership, too. How much of your close goes on matching payments across those channels?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C4",
+    "C3"
+   ]
+  },
+  "followUp": {
+   "contactId": "dineamic--davide-sofia",
+   "subject": "Re: Dineamic's channels and month-end",
+   "body": "Hi Davide,\n\nFollowing up on my note last week. Since you also work as demand planner, I imagine finance and production data meet in your close. Where does the most time go: supermarket remittances, NDIS and Home Care claims, or online payouts? I can show Vert on whichever hurts most in ten minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "dineamic--davide-sofia",
+   "subject": "Re: Dineamic's channels and month-end",
+   "body": "Hi Davide,\n\nLast nudge from me. With a team of 30 growing 11.9 per cent, the close usually gets heavier before it gets simpler. If a faster, traceable month-end is useful, I would value ten minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C2"
+   ]
+  }
+ }
+}

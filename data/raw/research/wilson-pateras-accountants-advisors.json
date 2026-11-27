@@ -1,0 +1,231 @@
+{
+ "accountId": "wilson-pateras-accountants-advisors",
+ "accountName": "Wilson Pateras Accountants & Advisors",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Wilson Pateras is an award-winning firm founded in 2009 with offices in Melbourne, Bendigo, Geelong and Sydney; Watson Erskine & Co joined in October 2025. Mark Forte has been Principal since April 2015 after 16 years as a partner at McLean Delmo Bentleys.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.wilsonpateras.com.au/about/",
+   "title": "Award-Winning Melbourne Accountants | About Wilson Pateras",
+   "type": "website",
+   "publisher": "Wilson Pateras",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/mark-forte-53928147",
+   "title": "Mark Forte - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.wilsonpateras.com.au/blog/watson-erskine-co-join-wilson-pateras/",
+   "title": "Watson Erskine & Co is now part of Wilson Pateras",
+   "type": "blog",
+   "publisher": "Wilson Pateras",
+   "date": "2025-10-07"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.wilsonpateras.com.au/blog/bookkeeping-for-barristers-mark-forte-on-virtual-cfo/",
+   "title": "Bookkeeping for Barristers: Mark Forte on Virtual CFO",
+   "type": "blog",
+   "publisher": "Wilson Pateras",
+   "date": "2018-10-05"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.wilsonpateras.com.au/melbourne/",
+   "title": "Accountants & Wealth Advisors Melbourne | Wilson Pateras",
+   "type": "website",
+   "publisher": "Wilson Pateras",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Wilson Pateras is an award-winning accounting firm founded in 2009, based in Melbourne, Bendigo, Geelong and Sydney.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Wilson Pateras are an award-winning accounting firm based in Melbourne, Bendigo, Geelong and Sydney.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Its Melbourne office is at Level 1, 678 Victoria Street, Richmond.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Level 1, 678 Victoria Street, Richmond, VIC 3121",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Mark Forte is Principal of Wilson Pateras Accountants & Advisors, in the role since April 2015.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Principal - Wilson Pateras Accountants & Advisors (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Mark spent 16 years as a partner at McLean Delmo Bentleys before joining Wilson Pateras, advising small to medium businesses.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Business Sevices Partner servicing small to medium size businesses in sectors including manufacturing, retail, construction, medical industry",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In October 2025 Watson Erskine & Co joined Wilson Pateras, forming Wilson Pateras Sydney CBD.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We are delighted to announce that Watson Erskine & Co have joined Wilson Pateras.",
+   "date": "2025-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Wilson Pateras was named Accounting Firm of the Year, Australia Wide, by Accountants Daily in 2019.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Accounting Firm of the Year, Australia Wide, by Accountants Daily in 2019",
+   "date": "2019-05",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "In an October 2018 blog Mark Forte explained how Wilson Pateras bookkeeping and Virtual CFO services help barristers, noting clients often use Xero or MYOB but report incorrectly.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Many will make use of intelligent accounting software – such as Xero or MYOB – but often report incorrectly.",
+   "date": "2018-10",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "Wilson Pateras offers its bookkeeping service on a fixed fee or monthly fee, including payroll management and reporting.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Our Bookkeeping service is available on a fixed fee on a deliverable basis or on a monthly fee.",
+   "date": "2018-10",
+   "category": "services",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Wilson Pateras services include taxation, business advice, lending, financial planning and SMSF management.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "taxation, business advice, lending, financial planning and Self Managed Super Fund (SMSF) management",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Mark Forte",
+   "title": "Principal",
+   "contactId": "wilson-pateras-accountants-advisors--mark-forte",
+   "linkedin": "https://www.linkedin.com/in/mark-forte-53928147",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C7"
+   ]
+  },
+  {
+   "name": "Mark Davey",
+   "title": "Principal",
+   "contactId": "wilson-pateras-accountants-advisors--mark-davey",
+   "linkedin": "https://www.linkedin.com/in/mark-davey-0ba7b41a",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "October 2025 merger of Watson Erskine & Co adds a Sydney CBD office and more client closes to keep consistent across offices",
+   "claimIds": [
+    "C5",
+    "C1"
+   ]
+  },
+  {
+   "text": "Mark's own writing on bookkeeping and Virtual CFO for clients who use Xero or MYOB but report incorrectly points to reconciliation quality",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Firm is large (about 90 staff per Vert's records) versus Vert's usual size criteria, and may have group-level technology decisions",
+   "claimIds": [
+    "C1",
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "Mark Forte's recent posts not found; the newest piece of his own content is from 2018",
+  "No current job ads found",
+  "Practice tech stack beyond Xero/MYOB mention not confirmed"
+ ],
+ "searches": [
+  {
+   "query": "Wilson Pateras Accountants & Advisors Richmond Mark Forte news award",
+   "results": 8
+  },
+  {
+   "query": "Mark Forte Principal Wilson Pateras linkedin",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "wilson-pateras-accountants-advisors--mark-forte",
+   "subject": "Re: Idea for Wilson Pateras",
+   "body": "Hi Mark,\n\nFollowing up on my note. I saw Watson Erskine & Co joined Wilson Pateras in October, which adds a Sydney CBD team and more client books to keep consistent across offices. Vert turns hours of manual reconciliation into minutes with a traceable audit trail, so a larger firm can keep its close process the same everywhere. How are you handling reconciliations across the offices today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "wilson-pateras-accountants-advisors--mark-forte",
+   "subject": "Re: Idea for Wilson Pateras",
+   "body": "Hi Mark,\n\nOne last note. Years ago you wrote that clients using Xero or MYOB often report incorrectly, and reconciliation is where that usually starts. Vert checks every match with a traceable trail. Would ten minutes this week or next be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C3"
+   ]
+  }
+ }
+}

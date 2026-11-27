@@ -1,0 +1,212 @@
+{
+ "accountId": "starward-whisky",
+ "accountName": "Starward Whisky",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Starward Whisky is a Port Melbourne whisky distillery that returned to founder David Vitale's ownership after buying out Diageo in January 2026. Indra Miklavc has been Financial Controller since June 2025. LinkedIn shows headcount of 20-30, down 30% YoY, with staff in five countries.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/indra-miklavc-5513395",
+   "title": "Indra Miklavc | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/starward-whisky",
+   "title": "Starward Whisky | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-01-26"
+  },
+  {
+   "id": "S3",
+   "url": "http://www.chevalrouge.com.au/new-blog/2026/2/6/cheval-rouge-advises-starward-distillerys-return-home-as-founder-david-vitale-regains-ownership",
+   "title": "Cheval Rouge advises Starward Distillery's return home as founder David Vitale regains ownership",
+   "type": "news",
+   "publisher": "Cheval Rouge",
+   "date": "2026-02-06"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/starward-whisky_were-hiring-for-a-financial-controller-to-activity-7318108374795988993-UbAw",
+   "title": "We're hiring for a Financial Controller | Starward Whisky",
+   "type": "linkedin",
+   "publisher": "Starward Whisky",
+   "date": "2025-04-16"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Starward Whisky is headquartered in Port Melbourne, Victoria.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Headquartered in Port Melbourne, Victoria, Australia.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Indra Miklavc has been Financial Controller at Starward since June 2025 (current on LinkedIn).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Jun 2025 - Present (1 year and 5 months)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Indra's profile cites rebuilding a company chart of accounts and process improvement experience.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "reconstruction of company chart of accounts, development of process improvements and business partnering",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Founder David Vitale fully acquired Starward and returned it to founder-led ownership, announced 26 January 2026.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "our founder, David Vitale, has fully acquired the business and is leading us into our next chapter",
+   "date": "2026-01",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The acquisition was of Starward Distillery from Diageo.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "the acquisition of Starward Distillery from global spirits company Diageo",
+   "date": "2026-02",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "LinkedIn shows Starward with 20-30 employees, down 30% YoY, with a workforce across five countries: Australia, US, Hong Kong, UK and Germany.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Its workforce is distributed across 5 countries (including Australia, United States, Hong Kong, United Kingdom, and Germany).",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Starward advertised for a Financial Controller in April 2025.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We're hiring for a Financial Controller to join our team!",
+   "date": "2025-04",
+   "category": "hiring",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Indra Miklavc",
+   "title": "Financial Controller",
+   "contactId": "starward-whisky--indra-miklavc",
+   "linkedin": "https://linkedin.com/in/indra-miklavc-5513395",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Fiona Liney",
+   "title": "Finance Director",
+   "contactId": "starward-whisky--fiona-liney",
+   "linkedin": null,
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Ownership change plus a reduced team: the close now falls to fewer people.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Indra's process-improvement background makes her a receptive, practical evaluator.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Fiona Liney (listed primary, Finance Director) was only confirmed via third-party directories (LeadIQ, Sep 2026), not a primary source, so the draft goes to Indra, whose role is confirmed.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Headcount reduction may limit budget.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "Tech stack (NetSuite/Shopify) and exports not confirmed from a citable source.",
+  "No finance posts by Indra found.",
+  "Rugby Australia partnership not used."
+ ],
+ "searches": [
+  {
+   "query": "Starward Whisky Fiona Liney Indra Miklavc finance",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "starward-whisky--indra-miklavc",
+   "subject": "Closing the books after Diageo at Starward",
+   "body": "Hi Indra,\n\nYou joined Starward as Financial Controller in June 2025 and have since seen founder David Vitale buy the business back from Diageo. With a workforce spread across five countries, the close probably carries distributor and export receipts that are hard to match by hand. You've rebuilt a chart of accounts and led process improvements before, so I'd value your view. I'm building Vert, which reconciles and cash codes with a traceable audit trail instead of guessing, turning hours into minutes. Where does month-end at Starward still lean on spreadsheets?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C6",
+    "C3"
+   ]
+  },
+  "followUp": {
+   "contactId": "starward-whisky--indra-miklavc",
+   "subject": "Re: Closing the books after Diageo at Starward",
+   "body": "Hi Indra,\n\nFollowing up on my note last week. LinkedIn shows Starward's headcount down about 30% on last year, so the same close falls to fewer people after the ownership change. That is the case for automating reconciliation. Vert gets recs done in minutes and flags only the exceptions. Could I show you on a sample file?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C4"
+   ]
+  },
+  "followUp2": {
+   "contactId": "starward-whisky--indra-miklavc",
+   "subject": "Re: Closing the books after Diageo at Starward",
+   "body": "Hi Indra,\n\nLast note. You've led process improvement work before, so you'll know a close improves fastest when reconciliation stops being the bottleneck. Vert does that with a full audit trail on every match. Worth 10 minutes next week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C2"
+   ]
+  }
+ }
+}

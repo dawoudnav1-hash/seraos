@@ -1,0 +1,257 @@
+{
+ "accountId": "outcast",
+ "accountName": "Outcast",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Outcast is a Burleigh Heads (Gold Coast) online womenswear brand with offices in the Gold Coast and Los Angeles. Leilani Van Dohren became Finance Manager in March 2026 in a newly created role reporting to the CFO, and has been hiring a Financial Accountant whose duties include reconciling e-commerce platforms and payment gateways; the role was still being advertised in November 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.linkedin.com/posts/leilani-van-dohren-710102227_were-hiring-im-looking-for-a-financial-activity-7505762870224240641-nP2b",
+   "title": "We're hiring! Financial Accountant / Senior Accountant - Leilani Van Dohren",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/leilani-van-dohren-710102227",
+   "title": "Leilani Van Dohren - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.jobstore.com/au/job/l24644265/financial-accountant-job",
+   "title": "Financial Accountant - Outcast in Burleigh Heads",
+   "type": "job",
+   "publisher": "Jobstore",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/melissa-northey-4781b462_new-year-new-you-one-of-the-exceptionally-activity-7415146868243869696-c6MI",
+   "title": "New Year, New You? - Melissa Northey",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Melissa Northey)",
+   "date": "2026-01-08"
+  },
+  {
+   "id": "S5",
+   "url": "https://outcast-clothing.com/pages/careers",
+   "title": "Careers - Outcast",
+   "type": "website",
+   "publisher": "Outcast",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://jobau.org/financial-accountant_gold-coast-c1005400/2026-11-generation-outcast-clothing_i4282622906",
+   "title": "Financial Accountant | Senior Accountant | Growing Global E-commerce Business",
+   "type": "job",
+   "publisher": "jobau.org",
+   "date": "2026-11-07"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Outcast has offices in the Gold Coast and Los Angeles.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "offices in the Gold Coast, Los Angeles, and",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Leilani Van Dohren has been Finance Manager at Outcast since March 2026.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Finance Manager - Outcast (Current) Mar 2026 - Present",
+   "date": "2026-03",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Leilani reports to the CFO and leads financial operations in a fast-paced eCommerce environment.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Reporting to the CFO, I lead financial operations and support strategic growth initiatives in a fast-paced eCommerce environment.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In September 2026 Leilani posted that she is hiring a Financial Accountant, citing exposure across Australia, the US and UK.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "a fast-paced, growing e-commerce business, with exposure across Australia, the US and UK",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The Financial Accountant ad includes reconciling monthly sales across e-commerce platforms and payment gateways.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Reconcile monthly sales across e-commerce platforms and payment gateways.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The ad also covers investigating discrepancies between platforms, payment gateways and accounting records.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Investigate and resolve discrepancies between e-commerce platforms, payment gateways and accounting records.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "A recruiter posted in January 2026 that Outcast was expanding its finance team and hiring a Finance Manager, described as a newly created role.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "is expanding their finance team and is on the hunt for a superstar Finance Manager",
+   "date": "2026-01",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In November 2026 the accountant role was still advertised and asks for solid month-end and reconciliations experience.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Solid month-end, reconciliations and financial reporting experience",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The ad says the hire will strengthen processes and controls and make the way of working more scalable.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "identifying opportunities to make the way we work smarter, more efficient and scalable.",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Leilani's profile says she has over 14 years in the commercial sector.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Experienced certified accountant with over 14 years in the commercial sector",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Leilani Van Dohren",
+   "title": "Finance Manager",
+   "contactId": "outcast--leilani-van-dohren",
+   "linkedin": "https://linkedin.com/in/leilani-van-dohren-710102227",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Leilani's own September post and the ad it points to describe reconciling platforms and payment gateways: automation could sit alongside the hire.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Newly created Finance Manager role in March 2026 with a mandate for process improvement.",
+   "claimIds": [
+    "C2",
+    "C7",
+    "C9"
+   ]
+  },
+  {
+   "text": "Role still open in November 2026, so the need is live.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Outcast may already use Shopify/Xero-based tooling; no AI reconciliation vendor found. Size may be borderline (account notes: 92 staff).",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcasts or Facebook posts found.",
+  "CFO name not found.",
+  "Tech stack not confirmed from a primary source."
+ ],
+ "searches": [
+  {
+   "query": "Outcast clothing Burleigh Heads Leilani Van Dohren Finance Manager hiring Financial Accountant",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "outcast--leilani-van-dohren",
+   "subject": "Gateway reconciling at Outcast",
+   "body": "Hi Leilani,\n\nSaw your post looking for a Financial Accountant at Outcast. The ad has that hire reconciling monthly sales across e-commerce platforms and payment gateways and chasing discrepancies, across Australia, the US and UK. That sounds like a big slice of month-end for a Finance Manager who only started in March. I've spent the past year asking finance leaders why AI automation in accounting sticks or quietly fails. That became Vert, which reconciles and cash codes 2x faster with a trail you can trace. Worth looking at alongside the hire?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "outcast--leilani-van-dohren",
+   "subject": "Re: Gateway reconciling at Outcast",
+   "body": "Hi Leilani,\n\nFollowing up on my note last week. Your Finance Manager role was newly created, and your profile says you lead financial operations in a fast-paced eCommerce environment. Vert gives each reconciled match a trace back to the source, so month-end is faster without losing control. Which reconciliation would you most like off your plate first?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "outcast--leilani-van-dohren",
+   "subject": "Re: Gateway reconciling at Outcast",
+   "body": "Hi Leilani,\n\nLast note from me. If the accountant role is still open, Vert could take the gateway matching so that hire spends time on variances. Worth 10 min?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C8"
+   ]
+  }
+ }
+}

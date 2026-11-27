@@ -1,0 +1,266 @@
+{
+ "accountId": "dry-kirkness",
+ "accountName": "Dry Kirkness",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Dry Kirkness is a West Perth chartered accounting and audit firm with a long history (farm accounting since 1945) offering tax, business advisory, bookkeeping on Xero and MYOB, and virtual CFO services. Ryan Lucas has been a Partner of the Business Services Division since July 2019. The firm's careers page cites continued growth in Business Advisory and Tax and it lists multiple open roles.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.drykirkness.com.au/about-us/our-people/",
+   "title": "Our People - Dry Kirkness",
+   "type": "website",
+   "publisher": "Dry Kirkness",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.drykirkness.com.au/staff/ryan-lucas/",
+   "title": "Ryan Lucas - Dry Kirkness",
+   "type": "website",
+   "publisher": "Dry Kirkness",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/in/ryanilucas",
+   "title": "Ryan Lucas - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.drykirkness.com.au/outsourced-accounting/",
+   "title": "Outsourced Accountant | Virtual CFO Accounting Services Perth",
+   "type": "website",
+   "publisher": "Dry Kirkness",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.drykirkness.com.au/careers/",
+   "title": "Accounting Jobs Perth | Dry Kirkness careers",
+   "type": "job",
+   "publisher": "Dry Kirkness",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://employmenthero.com/jobs/organisations/dry-kirkness/",
+   "title": "Dry Kirkness Jobs & Careers | Employment Hero",
+   "type": "job",
+   "publisher": "Employment Hero",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://drykirkness.com.au",
+   "title": "Accountants West Perth | Chartered Accountants & Auditors",
+   "type": "website",
+   "publisher": "Dry Kirkness",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Dry Kirkness is at Ground Floor, 50 Colin Street, West Perth WA 6005.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Ground Floor 50 Colin Street, West Perth WA 6005",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Ryan Lucas is a Partner at Dry Kirkness (Business Services Division, since July 2019) per the firm's site and LinkedIn.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Appointed Partner of our Business Services Division in July 2019",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Ryan says he enjoys helping owners improve the quality of financial information they receive from their accountants.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "improve the level of advice and the quality of the financial information that they received from their accountants",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Ryan prepares regular operational reports for the management of small business entities.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "He also prepares regular operational reports for the management of small business entities.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Dry Kirkness's CFO services include payroll, BAS and debtor and creditor management.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Payroll, BAS and debtor and creditor management",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Dry Kirkness is a certified Xero bookkeeping practice and also works with MYOB, Syft and Fathom.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Our accounting firm is a certified Xero bookkeeping practice.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Dry Kirkness's bookkeeping uses Xero and MYOB.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "bookkeeping solutions using Xero and MYOB",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The careers page cites continued growth in the Business Advisory/Tax division while recruiting a Manager or Assistant Manager.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Due to continued growth in our Business Advisory/Tax division",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Employment Hero lists 11 open jobs at Dry Kirkness, including a graduate role posted 12 Aug 2026.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "11 jobs at this company",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Dry Kirkness has been helping farmers across WA since 1945.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We've been helping farmers across WA since 1945",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Ryan Lucas",
+   "title": "Partner",
+   "contactId": "dry-kirkness--ryan-lucas",
+   "linkedin": "https://www.linkedin.com/in/ryanilucas",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Lucy Gardner",
+   "title": "Audit Director",
+   "contactId": "dry-kirkness--lucy-gardner",
+   "linkedin": "https://www.linkedin.com/in/lucy-gardner-8a4394a5",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Ryan's stated focus on quality of financial information for owners ties to clean reconciliations.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Active hiring and cited growth in Business Advisory/Tax: capacity pressure.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Xero and MYOB bookkeeping plus payroll/BAS/debtor management in CFO services means recurring reconciliation load.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Primary contact in accounts data is Audit Director Lucy Gardner; Ryan is a Partner on the advisory side.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts or podcasts by Ryan found; no news beyond a Business News ranking mention; no Xero partner tier confirmed."
+ ],
+ "searches": [
+  {
+   "query": "drykirkness.com.au and Ryan Lucas LinkedIn fetch",
+   "results": 2
+  },
+  {
+   "query": "Dry Kirkness West Perth Ryan Lucas news/hiring",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "dry-kirkness--ryan-lucas",
+   "subject": "Re: Idea for Dry Kirkness",
+   "body": "Hi Ryan, following up on my earlier note. You say you enjoy helping owners improve the quality of the financial information they get from their accountants. That quality starts with reconciliations, and your bookkeepers work across Xero and MYOB. Vert turns hours of reconciling into minutes with a traceable audit trail. Would a 10 min walkthrough be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "dry-kirkness--ryan-lucas",
+   "subject": "Re: Idea for Dry Kirkness",
+   "body": "Hi Ryan, last note from me. Your careers page cites continued growth in Business Advisory and Tax and a Manager role to fill. Vert gives capacity back by handling the reconciling and cash coding behind payroll, BAS and debtor management, with every match traceable. Worth a short look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C5"
+   ]
+  }
+ }
+}

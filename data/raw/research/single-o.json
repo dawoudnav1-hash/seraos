@@ -1,0 +1,275 @@
+{
+ "accountId": "single-o",
+ "accountName": "Single O",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Single O is a Botany (Sydney) specialty coffee roaster with cafes in Sydney, Brisbane and Tokyo. Serena Munroe has been Financial Controller since March 2020 and a Senior Commercial Finance Manager, Teresa Zhang, joined in June 2026. In August 2026 Single O advertised a part-time developer for its Shopify Plus and NetSuite platforms. NetSuite is the main risk for a Xero-oriented pitch.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/company/single-o",
+   "title": "Single O - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/serenagmunroe",
+   "title": "Serena Munroe - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/single-o_hiring-fullstackengineer-fullstackdeveloper-activity-7490690119142649856-r6kF",
+   "title": "Single O hiring a part-time Full Stack Developer",
+   "type": "linkedin",
+   "publisher": "Single O on LinkedIn",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/pamelasmid_hiring-activity-7490682632779997184-3lEY",
+   "title": "Pamela Smid: Single O looking for a Full Stack Dev",
+   "type": "linkedin",
+   "publisher": "Pamela Smid on LinkedIn",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/teresa-zhang-85526679",
+   "title": "Teresa Zhang - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.worldcoffeeportal.com/podcast/episode-162-a-vision-of-transparency-a-conversation-with-dion-cohen-single-o",
+   "title": "Episode 162: A vision of transparency - Dion Cohen, Single O",
+   "type": "podcast",
+   "publisher": "World Coffee Portal",
+   "date": "2025-05-19"
+  },
+  {
+   "id": "S7",
+   "url": "https://au.seek.com/companies/single-origin-roasters-816842",
+   "title": "Single Origin Roasters company profile",
+   "type": "directory",
+   "publisher": "SEEK",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Single O is headquartered in Botany, NSW, with a presence in Japan.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Headquartered in Botany, New South Wales, Australia, with presence in Japan.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Serena Munroe is listed on LinkedIn as the current Financial Controller at Single O, in the role since March 2020.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Financial Controller - Single O (Current) Mar 2020 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Serena's earlier roles at Deloitte and PwC included overseeing the finance calendar, including month end close.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "overseeing the Finance Calendar activities (annual budget cycle, monthly forecasting, month end close and performance reporting)",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In August 2026 Single O advertised a part-time Full Stack Developer with Shopify Plus experience to improve how it shows up online.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "you'll help us streamline and improve how we show up online for our coffee customers.",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "A Single O team member's post says the new role gets under the hood of the Shopify Plus and NetSuite platforms.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "get up under the hood of our Shopify Plus and Netsuite platform",
+   "date": "2026-08",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Teresa Zhang joined Single O as Senior Commercial Finance Manager in June 2026.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Senior Commercial Finance Manager - Single O (Current) Jun 2026 - Present",
+   "date": "2026-06",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Single O's LinkedIn page says it has cafes in Sydney, Brisbane and Tokyo.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Find our cafes in Sydney, Brisbane and Tokyo.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Single O co-founder Dion Cohen discussed expanding into Japan on a World Coffee Portal podcast in May 2025.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "He also talks about expanding into Japan",
+   "date": "2025-05",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Single O's roastworks in Botany roasts for hospitality customers locally and interstate.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "our Botany roastworks where we roast for passionate hospitality folk locally & interstate",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Serena Munroe",
+   "title": "Financial Controller",
+   "contactId": "single-o--serena-munroe",
+   "linkedin": "https://www.linkedin.com/in/serenagmunroe",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Teresa Zhang",
+   "title": "Senior Commercial Finance Manager",
+   "contactId": "single-o--teresa-zhang",
+   "linkedin": "https://www.linkedin.com/in/teresa-zhang-85526679",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "August 2026 hire for the Shopify Plus and NetSuite platforms: systems are being rebuilt now, so reconciliation design is live.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Serena has overseen month end close at big-firm scale; wholesale/hospitality plus cafes across Sydney, Brisbane and Tokyo gives many feeds into close.",
+   "claimIds": [
+    "C3",
+    "C9",
+    "C7"
+   ]
+  },
+  {
+   "text": "Finance team growing with Teresa Zhang's June 2026 arrival.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "NetSuite is in the stack (per a staff post), so a Xero-first message may not fit; mid-market ERP tooling may cover some reconciliation.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "Strong finance leadership and a new commercial finance hire may reduce urgency.",
+   "claimIds": [
+    "C3",
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No evidence of wholesale customer count (100+ in the account record is unsourced here).",
+  "No posts by Serena found.",
+  "No evidence of payment/subscription processors or reconciliation tools in use."
+ ],
+ "searches": [
+  {
+   "query": "Single O coffee roaster Sydney Serena Munroe financial controller",
+   "results": 10
+  },
+  {
+   "query": "Single O podcast Dion Cohen World Coffee Portal",
+   "results": 1
+  },
+  {
+   "query": "Single O part-time full-stack developer Shopify Plus integrations job",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "single-o--serena-munroe",
+   "subject": "Month-end at Single O",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C7",
+    "C9"
+   ],
+   "body": "Hi Serena,\n\nNoticed Single O is hiring a part-time developer to work under the hood of your Shopify Plus and NetSuite platforms, while the Botany roastworks supplies hospitality customers locally and interstate and you run cafes in Sydney, Brisbane and Tokyo. That many feeds all land in your month-end close. I'm Dawoud, founder of Vert, which helps finance teams reconcile and cash code 2x faster with a traceable audit trail. How much of your team's close goes on reconciling before the analysis starts?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "single-o--serena-munroe",
+   "subject": "Re: Month-end at Single O",
+   "claimIds": [
+    "C3",
+    "C6"
+   ],
+   "body": "Hi Serena,\n\nFollowing up on my earlier note. You have overseen month end close at Deloitte and PwC, so you know how much of it is matching rather than judgement. With Teresa Zhang joining as Senior Commercial Finance Manager in June, Vert could take that matching off both of you. Worth a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "single-o--serena-munroe",
+   "subject": "Re: Month-end at Single O",
+   "claimIds": [
+    "C4",
+    "C7"
+   ],
+   "body": "Hi Serena,\n\nLast nudge. Cafes in Sydney, Brisbane and Tokyo plus a new developer on the Shopify Plus platform means plenty of data feeding your close. Vert reconciles it in minutes with a traceable trail. Open to a 10 min look, or is someone else better placed?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

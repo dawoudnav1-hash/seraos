@@ -1,0 +1,253 @@
+{
+ "accountId": "rogerson-kenny-business-accountants",
+ "accountName": "Rogerson Kenny Business Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Rogerson Kenny is a Mulgrave (Melbourne) business accounting firm offering tax, SMSF, cloud bookkeeping and virtual CFO services. Rob Deayton is a Director and has been with the firm since 2005. The firm celebrates its 50th anniversary in 2026, has grown to more than 35 professionals and has moved into a new Mulgrave office.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://rogersonkenny.com.au/virtual-cfo-services/",
+   "title": "Virtual CFO Services Melbourne | Rogerson Kenny",
+   "type": "website",
+   "publisher": "Rogerson Kenny",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/in/robdeayton",
+   "title": "Rob Deayton - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "S3",
+   "url": "https://rogersonkenny.com.au/our-team/",
+   "title": "Team - Rogerson Kenny Business Accountants",
+   "type": "website",
+   "publisher": "Rogerson Kenny",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://rogersonkenny.com.au/about-us/",
+   "title": "Expert Advisors for SMEs & Family Businesses | Rogerson Kenny",
+   "type": "website",
+   "publisher": "Rogerson Kenny",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://todayspaper.smedia.com.au/theage/shared/ShowArticle.aspx?doc=AGE%2F2021%2F02%2F26&entity=Ar03602&mode=text&sk=5C0C134D",
+   "title": "Making growth plans a breeze for SMEs - The Age",
+   "type": "news",
+   "publisher": "The Age",
+   "date": "2021-02-26"
+  },
+  {
+   "id": "S6",
+   "url": "https://rogersonkenny.com.au/other-services/",
+   "title": "Bookkeeping & Xero Accounting Services Melbourne | Rogerson Kenny",
+   "type": "website",
+   "publisher": "Rogerson Kenny",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://rogersonkenny.com.au",
+   "title": "Business Accountant Melbourne | Rogerson Kenny",
+   "type": "website",
+   "publisher": "Rogerson Kenny",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Rogerson Kenny's office is Suite 2, Level 5, 633 Springvale Road, Mulgrave VIC 3170.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Suite 2, Level 5 633 Springvale Road, (PO Box 747) Mulgrave, Vic, 3170",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Rob Deayton is a Director of Rogerson Kenny (current, since Jul 2011 per LinkedIn) and is listed as Director on the team page.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Director (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "The team page describes Rob as the firm's go-to for business tax and accounting; he joined in April 2005.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "His wide breadth of knowledge means he is your go-to for Business Tax and Accounting.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Rogerson Kenny celebrates its 50th anniversary in business in 2026.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "2026 sees Rogerson Kenny celebrate its 50th anniversary in business",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The firm has grown to a team of more than 35 professionals and moved to a new Mulgrave facility.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "the firm has grown to a team of more than 35 professionals",
+   "date": "2026-11",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In 2021 The Age reported the firm are platinum members of Xero and use cloud tools for real-time connection with clients.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Being platinum members of game-changing Xero accounting software",
+   "date": "2021-02",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Virtual CFO service oversees payroll, superannuation, bookkeeping, debtors and accounts payable.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "oversee crucial financial functions, including payroll, superannuation, bookkeeping, debtors, and accounts payable",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Rogerson Kenny's bookkeeping uses cloud-based tools for real-time access to client data.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We make bookkeeping simple and effective by using cloud-based tools",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "In 2021 managing director Mark Rogerson said most clients turn over between one and 25 million dollars and the firm fills the CFO role for them.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We fill that role of the CFO",
+   "date": "2021-02",
+   "category": "clients",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Rob Deayton",
+   "title": "Director",
+   "contactId": "rogerson-kenny-business-accountants--rob-deayton",
+   "linkedin": "https://www.linkedin.com/in/robdeayton",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Mark Rogerson",
+   "title": "Managing Director",
+   "contactId": "rogerson-kenny-business-accountants--mark-rogerson",
+   "linkedin": "https://www.linkedin.com/in/mark-rogerson",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "50th anniversary and move to a new Mulgrave office with 35+ staff: growth and capacity moment.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Virtual CFO service oversees payroll, bookkeeping, debtors and AP: multiple ledgers to reconcile per client.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Xero platinum member plus cloud-first positioning.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "LinkedIn shows employee decline (6-7% YoY) in third-party data, conflicting with the firm's stated growth; no public sign of AI tooling either way.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent posts by Rob; no hiring ads found; Xero partner tier is from a 2021 article only."
+ ],
+ "searches": [
+  {
+   "query": "rogersonkenny.com.au fetch",
+   "results": 1
+  },
+  {
+   "query": "Rogerson Kenny Mulgrave Rob Deayton virtual CFO",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "rogerson-kenny-business-accountants--rob-deayton",
+   "subject": "Re: Less reconciling, more CFO work at Rogerson Kenny",
+   "body": "Hi Rob, following up on my earlier notes. Congratulations on 50 years, and on growing to more than 35 professionals in the new Mulgrave office. Vert reconciles and cash codes in minutes with a traceable audit trail, so your people keep their time for CFO-level work. How much reconciling sits behind your virtual CFO clients' monthly reports?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "rogerson-kenny-business-accountants--rob-deayton",
+   "subject": "Re: Less reconciling, more CFO work at Rogerson Kenny",
+   "body": "Hi Rob, final note. Your virtual CFO service oversees payroll, superannuation, bookkeeping, debtors and accounts payable, and you're Xero platinum members. That is a lot of ledgers to keep reconciled each month across a team of that size. Vert handles the matching and cash coding with an audit trail. Happy to show you in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C6",
+    "C5"
+   ]
+  }
+ }
+}

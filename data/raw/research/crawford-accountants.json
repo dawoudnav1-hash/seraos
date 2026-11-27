@@ -1,0 +1,253 @@
+{
+ "accountId": "crawford-accountants",
+ "accountName": "Crawford Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Crawford Accountants is a Kew, Melbourne firm established in 1986 with approximately 3,500 clients, led by CPA partners Inzi Pethiyagoda and Heath Neville. It is a Xero Gold Champion partner offering bookkeeping and Virtual CFO services.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.crawfordaccountants.com.au/",
+   "title": "Crawford Accountants",
+   "type": "website",
+   "publisher": "Crawford Accountants",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.crawfordaccountants.com.au/inzi-pethiyagoda",
+   "title": "Crawford Accountants | Inzi Pethiyagoda",
+   "type": "website",
+   "publisher": "Crawford Accountants",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.crawfordaccountants.com.au/bookkeeping",
+   "title": "Crawford Accountants | Bookkeeping",
+   "type": "website",
+   "publisher": "Crawford Accountants",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.crawfordaccountants.com.au/about",
+   "title": "Crawford Accountants | About Us",
+   "type": "website",
+   "publisher": "Crawford Accountants",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://au.linkedin.com/company/crawford-accountants",
+   "title": "Crawford Accountants | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S6",
+   "url": "https://jobau.org/receptionist_melbourne-c1006235/2026-09-crawford-accountants_i4217421377",
+   "title": "Receptionist / junior administration assistant - Crawford Accountants",
+   "type": "job",
+   "publisher": "jobau.org",
+   "date": "2026-09-26"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Crawford Accountants is a Melbourne accounting firm at Level 1, 86-88 Charles Street, Kew, trading since 1986.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Crawford Accountants are a Melbourne based professional accounting firm working closely with clients in all industries across Australia and abroad.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Inzi Pethiyagoda is a CPA Partner at Crawford Accountants and a Certified Xero Advisor.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Certified Xero Advisor",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Inzi has over 15 years of experience advising privately owned businesses on tax, operations, management and growth.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "With over 15 years of experience, he has specialist skills in advising privately owned and operated businesses",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Crawford says it is a Gold Champion partner of Xero and all professional staff are certified Xero advisors.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Crawford Accountants are Gold Champion partners of Xero while all our professional staff are certified Xero advisors.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Crawford's bookkeeping service handles day-to-day reconciliations, debtors and creditors, and payroll.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We handle the day-to-day reconciliations, managements of debtors and creditors and your payroll.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Crawford has approximately 3,500 clients, including small to medium businesses, partnerships, trusts, super funds and overseas clients.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We have approximately 3,500 clients, including small to medium businesses, partnerships, trusts, superannuation funds",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Crawford says cloud accounting is its preference and it takes a special interest in modern technology.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We take a special interest in modern technology and hence Cloud Accounting is our preference",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Crawford posts a monthly client update on LinkedIn; the November 2026 edition covers early release of super schemes and rental property deduction errors.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Our November update is here! Read more about early release of Super Schemes, common rental property deduction errors, private use of work vehicles & more.",
+   "date": "2026-11-04",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Crawford advertised a receptionist / junior administration assistant role in September 2026 (applications later paused).",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "An exciting opportunity has opened up at our firm located in Kew for a friendly Receptionist / Administration Assistant.",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Crawford's services include tax, business advisory, SMSF, company secretarial, bookkeeping and Virtual CFO Services.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Virtual CFO Services",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Inzi Pethiyagoda",
+   "title": "Partner",
+   "contactId": "crawford-accountants--inzi-pethiyagoda",
+   "linkedin": "https://www.linkedin.com/in/inzi-pethiyagoda-cpa-1a9b45123",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Heath Neville",
+   "title": "Partner",
+   "contactId": "crawford-accountants--heath-neville",
+   "linkedin": "https://www.linkedin.com/in/heath-neville-638083bb",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Gold Champion Xero partner whose bookkeeping line handles day-to-day reconciliations across ~3,500 clients",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Regular monthly client update on LinkedIn shows a firm that publishes; Virtual CFO line adds management reporting load",
+   "claimIds": [
+    "C8",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "LinkedIn lists only 5 employees, so the team is small; limited reconciliation volume may not justify a tool",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or video found",
+  "No Inzi-authored posts found",
+  "No bookkeeper job ad found; only a reception role"
+ ],
+ "searches": [
+  {
+   "query": "Crawford Accountants Kew Inzi Pethiyagoda Heath Neville",
+   "results": 8
+  },
+  {
+   "query": "Crawford Accountants linkedin post job Xero",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "crawford-accountants--inzi-pethiyagoda",
+   "subject": "Re: Idea for Crawford Accountants",
+   "body": "Hi Inzi,\n\nFollowing up on my note last week. Crawford is a Xero Gold Champion partner and the bookkeeping page says you handle day-to-day reconciliations for clients. Vert takes reconciliation from hours to minutes with a traceable audit trail, so certified Xero advisors spend that time on advice. How much of the team's week goes on reconciling across your roughly 3,500 clients?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "crawford-accountants--inzi-pethiyagoda",
+   "subject": "Re: Idea for Crawford Accountants",
+   "body": "Hi Inzi,\n\nLast note from me. Your monthly update on LinkedIn shows how much you do for clients beyond the books. If reconciling is a bottleneck for the Virtual CFO work, ten minutes to see Vert could be worthwhile.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C10"
+   ]
+  }
+ }
+}
