@@ -6,12 +6,14 @@ import { useHashRoute, type View } from './state/router';
 import { Accounts } from './views/Accounts';
 import { Contacts } from './views/Contacts';
 import { Dashboard } from './views/Dashboard';
+import { Outreach } from './views/Outreach';
 import { Settings } from './views/Settings';
 
 const NAV: readonly { id: View; label: string }[] = [
   { id: 'dashboard', label: 'Dashboard' },
   { id: 'accounts', label: 'Accounts' },
   { id: 'contacts', label: 'Contacts' },
+  { id: 'outreach', label: 'Outreach' },
   { id: 'settings', label: 'Data' },
 ];
 
@@ -78,6 +80,7 @@ function Shell() {
           {route.view === 'dashboard' && <Dashboard />}
           {route.view === 'accounts' && <Accounts route={route} />}
           {route.view === 'contacts' && <Contacts />}
+          {route.view === 'outreach' && <Outreach route={route} />}
           {route.view === 'settings' && <Settings />}
         </ErrorBoundary>
       </main>
