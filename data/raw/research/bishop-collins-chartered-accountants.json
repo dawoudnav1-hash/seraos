@@ -1,0 +1,268 @@
+{
+ "accountId": "bishop-collins-chartered-accountants",
+ "accountName": "Bishop Collins Chartered Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Bishop Collins is a Central Coast (Tuggerah) chartered accounting and audit firm of over 30 staff per its site, with offices in Sydney and Crows Nest. Director Phillip Keenan focuses on property investment and development. The firm sells Xero bookkeeping, cloud migration and outsourced CFO services alongside audit and SMSF work.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.bishopcollins.com.au/",
+   "title": "Chartered Accountants Sydney | Bishop Collins Accountants",
+   "type": "website",
+   "publisher": "Bishop Collins",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.bishopcollins.com.au/team-member/phillip-keenan/",
+   "title": "Phillip Keenan | Bishop Collins",
+   "type": "website",
+   "publisher": "Bishop Collins",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/phillip-keenan-55295047",
+   "title": "Phillip Keenan - Director at Bishop Collins",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.bishopcollins.com.au/bookkeeping-services/",
+   "title": "Bookkeeping Services in Sydney | Bishop Collins Accountants",
+   "type": "website",
+   "publisher": "Bishop Collins",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.bishopcollins.com.au/sydney/bookkeeping-services/",
+   "title": "Bookkeeping Services Sydney | Bishop Collins",
+   "type": "website",
+   "publisher": "Bishop Collins",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.bishopcollins.com.au/media/",
+   "title": "Accounting & Financial News | Bishop Collins",
+   "type": "blog",
+   "publisher": "Bishop Collins",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://au.linkedin.com/company/bishop-collins-accountants",
+   "title": "Bishop Collins Chartered Accountants | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-01"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Bishop Collins is a Central Coast NSW firm (Tuggerah head office) servicing from Sydney to Newcastle.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Central Coast Accountants, servicing from Sydney to Newcastle",
+   "date": "2026",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Phillip Keenan is a Director at Bishop Collins (promoted to Director in 2017) per LinkedIn.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director at Bishop Collins",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Phillip's bio says his passion is property investment and development advice for clients.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "advise clients in the areas he is most passionate about – Property Investment and Development.",
+   "date": "2026",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Bishop Collins says it has a team of over 30 accountants and auditors.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Bishop Collins Accountants has a team of over 30 professional accountants and auditors.",
+   "date": "2026",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "Bishop Collins' monthly bookkeeping service covers reconciliation through to reports.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "From reconciliation to reports, nothing is left to guesswork.",
+   "date": "2026",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The firm describes itself as Xero experts offering Xero bookkeeping.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We’re Xero experts and here to help you grow your business.",
+   "date": "2026",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Its blog includes articles on part-time CFO services and what monthly bookkeeping includes.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Part-Time CFO Services: Expert Leadership Without the Full-Time Price",
+   "date": "2025-05",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Bishop Collins lists outsourced CFO and bookkeeping (including migration to cloud accounting) among its business services.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Bookkeeping (including migration to cloud accounting)",
+   "date": "2026",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The firm's LinkedIn page posted in September 2026 on SMSF property strategies for high income earners.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "With Recent Changes, Should You Use Super To Buy Property? SMSF Property Strategies for High Income Earners",
+   "date": "2026-09",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Its audit team specialises in registered clubs, not-for-profit and aged care.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Audit and Assurance services are industry specialists in Registered Clubs, Not For Profit and Aged Care.",
+   "date": "2026",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Phillip Keenan",
+   "title": "Director",
+   "contactId": "bishop-collins-chartered-accountants--phillip-keenan",
+   "linkedin": "https://linkedin.com/in/phillip-keenan-55295047",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Johan Van Der Westhuizen",
+   "title": "Audit Director",
+   "contactId": "bishop-collins-chartered-accountants--johan-van-der-westhuizen",
+   "linkedin": "https://www.linkedin.com/in/johan-van-der-westhuizen-3b133317",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Bookkeeping, Xero and outsourced CFO clients mean monthly reconciliations ahead of advice.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C8"
+   ]
+  },
+  {
+   "text": "Phillip's focus on property investment and development suggests multi-entity clients with many accounts to reconcile (inference).",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Headcount differs by source (30+ on site; LinkedIn lists 17); audit/tax-heavy firm so bookkeeping may be a minority of work.",
+   "claimIds": [
+    "C4",
+    "C10"
+   ]
+  },
+  {
+   "text": "Johan Van Der Westhuizen (Audit Director, primary in records) not on the public team list reviewed.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No job ads, podcasts or posts by Phillip personally found.",
+  "Xero partner tier not confirmed.",
+  "Contact page not fetched; Tuggerah head office address varies between pages."
+ ],
+ "searches": [
+  {
+   "query": "Bishop Collins Chartered Accountants Tuggerah Central Coast Phillip Keenan",
+   "results": 8
+  },
+  {
+   "query": "fetch bishopcollins.com.au home",
+   "results": 1
+  },
+  {
+   "query": "Bishop Collins Accountants Central Coast news / job / Xero",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "bishop-collins-chartered-accountants--phillip-keenan",
+   "subject": "Re: Idea for Bishop Collins",
+   "body": "Hi Phillip,\n\nFollowing up on my note earlier this week. Your site says monthly bookkeeping runs from reconciliation to reports, and your team has written on part-time CFO services. Those clients' reconciliations land on your team every month, ahead of the advice. Vert cuts that from hours to minutes with a trace behind every match. How much of your bookkeeping team's month goes on reconciling?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C7",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "bishop-collins-chartered-accountants--phillip-keenan",
+   "subject": "Re: Idea for Bishop Collins",
+   "body": "Hi Phillip,\n\nLast note from me. Property investment and development is where your bio says you are most passionate, which I'd guess means many accounts and entities to reconcile. If that is right, a 10 minute look at Vert could be worth it. Otherwise I'll leave it there.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5"
+   ]
+  }
+ }
+}

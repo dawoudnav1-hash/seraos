@@ -1,0 +1,238 @@
+{
+ "accountId": "boody",
+ "accountName": "Boody",
+ "status": "complete",
+ "summary": "Boody is a Sydney bamboo apparel brand selling D2C, wholesale and marketplace across Australia, New Zealand, the US, UK and Europe. Carolyn Beagley joined as CFO in March 2026 from Accent Group, and the business consolidated onto a NetSuite ERP (via Annexa) after earlier Odoo, Xero and QuickBooks setups.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/carolyn-beagley-1b79013b",
+   "title": "Carolyn Beagley profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-01"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/boody",
+   "title": "Boody company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/shaungreenblo_chief-financial-officer-cfo-activity-7373570049133096960-9pPM",
+   "title": "Shaun Greenblo: We're hiring a CFO",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-09-16"
+  },
+  {
+   "id": "S4",
+   "url": "https://annexa.com.au/case-study/boody-finds-the-comfiest-fit-for-scaling-across-regions-and-channels/",
+   "title": "Boody NetSuite case study",
+   "type": "other",
+   "publisher": "Annexa",
+   "date": "2026-04-20"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Carolyn Beagley is CFO of Boody, in the role since March 2026.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "CFO - Boody (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Boody is headquartered in Sydney with a presence in the United States.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Headquarters: Sydney, Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Before Boody, Carolyn was Head of Finance & Commercial at Accent Group (Oct 2022 to Mar 2026).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Head of Finance & Commercial (ALS)",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Co-CEO Shaun Greenblo's CFO search post described a profitable, scaling global brand and sought someone to own the numbers end to end.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Own the numbers end-to-end",
+   "date": "2025-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Boody implemented NetSuite as its global ERP with Celigo connecting three Shopify stores and global fulfilment partners.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "NetSuite was implemented as the global ERP backbone, with Celigo enabling a new, scalable integration architecture",
+   "date": "2026-04",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Boody sells D2C, B2B, wholesale and marketplace across Australia, New Zealand, US, UK and Europe.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Boody supports direct-to-consumer, B2B, wholesale and marketplace channels across Australia, New Zealand, US, UK and Europe.",
+   "date": "2026-04",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "A Boody leader said the business sees a huge spike in volume during Black Friday.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We already do a high volume, but we see a huge spike during the Black Friday period.",
+   "date": "2026-04",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Boody uses SPS Commerce for EDI across six global retailers and NuOrder as its B2B wholesale portal.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "SPS Commerce for EDI across six global retailers and NuOrder as the B2B wholesale portal",
+   "date": "2026-04",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The systems replaced by NetSuite included Odoo, Xero, QuickBooks (UK) and a US ERP.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "System replaced:",
+   "date": "2026-04",
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Carolyn Beagley",
+   "title": "CFO",
+   "contactId": "boody--carolyn-beagley",
+   "linkedin": "https://linkedin.com/in/carolyn-beagley-1b79013b",
+   "claimIds": [
+    "C1",
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "New CFO (Mar 2026) from Accent Group inherits a multi-region, multi-channel business just consolidated on NetSuite.",
+   "claimIds": [
+    "C1",
+    "C3",
+    "C5"
+   ]
+  },
+  {
+   "text": "Black Friday volume and marketplace/EDI settlements create heavy reconciliation load.",
+   "claimIds": [
+    "C7",
+    "C8",
+    "C6"
+   ]
+  },
+  {
+   "text": "Shaun's CFO brief asked for end-to-end ownership of the numbers.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Fresh NetSuite and Celigo stack; the case study says it reduces manual reconciliation, so they may feel covered.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "Only three people in finance; may be heads-down at peak trading.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "Carolyn has no public posts found.",
+  "Finance team size taken from internal data, not a public source."
+ ],
+ "searches": [
+  {
+   "query": "Carolyn Beagley CFO Boody",
+   "results": 10
+  },
+  {
+   "query": "Boody case study Odoo NetSuite Annexa WAO Group ERP",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "boody--carolyn-beagley",
+   "subject": "Reconciling Boody's regions and channels",
+   "body": "Hi Carolyn,\n\nYou joined Boody as CFO from Accent Group into a business selling D2C, wholesale and marketplace across Australia, New Zealand, the US, UK and Europe, now on a single NetSuite backbone. With Black Friday volume landing, the reconciliation behind it (marketplace settlements, payouts, multi-currency) is where finance time tends to go. I built Vert to reconcile and cash code with a traceable trail, turning 4 hours into 5 minutes. How is that handled across regions today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C1",
+    "C3",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp": {
+   "contactId": "boody--carolyn-beagley",
+   "subject": "Re: Reconciling Boody's regions and channels",
+   "body": "Hi Carolyn,\n\nFollowing up on my note last week. Annexa's case study mentions EDI across six global retailers, marketplaces and three Shopify stores all feeding NetSuite. Settlements from each rarely arrive in the shape the ledger expects, so I am curious how your team matches them. Happy to show Vert on a sample month in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C5",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "boody--carolyn-beagley",
+   "subject": "Re: Reconciling Boody's regions and channels",
+   "body": "Hi Carolyn,\n\nLast nudge from me. Shaun's CFO search asked for someone to own the numbers end to end at a profitable, scaling global brand. A faster, traceable close is one way to do that without adding headcount. Open to 10 minutes this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C1"
+   ]
+  }
+ }
+}

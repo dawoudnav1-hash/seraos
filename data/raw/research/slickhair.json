@@ -1,0 +1,253 @@
+{
+ "accountId": "slickhair",
+ "accountName": "SLICKHAIR.",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "SLICKHAIR is a Melbourne hair-styling brand founded by Mia Plecic, now described as an 8-figure global brand in thousands of stores with four warehouses. Amy Fox joined in 2026 as Global Financial Controller to lead finance through international growth, and Mia announced in Nov 2025 she is exploring private equity investment for the US. Amy's only email on file is a Goldi Group address, the firm she left in June 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.linkedin.com/posts/amy-fox-fcfo_ive-been-working-with-slickhair-for-the-activity-7481991312716791809-avUq",
+   "title": "Amy Fox joins SLICKHAIR as Global Financial Controller",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-07-12"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/posts/miaplecic_after-five-years-of-fully-bootstrapping-activity-7398918527103143936-sse7",
+   "title": "Mia Plecic: exploring private equity investment",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-11-25"
+  },
+  {
+   "id": "S3",
+   "url": "https://exa.ai/library/person/6q8pqtwplwj",
+   "title": "Amy Fox - Global Financial Controller | SLICKHAIR (LinkedIn profile)",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.news.com.au/finance/work/careers/it-was-a-bit-of-a-shock-aussie-comes-up-with-multimillion-dollar-idea-in-the-middle-of-lockdown/news-story/c9ae67468d75843a3b72b6590c586549",
+   "title": "Aussie comes up with multi-million dollar idea in the middle of lockdown",
+   "type": "news",
+   "publisher": "news.com.au",
+   "date": "2025-09-12"
+  },
+  {
+   "id": "S5",
+   "url": "https://bestie.femalefounderworld.com/podcasts/female-founder-world/episodes/2148977912",
+   "title": "Mia Plecic Built 'Slick Hair' With $500",
+   "type": "podcast",
+   "publisher": "Female Founder World",
+   "date": "2025-02-10"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/miaplecic_five-years-ago-today-i-took-a-leap-of-faith-activity-7272563751365537792-mA1b",
+   "title": "Mia Plecic: five years of SLICKHAIR",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2024-12-11"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "SLICKHAIR is headquartered in Melbourne, Victoria.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Headquartered in Melbourne, Victoria, Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Amy Fox announced in July 2026 she joined SLICKHAIR as Global Financial Controller, leading finance through huge international growth.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "I’ve joined the team as Global Financial Controller, leading the finance function through a period of huge international growth",
+   "date": "2026-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "In the same post Amy said her time at Goldi Group has come to an end.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "my time at Goldi Group has come to an end",
+   "date": "2026-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Founder Mia Plecic posted in Nov 2025 that she is exploring private equity investment to scale SLICKHAIR in the US market.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I’m officially exploring private equity investment to help scale SLICKHAIR deeper into the US market",
+   "date": "2025-11",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Mia describes SLICKHAIR as a profitable 8-figure global brand.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "scaling it into a strong 8-figure global brand, and remaining profitable from day one",
+   "date": "2025-11",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Mia's Dec 2024 post says SLICKHAIR is stocked in more than 4,000 stores in over 10 countries with 4 warehouses across the world.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "stocked in more than 4,000 stores in over 10 countries, we have 4 warehouses across the world",
+   "date": "2024-12",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "news.com.au (Sep 2025) reports SLICKHAIR stocked in over 5,000 retail stores including Woolworths, Priceline, Sephora and Urban Outfitters.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Slick Hair is now stocked in over 5,000 retail stores worldwide, including Woolworths, Priceline, Sephora, and Urban Outfitters.",
+   "date": "2025-09",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "On a Feb 2025 podcast Mia said she is a creative, not a financier person.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "I’m very much a creative, not a financier person",
+   "date": "2025-02",
+   "category": "personal",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "On the same podcast Mia said a very big goal was landing a big box retailer in the States.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "a very big goal this year to land a big box retailer in the States",
+   "date": "2025-02",
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Amy Fox",
+   "title": "Global Financial Controller",
+   "contactId": "slickhair--amy-fox",
+   "linkedin": "https://www.linkedin.com/in/amy-fox-fcfo",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Heli Vyas",
+   "title": "Finance & Supply Chain Manager",
+   "contactId": "slickhair--heli-vyas",
+   "linkedin": "https://linkedin.com/in/heli-vyas-590996195",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "New Global FC leading finance through international growth: window to set up the close process.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "PE exploration means diligence-ready, auditable books will matter.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Multi-country footprint with several warehouses and big retailers implies heavy reconciliation load; founder admits finance is not her strength so Amy owns it.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Amy's only email on file is her Goldi Group address, and she says she left Goldi in 2026: the address may be stale or monitored by Goldi; verify before sending.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Heli Vyas (finance manager) has no email on file.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "Official slickhair.com pages not fetched; no finance-specific posts by Amy found after her announcement; tech stack (Shopify/Xero) only from the account record, not cited."
+ ],
+ "searches": [
+  {
+   "query": "SLICKHAIR Amy Fox Mia Plecic",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "slickhair--amy-fox",
+   "subject": "SLICKHAIR's close",
+   "body": "Hi Amy,\n\nCongratulations on joining SLICKHAIR as Global Financial Controller, leading finance through what you called a period of huge international growth. With stores in over 10 countries, 4 warehouses and Mia exploring private equity for the US, the month-end close likely carries a lot. I built Vert to turn hours of manual reconciliation into minutes, with every match traceable. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "slickhair--amy-fox",
+   "subject": "Re: SLICKHAIR's close",
+   "body": "Hi Amy,\n\nFollowing up on my note from earlier this week. Mia has said SLICKHAIR is exploring private equity to scale in the US, which usually means diligence-ready books. Vert reconciles bank and sales-channel activity in minutes and keeps an audit trail behind each match. Could I show you on a sample month?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C4"
+   ]
+  },
+  "followUp2": {
+   "contactId": "slickhair--amy-fox",
+   "subject": "Re: SLICKHAIR's close",
+   "body": "Hi Amy,\n\nLast nudge. Mia has said she is a creative, not a financier person, so she will lean on you for a finance function she can trust. Vert gives you a close that runs in minutes and traces every match. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C2"
+   ]
+  }
+ }
+}

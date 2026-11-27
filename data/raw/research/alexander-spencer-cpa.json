@@ -1,0 +1,287 @@
+{
+ "accountId": "alexander-spencer-cpa",
+ "accountName": "Alexander Spencer CPA",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Camberwell (Melbourne) accounting and advisory firm est. 1952, an AFR Top 100 firm led by Managing Director Sevan Tuna, who also hosts the podcast The Bottom Line. It runs a bookkeeping division offering bank reconciliation and outsourced CFO services on Xero, QuickBooks and MYOB, with staff offshore in the Philippines and Malaysia. First email sent 23 Nov 2026; two follow-ups drafted.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.alexanderspencer.com.au/sevan-tuna",
+   "title": "Sevan Tuna - Alexander Spencer",
+   "type": "website",
+   "publisher": "Alexander Spencer",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/sevantuna",
+   "title": "Sevan Tuna - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-08"
+  },
+  {
+   "id": "S3",
+   "url": "https://alexanderspencer.com.au/bookkeeping/",
+   "title": "Bookkeeping - Alexander Spencer",
+   "type": "website",
+   "publisher": "Alexander Spencer",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://alexanderspencer.com.au/",
+   "title": "Alexander Spencer home",
+   "type": "website",
+   "publisher": "Alexander Spencer",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://podcasts.apple.com/au/podcast/how-alexander-spencer-became-a-top-100-accounting-firm/id1573384396?i=1000678159254",
+   "title": "How Alexander Spencer became a top 100 accounting firm - The Bottom Line",
+   "type": "podcast",
+   "publisher": "Apple Podcasts",
+   "date": "2024-11-25"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.alexanderspencer.com.au/insights/sevan-tuna-journey-of-passion-people-and-partnership",
+   "title": "Sevan Tuna: Journey of Passion, People and Partnership",
+   "type": "blog",
+   "publisher": "Alexander Spencer",
+   "date": "2025-08-11"
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/company/alexander-spencer-cpa",
+   "title": "Alexander Spencer CPA - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Alexander Spencer's site lists Suite 1 Level 3, 250 Camberwell Rd, Camberwell VIC as its office.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Suite 1 Level 3/250 Camberwell Rd, Camberwell VIC 3124",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Sevan Tuna is currently Managing Director of Alexander Spencer and host of The Bottom Line (LinkedIn, Oct 2026).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Managing Director, Alexander Spencer | Host, The Bottom Line",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Sevan has been with Alexander Spencer for over 20 years and says the firm has appeared on the AFR top 100 accounting firms list annually since 2017.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "appearing on the Australian Financial Review’s list of Australia’s top 100 accounting firms annually since 2017.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In Nov 2024 Sevan was a guest on his own podcast The Bottom Line, discussing how Alexander Spencer became a top 100 accounting firm.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Sevan shares his journey. He highlights the importance of mentorship and growth opportunities for all team members",
+   "date": "2024-11",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "The firm's bookkeeping division offers bank reconciliation to spot discrepancies early.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We reconcile your bank statements against your financial records to ensure accuracy and spot discrepancies early.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The bookkeeping division also offers accounts payable, payroll and outsourced CFO services.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Our outsourced CFO services give you access to expert financial strategy and planning without the cost of a full-time executive.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm works with Xero, QuickBooks and MYOB.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We work with leading platforms, including Xero, QuickBooks, and MYOB.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm describes itself as an AFR Top 100 firm and Abacus Worldwide's 2024 Firm of the Year.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "AFR Top 100 firm and Abacus Worldwide’s 2024 Firm of the Year",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The workforce is distributed across Australia, the Philippines and Malaysia.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Its workforce is distributed across Australia, Philippines, and Malaysia.",
+   "date": "2026-10",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Sevan's LinkedIn headline says he helps business owners with revenues of $3m to $75m turn numbers into strategy, growth and exit-ready value.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Helping $3m–$75m business owners turn numbers into strategy, growth & exit-ready value.",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Sevan leads the management group and focuses the firm on growth, innovation and client care.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "As Managing Director, Sevan continues to guide Alexander Spencer with a focus on growth, innovation, and client care.",
+   "date": "2025-08",
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Sevan Tuna",
+   "title": "Managing Director",
+   "contactId": "alexander-spencer-cpa--sevan-tuna",
+   "linkedin": "https://www.linkedin.com/in/sevantuna",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "name": "Seth Li",
+   "title": "Director",
+   "contactId": "alexander-spencer-cpa--seth-li",
+   "linkedin": "https://www.linkedin.com/in/seth-li-6bb10795",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Sevan hosts The Bottom Line podcast and leads a firm growing to the AFR top 100; growth means bookkeeping capacity pressure.",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Bookkeeping division sells bank reconciliation and outsourced CFO on three ledgers (Xero, QuickBooks, MYOB).",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Offshore staff in the Philippines and Malaysia suggest the firm already scales through labour; Vert is a different lever.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Firm already uses offshore teams for volume work, which may reduce urgency.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "LinkedIn shows headcount down 7.3% YoY; may be cost-conscious or restructuring.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No hiring ads found for bookkeepers in the last 12 months.",
+  "No evidence of the firm's reconciliation or AI tooling (Dext, Hubdoc, Karbon etc.).",
+  "First email content unknown."
+ ],
+ "searches": [
+  {
+   "query": "Sevan Tuna Alexander Spencer CPA Managing Director Camberwell",
+   "results": 7
+  },
+  {
+   "query": "alexanderspencer.com.au home and bookkeeping (fetched)",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "alexander-spencer-cpa--sevan-tuna",
+   "subject": "Re: Idea for Alexander Spencer CPA",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C7"
+   ],
+   "body": "Hi Sevan,\n\nFollowing up on my note earlier this week. After listening to how Alexander Spencer became a top 100 firm on The Bottom Line, I looked at your bookkeeping page, where bank reconciliation is a headline service across Xero, QuickBooks and MYOB. Vert does that reconciliation and cash coding in minutes with every match traceable, so your bookkeepers review exceptions rather than keying. Open to a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "alexander-spencer-cpa--sevan-tuna",
+   "subject": "Re: Idea for Alexander Spencer CPA",
+   "claimIds": [
+    "C10",
+    "C6"
+   ],
+   "body": "Hi Sevan,\n\nOne last nudge. You help owners turn numbers into strategy, and your outsourced CFO offer depends on clean books arriving fast. Vert gets reconciliations done in minutes so your team starts on advice sooner. Happy to show you in 10 minutes, or leave it with you if the timing is wrong.\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}
