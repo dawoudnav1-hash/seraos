@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-27T00:46:07+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-27T00:46:25+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **450**
 - Contacts (de-duplicated): **810**
@@ -86,6 +86,7 @@ Generated 2026-11-27T00:46:07+00:00 by `pipeline/build_data.py`.
 - [override] contact skybridge-financial--sachin-maheshwari: {'likelyLeft': True, 'note': 'Different company: SkyBridge Financial Services in Pune, India (research, 27 Nov).'}
 - [override] account skybridge-financial: flagged
 - [override] account visory: flagged
+- [override] account wsc-group: flagged
 - [live-merge] note on hellocfo--bryn-leggett: Rejected Vert on LinkedIn. Do not contact.
 - [count] published-page additions: 26 accounts, 58 contacts, 1 notes
 - [excluded] 4orward (4orward): Removed at the owner's request (comment on the published page, 25 Nov 2026).
@@ -225,4 +226,4 @@ Generated 2026-11-27T00:46:07+00:00 by `pipeline/build_data.py`.
 - [excluded] outreach event hostinger:INBOX.Sent:102 dropped (excluded account)
 - [count] outreach: 149 events (0 not matched to an account)
 - [research-rejected] meir.json: draft first goes to a contact with no email (+2 more)
-- [count] research dossiers bundled: 86
+- [count] research dossiers bundled: 87

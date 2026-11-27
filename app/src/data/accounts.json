@@ -37354,18 +37354,20 @@
    "https://wscgroup.com.au/",
    "https://wscgroup.com.au/page/contact-us"
   ],
+  "flags": "⚠ Count Limited (ASX) owns ~58.7% of WSC and an Aug 2026 merger with CountPlus One takes it to ~70%; tooling may be decided at Count level.",
   "state": "VIC",
   "city": "Melbourne",
   "suburb": "Docklands",
   "cityBasis": "Company location",
-  "rating": 50,
-  "grade": "C",
+  "rating": 30,
+  "grade": "D",
   "ratingReasons": [
    "Fit 12/50 from research says 'weak'",
    "+5 recurring close work (bookkeeping, CAS, reconciliations, month-end)",
    "Size 7/15 (staff unknown; sweet spot 5-60)",
    "Reach 20/20 (Emily Delandro: email ok, LinkedIn, decision-maker)",
-   "Engagement 6/15 (not contacted yet)"
+   "Engagement 6/15 (not contacted yet)",
+   "-20 warning flag on the account"
   ]
  },
  {

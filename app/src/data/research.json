@@ -15802,6 +15802,233 @@
    }
   }
  },
+ "moveactive": {
+  "accountId": "moveactive",
+  "accountName": "MoveActive",
+  "status": "complete",
+  "researchedAt": "2026-11-26",
+  "summary": "MoveActive is a Melbourne Pilates and wellness accessories brand founded in 2009, with 7,500+ wholesale stockists and a UK launch in July 2026. Founder Melissa Pain leads; Mandy Drake is listed as CFO on a directory.",
+  "sources": [
+   {
+    "id": "S1",
+    "url": "https://retailtimes.co.uk/moveactive-the-premium-pilates-and-wellness-accessories-brand-launches-in-the-uk/",
+    "title": "MoveActive launches in the UK",
+    "type": "news",
+    "publisher": "Retail Times",
+    "date": "2026-07-22"
+   },
+   {
+    "id": "S2",
+    "url": "https://moveactive.co.uk/pages/about-us",
+    "title": "About Us - MoveActive",
+    "type": "website",
+    "publisher": "MoveActive",
+    "date": null
+   },
+   {
+    "id": "S3",
+    "url": "https://linkedin.com/in/melissa-pain-4b543359",
+    "title": "Melissa Pain - LinkedIn",
+    "type": "linkedin",
+    "publisher": "LinkedIn",
+    "date": "2026-11-11"
+   },
+   {
+    "id": "S4",
+    "url": "https://theorg.com/org/moveactive",
+    "title": "MoveActive - The Org",
+    "type": "directory",
+    "publisher": "The Org",
+    "date": null
+   },
+   {
+    "id": "S5",
+    "url": "https://www.smartcompany.com.au/smart50-awards-2024/29-moveactive/",
+    "title": "29. MoveActive - Smart50 2024",
+    "type": "news",
+    "publisher": "SmartCompany",
+    "date": "2024-11-14"
+   }
+  ],
+  "claims": [
+   {
+    "id": "C1",
+    "text": "MoveActive was founded in Melbourne in 2009 and sells Pilates and wellness accessories, best known for grip socks.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Founded in Melbourne in 2009, MoveActive creates stylish, performance-led accessories designed for Pilates, yoga, and everyday movement.",
+    "date": "2026-07",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C2",
+    "text": "MoveActive is headquartered in Brunswick East, with founder Melissa Pain listed as current owner/founder.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "Owner/ Founder - MoveActive (Current)",
+    "date": "2026-11",
+    "category": "identity",
+    "confidence": "high"
+   },
+   {
+    "id": "C3",
+    "text": "The Org lists Mandy Drake as Chief Financial Officer at MoveActive (unverified directory listing).",
+    "sourceIds": [
+     "S4"
+    ],
+    "quote": "Mandy Drake",
+    "date": "2026-11",
+    "category": "identity",
+    "confidence": "medium"
+   },
+   {
+    "id": "C4",
+    "text": "MoveActive launched in the UK in July 2026.",
+    "sourceIds": [
+     "S1"
+    ],
+    "quote": "Premium Pilates and wellness accessories brand MoveActive is launching in the UK.",
+    "date": "2026-07",
+    "category": "growth",
+    "confidence": "high"
+   },
+   {
+    "id": "C5",
+    "text": "MoveActive says its footprint spans more than 7,500 wholesale stockists globally across Australia, New Zealand, USA, UK and beyond.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "MoveActive's footprint spans more than 7,500 wholesale stockists globally",
+    "date": "2026-11",
+    "category": "clients",
+    "confidence": "high"
+   },
+   {
+    "id": "C6",
+    "text": "MoveActive says it uses organic cotton, recycled polyester and other recycled materials, with a range from grip socks to mats.",
+    "sourceIds": [
+     "S2"
+    ],
+    "quote": "We are sustainably driven; using organic cotton, recycled polyester and other recycled materials",
+    "date": "2026-11",
+    "category": "services",
+    "confidence": "high"
+   },
+   {
+    "id": "C7",
+    "text": "SmartCompany's Smart50 2024 listed MoveActive with 52% growth and 24 employees.",
+    "sourceIds": [
+     "S5"
+    ],
+    "quote": "Revenue: $6.5 million Growth: 52% Founder: Melissa Pain Head office: Brunswick, VIC Year founded: 2009 Employees: 24",
+    "date": "2024-11",
+    "category": "growth",
+    "confidence": "high"
+   },
+   {
+    "id": "C8",
+    "text": "Melissa Pain's LinkedIn says she expanded the brand to over 7,500 stockists globally.",
+    "sourceIds": [
+     "S3"
+    ],
+    "quote": "Expanded the brand's reach to over 7,500 stockist's globally, driving rapid growth and brand recognition.",
+    "date": "2026-11",
+    "category": "person",
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Mandy Drake",
+    "title": "Chief Financial Officer",
+    "contactId": "moveactive--mandy-drake",
+    "linkedin": "https://www.linkedin.com/in/mandy-drake-a357214",
+    "claimIds": [
+     "C3"
+    ]
+   },
+   {
+    "name": "Melissa Pain",
+    "title": "Founder",
+    "contactId": "moveactive--melissa-pain-owner-founder",
+    "linkedin": "https://www.linkedin.com/in/melissa-pain-4b543359",
+    "claimIds": [
+     "C2",
+     "C8"
+    ]
+   }
+  ],
+  "hooks": [
+   {
+    "text": "UK launch in July 2026 on top of 7,500+ wholesale stockists across AU/NZ/US/UK implies multi-currency wholesale receipts to reconcile",
+    "claimIds": [
+     "C4",
+     "C5"
+    ]
+   },
+   {
+    "text": "Fast growth (52% in the Smart50 listing) with a small team",
+    "claimIds": [
+     "C7"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "text": "Mandy Drake's CFO role rests on one unverified directory listing; no recent post from her found",
+    "claimIds": [
+     "C3"
+    ]
+   }
+  ],
+  "gaps": [
+   "No posts or interviews from Mandy Drake found",
+   "No finance job ads found",
+   "Accounting stack (Xero etc.) not confirmed"
+  ],
+  "searches": [
+   {
+    "query": "MoveActive Pilates grip socks UK launch 2026 founder",
+    "results": 8
+   },
+   {
+    "query": "Mandy Drake Chief Financial Officer MoveActive",
+    "results": 5
+   }
+  ],
+  "drafts": {
+   "first": {
+    "contactId": "moveactive--mandy-drake",
+    "subject": "MoveActive's UK launch and month-end",
+    "body": "Hi Mandy,\n\nCongratulations on MoveActive's UK launch. With more than 7,500 wholesale stockists across Australia, New Zealand, the US and UK, I imagine stockist payments and multi-currency bank activity add up quickly at month-end. I built Vert, which turns hours of manual reconciliation into minutes with a traceable audit trail, so a lean finance team can close faster without a tool guessing. How much of your close is still manual reconciling since the UK went live?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C4",
+     "C5"
+    ]
+   },
+   "followUp": {
+    "contactId": "moveactive--mandy-drake",
+    "subject": "Re: MoveActive's UK launch and month-end",
+    "body": "Hi Mandy,\n\nFollowing up on my note last week. Melissa has built MoveActive to over 7,500 stockists globally, which is a lot of wholesale receipts for a small finance team. Is stockist cash matching or bank and card recs the bigger time sink? Happy to show Vert on either in ten minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C8",
+     "C5"
+    ]
+   },
+   "followUp2": {
+    "contactId": "moveactive--mandy-drake",
+    "subject": "Re: MoveActive's UK launch and month-end",
+    "body": "Hi Mandy,\n\nLast nudge from me. A brand growing 52% in a year, as the Smart50 listing noted, tends to outgrow its close process first. If a faster, traceable month-end is worth ten minutes, I would love to show you Vert.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+    "claimIds": [
+     "C7",
+     "C4"
+    ]
+   }
+  }
+ },
  "murdoch-partners": {
   "accountId": "murdoch-partners",
   "accountName": "Murdoch Partners",
