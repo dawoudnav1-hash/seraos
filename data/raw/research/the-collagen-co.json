@@ -1,0 +1,274 @@
+{
+ "accountId": "the-collagen-co",
+ "accountName": "The Collagen Co.",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "The Collagen Co. is a Melbourne collagen and wellness e-commerce brand that went live on NetSuite in November 2025, created a CFO role, and hired a Financial Controller in March 2026 to run finance across Australia and NZ and support US expansion. Sonia Chambers has been Financial Controller since April 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/soniachambers",
+   "title": "Sonia Chambers - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/posts/the-collagen-co_financial-controller-job-in-sunshine-north-activity-7439516253377081344-aza3",
+   "title": "Hiring a strategic Financial Controller - The Collagen Co",
+   "type": "linkedin",
+   "publisher": "LinkedIn (The Collagen Co)",
+   "date": "2026-03-17"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/the-collagen-co_erp-systems-administrator-job-in-sunshine-activity-7429309531156856832-quTT",
+   "title": "Hiring an ERP & Business Systems Administrator - The Collagen Co",
+   "type": "linkedin",
+   "publisher": "LinkedIn (The Collagen Co)",
+   "date": "2026-02-16"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/the-collagen-co_activity-7398652055231479808-KKIk",
+   "title": "The Collagen Co reshared search for newly created CFO",
+   "type": "linkedin",
+   "publisher": "LinkedIn (The Collagen Co)",
+   "date": "2025-11-24"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/karen-linehan-2a7b7458_netsuite-fusion5-thecollagenco-activity-7391344648549695488-RDU3",
+   "title": "The Collagen Co goes live with NetSuite - Karen Linehan (Fusion5)",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Karen Linehan)",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/the-collagen-co",
+   "title": "The Collagen Co - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://thecollagen.co/",
+   "title": "The Collagen Co. | Australia's Best Collagen Peptides Powder",
+   "type": "website",
+   "publisher": "The Collagen Co.",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "The Collagen Co is headquartered in Melbourne, Victoria.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Headquartered in Melbourne, Victoria, Australia.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "The Collagen Co. sells collagen powders and meal shakes online.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "High Protein + Collagen Meal Shake",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Sonia Chambers is Financial Controller at The Collagen Co, current since April 2026.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Financial Controller - The Collagen Co (Current) Apr 2026 - Present",
+   "date": "2026-04",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Sonia previously spent about seven years as Finance Manager at Calendar (Port Melbourne).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager - Calendar Oct 2017 - Nov 2024",
+   "date": "2024-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In March 2026 the company advertised a Financial Controller to own finance operations across Au & NZ while supporting US expansion.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "you'll own end-to-end finance operations across Au & NZ, while supporting our exciting US global expansion.",
+   "date": "2026-03",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The Financial Controller ad includes optimising NetSuite and cost accounting, and reports to the CFO.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Reporting directly to the CFO",
+   "date": "2026-03",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In February 2026 it hired an ERP & Business Systems Administrator for integrations including Shopify, Celigo, ShipHero, WMS and 3PLs.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Seamless integrations (Shopify + Celigo + ShipHero + WMS + 3PLs);",
+   "date": "2026-02",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In November 2025 the company was searching for a newly created CFO.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "on the search for their newly created CFO",
+   "date": "2025-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The Collagen Co went live on a new NetSuite ERP platform in November 2025, delivered by Fusion5.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "The Collagen Co officially goes live with their new NetSuite ERP platform delivered by their NetSuite Partner Fusion5!",
+   "date": "2025-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "LinkedIn lists 43 employees growing 22.4% year on year.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "The Collagen Co employs 43 people (+22.4% YoY, +11 people)",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Sonia Chambers",
+   "title": "Financial Controller",
+   "contactId": "the-collagen-co--sonia-chambers",
+   "linkedin": "https://linkedin.com/in/soniachambers",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Sonia joined in April 2026 as Financial Controller across Au & NZ with US expansion coming, on a NetSuite that only went live in November, so recs across markets and feeds are being built now.",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C9"
+   ]
+  },
+  {
+   "text": "Shopify, Celigo, ShipHero and 3PL feeds into NetSuite create settlement and fulfilment reconciliation work.",
+   "claimIds": [
+    "C7"
+   ]
+  },
+  {
+   "text": "A newly created CFO plus new controller means the finance function is being rebuilt.",
+   "claimIds": [
+    "C8",
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Matt Nardi (CFO in accounts.json) was only confirmed by a directory listing, not his own profile; Sonia used as addressee. NetSuite is in place, so Vert must sit alongside it.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "Matt Nardi's own LinkedIn profile not found.",
+  "No podcasts or press interviews found.",
+  "No named AI reconciliation tool found."
+ ],
+ "searches": [
+  {
+   "query": "The Collagen Co Matt Nardi CFO Financial Controller Sonia Chambers",
+   "results": 10
+  },
+  {
+   "query": "Matt Nardi CFO Melbourne ecommerce linkedin Collagen",
+   "results": 6
+  },
+  {
+   "query": "The Collagen Co NetSuite ERP Business Systems Administrator job",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "the-collagen-co--sonia-chambers",
+   "subject": "Reconciling across Au, NZ and the US at Collagen Co",
+   "body": "Hi Sonia,\n\nNoticed The Collagen Co advertised for a Financial Controller to own finance operations across Au & NZ while supporting US expansion, and that you joined in April. With NetSuite live since November and Shopify, Celigo and 3PL feeds behind it, the month-end reconciling must be heavy. I've spent the past year asking finance leaders why AI automation in accounting sticks or quietly fails. That became Vert, which reconciles and cash codes 2x faster with a trail you can trace. How much of your close goes on reconciling before the analysis starts?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C7",
+    "C9"
+   ]
+  },
+  "followUp": {
+   "contactId": "the-collagen-co--sonia-chambers",
+   "subject": "Re: Reconciling across Au, NZ and the US at Collagen Co",
+   "body": "Hi Sonia,\n\nFollowing up on my note last week. Your team's ERP & Business Systems ad mentions Shopify, Celigo, ShipHero, WMS and 3PL integrations. Each of those lands payouts and fulfilment data that someone has to match to NetSuite every month. Vert does that matching without replacing the ERP. As a newly appointed controller, which feed takes your team the longest to tie out?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C7",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "the-collagen-co--sonia-chambers",
+   "subject": "Re: Reconciling across Au, NZ and the US at Collagen Co",
+   "body": "Hi Sonia,\n\nLast note from me. With a new CFO role and a new controller, you are setting up the close for Au, NZ and the US now. Worth 10 min to see whether Vert could take reconciling off that checklist from day one?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C8"
+   ]
+  }
+ }
+}

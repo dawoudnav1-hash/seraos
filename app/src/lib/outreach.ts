@@ -208,13 +208,16 @@ export function researchDraftFor(item: Pick<QueueItem, 'dossier' | 'step'>, cont
   return d && d.contactId === contactId ? d : null;
 }
 
-export type DraftOrigin = 'research' | 'edited' | 'claude-research' | 'claude-crm';
+/** Where a draft came from: the dossier, Claude (from research claims / from CRM notes), or typed by hand. */
+export type DraftOrigin = 'research' | 'claude-research' | 'claude-crm' | 'manual';
 
 export interface StoredDraft {
   subject: string;
   body: string;
   claimIds: string[];
   origin: DraftOrigin;
+  /** the owner changed it after it was drafted */
+  edited: boolean;
   updatedAt: string;
 }
 export type DraftStore = Record<string, StoredDraft>;
@@ -224,7 +227,7 @@ export function draftKey(step: DraftStep, contactId: string): string {
   return `${step}:${contactId}`;
 }
 
-const ORIGINS: readonly DraftOrigin[] = ['research', 'edited', 'claude-research', 'claude-crm'];
+const ORIGINS: readonly DraftOrigin[] = ['research', 'claude-research', 'claude-crm', 'manual'];
 
 export function validateDraftStore(raw: unknown): DraftStore {
   const out: DraftStore = {};
@@ -237,7 +240,8 @@ export function validateDraftStore(raw: unknown): DraftStore {
       subject: r.subject,
       body: r.body,
       claimIds: Array.isArray(r.claimIds) ? r.claimIds.filter((x): x is string => typeof x === 'string') : [],
-      origin: ORIGINS.includes(r.origin as DraftOrigin) ? (r.origin as DraftOrigin) : 'edited',
+      origin: ORIGINS.includes(r.origin as DraftOrigin) ? (r.origin as DraftOrigin) : 'manual',
+      edited: r.edited === true,
       updatedAt: typeof r.updatedAt === 'string' ? r.updatedAt : '',
     };
   }
@@ -249,14 +253,15 @@ export interface ResolvedDraft {
   body: string;
   claimIds: string[];
   origin: DraftOrigin;
+  edited: boolean;
 }
 
 /** What the composer shows for an item + recipient: the stored draft (edits / Claude), else the research draft. */
 export function resolveDraft(item: Pick<QueueItem, 'dossier' | 'step'>, contactId: string, store: DraftStore): ResolvedDraft | null {
   const stored = store[draftKey(item.step, contactId)];
-  if (stored) return { subject: stored.subject, body: stored.body, claimIds: stored.claimIds, origin: stored.origin };
+  if (stored) return { subject: stored.subject, body: stored.body, claimIds: stored.claimIds, origin: stored.origin, edited: stored.edited };
   const d = researchDraftFor(item, contactId);
-  return d ? { subject: d.subject, body: d.body, claimIds: d.claimIds, origin: 'research' } : null;
+  return d ? { subject: d.subject, body: d.body, claimIds: d.claimIds, origin: 'research', edited: false } : null;
 }
 
 /** First line of the body after the greeting ("Hi Alex,"), for previews. */

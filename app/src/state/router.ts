@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 
-export type View = 'dashboard' | 'accounts' | 'contacts' | 'settings';
-export const VIEWS: readonly View[] = ['dashboard', 'accounts', 'contacts', 'settings'];
+export type View = 'dashboard' | 'accounts' | 'contacts' | 'outreach' | 'settings';
+export const VIEWS: readonly View[] = ['dashboard', 'accounts', 'contacts', 'outreach', 'settings'];
 
 export interface Route {
   view: View;
-  /** accounts/<accountId> */
+  /** accounts/<accountId> or outreach/<accountId> */
   accountId?: string;
   /** ?contact=<contactId> highlight inside the account */
   contactId?: string;
@@ -23,7 +23,7 @@ export function parseHash(hash: string): Route {
   const [first = '', ...rest] = pathPart.split('/');
   const view = (VIEWS as readonly string[]).includes(first) ? (first as View) : 'dashboard';
   const route: Route = { view, nonce: ++nonce };
-  if (view === 'accounts' && rest.length && rest[0]) {
+  if ((view === 'accounts' || view === 'outreach') && rest.length && rest[0]) {
     try {
       route.accountId = decodeURIComponent(rest.join('/'));
     } catch {
@@ -40,6 +40,10 @@ export function parseHash(hash: string): Route {
 
 export function accountHref(accountId: string, contactId?: string): string {
   return `#/accounts/${encodeURIComponent(accountId)}${contactId ? `?contact=${encodeURIComponent(contactId)}` : ''}`;
+}
+
+export function outreachHref(accountId?: string): string {
+  return accountId ? `#/outreach/${encodeURIComponent(accountId)}` : '#/outreach';
 }
 
 export function accountsByCityHref(city: string): string {

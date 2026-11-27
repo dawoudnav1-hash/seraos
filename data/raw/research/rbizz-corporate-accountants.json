@@ -1,0 +1,222 @@
+{
+ "accountId": "rbizz-corporate-accountants",
+ "accountName": "RBizz Corporate Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "RBizz is a Melbourne CA/CPA-led firm led by Raj Kumar, offering virtual CFO, tax, accounting and foreign business services from a team of 12. Raj publishes regularly on Virtual CFO work and has a corporate group-consolidation background. Two earlier emails have been sent.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.rbizz.com.au/profile",
+   "title": "RBizz Company Profile",
+   "type": "website",
+   "publisher": "RBizz Corporate Accountants",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/raj-kumar-rbizz-solutions",
+   "title": "Raj Kumar - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.rbizz.com.au/blogs/post/you-don-t-need-a-full-time-cfo.-you-need-someone-doing-the-cfo-s-job.",
+   "title": "You Don't Need a Full-Time CFO. You Need Someone Doing the CFO's Job.",
+   "type": "blog",
+   "publisher": "RBizz Corporate Accountants",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.rbizz.com.au/tax-accountants",
+   "title": "Best Tax Accountants & Advisors - RBizz",
+   "type": "website",
+   "publisher": "RBizz Corporate Accountants",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "RBizz Corporate Accountants is headquartered at Level 27, 101 Collins St, Melbourne, with offices in Sydney, Perth, Brisbane and Narre Warren.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Headquartered on Collins Street in Melbourne, with a footprint across Australia's major business centres.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Raj Kumar is Principal of RBizz Corporate Accountants, current since April 2019.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Principal @ RBizz Corporate Accountants | CA, CPA",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "RBizz describes a team of 12 Chartered Accountants, CPAs and bookkeepers plus systems and administration specialists.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Raj is supported by a 12-strong team of Chartered Accountants, CPAs and bookkeepers",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Raj posted in July 2026 that RBizz's Virtual CFO service includes monthly management accounts and board packs.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Monthly management accounts and board packs",
+   "date": "2026-07",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "RBizz published a blog on 4 November 2026 arguing growing businesses need CFO work such as forecasting and cash flow modelling rather than just up-to-date accounting.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "the accounting is up to date but the big questions are still unanswered",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "RBizz sets up and trains clients on cloud accounting across Xero, QuickBooks, MYOB, Reckon and Zoho Books.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Cloud accounting, reporting, bookkeeping set-up and training across Xero, QuickBooks, MYOB, Reckon and Zoho Books.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "RBizz offers foreign business services including company formation in Australia and foreign subsidiary set-up and management.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "foreign subsidiary set-up and management",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Raj's LinkedIn says he prepared consolidated financial statements for up to 20 group companies and led ERP adoption in four international firms.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Enhanced and prepared consolidated financial statements for up to 20 group companies.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "RBizz positions itself as a partnership between professional expertise and AI technologies.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "a perfect partnership between professional expertise and AI technologies",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Raj Kumar",
+   "title": "Principal",
+   "contactId": "rbizz-corporate-accountants--raj-kumar",
+   "linkedin": "https://www.linkedin.com/in/raj-kumar-rbizz-solutions",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Raj's July 2026 post on monthly management accounts and board packs - reconciliation is the step that gates them",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Foreign-owned entity clients and Raj's group consolidation background suggest multi-entity close load",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "RBizz describes itself as combining professional expertise with AI technologies, so it may already use AI tooling",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "Two earlier emails already sent (16 and 23 Nov); keep follow-ups short and new-angle",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or video found",
+  "No current job ads found",
+  "Which AI tools RBizz uses is not stated"
+ ],
+ "searches": [
+  {
+   "query": "RBizz Corporate Accountants Raj Kumar Melbourne virtual CFO",
+   "results": 8
+  },
+  {
+   "query": "rbizz.com.au profile fetch",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "rbizz-corporate-accountants--raj-kumar",
+   "subject": "Re: Quick chat, Raj?",
+   "body": "Hi Raj,\n\nFollowing up on my earlier notes. Your July post on RBizz's Virtual CFO service lists monthly management accounts and board packs, which only land on time if the reconciling underneath is done. Vert turns that reconciliation from hours into minutes with a traceable audit trail. Does your team of 12 hit a crunch at month-end, or is it already well in hand?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "rbizz-corporate-accountants--raj-kumar",
+   "subject": "Re: Quick chat, Raj?",
+   "body": "Hi Raj,\n\nLast note from me. With foreign-owned clients setting up subsidiaries in Australia, I suspect multi-entity reconciling is where Vert would help most. Could we do ten minutes this week or next?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ }
+}
