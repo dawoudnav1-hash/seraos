@@ -1,6 +1,6 @@
 # Data build report
 
-Generated 2026-11-27T00:46:25+00:00 by `pipeline/build_data.py`.
+Generated 2026-11-27T00:49:17+00:00 by `pipeline/build_data.py`.
 
 - Accounts (de-duplicated): **450**
 - Contacts (de-duplicated): **810**
@@ -226,4 +226,4 @@ Generated 2026-11-27T00:46:25+00:00 by `pipeline/build_data.py`.
 - [excluded] outreach event hostinger:INBOX.Sent:102 dropped (excluded account)
 - [count] outreach: 149 events (0 not matched to an account)
 - [research-rejected] meir.json: draft first goes to a contact with no email (+2 more)
-- [count] research dossiers bundled: 87
+- [count] research dossiers bundled: 131

@@ -1,0 +1,298 @@
+{
+ "accountId": "streamtime",
+ "accountName": "Streamtime",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Streamtime is a Sydney-headquartered project management SaaS for creative businesses, with presence in the UK, owned by Software Combined since 2022 and certified B Corp since December 2024. Camila Saavedra is Head of Accounting (since Nov 2021) and Julian Retamal is Finance Manager overseeing Australia and the UK; he began on bank reconciliation across multiple accounts.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/company/streamtime",
+   "title": "Streamtime - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/camila-saavedra-n",
+   "title": "Camila Saavedra - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/camila-saavedra-n_i-am-so-happy-about-this-new-milestone-in-activity-7293077684027367424-7vdm",
+   "title": "Camila Saavedra post: officially B Corp certified",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-02-06"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/julian-retamal-santander-8a2974a4",
+   "title": "Julian Retamal - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.bcorporation.net/en-us/find-a-b-corp/company/streamtime-australia-pty-ltd/",
+   "title": "Streamtime Australia Pty Ltd - Certified B Corporation",
+   "type": "directory",
+   "publisher": "B Lab",
+   "date": "2024-12-01"
+  },
+  {
+   "id": "S6",
+   "url": "https://sb-collective.co.uk/streamtime/",
+   "title": "Streamtime - SB Collective",
+   "type": "website",
+   "publisher": "SB Collective",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://streamtime.net/about",
+   "title": "About Us | Streamtime",
+   "type": "website",
+   "publisher": "Streamtime",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Streamtime is headquartered in Sydney, NSW with presence in the United Kingdom; workforce across Australia and the UK.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Headquartered in Sydney, New South Wales, Australia, with presence in United Kingdom.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Camila Saavedra is Head of Accounting at Streamtime (current, since Nov 2021) and is listed under Finance on the Streamtime team page.",
+   "sourceIds": [
+    "S2",
+    "S7"
+   ],
+   "quote": "Head of Accounting - Streamtime (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Camila posted in Feb 2025 that Streamtime is officially B Corp certified.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "we’re officially B Corp certified!",
+   "date": "2025-02",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In her B Corp post Camila wrote about turning good intentions into clear processes.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "turned our good intentions into clear processes",
+   "date": "2025-02",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Camila previously led treasury for two countries at VTR before joining Streamtime.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Treasury team leader for 2 countries (Chile and Costa Rica)",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Julian Retamal is Finance Manager (since Aug 2025) and says he oversees financial operations across Australia and the UK.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "I oversee and drive financial operations across Australia and the UK",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Julian previously worked as Streamtime bookkeeper specialising in bank reconciliation across multiple accounts.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "specializing in bank reconciliation across multiple accounts",
+   "date": "2024-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Julian's profile says he was learning to use Xero while a part-time bookkeeper at Streamtime (2023-24).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "I am actively learning to use the Xero system.",
+   "date": "2024-07",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Streamtime was acquired by Software Combined (30 May 2022) and sits in the Software Combined Group.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Acquired by: Software Combined (2022-05-30)",
+   "date": "2022-05",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Streamtime is B Corp certified since December 2024.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Certified Since December 2024",
+   "date": "2024-12",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Streamtime is used by agencies, in-house teams and studios across Australia, the UK, Europe and the US.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Used by agencies, in-house teams and studios across Australia, the UK, Europe and the US.",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Camila Saavedra",
+   "title": "Head of Accounting",
+   "contactId": "streamtime--camila-saavedra",
+   "linkedin": "https://linkedin.com/in/camila-saavedra-n",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Julian Retamal",
+   "title": "Finance Manager",
+   "contactId": "streamtime--julian-retamal",
+   "linkedin": "https://linkedin.com/in/julian-retamal-santander-8a2974a4",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Camila's B Corp post about turning good intentions into clear processes: repeatable, auditable close processes.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Julian's remit across Australia and the UK, started in bank reconciliation: reconciliation is the daily core of a very small finance team.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Software Combined ownership implies group reporting on top of the local close.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Owned by Software Combined (UK group); group policy may dictate finance tools, and no funding or hiring trigger found.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "Very small finance team (Camila and Julian); budget may be limited.",
+   "claimIds": [
+    "C2",
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance job ads found; no podcast or blog by Camila on finance topics; billing/Stripe setup not confirmed from public sources."
+ ],
+ "searches": [
+  {
+   "query": "Streamtime Camila Saavedra Head of Accounting Julian Retamal",
+   "results": 10
+  },
+  {
+   "query": "Streamtime B Corp Software Combined",
+   "results": 6
+  },
+  {
+   "query": "Camila Saavedra B Corp post fetch",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "streamtime--camila-saavedra",
+   "subject": "Month-end at Streamtime",
+   "body": "Hi Camila, I saw your post on Streamtime becoming B Corp certified, a nice milestone. Julian's profile says he oversees finance operations across Australia and the UK and started with bank reconciliation across multiple accounts, so I suspect reconciling still takes real time for a small team. I'm building Vert, which reconciles and cash codes in minutes with a traceable audit trail, not black-box AI. How much of month-end goes on it today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp": {
+   "contactId": "streamtime--camila-saavedra",
+   "subject": "Re: Month-end at Streamtime",
+   "body": "Hi Camila, following up on my earlier note. Streamtime has been part of Software Combined since 2022 and finance covers Australia and the UK, per Julian's profile. Does group reporting add extra work on top of the monthly close? Vert automates the reconciliations and cash coding, with an audit trail for every match. Open to a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "streamtime--camila-saavedra",
+   "subject": "Re: Month-end at Streamtime",
+   "body": "Hi Camila, one last note. Your B Corp post talked about turning good intentions into clear processes. Reconciliation is one of the processes Vert makes repeatable, with every match traceable for audit. Worth a quick look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  }
+ }
+}

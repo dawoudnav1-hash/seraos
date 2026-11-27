@@ -1,0 +1,238 @@
+{
+ "accountId": "ultimate-tax-advisory",
+ "accountName": "Ultimate Tax & Advisory",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Ultimate Tax & Advisory is a Mount Lawley (Perth) boutique tax and advisory firm founded on 1 July 2016 by Bobby and Krystal Serval. Krystal, Practice Director, manages the bookkeeping, tax, accounting and admin departments and is skilled in Xero, MYOB and QuickBooks. The firm runs bookkeeping (coding, payroll, IAS/BAS) and Xero setup, and Krystal posted in February 2026 that it is looking to expand the team.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://ultimate-tax.com.au/",
+   "title": "Ultimate Tax and Advisory home",
+   "type": "website",
+   "publisher": "Ultimate Tax & Advisory",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://ultimate-tax.com.au/about/",
+   "title": "About us, Ultimate Tax & Advisory",
+   "type": "website",
+   "publisher": "Ultimate Tax & Advisory",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/krystal-serval-a69aa1b9",
+   "title": "Krystal Serval LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/krystal-serval-a69aa1b9_we-are-looking-to-expand-our-team-if-youre-activity-7427545484472430592-BAPP",
+   "title": "We are looking to expand our team!",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Krystal Serval)",
+   "date": "2026-02-12"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Ultimate Tax & Advisory is at 1/2 Walcott Street, Mount Lawley WA.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "1/2 Walcott Street, Mount Lawley WA 6050",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "The firm was founded on 1 July 2016 by husband and wife Bobby and Krystal Serval.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Ultimate Tax & Advisory was born on the 1st of July 2016 by husband and wife team, Bobby and Krystal Serval.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Krystal Serval is the current Practice Director at Ultimate Tax & Advisory (since July 2016).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Practice Director - Ultimate Tax & Advisory (Current) Jul 2016 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Krystal says she manages the bookkeeping, tax, accounting and administration departments.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I manage the bookkeeping, tax, accounting and the administration departments",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Krystal describes herself as skilled in Xero, MYOB and QuickBooks and managing a team of accountants, bookkeepers and admin staff.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Skilled in Xero, MYOB and QuickBooks.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The firm's bookkeeping service covers income and expense coding, payroll, IAS and BAS lodgement and super.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Income and expense coding, payroll, lodging your IAS and BAS, super and more.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Krystal posted in February 2026 that Ultimate Tax & Advisory is looking to expand its team.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We are looking to expand our team!",
+   "date": "2026-02",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Krystal was a finalist for Accounting Support Staff of the Year at the Australian Accounting Awards in 2023 and 2024.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "2024 Finalist - Accounting Support Staff of the Year",
+   "date": "2024-06",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The firm says it grew by over 400% in its first 18 months.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "were able to grow by over 400% within their first 18 months",
+   "date": "2016",
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Krystal Serval",
+   "title": "Practice Director",
+   "contactId": "ultimate-tax-advisory--krystal-serval",
+   "linkedin": "https://www.linkedin.com/in/krystal-serval-a69aa1b9",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C8"
+   ]
+  },
+  {
+   "name": "Bobby Serval",
+   "title": "Managing Director",
+   "contactId": "ultimate-tax-advisory--bobby-serval",
+   "linkedin": "https://www.linkedin.com/in/bobby-serval-8040ab23",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Krystal runs bookkeeping day to day across Xero, MYOB and QuickBooks; reconciliation load sits with her team.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Her Feb 2026 post about expanding the team signals capacity pressure.",
+   "claimIds": [
+    "C7"
+   ]
+  },
+  {
+   "text": "Her accounting-support-staff award finalist history frames Vert as giving support staff hours back.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Tax-led boutique with about 6 staff; bookkeeping is one of several lines, so volume of reconciliations may be modest.",
+   "claimIds": [
+    "C6"
+   ]
+  },
+  {
+   "text": "LinkedIn shows headcount down 10% YoY.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcasts, news or blog posts by the firm found.",
+  "No detail on client volume or tool stack beyond Xero/MYOB/QuickBooks.",
+  "Hiring post body not retrievable beyond its headline."
+ ],
+ "searches": [
+  {
+   "query": "fetch ultimate-tax.com.au home and advisory",
+   "results": 2
+  },
+  {
+   "query": "Krystal Serval Ultimate Tax & Advisory Mount Lawley Perth",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "ultimate-tax-advisory--krystal-serval",
+   "subject": "Re: Idea for Ultimate Tax & Advisory",
+   "body": "Hi Krystal, following up on my earlier note. You manage the bookkeeping, tax, accounting and admin departments, and the bookkeeping service covers coding, payroll and BAS across Xero, MYOB and QuickBooks. Which of those ledgers eats the most reconciliation time? Vert matches bank lines and ledgers in minutes with a trail a reviewer can follow, and I'd gladly show you on a sample.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "ultimate-tax-advisory--krystal-serval",
+   "subject": "Re: Idea for Ultimate Tax & Advisory",
+   "body": "Hi Krystal, last nudge from me. You posted in February that you're looking to expand the team, and you were a 2023 and 2024 finalist for Accounting Support Staff of the Year. I'd like to show how Vert hands your support staff hours back from reconciling. Ten minutes next week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ }
+}

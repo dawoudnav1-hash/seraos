@@ -1,0 +1,254 @@
+{
+ "accountId": "ellison-studios",
+ "accountName": "Ellison Studios",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Ellison Studios is a Sydney furniture design studio (founded 2017) that was online-only for almost a decade and has since opened a Sydney showroom (Design Suite) and a Melbourne residency (The Lobby, March 2026; a Melbourne Design Suite is coming). Sapna Trivedi is Finance Director (LinkedIn), and a trade program sits alongside online and stockist channels.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/sapnatrivedi",
+   "title": "Sapna Trivedi | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S2",
+   "url": "https://ellisonstudios.com/pages/design-suite-by-ellison-studios",
+   "title": "Design Suite by Ellison Studios",
+   "type": "website",
+   "publisher": "Ellison Studios",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://ellisonstudios.com/blogs/editions/the-lobby",
+   "title": "Edition 58. The Lobby",
+   "type": "blog",
+   "publisher": "Ellison Studios",
+   "date": "2026-03-17"
+  },
+  {
+   "id": "S4",
+   "url": "https://thedesignfiles.net/2026/03/ellison-studios-melbourne-the-lobby",
+   "title": "Ellison Studios' Melbourne Pop-Up Feels Like A Luxe Hotel Lobby",
+   "type": "news",
+   "publisher": "The Design Files",
+   "date": "2026-03-18"
+  },
+  {
+   "id": "S5",
+   "url": "https://ellisonstudios.com/pages/the-ellison-studios-trade-program",
+   "title": "The Ellison Studios Trade Program",
+   "type": "website",
+   "publisher": "Ellison Studios",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://lifeinteriors.com.au/collections/ellison-studios",
+   "title": "Ellison Studios | Life Interiors",
+   "type": "website",
+   "publisher": "Life Interiors",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Ellison Studios is an Australian design studio based in Sydney, founded in 2017.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "leading Australian design studio based in Sydney, Australia. Founded in 2017",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Sapna Trivedi is Finance Director at Ellison Studios (current since May 2025).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Director Ellison Studios",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Sapna's profile says she is passionate about implementing financial rigour, improving processes and finding operational efficiencies.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "implementing financial rigour, improving processes and identifying operational efficiencies through insightful analysis, reporting and advice",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Ellison opened its first Sydney retail showroom, the Design Suite in Waterloo, open by appointment.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Our first Sydney retail showroom is open by appointment.",
+   "date": null,
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Ellison opened The Lobby, a Melbourne residency on Chapel Street, in March 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The Lobby is our newest residency.",
+   "date": "2026-03",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The Lobby page now says it is closed and a Melbourne Design Suite is coming soon.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The Lobby is now closed, our Melbourne Desig Suite is coming soon.",
+   "date": "2026-03",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "The Design Files says Ellison was an online business for almost a decade before opening physical spaces.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "After being an online business for almost a decade",
+   "date": "2026-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The trade program offers tailored quotations, order management and delivery coordination.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "tailored quotations, order management and delivery coordination",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Ellison pieces are also sold through Life Interiors showrooms in Sydney, Melbourne and Brisbane.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Available exclusively at Life Interiors, shop the incredible range of ELLISON STUDIOS. pieces in our Sydney, Melbourne, and Brisbane Showrooms.",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Sapna Trivedi",
+   "title": "Finance Director (listed as CFO in records)",
+   "contactId": "ellison-studios--sapna-trivedi",
+   "linkedin": "https://linkedin.com/in/sapnatrivedi",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Multi-channel growth (online, showroom, trade, stockist): receipts from several directions.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "New physical sites in 2025-26 add locations to reconcile.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Sapna's stated focus on process improvement.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "LinkedIn shows Sapna Trivedi's title as Finance Director (not CFO) and she also lists a current CFO role at The Core Agency, so she may have limited time.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "The Lobby is now closed per Ellison's page.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "Accounting stack (Xero/MYOB) not found.",
+  "No finance job ad found.",
+  "Sydney HQ opening date (Sept 2025) not confirmed from a citable source."
+ ],
+ "searches": [
+  {
+   "query": "Ellison Studios Sapna Trivedi CFO showroom",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "ellison-studios--sapna-trivedi",
+   "subject": "Showroom and trade recs at Ellison Studios",
+   "body": "Hi Sapna,\n\nEllison Studios was an online business for almost a decade, and now has a Sydney showroom and a Melbourne residency, with trade customers getting tailored quotations and order management. That likely puts showroom sales, trade receivables and online payouts into one close. You've said you like improving processes and finding operational efficiencies, which is why I'm writing. I'm building Vert, which reconciles and cash codes with a traceable audit trail instead of guessing, turning hours into minutes. Which reconciliations take most of your month-end?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C4",
+    "C5",
+    "C8",
+    "C3"
+   ]
+  },
+  "followUp": {
+   "contactId": "ellison-studios--sapna-trivedi",
+   "subject": "Re: Showroom and trade recs at Ellison Studios",
+   "body": "Hi Sapna,\n\nFollowing up on my note last week. Given your focus on improving processes, one thing stands out: Ellison sells online, through a Sydney showroom, trade accounts and Life Interiors stores, so cash arrives from several directions. Vert matches each source to the ledger and flags only the exceptions, with a trace behind every match. Would a 10 min walkthrough on a sample month help?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C8",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "ellison-studios--sapna-trivedi",
+   "subject": "Re: Showroom and trade recs at Ellison Studios",
+   "body": "Hi Sapna,\n\nLast nudge. With a Melbourne Design Suite coming soon, there will be another location to reconcile. Vert keeps a single trail across sites and channels, cutting hours to minutes. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C5"
+   ]
+  }
+ }
+}

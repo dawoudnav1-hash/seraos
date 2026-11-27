@@ -1,0 +1,246 @@
+{
+ "accountId": "gew-rzhaus-spice-house",
+ "accountName": "Gewürzhaus Spice House",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Gewürzhaus is a family-owned Melbourne spice and gourmet retailer that opened its first store in Carlton in 2010 and now describes itself as an omni-channel retailer. A May 2026 case study reports online sales up 36.1% and store footprint up 45% between FY23 and FY25. CFO Jessica Layton shared the company's AI-focused Technology Manager and HR Manager roles in mid-2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://gewurzhaus.com.au/pages/about-us",
+   "title": "About Us | Gewürzhaus",
+   "type": "website",
+   "publisher": "Gewürzhaus",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/in/jessica-layton-24b40458",
+   "title": "Jessica Layton - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-08-29"
+  },
+  {
+   "id": "S3",
+   "url": "https://centreforbusinessgrowth.com/case-studies/gewurzhaus-spice-house/",
+   "title": "Gewürzhaus Spice House - The Australian Centre for Business Growth",
+   "type": "news",
+   "publisher": "Australian Centre for Business Growth",
+   "date": "2026-05-06"
+  },
+  {
+   "id": "S4",
+   "url": "https://rocketreach.co/gewurzhaus-profile_b47d192cfc4e575a",
+   "title": "Gewurzhaus Information - RocketReach",
+   "type": "directory",
+   "publisher": "RocketReach",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://leadiq.com/c/gew%C3%BCrzhaus-spice-house/5eb7e195102cc035326af05e/employee-directory",
+   "title": "Gewürzhaus Spice House Employee Directory - LeadIQ",
+   "type": "directory",
+   "publisher": "LeadIQ",
+   "date": "2026-10-01"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Gewürzhaus opened its first store on Lygon Street, Carlton in 2010.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "opened the first Gewürzhaus store on Carlton’s Lygon Street",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Jessica Layton is Chief Financial Officer of Gewürzhaus.",
+   "sourceIds": [
+    "S4",
+    "S5"
+   ],
+   "quote": "Jessica Layton is the CFO of Gewurzhaus.",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C3",
+   "text": "In Jul 2026 Jessica reposted the company's Technology Manager role, described as one where AI is the actual point of the work.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "a role where AI isn’t a side project but the actual point of the work",
+   "date": "2026-07",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In Aug 2026 Jessica shared that Gewürzhaus is looking for its next HR Manager.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We’re on the lookout for our next HR Manager.",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "A May 2026 case study says online sales grew 36.1% and overall growth was 25.5% between FY23 and FY25.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "online sales grew 36.1% while overall growth achieved a 25.5% increase",
+   "date": "2026-05",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The same case study says staff grew 9% and the store footprint increased by 45% between FY23 and FY25.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "their store footprint increased by 45%",
+   "date": "2026-05",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The case study positions Gewürzhaus as a modern omni-channel retailer blending in-store experience with digital engagement.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "a modern omni-channel retailer",
+   "date": "2026-05",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In Oct 2024 Jessica reposted roles for Gewürzhaus's new SA store, opening soon.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Store Manager and other key roles in our new SA store, opening soon!",
+   "date": "2024-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "In Jul 2025 Jessica reposted a Buyer role at Gewürzhaus.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We have a great opportunity for a Buyer in the early stages",
+   "date": "2025-07",
+   "category": "hiring",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Jessica Layton",
+   "title": "Chief Financial Officer",
+   "contactId": "gew-rzhaus-spice-house--jessica-layton",
+   "linkedin": "https://www.linkedin.com/in/jessica-layton-24b40458",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C8",
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Jessica reposted the AI-focused Technology Manager role: appetite for tooling and AI.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Store footprint up 45% and online sales up 36.1% (FY23-FY25): POS, online and inventory reconciliations multiply.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Ongoing hiring (HR, buyer, store roles) shows scale-up pressure.",
+   "claimIds": [
+    "C4",
+    "C8",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Jessica's public activity is mostly reposts of hiring posts; no finance-specific content found. Data providers disagree on headcount and her exact title history.",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts by Jessica on finance topics; accounting system (Xero/MYOB/NetSuite) and POS/Shopify stack not confirmed; no finance job ad found."
+ ],
+ "searches": [
+  {
+   "query": "Gewürzhaus Spice House Jessica Layton CFO",
+   "results": 10
+  },
+  {
+   "query": "Jessica Layton LinkedIn fetch",
+   "results": 1
+  },
+  {
+   "query": "centreforbusinessgrowth Gewürzhaus case study fetch",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "gew-rzhaus-spice-house--jessica-layton",
+   "subject": "Month-end as Gewürzhaus grows",
+   "body": "Hi Jessica, you reposted the Technology Manager role where AI is the actual point of the work, and the Centre for Business Growth case study shows store footprint up 45% and online sales up 36.1% between FY23 and FY25 in total. More stores and a bigger online channel usually mean more POS, Shopify and inventory entries to reconcile each month. I'm building Vert, which reconciles and cash codes in minutes with a traceable audit trail. How is month-end holding up as you grow?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "gew-rzhaus-spice-house--jessica-layton",
+   "subject": "Re: Month-end as Gewürzhaus grows",
+   "body": "Hi Jessica, following up on my earlier note. You have been opening stores, including the new SA store you shared last October, and hiring across HR and buying. Vert gives a finance team time back by automating store and online reconciliations with a traceable audit trail. Would a 10 min walkthrough be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C4",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "gew-rzhaus-spice-house--jessica-layton",
+   "subject": "Re: Month-end as Gewürzhaus grows",
+   "body": "Hi Jessica, last nudge. With a Technology Manager hire built around AI, you're clearly open to better tooling. Vert is built so finance can trust AI: every match and cash code is traceable. Happy to show you in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5"
+   ]
+  }
+ }
+}

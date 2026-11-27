@@ -1,0 +1,223 @@
+{
+ "accountId": "armada-accountants-advisors",
+ "accountName": "Armada Accountants & Advisors",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Armada is a Western Australian owned multidisciplinary group (tax, audit, bookkeeping, financial planning, lending) with offices in Osborne Park and Port Hedland and over 35 years of history. Neil Hancy joined in 2004, heads financial planning and joined the board as a director in 2023. He is a planning director rather than an accounting-operations owner, so the follow-ups ask to be pointed to whoever runs bookkeeping.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://armada.com.au/",
+   "title": "Leading Perth Accounting Firm - Armada",
+   "type": "website",
+   "publisher": "Armada Accountants & Advisors",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://armada.com.au/2023-recap/",
+   "title": "Armada's 2023: Growth, Gratitude and Giving Back",
+   "type": "blog",
+   "publisher": "Armada Accountants & Advisors",
+   "date": "2023-12-11"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/neil-hancy",
+   "title": "Neil Hancy LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "S5",
+   "url": "https://armada.com.au/contact/",
+   "title": "Contact, Armada",
+   "type": "website",
+   "publisher": "Armada Accountants & Advisors",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Armada's head office is at 18 Sangiorgio Court, Osborne Park WA, with a second office in Port Hedland.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "18 Sangiorgio Court, Osborne Park WA 6017",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Armada describes itself as a Western Australian owned business with its head office in Osborne Park.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Western Australian owned business and one of the largest suburban group of financial professionals with our head office in Osborne Park, Perth",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Neil Hancy is a current Director of Financial Planning at Armada (since March 2004).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Director to Financial Planning - Armada Accountants & Advisors (Current) Mar 2004 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Armada's team includes bookkeepers alongside CPA and CA tax accountants, business advisors, auditors, financial planners and lenders.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Our team of qualified Perth accountants includes CPA and CA-registered Tax Accountants, Business Advisors, Auditors, Bookkeepers, Financial Planners and Lenders.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In December 2023 Armada welcomed three new directors to its board, including Neil Hancy.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Welcoming three new directors to our board – Matthew Maxted, Adam Carmignani & Neil Hancy",
+   "date": "2023-12",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "A Google review shown on Armada's site in October 2026 says Neil and the team are always available and keep clients in the loop.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Neil and team are exceptional, always available, keep you in the loop",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Armada offers services for the Pilbara and has offices in Osborne Park and Port Hedland, serving WA clients for over 35 years.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "With offices in Osborne Park and Port Hedland, Armada has built lasting relationships",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Neil's profile says he has over 25 years in financial services across Perth and the Pilbara region.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "over 25 years worth of experience working in Perth and the Pilbara region",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Neil Hancy",
+   "title": "Director, Financial Planning",
+   "contactId": "armada-accountants-advisors--neil-hancy",
+   "linkedin": "https://www.linkedin.com/in/neil-hancy",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C6",
+    "C8"
+   ]
+  },
+  {
+   "name": "Lisa W.",
+   "title": "Associate Director",
+   "contactId": "armada-accountants-advisors--lisa-w",
+   "linkedin": null,
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Two offices (Osborne Park, Port Hedland) with bookkeepers inside a multidisciplinary group; ask Neil who owns bookkeeping reconciliations.",
+   "claimIds": [
+    "C1",
+    "C4",
+    "C7"
+   ]
+  },
+  {
+   "text": "Client praise for Neil's availability links to freeing hours from manual reconciling.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Neil leads financial planning, not bookkeeping operations; he is probably not the buyer and may redirect.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Larger firm (about 59-77 staff) than the usual sweet spot, with separate audit, planning and lending arms.",
+   "claimIds": [
+    "C4",
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No public posts, podcasts or interviews by Neil on reconciliation or technology.",
+  "No job ads or tech-stack evidence found for Armada's bookkeeping team.",
+  "No named head of bookkeeping found with a verified email."
+ ],
+ "searches": [
+  {
+   "query": "fetch armada.com.au home",
+   "results": 1
+  },
+  {
+   "query": "Neil Hancy Armada Accountants & Advisors Osborne Park Perth director",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "armada-accountants-advisors--neil-hancy",
+   "subject": "Re: Idea for Armada",
+   "body": "Hi Neil, following up on my earlier note. I know you lead financial planning, so a fair question: who at Armada owns bookkeeping and reconciliations across Osborne Park and Port Hedland? Your site lists bookkeepers alongside the tax, audit and advisory teams, and Vert takes the manual matching out of that work in minutes. Happy to be pointed to the right person.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7",
+    "C3",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "armada-accountants-advisors--neil-hancy",
+   "subject": "Re: Idea for Armada",
+   "body": "Hi Neil, last note from me. A recent client review says you and the team are always available and keep clients in the loop. Hours spent on manual reconciling sit directly against that availability. I'd show Vert to whoever runs bookkeeping in ten minutes, if you can point me their way.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C4"
+   ]
+  }
+ }
+}
