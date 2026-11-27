@@ -1,0 +1,209 @@
+{
+ "accountId": "miss-amara",
+ "accountName": "Miss Amara",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Miss Amara is a Sydney rug retailer, bootstrapped by founders Aaron and Alexandra Weller, with Forbes reporting 36% sales growth and staff across Australia, New Zealand, Hong Kong and the US. Luke Hatton joined as Financial Controller in September 2025 from Coco Republic.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/luke-hatton-2b975ba2",
+   "title": "Luke Hatton - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.forbes.com.au/news/entrepreneurs/miss-amara-spun-a-23m-empire-from-the-floor-up/",
+   "title": "Rugs to riches: How Miss Amara spun a $26m empire from the floor up",
+   "type": "news",
+   "publisher": "Forbes Australia",
+   "date": "2025-05-22"
+  },
+  {
+   "id": "S3",
+   "url": "https://au.linkedin.com/company/miss-amara",
+   "title": "Miss Amara - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://theorg.com/org/miss-amara/teams/leadership-team",
+   "title": "Miss Amara - Leadership Team",
+   "type": "directory",
+   "publisher": "The Org",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Miss Amara is headquartered in Sydney with presence in New Zealand, the United States and Hong Kong.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Headquartered in Sydney, New South Wales, Australia, with presence in New Zealand, United States, and Hong Kong.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Luke Hatton has been Financial Controller at Miss Amara since September 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Financial Controller - Miss Amara (Current) Sep 2025 - Present",
+   "date": "2025-09",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Luke was Financial Controller at retailer Coco Republic until July 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Financial Controller Sep 2017 - Jul 2025",
+   "date": "2025-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Forbes reported 36% year-on-year sales growth and staff across Australia, New Zealand, Hong Kong and the United States.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "36% year-on-year sales growth and 70+ staff members across Australia, New Zealand, Hong Kong and the United States.",
+   "date": "2025-05",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Miss Amara has never taken external investment.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "which has never taken on external investment",
+   "date": "2025-05",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Miss Amara puts designs online on a pre-order basis, covering the collection's cost before stock lands.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "put their designs up online on a pre-order basis, and found they were able to cover the cost of the entire collection before it even landed",
+   "date": "2025-05",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The Org lists Simon So as Global Group Head of Finance / CFO.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Global Group Head Of Finance/ Chief Financial Officer (cfo)",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Luke Hatton",
+   "title": "Financial Controller",
+   "contactId": "miss-amara--luke-hatton",
+   "linkedin": "https://linkedin.com/in/luke-hatton-2b975ba2",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Luke moved from Coco Republic to Miss Amara in September 2025; multi-country growth plus pre-order stock funding makes the close complex.",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Pre-order model means deposits and stock timing recs.",
+   "claimIds": [
+    "C6"
+   ]
+  },
+  {
+   "text": "Bootstrapped, so cash visibility matters directly.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Simon So (senior finance contact) confirmed only via a directory; Luke is the verified addressee. Forbes headline revenue (about A$26m) may exceed ICP band.",
+   "claimIds": [
+    "C7",
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Simon So LinkedIn found.",
+  "No job ads, podcasts or finance-specific posts found.",
+  "Forbes article not fully readable beyond the first section."
+ ],
+ "searches": [
+  {
+   "query": "Miss Amara Simon So Group Head of Finance Luke Hatton Financial Controller",
+   "results": 10
+  },
+  {
+   "query": "Simon So Miss Amara Global Group Head of Finance linkedin",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "miss-amara--luke-hatton",
+   "subject": "Month-end across Miss Amara's four markets",
+   "body": "Hi Luke,\n\nSaw that you moved from Coco Republic to Miss Amara as Financial Controller last September. Forbes had Miss Amara at 36% sales growth with staff across Australia, New Zealand, Hong Kong and the United States, and pre-orders covering stock before it lands, which makes for a lot of moving pieces at month-end. I've spent the past year asking finance leaders why AI automation in accounting sticks or quietly fails. That became Vert, which reconciles and cash codes 2x faster with a trail you can trace. How much of your close goes on reconciling across those entities?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "miss-amara--luke-hatton",
+   "subject": "Re: Month-end across Miss Amara's four markets",
+   "body": "Hi Luke,\n\nFollowing up on my note last week. Miss Amara has never taken external investment, so as Financial Controller you are the one keeping cash and stock timing straight on the founders' own money. Vert matches bank and payout lines to the ledger so cash is visible sooner, with every match traceable. What takes longest to tie out each month?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "miss-amara--luke-hatton",
+   "subject": "Re: Month-end across Miss Amara's four markets",
+   "body": "Hi Luke,\n\nLast note from me. You've run a retail close at Coco Republic, so you know how much of it is reconciling. Worth 10 min to see if Vert can take that off your team at Miss Amara?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ }
+}

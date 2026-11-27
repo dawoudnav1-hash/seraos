@@ -1,0 +1,1903 @@
+[
+ {
+  "record_id": "1a27b216-d2d6-4593-b4bf-2c077256ff7a",
+  "domains": [
+   "melrosegroup.com.au"
+  ],
+  "created_by": {
+   "actor_type": "system",
+   "actor_id": null
+  },
+  "created_at": "Saturday, 2026-11-07 07:33:53"
+ },
+ {
+  "record_id": "e3e1c5bc-ce58-4d3d-a6b8-dda4e89b1007",
+  "linkedin": "https://www.linkedin.com/company/adventureoperationsaustralia",
+  "primary_location": {
+   "country_code": "AU"
+  },
+  "cfo": "Katie Hall — Group Finance Manager",
+  "employee_count": "63",
+  "sector": "Outdoor brand portfolio",
+  "logo_url": "https://brandbadge.clearbit.com/e55661aa-9eb3-42ba-b31b-29a3a7fbd5fa",
+  "cfo_linkedin": "https://linkedin.com/in/katie-hall-095b47b",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "4",
+  "domains": [
+   "adventureoperations.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Katie Hall — Group Finance Manager",
+  "created_at": "Saturday, 2026-10-17 06:33:05",
+  "name": "Adventure Operations",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — PE-backed outdoor brand roll-up (Ozpig, MTB Direct acquired 2025) on NetSuite across four countries; complex close, but PE ownership and size reduce fit.\nFunding: backed by Odyssey Private Equity (PitchBook); no new 2026 round found. Acquisitions: Ozpig (2022), MTB Direct (2025).\nHiring: Lifecycle Marketing Lead; Distribution Centre Manager (Brisbane). No finance roles found.\nFinance team: Katie Hall, Group Finance Manager (CRM); 4 in finance on profile. ~63–92 staff.\nPosts: MTB Direct acquisition announcement; stated interest in more complementary brands.\nComplexity: offices in four countries, distribution in 25; multiple warehouses; NetSuite (case study); freight-cost visibility and reconciliation need (MachShip case study); post-acquisition integration and group consolidation.\nWhy: acquisitions plus multi-warehouse freight recs and group consolidation are real pain for a Group FM, and further bolt-ons are planned. But PE ownership and a NetSuite stack often mean ERP-native tooling and longer cycles. Approach Katie Hall on freight accrual/recs, intercompany and acquired-brand consolidation.\nSources: adventureoperations.com.au/news; linkedin.com (MTB Direct acquisition); netsuite.com.au (Adventure Operations case study); machship.com/adventure-operations; pitchbook.com.",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Consumer Goods",
+   "Retail",
+   "Sporting Goods",
+   "Consumer Discretionary",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "fd605bcd-c92f-4640-9025-e33a4d6cf5b1",
+  "twitter": "AfendsMelbourne",
+  "linkedin": "https://www.linkedin.com/company/afends",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Byron Bay",
+   "region": "NSW"
+  },
+  "cfo": "Manuel Mangudo Escalada — Head of Finance & Operations",
+  "employee_count": "59",
+  "sector": "Streetwear / hemp apparel",
+  "logo_url": "https://brandbadge.clearbit.com/1089c3ff-8d05-4bda-b7da-03a96145ff7d",
+  "foundation_date": "2006",
+  "facebook": "afends",
+  "cfo_linkedin": "https://linkedin.com/in/manuel-mangudo-escalada-71a548116",
+  "twitter_follower_count": "667",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "5",
+  "domains": [
+   "afends.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Manuel Mangudo Escalada — Head of Finance & Operations",
+  "created_at": "Friday, 2026-10-16 05:01:37",
+  "name": "AFENDS",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Byron Bay streetwear/hemp apparel brand on Shopify Plus + NetSuite with an expanding finance team (Senior Accountant hired Aug 2025); good omnichannel complexity, no acute trigger.\nFunding: none found.\nHiring: Adam Simmons joined as Senior Accountant (Aug 2025); earlier Assistant Accountant opening (2023). ~59 staff.\nFinance team: Manuel Mangudo Escalada, Head of Finance & Operations since Mar 2022 (CRM); Romina Invierno, Accountant; Adam Simmons, Senior Accountant; Damini Hagedoorn, Accounts Manager. ~5 in finance.\nPosts: none on close, ERP or automation.\nComplexity: ~1,800 SKUs; Shopify Plus international storefronts with local-currency pricing and duties (multi-currency payouts); Apple Pay, Shop Pay, Klarna, PayPal, Zip (gateway recs); wholesale and retail; NetSuite inventory.\nWhy: five gateways and multi-currency payouts mean daily settlement recs, and adding a Senior Accountant shows workload is growing, but a five-person team on NetSuite may see less urgency. Approach Manuel Mangudo Escalada on gateway/BNPL settlement recs into NetSuite and multi-currency payout matching.\nSources: afends.com/terms; linkedin.com/in/manuel-mangudo-escalada-71a548116; linkedin.com/in/romina-invierno; storeinspect.com (Afends storefront).",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "Apparel & Footwear",
+   "Consumer Staples",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "8fb9f1fe-6845-495e-a4e3-5efd2712e09e",
+  "twitter": "AiloHQ",
+  "linkedin": "https://www.linkedin.com/company/ailo",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Darren de Jong — Head of Finance",
+  "employee_count": "105",
+  "sector": "Property management SaaS",
+  "logo_url": "https://brandbadge.clearbit.com/206a765e-45f5-4b3d-b013-003dde7f3c44",
+  "foundation_date": "2017",
+  "cfo_linkedin": "https://linkedin.com/in/darren-de-jong-1472a976",
+  "twitter_follower_count": "18",
+  "industry": "SaaS",
+  "finance_headcount": "3",
+  "domains": [
+   "ailo.io"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Darren de Jong — Head of Finance",
+  "created_at": "Friday, 2026-10-16 04:59:22",
+  "name": "Ailo",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "2/5 — Property-management platform with trust accounting at its core; finance-literate team but larger, regulated and no trigger.\nFunding: no verified 2024–26 round; CB Insights lists a Series A (Tribe Global Ventures). Heavily funded historically. Dealroom: Next Challenge Foundation programme (May 2023).\nHiring: careers page cites 90+ staff and ESOP; a 29 Jul 2025 hiring post was non-finance.\nFinance team: Darren de Jong, Head of Finance since Sep 2022 (treasury and finance); ~3 in finance. CEO/co-founder Ben White.\nPosts: Jul 2025: Ailo streamlines trust accounting, communication and real-time insights for property managers.\nComplexity: property-management platform with payments: client trust money, rent collection and disbursements via NPP; heavy multi-party reconciliation, trust-account compliance and audits; SaaS fees plus payments revenue.\nWhy: Ailo is itself a reconciliation/trust-accounting product, so it likely builds internal tooling, and regulated trust accounting needs specialised controls. ~105 staff puts it above the lean-team ICP. Low priority; possible angle on Ailo's own corporate close (non-trust) for Darren de Jong.\nSources: ailo.io/about-us; ailo.io/careers; app.dealroom.co (Ailo); linkedin.com (Darren de Jong).",
+  "employee_range": "51-250",
+  "categories": [
+   "E-commerce",
+   "Financial Services",
+   "Machinery",
+   "Payments",
+   "Real Estate",
+   "Information Technology & Services",
+   "Technology",
+   "SAAS",
+   "B2B",
+   "B2C",
+   "Enterprise"
+  ]
+ },
+ {
+  "record_id": "c2f4b70e-f659-425b-ab5d-7559244186ab",
+  "recent_funding": "No funding raised; reported as unfunded. No disclosed ownership change or funding round verified.",
+  "linkedin": "https://linkedin.com/company/alemais",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Jessica Chippindall — Financial Accountant",
+  "employee_count": "50",
+  "sector": "Designer fashion",
+  "description": "ALEMAIS is a contemporary retail apparel and fashion brand with an artisanal focus, creating collections featuring natural textiles, handcrafted embroidery and exaggerated shapes while supporting artisanal communities and sustainable practices.",
+  "logo_url": "https://brandbadge.clearbit.com/798d415c-8b1a-4060-8028-19c5f413e050",
+  "founder": "Lesleigh Jermanus; Chris Buchanan",
+  "foundation_date": "2020",
+  "facebook": "alemais.official",
+  "cfo_linkedin": "https://www.linkedin.com/in/jessica-chippindall",
+  "valuation": "Not disclosed",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "2",
+  "domains": [
+   "alemais.com"
+  ],
+  "instagram": "alemais.official",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "founder_linkedin": "https://www.linkedin.com/in/christopherbuchanan1",
+  "funding_raised_usd": "US$0.00",
+  "finance_team": "Jessica Chippindall — Financial Accountant; Yusi Newnham, CPA (finance)",
+  "created_at": "Saturday, 2026-11-07 07:29:30",
+  "team": [
+   {
+    "object_slug": "people",
+    "object_id": "d92d655a-4c05-47ca-899b-c65e7cd5d734",
+    "record_id": "c6f91f25-0ba4-49fe-8766-3b8c4b98a281"
+   },
+   {
+    "object_slug": "people",
+    "object_id": "d92d655a-4c05-47ca-899b-c65e7cd5d734",
+    "record_id": "c35a58e7-cb5d-4894-910c-483cf8166169"
+   }
+  ],
+  "name": "ALEMAIS",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "3/5 — Unfunded fashion label with global wholesale and a Harvey Nichols Dubai store-in-store (Dec 2025); store sales estimate ~US$12.5M.\nFunding: No funding raised; reported as unfunded. No disclosed ownership change or funding round verified.\nSignals (last 24 months): 2025-12-23: Opened its first store-in-store at Harvey Nichols Dubai; expanded retail presence in the Middle East.\nFinance team: Jessica Chippindall — Financial Accountant; Yusi Newnham, CPA. ~2 in finance; ~50 staff.\nRevenue: $10M-$50M (store sales estimate US$12.5M - check vs A$25M cap).\nWhy: Unfunded fashion label with global wholesale and a Harvey Nichols Dubai store-in-store (Dec 2025) - multi-currency wholesale AR and inventory. Approach Jessica Chippindall on wholesale AR, multi-currency payouts and inventory.\nSources: https://linkedin.com/company/alemais; https://alemais.com; https://www.mojeh.com/article/alemais-leslie-jermanus",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Agriculture",
+   "B2C",
+   "Consumer Staples",
+   "Retail",
+   "Apparel & Footwear"
+  ]
+ },
+ {
+  "record_id": "9e2fb3f1-a28d-4bd3-9a1d-ca53fa2ad539",
+  "twitter": "Amristar",
+  "linkedin": "https://www.linkedin.com/company/amristar",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "West Perth",
+   "region": "WA"
+  },
+  "cfo": "Julia Hills — Finance Manager",
+  "employee_count": "39",
+  "sector": "Software (gov/industry)",
+  "logo_url": "https://brandbadge.clearbit.com/8390bb72-ce6a-4085-9c59-e831e03317e0",
+  "foundation_date": "1999",
+  "facebook": "amristarsolutions",
+  "cfo_linkedin": "https://linkedin.com/in/julia-hills-651a5580",
+  "twitter_follower_count": "104",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "amristar.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Julia Hills — Finance Manager",
+  "created_at": "Thursday, 2026-10-15 13:32:43",
+  "name": "Amristar",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "2/5 — Small software consultancy across AU/US/Switzerland; lean finance but project-based revenue and no trigger.\nFunding: none found in the last ~24 months.\nHiring: no accounting or finance vacancy found.\nFinance team: Julia Hills, Finance Manager since Aug 2021; 15+ years in forecasting, budgeting and reporting, previously running monthly management accounts, balance sheet and cash flow for a small finance department. ~20–30 employees.\nPosts: none on close pain, reconciliations, spreadsheets or AI.\nComplexity: software consulting and products; staff and customers across Australia, the US and Switzerland (multi-currency, possibly multi-entity/intercompany, foreign payroll); project/time-and-materials revenue (WIP, accruals); accounting stack unconfirmed.\nWhy: multi-country entities and project accruals are real close work for one FM, but consulting revenue is low-transaction and there's no funding, hiring or systems trigger. Low priority; if pursued, approach Julia Hills with a discovery on multi-entity FX, intercompany and project accrual recs, and qualify volume first.\nSources: linkedin.com/in/julia-hills-651a5580; linkedin.com/company/amristar; amristar.com.",
+  "employee_range": "11-50",
+  "categories": [
+   "Information Technology & Services",
+   "E-commerce",
+   "Technology",
+   "Cloud Services",
+   "B2B",
+   "Enterprise",
+   "B2C",
+   "SAAS"
+  ]
+ },
+ {
+  "record_id": "62d21247-936d-44dd-864f-cc05b83e6d69",
+  "twitter": "applyflow",
+  "recent_funding": "Total funding USD 9,570,517 (company profile)",
+  "linkedin": "https://www.linkedin.com/company/applyflow-tech",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Sandie Royle — Head of Finance",
+  "employee_count": "20",
+  "sector": "Recruitment software",
+  "logo_url": "https://brandbadge.clearbit.com/99520cda-8028-42b5-95ec-72bc4d0dc5ab",
+  "cfo_linkedin": "https://linkedin.com/in/sandie-royle-35647225",
+  "twitter_follower_count": "22",
+  "industry": "SaaS",
+  "finance_headcount": "2",
+  "domains": [
+   "applyflow.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Sandie Royle — Head of Finance",
+  "created_at": "Thursday, 2026-10-15 13:32:46",
+  "name": "Applyflow",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Solo Head of Finance running a 3-country SaaS close after a management buyout; strong capacity-pressure fit.\nFunding: no new funding for the operating business. 31 May 2024: Applyflow sold via management buyout to an entity controlled by acting CEO Richard Swanton (price undisclosed); the former listed parent's A$2.7M offer funded a resources pivot, not Applyflow. ~US$9.6M raised historically.\nHiring: no finance vacancy. Kris Clelland joined as CRO (4 Jan 2026) to drive revenue growth.\nFinance team: Sandie Royle, Head of Finance since Jul 2023, self-described ONLY finance employee: cashflow, forecasting, reporting, payroll, GST, UK VAT, PAYG/payroll tax, invoicing and debt collection across 3 countries. AU entity has 9 staff plus 9 overseas contractors.\nPosts: 'End of the JXT era' (29 Mar 2025); new Qantas and Jetstar careers sites launched (23 Mar 2026).\nComplexity: 200+ SaaS clients across AU, UK and US (multi-entity, multi-currency, multi-tax); subscription plus paid job-board packages (deferred revenue); Stripe payments; enterprise implementations; overseas contractor payments.\nWhy: one person doing billing, collections, payroll, 3-country tax and the close is exactly who Vert should help, and a post-MBO owner-operator will value efficiency. Approach Sandie Royle: automate Stripe/bank recs, deferred revenue and multi-entity close so she can focus on cash and growth.\nSources: investi.com.au (May 2024 disposal); linkedin.com/in/sandie-royle-35647225; applyflow.com; LinkedIn (CRO hire Jan 2026; Qantas launch Mar 2026).",
+  "employee_range": "11-50",
+  "categories": [
+   "Technology",
+   "Information Technology & Services",
+   "Marketing & Advertising",
+   "Human Resources",
+   "SAAS",
+   "B2B",
+   "Internet"
+  ]
+ },
+ {
+  "record_id": "5a9ddae3-9dcc-4f62-857f-a1eb81f1b0ce",
+  "linkedin": "https://www.linkedin.com/company/archistarai",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Tony George — Finance Manager",
+  "employee_count": "69",
+  "sector": "AI planning & permitting SaaS",
+  "logo_url": "https://brandbadge.clearbit.com/9fe470b4-d788-43be-909d-33e0b0943512",
+  "foundation_date": "2010",
+  "cfo_linkedin": "https://linkedin.com/in/tony-george",
+  "industry": "SaaS",
+  "finance_headcount": "2",
+  "domains": [
+   "archistar.ai"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "funding_raised_usd": "US$15,200,000.00",
+  "finance_team": "Tony George — Finance Manager; Nick Key — Finance Manager",
+  "created_at": "Friday, 2026-10-16 04:59:25",
+  "name": "Archistar",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "3/5 — Gov-tech SaaS with grants, milestones and offshore customers; lean finance team, moderate priority.\nFunding: A$5M from existing investors AirTree, Skip Capital, NAB Ventures and PEXA (Jun 2024). Urban Copilot project: A$2.7M federal CRC grant within a A$6.5M project. US$15.2M total historically.\nHiring: 4 active job posts on LinkedIn; no finance vacancy verified.\nFinance team: Max Connell, CFO (strongest senior finance contact); finance managers Nick Key and Tony George (CRM; verify). ~2 finance staff for ~69 staff.\nPosts: none from finance; support contacts public.\nComplexity: AI planning and permitting SaaS for councils in AU and overseas (US: LA, Austin), so multi-entity/FX; government contracts with milestones (deferred revenue, project accounting); grant accounting and acquittal (CRC); implementation-heavy work.\nWhy: grant acquittals, milestone revenue and multi-jurisdiction gov contracts create real close effort for a lean team, and a CFO plus two FMs gives a clear buyer/user path. No fresh trigger. Approach Max Connell on grant/milestone revenue and multi-entity rec automation.\nSources: privateequitymedia.com.au (A$5M, Jun 2024); aap.com.au (Urban Copilot); au.linkedin.com/company/archistarai; people.equilar.com (leadership).",
+  "employee_range": "51-250",
+  "categories": [
+   "Real Estate",
+   "Construction",
+   "Information Technology & Services",
+   "E-Learning",
+   "Architecture",
+   "B2B",
+   "Consulting & Professional Services",
+   "Technology",
+   "SAAS",
+   "B2C",
+   "Marketplace"
+  ]
+ },
+ {
+  "record_id": "f1215e02-9c5a-4693-8b17-5af7e4c6793c",
+  "recent_funding": "Point King Capital acquired a significant minority stake in Arms of Eve in December 2024; transaction value was undisclosed.",
+  "linkedin": "https://linkedin.com/company/arms-of-eve",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Selina Chin — Head of Finance",
+  "employee_count": "53",
+  "sector": "Waterproof jewellery",
+  "description": "Australian jewellery, accessories and clothing brand offering tarnish-free and waterproof jewellery, accessories and lifestyle products.",
+  "logo_url": "https://brandbadge.clearbit.com/3b7c8965-6168-449c-ba49-f913d7d1e08d",
+  "founder": "Kerryn Langer; Aaron Langer",
+  "foundation_date": "2017",
+  "facebook": "armsofeve",
+  "cfo_linkedin": "https://www.linkedin.com/in/selina-chin-9b1b55",
+  "valuation": "Not disclosed",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "armsofeve.com"
+  ],
+  "instagram": "armsofeve",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "founder_linkedin": "https://www.linkedin.com/in/aaronlanger",
+  "funding_raised_usd": "US$0.00",
+  "finance_team": "Selina Chin — Head of Finance",
+  "created_at": "Saturday, 2026-11-07 07:26:37",
+  "team": [
+   {
+    "object_slug": "people",
+    "object_id": "d92d655a-4c05-47ca-899b-c65e7cd5d734",
+    "record_id": "369fd1f1-8a5a-486c-b55a-1dacd3583d39"
+   },
+   {
+    "object_slug": "people",
+    "object_id": "d92d655a-4c05-47ca-899b-c65e7cd5d734",
+    "record_id": "236ab640-99bf-4130-b183-4ff88975fd1d"
+   }
+  ],
+  "name": "Arms Of Eve",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Point King Capital minority stake (Dec 2024), boutique rollout (Noosa, Bondi Junction, Pacific Fair, WA) and a Financial Controller hire.\nFunding: Point King Capital acquired a significant minority stake in Arms of Eve in December 2024; transaction value was undisclosed.\nSignals (last 24 months): 2024-11-14: Opened boutiques in Noosa and Westfield Bondi Junction; 2024-12-27: Point King Capital acquired a significant minority stake; 2025-02-27: Advertised for a Financial Controller; 2025-06-19: Opened a boutique at Pacific Fair on the Gold Coast; 2025-08-01: Olivia Taibel promoted to General Manager; 2026-05-11: Hiring Casual Sales Assistants for Claremont, WA.\nFinance team: Selina Chin — Head of Finance. ~1 in finance; ~53 staff.\nRevenue: $1M-$10M (store sales estimate US$5.9M).\nWhy: Point King Capital minority stake (Dec 2024), boutique rollout (Noosa, Bondi Junction, Pacific Fair, WA) and a Financial Controller hire - investor reporting plus multi-store close. Approach Selina Chin on store/ecom payout recs and board-ready close.\nSources: https://linkedin.com/company/arms-of-eve; https://armsofeve.com/; https://www.abl.com.au/insights-and-news/arms-of-eve-secures-strategic-investment-from-point-king-capital/",
+  "employee_range": "51-250",
+  "categories": [
+   "E-commerce",
+   "B2C",
+   "Apparel & Footwear",
+   "Retail",
+   "Consumer Discretionary"
+  ]
+ },
+ {
+  "record_id": "2fbaea24-3fa1-4397-a561-e4006c016e5d",
+  "recent_funding": "Total funding USD 7,151,315 (company profile)",
+  "linkedin": "https://www.linkedin.com/company/atticustech",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Collingwood",
+   "region": "VIC"
+  },
+  "cfo": "Belinda Drew — Senior Financial Controller",
+  "employee_count": "56",
+  "sector": "Software (unverified category)",
+  "logo_url": "https://brandbadge.clearbit.com/51e254b4-1e8d-4ae8-8168-eb0a74fa248c",
+  "foundation_date": "2017",
+  "cfo_linkedin": "https://linkedin.com/in/belinda-drew-a9aa7641",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "atticus.tech"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Belinda Drew — Senior Financial Controller",
+  "created_at": "Friday, 2026-10-16 04:59:28",
+  "name": "Atticus",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Blackbird-backed, AU+UK SaaS with a brand-new Senior Financial Controller (Mar 2026) running a one-person finance team.\nFunding: first raise A$10.84M (Jun 2024), led by Skip Capital with Blackbird Ventures; previously bootstrapped and profitable. No later round found.\nHiring: careers page lists 50+ staff and an Enterprise Account Manager role; no finance vacancy.\nFinance team: Belinda Drew, Senior Financial Controller since Mar 2026. LinkedIn shows 1 finance employee.\nPosts: careers page cites 30,000+ users, 50+ employees, offices in Melbourne and London.\nComplexity: subscription SaaS for corporates and law firms (annual reports, prospectuses, ESG, M&A docs); AU and UK entities (GBP/AUD, intercompany); annual and enterprise contracts (deferred revenue); board/VC reporting since Jun 2024.\nWhy: post-raise VC board reporting, a two-country entity structure and a new FC working solo is a lean team inheriting a growing close. Bonus: Blackbird is on the cap table, a warm intro path and relevant to Vert's own Blackbird application. Approach Belinda Drew: automate AU/UK recs, intercompany and deferred revenue in her first months.\nSources: atticus.com/careers; linkedin.com/in/belinda-drew-a9aa7641; Atticus funding announcement (Jun 2024).",
+  "employee_range": "11-50",
+  "categories": [
+   "Information Technology & Services",
+   "Legal Services",
+   "Technology",
+   "Financial Services",
+   "SAAS",
+   "B2B",
+   "Enterprise"
+  ]
+ },
+ {
+  "record_id": "c5497939-def6-40a3-b2d8-6e995b1226e9",
+  "recent_funding": "No funding rounds identified; Tracxn classifies Auguste The Label as unfunded.",
+  "linkedin": "https://linkedin.com/company/auguste-the-label",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Byron Bay",
+   "region": "NSW"
+  },
+  "cfo": "Tammy Moore — Head of Finance and Operations",
+  "employee_count": "20",
+  "sector": "Womenswear",
+  "description": "Australian lifestyle fashion brand offering vintage-inspired women's clothing and related apparel.",
+  "logo_url": "https://brandbadge.clearbit.com/c92a933c-8909-4482-b885-1b5048084318",
+  "founder": "Ebony Eagles",
+  "foundation_date": "2014",
+  "facebook": "augustethelabel",
+  "cfo_linkedin": "https://www.linkedin.com/in/tammy-moore3006",
+  "valuation": "Not disclosed",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "augustethelabel.com"
+  ],
+  "instagram": "augustethelabel",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "founder_linkedin": "Not found",
+  "funding_raised_usd": "US$0.00",
+  "finance_team": "Tammy Moore — Head of Finance and Operations",
+  "created_at": "Saturday, 2026-11-07 07:30:08",
+  "team": [
+   {
+    "object_slug": "people",
+    "object_id": "d92d655a-4c05-47ca-899b-c65e7cd5d734",
+    "record_id": "e0c857a2-6f57-4ca4-9afd-31f80d3745d0"
+   }
+  ],
+  "name": "Auguste The Label",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Unfunded Byron Bay fashion label with ecom, stores and wholesale; Head of Finance & Operations runs everything.\nFunding: Unfunded (Tracxn).\nSignals (last 24 months): No qualifying recent signal verified.\nFinance team: Tammy Moore — Head of Finance and Operations. ~1 in finance; ~20 staff.\nRevenue: $1M-$10M (store sales estimate US$4.8M).\nWhy: One person owns finance and operations across ecom, stores and wholesale. Approach Tammy Moore on Shopify/store payouts and wholesale AR.\nSources: https://linkedin.com/company/auguste-the-label; https://augustethelabel.com; https://www.retailbiz.com.au/topics/omnichannel/auguste-the-label-founder-merges-her-passion-for-design-femininity-and-the-environment/",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "B2C",
+   "Consumer Staples",
+   "Retail",
+   "Apparel & Footwear"
+  ]
+ },
+ {
+  "record_id": "661b7c58-e935-476d-940e-1d9011297946",
+  "twitter": "pureauaustralia",
+  "linkedin": "https://www.linkedin.com/company/australian-beverage-holdings",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Rob Harris — Director of Finance & Operations",
+  "employee_count": "12",
+  "sector": "Purified water beverages",
+  "logo_url": "https://brandbadge.clearbit.com/e72ff1d3-53a3-40a8-8153-5a4e2799a290",
+  "twitter_follower_count": "224",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "pureau.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Rob Harris — Director of Finance & Operations",
+  "created_at": "Friday, 2026-10-16 05:03:30",
+  "name": "Australian Beverage Holdings (pureau)",
+  "signal": "3/5 — Water bottler with 5x growth, a new 3x-larger plant and a just-strengthened finance team; manufacturing-heavy close.\nFunding: no institutional round found. Significant capex: high-speed bag-in-box case-packing equipment (Apr 2025); moved to an Erskine Park facility 3x larger than St Marys (May 2026) after fivefold growth.\nHiring: Accounts & Finance Manager advertised 28 May 2025 (BOMs, payroll, monthly reporting); two production shift leaders (23 Jan 2026).\nFinance team: Rob Harris, Director of Finance & Operations since Mar 2009 (finance, procurement, supply chain); Adam Kennedy joined as Chief Accountant on 24 Jun 2025.\nPosts: 2025–26 company posts cite equipment investment, Amazon home delivery, the new facility and recruitment.\nComplexity: purified-water manufacturing (BOMs, production costing); national supermarket distribution (deductions, promos); Amazon and online delivery (marketplace settlements); capex and asset accounting; procurement.\nWhy: rapid growth plus a big facility move plus a newly hired Chief Accountant means processes are being reset. Supermarket deductions and Amazon settlements are repetitive recs. But it's a manufacturer with a fresh finance hire, so automation appetite is unproven. Approach Adam Kennedy (with Rob Harris) on retailer/Amazon settlement recs and inventory/COGS journals.\nSources: pureau.com.au/pages/about; linkedin.com/company/australian-beverage-holdings (posts Apr 2025, May 2025, May 2026).",
+  "categories": [
+   "E-commerce",
+   "Beverages",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "597dd492-faf6-4ed9-8781-fc1ec8dca7c9",
+  "twitter": "azupay",
+  "recent_funding": "Total funding USD 11,436,332 (company profile)",
+  "linkedin": "https://www.linkedin.com/company/azupay",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Vesna Crnjak — Head of Finance & Company Secretary",
+  "employee_count": "43",
+  "sector": "Payment infrastructure (PayTo)",
+  "logo_url": "https://brandbadge.clearbit.com/b58a1947-5107-4727-b8f4-cc81d4468642",
+  "foundation_date": "2019",
+  "cfo_linkedin": "https://linkedin.com/in/vesna-crnjak-ba2ab4141",
+  "twitter_follower_count": "91",
+  "industry": "SaaS",
+  "finance_headcount": "3",
+  "domains": [
+   "azupay.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "funding_raised_usd": "US$7,300,000.00",
+  "finance_team": "Vesna Crnjak — Head of Finance & Company Secretary",
+  "created_at": "Thursday, 2026-10-15 13:32:49",
+  "name": "Azupay",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Fresh capital and new bank partnerships at a payments-infrastructure company; settlement recs are heavy but fintech compliance may favour bespoke tooling.\nFunding: A$3M raised from shareholders in Aug 2025 (first raise since Jul 2023); major shareholders include Tattarang Ventures (Forrest family) and Ellerston Capital.\nHiring: 2025: Enterprise Sales Director, Head of Marketing. 2026: Product Manager (platforms, workflows, automation, scaling). No finance vacancy.\nFinance team: Rob Bullock, CFO (The Org); Vesna Crnjak, Head of Finance & Company Secretary (praised publicly in Nov 2025 for 'bringing clarity'); ~3 finance staff. CEO Andrew Baines.\nPosts: Mar 2025 Gr4vy partnership; Aug 2025 NAB launched PayID Receivables with Azupay.\nComplexity: PayTo/PayID payment infrastructure; transaction-volume-based revenue, partner revenue shares (NAB, Gr4vy), client fund settlement and reconciliation, regulated environment (AFSL/AUSTRAC), board/investor reporting.\nWhy: high-volume settlement and fee recs plus new bank partnerships and investor reporting suit automation, but payments companies often build reconciliation in-house and face strict audit/regulatory requirements. Approach Vesna Crnjak (owns the close) with Rob Bullock on automating partner-fee and settlement recs into the GL.\nSources: paydaynews.com.au (A$3M raise, Aug 2025; NAB PayID Receivables); theorg.com/org/azupay; azupay.com.au (team, Gr4vy partnership).",
+  "employee_range": "11-50",
+  "categories": [
+   "Banking & Mortgages",
+   "Payments",
+   "Finance",
+   "Insurance",
+   "Technology",
+   "Information Technology & Services",
+   "SAAS",
+   "B2B",
+   "Enterprise"
+  ]
+ },
+ {
+  "record_id": "89cf46b5-2877-47f2-a3f9-56521ec3df9b",
+  "twitter": "babyboofashion",
+  "linkedin": "https://www.linkedin.com/company/babyboo-fashion",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Balmain",
+   "region": "NSW"
+  },
+  "cfo": "Zhuoran (CY) Tan — Finance Manager",
+  "employee_count": "89",
+  "sector": "Online womenswear",
+  "logo_url": "https://brandbadge.clearbit.com/961c3670-e2eb-4395-aad9-667822472427",
+  "foundation_date": "2012",
+  "cfo_linkedin": "https://linkedin.com/in/zhuoran-cy-tan-ab186662",
+  "twitter_follower_count": "2213",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "3",
+  "domains": [
+   "babyboofashion.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Zhuoran (CY) Tan — Finance Manager",
+  "created_at": "Saturday, 2026-10-17 06:33:10",
+  "name": "BABYBOO Fashion",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — High-volume global DTC fashion (60k+ orders/week, 145+ countries) with a 2–3 person finance team; heavy recs, no fresh trigger.\nFunding: none; bootstrapped (founders say no outside capital).\nHiring: careers redirect to LinkedIn (~5 active postings, none verified finance). CRM notes an assistant accountant hire.\nFinance team: Zhuoran (CY) Tan, Finance Manager since Feb 2024; Jacqueline Ngu, Accountant since Sep 2025 (AP/AR, payroll, recs, month-end close, reporting, tax, audit prep, controls, budgeting); Lucy Lin listed as Finance Manager (verify timing). ~89 staff (+20% YoY).\nPosts: FY26 end-of-financial-year celebration (Aug 2026).\nComplexity: online womenswear shipping to 145–157 countries; AU and US operations (multi-entity, FX); planned European warehousing and robotics fulfilment; capacity 60,000+ orders/week; multiple gateways, returns-heavy, multi-country tax.\nWhy: enormous payout and returns rec volume across currencies, with a small team that just added an accountant for recs and close, is a strong fit on paper. But no funding or leadership trigger, and revenue may be above band. Approach CY Tan: automate gateway/payout, returns and FX recs as EU warehousing adds complexity.\nSources: businessnewsaustralia.com (Young Entrepreneur award); insideretail.com.au (May 2026); babyboofashion.com/pages/careers; linkedin.com (CY Tan, Jacqueline Ngu).",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Apparel & Footwear",
+   "Retail",
+   "B2C",
+   "Consumer Staples"
+  ]
+ },
+ {
+  "record_id": "abb92ef6-06a3-4f4c-8962-c65cee50314a",
+  "linkedin": "https://www.linkedin.com/company/barneygroup",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Emily Chong — Finance",
+  "employee_count": "9",
+  "sector": "DTC dog beds",
+  "logo_url": "https://brandbadge.clearbit.com/0c81bb9b-9c74-4cfd-9e34-2a1b11db4621",
+  "foundation_date": "2013",
+  "cfo_linkedin": "https://linkedin.com/in/emilyschong",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "barneybed.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Emily Chong — Finance",
+  "created_at": "Friday, 2026-10-16 05:01:40",
+  "name": "Barney Group (Barney Bed)",
+  "estimated_arr_usd": "$0-$1M",
+  "signal": "3/5 — Small multi-brand pet DTC group that just restructured (new group entity Jun 2025, new GM Ops Apr 2026); one finance person.\nFunding: none found. Barney Group Pty Ltd incorporated 26 Jun 2025 (a group restructure, not a raise).\nHiring: Shae O'Dowd started as General Manager Operations (Apr 2026); no finance vacancies.\nFinance team: Emily Chong, Finance since Dec 2024 (sole finance employee); Morgan Drew, Group CEO; Julia Sakr, founder. ~9 staff.\nPosts: none on finance or close.\nComplexity: multi-brand portfolio (Barney Bed, Cat Street, Furfy, Potty Plant, Scatbags), so likely multiple storefronts/entities; Shopify Payments plus other gateways; Sydney retail store; Bondi head office; AU warehouse (inventory, landed cost); terms name Excede Pty Ltd as operator (intercompany).\nWhy: a newly formed group with several brands and entities run by one finance person means consolidation, intercompany and per-brand Shopify payout recs are growing fast. Small size limits deal value. Approach Emily Chong (Morgan Drew as sponsor) on multi-store Shopify payout recs, inventory/COGS and group consolidation.\nSources: barneybed.com.au/about; linkedin.com/company/barneygroup; abr.business.gov.au (Barney Group Pty Ltd).",
+  "employee_range": "1-10",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "Home & Furniture",
+   "Consumer Discretionary",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "9de261ce-e8b0-4e6f-97f8-d1a32a5c36b6",
+  "twitter": "bassikeofficial",
+  "linkedin": "https://www.linkedin.com/company/bassike",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Warriewood",
+   "region": "NSW"
+  },
+  "cfo": "Ting Gong — Finance Manager (verify)",
+  "employee_count": "69",
+  "sector": "Organic cotton basics",
+  "logo_url": "https://brandbadge.clearbit.com/c54e3a80-d254-441d-970e-b83d3edc3630",
+  "foundation_date": "2006",
+  "twitter_follower_count": "2556",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "3",
+  "domains": [
+   "bassike.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Ting Gong — Finance Manager (profile also lists a current Capri role; verify)",
+  "created_at": "Friday, 2026-10-16 05:03:11",
+  "name": "BASSIKE",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "2/5 — Named finance contact appears to have left (now Capri Holdings, Jun 2026); verify the current owner before any outreach.\nFunding: none found in the last ~24 months.\nHiring: no current or recent accounting, controller or finance-manager vacancy found.\nFinance team: Ting Gong was BASSIKE Finance Manager from Oct 2021, but her profile now shows Head of Finance ANZ at Capri Holdings from Jun 2026. Current BASSIKE finance owner unknown, so the CRM contact is likely stale.\nPosts: none found on close, reconciliations, spreadsheets, ERP migration or AI.\nComplexity: premium apparel sold online and through own stores; AU, US and UK presence (multi-currency, possibly multi-entity); inventory across stores and channels; wholesale/stockists. ~40–50 employees.\nWhy: stores plus international ecommerce and inventory create real close workload, and a finance-leadership vacancy can be an opening, but there's no confirmed owner or public trigger. Next step: identify Ting's replacement (or whether finance is outsourced), then pitch store/Shopify payout and inventory recs plus AU/US/UK FX close.\nSources: linkedin.com/in/ting-gong-945693156; linkedin.com/company/bassike; bassike.com.",
+  "employee_range": "51-250",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "Apparel & Footwear",
+   "Consumer Staples",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "93e4cb41-98b9-4b01-86f8-49d1a9b69385",
+  "linkedin": "https://www.linkedin.com/company/the-bean-alliance",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Brian Liu — Head of Finance",
+  "employee_count": "32",
+  "sector": "Coffee roaster",
+  "logo_url": "https://brandbadge.clearbit.com/d94f0978-9553-4d19-88c6-83f701f7d0a9",
+  "foundation_date": "1981",
+  "cfo_linkedin": "https://linkedin.com/in/brianckliu",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "3",
+  "domains": [
+   "beanalliance.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Brian Liu — Head of Finance",
+  "created_at": "Friday, 2026-10-16 05:03:33",
+  "name": "Bean Alliance Group",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "3/5 — Explicit close-accuracy pain right now, but Bean Alliance is owned by Massimo Zanetti Beverage Group (Italian), so tooling may be group-led.\nFunding: no standalone round. Massimo Zanetti Beverage Group acquired Bean Alliance for A$24M (finalised Feb 2019); 2018 revenue was A$24.5M, normalised EBITDA A$3M, ~60 staff.\nHiring: 16 Sep 2026 recruiter post: Senior Accountant (Segafredo/Bean Alliance) reporting to the CFO and working with the Senior Financial Controller. Remit: month-end reporting, balance-sheet recs, cash-flow forecasting, controls, resolving HISTORICAL DISCREPANCIES, improving reporting accuracy and finance-process integration/transformation.\nFinance team: Brian Liu, Head of Finance since Dec 2023; Tuija Hannon, Management Accountant since Sep 2019; plus a CFO and Senior Financial Controller (likely group/ANZ level).\nPosts: 2025 Fairtrade report: A$159,311 premiums paid, 218,703 kg sold on Fairtrade terms.\nComplexity: multi-site coffee roasting; green-bean sourcing (USD/FX, landed cost); wholesale to cafes and foodservice (AR, equipment loans/rebates), retail and online; inventory/COGS; integration with Segafredo/MZB ANZ.\nWhy: the job ad literally describes cleaning up historical discrepancies and transforming close processes, which is acute pain. But parent-group ownership may dictate the ERP and close tooling. Approach Brian Liu on a scoped balance-sheet rec and close-accuracy pilot; confirm local autonomy.\nSources: beanalliance.com.au/about-us.php; insidefmcg.com.au (Massimo Zanetti acquisition, Feb 2019); linkedin.com (Brian Liu; Quinn Allan Senior Accountant post, Sep 2026).",
+  "employee_range": "51-250",
+  "categories": [
+   "E-commerce",
+   "Food",
+   "Consumer Staples",
+   "B2B",
+   "B2C",
+   "Enterprise"
+  ]
+ },
+ {
+  "record_id": "1813009c-52e9-45fd-b077-32dcded6b559",
+  "twitter": "bedthreadsau",
+  "recent_funding": "Unverified",
+  "linkedin": "https://www.linkedin.com/company/bed-threads",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Avreme Cohney — CFO — source: company profile",
+  "employee_count": "23",
+  "sector": "Home & lifestyle (linen bedding)",
+  "logo_url": "https://brandbadge.clearbit.com/2d88d642-66fa-4f60-9ae3-87c57f119611",
+  "twitter_follower_count": "218",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "bedthreads.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Avreme Cohney — CFO (source: company profile)",
+  "created_at": "Saturday, 2026-10-17 06:32:11",
+  "name": "Bed Threads",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Moderate: a CFO-led DTC brand with trade and retail ambitions, but no recent trigger.\nFunding: first external minority investment Nov 2021 (undisclosed, outside the window); other databases list it as unfunded. Nothing recent.\nHiring: no finance roles. 2025 hiring was a copywriter and a CRM role.\nFinance team: Avreme Cohney, CFO since at least Jan 2023, remit spans FP&A, operational finance, systems implementation, board reporting and transaction readiness. ~1 visible finance person; also has a COO.\nPosts: none on close. 2025 cotton range launch and stated interest in bricks-and-mortar retail.\nComplexity: Shopify DTC across AU, US and UK (multi-currency, likely multiple stores/entities); trade portal for hospitality, design and corporate gifting (tiered discounts, minimum orders, invoicing/AR); inventory and 3PL; ~23 staff (-8% YoY).\nWhy: multi-region Shopify payouts, FX and trade AR are classic Vert recs, and a CFO with a 'systems implementation' remit is receptive. But there's no funding or growth trigger and a shrinking team. Approach Avreme Cohney on automating multi-store payout and FX recs ahead of any physical retail launch.\nSources: bedthreads.com.au; bedthreads trade portal; LinkedIn company hiring posts; secondary funding database.",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "Textiles",
+   "Publishing",
+   "Home & Furniture",
+   "B2C",
+   "Consumer Discretionary"
+  ]
+ },
+ {
+  "record_id": "4aca9540-4ed6-410c-8fbf-a499c8599447",
+  "twitter": "BeerenbergFarm",
+  "linkedin": "https://www.linkedin.com/company/beerenberg-pty-ltd",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Hahndorf",
+   "region": "SA"
+  },
+  "cfo": "Karen Powell — Financial Controller",
+  "employee_count": "72",
+  "sector": "Jams, sauces & condiments",
+  "logo_url": "https://brandbadge.clearbit.com/a955b7f2-d68d-4290-80fb-6c7d727b8a22",
+  "foundation_date": "1971",
+  "facebook": "40261180621",
+  "cfo_linkedin": "https://linkedin.com/in/3karenl1",
+  "twitter_follower_count": "3911",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "2",
+  "domains": [
+   "beerenberg.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Karen Powell — Financial Controller",
+  "created_at": "Saturday, 2026-10-17 06:33:14",
+  "name": "Beerenberg",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "3/5 — Family-owned manufacturer investing in capacity and export, recently adding management-accounting headcount; larger than ideal.\nFunding: none (family-owned). ~A$14M, 6,500m² manufacturing expansion (capacity 60,000 sauce bottles/shift).\nHiring: Apr 2025, 12-month Senior Management Accountant (promoted by Head of People Kerryann White); newly created Head of International Sales.\nFinance team: Carol Paech, Financial Controller (per research); CRM lists Karen Powell, Financial Controller, so confirm who owns the close. Anthony Paech, MD. ~2+ in finance for ~72 staff.\nPosts: hiring posts only.\nComplexity: manufacturing (production costing, BOMs), supermarket wholesale (Coles/Woolworths deductions, promo rebates), farm shop and Hahndorf tourism retail, ecommerce, growing export; capex project accounting.\nWhy: supermarket deduction/rebate recs, farm-shop POS and ecom payouts plus capex are heavy and repetitive, and they're adding accountants rather than automating. But a ~A$15–30M family manufacturer may prefer ERP-led solutions. Approach the Financial Controller with Anthony Paech as sponsor: automate retailer deduction, POS/ecom and inventory recs.\nSources: linkedin.com (Senior Management Accountant post, Apr 2025); beerenberg.com.au/pages/faqs; beerenberg.expr3ss.com; globalpumps.com.au (Beerenberg case study).",
+  "employee_range": "51-250",
+  "categories": [
+   "E-commerce",
+   "Food",
+   "Retail",
+   "Family Services",
+   "Food Production",
+   "B2C",
+   "Agriculture"
+  ]
+ },
+ {
+  "record_id": "8a0fb175-2238-42c8-abd1-46f0cc522fdc",
+  "twitter": "bboutique",
+  "linkedin": "https://www.linkedin.com/company/beginning-boutique",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Lytton",
+   "region": "QLD"
+  },
+  "cfo": "Stephanie Gutierrez — Finance Manager",
+  "employee_count": "89",
+  "sector": "Online womenswear",
+  "logo_url": "https://brandbadge.clearbit.com/96166d18-a801-45f6-b1e4-a9c21960960d",
+  "foundation_date": "2008",
+  "cfo_linkedin": "https://linkedin.com/in/stephanie-gutierrez-37425b117",
+  "twitter_follower_count": "3107",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "3",
+  "domains": [
+   "beginningboutique.co.nz"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Stephanie Gutierrez — Finance Manager",
+  "created_at": "Friday, 2026-10-16 05:03:14",
+  "name": "Beginning Boutique",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "5/5 — Strong: actively hiring for month-end close, recs, intercompany and 'automation', with a CFO search, across a 2-entity, 4-storefront, 6-gateway fashion ecom.\nFunding: none found (private, founder-led by CEO Sarah Timmerman).\nHiring: careers page: Financial Accountant (Lytton) reporting to the Finance Manager, covering month-end close, GL, reconciliations, intercompany, tax, ERP/ecommerce integration and AUTOMATION. Stephanie Gutierrez posted it 22 Apr 2026. Sarah posted a Finance & Payroll Officer (Aug 2025). CFO search covering AU and US (Jun 2025; filled status unverified).\nFinance team: Stephanie Gutierrez, Finance Manager (application contact); Priscila Lincka, Finance & Payroll Officer; ~3 in finance; ~89 staff.\nPosts: Timmerman's and Gutierrez's hiring posts (2025–26) show capacity and systems pressure.\nComplexity: two legal entities (AU + US); AU, US, NZ and UK storefronts; Shopify + NetSuite; Shopify Payments, Stripe, Afterpay, Laybuy, Zip and PayPal; apparel inventory; returns-heavy; global tax.\nWhy: the job ad itself lists the exact work Vert automates (close, recs, intercompany, ecommerce integration, automation), so the need is explicit and current. Approach Stephanie Gutierrez (cc Sarah Timmerman): automate 6-gateway payout recs, Shopify-to-NetSuite and AU/US intercompany instead of (or alongside) the accountant hire.\nSources: beginningboutique.com.au/pages/careers; linkedin.com/posts/jordan-honess (CFO search, Jun 2025); linkedin.com/posts/sarah-timmerman (Finance & Payroll Officer); beginningboutique.com.au/pages/terms.",
+  "employee_range": "51-250",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "Apparel & Footwear",
+   "B2C",
+   "Consumer Staples"
+  ]
+ },
+ {
+  "record_id": "94f352aa-fe76-4105-b5fe-864c53a59398",
+  "linkedin": "https://www.linkedin.com/company/bellabox",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Lindy Lang — Commercial Finance Manager",
+  "employee_count": "Unverified",
+  "sector": "Beauty subscription box",
+  "cfo_linkedin": "https://linkedin.com/in/lindy-lang-4bba2851",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Lindy Lang — Commercial Finance Manager",
+  "created_at": "Saturday, 2026-10-17 06:32:14",
+  "name": "bellabox",
+  "signal": "1/5 — Disqualify: bellabox announced it was ceasing operations (end of Jun 2024).\nFunding: none in the last 24 months; historical raises ~A$1.3M (2013) and A$3M from Allure Media (2014).\nHiring: none.\nFinance team: Lindy Lang (Commercial Finance Manager per LinkedIn search) and Adam Murray (former outsourced CFO/CEO); neither confirms an active current team.\nPosts: 20 Jun 2024 closure announcement citing economic challenges, rising costs and a difficult retail market; final subscriptions fulfilled.\nComplexity: historically subscription boxes plus ecommerce, inventory and fulfilment across AU/NZ; now wind-down only.\nWhy: the business has closed, so there is no close to automate. Archive the account; only revisit if a successor or revival appears (Lindy Lang may be worth tracking to her next company).\nSources: smartcompany.com.au (bellabox closure); 7news.com.au (closure); app.dealroom.co (bellabox); linkedin.com (Lindy Lang, Adam Murray)."
+ },
+ {
+  "record_id": "03d5afad-2c96-43e4-833a-1dc3ed72b942",
+  "twitter": "belleandbloom",
+  "recent_funding": "No external funding or ownership transaction verified.",
+  "linkedin": "https://linkedin.com/company/belle-bloom",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Lan Yu — Accountant",
+  "employee_count": "18",
+  "sector": "Womenswear",
+  "description": "Women’s fashion brand offering coats, dresses, leather handbags, shoes and accessories through its ecommerce website and retail partners worldwide.",
+  "logo_url": "https://brandbadge.clearbit.com/b4723684-89fe-4d37-bbcc-6e4941a94015",
+  "founder": "Sherry Wu; Jonathan Manalo",
+  "foundation_date": "2010",
+  "facebook": "belleandbloom",
+  "cfo_linkedin": "https://www.linkedin.com/in/lan-yu-9a975843",
+  "valuation": "Not disclosed",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "belleandbloom.com"
+  ],
+  "instagram": "belleandbloomofficial",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "founder_linkedin": "https://linkedin.com/in/sherry-wu-36b65334",
+  "funding_raised_usd": "US$0.00",
+  "finance_team": "Lan Yu — Accountant",
+  "created_at": "Saturday, 2026-11-07 07:30:07",
+  "team": [
+   {
+    "object_slug": "people",
+    "object_id": "d92d655a-4c05-47ca-899b-c65e7cd5d734",
+    "record_id": "6662707d-b316-4602-9fb5-0c0fd737e11d"
+   },
+   {
+    "object_slug": "people",
+    "object_id": "d92d655a-4c05-47ca-899b-c65e7cd5d734",
+    "record_id": "056f3ade-75a7-4de6-a3e1-6373dca92826"
+   }
+  ],
+  "name": "Belle & Bloom",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Fashion brand on 10+ North American marketplaces via Mirakl, ranged in Myer, plus own ecom; one-person finance.\nFunding: No external funding verified.\nSignals (last 24 months): 2025-06-18: International expansion with Mirakl Connect; onboarded more than 10 North American marketplaces and expanded through retail partners (Ragtrader also reported Myer ranging after 300% growth).\nFinance team: Lan Yu — Accountant. ~1 in finance; ~18 staff.\nRevenue: $1M-$10M (store sales estimate US$5.0M).\nWhy: 10+ marketplaces, department-store wholesale and DTC means heavy settlement and FX recs for a one-person finance team. Approach Lan Yu on marketplace payout, Myer AR and FX recs.\nSources: https://linkedin.com/company/belle-bloom; https://www.mirakl.com/content/customer-stories/belle-and-bloom/; https://www.ragtrader.com.au/news/belle-and-bloom-secures-myer-after-300-growth",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "B2C",
+   "Consumer Staples",
+   "Retail",
+   "Apparel & Footwear"
+  ]
+ },
+ {
+  "record_id": "a4093369-2817-48d7-ba82-f8522ff71f17",
+  "twitter": "gotblinq",
+  "recent_funding": "Total funding USD 28,486,546 (company profile)",
+  "linkedin": "https://www.linkedin.com/company/blinq-me",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Jack R. — Senior Finance Manager",
+  "employee_count": "91",
+  "sector": "Digital business cards",
+  "logo_url": "https://brandbadge.clearbit.com/59e4051e-e9a5-4e91-8277-ce5644c88b82",
+  "cfo_linkedin": "https://linkedin.com/in/jack-r-90960355",
+  "angellist": "blinq-1",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "blinq.me"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "funding_raised_usd": "US$3,500,000.00",
+  "finance_team": "Jack R. — Senior Finance Manager",
+  "created_at": "Friday, 2026-10-16 04:59:30",
+  "name": "Blinq",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Series A global SaaS building out finance, with an FP&A hire that explicitly asked for interest in AI agents automating finance ops.\nFunding: US$25M Series A (6 May 2025) led by Touring Capital with Blackbird, Square Peg and HubSpot Ventures (~A$38.4M).\nHiring: FP&A Manager (posted 25 Mar 2026, now inactive): budgeting, forecasting, board reporting, fundraising support, and 'interest in AI agents to automate finance operations'.\nFinance team: Jack R., Senior Finance Manager since Dec 2024 (described as the number-one finance role); FP&A Manager likely now hired. ~70–80 staff across Australia and the US.\nPosts: Jack's 6 May 2025 post on Blinq's 'new chapter' as product and customers expand; nothing on close pain.\nComplexity: digital business card SaaS with 2.5M+ users across 500,000 companies in 189 countries; Stripe plus Apple/Google app-store revenue (store payout recs, FX, sales tax/VAT across many countries); AU and US entities (intercompany); ARR/CAC/LTV/retention board reporting.\nWhy: high-volume Stripe and app-store settlements in many currencies, an AU/US close, and a finance lead who has publicly prioritised AI automation make a strong fit. Risk: a well-funded team may build in-house. Approach Jack R. on Stripe/app-store payout recs, multi-currency close and deferred revenue, positioned as the transactional layer under the FP&A build.\nSources: blinq.me/blog (Series A); techcrunch.com (6 May 2025); linkedin.com/in/jack-r-90960355; simplify.jobs (FP&A Manager ad).",
+  "employee_range": "11-50",
+  "categories": [
+   "Information Technology & Services",
+   "E-commerce",
+   "Technology",
+   "Networking",
+   "B2B",
+   "B2C",
+   "SAAS",
+   "Mobile"
+  ]
+ },
+ {
+  "record_id": "c4d46244-2580-427a-9d26-61307640fabc",
+  "linkedin": "https://www.linkedin.com/company/bob-%26-pete%27s",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Marrickville",
+   "region": "NSW"
+  },
+  "cfo": "Jennifer Cheong — Finance Manager",
+  "employee_count": "62",
+  "sector": "Pizza bases & frozen foods",
+  "logo_url": "https://brandbadge.clearbit.com/677540b7-bc05-4018-acc5-20f47bb205f1",
+  "foundation_date": "1983",
+  "facebook": "bobandpetesyum",
+  "cfo_linkedin": "https://linkedin.com/in/jennifer-cheong-9b92a539",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "2",
+  "domains": [
+   "yum.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Jennifer Cheong — Finance Manager",
+  "created_at": "Friday, 2026-10-16 05:03:36",
+  "name": "Bob & Pete's",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "2/5 — Wholesale frozen-food manufacturer (~A$40–50M revenue, 500+ products) with a sizeable finance team; above band and not a payout-heavy close.\nFunding: none found.\nHiring: salesperson, Penrith (LinkedIn, 9 Oct 2025); no finance roles.\nFinance team: Jennifer Cheong, CA, Finance Manager (business improvement, planning, governance, cash, technology value); Lina Nguyen, Operations–Finance Analyst (KPI dashboards, CAPEX, master data, procurement variance); predecessor Johnson Gao ran a 6-person finance team.\nPosts: hiring post only; nothing finance-related.\nComplexity: pizza bases and frozen foods for foodservice and retail; 500+ SKUs; manufacturing costing, inventory, capex; wholesale AR/AP at volume; ERP and dashboards.\nWhy: manufacturing journals and wholesale AR/AP are automatable, but revenue (~A$40–50M) and a ~6-person finance team put it outside the lean-team ICP, with no trigger. Low priority; if pursued, approach Jennifer Cheong on wholesale AR/remittance recs and production/COGS journals.\nSources: linkedin.com/in/jennifer-cheong-9b92a539; linkedin.com/in/johnsongao86; linkedin.com/in/lina-nguyen-9a7a7795; theorg.com/org/bob-petes.",
+  "employee_range": "51-250",
+  "categories": [
+   "E-commerce",
+   "Food",
+   "Retail",
+   "Food Production",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "658c645a-4172-4bf0-87b5-cc58545ea5f0",
+  "linkedin": "https://www.linkedin.com/company/bodyscience-international-pty-ltd",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Gold Coast",
+   "region": "QLD"
+  },
+  "cfo": "Tom Stuart — Group Accountant",
+  "employee_count": "69",
+  "sector": "Sports nutrition",
+  "logo_url": "https://brandbadge.clearbit.com/208b2e5b-3e2b-4505-a4e7-960ccf49f897",
+  "cfo_linkedin": "https://linkedin.com/in/tom-stuart-8b7959171",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "3",
+  "domains": [
+   "bodyscience.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Tom Stuart — Group Accountant",
+  "created_at": "Friday, 2026-10-16 05:03:39",
+  "name": "BODYSCIENCE",
+  "signal": "3/5 — Strong operational close fit (grocery scan recs, manufacturing), but owned by Humble Group (Swedish-listed), so procurement may sit with the parent.\nFunding: none in 24 months. Humble Group acquired 100% of Body Science (15 Jul 2022); Body Science acquired the former Halo Food Sydney manufacturing plant (Oct 2023), terms undisclosed.\nHiring: no current finance opening. Tom Stuart reshared an 'expanding Finance team' post (20 Sep 2022) plus a Nov 2022 hiring post.\nFinance team: Tom Stuart, Group Accountant since Feb 2020; also Kelly Huleatt and Seamus Cunningham (~3 in finance); SignalHire lists Sheree Young as CFO (verify).\nPosts: Tom's profile details group reporting, local accounts, cash flow, profitability, tax, monthly balance-sheet and P&L recs, AP/AR, margin analysis, and Excel dashboards built from Coles, Woolworths and Chemist Warehouse scan sales. Manual Excel scan-data work is a pain hint.\nComplexity: sports nutrition D2C plus B2B; Coles, Woolworths and Chemist Warehouse (scan-based recs, trade spend, deductions); own manufacturing plant (production costing, COGS); multi-SKU inventory; group reporting to a listed Swedish parent (IFRS, SEK consolidation).\nWhy: the close work (scan recs, margin, inventory, group packs) is squarely in Vert's lane, and Excel dashboards signal manual effort. Parent-group reporting cadence adds deadline pressure but may constrain tool choice. Approach Tom Stuart on automating retailer scan/deduction recs and group reporting packs.\nSources: linkedin.com/in/tom-stuart-8b7959171; theorg.com/org/bodyscience; just-food.com (plant acquisition); cision (Humble acquisition)."
+ },
+ {
+  "record_id": "44f41c20-26df-457d-9f5e-f15b84e8c88b",
+  "twitter": "boodyau",
+  "linkedin": "https://www.linkedin.com/company/boody",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Carolyn Beagley — CFO",
+  "employee_count": "87",
+  "sector": "Bamboo basics & underwear",
+  "logo_url": "https://brandbadge.clearbit.com/32613bee-56a9-4bc7-9e75-087cf9c0abae",
+  "foundation_date": "2012",
+  "facebook": "boodyecowear",
+  "cfo_linkedin": "https://linkedin.com/in/carolyn-beagley-1b79013b",
+  "twitter_follower_count": "9",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "3",
+  "domains": [
+   "boody.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Carolyn Beagley — CFO; finance dept on profile: 3",
+  "created_at": "Saturday, 2026-10-17 06:31:05",
+  "name": "Boody",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Brand-new CFO (Mar 2026) at a profitable, globally scaling DTC+wholesale+marketplace apparel brand.\nFunding: growth-equity round Dec 2023 (outside window). Nothing newer verified.\nHiring: Sep 2025, Co-CEO Shaun Greenblo publicly advertised the CFO role, describing Boody as profitable, high-growth, product-first and scaling globally. The careers page also lists Accounts roles.\nFinance team: Carolyn Beagley, CFO since Mar 2026 (new); ~3 in finance for ~87 staff.\nPosts: Shaun Greenblo's CFO search post (Sep 2025): profitability, growth, global expansion.\nComplexity: DTC, B2B wholesale and marketplaces across AU, NZ, US, UK and Europe; thousands of SKUs; Black Friday spikes; multi-entity/FX. ERP history: QuickBooks Commerce + Xero + Salesforce consolidated into Odoo (WAO Group case study), while a 2026 Annexa case study cites NetSuite as the global backbone. Likely a recent ERP migration; verify.\nWhy: a new CFO plus a recent ERP move is the moment to rebuild the close properly, and marketplace/wholesale/DTC recs across 5 regions are exactly Vert's work. Approach Carolyn Beagley: automate multi-region channel and payout recs on the new ERP backbone.\nSources: linkedin.com (Shaun Greenblo CFO post, Sep 2025; Carolyn Beagley); waogroup.com.au (Boody Odoo case study); annexa.com.au (Boody NetSuite case study); boody.com.au/pages/jobs-at-boody.",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Apparel & Footwear",
+   "Consumer Staples",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "d0ea2ea8-9c20-42e2-99f4-4938e45d3370",
+  "twitter": "_Brookfarm_",
+  "recent_funding": "Unverified",
+  "linkedin": "https://www.linkedin.com/company/brookfarm",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Byron Bay",
+   "region": "NSW"
+  },
+  "cfo": "Cherie Crawford — Chief Financial Officer",
+  "employee_count": "33",
+  "sector": "Food CPG",
+  "logo_url": "https://brandbadge.clearbit.com/39ed92c4-6882-47ca-b7ba-157f2d749125",
+  "foundation_date": "1999",
+  "facebook": "brookfarm",
+  "cfo_linkedin": "https://linkedin.com/in/cherie-crawford-58196741",
+  "twitter_follower_count": "2646",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "3",
+  "domains": [
+   "brookfarm.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Cherie Crawford — Chief Financial Officer",
+  "created_at": "Saturday, 2026-10-17 06:34:14",
+  "name": "Brookfarm",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "3/5 — Family-owned macadamia-muesli maker with exports to Asia, Pronto ERP and Shopify POS; real complexity, no fresh trigger.\nFunding: none (private, generational family business).\nHiring: no finance roles; operational/production vacancies only.\nFinance team: Cherie Crawford, CFO since Mar 2020; Juli Marshall Cole, Finance & Export Administration since Dec 2022; ~3 finance staff. CEO Will Brook (Pam and Martin Brook in family leadership). ~33 staff.\nPosts: none on close; third-party data shows Pronto XI ERP (2020) and Shopify POS (2023).\nComplexity: food manufacturing (macadamia sourcing, production costing, inventory/COGS); supermarket/grocery and wholesale (retailer deductions); DTC online plus Shopify POS (cafe/store); exports to China, Japan and other Asian markets (FX, export docs).\nWhy: retailer deductions, export FX and Shopify-to-Pronto payout and inventory journals are good automation targets for a 3-person team, but there's no funding, hiring or explicit pain. Approach Cherie Crawford on export/retailer AR recs and Shopify/POS-to-Pronto payouts and COGS.\nSources: brookfarm.com.au/pages/work-with-us; linkedin.com/in/cherie-crawford-58196741; linkedin.com/company/brookfarm; appsruntheworld.com (Brookfarm).",
+  "employee_range": "51-250",
+  "categories": [
+   "E-commerce",
+   "Food",
+   "Food Production",
+   "Agriculture",
+   "Consumer Staples",
+   "B2C",
+   "Enterprise",
+   "B2B"
+  ]
+ },
+ {
+  "record_id": "05254243-ba95-417e-9e87-28f4f67cfd34",
+  "linkedin": "https://www.linkedin.com/company/buildbuddyau",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Arthur Szczerba — CFO",
+  "employee_count": "9",
+  "sector": "Construction SaaS",
+  "cfo_linkedin": "https://linkedin.com/in/arthur-szczerba-60987132",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "buildbuddy.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Arthur Szczerba — CFO",
+  "created_at": "Thursday, 2026-10-15 13:32:53",
+  "name": "Build Buddy",
+  "signal": "2/5 — Early-stage construction marketplace SaaS; has a CFO but little close volume or trigger.\nFunding: none found.\nHiring: CEO advertised a Customer Experience Manager (2 Dec 2024). No finance ads.\nFinance team: Arthur Szczerba, CFO since Apr 2024 (likely part-time/fractional at this size). ~9 staff across AU and the Philippines.\nPosts: none finance-specific. 2024 awards: Most Innovative Proptech in Construction; Australian Regional Startup World Cup.\nComplexity: founded 2022; homeowner-builder marketplace with secure payments (possibly escrow/trust-style money flows), budgets, financial summaries and payment status; third-party revenue estimate ~A$1.3M. Escrow/payment-platform recs could become complex as volume grows.\nWhy: if the platform holds or passes through customer payments, payment-flow recs will matter, but volume today is small and there's no funding or hiring trigger. Low priority; revisit after a raise. Angle for Arthur: automate payment-platform-to-ledger recs as transaction volume scales.\nSources: au.linkedin.com/in/arthur-szczerba-60987132; buildbuddy.au (2024 release/awards)."
+ },
+ {
+  "record_id": "6b47b352-af1a-4f91-a0d9-d260f8fe5be3",
+  "recent_funding": "Total funding USD 8,247,500 (company profile)",
+  "linkedin": "https://www.linkedin.com/company/buildpass",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Richmond",
+   "region": "VIC"
+  },
+  "cfo": "Richard Zhou — Finance Manager",
+  "employee_count": "63",
+  "sector": "Construction site-management SaaS",
+  "logo_url": "https://brandbadge.clearbit.com/0383e099-3c4c-4c39-8bd5-f8252acc3343",
+  "foundation_date": "2021",
+  "cfo_linkedin": "https://linkedin.com/in/richard-zhou-9bb142161",
+  "industry": "SaaS",
+  "finance_headcount": "2",
+  "domains": [
+   "buildpass.ai"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Richard Zhou — Finance Manager",
+  "created_at": "Thursday, 2026-10-15 13:30:02",
+  "name": "BuildPass",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Post-seed construction SaaS (+40% headcount) that built finance after the raise; subscription plus construction-finance flows across AU/US.\nFunding: A$7.5M seed announced 24 Oct 2024 (within window); ~$15.7M over 3 rounds. A directory lists debt financing on 1 May 2026 (unverified).\nHiring: Richard Zhou joined as Finance Manager in Mar 2025 (finance build-out post-raise). No current finance vacancy.\nFinance team: Richard Zhou, Finance Manager; ~3 in finance; Michael G. listed as Interim CFO (probable). ~63 staff (+40% YoY).\nPosts: SmartCompany named BuildPass a Victorian startup to watch (20 Feb 2025). No finance posts.\nComplexity: subscription plans with multi-user billing (Stripe), deferred revenue; AU and US operations (multi-entity/FX); QuickBooks per tech profile; the product touches job costing, WIP, retentions, progress claims and invoices, with integrations to Xero, QuickBooks, Sage Intacct and Procore.\nWhy: a VC-backed, fast-growing SaaS with a new FM and an interim CFO is in finance build-out mode, and QuickBooks plus Stripe plus a US entity is a scalable-close problem right now. The product's finance integrations also make them a potential partner. Approach Richard Zhou: automate Stripe/QuickBooks recs, deferred revenue and AU/US close.\nSources: linkedin.com/in/richard-zhou-9bb142161; startupdaily.net (seed, Oct 2024); smartcompany.com.au (Feb 2025); buildpass.ai/plans; buildpass.ai/integrations.",
+  "employee_range": "51-250",
+  "categories": [
+   "Construction",
+   "E-commerce",
+   "Information Technology & Services",
+   "Technology",
+   "Insurance",
+   "B2B",
+   "SAAS",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "0f51abb6-6e48-46a0-a257-164b0743080c",
+  "recent_funding": "Unverified",
+  "linkedin": "https://www.linkedin.com/company/bunjie",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Grace Chua — Chief Financial Officer",
+  "employee_count": "14",
+  "sector": "Household / personal care",
+  "logo_url": "https://brandbadge.clearbit.com/d8281773-06fd-4f9d-9907-d96969e2a514",
+  "cfo_linkedin": "https://linkedin.com/in/grace-chua-cpa",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "bunjie.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Grace Chua — Chief Financial Officer",
+  "created_at": "Saturday, 2026-10-17 06:33:55",
+  "name": "Bunjie",
+  "estimated_arr_usd": "$0-$1M",
+  "signal": "5/5 — Strong: finance team rebuilt in the last 12 months under a brand-new CFO, plus omnichannel and recall complexity.\nFunding: none in the last 24 months; a 2022 community equity crowdfund (A$250 minimum) predates the window.\nHiring: sequential finance hires, all Richmond VIC: Management Accountant (20 Oct 2025), Financial Controller (28 Nov 2025), Financial Accountant (1 Mar 2026). The finance function is being built out right now.\nFinance team: ex-COO/CFO Nathan Brown left May 2025. Grace Chua (CPA) became CFO in Apr 2026 after leading a 5-person finance team covering board/investor reporting, tax, budgets, forecasts and management reporting.\nPosts: none on close specifically. Brown's exit post cited upgraded systems, improved margins and 200% revenue growth during his tenure.\nComplexity: omnichannel (Shopify DTC plus retail partners); Shopify + Xero; manufacturing in AU and China; staff in AU and the Philippines; a Sep 2025 baby eye-wipes recall involving stock isolation, retailer and wholesaler credits and corrective actions.\nWhy: a new CFO (Apr 2026) building a 3-hire team is the classic window to set up the close properly, and automating recs now beats hiring a 4th accountant. Approach Grace Chua: 'design the close around automation before the team grows further.'\nSources: linkedin.com/company/bunjie (hiring posts Oct 2025–Mar 2026); linkedin.com/in/grace-chua-cpa; bunjie.com/pages/baby-eye-wipes-september-2025.",
+  "employee_range": "1-10",
+  "categories": [
+   "E-commerce",
+   "Health & Wellness",
+   "Consumer Goods",
+   "Consumer Discretionary",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "743616bd-0806-4f04-9127-786dc4551724",
+  "twitter": "ByCharlotte_",
+  "linkedin": "https://www.linkedin.com/company/by-charlotte",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Rosebery",
+   "region": "NSW"
+  },
+  "cfo": "Clare Taylor — Head of Finance",
+  "employee_count": "121",
+  "sector": "Jewellery",
+  "logo_url": "https://brandbadge.clearbit.com/320dec6a-88cb-434e-88c7-0b1564ec573b",
+  "foundation_date": "2012",
+  "facebook": "bycharlottejewellery",
+  "cfo_linkedin": "https://linkedin.com/in/clare-taylor-22039815",
+  "twitter_follower_count": "376",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "5",
+  "domains": [
+   "bycharlotte.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Clare Taylor — Head of Finance",
+  "created_at": "Friday, 2026-10-16 05:03:17",
+  "name": "by charlotte",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Rapid store rollout plus an ERP investment at a DTC jewellery brand; real close complexity but likely top of band.\nFunding: none disclosed (founder-owned).\nHiring: investing in infrastructure (ERP, senior commercial leadership, retail ops) per Ragtrader; store and retail roles for openings.\nFinance team: Clare Taylor, Head of Finance; ~5 finance staff (The Org). ~121 staff (+20%).\nPosts: Ragtrader: double-digit growth (>20% YoY) and plans for 13 stores by Christmas 2025; Emporium Melbourne flagship opened; 3 WA boutiques announced (Mar 2026).\nComplexity: Shopify + Xero + Employment Hero; DTC online (AU + US) plus a fast-growing boutique network (POS takings, card settlements per store); jewellery inventory across stores; personalisation/engraving services; AU/US entities and FX; new ERP implementation underway.\nWhy: store-by-store payout recs and inventory across a doubling store network, during an ERP change, is when automation gets designed in. But revenue (~A$19–37M est.) and a 5-person finance team put it at the top of band, and the ERP project may absorb attention. Approach Clare Taylor on store/POS and Shopify payout recs plus inventory journals around the new ERP.\nSources: ragtrader.com.au (by charlotte growth, more stores); linkedin.com/in/clare-taylor-22039815; theorg.com/org/by-charlotte; datanyze.com.",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "Consumer Discretionary",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "dc538068-1741-474d-a68f-a6b7a78a91df",
+  "linkedin": "https://www.linkedin.com/company/bydee",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Padraig Spillane — Head of Finance",
+  "employee_count": "42",
+  "sector": "Fashion & apparel (swimwear)",
+  "logo_url": "https://brandbadge.clearbit.com/876ebe1c-23b3-46d2-981d-ea48d7ed3757",
+  "foundation_date": "2015",
+  "facebook": "swimwearbydessy",
+  "cfo_linkedin": "https://linkedin.com/in/padraig-spillane-591a4527",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "bydeeaus.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Padraig Spillane — Head of Finance",
+  "created_at": "Friday, 2026-10-16 05:03:43",
+  "name": "Bydee",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Fast-growing swimwear brand with the US now ~60% of sales, a new US warehouse and UK localisation; multi-currency close with a CFO plus Head of Finance.\nFunding: none found.\nHiring: ~41 staff, +37% YoY; three finance staff listed on LinkedIn; no live finance vacancy found.\nFinance team: Emma Fisher, CFO; Padraig Spillane, Head of Finance (CRM contact).\nPosts: 2025 US warehouse launch, UK localisation, Sydney flagship store.\nComplexity: 110% YoY global sales growth in 2024; US ~60% of sales, UK orders +240% since launch; Shopify Plus multi-currency storefronts (payouts, FX), US 3PL plus AU inventory (landed cost, tariffs/duties), physical retail POS, returns.\nWhy: multi-country ecom with separate fulfilment hubs means payout, FX and inventory-location recs every month, and growth is outpacing team size. A CFO-plus-HoF team is a mature buyer that can sponsor automation. Approach Padraig Spillane (Emma Fisher as sponsor) on Shopify multi-currency payouts, AU/US inventory and landed-cost journals.\nSources: ragtrader.com.au (Bydee global sales boom); insideretail.com.au (Bydee scaling); linkedin.com/company/bydee; bydeeaus.com/pages/sustainability.",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "Apparel & Footwear",
+   "Consumer Staples",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "709cd47a-0385-404e-8492-be96d5e6b948",
+  "twitter": "MyCareMonitor",
+  "linkedin": "https://www.linkedin.com/company/caremonitor",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Tim Maclean — Fractional CFO",
+  "employee_count": "47",
+  "sector": "Care-coordination healthtech SaaS",
+  "logo_url": "https://brandbadge.clearbit.com/56ca64dd-29fa-4064-bf17-f761bed39497",
+  "cfo_linkedin": "https://linkedin.com/in/tim-maclean1",
+  "twitter_follower_count": "13",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "caremonitor.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Tim Maclean — Fractional CFO",
+  "created_at": "Thursday, 2026-10-15 13:32:57",
+  "name": "CareMonitor",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "2/5 — Acquired (Healthcare IT Solutions, Sep 2024) enterprise healthtech with a fractional CFO; poor fit.\nFunding: PitchBook: acquired by Healthcare IT Solutions (26 Sep 2024) after 2 financing rounds. NSW Government contract A$1.44M (GST incl.), 4 Nov 2024–3 Nov 2026.\nHiring: Chief of Staff (Strategic Operations), ~11 Oct 2026 (200+ applicants; spans sales, product, engineering, finance, clinical ops). Client Success Manager – Clinical (May 2025).\nFinance team: Tim Maclean, CFO (listed on team page; LinkedIn says fractional). ~47 staff (+11.9% YoY).\nPosts: Clinician App launch (25 Jun 2025); West Moreton Hospital partnership (17 Feb 2025); DUOSS project (MRFF-funded, 8 Nov 2024).\nComplexity: enterprise/government healthcare SaaS (hospital and state contracts, grants), ISO 27001, FHIR/HL7, 50+ clinical pathways; project and grant revenue rather than high-volume transactions; part of an acquiring group.\nWhy: corporate ownership plus enterprise/government contract revenue and a fractional CFO means low rec volume, decisions likely made at group level, and a weak Vert fit. Only revisit if the group centralises finance and needs a multi-entity close tool.\nSources: pitchbook.com/profiles/company/463574-80; buy.nsw.gov.au (contract notice); caremonitor.com.au/our-team; linkedin.com/jobs (Chief of Staff); caremonitor.com.au/news.",
+  "employee_range": "11-50",
+  "categories": [
+   "Information Technology & Services",
+   "E-commerce",
+   "Technology",
+   "Health Care",
+   "B2B",
+   "SAAS",
+   "Enterprise",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "6c46ea98-e6b4-4156-86f1-a50e8119d798",
+  "twitter": "CAforecasting",
+  "linkedin": "https://www.linkedin.com/company/castaway-forecasting",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Liz Veal — Finance Manager",
+  "employee_count": "12",
+  "sector": "Forecasting & modelling app (SMEs/advisors)",
+  "logo_url": "https://brandbadge.clearbit.com/8d39b1c9-c506-4f46-9224-45a51761e84e",
+  "foundation_date": "2009",
+  "facebook": "castawayforecasting",
+  "cfo_linkedin": "https://linkedin.com/in/lizveal",
+  "twitter_follower_count": "719",
+  "industry": "SaaS",
+  "finance_headcount": "3",
+  "domains": [
+   "castawayforecasting.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Liz Veal — Finance Manager",
+  "created_at": "Thursday, 2026-10-15 13:31:12",
+  "name": "Castaway Forecasting",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Small bootstrapped forecasting SaaS with a multi-gateway subscription stack; finance-savvy buyer, modest urgency.\nFunding: none (Tracxn: unfunded). Revenue estimates vary from ~A$1.3M (2025) to ~US$6.6M, unverified.\nHiring: Client Success Consultant (2025; sought accountants/bookkeepers moving into tech); Customer Success Consultants again (2 Oct 2025). No finance roles.\nFinance team: Liz Veal, Finance Manager; ~3 finance-category staff in ~12 employees; CEO Michael Ford, COO Jo Buchanan.\nPosts: May 2024, launched Castaway Cloud (rebuilt SaaS engine: scenarios, dashboards, collaboration). Claims 8 of the top 10 accounting firms use Castaway.\nComplexity: subscription plans A$150–1,500/month; Stripe + Chargebee + GoCardless (three payment/billing rails to reconcile) into Xero (QuickBooks/MYOB listed too); global customers (multi-currency); enterprise/consolidation plans; cloud migration of legacy desktop licences (deferred revenue changes).\nWhy: three billing/payment rails into Xero for a global subscription base is exactly the kind of payout and deferred-revenue rec Vert automates, and a finance-tool company will appreciate the product (possible channel partner to their accountant customers). Small scale caps deal size. Approach Liz Veal on Stripe/Chargebee/GoCardless-to-Xero recs.\nSources: castawayforecasting.com/cloud-pricing; Castaway Cloud press release (May 2024); au.linkedin.com/jobs (Client Success Consultant); tracxn.com.",
+  "employee_range": "11-50",
+  "categories": [
+   "Information Technology & Services",
+   "Publishing",
+   "Financial Services",
+   "Accounting",
+   "SAAS",
+   "Consulting & Professional Services",
+   "Technology",
+   "Enterprise",
+   "B2B"
+  ]
+ },
+ {
+  "record_id": "154afc7a-e19d-4973-aa80-9c8f8a7ba01a",
+  "recent_funding": "Total funding USD 457,000 (company profile)",
+  "linkedin": "https://www.linkedin.com/company/chief-nutrition",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Roselands",
+   "region": "NSW"
+  },
+  "cfo": "Stephen Eyre — Advisory CFO",
+  "employee_count": "21",
+  "sector": "Food / supplements",
+  "logo_url": "https://brandbadge.clearbit.com/d8459c0c-3361-4c01-9afa-c3b3eceea08a",
+  "foundation_date": "2014",
+  "cfo_linkedin": "https://linkedin.com/in/stephen-eyre-58b63a1b",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "wearechief.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Stephen Eyre — Advisory CFO",
+  "created_at": "Saturday, 2026-10-17 06:34:44",
+  "name": "Chief Nutrition",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Credible growth-stage CPG with an advisory CFO; no recent funding or finance hiring verified.\nFunding: none verified Oct 2024–Oct 2026. A secondary profile reports US$457k from a 1 Mar 2022 venture round (outside the window, unverified). Merged with Beauty Food on 1 Mar 2024, citing exceptional growth and scaling the core business.\nHiring: no current or recent finance vacancy found.\nFinance team: Stephen Eyre, CFO (Advisory) per LinkedIn since Aug 2022, so likely fractional. The official site confirms annual financial reporting to investors (it has an investors page).\nPosts: none from finance. A 8 Dec 2025 interview with Justin Babet says email drives >30% of revenue.\nComplexity: DTC ecommerce plus subscriptions plus retail distribution across 3,500+ reported retail locations; Shopify + Klaviyo; inventory and margin by channel; post-merger brand consolidation.\nWhy: likely interest is operational rather than fundraising-driven. Multi-channel close, inventory and investor reporting with only a fractional CFO is a strong fit. Approach Stephen Eyre on multi-channel close, inventory and investor reporting; if his role is purely advisory, go to CEO Brock Hatton.\nSources: wearechief.com/pages/investors; wearechief.com/pages/about; datasauce.com/case-studies/chief-nutrition; leadersperception.com (Justin Babet interview).",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Food",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "27e59ad9-1a08-4ac6-bfde-870b4fddd862",
+  "twitter": "cimsoftware",
+  "recent_funding": "Series A US$6.7M (Sep 2022)",
+  "linkedin": "https://www.linkedin.com/company/cimsoftware",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Igor Ivanov — CFO",
+  "employee_count": "94",
+  "sector": "Building analytics SaaS",
+  "logo_url": "https://brandbadge.clearbit.com/2d415413-fa5f-41b1-b1c0-ea41777b82a5",
+  "foundation_date": "2015",
+  "cfo_linkedin": "https://linkedin.com/in/ivanovigor",
+  "twitter_follower_count": "171",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "cim.io"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "funding_raised_usd": "US$9,900,000.00",
+  "finance_team": "Igor Ivanov — CFO",
+  "created_at": "Friday, 2026-10-16 04:58:40",
+  "name": "CIM",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "3/5 — Structured finance function at a global building-analytics SaaS; no fresh trigger.\nFunding: US$6.7M Series A (Sep 2022). Nothing in the last 24 months.\nHiring: open-positions page says teams worldwide are hiring; no finance vacancy listed. (Note: a Apr 2025 'CIM Group' finance post is a different organisation.)\nFinance team: Igor Ivanov, CFO; Ankita Choubey, Assistant Accountant; within a Finance & Ops group including Paul Walsh (COO) and Alicia Garner (Head of People Ops). ~2 in finance for ~94 staff.\nPosts: none on close.\nComplexity: PEAK platform for property operations and sustainability; enterprise property-owner customers; offices and teams worldwide (likely AU/UK/US entities, FX); subscription plus implementation revenue (deferred revenue, project billing).\nWhy: a CFO plus one assistant accountant covering a ~94-person multi-country SaaS is lean, so automating recs, intercompany and deferred revenue would free real capacity. But no funding, hiring or pain signal, and an enterprise-leaning profile. Approach Igor Ivanov on 'close in days without growing the team'.\nSources: cim.io/about-us/open-positions; cim.io/about-us/meet-the-team; theorg.com/org/cim-1.",
+  "employee_range": "51-250",
+  "categories": [
+   "Information Technology & Services",
+   "E-commerce",
+   "Technology",
+   "Facilities",
+   "Real Estate",
+   "B2B",
+   "SAAS",
+   "Consulting & Professional Services",
+   "Enterprise",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "6b58ac43-5a2c-4eb5-a611-18900d79546c",
+  "linkedin": "https://www.linkedin.com/company/jamesly",
+  "primary_location": {
+   "country_code": "AU"
+  },
+  "cfo": "Darya Moldavska — Finance Manager",
+  "employee_count": "6",
+  "sector": "Bodycare",
+  "logo_url": "https://brandbadge.clearbit.com/b80e9989-5bab-4a32-9e8b-3416dc29e9fc",
+  "cfo_linkedin": "https://linkedin.com/in/darya-moldavska",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "ciroabeauty.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Darya Moldavska — Finance Manager",
+  "created_at": "Friday, 2026-10-16 05:03:46",
+  "name": "Ciroa Beauty (Jamesly)",
+  "signal": "4/5 — Small bodycare brand exploding into UK retail (700+ Boots/Superdrug doors) with a brand-new Finance Manager (Jun 2026).\nFunding: private; no external round found. A Jul 2025 job ad says it's backed by a parent group with manufacturing roots (Jamesly).\nHiring: Product Manager – Beauty (17 Jul 2025): NPD, offshore suppliers, regulatory, pricing and profitability; Ciroa described as available in 40+ countries.\nFinance team: Darya Moldavska, CPA, became Jamesly Finance Manager in Jun 2026 (reporting, FP&A, cash flow, working capital, profitability). ~16 Ciroa staff (+60% YoY).\nPosts: Ciroa entered Boots UK (5 Jan 2026), reached 27 Superdrug Beauty Playground stores (13 Aug 2026), and added 250 more Boots stores to exceed 700 UK locations (18 Sep 2026). Ireland/Spain retail planned.\nComplexity: offshore suppliers and landed costs; UK/EU/AU/US/Canada compliance; UK retail (Boots/Superdrug: EDI, deductions, scan-based terms) plus DTC; likely UK entity (GBP/EUR/AUD FX); parent-group consolidation.\nWhy: a new FM joining just as UK doors go from 0 to 700+ in 9 months is a perfect window, since retailer recs, landed cost and FX will balloon. Approach Darya Moldavska: automate UK retailer remittance/deduction recs, landed-cost journals and multi-currency close.\nSources: ciroabeauty.com/pages/who-we-are; link.hubmub.com (Product Manager ad); linkedin.com/company/ciroa-beauty; linkedin.com/in/darya-moldavska; jamesly.co/blogs/news.",
+  "categories": [
+   "Cosmetics",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "f1300097-9fe1-4ba0-b30c-6e32d56fc6c2",
+  "twitter": "ClinictoCloud",
+  "linkedin": "https://www.linkedin.com/company/clinic-to-cloud",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Margaret Marcs — Financial Controller",
+  "employee_count": "33",
+  "sector": "Specialist practice management SaaS",
+  "logo_url": "https://brandbadge.clearbit.com/60a22d4e-bef4-4a84-9790-ed05aad0933f",
+  "foundation_date": "2014",
+  "facebook": "clinic",
+  "cfo_linkedin": "https://linkedin.com/in/margaretmarcs",
+  "twitter_follower_count": "443",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "clinictocloud.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Margaret Marcs — Financial Controller",
+  "created_at": "Friday, 2026-10-16 04:58:43",
+  "name": "Clinic to Cloud",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "3/5 — Specialist practice-management SaaS weighing a capital raise, acquisitions and a possible ASX listing (Sep 2026); finance owned by a long-standing controller.\nFunding: Sep 2026 release: Clinic to Cloud Holdings considering capital raising, acquisitions, international expansion and a potential ASX listing (nothing closed). Earlier pre-IPO round seeking up to A$12M (2020).\nHiring: general talent invitation; no finance vacancy.\nFinance team: Margaret Marcs, Financial Controller since Aug 2020 (CRM): management reporting, KPIs, forecasting, statutory accounts, audit, subscription billing implementation, reconciliations, tax. A 2026 directory also lists Fon Hah as CFO (unverified).\nPosts: Sep 2026 growth and ASX-listing release; no finance-team posts.\nComplexity: 7,200+ medical professionals; subscription billing plus payments/claims processing (Medicare/health-fund flows); audit and statutory reporting; possible acquisitions (consolidation).\nWhy: listing preparation means faster, audit-ready closes and tighter controls, and the controller already owns billing recs. Timing depends on whether the raise/IPO proceeds. Approach Margaret Marcs on subscription billing and payments recs and listing-grade close timelines.\nSources: finanzwire.com (Clinic to Cloud ASX listing release); afr.com/street-talk (2020 pre-IPO round); linkedin.com/in/margaretmarcs; clinictocloud.com/careers.",
+  "employee_range": "51-250",
+  "categories": [
+   "Information Technology & Services",
+   "Health Care",
+   "Automation",
+   "Telecommunications",
+   "B2B",
+   "Technology",
+   "SAAS",
+   "Enterprise"
+  ]
+ },
+ {
+  "record_id": "395bb5e1-f5f2-42f6-b353-b8ca0cef958e",
+  "twitter": "Complexica_AI",
+  "linkedin": "https://www.linkedin.com/company/complexica",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "West Lakes",
+   "region": "SA"
+  },
+  "cfo": "Lisa Morton — Financial Controller",
+  "employee_count": "68",
+  "sector": "AI pricing & sales software",
+  "logo_url": "https://brandbadge.clearbit.com/a986d287-8560-41e9-aaa2-17f9cff27d5c",
+  "foundation_date": "2014",
+  "cfo_linkedin": "https://linkedin.com/in/lisa-morton-",
+  "twitter_follower_count": "207",
+  "industry": "SaaS",
+  "finance_headcount": "2",
+  "domains": [
+   "complexica.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "funding_raised_usd": "US$23,400,000.00",
+  "finance_team": "Lisa Morton — Financial Controller",
+  "created_at": "Friday, 2026-10-16 04:59:34",
+  "name": "Complexica",
+  "estimated_arr_usd": "$10M-$50M",
+  "signal": "2/5 — Enterprise-leaning AI SaaS (~A$30M) with an offshore chief accountant and a CFO/Co-CEO; the merger trigger died.\nFunding: >A$31M raised across institutional rounds. Aug 2025: agreed all-scrip merger with ASX-listed Prophecy International; mutually terminated 26 Nov 2025.\nHiring: no finance roles; 2025 hiring was logistics business development.\nFinance team: Jonathan Drake, CFO/Co-CEO; Maria Mucerschi, Chief Accountant (Moldova); Lisa Morton, Financial Controller (AU) since Apr 2024. ~2–3 in finance.\nPosts: product news (WaveSCM launch Jan 2025; Aurizon expansion Aug 2025). No finance posts.\nComplexity: Decision Cloud for manufacturers, wholesalers and distributors (enterprise contracts, 58% recurring revenue in 2024); AWS; staff across AU, Moldova, China, Portugal, Mexico, Romania and US (multi-entity, multi-currency, intercompany).\nWhy: real multi-entity complexity and a recent (aborted) M&A process that exposed reporting needs, but size (~A$30M estimate, above the A$25M cap flagged in notes), offshore accounting capacity and enterprise orientation make it a weak ICP fit. Optional: approach Lisa Morton on intercompany/multi-currency recs.\nSources: complexica.com/about/investors; prophecyinternational.com (merger announcement, Aug 2025); company-announcements.afr.com (termination, Nov 2025); complexica.com/about/people.",
+  "employee_range": "51-250",
+  "categories": [
+   "Information Technology & Services",
+   "Technology",
+   "Transportation",
+   "B2B",
+   "Enterprise",
+   "SAAS"
+  ]
+ },
+ {
+  "record_id": "8aadb2aa-fcbb-4354-bae7-f593d0f770c1",
+  "twitter": "compozer_app",
+  "linkedin": "https://www.linkedin.com/company/compozer-elearning",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "cfo": "Justin Ajaka — CFO",
+  "employee_count": "4",
+  "sector": "eLearning authoring SaaS",
+  "cfo_linkedin": "https://linkedin.com/in/justin-ajaka-b3927114",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "compozer.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Justin Ajaka — CFO",
+  "created_at": "Thursday, 2026-10-15 13:33:00",
+  "name": "Compozer",
+  "signal": "2/5 — Tiny eLearning authoring SaaS (~4 staff); unverified funding and minimal close volume.\nFunding: About page claims multiple rounds and 'top-tier investors' but no dates, amounts or names; nothing quantified in the last 24 months.\nHiring: no finance or accounting roles found.\nFinance team: Justin Ajaka, CFO (CRM; likely part-time/fractional at this size). Not independently verified. NOTE: don't confuse with Compozer Software (compozer.com.sg, Singapore).\nPosts: none verified for compozer.com.\nComplexity: Sydney eLearning authoring SaaS (founded 2018) with global subscribers (multi-currency card/Stripe subscriptions); small team.\nWhy: subscription payout recs exist but volume and budget are tiny, and there's no funding or hiring trigger. Low priority; revisit if a raise or growth spurt appears.\nSources: compozer.com/about; elearningindustry.com (Compozer listing)."
+ },
+ {
+  "record_id": "1ef1a947-e0ac-4e49-8a94-9db5be5b102e",
+  "linkedin": "https://www.linkedin.com/company/conservingbeauty",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Nicole Booth — CFO",
+  "employee_count": "6",
+  "sector": "Waterless beauty",
+  "logo_url": "https://brandbadge.clearbit.com/673ef6ae-678d-49d2-b12a-124476b7f627",
+  "foundation_date": "2021",
+  "cfo_linkedin": "https://linkedin.com/in/nicole-booth-999169159",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "conservingbeauty.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Nicole Booth — CFO",
+  "created_at": "Friday, 2026-10-16 05:04:09",
+  "name": "Conserving Beauty",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Just closed a VC round, with an ERP-minded CFO; small but on a growth path.\nFunding: Ranged Legal announced on 14 Apr 2026 that Conserving Beauty closed a round led by Era VC, with Giant Leap and Alberts participating (amount undisclosed).\nHiring: none found.\nFinance team: Nicole Booth, CFO since Apr 2024. Her background is CFO/company secretary, cash-flow management, ERP implementation and process improvement. ~1 in finance. Founder/CEO Natassia Nicolao Grace.\nPosts: none on close.\nComplexity: Shopify DTC with an international country selector; Impact affiliate payouts; manufacturing in AU and South Africa; distribution in AU and Italy; inventory and COGS; impact/sustainability data tracking. ~6 staff.\nWhy: post-raise VC board reporting plus a one-person CFO with ERP and process-automation DNA. She'll want a scalable close set up early. Small revenue (~A$1.5–3M) caps deal size; a good design-partner candidate. Approach Nicole Booth: an investor-grade monthly close from day one, without hiring.\nSources: linkedin.com/company/conservingbeauty; Ranged Legal LinkedIn post (14 Apr 2026); conservingbeauty.com; Impact affiliate profile.",
+  "employee_range": "1-10",
+  "categories": [
+   "E-commerce",
+   "Cosmetics",
+   "Consumer Goods",
+   "Renewables & Environment",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "d2dc9384-c384-4ef9-943f-acc4de619384",
+  "recent_funding": "Total funding AUD 1,500,000 (company profile)",
+  "linkedin": "https://www.linkedin.com/company/cooee-foods-australia",
+  "primary_location": {
+   "country_code": "AU"
+  },
+  "cfo": "Tina Grieve — CA, Finance Director — source: company profile",
+  "employee_count": "7",
+  "sector": "Native superfoods",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "cooeenativesuperfoods.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Tina Grieve, CA — Finance Director (source: company profile)",
+  "created_at": "Saturday, 2026-10-17 06:34:00",
+  "name": "Cooee Foods",
+  "signal": "3/5 — Small native-foods brand that just raised (Ochre Ventures), acquired Creative Native Foods and appointed a Finance Director; strong triggers, very small team.\nFunding: ~A$1.5M from Ochre Ventures (2025) for national growth, dog-food diversification and leadership; 2024 crowd-sourced offer up to A$750k.\nHiring: foodservice sales manager planned post-acquisition; no finance vacancies.\nFinance team: Tina Grieve, CA, Finance Director since Sep 2025; Rhyl Smith, CEO. ~7 staff (plus acquired team).\nPosts: Ochre called the Creative Native Foods acquisition a landmark deal; Indigenous Business Review on scaling nationally; AU$14M revenue target for 2027.\nComplexity: 90,000+ cookies/month; 600+ Ampol stores, Woolworths Metro, IGA, Spar QLD and Qantas (retailer/airline AR, rebates, deductions); production costing and inventory; post-acquisition integration and consolidation (two entities).\nWhy: an acquisition, new capital and a new Finance Director all within a year means the close is being rebuilt across two businesses, and retailer/airline recs are repetitive. Tiny scale limits budget today, but the 2027 target makes this one to land early. Approach Tina Grieve on retailer/Qantas AR recs, production COGS and two-entity consolidation.\nSources: businessnewsaustralia.com (Cooee); cooeenativesuperfoods.com.au; linkedin.com/in/tina-grieve-cashqueen; womensagenda.com.au (Cooee).",
+  "categories": [
+   "Food",
+   "Food Production",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "d7bfbdc2-dbd2-4390-9a28-7b515d4a78fc",
+  "linkedin": "https://www.linkedin.com/company/country-of-glow",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Heli Vyas — Finance (shared with SLICKHAIR.)",
+  "employee_count": "2",
+  "sector": "Skincare",
+  "logo_url": "https://brandbadge.clearbit.com/26429b0b-b198-4ccc-b377-b877c1d7934e",
+  "cfo_linkedin": "https://linkedin.com/in/heli-vyas-590996195",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "countryofglow.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Heli Vyas — Finance (shared with SLICKHAIR.)",
+  "created_at": "Friday, 2026-10-16 05:04:12",
+  "name": "Country of Glow",
+  "signal": "2/5 — Two-person skincare startup launched Jan 2026; too early for close automation.\nFunding: none found.\nHiring: none.\nFinance team: co-founders Heli Vyas and Leen Vyas (~2 staff); Heli also works in finance and supply chain at SLICKHAIR (separate company).\nPosts: Heli announced the launch (29 Jan 2026); inclusion in Peony Parcel's Valentine's mystery box (1 Feb 2026).\nComplexity: four products sold DTC online (Shopify-style payouts) with Australia-wide shipping, plus a curated-box channel; inventory, fulfilment, GST. ABN active since Dec 2024.\nWhy: a two-founder brand at launch stage has minimal close volume and no budget. Deprioritise. Heli's finance role at SLICKHAIR (already in the CRM) is the more useful relationship.\nSources: abr.business.gov.au; countryofglow.com/pages/about-us; linkedin.com/company/country-of-glow; linkedin.com/in/heli-vyas-590996195.",
+  "categories": [
+   "Cosmetics",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "c52c28a3-3cb8-4713-acb3-fb308cbe2439",
+  "linkedin": "https://www.linkedin.com/company/creswick-natural-fibres",
+  "primary_location": {
+   "country_code": "AU",
+   "region": "Victoria"
+  },
+  "description": "Creswick Wool specializes in creating luxurious woollen products, including clothing, blankets, and accessories, all designed in Australia to meet the needs of the local climate while celebrating over 70 years of craftsmanship and innovation in the woo...",
+  "logo_url": "https://brandbadge.clearbit.com/0448d77f-81a2-4d8d-8a9c-a2aa1abc4c57",
+  "foundation_date": "1947",
+  "facebook": "creswickwool",
+  "domains": [
+   "creswickwool.com.au"
+  ],
+  "created_by": {
+   "actor_type": "system",
+   "actor_id": null
+  },
+  "created_at": "Saturday, 2026-11-07 07:34:58",
+  "name": "Creswick Wool",
+  "estimated_arr_usd": "$0-$1M",
+  "employee_range": "1-10",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "Textiles",
+   "Apparel & Footwear",
+   "Consumer Staples",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "4fb5edb8-577f-48d8-9cb3-b0e3cd97065e",
+  "recent_funding": "No external funding or ownership transaction disclosed; family-owned since 1947 (founded with a bank loan).",
+  "linkedin": "https://linkedin.com/company/creswick-woollen-mills-proprietary-limited",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Hawthorn",
+   "region": "VIC"
+  },
+  "cfo": "Irene Giapitzakis — Financial Controller",
+  "employee_count": "22",
+  "sector": "Wool homewares & apparel",
+  "description": "Family Australian textile business designing and producing wool and natural-fibre apparel, knitwear, blankets, homewares and accessories; operates Victorian stores plus online and mail order.",
+  "logo_url": "https://brandbadge.clearbit.com/0448d77f-81a2-4d8d-8a9c-a2aa1abc4c57",
+  "founder": "Paul Ryzowy",
+  "foundation_date": "1947",
+  "facebook": "creswickwool",
+  "cfo_linkedin": "https://www.linkedin.com/in/irene-giapitzakis-404734230",
+  "valuation": "Not disclosed",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "creswickwool.com"
+  ],
+  "instagram": "creswickwool",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "founder_linkedin": "Not found",
+  "funding_raised_usd": "US$0.00",
+  "finance_team": "Irene Giapitzakis — Financial Controller",
+  "created_at": "Saturday, 2026-11-07 07:30:07",
+  "team": [
+   {
+    "object_slug": "people",
+    "object_id": "d92d655a-4c05-47ca-899b-c65e7cd5d734",
+    "record_id": "7c385f54-b6d3-4e21-91c0-88f574e26111"
+   }
+  ],
+  "name": "Creswick Woollen Mills",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Heritage wool mill and retailer (stores, online, wholesale, tourism mill); one Financial Controller.\nFunding: No external funding disclosed; family-owned since 1947.\nSignals (last 24 months): No qualifying recent signal verified.\nFinance team: Irene Giapitzakis — Financial Controller. ~1 in finance; ~22 staff.\nRevenue: $1M-$10M (store sales estimate US$3.2M).\nWhy: Manufacturing plus stores, online and wholesale means COGS, store and wholesale recs for one Financial Controller. Approach Irene Giapitzakis on manufacturing COGS, store and wholesale recs.\nSources: https://linkedin.com/company/creswick-woollen-mills-proprietary-limited; https://creswickwool.com/pages/about-us; https://creswickwool.com/blogs/creswick-history/the-heart-and-history-of-creswick-woollen-mills-a-story-of-tenacity-and-vision",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Textiles",
+   "B2C",
+   "Consumer Staples",
+   "Retail",
+   "Apparel & Footwear",
+   "Home & Furniture"
+  ]
+ },
+ {
+  "record_id": "077e15fe-628d-4a52-a29b-2ed43f537857",
+  "twitter": "CubikoChris",
+  "recent_funding": "Total funding USD 1,318,579 (company profile)",
+  "linkedin": "https://www.linkedin.com/company/cubiko",
+  "primary_location": {
+   "country_code": "AU"
+  },
+  "cfo": "Sean Fincham — CFO",
+  "employee_count": "43",
+  "sector": "GP practice intelligence SaaS",
+  "logo_url": "https://brandbadge.clearbit.com/7888c725-8041-498d-b167-0f1ea341462a",
+  "foundation_date": "2017",
+  "cfo_linkedin": "https://linkedin.com/in/sean-fincham-2ab81a163",
+  "twitter_follower_count": "16",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "cubiko.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Sean Fincham — CFO",
+  "created_at": "Thursday, 2026-10-15 13:33:03",
+  "name": "Cubiko",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "2/5 — Has a CFO, but no growth or pain trigger, and Sonic Healthcare ties suggest corporate finance oversight.\nFunding: US$1.3M seed (Jun 2021). Nothing since. Sonic Healthcare involvement reported in 2024 (Health Services Daily, Jun 2024).\nHiring: no finance ads found.\nFinance team: Sean Fincham, CFO since Jul 2024. No other finance staff visible.\nPosts: Sean and COO Nick Adams appeared on the Medicubes Podcast (26 Mar 2026) discussing Cubiko Calculate, a product that automates GP service-fee calculations. That's product, not their own close, but he's clearly pro-automation.\nComplexity: ~42 staff (-4.5% YoY); single-country SaaS subscriptions to GP practices; likely a simple close.\nWhy: a new-ish CFO with an automation-friendly mindset, but a shrinking team, no new capital and possible Sonic group oversight reduce independent buying. Low urgency. Angle for Sean: let a lean finance function run the close without hiring.\nSources: linkedin.com/in/sean-fincham-2ab81a163; linkedin.com/company/cubiko; linkedin.com/posts/medicubes-podcasts (Mar 2026); cubiko.com.au/about-us.",
+  "employee_range": "11-50",
+  "categories": [
+   "Information Technology & Services",
+   "Health Care",
+   "Technology",
+   "SAAS",
+   "B2B",
+   "B2C",
+   "Enterprise"
+  ]
+ },
+ {
+  "record_id": "5cd7d2d9-9cea-4f56-b52d-c7f3fef57da3",
+  "twitter": "JewelleryCullen",
+  "recent_funding": "Unverified",
+  "linkedin": "https://www.linkedin.com/company/cullen-jewellery",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Liana Chambers — Head of Finance & Technology",
+  "employee_count": "148",
+  "sector": "Jewellery & accessories",
+  "logo_url": "https://brandbadge.clearbit.com/9c3d94be-ce2a-47bc-b937-f93a5746a15f",
+  "foundation_date": "2018",
+  "cfo_linkedin": "https://au.linkedin.com/in/lianachambers",
+  "twitter_follower_count": "11",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "2",
+  "domains": [
+   "cullenjewellery.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Liana Chambers — Head of Finance & Technology",
+  "created_at": "Saturday, 2026-10-17 06:34:49",
+  "name": "Cullen Jewellery",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "4/5 — Scaling internationally (+54% headcount) while adding finance capacity; a multi-country Shopify/showroom close.\nFunding: no verified equity or debt round (founder-owned, profitable growth; SmartCompany profiled 300% revenue growth).\nHiring: 9 Sep 2026, Finance Officer (HQ, Kew) plus software and showroom roles; 23 Sep 2026, Finance Officer promoted on LinkedIn; 6 Oct 2026, CRM Product Owner, Talent Acquisition, Sydney Client Advisor.\nFinance team: Liana Chambers, Head of Finance & Technology; Matt McLoughlin, Finance Manager; ~5 finance staff plus the incoming Finance Officer. ~148 employees (+54% YoY, +52 people) across 7 countries.\nPosts: Sep and Oct 2026 LinkedIn posts pair international showroom growth (US) with recruitment.\nComplexity: Shopify-led DTC plus showrooms in Melbourne, Sydney, Brisbane, Perth and the US (and UK per posts); lab-grown diamond inventory (high-value, serialised); custom manufacturing; deposits/layby; multi-entity AU/US/UK and FX; Employment Hero.\nWhy: hiring a Finance Officer during rapid international expansion is the moment to automate rather than add headcount. A Head of Finance who also owns Technology is the ideal buyer. Approach Liana Chambers (with Matt McLoughlin) on Shopify/showroom payout recs, inventory/deposit accounting and AU/US/UK FX close.\nSources: cullenjewellery.com; linkedin.com/company/cullen-jewellery; LinkedIn careers posts (Sep–Oct 2026).",
+  "employee_range": "11-50",
+  "categories": [
+   "Retail",
+   "E-commerce",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "5d86c8f3-21bb-42e2-8a71-0e394d6d8676",
+  "linkedin": "https://www.linkedin.com/company/cuttable",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Aaron Murphy — Head of Finance",
+  "employee_count": "45",
+  "sector": "Construction / trade estimating SaaS",
+  "logo_url": "https://brandbadge.clearbit.com/d38a321f-ba39-4b47-b16d-0e583837b190",
+  "foundation_date": "2021",
+  "cfo_linkedin": "https://linkedin.com/in/aaron-murphy-au",
+  "industry": "SaaS",
+  "finance_headcount": "1",
+  "domains": [
+   "cuttable.com"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Aaron Murphy — Head of Finance",
+  "created_at": "Thursday, 2026-10-15 13:33:19",
+  "name": "Cuttable",
+  "estimated_arr_usd": "$0-$1M",
+  "signal": "4/5 — Repeatedly funded AI ad platform growing fast across Melbourne, New York and San Francisco, with a dedicated Head of Finance.\nFunding: US$5.5M seed (23 Jul 2024); A$4.5M seed extension (1 Aug 2025); ~US$4.0M venture financing (1 Mar 2026). Investors include Rampersand.\nHiring: 3 active postings reported; workforce ~45 (+55% YoY, +16).\nFinance team: Aaron Murphy, Head of Finance, a clear finance owner at this scale (likely 1–2 person team).\nPosts: 20 Aug 2026, Cuttable said it had 36 people, NY and Melbourne offices and 300+ ecommerce brands in North America and APAC. 5 Oct 2026, investor content described its San Francisco office opening.\nComplexity: AI creative/advertising platform publishing Meta ads for 300+ ecommerce brands; AU and US entities (AUD/USD, intercompany); subscription/usage plus possibly ad-spend pass-through billing (recs between ad platforms and customer invoices); 3 offices.\nWhy: three raises in ~20 months, 55% headcount growth and US expansion mean board reporting plus multi-entity close pressure on a lean finance team, and the AI-native culture suits Vert. Note: CRM sector says 'construction/trade estimating SaaS' but Cuttable is an AI creative/ads platform, so fix the record. Approach Aaron Murphy on billing/ad-spend recs, AU/US intercompany and FX close automation.\nSources: cuttable.com; linkedin.com/company/cuttable; startupdaily.net; smartcompany.com.au; linkedin.com/posts/rampersand (Oct 2026).",
+  "employee_range": "1-10",
+  "categories": [
+   "E-commerce",
+   "Media",
+   "Technology",
+   "Automation",
+   "Marketing & Advertising",
+   "B2B",
+   "B2C"
+  ]
+ },
+ {
+  "record_id": "f65d1b9f-d942-44c3-8be2-c2a14f490d0f",
+  "linkedin": "https://www.linkedin.com/company/daily-blooms",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Melbourne",
+   "region": "VIC"
+  },
+  "cfo": "Sean Curry — Virtual CFO",
+  "employee_count": "31",
+  "sector": "Online florist & gifts",
+  "logo_url": "https://brandbadge.clearbit.com/0356b1af-45a4-4126-94a0-ddc140adec20",
+  "foundation_date": "2014",
+  "cfo_linkedin": "https://linkedin.com/in/seancurry",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "dailyblooms.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Sean Curry — Virtual CFO",
+  "created_at": "Friday, 2026-10-16 05:01:42",
+  "name": "Daily Blooms",
+  "estimated_arr_usd": "$1M-$10M",
+  "signal": "3/5 — Bootstrapped online florist expanding same-day delivery to five cities (Perth, Brisbane roles 2025–26) with finance run by a consulting CFO; good complexity, no in-house finance owner.\nFunding: largely bootstrapped; one external investor (2021); Tracxn lists no rounds.\nHiring: Brisbane Florist Manager (Dec 2025); Perth role (Sep 2026) covering suppliers, forecasting, buying, inventory, logistics and rostering. No finance roles.\nFinance team: Sean Curry, Consulting/Virtual CFO since May 2022 (CRM): management reporting, profit and cash-flow optimisation. No in-house finance staff found. ~31 staff, +29% YoY.\nPosts: none on close or systems.\nComplexity: Shopify ecom with high order volume (payouts, gateways, BNPL); same-day fulfilment hubs in Melbourne, Sydney, Brisbane, Newcastle and Perth (location P&L, perishable inventory, wastage); supplier AP; delivery costs; corporate accounts.\nWhy: multi-city perishable inventory and high-volume payouts are close-heavy, but with only a virtual CFO the buyer may prefer outsourced bookkeeping. Pitch Sean Curry as both a buyer and a channel (virtual CFOs run several clients). Approach on Shopify payout recs, location-level P&L and wastage/COGS journals.\nSources: linkedin.com/in/seancurry; linkedin.com/company/daily-blooms; jobau.org (Daily Blooms Perth); tracxn.com (Daily Blooms).",
+  "employee_range": "11-50",
+  "categories": [
+   "E-commerce",
+   "Retail",
+   "B2C",
+   "Consumer Staples"
+  ]
+ },
+ {
+  "record_id": "ad7acaf0-b48d-453b-8298-687240749c98",
+  "linkedin": "https://www.linkedin.com/company/derma-aesthetics",
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Oxford Falls",
+   "region": "NSW"
+  },
+  "cfo": "Helen Gaut — Finance Manager",
+  "employee_count": "67",
+  "sector": "Professional skincare (dermaviduals)",
+  "logo_url": "https://brandbadge.clearbit.com/f78b369e-4206-4feb-b5b4-7c9bf9265297",
+  "foundation_date": "2010",
+  "facebook": "dermavidualsaustralasia",
+  "cfo_linkedin": "https://linkedin.com/in/helen-gaut-2561b6317",
+  "industry": "CPG / Ecom / D2C",
+  "finance_headcount": "1",
+  "domains": [
+   "dermaviduals.com.au"
+  ],
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "finance_team": "Helen Gaut — Finance Manager",
+  "created_at": "Friday, 2026-10-16 05:01:01",
+  "name": "derma aesthetics",
+  "signal": "3/5 — Professional skincare distributor with a new finance lead (May 2025) and a Cin7/BigCommerce stack across AU/NZ; good fit, no hard trigger.\nFunding: none found (private).\nHiring: Helen Gaut appointed Finance Manager/Head of Finance (May 2025) after turnover (Yvette van Lier previously Head of Finance and Finance Assistant). Earlier Finance Assistant ad (Jun 2021).\nFinance team: Helen Gaut, Finance Manager since May 2025; CEO/co-founder Reika Roberts says she personally reviews P&L, budgets and variances; David Avello (ops) implemented Dear/Cin7 ERP and BigCommerce and runs forecasting, distribution and inventory. ~67 staff.\nPosts: none on close pain.\nComplexity: dermaviduals and other skincare lines sold to professional clinics/salons (B2B portal, AR, trade terms) plus DTC (BigCommerce payouts); AU and NZ distribution (multi-currency, possibly entities); education/training revenue; inventory on Cin7.\nWhy: a newer finance lead, a hands-on CEO watching variances, and Cin7-to-ledger inventory plus clinic AR and BigCommerce payouts are a good automation case. No funding or hiring trigger now. Approach Helen Gaut (Reika Roberts as sponsor) on Cin7 inventory/COGS journals, clinic AR and AU/NZ recs.\nSources: dermaviduals.com.au; linkedin.com (Helen Gaut, Reika Roberts, David Avello); Cin7/Dear ERP profile.",
+  "categories": [
+   "E-commerce",
+   "Consumer Discretionary",
+   "Cosmetics",
+   "Health & Wellness",
+   "B2C",
+   "B2B"
+  ]
+ }
+]

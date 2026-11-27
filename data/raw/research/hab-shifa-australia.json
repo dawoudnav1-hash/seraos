@@ -1,0 +1,255 @@
+{
+ "accountId": "hab-shifa-australia",
+ "accountName": "Hab Shifa Australia",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Hab Shifa Australia is a Hallam, VIC natural health supplement brand (black seed) distributed to about 3000 stores and exported to many countries, with an international sister brand, Holistq, expanding through Amazon and pharmacy channels. Hazan Haleem is Finance & Operations Controller (since May 2022) and lists Xero, QBO, MYOB, Cin7 and Amazon scaling as strengths; a public profile also cites a2x and Dext, so some reconciliation tooling may exist.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/hazan-haleem-08a41968",
+   "title": "Hazan Haleem - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S2",
+   "url": "https://au.bold.pro/my/hazan-haleem",
+   "title": "Hazan Haleem - General Manager / Head of Finance - Bold.pro",
+   "type": "directory",
+   "publisher": "Bold.pro",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/habshifa",
+   "title": "Hab Shifa Australia - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://talents.studysmarter.co.uk/companies/hab-shifa-australia/amazon-account-manager-15747828/",
+   "title": "Amazon Account Manager at Hab Shifa Australia",
+   "type": "job",
+   "publisher": "StudySmarter Talents",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/azam-kassim-4a09891b",
+   "title": "Azam Kassim - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Hab Shifa Australia is headquartered in Hallam, Victoria, with an office in Rowville.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Headquartered in Hallam, Victoria, Australia, with an office in Rowville.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Hazan Haleem is listed on LinkedIn as the current Finance & Operations Controller at Hab Shifa Australia, in the role since May 2022.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance & Operations Controller (Current) May 2022 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Hazan lists financial systems and management accounting in Xero, QBO and MYOB, and inventory systems Cin7, DEAR and NetSuite, among his strengths.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Financial systems & management accounting (Xero, QBO, MYOB)",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Hazan also lists eCommerce and Amazon setup and scaling, and international expansion support for the USA, UK and Canada.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "eCommerce & Amazon setup and scaling ✅ International expansion support – USA, UK, Canada",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "A public profile of Hazan lists proficiency in Xero, QBO, Cin7, a2x and Dext.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Proficient in Xero, QBO, Cin7, a2x, Dext, Excel, Google Sheets",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "The same profile says he expanded business channels across B2B, B2C and e-commerce including Shopify and marketplaces, and delivers monthly reports to board and investors.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Expanded business channels: B2B, B2C, and e-commerce (Shopify, marketplaces).",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Hab Shifa's products are distributed to 3000 stores Australia-wide and exported to the UK, US, Canada, Singapore, Japan, Malaysia, Europe and South Africa.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "distributed to 3000 stores Australia-wide",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "A Hab Shifa Amazon Account Manager ad says it operates Amazon storefronts in Australia, Canada and the UK and is preparing to launch in new markets.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We currently operate Amazon storefronts in Australia, Canada, and the UK, and are preparing to launch into new markets",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Founder Azam Kassim says Holistq, the international brand, is expanding globally through Amazon, Watsons and pharmacy and e-commerce channels.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Holistq products are now expanding globally through Amazon, Watsons, and leading pharmacy and e-commerce channels",
+   "date": "2026-11",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Hazan's public profile says sales grew 25 percent in the first nine months of 2025.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "achieving a 25% increase in sales in the first 9 months of 2025",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Hazan Haleem",
+   "title": "Finance & Operations Controller",
+   "contactId": "hab-shifa-australia--hazan-haleem",
+   "linkedin": "https://linkedin.com/in/hazan-haleem-08a41968",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Multi-marketplace Amazon plus Shopify plus wholesale into 3000 stores plus international launches run through one finance and ops controller.",
+   "claimIds": [
+    "C8",
+    "C7",
+    "C6",
+    "C2"
+   ]
+  },
+  {
+   "text": "Hazan's own stated strengths (Amazon scaling, international expansion, Xero/Cin7) make him a hands-on buyer.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Holistq global expansion adds new markets and settlements.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "A public profile lists a2x and Dext, so Amazon/Shopify settlement posting may already be tooled.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "Hazan's role spans operations and general management, so finance is only part of his remit; small team.",
+   "claimIds": [
+    "C2",
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent posts by Hazan on month-end or reconciliation.",
+  "Amazon job ad is undated; the account record places it around Nov 2025.",
+  "Headcount sources conflict (1-10 on LinkedIn; 12 in a 2022 interview)."
+ ],
+ "searches": [
+  {
+   "query": "Hab Shifa Australia Hazan Haleem finance operations controller Amazon expansion",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "hab-shifa-australia--hazan-haleem",
+   "subject": "Amazon and Shopify payouts at Hab Shifa",
+   "claimIds": [
+    "C8",
+    "C7",
+    "C9",
+    "C4"
+   ],
+   "body": "Hi Hazan,\n\nNoticed Hab Shifa runs Amazon storefronts in Australia, Canada and the UK, supplies 3000 stores Australia-wide, and Holistq is now expanding through Amazon and pharmacy channels. With your focus on Amazon scaling and international expansion, that is a lot of settlements landing in one close. I'm Dawoud, founder of Vert, which reconciles and cash codes 2x faster with a traceable audit trail. How much of your month-end goes on matching marketplace payouts?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "hab-shifa-australia--hazan-haleem",
+   "subject": "Re: Amazon and Shopify payouts at Hab Shifa",
+   "claimIds": [
+    "C5",
+    "C3"
+   ],
+   "body": "Hi Hazan,\n\nFollowing up on my earlier note. Your profile lists Xero, Cin7, a2x and Dext, so settlements are probably partly covered. Where does reconciliation still get done by hand once those have posted? Vert focuses on that gap, matching everything with a traceable audit trail. Worth a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "hab-shifa-australia--hazan-haleem",
+   "subject": "Re: Amazon and Shopify payouts at Hab Shifa",
+   "claimIds": [
+    "C8",
+    "C9"
+   ],
+   "body": "Hi Hazan,\n\nLast nudge. Each new Amazon market Hab Shifa and Holistq launch in adds another settlement stream to your month-end. Vert reconciles them in minutes without guessing. If it is worth 10 mins, let me know. If not, no worries.\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

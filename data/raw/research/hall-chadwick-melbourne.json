@@ -1,0 +1,331 @@
+{
+ "accountId": "hall-chadwick-melbourne",
+ "accountName": "Hall Chadwick Melbourne",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Hall Chadwick Melbourne is the Melbourne member of the Hall Chadwick group, a mid-market firm at 440 Collins St with about 54 people on LinkedIn. Alan Ling, Director Business Advisory Services, joined from McLean Delmo Bentleys in May 2023 and has 30+ years in tax and advisory. The firm publishes on Payday Super, runs an outsourced back-office and accounting outsourcing team, and has been hiring accountants and supervisors through 2026. Alan was emailed on 23 Nov 2026 (subject 'Quick chat, Alan?').",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://hallchadwick.com.au/our-people/alan-ling/",
+   "title": "Alan Ling | Hall Chadwick",
+   "type": "website",
+   "publisher": "Hall Chadwick",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/alan-ling-fcpa-ca-ab9b3b98",
+   "title": "Alan Ling FCPA CA - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-23"
+  },
+  {
+   "id": "S3",
+   "url": "https://hallchadwick.com.au/blog/payday-super-is-coming-what-your-business-needs-to-know/",
+   "title": "Payday Super is coming: What your business needs to know",
+   "type": "blog",
+   "publisher": "Hall Chadwick",
+   "date": "2026-05-07"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/hall-chadwick-melbourne",
+   "title": "Hall Chadwick Melbourne - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://hallchadwick.com.au/our-people/peter-pryn/",
+   "title": "Peter Pryn | Hall Chadwick",
+   "type": "website",
+   "publisher": "Hall Chadwick",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://hallchadwick.com.au/job/senior-accountant/",
+   "title": "Senior Accountant/Supervisor | Hall Chadwick",
+   "type": "job",
+   "publisher": "Hall Chadwick",
+   "date": "2026-09-29"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/hall-chadwick-melbourne_our-directors-steven-nguyen-and-alan-ling-activity-7394949044537663488-xk_b",
+   "title": "Directors Steven Nguyen and Alan Ling at the PrimeGlobal World Summit",
+   "type": "linkedin",
+   "publisher": "Hall Chadwick Melbourne",
+   "date": "2025-11-14"
+  },
+  {
+   "id": "S8",
+   "url": "https://hallchadwick.com.au/services/cfo-advisory/",
+   "title": "CFO Advisory | Hall Chadwick",
+   "type": "website",
+   "publisher": "Hall Chadwick",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://hallchadwick.com/job/graduate-accountant-business-advisory-international-and-taxation/?export-pdf=343122",
+   "title": "Graduate Accountant | Business Advisory, International and Taxation",
+   "type": "job",
+   "publisher": "Hall Chadwick",
+   "date": "2026-07-20"
+  },
+  {
+   "id": "S10",
+   "url": "https://hallchadwickmelb.com.au/",
+   "title": "Home Page | Hall Chadwick",
+   "type": "website",
+   "publisher": "Hall Chadwick Melbourne",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Hall Chadwick Melbourne operates from Level 14, 440 Collins Street, Melbourne and publishes under hallchadwickmelb.com.au email addresses.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 14, 440 Collins Street, Melbourne VIC 3000",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Alan Ling is Director, Business Advisory Services at Hall Chadwick Melbourne, current on LinkedIn (checked Oct-Nov 2026), having joined in May 2023 from McLean Delmo Bentleys.",
+   "sourceIds": [
+    "S2",
+    "S1"
+   ],
+   "quote": "Director - Hall Chadwick Melbourne (Current) May 2023 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Alan has over 30 years' experience in tax and business advisory across manufacturing, healthcare, education, hospitality, non-profit, construction and private equity clients.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Alan has over 30 years experience in tax and business advisory, catering to a broad range of industries",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Alan assists with regulatory compliance, tax and business due diligence, corporate structuring and acquisition initiatives, and helps multinationals and foreign individuals with inbound and outbound investment.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Alan provides regulatory compliance, tax and business due diligence, strategic corporate structuring advice, business development strategies, and assisting with acquisition initiatives.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Alan Ling and fellow Director Steven Nguyen attended the PrimeGlobal World Summit in November 2025.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Our Directors, Steven Nguyen and Alan Ling FCPA CA, have been attending the PrimeGlobal World Summit this week",
+   "date": "2025-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Hall Chadwick's 7 May 2026 Payday Super article says payroll, finance and HR systems must support more frequent reporting and reconciliation, and flags cash flow impacts of paying super every pay run.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Payroll, finance and HR systems must support real-time super calculations and more frequent reporting and reconciliation",
+   "date": "2026-05-07",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Peter Pryn manages the Accounting Outsourcing Services team and the firm's back-office turnkey solutions for clients, including processes and systems for back-office requirements.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Peter also manages the turnkey solutions offered by the Accounting Outsourcing Services team.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Hall Chadwick's CFO Advisory offering covers a complete accounting function including payroll, AR and AP, daily bookkeeping and month-end accounting.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "payroll, accounts receivable and payable, daily bookkeeping, month-end accounting, financial forecasting, management reporting packs, cash flow management, and compliance support",
+   "date": null,
+   "category": "services",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "A Senior Accountant/Supervisor role posted 29 Sep 2026 asks the hire to streamline procedures and recommend how the tax filing process can run more efficiently.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Streamline procedures and offer recommendations on how the tax filing process can run more efficiently",
+   "date": "2026-09-29",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "A Graduate Accountant role posted 20 Jul 2026 lists reconciliations and preparation of accounts among the duties and Xero/QuickBooks as desirable software.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Complete general accounting duties related to sole traders, partnerships, trust and companies, including reconciliations, preparation of accounts, draft financial statements, and workpapers.",
+   "date": "2026-07-20",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn shows Hall Chadwick Melbourne with 54 people (+5.3% YoY) and a workforce distributed across Australia and the Philippines; tech stack data lists MYOB.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Hall Chadwick Melbourne employs 54 people (+5.3% YoY, +3 people), founded in 2017.",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Hall Chadwick is part of a national group of 59 partners and 920+ professionals and a member of PrimeGlobal.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "Backed by 59 partners and a team of 920+ professionals",
+   "date": "2025-11",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Alan Ling",
+   "title": "Director, Business Advisory Services",
+   "contactId": "hall-chadwick-melbourne--alan-ling",
+   "linkedin": "https://linkedin.com/in/alan-ling-fcpa-ca-ab9b3b98",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Helen Savage",
+   "title": "Principal",
+   "contactId": "hall-chadwick-melbourne--helen-savage",
+   "linkedin": "https://www.linkedin.com/in/helen-savage-18655071",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Payday Super article: firm itself says more frequent reporting and reconciliation will land on payroll and finance systems; reconciliation load rises for clients and for its outsourcing team (new angle for follow-up).",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Outsourced accounting/back-office team plus bookkeeping inside CFO Advisory means reconciliation is delivered at volume for clients.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Hiring a Senior Accountant/Supervisor to streamline the tax filing process shows an efficiency mandate.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Mid-market group with audit, forensic and insolvency focus; Alan is a tax/business advisory director, not obviously the owner of reconciliation tooling; purchasing may sit with the finance and back-office leader (Peter Pryn is now a consultant).",
+   "claimIds": [
+    "C4",
+    "C7",
+    "C12"
+   ]
+  },
+  {
+   "text": "A first email was already sent to Alan on 23 Nov 2026; keep the follow-up short and different to avoid repetition.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast/video or personal posts by Alan found; his LinkedIn About is empty.",
+  "Could not confirm whether the Payday Super article was authored by Alan (he is listed on the page as a team member).",
+  "Content of the 23 Nov first email was not available, so the follow-up avoids referring to its specifics.",
+  "Whether Hall Chadwick Melbourne already uses an AI reconciliation tool is unknown; the Emapta offshore case study found relates to the WA firm, not Melbourne."
+ ],
+ "searches": [
+  {
+   "query": "Alan Ling Hall Chadwick Melbourne Director Business Advisory Services",
+   "results": 8
+  },
+  {
+   "query": "Hall Chadwick Melbourne news 2026 OR careers OR back-office services OR Xero OR outsourcing",
+   "results": 8
+  },
+  {
+   "query": "Hall Chadwick Melbourne Accounting Outsourcing Services team bookkeeping back office offshore",
+   "results": 6
+  },
+  {
+   "query": "fetch hallchadwickmelb.com.au home and Payday Super article",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "hall-chadwick-melbourne--alan-ling",
+   "subject": "Re: Quick chat, Alan?",
+   "body": "Hi Alan,\n\nFollowing up on my note. Hall Chadwick's May article on Payday Super says finance systems will need more frequent reporting and reconciliation once super moves to every pay run. That lands on your Accounting Outsourcing Services team as well as clients. Vert cuts reconciliation and cash coding to minutes, with an audit trail showing how each match was made. Would a 10 min walkthrough this week make sense?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C2"
+   ]
+  },
+  "followUp2": {
+   "contactId": "hall-chadwick-melbourne--alan-ling",
+   "subject": "Re: Quick chat, Alan?",
+   "body": "Hi Alan,\n\nLast nudge. Hall Chadwick Melbourne is hiring a Senior Accountant to streamline the tax filing process, and a graduate whose duties include reconciliations. Vert takes reconciliation off that desk. Happy to show it in 10 min, or leave it with you.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ }
+}

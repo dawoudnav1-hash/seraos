@@ -1,0 +1,252 @@
+{
+ "accountId": "trihalo-accountancy",
+ "accountName": "Trihalo Accountancy",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Trihalo Accountancy is a small Parramatta CPA practice. Partner Edward Fang positions it around helping e-commerce businesses on Xero, and his LinkedIn pitch already claims 80% automated bank rec plus reconciliation of prepayments and supplier accounts. He was emailed on 23 Nov 2026. The firm sells automated reconciliation itself, so Vert has to be positioned as a complement rather than a replacement.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.trihalo.com.au/about",
+   "title": "Trihalo Accountancy | About",
+   "type": "website",
+   "publisher": "Trihalo Accountancy",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.trihalo.com.au/our-services",
+   "title": "Trihalo Accountancy | Our services",
+   "type": "website",
+   "publisher": "Trihalo Accountancy",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/edwardfang-trihalo",
+   "title": "Edward Fang - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/trihalo-accountancy",
+   "title": "Trihalo Accountancy - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Trihalo's website lists its address as Shop 7, 23 Hassall Street, Parramatta NSW 2150.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Shop 7, 23 Hassall Street, Parramatta, NSW 2150",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Edward Fang is listed on LinkedIn as a current Partner at Trihalo Accountancy (since Jan 2020), and as CPA Partner on the firm's site.",
+   "sourceIds": [
+    "S3",
+    "S1"
+   ],
+   "quote": "Partner - Trihalo Accountancy (Current) Jan 2020 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Edward's LinkedIn headline says he helps e-commerce businesses on Xero get their numbers fast, accurate and insightful.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "I help E-Commerce businesses on Xero get their numbers fast, accurate and insightful",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Edward's LinkedIn About describes e-commerce clients with orders coming in from Shopify, Amazon and wholesale portals with wrong mappings.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Orders coming in from Shopify, Amazon, and wholesale portals with wrong mappings, AR with no chase cadence",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Edward's LinkedIn offer lists 80% automated bank rec.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "80% automated bank rec.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "His offer also lists reconciling prepayment and supplier accounts and matching sales and COGS journals in-month.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Sales and COGS journals matched in-month.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Edward offers a Xero Health Check on every new client.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "send you the Xero Health Check we run on every new client",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Trihalo's services page says it connects the client's stack and automates reconciliations once Xero is set up.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We connect your stack, automate reconciliations, and surface profitability by product, location, client or rep.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Edward has worked for Big 4 firms as an external auditor and financial advisor for more than 10 years.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Edward has worked for Big 4 accounting firms as an external auditor and financial advisor for more than 10 years",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "LinkedIn lists Trihalo Accountancy at 1-10 employees, founded in 2019, boutique in Parramatta CBD.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Trihalo Accountancy has 1-10 employees, founded in 2019.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "Trihalo's LinkedIn company page lists virtual CFO, business consulting and SMSF services alongside accounting and tax.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Virtual CFO Services",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Edward Fang",
+   "title": "Partner",
+   "contactId": "trihalo-accountancy--edward-fang",
+   "linkedin": "https://www.linkedin.com/in/edwardfang-trihalo",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5",
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Edward's LinkedIn pitch targets e-commerce clients on Xero (Shopify, Amazon, wholesale portals), exactly Vert's multi-channel reconciliation territory.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "He already automates 80% of bank rec; the remaining sales/COGS, prepayment and supplier reconciliations and the traceable-audit-trail angle are the gap Vert fills.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "A Xero Health Check on every new client could include Vert as a delivery tool.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Trihalo markets automated reconciliation and analytics itself, so could view Vert as a competitor or already have tooling.",
+   "claimIds": [
+    "C5",
+    "C8"
+   ]
+  },
+  {
+   "text": "Very small team (1-10 staff) and NSW-based.",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcasts, articles or Facebook content found.",
+  "No tool names (Dext, A2X etc.) behind the 80% automated bank rec claim.",
+  "No hiring ads found."
+ ],
+ "searches": [
+  {
+   "query": "site:trihalo.com.au about and services",
+   "results": 2
+  },
+  {
+   "query": "Edward Fang Trihalo Accountancy Parramatta CPA",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "trihalo-accountancy--edward-fang",
+   "subject": "Re: Idea for Trihalo Accountancy",
+   "claimIds": [
+    "C5",
+    "C6"
+   ],
+   "body": "Hi Edward,\n\nFollowing up on my earlier note. Your LinkedIn offer lists 80% automated bank rec alongside sales and COGS journals matched in-month. Vert is built for the reconciliation work around that, with a traceable audit trail on every match, so more of your time goes to the analytics your e-commerce clients pay for. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "trihalo-accountancy--edward-fang",
+   "subject": "Re: Idea for Trihalo Accountancy",
+   "claimIds": [
+    "C7",
+    "C3"
+   ],
+   "body": "Hi Edward,\n\nLast note from me. You run a Xero Health Check on every new e-commerce client, and Vert could sit inside it as the reconciliation engine. If that is worth 10 mins, I will show you how. If not, no worries.\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

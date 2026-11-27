@@ -1,0 +1,332 @@
+{
+ "accountId": "lhp-partners-chartered-accountants",
+ "accountName": "LHP Partners Chartered Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "LHP Partners is a Parramatta chartered accountancy and Xero Gold Partner offering tax, bookkeeping, payroll and virtual CFO services. Partner Deborah Liu's firm profile highlights digital and AI solutions within client finance processes, and the firm runs Xero-connected app implementations (Hubdoc, Ignition and others).",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://lhppartners.com.au",
+   "title": "Accountant Parramatta | Chartered Accountants | LHP Partners",
+   "type": "website",
+   "publisher": "LHP Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.lhppartners.com.au/our-team/deborah-liu",
+   "title": "Deborah Liu - LHP Partners",
+   "type": "website",
+   "publisher": "LHP Partners",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/deborahliulhp",
+   "title": "Deborah L. LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.lhppartners.com.au/services/accounting-and-taxation",
+   "title": "Accounting & Taxation | LHP Partners Parramatta",
+   "type": "website",
+   "publisher": "LHP Partners",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.lhppartners.com.au/services/software-implementation",
+   "title": "Software Implementation & Migration | LHP Partners",
+   "type": "website",
+   "publisher": "LHP Partners",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.lhppartners.com.au/services/virtual-cfo",
+   "title": "Virtual CFO & Finance Function | LHP Partners",
+   "type": "website",
+   "publisher": "LHP Partners",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://lhppartners.com.au/about-us",
+   "title": "About LHP Partners",
+   "type": "website",
+   "publisher": "LHP Partners",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://jobau.org/part_parramatta-c1006805/2026-10-lhp-partners-chartered-accountants_i4242857615",
+   "title": "Part-time Accounting Admin Specialist | Client & Process",
+   "type": "job",
+   "publisher": "jobau.org",
+   "date": "2026-10-14"
+  },
+  {
+   "id": "S9",
+   "url": "https://jobs-au.jobflurry.com/details/8E1B9B1FFBDC8C2ECC763B42AA62C60D/administration-assistant--accounting",
+   "title": "Administration Assistant (Accounting) in City of Parramatta",
+   "type": "job",
+   "publisher": "TheBigJobsite.com",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "LHP Partners' headquarters is Suite 8, Level 9, 111 Phillip Street, Parramatta NSW (domain lhppartners.com.au).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Suite 8, Level 9 111 Phillip Street Parramatta NSW 2150",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Deborah Liu is a current Partner at LHP Partners Chartered Accountants (since Jan 2016 per LinkedIn), listed in the firm's leadership team.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Jan 2016 - Present (10 years and 10 months) in Sydney, State of New South Wales, Australia",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Deborah's firm bio says she helps clients implement digital and AI solutions within their finance processes.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "helping clients implement digital and AI solutions within their finance processes to improve efficiency and financial insights.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Deborah specialises in tax advisory, outsourced CFO services, digital transformation and business process improvement.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "she specialises in tax advisory, outsourced CFO services, strategic planning, digital transformation and business process improvement.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "LHP's bookkeeping service keeps client Xero files reconciled, alongside payroll and BAS.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Our bookkeeping services keep your Xero file reconciled and up to date",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "LHP is a Xero Gold Partner.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "As a proud Xero Gold Partner, LHP Partners is recognised for our expertise in helping businesses harness the power of cloud-based accounting.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "LHP implements Xero-connected apps for clients including Hubdoc and Ignition.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Implementation of Hubdoc, Paypal, Stripe, GoCardless, Ignition, Square, HappyHR, Hubspot, Zapier, Tyro, WorkflowMax, and more Xero-connected apps",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "LHP's virtual CFO service delivers monthly management reports, cash flow forecasts and stakeholder reporting in Xero.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "deliver monthly management reports, cash flow forecasts and stakeholder reporting",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "LHP says it has helped more than 2,000 clients and lists 20+ specialist team members.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "has helped more than 2,000 clients simplify their finances, grow their businesses, and achieve lasting financial confidence",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Efficiency is one of LHP's stated values.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We simplify the complex, saving you time with smart systems and clear communication.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "LHP advertised an Administration Assistant role in October 2026 to support its client service team (applications since paused).",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "LHP Partners Chartered Accountants in Parramatta is seeking an Administration Assistant to support our client service team.",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "LHP describes itself in a job ad as a four-partner practice and lists Kaizen (continuous improvement) as a value.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "We're a four-partner practice working with business owners, families and individuals.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Deborah Liu",
+   "title": "Partner",
+   "contactId": "lhp-partners-chartered-accountants--deborah-liu",
+   "linkedin": "https://www.linkedin.com/in/deborahliulhp",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Cliff Wang",
+   "title": "Partner",
+   "contactId": "lhp-partners-chartered-accountants--cliff-wang",
+   "linkedin": "https://www.linkedin.com/in/cliffwang-lhppartners",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Deborah's bio is explicitly about bringing digital and AI solutions into client finance processes: warm to a tool that automates reconciliation.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Xero Gold Partner already rolling out Hubdoc/Ignition: tool-forward, with reconciled Xero files feeding monthly virtual CFO reports.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C5",
+    "C8"
+   ]
+  },
+  {
+   "text": "Efficiency is a stated firm value and the practice is lean (four partners) relative to 2,000+ clients.",
+   "claimIds": [
+    "C10",
+    "C12",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Another Deborah Liu (ex-Ancestry CEO) dominates search results; do not conflate. Evidence used here is from lhppartners.com.au and the Parramatta LinkedIn profile.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Deborah already positions herself as an AI/digital adopter; may have preferred tools or build in-house.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent LinkedIn posts, podcasts or videos by Deborah or Cliff Wang found.",
+  "No Facebook/Instagram content found.",
+  "Third-party LinkedIn data lists 1-10 employees vs 20+ on the firm's About page.",
+  "No news or press coverage found."
+ ],
+ "searches": [
+  {
+   "query": "site:lhppartners.com.au home/services/about (fetch)",
+   "results": 4
+  },
+  {
+   "query": "Deborah Liu LHP Partners Chartered Accountants Parramatta",
+   "results": 8
+  },
+  {
+   "query": "LHP Partners Chartered Accountants Parramatta job accountant bookkeeper Xero",
+   "results": 4
+  },
+  {
+   "query": "Deborah Liu LHP Partners AI finance processes linkedin post OR podcast OR webinar",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "lhp-partners-chartered-accountants--deborah-liu",
+   "subject": "Reconciliation at LHP Partners",
+   "body": "Hi Deborah, your LHP profile says you help clients bring digital and AI solutions into their finance processes, and as a Xero Gold Partner LHP already rolls out Hubdoc, Ignition and other Xero-connected apps. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace rather than AI that guesses. Since your bookkeeping team keeps client Xero files reconciled and your virtual CFO reporting depends on them, where does reconciliation still slow that down?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C6",
+    "C7",
+    "C5",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "lhp-partners-chartered-accountants--deborah-liu",
+   "subject": "Re: Reconciliation at LHP Partners",
+   "body": "Hi Deborah, following up on my note last week. Given your focus on digital transformation and process improvement, and efficiency being one of LHP's stated values, would it be useful to see Vert reconcile a sample Xero file in 10 minutes? Then you can judge whether it fits the monthly reporting your virtual CFO clients rely on.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C10",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "lhp-partners-chartered-accountants--deborah-liu",
+   "subject": "Re: Reconciliation at LHP Partners",
+   "body": "Hi Deborah, last note from me. LHP describes itself as a four-partner practice and has been recruiting client service support. If Vert could take reconciliation off the team's plate so those hours go to advisory, would that be worth a conversation? If not now, I'll leave it there.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C12",
+    "C11"
+   ]
+  }
+ }
+}

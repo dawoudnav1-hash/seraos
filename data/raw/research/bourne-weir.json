@@ -1,0 +1,207 @@
+{
+ "accountId": "bourne-weir",
+ "accountName": "Bourne & Weir",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Bourne & Weir is a Melbourne CBD chartered accounting practice trusted for over 35 years, offering tax, advisory, SMSF and virtual CFO services. Luke Micallef is a Partner (since July 2021) focused on the strategic side of tax, structuring, and cash flow forecasting and budgeting. The firm publishes regular tax insight articles, most recently a May 2026 Federal Budget summary.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.bourneandweir.com.au/",
+   "title": "Strategic thinking. Trusted advice. | Bourne & Weir",
+   "type": "website",
+   "publisher": "Bourne & Weir",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.bourneandweir.com.au/team/luke-micallef",
+   "title": "Partner - Luke Micallef | Bourne & Weir",
+   "type": "website",
+   "publisher": "Bourne & Weir",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/luke-micallef-605237381",
+   "title": "Luke Micallef | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Bourne & Weir operates from Level 11, 50 Market Street, Melbourne VIC, matching bourneandweir.com.au.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 11, 50 Market Street Melbourne VIC 3000 Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Luke Micallef is a Partner and Chartered Accountant at Bourne & Weir with over a decade of experience.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Luke Micallef is a Partner at Bourne & Weir and a Chartered Accountant with over a decade of experience",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Luke's LinkedIn (indexed Nov 2026) lists him as current Partner at Bourne & Weir since July 2021.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Partner at Bourne & Weir Pty Ltd",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Luke advises on business structuring, asset protection, cash flow forecasting and budgeting.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "He also advises on business structuring and asset protection, cash flow forecasting and budgeting.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Luke's background includes preparing financial statements, supporting ASIC requirements and assisting with audits.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "preparing financial statements, supporting ASIC requirements, and assisting with audits",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Bourne & Weir offers Virtual CFO Services as a senior financial partner without the in-house cost.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "A senior financial partner without the in-house cost",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm says it has been trusted for over 35 years.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Trusted for over 35 years",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm published a Federal Budget taxation summary on 13 May 2026.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "The Federal Budget has landed with major consequences for investors, business owners and high-net-worth individuals.",
+   "date": "2026-05",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Luke describes his focus as the strategic side of tax, helping SMEs structure effectively and stay compliant.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "My focus is the strategic side of tax, helping SMEs structure effectively, stay compliant and navigate complex environments",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Luke Micallef",
+   "title": "Partner",
+   "contactId": "bourne-weir--luke-micallef",
+   "linkedin": "https://www.linkedin.com/in/luke-micallef-605237381",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Luke's forecasting and budgeting work and the virtual CFO service both depend on timely reconciled books.",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  {
+   "text": "Luke positions himself on strategic tax; freeing partner time from compliance and reconciliation supports that focus.",
+   "claimIds": [
+    "C9",
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Tax/advisory-led firm, not a bookkeeping-heavy CAS shop; reconciliation volume may be modest (moderate fit).",
+   "claimIds": [
+    "C6",
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No hiring ads, podcasts, Xero/MYOB partner status or social posts by Luke found; tech stack not confirmed."
+ ],
+ "searches": [
+  {
+   "query": "Bourne & Weir website",
+   "results": 1
+  },
+  {
+   "query": "Luke Micallef Bourne & Weir partner",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "bourne-weir--luke-micallef",
+   "subject": "Re: Idea for Bourne & Weir",
+   "body": "Hi Luke,\n\nFollowing up on my note on Monday. Bourne & Weir's virtual CFO service offers a senior financial partner without the in-house cost, and your own work covers cash flow forecasting and budgeting. Those only land when client books are reconciled on time. Vert takes 4 hours of reconciling down to 5 minutes, with every match traceable. Open to a short look on a sample file?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "bourne-weir--luke-micallef",
+   "subject": "Re: Idea for Bourne & Weir",
+   "body": "Hi Luke,\n\nOne last note. Your LinkedIn says your focus is the strategic side of tax. Vert takes reconciling and cash coding off your team so more partner time goes there, and your virtual CFO clients get cleaner books. Happy to show it in 10 minutes if useful.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C6"
+   ]
+  }
+ }
+}

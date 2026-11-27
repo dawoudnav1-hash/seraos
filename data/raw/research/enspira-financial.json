@@ -1,0 +1,347 @@
+{
+ "accountId": "enspira-financial",
+ "accountName": "Enspira Financial",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Enspira Financial is a relationship-based advisory accounting firm and Allinial Global member with offices in Brookvale and Lindfield (Sydney), led by CEO Craig Stanmore. The Melbourne practice listed in our data (607 Bourke St) left in July 2025 and now trades as Guava Lane, so the Melbourne address is stale. Enspira runs an outsourced CFO service, virtual management accounting and bookkeeping that includes reconciling across Xero, MYOB and QuickBooks, and appointed Tom Sargent as Partner in July 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://enspira.com.au/",
+   "title": "Home - Enspira Financial",
+   "type": "website",
+   "publisher": "Enspira Financial",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://enspira.com.au/person/craig-stanmore/",
+   "title": "Craig Stanmore - Enspira Financial",
+   "type": "website",
+   "publisher": "Enspira Financial",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/craig-stanmore-56081924",
+   "title": "Craig Stanmore - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/enspira-financial_enspira-partner-promotion-activity-7478244606627721216-cVLD",
+   "title": "Tom Sargent appointed Partner at Enspira Financial",
+   "type": "linkedin",
+   "publisher": "Enspira Financial",
+   "date": "2026-07-02"
+  },
+  {
+   "id": "S5",
+   "url": "https://enspira.com.au/person/tom-sargent-2/",
+   "title": "Tom Sargent - Enspira Financial",
+   "type": "website",
+   "publisher": "Enspira Financial",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://enspira.com.au/cfo-service/",
+   "title": "CFO Service - Enspira Financial",
+   "type": "website",
+   "publisher": "Enspira Financial",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://enspira.com.au/professional-bookkeeping/",
+   "title": "Bookkeeping - Enspira Financial",
+   "type": "website",
+   "publisher": "Enspira Financial",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://enspira.com.au/assets/uploads/2018/07/InformBrochureOnline.pdf",
+   "title": "Enspira Inform brochure (bookkeeping and VMA)",
+   "type": "other",
+   "publisher": "Enspira Financial",
+   "date": "2018-07-01"
+  },
+  {
+   "id": "S9",
+   "url": "https://www.linkedin.com/posts/rebecca-collins-3b96bb27_guava-lane-fresh-financial-perspective-activity-7345356556718194688-QSm3",
+   "title": "We've Rebranded! Welcome to Guava Lane",
+   "type": "linkedin",
+   "publisher": "Rebecca Collins",
+   "date": "2025-06-30"
+  },
+  {
+   "id": "S10",
+   "url": "https://enspira.com.au/scale-up-your-business/",
+   "title": "Scale up your business - Enspira Financial",
+   "type": "website",
+   "publisher": "Enspira Financial",
+   "date": null
+  },
+  {
+   "id": "S11",
+   "url": "https://enspira.com.au/dashboards/",
+   "title": "Virtual Management Accounting dashboards - Enspira Financial",
+   "type": "website",
+   "publisher": "Enspira Financial",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Enspira Financial (enspira.com.au) is a relationship-based advisory accounting firm with offices at Brookvale and Lindfield, NSW.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Brookvale Suite 55 117 Old Pittwater Rd Brookvale NSW 2100",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Craig Stanmore is CEO of Enspira Financial, current on LinkedIn (checked Nov 2026) and named as CEO on the firm's site.",
+   "sourceIds": [
+    "S3",
+    "S2"
+   ],
+   "quote": "Chief Executive Officer - Enspira Financial (Current) Sep 2025 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Enspira's Melbourne practice rebranded as Guava Lane on 1 July 2025, with its own site and Managing Director (Rebecca Collins); the Melbourne address on file now belongs to Guava Lane, not Enspira.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Enspira Melbourne is now Guava Lane.",
+   "date": "2025-06",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Tom Sargent was appointed Partner at Enspira in July 2026, the firm's first internal partner appointment in ten years; he began as a Cadet and became Client Manager.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "It's the first internal partner appointment we've made in ten years",
+   "date": "2026-07",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Tom Sargent is Head of Compliance and the firm's profile says he embraces emerging technologies to support a more forward-looking advisory offering.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "embracing emerging technologies to support a more forward-looking and integrated advisory offering in a rapidly evolving profession",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Craig Stanmore has said that accessing specialist skills and a trusted process is key to systemising a business and leveraging for growth.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "Accessing specialist skills and a trusted process is key systemising your business and leveraging for growth,",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Enspira's outsourced CFO Service pairs every engagement with a CFO and a Finance Manager for day-to-day financial support.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Every engagement pairs you with both a CFO and a Finance Manager, providing strategic oversight and day-to-day financial support.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Enspira's bookkeeping team works in Xero, MYOB (Essentials and AccountRight Live) and QuickBooks Online.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We are proficient in the following bookkeeping software: Xero, MYOB Essentials, MYOB AccountRight Live, QuickBooks Online.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "An Enspira brochure (2018) lists coding bank feeds, reconciling bank accounts and month/quarter end journals within its bookkeeping and Virtual Management Accounting services.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Coding bank feeds ✔ Reconciling bank accounts ✔ Month/quarter end journal entries",
+   "date": "2018-07",
+   "category": "services",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Enspira offers a live-data dashboard tool for clients, used with its business advisory programme.",
+   "sourceIds": [
+    "S11"
+   ],
+   "quote": "Enspira has developed a unique dashboard tool that uses live data feeds to display real-time metrics on your business.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Enspira is a member of Allinial Global, an association of legally independent firms.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "A member of Allinial Global, an association of legally independent firms",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn data shows Enspira with 10-20 employees (8-9% YoY decline).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Enspira Financial has 10-20 employees (8-9% YoY decline), founded in 2016.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Craig Stanmore",
+   "title": "Chief Executive Officer",
+   "contactId": "enspira-financial--craig-stanmore",
+   "linkedin": "https://www.linkedin.com/in/craig-stanmore-56081924",
+   "claimIds": [
+    "C2",
+    "C6"
+   ]
+  },
+  {
+   "name": "Tom Sargent",
+   "title": "Partner, Head of Compliance",
+   "contactId": "enspira-financial--tom-sargent",
+   "linkedin": "https://www.linkedin.com/in/tom-sargent-8b162865",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "CFO Service pairs a CFO with a Finance Manager; bookkeeping includes bank feed coding and reconciling, so reconciling load sits directly under the CFO dashboards (inference).",
+   "claimIds": [
+    "C7",
+    "C9",
+    "C10"
+   ]
+  },
+  {
+   "text": "Tom Sargent's July 2026 partner appointment and his stated interest in emerging technologies: a natural second angle or internal champion.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Craig's own framing of systemising a business with specialist skills and a trusted process matches Vert's positioning.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Account location (Melbourne CBD, 607 Bourke St) is stale: that practice is now Guava Lane. Enspira's offices are Brookvale and Lindfield; do not call it a Melbourne firm.",
+   "claimIds": [
+    "C3",
+    "C1"
+   ]
+  },
+  {
+   "text": "Headcount shrinking (8-9% YoY decline) and mid-size; may be stretched on change projects.",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent blog or podcast from Craig found beyond a 2024 Allinial Global success story.",
+  "No public job ads found.",
+  "Whether Enspira uses an AI reconciliation tool today is unknown.",
+  "Brochure listing of reconciling tasks is from 2018; current practice unconfirmed."
+ ],
+ "searches": [
+  {
+   "query": "enspira.com.au home, guavalane.com.au home",
+   "results": 2
+  },
+  {
+   "query": "Craig Stanmore Enspira Financial CEO",
+   "results": 8
+  },
+  {
+   "query": "Tom Sargent Enspira partner Guava Lane Melbourne rebrand",
+   "results": 8
+  },
+  {
+   "query": "Enspira Financial CFO service dashboard tools Xero cloud accounting",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "enspira-financial--craig-stanmore",
+   "subject": "Reconciling behind Enspira's CFO service",
+   "body": "Hi Craig,\n\nYou've said that accessing specialist skills and a trusted process is key to systemising a business. Enspira's CFO Service pairs every client with a CFO and a Finance Manager, and your bookkeeping team codes bank feeds and reconciles across Xero, MYOB and QuickBooks. That month-end reconciling sits under every dashboard the CFO presents. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail instead of auto-coding that guesses. How much of your Finance Managers' month goes on reconciling?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+   ]
+  },
+  "followUp": {
+   "contactId": "enspira-financial--craig-stanmore",
+   "subject": "Re: Reconciling behind Enspira's CFO service",
+   "body": "Hi Craig,\n\nFollowing up on my note. Congratulations on Tom's appointment as Partner, the first internal one in ten years. His profile mentions embracing emerging technologies, so he may be a good person to look at Vert with you. It cuts reconciliation and cash coding to minutes with a full audit trail. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "enspira-financial--craig-stanmore",
+   "subject": "Re: Reconciling behind Enspira's CFO service",
+   "body": "Hi Craig,\n\nFinal note. You've said a trusted process is key to systemising a business. Enspira's dashboard tool runs on live data feeds, and those numbers are only as good as the reconciliation underneath. Vert keeps that layer fast and traceable. Happy to show you in 10 min, or I'll leave it there.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C10"
+   ]
+  }
+ }
+}

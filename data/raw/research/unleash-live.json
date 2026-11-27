@@ -1,0 +1,238 @@
+{
+ "accountId": "unleash-live",
+ "accountName": "Unleash live",
+ "status": "complete",
+ "summary": "Unleash Live is a Sydney-founded enterprise computer vision company that raised an A$17 million Series B in May 2025 to expand in the Americas and Europe and marked ten years in September 2026. Meghan Hay has run finance since 2019 (Head of Finance, then Financial Controller since July 2023; Head of Finance on the company site) and is the single named finance contact.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://unleashlive.com/company/about/",
+   "title": "About | Unleash Live",
+   "type": "website",
+   "publisher": "Unleash Live",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/meghanhay",
+   "title": "Meghan Hay | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-29"
+  },
+  {
+   "id": "S3",
+   "url": "https://unleashlive.com/blog/backing-innovation-unleash-live-lands-17m-to-drive-next-phase-growth/",
+   "title": "Unleash Live accelerates global growth with A$17M Series B Raise",
+   "type": "blog",
+   "publisher": "Unleash Live",
+   "date": "2025-05-27"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.investmets.com/unleash-live-marks-10-years-built-trust-one-deployment-at-a-time/",
+   "title": "Unleash Live marks 10 years",
+   "type": "news",
+   "publisher": "InvestMETS",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/meghanhay_ai-video-analysis-startup-unleash-live-secures-activity-6840802885291405312-Gwyy",
+   "title": "Meghan Hay post: Unleash live announces Series A raise",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Meghan Hay)",
+   "date": "2021-09-07"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Unleash Live's own site says it is an enterprise industrial computer vision company founded in Sydney, Australia.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Founded in Sydney, Australia.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Meghan Hay's LinkedIn profile lists her as Financial Controller at Unleash live (current) since July 2023, and the company's About page lists her as Head of Finance.",
+   "sourceIds": [
+    "S2",
+    "S1"
+   ],
+   "quote": "Financial Controller (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Meghan describes her skills as budgeting, forecast modelling, cash flow projection, board reporting, governance compliance and full-cycle government grants management.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Skilled in budgeting, forecast modelling, cash flow projection, board reporting, governance compliance, full-cycle government grants management",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "As Head of Finance (2019 to 2023) Meghan reviewed commercial terms and managed key supplier relationships including AWS.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "review commercial terms and manage relationships with key external supply partners including AWS",
+   "date": "2023-06",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Unleash Live closed an A$17 million Series B in May 2025 to expand across the Americas and Europe.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Unleash Live closed an A$17 million Series B round to accelerate global expansion across the Americas and Europe",
+   "date": "2025-05",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Unleash Live marked ten years in September 2026 and counts BHP, Alcoa and Chevron among its major enterprise clients.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Unleash Live counts BHP, Alcoa and Chevron as major enterprise clients",
+   "date": "2026-09",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Unleash live's workforce is distributed across 6 countries including Australia, Germany, the United States, the UAE and Ecuador.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Its workforce is distributed across 6 countries (including Australia, Germany, United States, United Arab Emirates, and Ecuador).",
+   "date": "2026-10",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "Meghan posted about Unleash live's Series A raise in 2021, thanking investors including SafetyCulture.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We're so excited at Unleash live to announce our #seriesA raise today!",
+   "date": "2021-09",
+   "category": "content",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Meghan Hay",
+   "title": "Financial Controller (Head of Finance on company site)",
+   "contactId": "unleash-live--meghan-hay",
+   "linkedin": "https://www.linkedin.com/in/meghanhay",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Post Series B international expansion means more entities, currencies and enterprise contracts for a small finance function.",
+   "claimIds": [
+    "C5",
+    "C7"
+   ]
+  },
+  {
+   "text": "Meghan's remit spans board reporting and grants as well as the books, so reconciliation time competes with higher-value work.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Ten-year milestone and big-name clients give a timely, positive opening.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Meghan's title varies by source (Financial Controller on LinkedIn since 2023; Head of Finance on company site; CFO on an NSW government vendor page); confirm before use.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Overseas entities and finance headcount beyond Meghan are not verified; a larger team may exist after the Series B.",
+   "claimIds": [
+    "C5",
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance job ads or recent posts by Meghan found.",
+  "Accounting system (e.g. Xero, NetSuite) not found.",
+  "Overseas legal entities not confirmed."
+ ],
+ "searches": [
+  {
+   "query": "Unleash live Meghan Hay Financial Controller Series B Sydney computer vision",
+   "results": 10
+  },
+  {
+   "query": "linkedin.com/in/meghanhay (fetch)",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "unleash-live--meghan-hay",
+   "subject": "Month-end after the Series B at Unleash Live",
+   "body": "Hi Meghan,\n\nCongratulations on a decade for Unleash Live. Since the A$17 million Series B for the Americas and Europe, your team spans 6 countries, which for a finance function means more currencies and enterprise customers to close each month. Your remit covers board reporting and grants as well as the books, so I imagine reconciliation eats time you would rather spend there. I built Vert to turn 4 hours of manual reconciliation into 5 minutes, with every match traceable. How much of your month-end is reconciliation today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp": {
+   "contactId": "unleash-live--meghan-hay",
+   "subject": "Re: Month-end after the Series B at Unleash Live",
+   "body": "Hi Meghan,\n\nFollowing up on my note last week. You have managed supplier relationships including AWS, and cloud costs alongside enterprise customer receipts in several currencies are exactly what slows a close. Vert matches payments to invoices and flags exceptions with an audit trail your auditors can follow. Worth a 10 minute look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "unleash-live--meghan-hay",
+   "subject": "Re: Month-end after the Series B at Unleash Live",
+   "body": "Hi Meghan,\n\nLast nudge from me. Board reporting and forecasting both depend on reconciled books. If Vert could hand you a reconciled month in minutes, would that free up time for the forecasting side? Happy to show it on your own data, and no worries if not.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

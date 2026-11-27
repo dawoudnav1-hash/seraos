@@ -1,0 +1,322 @@
+{
+ "accountId": "new-wave-accountants-business-advisory",
+ "accountName": "New Wave Accountants & Business Advisory",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "New Wave is a Mermaid Beach, Gold Coast firm led by Reuben Bergola (CEO / Managing Partner) with a large ecommerce client base and A2X-based settlement reconciliation. Since 2026 Reuben has publicly rebuilt the firm around AI, with over 40 internal tools including a bank-feed coding agent, and coaches other firms through the Empwr Firms podcast and program. This is a likely build-it-yourself prospect, so outreach should be peer-level and focused on payout/settlement reconciliation.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://new-wave.com.au/",
+   "title": "New Wave home",
+   "type": "website",
+   "publisher": "New Wave",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://new-wave.com.au/services/bookkeeping/ecommerce/",
+   "title": "Ecommerce bookkeeping services",
+   "type": "website",
+   "publisher": "New Wave",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/managementaccountantgoldcoast",
+   "title": "Reuben Bergola LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/managementaccountantgoldcoast_accounting-accountingfirms-aiinaccounting-activity-7511137365092929536-3Gbj",
+   "title": "Most accountants think AI is a five to ten year problem",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Reuben Bergola)",
+   "date": "2026-09-30"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/empwr-firms_ankckaenwxipaba-activity-7529031222375784448-zbbe",
+   "title": "Monday morning. Hundreds of unreconciled bank feed lines",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Empwr Firms)",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/managementaccountantgoldcoast_kkunnrr7ylmx5ex-activity-7516324856305475585-lToh",
+   "title": "Open Door Test post",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Reuben Bergola)",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "S7",
+   "url": "https://new-wave.com.au/careers/",
+   "title": "New Wave careers",
+   "type": "job",
+   "publisher": "New Wave",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://empwrfirms.com.au/tools-we-built",
+   "title": "AI Tools for Accountants: What We Built",
+   "type": "website",
+   "publisher": "empwr. firms",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://movetomore.com.au/job/49f1fede-3776-4b2e-8ee9-a188915e07b5/",
+   "title": "Bookkeeper job ad, New Wave",
+   "type": "job",
+   "publisher": "Move to More",
+   "date": "2026-08-21"
+  },
+  {
+   "id": "S10",
+   "url": "https://highperformance.accountants/podcast/from-0-to-600-clients-in-6-years-with-reuben-bergola-of-new-wave-accountants/",
+   "title": "From 0 to 600 clients in 6 years with Reuben Bergola",
+   "type": "podcast",
+   "publisher": "High Performance Accountants",
+   "date": "2022-12-02"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "New Wave's own site presents it as Gold Coast accountants and business advisors for founders doing $1M+.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Gold Coast accountants and business advisors for founders doing $1M+",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "New Wave's office is at Mermaid Beach, Gold Coast QLD.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Suite 5, 2481-2483 Gold Coast Highway Mermaid Beach QLD 4218",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Reuben Bergola is Managing Partner of New Wave Accountants & Business Advisory (current) and styles himself CEO, New Wave Group.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Managing Partner | Management Accountant | Tax Accountant - New Wave Accountants & Business Advisory (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Reuben posted that he spent six months rebuilding New Wave around AI and has built over 40 internal tools, and launched the Empwr Firms podcast for firm owners.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "I've spent the last six months rebuilding New Wave around AI. Over 40 internal tools built.",
+   "date": "2026-09",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "An Empwr Firms post says New Wave's agent codes and flags bank feeds at 6am every weekday, with nothing posting until it has earned it.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "The agent runs at 6am every weekday, and the summary is ready before 7am.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Reuben posted an 'Open Door Test' for practice software: can your own tools write, not just read, and can your AI get in through an MCP server or connector.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "I call it the Open Door Test",
+   "date": "2026-10",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "New Wave's ecommerce bookkeeping uses A2X settlement summaries and a clearing account per channel.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "A2X settlement summaries, a clearing account per channel, inventory and COGS tracked monthly",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "New Wave lists 195+ ecommerce and retail clients among those it partners with.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "195+ Ecommerce & Retail",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "New Wave's tools page lists a Bookkeeping AI tool that flags issues before they reach a human, and says it kept Xero as its system of record.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Automated bookkeeping review that flags issues before they reach a human.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "New Wave is advertising Senior Accountant and Client Manager roles at Mermaid Beach.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Senior Accountant Mermaid Beach QLD · Hybrid · Full time",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "An August 2026 New Wave bookkeeper ad lists reconciling bank accounts in Xero and QBO as a core duty.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Reconciling bank accounts in Xero & QBO",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "Reuben was interviewed in 2022 as a Xero Platinum Partner running a firm focused on ecommerce.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "is a Xero Platinum Partner",
+   "date": "2022-12",
+   "category": "person",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Reuben Bergola",
+   "title": "Managing Partner / CEO, New Wave Group",
+   "contactId": "new-wave-accountants-business-advisory--reuben-bergola",
+   "linkedin": "https://www.linkedin.com/in/managementaccountantgoldcoast",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "His Nov 2026 Empwr Firms episode on the 6am bank-feed agent: coding is automated, so the open question is payout and settlement reconciliation across ecommerce clients.",
+   "claimIds": [
+    "C5",
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "His Open Door Test frames how he judges tools; invite him to judge Vert against it on one client file.",
+   "claimIds": [
+    "C6",
+    "C4"
+   ]
+  },
+  {
+   "text": "Over 40 internal tools: position Vert as a peer's specialist reconciliation layer rather than a replacement.",
+   "claimIds": [
+    "C4",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "New Wave is building its own AI bookkeeping and bank-feed agents and sells the playbook to other firms, so it may build rather than buy and could even be a channel or competitor.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C9"
+   ]
+  },
+  {
+   "text": "Reuben has been emailed twice already; reply likelihood is low unless the angle is peer-level.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No public statement on how settlement/payout reconciliation (A2X) is handled by the internal agents.",
+  "Contents of the earlier two emails not available to me; follow-ups avoid repeating specifics.",
+  "No Facebook/Instagram post checked in detail."
+ ],
+ "searches": [
+  {
+   "query": "site new-wave.com.au home and ecommerce bookkeeping",
+   "results": 2
+  },
+  {
+   "query": "Reuben Bergola New Wave podcast OR interview OR linkedin post",
+   "results": 8
+  },
+  {
+   "query": "New Wave Accountants Gold Coast careers bookkeeper job",
+   "results": 4
+  },
+  {
+   "query": "Reuben Bergola Empwr Firms AI agents reconciliation",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "new-wave-accountants-business-advisory--reuben-bergola",
+   "subject": "Re: Quick chat, Reuben?",
+   "body": "Hi Reuben, I read the Empwr Firms episode on your 6am agent that codes bank feeds before the team arrives. Coding is the volume part. With 195+ ecommerce and retail clients, are the Shopify and Amazon payouts sitting in clearing accounts also handled by an agent, or still by bookkeepers? That settlement side is what Vert is built for, and I'd value your read.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C8",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "new-wave-accountants-business-advisory--reuben-bergola",
+   "subject": "Re: Quick chat, Reuben?",
+   "body": "Hi Reuben, last nudge from me. Your Open Door Test asks whether a tool can write, not just read. I'd like to show Vert reconciling one ecommerce client file in Xero, with a trail you can trace, and let you judge it on your own terms. Ten minutes, and you can tell me if your tools already cover it.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C4"
+   ]
+  }
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "accountId": "lgy-accountants",
+ "accountName": "LGY Accountants",
+ "status": "identity_unconfirmed",
+ "researchedAt": "2026-11-26",
+ "summary": "LGY Accountants (lgy.com.au, ABN registered 2008) is a small Melbourne accounting firm offering tax, bookkeeping and training, with Xero and QuickBooks support named on its site. The identity of the contact could not be locked: the same Harry Liu bio and the same colleagues (Xi, Sherry) also appear on the team page of Beyond Accountancy at 883 Toorak Road, Camberwell, and LGY's own site now lists a Camberwell address rather than the Queen St CBD address on record. It is unclear whether Harry still works at LGY, so no follow-up is drafted.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.lgy.com.au/about-us",
+   "title": "About | LGY Group",
+   "type": "website",
+   "publisher": "LGY Group",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://beyondaccountancy.com.au/about/",
+   "title": "A Better Type Of Accountancy | Beyond Accountancy",
+   "type": "website",
+   "publisher": "Beyond Accountancy",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://beyondaccountancy.com.au/staff-member/harry-liu/",
+   "title": "Staff Profiles: Harry Liu | Beyond Accountancy",
+   "type": "website",
+   "publisher": "Beyond Accountancy",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/lgy-accountants",
+   "title": "LGY Accountants | LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://moneyminute.com.au/directory/lgy-accountants/",
+   "title": "Lgy Accountants - Money Minute",
+   "type": "directory",
+   "publisher": "Money Minute",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://abr.business.gov.au/ABN/View/11130924159",
+   "title": "Current details for ABN 11 130 924 159 | ABN Lookup",
+   "type": "registry",
+   "publisher": "Australian Business Register",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "LGY Group's current About page lists Harry in its team section as looking after a portfolio of SMEs, covering tax, GST, Xero and QuickBooks assistance, and coordinating training and staff development for the firm.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Harry also coordinates training and staff development for the firm.",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C2",
+   "text": "LGY's own site now gives its address as Level 1/793 Burke Road, Camberwell VIC, whereas the directory listing and the account record show 10-16 Queen St, Melbourne CBD.",
+   "sourceIds": [
+    "S1",
+    "S5"
+   ],
+   "quote": "Address: Level 1/793 Burke Road, Camberwell VIC 3124",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Beyond Accountancy, a Camberwell firm at 883 Toorak Road founded in 2011, lists Harry Liu, Xi Chen and Sherry Wang on its team page, using the same bio text as LGY's page for Harry and Xi.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Harry is a distinguished member of the Institute of Chartered Accountants, with extensive experience in providing strategic financial services",
+   "date": null,
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "LGY's LinkedIn company page lists 25 employees and founded 2008 as a boutique Melbourne CBD firm, and the most recent posts shown are from November 2023.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "LGY Accountants employs 25 people (-1.7% YoY, -1 person), founded in 2008.",
+   "date": "2023-11",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "The Money Minute directory describes LGY Accountants as a Melbourne firm for small and medium businesses covering tax planning, bookkeeping, financial reporting, advice and valuations, and lists harry@lgy.com.au.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Email harry@lgy.com.au",
+   "date": null,
+   "category": "services",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "ABN Lookup shows LGY Accountants Pty Ltd as an active Australian private company registered from 5 May 2008.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Entity name: LGY ACCOUNTANTS PTY. LTD. ABN status: Active from 05 May 2008",
+   "date": "2008-05",
+   "category": "identity",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Harry Liu",
+   "title": "Accountant (SME portfolio, training lead)",
+   "contactId": "lgy-accountants--harry-liu",
+   "linkedin": "https://au.linkedin.com/in/harry-liu-a75512173",
+   "claimIds": [
+    "C1",
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [],
+ "risks": [
+  {
+   "text": "Harry Liu may now work at Beyond Accountancy, Camberwell, which lists him with the same bio; the LGY site may be stale or the two firms may be linked. Emailing as an LGY contact could go to the wrong firm or an unmonitored address.",
+   "claimIds": [
+    "C3",
+    "C2"
+   ]
+  },
+  {
+   "text": "LGY's LinkedIn activity stops in November 2023, so the firm's public presence looks dormant.",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "text": "Account record flags that no principal is identifiable and the email harry@lgy.com.au is unconfirmed as deliverable.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "Could not load Harry's LinkedIn profile (only a search snippet naming LGY Accountants, undated), so current employer is unconfirmed.",
+  "No principal or partner of LGY identified; the TPB register lists a different person (Hua Liu) as the individual under the practitioner entry.",
+  "No dated posts, podcasts, news, job ads or social content found for LGY or Harry from the last 12 months.",
+  "Relationship between LGY Group and Beyond Accountancy could not be established.",
+  "Recommend a manual check (phone 03 9620 0779 or LinkedIn) before any further outreach."
+ ],
+ "searches": [
+  {
+   "query": "fetch lgy.com.au home, about-us",
+   "results": 2
+  },
+  {
+   "query": "Harry Liu LGY Accountants Melbourne accountant",
+   "results": 10
+  },
+  {
+   "query": "fetch Harry Liu LinkedIn, Beyond Accountancy staff page, LGY about",
+   "results": 2
+  },
+  {
+   "query": "Beyond Accountancy Camberwell LGY Group merger Harry Liu",
+   "results": 8
+  },
+  {
+   "query": "\"LGY\" \"Beyond Accountancy\" Camberwell accountants Harry Liu Xi Chen",
+   "results": 10
+  },
+  {
+   "query": "fetch Beyond Accountancy about and LGY LinkedIn company page",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": null
+ }
+}

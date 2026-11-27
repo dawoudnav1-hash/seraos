@@ -1,0 +1,274 @@
+{
+ "accountId": "afends",
+ "accountName": "AFENDS",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "AFENDS is a Byron Bay hemp and streetwear brand founded in 2006 with concept stores across NSW, QLD and VIC and wholesale into Europe, Japan and the UK. Adam Simmons, previously Senior Accountant, became Finance Team Leader in October 2026. The brand marked 20 years in October 2026 and is advertising retail and other roles.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/adampsimmons",
+   "title": "Adam Simmons LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/afends",
+   "title": "AFENDS LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://lifewithoutandy.com/featured/party-bullshit/gallery-afends-turned-20-with-a-wild-party-last-night/",
+   "title": "Gallery: Afends Turned 20 With A Wild Party Last Night",
+   "type": "news",
+   "publisher": "lifewithoutandy",
+   "date": "2026-10-24"
+  },
+  {
+   "id": "S4",
+   "url": "https://afends.com/en-us/pages/concept-stores",
+   "title": "AFENDS Concept Stores",
+   "type": "website",
+   "publisher": "AFENDS",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://eu.afends.com/pages/inside-afends",
+   "title": "Inside Afends",
+   "type": "website",
+   "publisher": "AFENDS Europe",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://remixdist.co.uk/2024/08/08/afends-eco-friendly-australian-clothing-brand-exclusive-to-uk-by-remix/",
+   "title": "Afends exclusive to UK by Remix",
+   "type": "news",
+   "publisher": "Remix Distribution",
+   "date": "2024-08-08"
+  },
+  {
+   "id": "S7",
+   "url": "https://leadiq.com/c/afends/5a1da7762300005a009aff2a",
+   "title": "AFENDS Company Overview - LeadIQ",
+   "type": "directory",
+   "publisher": "LeadIQ",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "AFENDS is a Byron Bay clothing and streetwear brand headquartered in Byron Bay NSW, founded in 2006.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "AFENDS is an alternative Byron Bay Clothing & Fashion Brand that specializes in organic hemat fashion and men & women streetwear.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Adam Simmons is Finance Team Leader at AFENDS (current) since October 2026, having joined as Senior Accountant in August 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Team Leader (Current) Oct 2026 - Present (1 month) in Byron Bay",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Adam previously worked as an Accountant at Boardriders in a retail-focused role covering monthly balance sheet reconciliations and month-end reporting.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Complete monthly balance sheet reconciliations",
+   "date": "2024-12",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "AFENDS turned 20 years old in October 2026, celebrated with a party at Haven Gallery in Byron Bay.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "the Afends crew brought together a few hundred of their nearest and dearest to celebrate two decades of doing things their own way",
+   "date": "2026-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "AFENDS lists concept stores in Brunswick Heads, Burleigh Heads, Byron Bay, Chapel Street, Coolangatta, Cronulla, Fitzroy, Manly, Newtown, Port Macquarie and Sunshine Coast.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "AFENDS Concept Stores ## Brunswick Heads",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "AFENDS says it has been adopted by major retailers in Australia, New Zealand, the United States, Japan, Canada and throughout Europe.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "been adopted by major retailers in Australia, New Zealand, Bali, United States, Japan, Canada and throughout Europe",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Remix announced in August 2024 that it signed exclusive rights to distribute AFENDS in the UK.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Remix is proud to announce it has signed exclusive rights to distribute Australian clothing Brand Afends for the UK.",
+   "date": "2024-08",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "AFENDS advertised for a National Retail Manager in July 2026 and a Menswear Design and Product Assistant in September 2026.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We have an exciting opportunity for a National Retail Manager to join our team in Byron Bay!",
+   "date": "2026-07",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "A LeadIQ listing names M. M. E. as AFENDS Head of Finance, consistent with Manuel Mangudo Escalada in CRM.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Head Of Finance: M. M. E.",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Adam Simmons",
+   "title": "Finance Team Leader (CRM: Senior Accountant)",
+   "contactId": "afends--adam-simmons",
+   "linkedin": "https://www.linkedin.com/in/adampsimmons",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Manuel Mangudo Escalada",
+   "title": "Head of Finance & Operations",
+   "contactId": "afends--manuel-mangudo-escalada",
+   "linkedin": "https://linkedin.com/in/manuel-mangudo-escalada-71a548116",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Adam just stepped up to lead the finance team (Oct 2026) and came from a multi-channel retail close at Boardriders, so he knows reconciliation pain and is newly able to shape process.",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "text": "Eleven-plus concept stores plus wholesale into Europe, Japan and the UK mean many settlement streams and currencies.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "20-year milestone and ongoing hiring show growth in the business.",
+   "claimIds": [
+    "C4",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Primary CRM contact Manuel Mangudo Escalada has no verified email; outreach goes to Adam, who may report to Manuel.",
+   "claimIds": [
+    "C9",
+    "C2"
+   ]
+  },
+  {
+   "text": "Five-person finance team on an established ERP may see low urgency (from CRM notes).",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "NetSuite/Shopify stack not confirmed from a primary source.",
+  "No finance-related posts, podcasts or job ads for finance found.",
+  "No Facebook/Instagram finance content."
+ ],
+ "searches": [
+  {
+   "query": "Afends Byron Bay hemp streetwear brand news 2026 growth stores wholesale",
+   "results": 8
+  },
+  {
+   "query": "Adam Simmons Senior Accountant Afends",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "afends--adam-simmons",
+   "subject": "Month-end at AFENDS",
+   "body": "Hi Adam, congrats on stepping up to Finance Team Leader at AFENDS this October. At Boardriders you handled monthly balance sheet reconciliations and month-end reporting, so you know how much of a close is matching rather than analysis. With concept stores from Byron Bay to Fitzroy, plus wholesale into Japan and Europe, AFENDS has plenty of settlement streams to tie back. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace. Which part of your close takes longest?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "afends--adam-simmons",
+   "subject": "Re: Month-end at AFENDS",
+   "body": "Hi Adam, following up on my note last week. Congratulations on AFENDS turning 20 this year. With a National Retail Manager role advertised, I'd guess the store network keeps growing, and every store adds takings to match back to the ledger. Vert handles that matching with a trail your team can trace. Is store and online settlement matching the heaviest part of your close?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C8",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "afends--adam-simmons",
+   "subject": "Re: Month-end at AFENDS",
+   "body": "Hi Adam, last nudge from me. With AFENDS sold through Remix in the UK and retailers across Europe and Japan, I'd imagine multi-currency payouts add real work to month-end. Worth 10 minutes to see how Vert handles that reconciling? No worries if the timing is off.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C6",
+    "C2"
+   ]
+  }
+ }
+}

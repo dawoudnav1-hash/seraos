@@ -1,0 +1,330 @@
+{
+ "accountId": "meir",
+ "accountName": "Meir",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Meir is a Melbourne (Albion) premium tapware brand running Acumatica and Shopify, which won the 2025 MYOB Acumatica Business Breakthrough Award and has grown fast, including a Sept 2025 partnership with Nood Co. Kamal Bapna is the confirmed current Finance Manager (CPA, FX management background). The listed primary contact, Maddie Collins, could not be confirmed at Meir, but she is the only contact with an email (Kamal Bapna has none), so drafts go to Maddie.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/kamal-bapna-cpa-34731898",
+   "title": "Kamal Bapna CPA - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/posts/acacia-consulting-services_congratulations-again-to-meir-and-peter-gouraros-activity-7404291137429127168-8gh6",
+   "title": "Congratulations again to Meir and Peter Gouraros (Acumatica Business Breakthrough Award)",
+   "type": "linkedin",
+   "publisher": "Acacia Consulting Services",
+   "date": "2025-12-09"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.meir.com.au/pages/about-us",
+   "title": "About Us - Meir Australia",
+   "type": "website",
+   "publisher": "Meir",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.applianceretailer.com.au/meir-nood-co-celebrate-business-collaboration/",
+   "title": "Meir & Nood Co celebrate business collaboration",
+   "type": "news",
+   "publisher": "Appliance Retailer",
+   "date": "2025-09-16"
+  },
+  {
+   "id": "S5",
+   "url": "https://jobau.org/inventory_melbourne-c1006235/2026-10-meir_i4244108808",
+   "title": "Inventory and fulfilment controller - Meir",
+   "type": "job",
+   "publisher": "jobau.org",
+   "date": "2026-10-14"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/meir-australia",
+   "title": "Meir - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://jobs-au.jobflurry.com/details/5AA1CD83E6CDA4809F72CE65D569A0B4/financial-controller",
+   "title": "Financial Controller - Meir (job ad)",
+   "type": "job",
+   "publisher": "TheBigJobsite",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Meir's own site describes it as an Australian, family-owned, multiple-award-winning company making premium bathroom and kitchen products since 2012.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We are Meir. A multiple-award winning, Australian, family-owned company that strives for perfection in manufacturing and service.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Meir is headquartered in Albion, Victoria.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Headquartered in Albion, Victoria, Australia, with presence in United States.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C3",
+   "text": "Kamal Bapna is currently Finance Manager at Meir (since Nov 2024).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager at Meir",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Kamal Bapna's profile highlights in-depth knowledge of foreign exchange management strategies and leading system and process change.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "I have developed an in depth knowledge of Foreign Exchange (FX) management strategies",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Meir won the MYOB Acumatica Business Breakthrough Award for 2025, per its Acumatica partner Acacia.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Congratulations again to Meir and Peter Gouraros, who were recognised as winners of the MYOB Acumatica Business Breakthrough Award for 2025.",
+   "date": "2025-12",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Meir's Acumatica implementation was credited with saving over 30% in admin time.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "\"MYOB Acumatica has saved us over 30% in admin time.\" states Peter Gouraros.",
+   "date": "2025-12",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Meir's LinkedIn tech stack lists Acumatica, MYOB and Shopify.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Tech Stack: acumatica, myob, unify, google ads, klaviyo, shopify",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "In Sept 2025 founder Rick Bazerghi said Meir's FY sales were up 85% and announced a partnership with Nood Co.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "He said FY sales are up 85%, the fifth year of triple digit growth.",
+   "date": "2025-09",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Meir advertised (Oct 2026) a new Inventory and Fulfilment Controller role, to make Acumatica the single source of truth for inventory data.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Make Acumatica the single source of truth for inventory data",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The same ad has the role managing stock turns and working capital and holding suppliers and freight partners to standards.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Manage stock turns, SLOB and working capital against clear targets",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Meir is sold in 14 countries and over 2,000 retailers in Australia.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Available in 14 countries worldwide and over 2,000 retailers in Australia.",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Meir ran a Financial Controller job ad (undated) citing growth, systems optimisation and preferred MYOB Acumatica experience.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Experience implementing or optimising ERP systems, particularly MYOB Acumatica",
+   "date": "2026",
+   "category": "hiring",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Kamal Bapna",
+   "title": "Finance Manager",
+   "contactId": "meir--kamal-bapna",
+   "linkedin": "https://linkedin.com/in/kamal-bapna-cpa-34731898",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Maddie Collins",
+   "title": "Financial Controller (per accounts.json; not confirmed)",
+   "contactId": "meir--maddie-collins",
+   "linkedin": null,
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Award-winning Acumatica rollout already saved admin time; the remaining pain is the reconciliation layer around it (stockist receipts, Shopify, FX).",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Kamal's FX management background plus a business growing fast across 14 countries.",
+   "claimIds": [
+    "C4",
+    "C11"
+   ]
+  },
+  {
+   "text": "New Inventory and Fulfilment Controller role signals stock/working-capital tightening and Acumatica as source of truth.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  },
+  {
+   "text": "Sales up 85% and the Nood Co partnership mean more stockist transactions to match each month.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Drafts are addressed to Maddie Collins only because Kamal Bapna has no email on file; find Kamal's email and re-address if Maddie has left.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Heavily invested in Acumatica (award, partner Acacia); may see Vert as overlap, so position as the reconciliation layer on top.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Listed primary contact Maddie Collins (Financial Controller) could not be confirmed at Meir, and an undated Financial Controller job ad exists, so the FC seat may be vacant or changed.",
+   "claimIds": [
+    "C12"
+   ]
+  },
+  {
+   "text": "Partnership with Nood Co (Sept 2025) may bring structure or finance changes.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No current LinkedIn/web evidence that Maddie Collins works at Meir.",
+  "No podcast, video or Facebook content found for Kamal Bapna.",
+  "Meir careers page returned 404; job ad date for the Financial Controller role is unknown."
+ ],
+ "searches": [
+  {
+   "query": "Meir tapware Australia Kamal Bapna Finance Manager Acumatica",
+   "results": 6
+  },
+  {
+   "query": "Meir Australia tapware brand growth 14 countries record revenue scalable systems",
+   "results": 6
+  },
+  {
+   "query": "Maddie Collins Financial Controller Meir",
+   "results": 0
+  },
+  {
+   "query": "meir.com.au home / about-us / careers (fetched)",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "meir--maddie-collins",
+   "subject": "Acumatica and the reconciliation layer at Meir",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ],
+   "body": "Hi Maddie,\n\nMeir winning the MYOB Acumatica Business Breakthrough Award for 2025, with Acumatica credited for saving over 30% in admin time, tells me your team has already automated a lot. What usually stays manual is the layer around it: Shopify payouts, stockist receipts and FX. I built Vert to take reconciliation and cash coding from hours to minutes, with every match traceable. How much of your month-end still sits in spreadsheets outside Acumatica?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "meir--maddie-collins",
+   "subject": "Re: Acumatica and the reconciliation layer at Meir",
+   "claimIds": [
+    "C8",
+    "C11"
+   ],
+   "body": "Hi Maddie,\n\nFollowing up on my note last week. Rick Bazerghi told Appliance Retailer that Meir's FY sales were up 85%, and with stockists across 14 countries that usually means a lot more receipts and rebates to match every month. Would a 10 min look at how Vert clears those matches without anyone touching a spreadsheet be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "meir--maddie-collins",
+   "subject": "Re: Acumatica and the reconciliation layer at Meir",
+   "claimIds": [
+    "C9",
+    "C10"
+   ],
+   "body": "Hi Maddie,\n\nLast note from me. I saw Meir is hiring an Inventory and Fulfilment Controller to make Acumatica the single source of truth for inventory data. Once stock is clean, the finance side is tying freight and supplier invoices back to the ledger, which Vert does in minutes. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

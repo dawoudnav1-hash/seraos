@@ -1,0 +1,261 @@
+{
+ "accountId": "adviceco-ca",
+ "accountName": "AdviceCo CA",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "AdviceCo (formerly Robson Partners) is a Gosford, NSW accounting, tax and wealth firm led by Managing Director David Evers, with offices in Wyong and Sydney and a Countplus partnership. It positions itself as a small business accountant and virtual CFO and offers bookkeeping and accounting technology.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://adviceco.com.au/",
+   "title": "AdviceCo. | Meaningful Accounting, Tax and Wealth Advice",
+   "type": "website",
+   "publisher": "AdviceCo",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://adviceco.com.au/member/david-evers/",
+   "title": "David Evers - AdviceCo.",
+   "type": "website",
+   "publisher": "AdviceCo",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/adviceco-ca",
+   "title": "AdviceCo CA Pty Limited | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.ccbusinessreview.com.au/david-evers-and-troy-marchant-adviceco/",
+   "title": "David Evers and Troy Marchant - AdviceCo",
+   "type": "news",
+   "publisher": "Central Coast Business Review",
+   "date": "2022-05-04"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.upbusinesses.com/408/adviceco",
+   "title": "AdviceCo | Expert Accountants in Gosford",
+   "type": "directory",
+   "publisher": "UpBusinesses",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://adviceco.com.au/about-us/",
+   "title": "About Us - AdviceCo.",
+   "type": "website",
+   "publisher": "AdviceCo",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "AdviceCo (formerly Robson Partners) is an accountancy and financial planning firm based in Gosford with offices in Wyong and Sydney.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "AdviceCo. (formerly Robson Partners) is an accountancy and financial planning firm based in Gosford",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "David Evers is Managing Director of AdviceCo.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "David Evers is the Managing Director of adviceco.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "David leads a team of over 30 staff across accounting, tax and wealth for 2,000 clients.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "leads our team of over 30 staff in the areas of Accounting, Tax and Wealth for 2,000 clients",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "David founded the firm's Financial Services department in 2002.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "David founded the Financial Services department of our business in 2002",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "AdviceCo partnered with Countplus, an ASX-listed accounting aggregator, in 2009.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "In 2009, AdviceCo partnered with Countplus – a national accounting firm aggregator listed on the Australian Stock Exchange.",
+   "date": "2022-05",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "The firm calls itself a small business accountant, a virtual CFO, a family accountant and a personal wealth advisor.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "we are proudly a small business accountant, a virtual CFO, a family accountant, a personal wealth advisor",
+   "date": "",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Business products range from bookkeeping and accounting technology to CFO services and business coaching.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Some of the business products we offer range from bookkeeping and accounting technology, to CFO services and bespoke business coaching.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "A directory lists AdviceCo as a Xero Platinum Partner.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Xero Platinum Partner",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "LinkedIn shows 21 employees with a workforce across Australia and the Philippines.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Its workforce is distributed across Australia and Philippines.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "LinkedIn lists the tech stack as ASIC, MYOB, QuickBooks and Xero.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Tech Stack: asic, myob, quickbooks, xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "David Evers",
+   "title": "Managing Director",
+   "contactId": "adviceco-ca--david-evers",
+   "linkedin": "https://www.linkedin.com/in/david-evers-79049230",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Troy Marchant",
+   "title": "Director",
+   "contactId": "adviceco-ca--troy-marchant",
+   "linkedin": "https://www.linkedin.com/in/troy-marchant-ca-gaicd-9868b212",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Large client base (2,000) across accounting and wealth, with bookkeeping and CFO offerings: reconciliation volume.",
+   "claimIds": [
+    "C3",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Long-tenured MD who founded the wealth arm and drove the Countplus partnership.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Countplus affiliation may mean preferred tech or procurement through the aggregator.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "Workforce partly in the Philippines suggests an existing offshore bookkeeping model.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "Firm is wealth-heavy, so reconciliation may be a smaller share of the business.",
+   "claimIds": [
+    "C6",
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent dated posts by David Evers found.",
+  "No hiring ads or podcasts found.",
+  "Services page for e-commerce / month-end not found; fit signal in accounts.json not confirmed."
+ ],
+ "searches": [
+  {
+   "query": "AdviceCo Gosford David Evers outsourced CFO",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "adviceco-ca--david-evers",
+   "subject": "Re: Idea for AdviceCo",
+   "body": "Hi David,\n\nFollowing up on my note last week. AdviceCo describes itself as a small business accountant and a virtual CFO, and offers bookkeeping and accounting technology to businesses. With 2,000 clients and a Xero Platinum Partner listing, reconciliation is the volume work behind it. Vert turns that from hours into minutes, with a traceable trail on every match. Worth a 10 min look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C6",
+    "C7",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "adviceco-ca--david-evers",
+   "subject": "Re: Idea for AdviceCo",
+   "body": "Hi David,\n\nLast note. You founded the financial services side of AdviceCo in 2002 and the firm partnered with Countplus in 2009 as it grew. Vert takes reconciliation off the critical path, in minutes rather than hours. Happy to show it on a sample client file?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  }
+ }
+}

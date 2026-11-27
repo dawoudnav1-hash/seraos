@@ -1,0 +1,297 @@
+{
+ "accountId": "sullivans-cove-distillery",
+ "accountName": "Sullivans Cove Distillery",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Sullivans Cove is an award-winning Tasmanian single cask whisky distillery in Cambridge (est. 1994) with a small finance team: CFO Simon Loader and Finance Manager Nainika Mascarenhas. It runs Xero, Employment Hero and Shopify, operates a cellar door, and received a federal grant to build a new waterfront distillery. Drafts go to Nainika, who runs the day-to-day books.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/nainika-mascarenhas",
+   "title": "Nainika Mascarenhas - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/simon-loader-8a2413101",
+   "title": "Simon Loader - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/sullivans-cove-whisky",
+   "title": "Sullivans Cove Distillery - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.grants.gov.au/Ga/Show/41f95d6e-586e-40c2-95a8-db53f838eba5",
+   "title": "Grant Award View GA214636-V2",
+   "type": "registry",
+   "publisher": "GrantConnect",
+   "date": "2024-06-13"
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/amy-jones-4b720a160",
+   "title": "Amy Jones - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S6",
+   "url": "https://sullivanscove.com/about-us/people",
+   "title": "Our People - Sullivans Cove Whisky",
+   "type": "website",
+   "publisher": "Sullivans Cove",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.hainesconsultinggroup.com.au/post/sullivans-cove-distillery-receives-3-3m-federal-government-grant-for-new-distillery-development",
+   "title": "Sullivans Cove Distillery receives federal grant for new distillery",
+   "type": "news",
+   "publisher": "Haines Consulting Group",
+   "date": "2021-11-23"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Sullivans Cove's own site lists its address as 1/10 Lamb Place, Cambridge, Tasmania and a distillery team led by Distillery Manager Heather Tillott.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "SULLIVANS COVE Distillery 1/10 Lamb Place, Cambridge, Tasmania, Australia",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Nainika Mascarenhas is currently Finance Manager at Sullivans Cove Distillery (since Jul 2024; previously Assistant Accountant from May 2021).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager at Sullivans Cove Distillery",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Simon Loader is currently CFO at Sullivans Cove (CFO since Jul 2020).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Chief Financial Officer at Sullivans Cove",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "The distillery covers distillation, maturation, bottling, distribution and a cellar door offering tours and tastings five days a week.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The operation includes distillation, maturation, bottling, distribution and cellar door offering tours and tastings five days a week.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Its LinkedIn tech stack lists Xero, Employment Hero and Shopify.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Tech Stack: employment hero, amp, xero, well, facebook, klaviyo, looker, shopify, wordpress",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "Sullivans Cove was awarded a A$3.66M Modern Manufacturing Initiative grant to relocate and develop a new distillery on the Hobart waterfront.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Sullivans Cove to relocate and develop a world class distillery on the Hobart wa",
+   "date": "2024-06",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The grant-funded facility includes a tourism experience, per the grant record.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "the development will include a tourism experience where Sullivans Cove Distillery can showcase its approach to whisky making",
+   "date": "2024-06",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Its office manager manages Xero accounts receivable and payable and fortnightly payroll through Employment Hero.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Effective management of Xero for accounts receivable and payable, ensuring timely and accurate financial record-keeping and reporting.",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Nainika Mascarenhas's earlier career includes preparing and reviewing books of account monthly, quarterly and annually at SAJ Accountants.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Preparation and periodic review of books of accounts on a monthly, quarterly, half yearly and annual basis",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Company LinkedIn shows 22 employees and +14.8% yearly growth.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Sullivans Cove Distillery employs 22 people (+14.8% YoY, +4 people), founded in 1994.",
+   "date": "2026-11",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "In 2021 the project was described as a A$20m development to build a new production facility and visitor experience on the Hobart waterfront.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Mr Sable said the $20m project would be divided into two components",
+   "date": "2021-11",
+   "category": "news",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Nainika Mascarenhas",
+   "title": "Finance Manager",
+   "contactId": "sullivans-cove-distillery--nainika-mascarenhas",
+   "linkedin": "https://linkedin.com/in/nainika-mascarenhas",
+   "claimIds": [
+    "C2",
+    "C9"
+   ]
+  },
+  {
+   "name": "Simon Loader",
+   "title": "Chief Financial Officer",
+   "contactId": "sullivans-cove-distillery--simon-loader",
+   "linkedin": "https://linkedin.com/in/simon-loader-8a2413101",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Small finance team running Xero plus Shopify plus a cellar door: bank, payout and card reconciliations land on Nainika.",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "New grant-funded waterfront distillery and tourism site adds capex tracking and a second revenue stream to the close.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Admin staff currently handle Xero AR/AP, so automating matching frees a thin team.",
+   "claimIds": [
+    "C8",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Specialist excise and bonded-inventory accounting limits what a reconciliation tool covers; very small team may lack budget.",
+   "claimIds": [
+    "C10"
+   ]
+  },
+  {
+   "text": "Grant term ended Aug 2025 and the new-site timing is unconfirmed; the site move may not be current news.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "Admin & Finance Assistant job ad (cited in account notes) could not be retrieved, so not used.",
+  "No podcasts, posts or Facebook content from the finance team found.",
+  "No 2026 news found on the new site's progress."
+ ],
+ "searches": [
+  {
+   "query": "Sullivans Cove Distillery new distillery Cambridge Tasmania finance Nainika Mascarenhas Simon Loader",
+   "results": 6
+  },
+  {
+   "query": "Sullivans Cove Administration & Finance Assistant job Cambridge Tasmania",
+   "results": 5
+  },
+  {
+   "query": "sullivanscove.com/about-us/people (fetched)",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "sullivans-cove-distillery--nainika-mascarenhas",
+   "subject": "Month-end at Sullivans Cove",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C6"
+   ],
+   "body": "Hi Nainika,\n\nYou stepped up from Assistant Accountant to Finance Manager at Sullivans Cove, so you know the close from the inside. Between Shopify orders, a cellar door open five days a week and Xero, plus the new Hobart waterfront distillery funded by that Modern Manufacturing grant, there is a lot to reconcile with a small team. I built Vert to turn hours of reconciliation into minutes, with every match traceable. How long does your bank and Shopify reconciliation take each month?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "sullivans-cove-distillery--nainika-mascarenhas",
+   "subject": "Re: Month-end at Sullivans Cove",
+   "claimIds": [
+    "C8",
+    "C10"
+   ],
+   "body": "Hi Nainika,\n\nFollowing up on my note last week. I noticed accounts receivable and payable in Xero are shared across the admin team rather than sitting with finance alone. Vert matches bank lines to invoices and bills in minutes and flags anything it cannot match, so nothing is guessed. Would a 10 min walkthrough on one month of your data be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "sullivans-cove-distillery--nainika-mascarenhas",
+   "subject": "Re: Month-end at Sullivans Cove",
+   "claimIds": [
+    "C6",
+    "C7"
+   ],
+   "body": "Hi Nainika,\n\nLast note from me. With a new waterfront distillery and visitor experience in the pipeline, your close is only going to get busier. Vert can take the routine reconciliation off your plate so the team keeps time for the specialist work. Happy to show you in 10 minutes, or leave it if the timing is off.\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

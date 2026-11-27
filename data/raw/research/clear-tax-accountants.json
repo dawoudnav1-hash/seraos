@@ -1,0 +1,366 @@
+{
+ "accountId": "clear-tax-accountants",
+ "accountName": "Clear Tax Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Clear Tax Accountants is a Melbourne firm founded in 2018 by Ash Jindal and Yuvraj Verma, focused on small business and property tax, with bookkeeping and a team split between Australia and India. Its real website is cleartax.com.au (the cleartax.net.au domain on file is a mismatch, though contact Vasu Makkar is a verified Clear Tax employee in India). Yuvraj was quoted in a press release on 24 Nov 2026 and the firm is hiring client-facing accountants.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://cleartax.com.au/",
+   "title": "Melbourne Tax Accountants - Clear Tax",
+   "type": "website",
+   "publisher": "Clear Tax Accountants",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://cleartax.com.au/team/",
+   "title": "Our Team - Clear Tax",
+   "type": "website",
+   "publisher": "Clear Tax Accountants",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/yuvraj-verma-tax-accountant",
+   "title": "Yuvraj Verma - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-01"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.prlog.org/13185277-fake-ato-messages-and-tax-refund-scams-clear-tax-urges-australians-to-stay-alert.html",
+   "title": "Fake ATO Messages and Tax Refund Scams: Clear Tax Urges Australians to Stay Alert",
+   "type": "news",
+   "publisher": "PRLog",
+   "date": "2026-11-24"
+  },
+  {
+   "id": "S5",
+   "url": "https://cleartax.com.au/bookkeeping/",
+   "title": "Bookkeeping Consultants Australia - Clear Tax",
+   "type": "website",
+   "publisher": "Clear Tax Accountants",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://cleartax.com.au/careers/",
+   "title": "Careers with Clear Tax Accountants",
+   "type": "job",
+   "publisher": "Clear Tax Accountants",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/company/clear-tax-accountants",
+   "title": "Clear Tax Accountants - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-04-25"
+  },
+  {
+   "id": "S8",
+   "url": "https://linkedin.com/in/vasu-makkar",
+   "title": "Vasu Makkar - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-29"
+  },
+  {
+   "id": "S9",
+   "url": "https://www.youtube.com/watch?v=NKXJOjXYxk4",
+   "title": "Ash & Yuvraj Share their experience | Driving Growth With Grownomics EP5",
+   "type": "video",
+   "publisher": "Grownomics Digital Marketing Agency",
+   "date": "2024-09-05"
+  },
+  {
+   "id": "S10",
+   "url": "https://cleartax.com.au/services/melbourne-xero-accountants-services/",
+   "title": "Xero Accounting - Clear Tax",
+   "type": "website",
+   "publisher": "Clear Tax Accountants",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Clear Tax Accountants operates from cleartax.com.au, with a Melbourne CBD office at 120 Spencer Street and other offices in Victoria, Parramatta and Adelaide.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Clear Tax Accountants Level 22 (WeWork), 120 Spencer Street, Melbourne, VIC 3000, Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Yuvraj Verma is Co-Founder and Director of Clear Tax Accountants and still current per his LinkedIn (checked Nov 2026).",
+   "sourceIds": [
+    "S3",
+    "S2"
+   ],
+   "quote": "Co-Founder ▸Tax Accountant ▸Director - Clear Tax Accountants (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Vasu Makkar (contact on file with a cleartax.net.au email) is a current Clear Tax Accountants employee, Global Process Owner - Individual Tax, based in India.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Global Process Owner - Individual Tax (Current) Nov 2025 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Yuvraj was quoted in a Clear Tax press release dated 24 Nov 2026 warning about fake ATO refund scams.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Tax time ends on a set date, but scammers don't follow the ATO calendar,",
+   "date": "2026-11-24",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Yuvraj says he works exclusively with small business owners and gives proactive advice through the year, on tax planning, cash flow, business structure and deductions.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "I work exclusively with small business owners who want an accountant that's in their corner all year, not just at tax time.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Clear Tax's bookkeeping service includes reconciliation, accounts payable and receivable, payroll processing and statement preparation.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Our services include reconciliation, accounts payable and accounts receivable management, payroll processing, and statement preparation.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Clear Tax markets Xero accounting services and manages clients' Xero accounts.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "Manage your Xero accounts",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Vasu Makkar's LinkedIn says he implements process automation and efficiency improvements across Xero, MYOB, QuickBooks and Lodgeit at Clear Tax.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Implement process automation and efficiency improvements across Xero, MYOB, QuickBooks, and Lodgeit.",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Clear Tax's careers page lists Client-Facing Accountant roles (Melbourne and Brisbane) focused on moving beyond compliance into advisory, plus a Mortgage Broker role.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Client-Facing Accountant role focused on advisory, client relationships, and strategic thinking. Move beyond compliance and grow your career with a forward-thinking firm.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "LinkedIn shows Clear Tax grew 33.3% year on year to 54 employees (April 2025 snapshot), with a workforce distributed across India and Australia.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Clear Tax Accountants employs 54 people (+33.3% YoY, +16 people), founded in 2018.",
+   "date": "2025-04",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "Clear Tax says its Melbourne accountants use cloud-based accounting software and real-time financial reporting.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Our Melbourne business accountants utilize cloud-based accounting software and real-time financial reporting",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "Yuvraj and Ash Jindal appeared in a Grownomics podcast/video episode about their journey from Ireland to Australia and building Clear Tax.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "we came over to Australia you know I came first and then I asked Ash",
+   "date": "2024-09",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "Clear Tax's firm positioning is tax, structuring and property for small business owners, with an Indian professional network supporting cross-border advisory.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Australian-led cross-border advisory backed by our trusted Indian professional network",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Yuvraj Verma",
+   "title": "Co-Founder and Director",
+   "contactId": "clear-tax-accountants--yuvraj-verma",
+   "linkedin": "https://www.linkedin.com/in/yuvraj-verma-tax-accountant",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Vasu Makkar",
+   "title": "Global Process Owner - Individual Tax",
+   "contactId": "clear-tax-accountants--vasu-makkar",
+   "linkedin": "https://www.linkedin.com/in/vasu-makkar",
+   "claimIds": [
+    "C3",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Yuvraj's 24 Nov 2026 press-release quote on scams shows he is active publicly right now; opener can reference it.",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "text": "Bookkeeping service lists reconciliation and payroll across Xero and QuickBooks, with a team split between Melbourne and India; reconciling volume is likely high (inference).",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C10"
+   ]
+  },
+  {
+   "text": "Hiring client-facing advisory accountants to 'move beyond compliance': automating reconciliation frees capacity for advisory.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "Vasu Makkar is already driving process automation across Xero, MYOB and QuickBooks, so the firm is open to tooling (possible internal champion).",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Primary contact Vasu Makkar's email is on cleartax.net.au, not the firm's cleartax.com.au domain; unverified deliverability, so draft goes to Yuvraj (cleartax.com.au).",
+   "claimIds": [
+    "C3",
+    "C1"
+   ]
+  },
+  {
+   "text": "Core business is tax returns and property/structuring; bookkeeping is one service among many, so reconciliation volume may be modest.",
+   "claimIds": [
+    "C13",
+    "C6"
+   ]
+  },
+  {
+   "text": "Cleartax.com (India) is an unrelated e-invoicing/finance platform that shares the brand name; do not confuse the two.",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "gaps": [
+  "No firm blog posts about reconciliation or close found.",
+  "Yuvraj's own LinkedIn posts were not retrievable beyond his profile.",
+  "No Facebook/Instagram content reviewed.",
+  "The cleartax.net.au site returned no content; its relationship to the firm is unconfirmed beyond Vasu Makkar's employment."
+ ],
+ "searches": [
+  {
+   "query": "Clear Tax Accountants Melbourne cleartax.com.au about team bookkeeping",
+   "results": 8
+  },
+  {
+   "query": "Yuvraj Verma Clear Tax Accountants co-founder director Melbourne",
+   "results": 8
+  },
+  {
+   "query": "Clear Tax Accountants Melbourne job bookkeeper OR accountant vacancy seek OR careers",
+   "results": 5
+  },
+  {
+   "query": "Vasu Makkar ClearTax Global Process Owner Individual Tax",
+   "results": 5
+  },
+  {
+   "query": "fetch cleartax.net.au and cleartax.com.au home",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "clear-tax-accountants--yuvraj-verma",
+   "subject": "Reconciling at Clear Tax",
+   "body": "Hi Yuvraj,\n\nSaw your line in Clear Tax's press release this week that scammers don't follow the ATO calendar. Your bookkeeping service lists reconciliation, payroll and statement preparation, and with a team split between Melbourne and India I'd guess reconciling eats a big share of the month. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail showing how every transaction was matched. Is reconciliation something you are trying to take off your team's plate?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6",
+    "C10"
+   ]
+  },
+  "followUp": {
+   "contactId": "clear-tax-accountants--yuvraj-verma",
+   "subject": "Re: Reconciling at Clear Tax",
+   "body": "Hi Yuvraj,\n\nFollowing up on my note. I saw Clear Tax is hiring client-facing accountants to move beyond compliance into advisory. Automating reconciliation and cash coding is one way to free the team you already have for that advisory work. Worth a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "clear-tax-accountants--yuvraj-verma",
+   "subject": "Re: Reconciling at Clear Tax",
+   "body": "Hi Yuvraj,\n\nLast nudge. You give clients proactive advice all year, not just at tax time, and your team already works on process automation across Xero, MYOB and QuickBooks. Vert could slot in at the reconciliation step. I can show it in 10 min, or leave it with you.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C8"
+   ]
+  }
+ }
+}

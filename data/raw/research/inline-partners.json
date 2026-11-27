@@ -1,0 +1,284 @@
+{
+ "accountId": "inline-partners",
+ "accountName": "Inline Partners",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Inline Partners is a family-run Hunters Hill (Sydney) firm offering bookkeeping, accounting, tax advisory and CFO services, with a Philippines-based workforce. David Mah Chut is Managing Director and Director, and describes it as a small firm with a large firm offering. Bookkeeping, including bank reconciliations, is sold on monthly fixed pricing.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://inlinepartners.com.au",
+   "title": "Accountants Sydney | Accounting Firm Sydney - Inline Partners",
+   "type": "website",
+   "publisher": "Inline Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://inlinepartners.com.au/cfo-services/",
+   "title": "CFO Services Sydney | Inline Partners",
+   "type": "website",
+   "publisher": "Inline Partners",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://inlinepartners.com.au/about/",
+   "title": "About Us | Inline Partners",
+   "type": "website",
+   "publisher": "Inline Partners",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/in/david-mah-chut-57a64913",
+   "title": "David Mah Chut - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "S5",
+   "url": "https://inlinepartners.com.au/pricing/",
+   "title": "Pricing | Inline Partners",
+   "type": "website",
+   "publisher": "Inline Partners",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.balmainrozelle.org.au/inline-partners",
+   "title": "Inline Partners - Balmain Rozelle Chamber of Commerce",
+   "type": "directory",
+   "publisher": "Balmain Rozelle Chamber of Commerce",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Inline Partners is located at Suite 8, 35 Alexandra St, Hunters Hill NSW 2110.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Cuneo, Suite 8, 35 Alexandra St, Hunters Hill NSW 2110, Australia",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "David Mah Chut is Managing Director (since Oct 2019) and Director (since Jan 2009) of Inline Partners per LinkedIn, and is listed as Director on the firm's site.",
+   "sourceIds": [
+    "S4",
+    "S1"
+   ],
+   "quote": "Managing Director (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "David describes Inline as a small firm with a large firm offering.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We are a small firm with a large firm offering",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "David says what excites him most is being there for clients, and that staff and clients are family.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "What excites me most is being there for our clients.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Inline's bookkeeping team handles bank reconciliations, payroll, BAS and IAS lodgments, accounts payable and receivable.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We have a bookkeeping team who can ensure that your accounts are always kept up to date including bank reconciliations",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Inline sells bookkeeping on monthly fixed pricing.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "fair and fixed pricing, with zero nasty surprises",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Inline's CFO services include budgeting, cash flow management, management and board reporting, and guidance for clients' accounts teams.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Management & Board Reporting",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Inline works mostly with Xero, QuickBooks and MYOB and says it can usually work with a client's platforms.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "we work mostly with Xero, QuickBooks & MYOB",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Inline's workforce is distributed across Australia and the Philippines.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Its workforce is distributed across Australia and Philippines.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Lauren Evans is a Director of CFO and bookkeeping services at Inline.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director - CFO & Bookkeeping Services",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Inline has provided bookkeeping, taxation, accounting and consulting for 20 years as a family business.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We are a family business and have been providing professional bookkeeping, taxation, accounting and consulting services for 20 years.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "A local chamber listing names David Mah Chut as Director for accounting and advisory.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "David Mah Chut Director",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "David Mah Chut",
+   "title": "Managing Director",
+   "contactId": "inline-partners--david-mah-chut",
+   "linkedin": "https://www.linkedin.com/in/david-mah-chut-57a64913",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Lauren Evans",
+   "title": "Director - CFO & Bookkeeping Services",
+   "contactId": null,
+   "linkedin": null,
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Fixed-fee bookkeeping including bank reconciliations means reconciliation hours hit Inline's margin directly.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "David's 'small firm with a large firm offering' line: automation is how a small team delivers that.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Offshore (Philippines) team plus review by directors: review time on reconciliations.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "LinkedIn shows 9-10% YoY employee decline at the firm; small team (about 10), so budget may be limited.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No public posts, podcasts or news by David or the firm found; no job ads found; no Xero partner tier confirmed."
+ ],
+ "searches": [
+  {
+   "query": "inlinepartners.com.au fetch",
+   "results": 1
+  },
+  {
+   "query": "Inline Partners Hunters Hill David Mah Chut CFO services bookkeeping",
+   "results": 8
+  },
+  {
+   "query": "David Mah Chut LinkedIn fetch",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "inline-partners--david-mah-chut",
+   "subject": "Re: Idea for Inline Partners",
+   "body": "Hi David, following up on my earlier note. You describe Inline as a small firm with a large firm offering, and your bookkeeping includes bank reconciliations on fixed monthly pricing. That means every extra reconciling hour comes out of your margin. Vert turns hours of reconciling into minutes with a traceable audit trail. How much of your team's week goes on bank recs?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "inline-partners--david-mah-chut",
+   "subject": "Re: Idea for Inline Partners",
+   "body": "Hi David, one last note. With part of your workforce in the Philippines and Lauren running CFO and bookkeeping services, where does reconciliation review land? Vert prepares matched, traceable reconciliations so review is a skim. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C10",
+    "C4"
+   ]
+  }
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "accountId": "xo-accounting",
+ "accountName": "XO Accounting",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "XO Accounting is a Werribee, Victoria-headquartered Xero Platinum Partner selling fixed-price accounting, bookkeeping and payroll packages to businesses, SMSFs and rental owners across Australia and New Zealand. Managing Director Michael Kirby describes himself as a process-improvement enthusiast and has publicly described automating XO's onboarding with Practice Ignition and FYI. The practice is small, with some staff in the Philippines.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.xoaccounting.com.au",
+   "title": "XO Accounting | Xero Certified Accountant",
+   "type": "website",
+   "publisher": "XO Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/michael-kirby-43b814148",
+   "title": "Michael Kirby LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/xo-accounting-pty-ltd",
+   "title": "XO Accounting LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://fyi.app/integrations/zapier/",
+   "title": "Connect Zapier to FYI (testimonial by Michael Kirby, XO Accounting)",
+   "type": "other",
+   "publisher": "FYI",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://westernvic.com.au/accounting/xo-accounting",
+   "title": "XO Accounting - Ballarat Central Accountant",
+   "type": "directory",
+   "publisher": "WesternVIC",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.smh.com.au/sport/racing/trainers-deny-they-owe-500-000-to-company-at-the-centre-of-cup-prizemoney-fight-20250207-p5lacq.html",
+   "title": "Trainers deny they owe $500,000 to company at the centre of Cup prizemoney fight",
+   "type": "news",
+   "publisher": "The Sydney Morning Herald",
+   "date": "2025-02-07"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "XO Accounting (xoaccounting.com.au) is headquartered in Werribee, Victoria.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Headquartered in Werribee, Victoria, Australia",
+   "date": "2026",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Michael Kirby is Managing Director of XO Accounting, in the role since July 2013 per LinkedIn.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Jul 2013 - Present (13 years and 4 months) in Melbourne, State of Victoria, Australia",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "XO is a Xero Platinum Partner offering low-cost, fixed-price accounting and payroll solutions, with offices across Australia and New Zealand.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "As Xero Platinum Partners, XO Accounting can offer you the low-cost, fixed price, simple accounting and payroll solutions",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Michael writes that he loves process improvement and calls XO one of Australia's leading exponents of technology-led accounting.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I have a love of process improvement and currently XO Accounting we are one of Australia's leading exponents of technology lead accounting solutions.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In an FYI testimonial Michael says XO automated its onboarding using Practice Ignition and FYI, and creates tasks from Typeform and HubSpot via Zapier.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We’ve even automated our onboarding process using Practice Ignition and FYI.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "A directory listing says XO serves clients across Melbourne, Brisbane, Sydney and Auckland with a technology-driven approach.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "XO Accounting brings a fresh, technology-driven approach to accounting for businesses and individuals across Melbourne, Brisbane, Sydney, and Auckland.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Michael's LinkedIn headline lists a Xero Victorian Partner of the Year award and finalist placings for Australian and Innovative Partner of the Year.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Xero - Victorian Partner of the Year Melton City Council- Professional Services Business of the Year",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "XO's workforce is small and distributed across Australia and the Philippines.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Its workforce is distributed across Australia and Philippines.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "XO's services include bookkeeping, financial reporting, virtual CFO, business coaching and financial planning.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Clients can choose from a range of practical packages, covering everything from bookkeeping and business coaching to virtual CFO support.",
+   "date": null,
+   "category": "services",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "The SMH reported in February 2025 that Michael Kirby was the accountant of Esprit Racing, a company placed into liquidation amid a Melbourne Cup prizemoney dispute, and that he declined to comment.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Before its liquidation, Esprit’s accountant was Michael Kirby, according to company records.",
+   "date": "2025-02",
+   "category": "news",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Michael Kirby",
+   "title": "Managing Director",
+   "contactId": "xo-accounting--michael-kirby",
+   "linkedin": "https://www.linkedin.com/in/michael-kirby-43b814148",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C7"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Michael's stated love of process improvement and his own testimonial on automating onboarding with Practice Ignition and FYI: reconciliation is the next workflow to automate.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Fixed-price Xero packages mean manual reconciliation hours come straight out of margin.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Multi-office (Melbourne, Brisbane, Sydney, Auckland) delivery with offshore support suggests standardised, repeatable reconciliation workflows are valuable.",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Michael Kirby appears in 2025 press as accountant of a liquidated racing company in a prizemoney dispute; not related to XO's services, but avoid referencing it and treat with care.",
+   "claimIds": [
+    "C10"
+   ]
+  },
+  {
+   "text": "Very tech-forward already (Xero Platinum, FYI, Ignition, Zapier); may already use or be building automation for reconciliation. Small team.",
+   "claimIds": [
+    "C5",
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent (2025-2026) posts, podcasts or videos by Michael found; most LinkedIn activity found dates from 2019-2023.",
+  "No job ads found for XO Accounting.",
+  "Facebook/Instagram pages exist but no posts retrievable.",
+  "Headcount varies by source (9 on LinkedIn; 11 in record).",
+  "Site pages /about not retrievable."
+ ],
+ "searches": [
+  {
+   "query": "site:xoaccounting.com.au home/about (fetch)",
+   "results": 1
+  },
+  {
+   "query": "Michael Kirby XO Accounting Werribee managing director",
+   "results": 9
+  },
+  {
+   "query": "XO Accounting Xero Platinum Partner Victorian Partner of the Year Michael Kirby award technology",
+   "results": 5
+  },
+  {
+   "query": "XO Accounting Werribee bookkeeper accountant job vacancy Philippines team",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "xo-accounting--michael-kirby",
+   "subject": "Reconciliation at XO Accounting",
+   "body": "Hi Michael, your LinkedIn says you love process improvement, and your FYI testimonial describes automating XO's onboarding with Practice Ignition and FYI. With fixed-price Xero packages for clients across several offices, every hour spent reconciling comes straight out of margin. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace instead of AI that guesses. Is reconciliation the next piece of the workflow you'd want automated, or is it already covered?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C3"
+   ]
+  },
+  "followUp": {
+   "contactId": "xo-accounting--michael-kirby",
+   "subject": "Re: Reconciliation at XO Accounting",
+   "body": "Hi Michael, following up on my note last week. You describe XO as one of Australia's leading exponents of technology-led accounting, with clients across Melbourne, Brisbane, Sydney and Auckland. Would 10 minutes to watch Vert reconcile a sample Xero file be worth it? If it saves even part of the manual work, it should sit well with a fixed-price model.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "xo-accounting--michael-kirby",
+   "subject": "Re: Reconciliation at XO Accounting",
+   "body": "Hi Michael, final note. Between the Xero partner awards on your profile and a team spread across Australia and the Philippines, I'd guess consistency of reconciliation across people matters. Vert gives a traceable trail for every match, so a reviewer can check it quickly. If that's useful, I'm happy to show it on a sample file.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ }
+}

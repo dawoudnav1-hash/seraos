@@ -1,0 +1,281 @@
+{
+ "accountId": "y-s-accounting",
+ "accountName": "Y&S Accounting",
+ "status": "complete",
+ "summary": "Y&S Accounting is a CPA practice founded in 2008 by Yaritza Salazar, with a Melbourne CBD office on Little Collins Street and offices in other capitals. It serves individuals and businesses with tax, BAS and bookkeeping, with a focus on international students and immigrants, including Spanish-speaking clients. Its public content in 2025 centred on tax planning and visa sponsorship webinars, and it hired bilingual accountants in April 2025.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://ysaccounting.com.au/",
+   "title": "YS Accounting – Accounting Tax Services in Australia",
+   "type": "website",
+   "publisher": "Y&S Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://ysaccounting.com.au/about-us",
+   "title": "About Us | YS Accounting",
+   "type": "website",
+   "publisher": "Y&S Accounting",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/yaritza-salazar-12a67934",
+   "title": "Yaritza Salazar | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/y-%26-s-accounting_visa-sponsorship-company-benefits-and-how-activity-7325060574768156672-UZvA",
+   "title": "Y&S Accounting LinkedIn: visa sponsorship webinar",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Y&S Accounting)",
+   "date": "2025-05-05"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/y-%26-s-accounting_business-owners-in-australia-the-clock-is-activity-7328257149044690946-XEwM",
+   "title": "Y&S Accounting LinkedIn: Business owners in Australia. The clock is ticking!",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Y&S Accounting)",
+   "date": "2025-05-14"
+  },
+  {
+   "id": "S6",
+   "url": "https://au.joblum.com/job/bilingual-accountant/12184426",
+   "title": "Job: Bilingual Accountant at YS Accounting Australia",
+   "type": "job",
+   "publisher": "Joblum (Y&S Accounting listing)",
+   "date": "2025-04-29"
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/company/y-&-s-accounting",
+   "title": "Y&S Accounting | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Y&S Accounting's Melbourne office is at Suite 410, Level 4, 365 Little Collins St, Melbourne VIC 3000 per its own site.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Suite 410 Level 4/365 Little Collins St. Melbourne VIC 3000",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Y&S Accounting was founded by Yaritza Salazar and has operated since 2008.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Y&S Accounting was founded by Yaritza Salazar",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Yaritza Salazar's LinkedIn lists Managing Director of Y&S Accounting as a current role (profile updated October 2026; this is a different profile URL from the one in accounts.json).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Managing Director - Y&S Accounting (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Y&S Accounting offers tax return, BAS and bookkeeping services.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Our services cover areas such as Tax Returns Preparation, BAS Preparation, Bookkeeping Services",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The firm serves clients in Melbourne, Sydney, Adelaide and Brisbane.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "in Melbourne, Sydney, Adelaide and Brisbane regardless of their industry.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The firm specialises in consulting for international students and immigrants.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "we specialise in professional consulting for international students and immigrants who are starting their lives in Australia",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In May 2025 the firm posted about Tax Planning & Advice Meetings for business owners ahead of EOFY.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Our Tax Planning & Advice Meetings include a full review of your current financial situation and tailored strategies to maximize deductions before the EOFY.",
+   "date": "2025-05",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "Yaritza Salazar was listed as a speaker on the firm's May 2025 online visa sponsorship event alongside a migration director.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Yaritza Salazar – Managing Director, Y&S Accounting",
+   "date": "2025-05",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "In April 2025 the firm advertised for two bilingual (Spanish/English) accountants as it continued to expand.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "we are seeking two motivated and experience Bilingual Accountants to join our multicultural team",
+   "date": "2025-04",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "The job ad requires proficiency with accounting software such as Xero or MYOB.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Proficiency with accounting software (e.g., Xero, MYOB, or similar).",
+   "date": "2025-04",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn lists Y&S Accounting at 27 employees.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Y&S Accounting employs 27 people, founded in 2008.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Yaritza Salazar",
+   "title": "Managing Director",
+   "contactId": "y-s-accounting--yaritza-salazar",
+   "linkedin": "https://www.linkedin.com/in/yaritza-salazar-a7655ba8",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "The firm was expanding its bilingual team in April 2025 and covers four capital cities, so reconciliation load scales with headcount and clients.",
+   "claimIds": [
+    "C9",
+    "C5"
+   ]
+  },
+  {
+   "text": "BAS and bookkeeping sit next to tax returns in the service list, and the EOFY tax planning push shows seasonal peaks.",
+   "claimIds": [
+    "C4",
+    "C7"
+   ]
+  },
+  {
+   "text": "Niche with international students and immigrants, including Spanish-speaking clients, is a distinctive angle.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Tax-return oriented practice; bookkeeping and BAS are offered but the service mix is individual-heavy, so fit is weak.",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  {
+   "text": "accounts.json LinkedIn URL for Yaritza differs from the profile found; found profile confirms the same name and role, but verify before relying on LinkedIn.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Public hiring and content evidence is from 2025, over 18 months old by now for some items.",
+   "claimIds": [
+    "C9",
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No 2026 posts, news or podcast appearances found.",
+  "No Xero/MYOB partner directory listing found.",
+  "Seminars page lists no dated events in the retrieved text."
+ ],
+ "searches": [
+  {
+   "query": "Y&S Accounting Melbourne Yaritza Salazar CPA",
+   "results": 7
+  },
+  {
+   "query": "Y&S Accounting Melbourne seminar OR job OR facebook OR linkedin post",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "y-s-accounting--yaritza-salazar",
+   "subject": "Reconciliation at Y&S Accounting",
+   "claimIds": [
+    "C9",
+    "C4",
+    "C5"
+   ],
+   "body": "Hi Yaritza,\n\nNoticed Y&S Accounting works across Melbourne, Sydney, Adelaide and Brisbane, offers BAS and bookkeeping alongside the tax work, and advertised for two more bilingual accountants last year. More clients and more offices usually means more reconciling before BAS. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail rather than AI that auto-codes and guesses. How much of your team's time goes on reconciling before lodgment? Open to a 10 min walkthrough?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "y-s-accounting--yaritza-salazar",
+   "subject": "Re: Reconciliation at Y&S Accounting",
+   "claimIds": [
+    "C7",
+    "C4"
+   ],
+   "body": "Hi Yaritza,\n\nFollowing up on my note last week. Your May post on tax planning meetings before EOFY made me think June must be a heavy stretch, with BAS and bookkeeping running alongside the tax returns. Vert reconciles and cash codes in minutes with a full audit trail. Would it help to see it on one of your busier client files?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

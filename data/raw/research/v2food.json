@@ -1,0 +1,290 @@
+{
+ "accountId": "v2food",
+ "accountName": "v2food",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "v2food is a Sydney plant-based meat company (Surry Hills) that acquired US brand Daring Foods and took an Ajinomoto investment in 2025, then launched Daring in Australia via Woolworths in May 2026. Gareth Sprainger has been CFO since March 2024 in a venture-backed role spanning finance, legal, property and operations, and signed the SEC Form D for the Daring deal. The stack includes NetSuite, and the company is larger than the typical lean-team target.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.sec.gov/Archives/edgar/data/2076955/000089843225000531/0000898432-25-000531.txt",
+   "title": "SEC Form D - V2 Food Pty Ltd",
+   "type": "registry",
+   "publisher": "SEC EDGAR",
+   "date": "2025-07-29"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/gareth-sprainger-b963203",
+   "title": "Gareth Sprainger - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "S3",
+   "url": "https://fromgotocfo.buzzsprout.com/682997/episodes/18586858-s3-ep3-leadership-at-the-intersection-of-strategy-and-change-with-gareth-sprainger-cfo-at-v2food",
+   "title": "From Go to CFO S3 EP3: Gareth Sprainger, CFO at V2Food",
+   "type": "podcast",
+   "publisher": "From Go to CFO (axr)",
+   "date": "2026-01-29"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.just-food.com/news/v2food-buys-us-alt-meat-peer-daring-foods-strikes-ajinomoto-tie-up/",
+   "title": "V2Food buys alt-meat peer Daring Foods, strikes Ajinomoto tie-up",
+   "type": "news",
+   "publisher": "Just Food",
+   "date": "2025-08-07"
+  },
+  {
+   "id": "S5",
+   "url": "https://insidefmcg.com.au/2026/05/26/v2food-acquires-daring-foods-launches-products-at-woolworths/",
+   "title": "V2Food acquires Daring Foods, launches products at Woolworths",
+   "type": "news",
+   "publisher": "Inside FMCG",
+   "date": "2026-05-26"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/v2foodofficial",
+   "title": "v2food - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/tim-york_v2food-activity-7444894699297083393-fZBU",
+   "title": "v2food named in Top 50 Global FoodTech Companies - Tim York",
+   "type": "linkedin",
+   "publisher": "Tim York on LinkedIn",
+   "date": "2026-03-31"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.ajinomoto.com/cms_wp_ajnmt_global/wp-content/uploads/pdf/2025_08_07E.pdf",
+   "title": "Ajinomoto Co., Inc. Invests in v2food Pty Ltd",
+   "type": "other",
+   "publisher": "Ajinomoto Co., Inc.",
+   "date": "2025-08-07"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "v2food's registered address in its SEC filing is Level 1, 104 Buckingham Street, Surry Hills NSW.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "104 BUCKINGHAM STREET LEVEL 1 SURRY HILLS",
+   "date": "2025-07",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Gareth Sprainger is listed on LinkedIn as the current CFO of v2food, since March 2024.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "CFO - v2food (Current) Mar 2024 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "In a January 2026 podcast Gareth is described as holding a venture-capital-backed CFO role spanning finance, legal, property and operations as the business scales.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "he sits in a venture-capital-backed CFO role at V2Food, spanning finance, legal, property, and operations as the business scales.",
+   "date": "2026-01",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In August 2025 v2food acquired US brand Daring Foods and signed a tie-up with Ajinomoto.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "V2Food has acquired vegan business Daring Foods for an undisclosed sum and signed a tie-up with Ajinomoto",
+   "date": "2025-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Gareth signed the SEC Form D (29 July 2025) covering preferred shares issued as consideration for the merger acquisition of Daring Foods, Inc.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "the Issuer issued 11,826,000 shares of its preferred stock as consideration for the merger acquisition of Daring Foods, Inc.",
+   "date": "2025-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In May 2026 v2food launched the Daring brand in Australia through Woolworths.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "launched the brand in Australia through Woolworths Group.",
+   "date": "2026-05",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "LinkedIn's company profile lists NetSuite, Oracle, Shopify and Klaviyo in v2food's tech stack.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Tech Stack: css3, html5, mongodb, nodejs, adp, netsuite, oracle, facebook, gorgias, klaviyo, shopify",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "In March 2026 CEO Tim York said v2food is now one of the largest players in the USA under the Daring brand plus a growing business in Asia and Africa.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "now being one of the largest players in the USA under the Daring. brand, plus an important and growing business in the emerging markets of Asia and Africa",
+   "date": "2026-03",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Ajinomoto's release says v2food also runs a direct-to-consumer meals business.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "v2food also operates a direct-to-consumer (D2C) business offering delicious and healthy meals",
+   "date": "2025-08",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Ajinomoto's release lists v2food at 143 employees, well above the account record headcount.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Number of Employees: 143",
+   "date": "2025-08",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Gareth Sprainger",
+   "title": "Chief Financial Officer",
+   "contactId": "v2food--gareth-sprainger",
+   "linkedin": "https://www.linkedin.com/in/gareth-sprainger-b963203",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5"
+   ]
+  },
+  {
+   "name": "Tracey McLeod",
+   "title": "Finance Manager",
+   "contactId": "v2food--tracey-mcleod",
+   "linkedin": "https://linkedin.com/in/tlmcleod380",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Gareth's January 2026 podcast describes a CFO role spanning finance, legal, property and operations; post-acquisition AU/US growth means close work competes with everything else on his plate.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Daring's Woolworths launch in Australia (May 2026) on top of the US business and Asia/Africa expansion adds reconciliation streams.",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  },
+  {
+   "text": "DTC meals business adds subscription and payment-gateway reconciliation.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Larger, heavily funded group (143 staff per Ajinomoto, ~US$147M raised) on NetSuite; likely mid-market tooling and a finance team beyond the lean ICP.",
+   "claimIds": [
+    "C10",
+    "C7"
+   ]
+  },
+  {
+   "text": "Ajinomoto now on the cap table; finance priorities may centre on integration and investor reporting.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance hiring ads found.",
+  "No post by Gareth himself on close or reconciliation.",
+  "No evidence of what DTC payout or reconciliation tools are used."
+ ],
+ "searches": [
+  {
+   "query": "v2food Daring Foods acquisition Ajinomoto investment Gareth Sprainger CFO NetSuite",
+   "results": 10
+  },
+  {
+   "query": "v2food 2026 news",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "v2food--gareth-sprainger",
+   "subject": "Month-end across v2food and Daring",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C6",
+    "C9"
+   ],
+   "body": "Hi Gareth,\n\nSaw your From Go to CFO conversation in January, where your role spans finance, legal, property and operations as v2food scales. Since then Daring has launched in Woolworths, and it now sits beside the acquired US business and your direct-to-consumer meals. I'm Dawoud, founder of Vert, which helps finance teams reconcile and cash code 2x faster with a traceable audit trail. How much of your month-end goes on reconciling before the analysis starts?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "v2food--gareth-sprainger",
+   "subject": "Re: Month-end across v2food and Daring",
+   "claimIds": [
+    "C7",
+    "C4",
+    "C8"
+   ],
+   "body": "Hi Gareth,\n\nFollowing up on my earlier note. With NetSuite in the stack and the Daring acquisition done, plus growth in Asia and Africa, how much of the monthly matching is still manual? Vert does not replace your ledger. It takes the reconciling work with an audit trail on every match. Worth a 10 min chat, or is someone on your team better placed?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "v2food--gareth-sprainger",
+   "subject": "Re: Month-end across v2food and Daring",
+   "claimIds": [
+    "C8",
+    "C6"
+   ],
+   "body": "Hi Gareth,\n\nLast nudge. Tim York's March note had v2food as one of the largest players in the USA under Daring, plus a growing business in Asia and Africa. More markets mean more reconciling at month-end. If a 10 min look is worthwhile, tell me. If not, I will leave it there.\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

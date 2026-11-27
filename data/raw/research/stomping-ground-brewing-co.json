@@ -1,0 +1,263 @@
+{
+ "accountId": "stomping-ground-brewing-co",
+ "accountName": "Stomping Ground Brewing Co.",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Stomping Ground is an independent Collingwood brewery with three beer halls and wholesale distribution across Victoria. In March 2026 it raised a crowd-sourced funding round and in October 2026 announced new beer halls (Geelong first, 2027) and a distribution push. Tanvi Aneja is its Finance Manager.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/tanvi-aneja-7579b6147",
+   "title": "Tanvi Aneja LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/stompingground-beer",
+   "title": "Stomping Ground Brewing Co. LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.beerandbrewer.com/stomping-ground-plans-beer-hall-and-distribution-expansion-as-it-marks-10-years/",
+   "title": "Stomping Ground plans beer hall and distribution expansion as it marks 10 years",
+   "type": "news",
+   "publisher": "Beer & Brewer",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.foodanddrinkbusiness.com.au/news/stomping-ground-raises-1-5m-in-csf-campaign",
+   "title": "Stomping Ground raises $1.5m in CSF campaign",
+   "type": "news",
+   "publisher": "Food & Drink Business",
+   "date": "2026-03-30"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.stompingground.beer/pages/contact",
+   "title": "Contact - Stomping Ground",
+   "type": "website",
+   "publisher": "Stomping Ground",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/in/paul-johns-b0342174",
+   "title": "Paul Johns LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-20"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Stomping Ground Brewing Co. is a neighbourhood brewery headquartered in Collingwood, Victoria, founded in 2016.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Stomping Ground Brewing Co is a neighbourhood brewery in Collingwood that brings people together over a great beer.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Tanvi Aneja is Finance Manager at Stomping Ground (current), in the role since May 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager - Stomping Ground Brewing Co. (Current) May 2025 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Tanvi previously worked in finance for Hyatt in Melbourne and as an Industrial Controller at Lactalis Australia.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Currently, I serve as an Industrial Controller at Lactalis Australia, where I manage financial reporting cycles",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Stomping Ground operates beer halls in Collingwood, Moorabbin and Melbourne Airport.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "BEER HALLS COLLINGWOOD 100 Gipps St, Collingwood, VIC 3066",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In October 2026 the brewery announced plans for new flagship beer halls with Geelong first in 2027, then more across Victoria.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "a new growth strategy will see Stomping Ground open new flagship beer halls across metropolitan Melbourne and regional Victoria, with Geelong slated as the first location in 2027",
+   "date": "2026-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The brewery is also planning a major distribution push to place its beers on more taps and retail shelves across Victoria.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "the brewery is also planning a major distribution push to place its beers on more taps in hospitality venues and on more retail shelves statewide",
+   "date": "2026-10",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Stomping Ground completed a $1.5 million crowd-sourced funding campaign supported by more than 640 investors, announced March 2026.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "has completed a $1.5 million crowd-sourced funding campaign through OnMarket, supported by more than 640 investors",
+   "date": "2026-03",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Paul Johns is Senior Management Accountant at Stomping Ground, having been Interim Finance Manager in 2025.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Senior Management Accountant (Current) Jul 2025 - Present",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "LinkedIn shows Finance as 3 of the brewery's staff and lists Xero in its tech stack.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Tech Stack: google ads, tiktok, repsly, chef, ease, well, xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Tanvi Aneja",
+   "title": "Finance Manager",
+   "contactId": "stomping-ground-brewing-co--tanvi-aneja",
+   "linkedin": "https://linkedin.com/in/tanvi-aneja-7579b6147",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Paul Johns",
+   "title": "Senior Management Accountant",
+   "contactId": "stomping-ground-brewing-co--paul-johns",
+   "linkedin": "https://www.linkedin.com/in/paul-johns-b0342174",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Expansion to new beer halls and a distribution push multiplies venue settlements and wholesale AR in the monthly close.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Recent crowd-funding from many investors adds reporting expectations on a small finance team.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "The Finance Manager ad found earlier is no longer listed and Finance Manager seat history shows turnover (Paul Johns was interim in 2025); check who owns tooling decisions.",
+   "claimIds": [
+    "C2",
+    "C8"
+   ]
+  },
+  {
+   "text": "Company page lists a parent organisation (Good Drinks Australia), unverified, which could affect buying.",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "gaps": [
+  "Finance Manager job ad referenced in CRM no longer appears (0 jobs on Employment Hero).",
+  "No posts or podcasts by finance staff found.",
+  "Xero tech-stack signal is from a LinkedIn profile only."
+ ],
+ "searches": [
+  {
+   "query": "Stomping Ground Brewing Finance Manager job Collingwood reconciliations",
+   "results": 6
+  },
+  {
+   "query": "Tanvi Aneja Finance Manager Stomping Ground Brewing",
+   "results": 5
+  },
+  {
+   "query": "Stomping Ground Brewing Co news 2026 expansion",
+   "results": 8
+  },
+  {
+   "query": "Stomping Ground Finance Manager Employment Hero job",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "stomping-ground-brewing-co--tanvi-aneja",
+   "subject": "Month-end across Stomping Ground's beer halls",
+   "body": "Hi Tanvi, I read that Stomping Ground is planning new beer halls, with Geelong first in 2027, on top of Collingwood, Moorabbin and Melbourne Airport. Each venue adds POS and card settlements, plus wholesale to venues and bottle shops, all landing in your month-end. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace. How much of your close goes on matching venue settlements and wholesale today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "stomping-ground-brewing-co--tanvi-aneja",
+   "subject": "Re: Month-end across Stomping Ground's beer halls",
+   "body": "Hi Tanvi, following up on my note last week. Stomping Ground's $1.5 million crowd-sourced raise from more than 640 investors in March suggests more reporting on top of the usual close. Vert takes reconciling off the finance team so month-end gets to the numbers faster. Is matching bank and venue settlements the slowest part of your close?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C2"
+   ]
+  },
+  "followUp2": {
+   "contactId": "stomping-ground-brewing-co--tanvi-aneja",
+   "subject": "Re: Month-end across Stomping Ground's beer halls",
+   "body": "Hi Tanvi, last nudge from me. With a push to get Stomping Ground onto more taps and shelves across Victoria, the wholesale receivables side of your close only grows. Happy to show you Vert in 10 minutes if that is useful, and no worries if the timing is off.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C2"
+   ]
+  }
+ }
+}

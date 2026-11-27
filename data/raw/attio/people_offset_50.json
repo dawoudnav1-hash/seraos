@@ -1,0 +1,461 @@
+[
+ {
+  "record_id": "42effe30-95cb-4846-be09-e8f649aabf31",
+  "name": "Amy Willis",
+  "email_addresses": [
+   "amy@petergbouchier.com.au"
+  ],
+  "job_title": "Finance Manager",
+  "linkedin": "https://www.linkedin.com/in/amy-willis-976589104",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "ddab3476-d2ed-49c2-8c53-30a524ad5925"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Moorabbin",
+   "region": "VIC"
+  },
+  "description": "Finance Manager at Peter Bouchier. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:58",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "868545c4-d613-47f1-ba85-c279ee157f9f",
+  "name": "Hamilton Gong",
+  "email_addresses": [
+   "hamilton@iconbydesign.com.au"
+  ],
+  "job_title": "Accountant & Business Systems Lead",
+  "linkedin": "https://www.linkedin.com/in/hamilton-gong-48551042",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "51b1d53b-e18e-478b-815a-ffcc54dc2c62"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Kensington",
+   "region": "NSW"
+  },
+  "description": "Accountant & Business Systems Lead at Icon By Design. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:59",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "fa2c5bf9-3fd4-498b-a889-243e948dddf8",
+  "name": "David Light",
+  "email_addresses": [
+   "david@iconbydesign.com.au"
+  ],
+  "job_title": "Co-Founder",
+  "linkedin": "https://www.linkedin.com/in/david-light",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "51b1d53b-e18e-478b-815a-ffcc54dc2c62"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Kensington",
+   "region": "NSW"
+  },
+  "description": "Co-Founder at Icon By Design. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:35:59",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "afdbeade-ed2f-4334-948c-b5bf2e6d1d10",
+  "name": "Amy Hsu",
+  "email_addresses": [
+   "amy@homie.com.au"
+  ],
+  "job_title": "Finance Manager",
+  "linkedin": "https://www.linkedin.com/in/amy-hsu-6a5016186",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "443101b8-6089-4a45-8b6f-270cad2eb091"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Fitzroy",
+   "region": "VIC"
+  },
+  "description": "Finance Manager at HoMie. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:00",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "d9c37c07-22d1-42c3-9a0c-9ca3b4e99673",
+  "name": "Marcus Crook",
+  "email_addresses": [
+   "marcus@homie.com.au"
+  ],
+  "job_title": "Co-Founder",
+  "linkedin": "https://www.linkedin.com/in/marcuscrook",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "443101b8-6089-4a45-8b6f-270cad2eb091"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Fitzroy",
+   "region": "VIC"
+  },
+  "description": "Co-Founder at HoMie. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:00",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "e2cce370-68a6-4b1d-b384-759be1003e8d",
+  "name": "Serena Munroe",
+  "email_addresses": [
+   "serena@singleo.com.au"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/serenagmunroe",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "cdf0a0f0-8544-420b-9dd6-39b4a18766fc"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Botany",
+   "region": "NSW"
+  },
+  "description": "Financial Controller at Single O. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:01",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "ecf6e7af-4daa-4b3b-b9e2-2ef3d52bc4ce",
+  "name": "Teresa Zhang",
+  "email_addresses": [
+   "teresa@singleo.com.au"
+  ],
+  "job_title": "Senior Commercial Finance Manager",
+  "linkedin": "https://www.linkedin.com/in/teresa-zhang-85526679",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "cdf0a0f0-8544-420b-9dd6-39b4a18766fc"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Botany",
+   "region": "NSW"
+  },
+  "description": "Senior Commercial Finance Manager at Single O. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:02",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "f40bd80d-4589-4a92-8206-21f4667c8dab",
+  "name": "Davide Sofia",
+  "email_addresses": [
+   "davide.sofia@dineamic.com.au"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/davide-sofia-85262a132",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "aae95e85-586e-4c26-8b62-3420cdfb85a9"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Keysborough",
+   "region": "VIC"
+  },
+  "description": "Financial Controller at Dineamic. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:02",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/89481cf9be96c162220518789fc0d704_acf768939f8c3019f6c3d530888d5df17c963367a57c42ad8a8c2d48ccac96ce"
+ },
+ {
+  "record_id": "84c143f1-8467-41f8-bb93-4da40120a0d9",
+  "name": "Karen Inge",
+  "email_addresses": [
+   "karen.inge@dineamic.com.au"
+  ],
+  "job_title": "Co-Founder",
+  "linkedin": "https://www.linkedin.com/in/karen-inge",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "aae95e85-586e-4c26-8b62-3420cdfb85a9"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Keysborough",
+   "region": "VIC"
+  },
+  "description": "Co-Founder at Dineamic. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:03",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/e91a42fb03d2cdff1f2e3dca55e9b090_d2ef7bfc7107f943d889be20769edbb59b7799fb085acb2e668ea0552a74107b"
+ },
+ {
+  "record_id": "c2b5b7a7-549f-409b-91d7-87cec405e7ab",
+  "name": "Tony Huang",
+  "email_addresses": [
+   "tony@thejojobacompany.com.au"
+  ],
+  "job_title": "CFO",
+  "linkedin": "https://www.linkedin.com/in/tony-huang-894725b9",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "f2b1b419-ca91-43a4-b0bc-84ecfb042137"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Castle Hill",
+   "region": "NSW"
+  },
+  "description": "CFO at The Jojoba Company. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:04",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "c9f83422-0f86-4d83-89ac-24bd4698401e",
+  "name": "Vicki Engsall",
+  "email_addresses": [
+   "vicki@thejojobacompany.com.au"
+  ],
+  "job_title": "Founder",
+  "linkedin": "https://www.linkedin.com/in/vicki-engsall",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "f2b1b419-ca91-43a4-b0bc-84ecfb042137"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Castle Hill",
+   "region": "NSW"
+  },
+  "description": "Founder at The Jojoba Company. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:04",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "c9a80492-7aea-491d-b0a0-2f2b92c4ae82",
+  "name": "Gem Mariz Laniton",
+  "email_addresses": [
+   "gem@petzyo.com.au"
+  ],
+  "job_title": "Administrative Accountant",
+  "linkedin": "https://www.linkedin.com/in/gem-mariz-laniton-600645225",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "70a11c3f-1fa5-45b1-8472-b4a7d1c2c895"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "South Yarra",
+   "region": "VIC"
+  },
+  "description": "Administrative Accountant (accounts & inventory) at Petzyo. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:05",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "7bed1595-4ee8-4708-8e8d-e93143c155a4",
+  "name": "David Latimer",
+  "email_addresses": [
+   "david@petzyo.com.au"
+  ],
+  "job_title": "Founder & CEO",
+  "linkedin": "https://www.linkedin.com/in/david-l-44b52913",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "70a11c3f-1fa5-45b1-8472-b4a7d1c2c895"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "South Yarra",
+   "region": "VIC"
+  },
+  "description": "Founder & CEO at Petzyo. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:06",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "6154c592-91f7-4db0-971c-1cf510255867",
+  "name": "Jennifer Bertrand",
+  "email_addresses": [
+   "jenny@underworks.com.au"
+  ],
+  "job_title": "Finance Manager",
+  "linkedin": "https://www.linkedin.com/in/jennifer-bertrand",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "ed8cc091-e1b7-43f9-b10f-1a9ae234bdec"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Broadmeadows",
+   "region": "VIC"
+  },
+  "description": "Finance Manager at Underworks. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:07",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "8f6b2009-02d9-4f43-91aa-5820af9a8940",
+  "name": "Oksana McGahey",
+  "email_addresses": [
+   "oksana@mont.com.au"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/oksana-mcgahey-ca-cpa-146956148",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "f9ddcf91-359b-4c68-aabb-6892254b64b1"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Fyshwick",
+   "region": "ACT"
+  },
+  "description": "Financial Controller at Mont Adventure Equipment. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:08",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "f67d0fc7-244f-4b3a-866c-afbf381aab96",
+  "name": "Andrew Montgomery",
+  "email_addresses": [
+   "andrew@mont.com.au"
+  ],
+  "job_title": "Managing Director",
+  "linkedin": "https://www.linkedin.com/in/andrew-montgomery-51bbbb7",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "f9ddcf91-359b-4c68-aabb-6892254b64b1"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Fyshwick",
+   "region": "ACT"
+  },
+  "description": "Managing Director at Mont Adventure Equipment. Contact #2 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:08",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  },
+  "avatar_url": "https://img.fullcontact.com/static/1dae01f30041960d4d5ea5ece02c2941_b90e52490f1a4cfa6c79448e9b2dc90557e5ca5e4625a2228c8723e6f525a5d3"
+ },
+ {
+  "record_id": "70689025-81e5-437a-b302-bd7639960a7a",
+  "name": "Patricia Edgell",
+  "email_addresses": [
+   "patricia@koraorganics.com"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/patricia-edgell-76247933",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "af60e916-6504-4c5e-81ce-9e124eb02faa"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Financial Controller at KORA Organics. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:09",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "c175ad48-5a75-4c3c-9bbd-2fb78b184e70",
+  "name": "Josh Bushell",
+  "email_addresses": [
+   "josh@lustahair.com"
+  ],
+  "job_title": "Head of Finance & Operations",
+  "linkedin": "https://www.linkedin.com/in/josh-bushell-93aa1821b",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "9526ef85-3475-4084-b38a-b7d95a68259f"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Adelaide",
+   "region": "SA"
+  },
+  "description": "Head of Finance & Operations at Lusta Hair. Contact #1 for Vert outreach (sourced via Origami, Nov 2026).",
+  "created_at": "Saturday, 2026-11-07 07:36:09",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ },
+ {
+  "record_id": "abe1729b-c4d2-4371-8a6b-f9179410c595",
+  "name": "Meghan Hay",
+  "email_addresses": [
+   "meghan.h@unleashlive.com"
+  ],
+  "job_title": "Financial Controller",
+  "linkedin": "https://www.linkedin.com/in/meghanhay",
+  "company": {
+   "object_slug": "companies",
+   "object_id": "effb6dd0-bca7-4935-8ced-b3a53d9bc571",
+   "record_id": "eaf89e1e-4b8e-4e33-a51f-e7b4d7ab7cc3"
+  },
+  "primary_location": {
+   "country_code": "AU",
+   "locality": "Sydney",
+   "region": "NSW"
+  },
+  "description": "Financial Controller at Unleash live (listed as Head of Finance on the company site). Finance contact for Vert outreach. Email found via Exa, Nov 2026 - not independently verified.",
+  "created_at": "Sunday, 2026-11-08 11:15:11",
+  "created_by": {
+   "workspace_membership_id": "377b69e3-b550-48b8-a255-85e48b94c833"
+  }
+ }
+]

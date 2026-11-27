@@ -1,0 +1,266 @@
+{
+ "accountId": "accounten",
+ "accountName": "Accounten",
+ "status": "thin",
+ "summary": "Accounten is a family-run Sydney accounting practice founded in 2020 by Amanda Ying and Jonathan So, offering bookkeeping, virtual CFO, audit preparation and payroll with no lock-in contracts. Its team is spread across Australia, India and the Philippines and it works in Xero. Little recent public activity (no blog posts, podcasts or job ads) was found.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://accounten.com.au/",
+   "title": "Accounten home",
+   "type": "website",
+   "publisher": "Accounten",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://accounten.com.au/our-story/",
+   "title": "Our Story",
+   "type": "website",
+   "publisher": "Accounten",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/accounten",
+   "title": "Accounten company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/amanda-ying-36597891",
+   "title": "Amanda Ying profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Accounten's own website describes it as a modern tax and accounting firm.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Welcome to Accounten, where old-school meets new-school in the world of tax and accounting!",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Amanda Ying is currently Director and Co-founder of Accounten, based in Sydney, since Sep 2020.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Director and Co-founder - Accounten (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Accounten was started in 2020 by a brother and sister and is a family-run firm.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "And so, in 2020, Accounten was born.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Amanda has over 7 years of audit and assurance experience plus over 10 years in business services and taxation.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "she has over 7 years of audit and assurance experience coupled with over 10 years of business services and taxation experience.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Accounten offers audit preparation, building work papers and reconciliations to suit each audit.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We can develop audit work papers and reconciliations tailored to suit your specific audit requirements",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Accounten offers outsourced virtual CFO services to small and medium businesses.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "outsourced CFO services to provide business analysis and insights to assist business growth",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Its bookkeeping service covers cloud software integration, day-to-day operations and monthly reporting.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Services ranging from cloud software integration, day-to-day operations to monthly reporting",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Accounten's workforce is distributed across Australia, India and the Philippines.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Its workforce is distributed across Australia, India, and Philippines.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Accounten lists Xero in its technology stack and is categorised as a Xero partner.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Tech Stack: microsoft, microsoft office, xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Accounten offers its services with no lock-in contracts.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "With no lock in contracts",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn shows Accounten at 4 people, growing 14.3% year on year.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Accounten employs 4 people (+14.3% YoY, +1 person).",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Jonathan So is listed as the other Director of Accounten.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Jonathan So: Director",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Amanda Ying",
+   "title": "Director and Co-founder",
+   "contactId": "accounten--amanda-ying",
+   "linkedin": "https://www.linkedin.com/in/amanda-ying-36597891",
+   "claimIds": [
+    "C2",
+    "C4"
+   ]
+  },
+  {
+   "name": "Jonathan So",
+   "title": "Director",
+   "contactId": "accounten--jonathan-so",
+   "linkedin": "https://www.linkedin.com/in/jonathan-so-11977a4b",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Amanda's audit and assurance background plus an audit-preparation service means reconciliations with a traceable trail matter to her.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Offshore team across India and the Philippines makes reviewable, consistent reconciliation output valuable.",
+   "claimIds": [
+    "C8",
+    "C7"
+   ]
+  },
+  {
+   "text": "Virtual CFO work sits on top of clean books.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small team (about 4 people), so budget and volume may be limited.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "gaps": [
+  "No blog posts, podcasts, press, job ads or dated social posts found.",
+  "Xero partner status taken from LinkedIn company profile only, not Xero directory."
+ ],
+ "searches": [
+  {
+   "query": "Amanda Ying Accounten Sydney director",
+   "results": 8
+  },
+  {
+   "query": "Accounten Sydney accounting Xero partner bookkeeper job virtual CFO",
+   "results": 3
+  },
+  {
+   "query": "accounten.com.au home/about/blog fetch",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "accounten--amanda-ying",
+   "subject": "Re: Idea for Accounten",
+   "body": "Hi Amanda,\n\nFollowing up on my note earlier this week. Accounten prepares work papers and reconciliations for clients' year-end audits, and with over 7 years in audit and assurance yourself, you know how much of that is tracing balances back to evidence. Vert produces reconciliations with a traceable trail behind every match. Would a 10 minute look at a sample file be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "accounten--amanda-ying",
+   "subject": "Re: Idea for Accounten",
+   "body": "Hi Amanda,\n\nLast nudge from me. With the team growing and spread across Australia, India and the Philippines, reconciliations that anyone can review and trace back to source could help keep quality consistent across bookkeeping clients. If that is a live topic at Accounten, I am happy to show you in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C7",
+    "C11"
+   ]
+  }
+ }
+}

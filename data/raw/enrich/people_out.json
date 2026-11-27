@@ -1,0 +1,522 @@
+{
+ "linkedin_found": [
+  {
+   "contactId": "goxpro--darren-donohoe",
+   "linkedin": "https://www.linkedin.com/in/darren-donohoe-b601639",
+   "evidence": "Head of Finance - GoXPro Pty Ltd (Current, Jan 2022-), Sydney; also AccountsIQ / Skills Base",
+   "confidence": "high"
+  },
+  {
+   "contactId": "hello-hello-plants--chris-lucas-marie-lucas",
+   "linkedin": "https://www.linkedin.com/in/chris-0a304b15b",
+   "evidence": "Chris Lucas: Nursery Owner, Hello Hello Plants (Current), Campbellfield VIC. Marie Lucas not found (company site says she retired from the nursery business)",
+   "confidence": "medium"
+  },
+  {
+   "contactId": "kora-organics--miranda-kerr-george-moskos",
+   "linkedin": "https://www.linkedin.com/in/miranda-kerr-151286192",
+   "evidence": "Miranda Kerr: Founder and CEO, KORA Organics (Current); profile is US-based and other lookalike profiles exist, verify before use. George Moskos left KORA in 2020 (profile /in/georgemoskos shows Co-Founder to Aug 2020) so not matched",
+   "confidence": "medium"
+  },
+  {
+   "contactId": "miss-amara--aaron-weller-alexandra-weller",
+   "linkedin": "https://www.linkedin.com/in/weller",
+   "evidence": "Aaron Weller: CEO & Co-Founder, Miss Amara (Current), Sydney HQ (profile location Hong Kong). Alexandra not matched: co-founder appears as 'Alexandra Tanya' (/in/alexandra-tanya) and /in/alexandra-weller-198228163 is an unrelated recruiter",
+   "confidence": "high"
+  },
+  {
+   "contactId": "moogoo-skin-care--cfo-terri-spence-or-paul-marzella",
+   "linkedin": "https://www.linkedin.com/in/paul-marzella-87362a6a",
+   "evidence": "Paul Marzella: CFO and GM Production, MooGoo Skin Care (Current, Nov 2020-), Gold Coast QLD",
+   "confidence": "high"
+  },
+  {
+   "contactId": "psyke-ai--ashley-law-smith",
+   "linkedin": "https://www.linkedin.com/in/ashleylawsmith",
+   "evidence": "Ashley Law-Smith: Fractional CFO, Psyke A.I (Current, Apr 2023-), Sydney; CA, GAICD",
+   "confidence": "high"
+  },
+  {
+   "contactId": "spell--isabella-pennefather-elizabeth-abegg",
+   "linkedin": "https://www.linkedin.com/in/elizabeth-abegg-75614b7b",
+   "evidence": "Elizabeth Abegg: Co-Founder and Chief Brand Officer, SPELL (Current), Byron Bay. Isabella has a thin profile au.linkedin.com/in/isabella-pennefather-76a114b9 ('Owner at Spell and the gypsy collective', 38 connections) - plausible but low-signal, not used",
+   "confidence": "high"
+  },
+  {
+   "contactId": "st-ali--mark-dundon",
+   "linkedin": "https://www.linkedin.com/in/mark-dundon-95847016",
+   "evidence": "Mark Dundon: Co Owner Seven Seeds (Current); 'founder - St Ali coffee' 2004-2007 (South Melbourne). He is the St Ali founder but his current roles are Seven Seeds/Paramount, not ST. ALi itself",
+   "confidence": "medium"
+  }
+ ],
+ "new_contacts": [
+  {
+   "accountId": "aims-australia-tax-accountants",
+   "name": "Nika Widanage",
+   "title": "Managing Partner (founder)",
+   "linkedin": "https://www.linkedin.com/in/nika-widanage",
+   "evidence": "Firm About page names her Managing Partner/founder; LinkedIn: Managing Partner AIMS Australia (Current)",
+   "sourceUrl": "https://aimsaustralia.com.au/about/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "bell-partners-melbourne",
+   "name": "Savannah Adamson",
+   "title": "Partner - Managing Director, Melbourne",
+   "linkedin": "https://www.linkedin.com/in/savannah-adamson-768943119",
+   "evidence": "Bell Partners team page: Managing Director, Melbourne; LinkedIn Partner-Managing Director Melbourne (Current). Profile location shows Sydney",
+   "sourceUrl": "https://www.bellpartners.com/team/savannah-adamson/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "bentleys-victoria",
+   "name": "Jack Delmo",
+   "title": "CEO, Bentleys Victoria",
+   "linkedin": "https://www.linkedin.com/in/jackdelmo",
+   "evidence": "Firm team page lists CEO & National Board Member (Victoria); LinkedIn CEO Victoria (Current)",
+   "sourceUrl": "https://www.bentleys.com.au/offices/bentleys-victoria/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "bentleys-victoria",
+   "name": "Fahmid Ahmed",
+   "title": "Partner/Director",
+   "linkedin": null,
+   "evidence": "Firm advisor page: Partner/Director Bentleys Victoria (Hawthorn); LinkedIn not located",
+   "sourceUrl": "https://www.bentleys.com.au/advisors/fahmid-ahmed/",
+   "confidence": "high",
+   "email": "fahmed@bentleysvic.com.au"
+  },
+  {
+   "accountId": "bri-ferrier-melbourne",
+   "name": "David Coyne",
+   "title": "Principal, Melbourne",
+   "linkedin": "https://www.linkedin.com/in/david-coyne-7b87a520",
+   "evidence": "Firm Melbourne page lists Principal; LinkedIn Principal BRI Ferrier Melbourne (Current)",
+   "sourceUrl": "https://briferrier.com.au/locations/melbourne/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "bri-ferrier-melbourne",
+   "name": "Innis Cull",
+   "title": "Principal, Melbourne",
+   "linkedin": "https://www.linkedin.com/in/innis-cull-ritp-14981925",
+   "evidence": "Firm Melbourne page lists Principal; LinkedIn Principal BRI Ferrier from Jul 2026",
+   "sourceUrl": "https://briferrier.com.au/locations/melbourne/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "davidsons-accountants-business-consultan",
+   "name": "Justin McGrath",
+   "title": "Managing Director | Partner",
+   "linkedin": "https://www.linkedin.com/in/justin-mcgrath-b226a51b",
+   "evidence": "Firm people page; LinkedIn Managing Director Davidsons (Current)",
+   "sourceUrl": "https://www.davidsons.com.au/our-people",
+   "confidence": "high"
+  },
+  {
+   "accountId": "davidsons-accountants-business-consultan",
+   "name": "Clinton Fraser",
+   "title": "Director | Partner (Torquay)",
+   "linkedin": "https://www.linkedin.com/in/clinton-fraser-17706222",
+   "evidence": "Firm people page; LinkedIn Director Tax & Business Services, Geelong & Torquay (Current)",
+   "sourceUrl": "https://www.davidsons.com.au/our-people/clinton-fraser",
+   "confidence": "high"
+  },
+  {
+   "accountId": "dfk-benjamin-king-money-dfk-bkm",
+   "name": "Cheree Woolcock",
+   "title": "CEO & Director",
+   "linkedin": "https://www.linkedin.com/in/cheree-woolcock-8a031822",
+   "evidence": "Firm team page; LinkedIn CEO and Director DFK BKM (Current)",
+   "sourceUrl": "https://dfkbkm.com.au/meet-our-members/",
+   "confidence": "high",
+   "email": "chereew@dfkbkm.com.au"
+  },
+  {
+   "accountId": "dfk-benjamin-king-money-dfk-bkm",
+   "name": "Paul Turnbull",
+   "title": "Director",
+   "linkedin": "https://www.linkedin.com/in/mrpaulturnbull",
+   "evidence": "Firm team page (Director since 2025); LinkedIn headline Director at DFK Benjamin King Money",
+   "sourceUrl": "https://dfkbkm.com.au/meet-our-members/",
+   "confidence": "medium",
+   "email": "pault@dfkbkm.com.au"
+  },
+  {
+   "accountId": "hm-advisory-formerly-hamilton-murphy",
+   "name": "Stephen Dixon",
+   "title": "Managing Partner",
+   "linkedin": "https://www.linkedin.com/in/stephen-d-34b98938",
+   "evidence": "AGN rebrand article names Stephen Dixon Managing Partner; LinkedIn (shown as 'Stephen D.') Partner at HM Advisory, shares HM Advisory launch",
+   "sourceUrl": "https://agn.org/insight/hamilton-murphy-advisory-rebrands-to-hm-advisory/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "hm-advisory-formerly-hamilton-murphy",
+   "name": "Leigh Dudman",
+   "title": "Director, Registered Liquidator",
+   "linkedin": "https://www.linkedin.com/in/leigh-dudman-83413695",
+   "evidence": "Firm team page; LinkedIn Director HM Advisory (Current)",
+   "sourceUrl": "https://hamiltonmurphy.com.au/our-team/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "hmh-advisory-haines-muir-hill",
+   "name": "Kristian Lunardello",
+   "title": "Managing Director",
+   "linkedin": "https://www.linkedin.com/in/kristian-lunardello-3b4a501",
+   "evidence": "Firm page: Managing Director, joined as graduate 2001, Director 2013; LinkedIn profile is active in hmh posts but snippet did not show employer line",
+   "sourceUrl": "https://www.hmh.com.au/directors/kristian-lunardello/",
+   "confidence": "medium"
+  },
+  {
+   "accountId": "hta-advisory",
+   "name": "Tim Hale",
+   "title": "Director & CEO (co-founder)",
+   "linkedin": "https://www.linkedin.com/in/timhale1",
+   "evidence": "Firm member page: Director & CEO; LinkedIn Co-Founder HTA (Current)",
+   "sourceUrl": "https://hta.com.au/member/tim-hale/",
+   "confidence": "high",
+   "email": "thale@hta.com.au"
+  },
+  {
+   "accountId": "hta-advisory",
+   "name": "Troy Townley",
+   "title": "Director (co-founder)",
+   "linkedin": "https://www.linkedin.com/in/troytownley",
+   "evidence": "Firm team page; LinkedIn Director at HTA, Co-Founder (Current)",
+   "sourceUrl": "https://hta.com.au/who-we-are/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "integrated-accountants-pl",
+   "name": "Harish Bisam",
+   "title": "Founder and Director",
+   "linkedin": "https://www.linkedin.com/in/hbisam",
+   "evidence": "Founder and Director per 2018 firm post; ABN business name 'Integrated Group Of Services' registered to Integrated Accountants Pty Ltd; domain owner; LinkedIn MD Integrated Group of Services (his many other ventures dominate headline)",
+   "sourceUrl": "https://abr.business.gov.au/ABN/View?abn=78152431500",
+   "confidence": "medium"
+  },
+  {
+   "accountId": "integrated-accountants-pl",
+   "name": "Kawalpreet Singh",
+   "title": "Partner / CEO (Caroline Springs office)",
+   "linkedin": "https://www.linkedin.com/in/kawalpreet-singh-034ab821",
+   "evidence": "LinkedIn: Partner Integrated Accountants Caroline Springs (Current); 2018 post announced him CEO",
+   "sourceUrl": "https://au.linkedin.com/in/kawalpreet-singh-034ab821",
+   "confidence": "medium"
+  },
+  {
+   "accountId": "jeffrey-thomas-partners-jt-p",
+   "name": "Richard Thomas",
+   "title": "Managing Partner",
+   "linkedin": "https://www.linkedin.com/in/richard-thomas-b109a490",
+   "evidence": "Firm site lists Managing Partner; LinkedIn Partner JT&P (Current). Caveat: 2023 merger with MVA Bennett announced, site still live",
+   "sourceUrl": "https://jeffreythomas.com.au/meet-the-team/",
+   "confidence": "medium",
+   "email": "richard.thomas@jeffreythomas.com.au"
+  },
+  {
+   "accountId": "jeffrey-thomas-partners-jt-p",
+   "name": "Wes Mudge",
+   "title": "Director",
+   "linkedin": "https://www.linkedin.com/in/wes-mudge-0008a723",
+   "evidence": "LinkedIn Director at Jeffrey Thomas & Partners (Current). Same merger caveat; not listed on public team snippet",
+   "sourceUrl": "https://linkedin.com/in/wes-mudge-0008a723",
+   "confidence": "medium"
+  },
+  {
+   "accountId": "mas-tax-accountants",
+   "name": "James Francis",
+   "title": "Principal",
+   "linkedin": "https://www.linkedin.com/in/jamesmastax",
+   "evidence": "LinkedIn Principal MAS TAX Accountants (Current, Oct 2024-), Epping; MAS is an office network so confirm he is in the Keysborough group",
+   "sourceUrl": "https://linkedin.com/in/jamesmastax",
+   "confidence": "medium"
+  },
+  {
+   "accountId": "matthews-steer-accountants-advisors",
+   "name": "Adrian Misiano",
+   "title": "Partner | Head of Client Relations (Owner)",
+   "linkedin": "https://www.linkedin.com/in/adrian-misiano-2126521a",
+   "evidence": "Firm people page; LinkedIn Owner Matthews Steer (Current)",
+   "sourceUrl": "https://www.matthewssteer.com.au/about/our-people/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "maximum-business-solutions-bruce-edmunds",
+   "name": "Janina Puttick",
+   "title": "Owner and Director, Maximum Business Solutions",
+   "linkedin": "https://www.linkedin.com/in/janina-puttick-896ba683",
+   "evidence": "Firm team page; LinkedIn Managing Director Maximum Business Solutions (Current). Bruce Edmunds & Associates principal not identified",
+   "sourceUrl": "https://maxbusiness.com.au/meet-the-team/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "mediq-financial-services",
+   "name": "Margaret Munetsi",
+   "title": "Director - Accounting & Tax",
+   "linkedin": "https://www.linkedin.com/in/margaret-munetsi-8019427a",
+   "evidence": "LinkedIn Director - Accounting & Tax MEDIQ Financial (Current, Aug 2025-); also LinkedIn company key exec. Founder Ravi Agarwal not verified as current",
+   "sourceUrl": "https://au.linkedin.com/company/mediq-financial",
+   "confidence": "high"
+  },
+  {
+   "accountId": "morris-cohen-glen-co-mcg-co",
+   "name": "Angelo Mazzone",
+   "title": "Director",
+   "linkedin": "https://www.linkedin.com/in/angelo-mazzone-62224332",
+   "evidence": "Firm team page; LinkedIn Director MCG (Current, Jul 1992-)",
+   "sourceUrl": "https://www.morco.com.au/our-team/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "morris-cohen-glen-co-mcg-co",
+   "name": "Luke Casley",
+   "title": "Director",
+   "linkedin": "https://www.linkedin.com/in/luke-casley-9aab45a8",
+   "evidence": "Firm team page; LinkedIn Director MCG (Current, Jul 2017-)",
+   "sourceUrl": "https://www.morco.com.au/our-team/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "oneledger-group",
+   "name": "Andrew Hubbard",
+   "title": "Managing Director",
+   "linkedin": "https://www.linkedin.com/in/andrew-hubbard-49718553",
+   "evidence": "Firm Our Story page; LinkedIn MD OneLedger (Current)",
+   "sourceUrl": "https://oneledger.com.au/our-story/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "oneledger-group",
+   "name": "Hai Trang",
+   "title": "Director of Growth (co-founder)",
+   "linkedin": "https://www.linkedin.com/in/haitrang",
+   "evidence": "Firm Our Story page; LinkedIn Director OneLedger (Current)",
+   "sourceUrl": "https://oneledger.com.au/our-story/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "patison-partners",
+   "name": "Katrina Magyar",
+   "title": "Director",
+   "linkedin": "https://www.linkedin.com/in/katrina-magyar-61a52037",
+   "evidence": "Firm leadership page; LinkedIn Director Patison Accountants & Advisors (Current)",
+   "sourceUrl": "https://www.patison.com.au/about",
+   "confidence": "high"
+  },
+  {
+   "accountId": "ppt-ppt-accounting-financial",
+   "name": "Glenn Palmer",
+   "title": "Director",
+   "linkedin": "https://www.linkedin.com/in/glenn-palmer-36500553",
+   "evidence": "Firm team page; LinkedIn Director PPT (Current, since 1986)",
+   "sourceUrl": "https://www.ppt.com.au/team/glenn-palmer/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "provectus-algae",
+   "name": "Nusqe Spanton",
+   "title": "Founder & CEO",
+   "linkedin": "https://www.linkedin.com/in/nusqe-spanton-99012a167",
+   "evidence": "LinkedIn Founder & CEO Provectus Algae (Current), Noosaville; company site news quotes him as Founder & CEO",
+   "sourceUrl": "https://www.provectusalgae.com/news/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "provectus-algae",
+   "name": "Mitch Mardiste",
+   "title": "VP, Finance & Admin",
+   "linkedin": "https://www.linkedin.com/in/mitch-mardiste",
+   "evidence": "LinkedIn VP Finance & Admin Provectus Algae (Current, Jul 2023-); also LinkedIn company key exec. Prior CFO David Toohey left Apr 2025",
+   "sourceUrl": "https://linkedin.com/company/provectus-algae",
+   "confidence": "high"
+  },
+  {
+   "accountId": "r-j-sanderson-associates",
+   "name": "Roy Sanderson",
+   "title": "Managing Director (founding director)",
+   "linkedin": "https://www.linkedin.com/in/roy-sanderson-05b91018",
+   "evidence": "Firm tax-agent disclosure names Managing Director Roy Sanderson; LinkedIn MD R J Sanderson (Current)",
+   "sourceUrl": "https://www.rjsanderson.com.au/legal/tax-agent-disclosure",
+   "confidence": "high",
+   "email": "roy@rjsanderson.com.au"
+  },
+  {
+   "accountId": "seiva-advisory",
+   "name": "Brent Szalay",
+   "title": "Managing Director",
+   "linkedin": "https://www.linkedin.com/in/brentszalay",
+   "evidence": "Firm team page; LinkedIn MD SEIVA (Current)",
+   "sourceUrl": "https://www.seiva.com.au/team/brent-szalay",
+   "confidence": "high"
+  },
+  {
+   "accountId": "seiva-advisory",
+   "name": "Brent Kirchner",
+   "title": "Director",
+   "linkedin": "https://www.linkedin.com/in/brent-kirchner-7891537",
+   "evidence": "Firm team page; LinkedIn Director SEIVA (Current, Jul 2026-)",
+   "sourceUrl": "https://www.seiva.com.au/team/brent-kirchner",
+   "confidence": "high"
+  },
+  {
+   "accountId": "slomoi-immerman-partners-sip",
+   "name": "Laurence Slomoi",
+   "title": "Director, Business Services (founder)",
+   "linkedin": "https://www.linkedin.com/in/laurenceslomoi",
+   "evidence": "Firm people page; LinkedIn Director SIP (Current)",
+   "sourceUrl": "https://www.slomoipartners.com.au/our-people/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "slomoi-immerman-partners-sip",
+   "name": "Gary Immerman",
+   "title": "Director, Business Services",
+   "linkedin": "https://www.linkedin.com/in/gary-immerman-954b5114",
+   "evidence": "Firm people page; LinkedIn Director SIP (Current)",
+   "sourceUrl": "https://www.slomoipartners.com.au/our-people/gary-immerman/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "stannards-accountants-advisors",
+   "name": "Peter Angelini",
+   "title": "Managing Director & Board Member",
+   "linkedin": "https://www.linkedin.com/in/peter-angelini-91659915",
+   "evidence": "Firm people page; LinkedIn MD Stannards (Current)",
+   "sourceUrl": "https://stannards.com.au/our-people/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "stannards-accountants-advisors",
+   "name": "Marino Angelini",
+   "title": "Partner / Director & Chairman (Business Services)",
+   "linkedin": "https://www.linkedin.com/in/marino-angelini-b77ba256",
+   "evidence": "Firm people page; LinkedIn Partner Stannards (Current)",
+   "sourceUrl": "https://stannards.com.au/our-people/",
+   "confidence": "high"
+  },
+  {
+   "accountId": "sy-group-chartered-accountants",
+   "name": "David Cochran",
+   "title": "CEO and Managing Director",
+   "linkedin": "https://www.linkedin.com/in/david-cochran-44744426",
+   "evidence": "Firm our-team page; LinkedIn Owner SY Group (Current). Avoid look-alike David Cochran profiles (Harbison, US)",
+   "sourceUrl": "https://sygroup.com.au/our-team",
+   "confidence": "high"
+  },
+  {
+   "accountId": "sy-group-chartered-accountants",
+   "name": "Con Papageorgiou",
+   "title": "Director (foundation director)",
+   "linkedin": "https://www.linkedin.com/in/con-papageorgiou-5b174413",
+   "evidence": "LinkedIn Director SY Group (Current); bio matches firm text about foundation director",
+   "sourceUrl": "https://linkedin.com/in/con-papageorgiou-5b174413",
+   "confidence": "high"
+  },
+  {
+   "accountId": "ufinancial-accounting-tax",
+   "name": "Nathan Romeo",
+   "title": "Director - Accounting & Tax",
+   "linkedin": "https://www.linkedin.com/in/nathan-romeo-849a1163",
+   "evidence": "Firm about page; LinkedIn Director Accounting & Tax UFinancial (Current)",
+   "sourceUrl": "https://ufinancial.com.au/about-us/",
+   "confidence": "high",
+   "email": "nathanromeo@ufinancial.com.au"
+  },
+  {
+   "accountId": "relevance-ai",
+   "name": "Daniel Vassilev",
+   "title": "Co-founder and co-CEO",
+   "linkedin": "https://www.linkedin.com/in/daniel-vassilev",
+   "evidence": "LinkedIn Co-founder and co-CEO Relevance AI (Current); profile location San Francisco, company HQ Sydney",
+   "sourceUrl": "https://linkedin.com/in/daniel-vassilev",
+   "confidence": "high"
+  },
+  {
+   "accountId": "relevance-ai",
+   "name": "Daniel Palmer",
+   "title": "Co-Founder",
+   "linkedin": "https://www.linkedin.com/in/dan-palmer",
+   "evidence": "LinkedIn Co-Founder Relevance AI (Current), Eveleigh NSW",
+   "sourceUrl": "https://linkedin.com/in/dan-palmer",
+   "confidence": "high"
+  },
+  {
+   "accountId": "relevance-ai",
+   "name": "Jacky Koh",
+   "title": "Co-Founder (also founder arg.ai from Aug 2026)",
+   "linkedin": "https://www.linkedin.com/in/jacky-koh",
+   "evidence": "LinkedIn lists Relevance AI co-founder/CEO (Current) alongside new venture arg.ai; involvement level uncertain",
+   "sourceUrl": "https://linkedin.com/in/jacky-koh",
+   "confidence": "medium"
+  },
+  {
+   "accountId": "melrose-health",
+   "name": "Daniel Royce",
+   "title": "Chief Financial Officer",
+   "linkedin": "https://www.linkedin.com/in/daniel-royce-53291583",
+   "evidence": "LinkedIn CFO Melrose Health (Current, Nov 2021-); LinkedIn company page key exec",
+   "sourceUrl": "https://linkedin.com/company/melrose-health",
+   "confidence": "high"
+  },
+  {
+   "accountId": "melrose-health",
+   "name": "Neal Mercado",
+   "title": "Chief Executive Officer",
+   "linkedin": "https://www.linkedin.com/in/neal-mercado-474b84a",
+   "evidence": "LinkedIn CEO Melrose Health (Current, Feb 2026-); LinkedIn company page key exec",
+   "sourceUrl": "https://linkedin.com/company/melrose-health",
+   "confidence": "high"
+  },
+  {
+   "accountId": "creswick-wool",
+   "name": "Boaz Herszfeld",
+   "title": "Executive Director (owner)",
+   "linkedin": "https://www.linkedin.com/in/boaz-herszfeld-2abb037b",
+   "evidence": "LinkedIn Executive Director Creswick Woollen Mills (Current); ABC and Courier articles name him and Sharon Herszfeld as owners",
+   "sourceUrl": "https://www.abc.net.au/news/rural/2022-09-04/75-years-creswick-mill-vital-asset/101388244",
+   "confidence": "high"
+  }
+ ],
+ "not_found": [
+  {
+   "id": "auguste-the-label--ebony-eagles",
+   "reason": "Ebony Eagles confirmed founder via press, but no personal LinkedIn profile surfaced in searches"
+  },
+  {
+   "id": "creswick-wool--paul-ryzowy",
+   "reason": "Paul Ryzowy founded the mill in 1947 and died 2008; contact is stale. Current owners Boaz and Sharon Herszfeld (Boaz added as new contact)"
+  },
+  {
+   "id": "ergopouch--alina-sack",
+   "reason": "Alina Sack confirmed as founder, but no LinkedIn profile found (only staff profiles referencing her)"
+  },
+  {
+   "id": "melrose-health--geoff-steinicke",
+   "reason": "Geoff Steinicke founded Melrose in 1979, sold it in 2010 and retired; stale contact. Current CEO/CFO added as new contacts"
+  },
+  {
+   "id": "underworks--sam-todaro",
+   "reason": "Sam Todaro confirmed as Founder/MD via press and Crunchbase, but no LinkedIn profile found"
+  },
+  {
+   "id": "relevance-ai--founder-name",
+   "reason": "Placeholder contact (name 'Founder Name'); real founders added as new contacts, remove placeholder"
+  },
+  {
+   "id": "relevance-ai--cfo-name",
+   "reason": "Placeholder contact (name 'CFO Name'); no CFO or finance head found publicly, remove placeholder"
+  },
+  {
+   "id": "great-wrap",
+   "reason": "Great Wrap's operating entity entered voluntary administration in Sep 2025 (all staff made redundant, ops shut down); no current decision-makers, suggest dropping account"
+  },
+  {
+   "id": "lgy-accountants",
+   "reason": "No named partners/directors with full names found: firm site shows first names only (Harry, Xi, David...) and no principal identifiable. Needs manual check"
+  }
+ ]
+}

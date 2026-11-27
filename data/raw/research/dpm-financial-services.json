@@ -1,0 +1,345 @@
+{
+ "accountId": "dpm-financial-services",
+ "accountName": "DPM Financial Services",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "DPM Financial Services is a Melbourne and Sydney group (since 1964) providing tax, accounting, lending and insurance to doctors. Michael Allsopp became CEO in May 2026 after a COO role at a property consultancy, and the firm is advertising Tax Accountant roles. Its work is tax-compliance and client-advice heavy rather than high-volume monthly closes.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.dpm.com.au",
+   "title": "Medical Financial Services - Tax, Accounting, Insurance | DPM",
+   "type": "website",
+   "publisher": "DPM Financial Services",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.dpm.com.au/our-story/",
+   "title": "Financial Expertise You Can Trust | DPM Financial Services",
+   "type": "website",
+   "publisher": "DPM Financial Services",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.dpm.com.au/our-people/michael-allsopp/",
+   "title": "Michael Allsopp | DPM Financial Services",
+   "type": "website",
+   "publisher": "DPM Financial Services",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/michael-allsopp-426b2838",
+   "title": "Michael Allsopp LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/michael-allsopp-426b2838_after-an-enjoyable-lunch-with-the-team-my-activity-7451053764385439744-aifD",
+   "title": "Michael Allsopp LinkedIn post on leaving Contour Consultants",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-04-17"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.dpm.com.au/careers",
+   "title": "Careers at DPM",
+   "type": "job",
+   "publisher": "DPM Financial Services",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://employmenthero.com/jobs/position/doquile-perrett-meade-pty-ltd-tax-accountant-nx0bw/",
+   "title": "Tax Accountant at Doquile Perrett Meade Pty Ltd (DPM)",
+   "type": "job",
+   "publisher": "Employment Hero",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://www.dpm.com.au/career/tax-accountant/",
+   "title": "Tax Accountant | DPM Financial Services",
+   "type": "website",
+   "publisher": "DPM Financial Services",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://www.dpm.com.au/our-people/",
+   "title": "DPM Consultants | Leading Medical Financial Experts in Australia",
+   "type": "website",
+   "publisher": "DPM Financial Services",
+   "date": null
+  },
+  {
+   "id": "S10",
+   "url": "https://www.dpm.com.au/wp-content/uploads/2024/04/AD-Senior-Accountant.pdf",
+   "title": "Senior Tax Accountant position ad",
+   "type": "job",
+   "publisher": "DPM Financial Services",
+   "date": "2024-04-01"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "DPM's Melbourne office is at 16/412 St Kilda Road, matching the firm record at dpm.com.au.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "16/412 St Kilda Road Melbourne VIC 3004",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "DPM positions itself as a financial services provider for doctors at every career stage.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "DPM offer financial services for doctors at each stage of their medical career.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Michael Allsopp is CEO of DPM Financial Services, in the role since May 2026 (LinkedIn current role).",
+   "sourceIds": [
+    "S4",
+    "S3"
+   ],
+   "quote": "May 2026 - Present (6 months) in Melbourne, State of Victoria, Australia",
+   "date": "2026-05",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In his CEO message Michael says DPM has a strong foundation and he is excited about what it makes possible.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "DPM has great people and a strong foundation. What excites me is what that foundation makes possible.",
+   "date": "2026",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Michael's DPM bio says he has helped privately held firms build the strategy, systems and structures to scale.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "He has worked with privately held firms to build the strategy, systems, and structures needed to scale",
+   "date": "2026",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Michael left his COO role at Contour Consultants in April 2026 and moved from property into finance.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "This also marks the end of my time in the property industry.",
+   "date": "2026-04",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "DPM's own history says it digitalised its Tax & Accounting service to improve efficiency.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We transformed our Tax & Accounting Service with digitalisation, enhancing our efficiency and service quality.",
+   "date": null,
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "DPM's careers page lists open Tax Accountant and Senior Tax Accountant roles, saying the firm is growing.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "We’re growing and seeking an experienced Accountant ready to make an impact and take the next step in their career",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "DPM's Tax Accountant ad asks for Xero and XPM skills.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Know Xero and XPM, and you’re handy in Excel",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Accountants at DPM prepare tax returns and accounts for individuals, family groups, trusts and partnerships, plus BAS and IAS.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Preparing tax returns and financial accounts, from basic to highly complex, for individuals, family groups, trusts and partnerships",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "A 2024 DPM Senior Tax Accountant ad listed FYI docs as desirable.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "Experienced with FYI docs (desirable)",
+   "date": "2024-04",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Dino Miliotis is listed on DPM's people page as a Principal in tax at the Melbourne office.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Principal – Tax | Melbourne Office",
+   "date": null,
+   "category": "identity",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Michael Allsopp",
+   "title": "Chief Executive Officer",
+   "contactId": "dpm-financial-services--michael-allsopp",
+   "linkedin": "https://www.linkedin.com/in/michael-allsopp-426b2838",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "name": "Dino Miliotis",
+   "title": "Principal",
+   "contactId": "dpm-financial-services--dino-miliotis",
+   "linkedin": "https://www.linkedin.com/in/dinomiliotis",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "New CEO (since May 2026) with a systems-and-structures-to-scale background; likely interested in operating-model efficiency.",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Tax & Accounting already digitalised and hiring Tax Accountants: capacity is a live issue and reconciliation sits upstream of every return.",
+   "claimIds": [
+    "C7",
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Work spans trusts, family groups and BAS/IAS, so recurring Xero files exist behind compliance work.",
+   "claimIds": [
+    "C10",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Practice is tax-compliance and client-advice focused for doctors, not a volume bookkeeping or monthly close model; weak-to-moderate fit.",
+   "claimIds": [
+    "C2",
+    "C10"
+   ]
+  },
+  {
+   "text": "CEO is only months into the role and came from property; may be focused on org change before tooling.",
+   "claimIds": [
+    "C3",
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video or Facebook/Instagram content by Michael or DPM found.",
+  "No explicit mention of reconciliation volume or AI tools.",
+  "Third-party LinkedIn lists a former CEO (Linda Pickering) alongside Michael; DPM's own site and Michael's profile confirm Michael as current CEO.",
+  "Dino Miliotis's recent public activity not found."
+ ],
+ "searches": [
+  {
+   "query": "site:dpm.com.au home/careers/our-story (fetch)",
+   "results": 4
+  },
+  {
+   "query": "Michael Allsopp CEO DPM Financial Services",
+   "results": 8
+  },
+  {
+   "query": "DPM Financial Services accountants jobs bookkeeper accountant Melbourne St Kilda Road",
+   "results": 6
+  },
+  {
+   "query": "DPM Financial Services new CEO Michael Allsopp appointed announcement",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "dpm-financial-services--michael-allsopp",
+   "subject": "Reconciliation inside DPM's tax team",
+   "body": "Hi Michael, I read your CEO message on the DPM story page about joining in May and finding a strong foundation, and your background building the systems and structures that help private firms scale. DPM has already digitalised its tax and accounting service and is hiring Tax Accountants now. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace instead of AI that guesses. For a team preparing returns for family groups and trusts in Xero, how much of each job still starts with reconciling by hand?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C7",
+    "C8",
+    "C10"
+   ]
+  },
+  "followUp": {
+   "contactId": "dpm-financial-services--michael-allsopp",
+   "subject": "Re: Reconciliation inside DPM's tax team",
+   "body": "Hi Michael, following up on my note last week. Your careers page says DPM is growing and looking for experienced accountants, and your own message points to what the foundation makes possible. If extra capacity in tax and accounting is on the agenda, would it help to see Vert cut the reconciliation step on a sample Xero file? Happy to run it in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "dpm-financial-services--michael-allsopp",
+   "subject": "Re: Reconciliation inside DPM's tax team",
+   "body": "Hi Michael, one last note. DPM's accountants work in Xero and XPM across individuals, family groups and trusts, so I'd guess reconciliation builds ahead of lodgement deadlines. If a pilot on a handful of client files would help new Tax Accountants ramp faster, I'm happy to set it up. Either way, all the best for the year ahead.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C10",
+    "C8"
+   ]
+  }
+ }
+}

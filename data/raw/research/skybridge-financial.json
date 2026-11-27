@@ -1,0 +1,339 @@
+{
+ "accountId": "skybridge-financial",
+ "accountName": "Skybridge Financial",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Skybridge Financial is the Inverell NSW-founded accounting and financial planning group (16 locations across NSW, VIC and QLD) and Xero Platinum Partner, built through roughly 35 acquisitions including Stephens Plattfuss & Co (Bentleigh) in April 2026. On 5 November 2026 ASX-listed Count Group announced a binding agreement to acquire a majority interest, subject to conditions. The record's primary contact Sachin Maheshwari appears to belong to an unrelated Indian firm; the only emailable contact, Ray Gale, is a Shepparton financial adviser who merged his business into Skybridge in 2022.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://skybridgefinancial.com.au",
+   "title": "Skybridge Financial home",
+   "type": "website",
+   "publisher": "Skybridge Financial",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.skybridgefinancial.com.au/pages/our-team",
+   "title": "Our Team - Skybridge Financial",
+   "type": "website",
+   "publisher": "Skybridge Financial",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/ray-gale",
+   "title": "Ray Gale LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-08"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.skybridgefinancial.com.au/resources/details/stephens-plattfuss--co-join-skybridge-financial",
+   "title": "Stephens Plattfuss & Co join Skybridge Financial",
+   "type": "news",
+   "publisher": "Skybridge Financial",
+   "date": "2026-04-20"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.professionalplanner.com.au/2026/11/why-the-principal-of-this-1-4b-super-firm-sold-control-to-count/",
+   "title": "Why the principal of this $1.4b super-firm sold control to Count",
+   "type": "news",
+   "publisher": "Professional Planner",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.count.au/uploads/3147708.pdf",
+   "title": "ASX Announcement: Count Group to acquire majority interest in Skybridge",
+   "type": "news",
+   "publisher": "Count Limited (ASX)",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S7",
+   "url": "https://movetomore.com.au/job/68a6c002-c656-4e27-a4b2-cfd33f754438/",
+   "title": "Assistant Accountant/Bookkeeper, Skybridge Financial",
+   "type": "job",
+   "publisher": "Move To More Regional Jobs",
+   "date": "2026-09-17"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.skybridgefinancial.com.au/locations/index/shepparton",
+   "title": "Shepparton | Skybridge Financial",
+   "type": "website",
+   "publisher": "Skybridge Financial",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://linkedin.com/in/sachin-maheshwari",
+   "title": "Sachin M. LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-19"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Skybridge Financial (skybridgefinancial.com.au) has a Shepparton office at 226 Corio Street, where Ray Gale is listed.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "226 Corio Street Shepparton VIC 3630",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Ray Gale joined Skybridge in July 2022 after merging his Goulburn Valley financial planning business into it.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Ray joined the Skybridge team in July 2022 having merged his business with Skybridge.",
+   "date": "2022-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Ray Gale's LinkedIn lists him as a current Financial Advisor at Skybridge Financial.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Jan 2023 - Present (3 years and 9 months)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Skybridge is a Xero Platinum Partner offering fixed-price packages.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "As a Xero Platinum Partner, we provide real-time, cloud-based support along with fixed-price packages",
+   "date": "2026",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Skybridge welcomed Stephens Plattfuss & Co of Bentleigh, Melbourne in April 2026.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We would like to welcome Stephens Plattfuss & Co Pty Ltd from Bentleigh Melbourne to the Skybridge Team.",
+   "date": "2026-04",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The group has bought about 35 accounting and financial planning businesses.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Since then the group has bought about 35 accounting and financial planning businesses.",
+   "date": "2026-11",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Count Group announced on 5 November 2026 a binding agreement to acquire a majority interest in Skybridge, subject to conditions including ACCC approval.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Count Group to acquire majority interest in Skybridge and undertake placement",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Skybridge operates in 16 locations across NSW, Victoria and Queensland.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "financial planning, accounting, taxation, SMSF administration and bookkeeping in 16 locations across New South Wales, Victoria and Queensland",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Count's announcement cites a dedicated in-house integration team at Skybridge.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Skybridge has completed more than 35 acquisitions since 2001 and operates a dedicated in-house integration team.",
+   "date": "2026-11",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Count's announcement lists possible outsourcing and technical helpdesk services across Skybridge's network post-deal.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "technical helpdesk, actuarial certificates, tax training and outsourcing across Skybridge’s network",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Skybridge advertised an Assistant Accountant/Bookkeeper role at its Grafton office in September 2026, with Xero experience an advantage.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Experience with Xero software would be an advantage and training will be provided.",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "The Sachin Maheshwari record's LinkedIn profile describes a founding partner of SkyBridge Financial Services Pvt. Ltd. based in Pune, India, an unrelated business.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Founding partner at SkyBridge Financial Services Pvt. Ltd. and has wide-ranging experience of more than a decade in all aspects of finance",
+   "date": "2026-09",
+   "category": "identity",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Ray Gale",
+   "title": "Financial Adviser (Shepparton)",
+   "contactId": "skybridge-financial--ray-gale",
+   "linkedin": "https://www.linkedin.com/in/ray-gale",
+   "claimIds": [
+    "C1",
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Sachin Maheshwari",
+   "title": "Co-Founder (record; likely wrong entity)",
+   "contactId": "skybridge-financial--sachin-maheshwari",
+   "linkedin": "https://www.linkedin.com/in/sachin-maheshwari",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Ray merged his own business into Skybridge in 2022, so he knows the integration experience; the group is a serial acquirer (~35 deals, in-house integration team) where consistent reconciliation across offices matters.",
+   "claimIds": [
+    "C2",
+    "C6",
+    "C9"
+   ]
+  },
+  {
+   "text": "Xero Platinum Partner with fixed-price packages and a fresh Melbourne merger (Stephens Plattfuss, April 2026): onboarding acquired client files at scale.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Grafton bookkeeper hire (Xero) shows ongoing bookkeeping capacity needs.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Count Group has a binding agreement to acquire 75% of Skybridge (announced 5 Nov 2026, completion expected Q3 FY27 pending ACCC); technology and outsourcing decisions may shift to Count, and a pitch may be premature.",
+   "claimIds": [
+    "C7",
+    "C10"
+   ]
+  },
+  {
+   "text": "Primary contact Sachin Maheshwari appears to be a different SkyBridge Financial Services (Pune, India); he has no email in the record and should not be contacted.",
+   "claimIds": [
+    "C12"
+   ]
+  },
+  {
+   "text": "Ray Gale is a financial adviser, not an accountant or ops lead; he is a referral route to the accounting team rather than the buyer. Also a director of GV Financial Advisory per LinkedIn.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No accounting-side or operations contact with a verified email in accounts.json (Manuel Meszaros, Grant Duddle and Jason Birch are named publicly but not in the record).",
+  "No podcast, video, Facebook or Instagram content from Ray Gale or Skybridge found.",
+  "Careers page is a generic expression-of-interest page; job ads found via third parties.",
+  "Tech stack beyond Xero Platinum Partner status not confirmed."
+ ],
+ "searches": [
+  {
+   "query": "site:skybridgefinancial.com.au home/our-team/bentleigh (fetch)",
+   "results": 3
+  },
+  {
+   "query": "Skybridge Financial merger Stephens Platffuss & Co Inverell Bentleigh",
+   "results": 6
+  },
+  {
+   "query": "Sachin Maheshwari Skybridge Financial co-founder",
+   "results": 0
+  },
+  {
+   "query": "Ray Gale Principal Financial Adviser Skybridge Financial",
+   "results": 6
+  },
+  {
+   "query": "Skybridge Financial Inverell jobs bookkeeper accountant Jason Birch Grant Duddle",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "skybridge-financial--ray-gale",
+   "subject": "Reconciliation across Skybridge's offices",
+   "body": "Hi Ray, you joined Skybridge in July 2022 when you merged your business in, so you've seen first-hand how the group brings a new office's work on board. With around 35 acquisitions behind it and Xero Platinum Partner status, I imagine consistent bookkeeping and reconciliation across offices matters. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace instead of AI that guesses. Who in the accounting team would be best to speak with about how reconciliation is handled?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C6",
+    "C4"
+   ]
+  },
+  "followUp": {
+   "contactId": "skybridge-financial--ray-gale",
+   "subject": "Re: Reconciliation across Skybridge's offices",
+   "body": "Hi Ray, following up on my note last week. Skybridge welcomed Stephens Plattfuss & Co from Bentleigh in April, and the Grafton office is hiring a bookkeeper with Xero experience. Whoever leads that work might find a short walkthrough of how Vert cuts reconciliation time on newly onboarded client files useful. Happy to send details to the right person if you'd rather pass it on.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C11"
+   ]
+  },
+  "followUp2": {
+   "contactId": "skybridge-financial--ray-gale",
+   "subject": "Re: Reconciliation across Skybridge's offices",
+   "body": "Hi Ray, a last nudge. With 16 locations and a dedicated in-house integration team, I'd imagine a repeatable reconciliation process helps bring each new firm onto the same footing. If someone on that team is the right person for a 10 minute look at Vert, I'd appreciate an introduction. Otherwise I'll leave it with you.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  }
+ }
+}

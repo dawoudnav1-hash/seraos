@@ -1,0 +1,254 @@
+{
+ "accountId": "shaw-downie-chartered-accountants",
+ "accountName": "Shaw Downie Chartered Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Shaw Downie is a Sydney CBD chartered accounting firm of about 10 people, founded in 2009 by Nick Shaw. It positions itself as an end-to-end finance and tax solution and acts as the outsourced finance department for local and foreign owned businesses, including month-end reporting, AP, AR and the inventory cycle.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://shawdownie.com.au/",
+   "title": "Shaw Downie Chartered Accountants home",
+   "type": "website",
+   "publisher": "Shaw Downie",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://shawdownie.com.au/our-services",
+   "title": "Our Services",
+   "type": "website",
+   "publisher": "Shaw Downie",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://shawdownie.com.au/our-leaders",
+   "title": "Our Team",
+   "type": "website",
+   "publisher": "Shaw Downie",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://shawdownie.com.au/our-clients-1",
+   "title": "Our Clients",
+   "type": "website",
+   "publisher": "Shaw Downie",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/nick-shaw-a5b50514",
+   "title": "Nick Shaw LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/shaw-downie",
+   "title": "Shaw Downie LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Shaw Downie is based at Level 3, 47 York St, Sydney NSW 2000.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Street Address: Level 3, 47 York St Sydney NSW 2000",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Nick Shaw is listed as a current Director of Shaw Downie, a role held since December 2009.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Director - Shaw Downie Chartered Accountants (Current) Dec 2009 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Nick Shaw's LinkedIn headline describes him as an Outsourced Accounting Specialist.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Experienced Chartered Accountant | Outsourced Accounting Specialist | Director at Shaw Downie",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Nick has focused on the SME market since 2001 and became a founding director of Shaw Downie in 2009.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "In 2009 Nick became a founding director of Shaw Downie",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The firm's outsourced accounting service covers management reporting, payroll, AP, AR, inventory cycle, treasury and month end reporting.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Outsourced Accounting - Management Reporting - Payroll - Accounts Payable - Accounts Receivable - Inventory Cycle - Treasury - Month End Reporting",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Shaw Downie says it acts as the outsourced finance department for local and foreign owned businesses.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We act as the outsourced finance department for local and foreign owned businesses.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm pitches clients access to all the skillsets required within a finance team, when and where needed.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "you can have access to all the skillsets required within a finance team, when and where you need them",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Clients include subsidiaries and permanent establishments of foreign companies, across industries such as software as a service, hospitality and manufacturing.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Subsidiaries of Foreign Companies - Permanent Establishments of Foreign Companies",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "LinkedIn shows the firm at about 10 employees, up 11.1% year on year.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Shaw Downie Chartered Accountants employs 10 people (+11.1% YoY, +1 person).",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "The firm also offers budgeting and forecasting to clients.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We regularly assist clients in preparing their budgets and forecasts.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Nick Shaw",
+   "title": "Director (Founding Director)",
+   "contactId": "shaw-downie-chartered-accountants--nick-shaw",
+   "linkedin": "https://www.linkedin.com/in/nick-shaw-a5b50514",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Nick calls himself an Outsourced Accounting Specialist and the firm runs clients' month-end, AP, AR and inventory cycle, so reconciling across many client ledgers is recurring load.",
+   "claimIds": [
+    "C3",
+    "C5"
+   ]
+  },
+  {
+   "text": "Foreign-owned subsidiary clients likely mean tight head-office reporting timetables.",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  },
+  {
+   "text": "Small team (about 10) growing, so automation lifts capacity without hiring.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Firm site and LinkedIn show no sign of Xero/MYOB partner status or an AI reconciliation tool; tech stack unknown.",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent posts, podcasts, news or job ads found for the firm or Nick.",
+  "Tech stack (Xero/MYOB/Dext) not found; LinkedIn lists only LastPass.",
+  "Jamcyber testimonial video page had no readable content."
+ ],
+ "searches": [
+  {
+   "query": "Nick Shaw Shaw Downie Chartered Accountants Sydney director",
+   "results": 6
+  },
+  {
+   "query": "Shaw Downie Sydney accountants Xero outsourced finance foreign owned businesses",
+   "results": 7
+  },
+  {
+   "query": "fetch shawdownie.com.au home/services/leaders",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "shaw-downie-chartered-accountants--nick-shaw",
+   "subject": "Re: Idea for Shaw Downie",
+   "body": "Hi Nick, following up on my note last week. Shaw Downie acts as the outsourced finance department for local and foreign owned businesses, so month-end reporting, AP and AR reconciling must sit across many client ledgers every month. Vert turns that reconciling into minutes with a trail your team can trace. How much of a client's month-end goes on reconciling before the reporting can start?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C5",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "shaw-downie-chartered-accountants--nick-shaw",
+   "subject": "Re: Idea for Shaw Downie",
+   "body": "Hi Nick, last nudge from me. With clients that are subsidiaries of foreign companies, I'd imagine your inventory cycle and month-end reporting run to a head office timetable. Would a 10 min walkthrough of how Vert handles the reconciling be useful, or is the timing off?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C5",
+    "C4"
+   ]
+  }
+ }
+}

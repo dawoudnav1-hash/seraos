@@ -1,0 +1,246 @@
+{
+ "accountId": "papinelle",
+ "accountName": "Papinelle",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Papinelle is a Sydney sleepwear brand owned by Quadrant Private Equity since 2021. A 2026 trade report says sales grew 31 per cent and US revenue is on par with Australia. Andrew Milln has been CFO since October 2023.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/andrewmilln",
+   "title": "Andrew Milln - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.ragtrader.com.au/news/how-papinelle-has-tripled-in-size-since-2020",
+   "title": "How Papinelle has tripled in size since 2020",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2026-04-20"
+  },
+  {
+   "id": "S3",
+   "url": "https://insideretail.com.au/business/quadrant-takes-control-of-papinelle-to-drive-international-expansion-202108",
+   "title": "Quadrant takes control of Papinelle to drive international expansion",
+   "type": "news",
+   "publisher": "Inside Retail Australia",
+   "date": "2021-08-17"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/papinelle",
+   "title": "Papinelle - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://7news.com.au/7you/home/the-aussie-pyjamas-brand-that-has-seen-a-30-per-cent-increase-in-sales-this-year-papinelle-c-22174569",
+   "title": "The Aussie pyjamas brand that has seen a 30 per cent increase in sales this year: Papinelle",
+   "type": "news",
+   "publisher": "7NEWS",
+   "date": "2026-04-22"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Papinelle is a Sydney sleepwear and loungewear brand founded in 2003, headquartered in Paddington.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Papinelle is an Australian Sleepwear & Lifestyle Brand based in Paddington, Sydney.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Andrew Milln is Chief Financial Officer of Papinelle, in the role since October 2023.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Chief Financial Officer - Papinelle (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Papinelle was acquired by Quadrant Private Equity in 2021 (Quadrant Growth Fund took a controlling stake).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Private-equity company Quadrant Growth Fund has bought a controlling stake in Sydney-headquartered sleepwear and loungewear label Papinelle",
+   "date": "2021-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Andrew's LinkedIn describes him as a CPA-qualified CFO and transformation specialist who partners with ownership and boards; he was previously CFO of Modibodi, also a Quadrant portfolio company.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Chief Financial Officer | Seasoned executive | Transformation specialist | Strategic and operational focus",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Ragtrader reported in April 2026 that Papinelle posted 31 per cent year-on-year growth and has tripled in size over six years.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Papinelle has just posted a 31 per cent year-on-year growth in 2026, with the brand tripling in size over the last six years",
+   "date": "2026-04",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "CEO John Kelly said North American revenue is about on par with Australia, sold online and through Nordstrom and Anthropologie.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "North American market revenue is pretty much on par in size with Australia",
+   "date": "2026-04",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Papinelle sells through its own online site, five stores across the Eastern states and stockists such as David Jones, and recently opened a Bondi store.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Recently we have opened further standalone retail in Bondi",
+   "date": "2026-04",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Papinelle's tech stack lists Shopify.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Tech Stack: adobe, adobe creative suite, canva, figma, shopify, facebook, amp, well, impact, linkedin",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "7NEWS reports Papinelle is the number-one-selling sleepwear brand at David Jones and stocked at Saks Fifth Avenue, Nordstrom and Victoria's Secret.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "number-one-selling sleepwear brand at David Jones",
+   "date": "2026-04",
+   "category": "clients",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Andrew Milln",
+   "title": "Chief Financial Officer",
+   "contactId": "papinelle--andrew-milln",
+   "linkedin": "https://linkedin.com/in/andrewmilln",
+   "claimIds": [
+    "C2",
+    "C4"
+   ]
+  },
+  {
+   "name": "Vicki W.",
+   "title": "Finance Manager",
+   "contactId": "papinelle--vicki-w",
+   "linkedin": null,
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "31% growth and US revenue now on par with Australia across DTC, stores and department-store wholesale means more channels and currencies to reconcile",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Andrew's transformation-focused CFO profile and PE-board reporting context",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Quadrant Private Equity owns Papinelle, so tool choices may be set at group level",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "Andrew was previously CFO at another Quadrant portfolio company; may be loyal to existing processes",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts by Andrew Milln found",
+  "No finance job ads found",
+  "Xero/ERP and recs tooling not confirmed publicly"
+ ],
+ "searches": [
+  {
+   "query": "Papinelle sleepwear Andrew Milln CFO Quadrant",
+   "results": 8
+  },
+  {
+   "query": "Papinelle 2026 news stores Nordstrom David Jones",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "papinelle--andrew-milln",
+   "subject": "Papinelle's growth and the month-end close",
+   "body": "Hi Andrew,\n\nI read that Papinelle grew 31 per cent this year and that North American revenue is now about level with Australia, across your own site, stores and department-store wholesale. That is a lot of channels, payouts and currencies landing in one close. I built Vert, which turns hours of manual reconciliation into minutes with a traceable audit trail rather than guesswork. With a transformation background and a board to report to, how long does your month-end take to reach clean numbers today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C4"
+   ]
+  },
+  "followUp": {
+   "contactId": "papinelle--andrew-milln",
+   "subject": "Re: Papinelle's growth and the month-end close",
+   "body": "Hi Andrew,\n\nFollowing up on my note last week. Opening in Bondi alongside stores across the Eastern states and stockists such as David Jones adds store takings and wholesale receipts to match each month. Which is the bigger drag on your team at close: store and online payouts, or wholesale cash? I can show Vert on either in ten minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "papinelle--andrew-milln",
+   "subject": "Re: Papinelle's growth and the month-end close",
+   "body": "Hi Andrew,\n\nLast nudge from me. Being the top-selling sleepwear brand at David Jones is a good problem for finance, because volume lands in the close first. If a faster, traceable month-end matters to you, I would value ten minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C5"
+   ]
+  }
+ }
+}

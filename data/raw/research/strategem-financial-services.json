@@ -1,0 +1,284 @@
+{
+ "accountId": "strategem-financial-services",
+ "accountName": "Strategem Financial Services",
+ "status": "complete",
+ "summary": "Strategem is a Bendigo-headquartered firm (history from 1932) with a Melbourne CBD office, about 65 staff and nine directors, covering accounting, tax, business advisory, wealth management and audit. Managing Partner Chris Harrington appeared on the firm's Enriched Wealth podcast in July 2025 and describes advising small to medium businesses in Central Victoria. Fit is moderate to weak because the firm is tax and wealth focused.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://strategem.com.au/",
+   "title": "Strategem Financial Services | Business Accountants & Financial Advisors",
+   "type": "website",
+   "publisher": "Strategem",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://strategem.com.au/our-people/",
+   "title": "Our People — Strategem Financial Services",
+   "type": "website",
+   "publisher": "Strategem",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/chris-harrington-99a13b39",
+   "title": "Chris Harrington | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "S4",
+   "url": "https://strategem.com.au/podcast/episode-13",
+   "title": "Episode 13 | How to Build, Grow & Exit Your Business Successfully with Chris Harrington",
+   "type": "podcast",
+   "publisher": "Strategem (Enriched Wealth Podcast)",
+   "date": "2025-07-18"
+  },
+  {
+   "id": "S5",
+   "url": "https://timesnewsgroup.com.au/bendigotimes/news/financial-firm-backs-young-professionals/",
+   "title": "Financial firm backs young professionals - Bendigo Times",
+   "type": "news",
+   "publisher": "Bendigo Times",
+   "date": "2026-01-10"
+  },
+  {
+   "id": "S6",
+   "url": "https://strategem.com.au/bendigo",
+   "title": "Bendigo — Strategem Financial Services",
+   "type": "website",
+   "publisher": "Strategem",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/in/daniel-nalder-2a0b06213",
+   "title": "Daniel Nalder | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-28"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Strategem lists a Melbourne office at Level 7, 333 Collins Street and a Bendigo office at 35 Mundy Street on its own site.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Address: Level 7, 333 Collins Street, Melbourne, VIC 3000",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Chris Harrington is Managing Partner at Strategem, listed as a current role since January 2022 on LinkedIn.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Jan 2022 - Present (4 years and 9 months) in Bendigo & Melbourne",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Daniel Nalder was appointed Partner (financial adviser) in July 2025.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Jul 2025 - Present (1 year and 3 months)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "The firm says it is owned and operated by nine directors.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Our organisation is owned and operated by nine Directors.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Strategem's Bendigo practice dates back to 1932.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Strategem dates back to 1932 when the practice began.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Chris Harrington was the guest on the firm's Enriched Wealth Podcast episode 13 (July 2025) about running, growing and exiting a business.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "explore what it really takes to run, grow, and ultimately exit a business.",
+   "date": "2025-07",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "On the podcast Chris said owners are tired by the time they have to do the books, so the firm should make that job easier.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "and then you've got to do the books. So as much as we can do to make that job easier for them",
+   "date": "2025-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "On the podcast, discussing the firm's IT systems, Chris said he is not an IT expert but the firm uses IT every day.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "I can't say that I'm an expert in that area at all, but we have to use it every single day.",
+   "date": "2025-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Chris's LinkedIn says he provides tax and accounting advice to small to medium enterprises across Central Victoria.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "I provide dynamic business advice, combining tax and accounting expertise to many small to medium enterprises throughout Central Victoria and beyond.",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Strategem became the new sponsor of the Bendigo Young Professionals Network, reported January 2026.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "has placed its support behind the region’s up-and-coming business leaders by signing on as the new sponsor of the Bendigo Young Professionals Network",
+   "date": "2026-01",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "The firm combines CPAs and financial advisers to serve individuals and organisations.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We bring together Certified Practicing Accountants and experienced financial advisors to assist both individuals and organisations with their financial success and business growth.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Chris Harrington",
+   "title": "Managing Partner",
+   "contactId": "strategem-financial-services--chris-harrington",
+   "linkedin": "https://www.linkedin.com/in/chris-harrington-99a13b39",
+   "claimIds": [
+    "C2",
+    "C6",
+    "C7",
+    "C9"
+   ]
+  },
+  {
+   "name": "Daniel Nalder",
+   "title": "Partner (Financial Adviser)",
+   "contactId": "strategem-financial-services--daniel-nalder",
+   "linkedin": "https://www.linkedin.com/in/daniel-nalder-2a0b06213",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Chris's July 2025 podcast remark that owners are worn out by the time the books are due, and that the firm should make it easier, maps directly to reconciliation.",
+   "claimIds": [
+    "C7",
+    "C6"
+   ]
+  },
+  {
+   "text": "Chris spoke about the firm's recent IT changeover and daily reliance on IT, a sign of openness to tooling.",
+   "claimIds": [
+    "C8"
+   ]
+  },
+  {
+   "text": "SME client base across Central Victoria and Melbourne, led by a managing partner who still advises clients.",
+   "claimIds": [
+    "C9",
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Tax, wealth and audit oriented; Daniel Nalder is a financial adviser. No bookkeeping or outsourced CFO service listed, so fit is weak to moderate.",
+   "claimIds": [
+    "C11",
+    "C3"
+   ]
+  },
+  {
+   "text": "Chris says he is not an IT expert; tooling decisions may sit with others.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No hiring ads found on the firm's own pages.",
+  "No Xero/MYOB partner listing or AI tooling mention found.",
+  "No recent LinkedIn posts by Chris retrieved."
+ ],
+ "searches": [
+  {
+   "query": "Strategem Financial Services Bendigo Chris Harrington managing partner Daniel Nalder",
+   "results": 7
+  },
+  {
+   "query": "fetch strategem.com.au podcast episode 13 and our-people",
+   "results": 3
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "strategem-financial-services--chris-harrington",
+   "subject": "Reconciliation at Strategem",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C9"
+   ],
+   "body": "Hi Chris,\n\nSaw your Enriched Wealth episode on building, growing and exiting a business, and your point that by the time owners have to do the books they are already worn out, so the more your team can take off them the better. That is the problem I built Vert for. It turns hours of manual reconciliation into minutes, with a traceable audit trail rather than AI that guesses. How much of your business services team's month goes on reconciling small and medium clients' books? Open to a 10 min walkthrough?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "strategem-financial-services--chris-harrington",
+   "subject": "Re: Reconciliation at Strategem",
+   "claimIds": [
+    "C8",
+    "C9"
+   ],
+   "body": "Hi Chris,\n\nFollowing up on my note last week. You mentioned on the podcast that you are not an IT expert but the firm uses IT every single day, and your LinkedIn says you advise small to medium enterprises across Central Victoria. Vert reconciles and cash codes in minutes with a full audit trail. Would it be worth seeing it run on one client's month?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

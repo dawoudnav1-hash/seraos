@@ -1,0 +1,253 @@
+{
+ "accountId": "rachel-gilbert",
+ "accountName": "RACHEL GILBERT",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Rachel Gilbert is a Sydney (Alexandria) designer womenswear brand founded in 2007, selling through retail boutiques, ecommerce and global wholesale. Danny Bui became Finance Manager in December 2025 after almost four years as Financial Analyst, and a Senior Financial Analyst joined in January 2026 whose public profile lists Xero month-end, PayPal, Afterpay and Shopify reconciliations and Cin7 inventory reconciliation. The finance function is small and process-heavy, a clear fit for reconciliation automation.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/danny-bui-59b946161",
+   "title": "Danny Bui LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-21"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/musa-habib-kishan-a0b9b686",
+   "title": "Musa Habib Kishan LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.rachelgilbert.us/pages/profile",
+   "title": "Profile, Rachel Gilbert International",
+   "type": "website",
+   "publisher": "Rachel Gilbert",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://abr.business.gov.au/ABN/View/95138347878",
+   "title": "ABN Lookup: Rachel Gilbert Pty Ltd",
+   "type": "registry",
+   "publisher": "Australian Business Register",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Rachel Gilbert Pty Ltd is an active Australian private company (ABN registered 2009), operating the rachelgilbert.com brand.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Entity name: Rachel Gilbert Pty Ltd",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Rachel Gilbert is a Sydney-headquartered Australian designer brand founded in 2007, represented globally by retail and online stockists and flagship boutiques.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Founded in 2007, Rachel Gilbert cultivates a space for modern Eveningwear, Ready-to-Wear and Bridal.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Danny Bui is the current Finance Manager at Rachel Gilbert, in the role since December 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager (Current) Dec 2025 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Danny was previously Financial Analyst at Rachel Gilbert from February 2022, including managing the weekly cash flow financial model.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Managing the Company's weekly cash flow financial model and any additional financial models.",
+   "date": "2025-12",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Rachel Gilbert's Senior Financial Analyst (since January 2026) lists full-cycle month-end close in Xero including bank, PayPal, credit card and Afterpay reconciliations.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Manage full-cycle month-end close processes in Xero, including bank, PayPal, credit card, and Afterpay reconciliations",
+   "date": "2026-01",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The same profile lists reconciling inventory and cost of sales using Cin7, and approving invoices and credit notes through Dext.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "reconcile inventory and cost of sales using Cin7",
+   "date": "2026-01",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The profile describes sales analysis across Shopify (local and international) and wholesale revenue recognition and allocation of direct deposits from domestic and international partners.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Oversee wholesale revenue recognition and allocation of direct deposits from domestic and international partners",
+   "date": "2026-01",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Rachel Gilbert sells through retail boutiques, e-commerce platforms and global wholesale partners and describes continued growth.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "The brand continues to experience significant growth through its retail boutiques, e-commerce platforms, and global wholesale partnerships",
+   "date": "2026-01",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Rachel Gilbert is represented globally by retail and online stockists and 4 flagship boutiques.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "proudly represented globally by retail and online stockists and 4 flagship boutiques",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Danny Bui",
+   "title": "Finance Manager",
+   "contactId": "rachel-gilbert--danny-bui",
+   "linkedin": "https://linkedin.com/in/danny-bui-59b946161",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Musa Habib Kishan",
+   "title": "Senior Financial Analyst",
+   "contactId": null,
+   "linkedin": "https://linkedin.com/in/musa-habib-kishan-a0b9b686",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Danny stepped from Financial Analyst to Finance Manager in Dec 2025; new leader open to changing close process.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "The team's close spans bank, PayPal, Afterpay, credit card, Shopify and Cin7 recs in Xero across retail, ecommerce and wholesale.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "International wholesale direct deposits need allocating by hand; cash model Danny owned benefits from faster, traceable recs.",
+   "claimIds": [
+    "C7",
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Only one named contact with an email (Danny); Musa is the day-to-day user but has no email on record.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "Public profile data is secondary (LinkedIn); no company-published finance hiring or tooling statement.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Rachel Gilbert careers page content retrievable (crawl failed).",
+  "No news, podcast or Danny-authored posts found.",
+  "No confirmation of any AI reconciliation tool in use."
+ ],
+ "searches": [
+  {
+   "query": "Rachel Gilbert fashion Danny Bui Finance Manager Sydney",
+   "results": 8
+  },
+  {
+   "query": "fetch Musa Habib Kishan LinkedIn",
+   "results": 1
+  },
+  {
+   "query": "fetch rachelgilbert.com careers page",
+   "results": 0
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "rachel-gilbert--danny-bui",
+   "subject": "Reconciliations at Rachel Gilbert",
+   "body": "Hi Danny, you moved from Financial Analyst to Finance Manager at Rachel Gilbert in December 2025 and your Senior Financial Analyst now lists month-end in Xero covering bank, PayPal, credit card and Afterpay reconciliations plus Cin7 inventory recs. Across boutiques, ecommerce and wholesale that is a lot of matching before the numbers are usable. I built Vert to turn hours of reconciliation into minutes, with a trail you can trace rather than AI that guesses. How much of your close is still manual matching across those channels?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "rachel-gilbert--danny-bui",
+   "subject": "Re: Reconciliations at Rachel Gilbert",
+   "body": "Hi Danny, following up on my note. One thing I noticed is that wholesale revenue means allocating direct deposits from domestic and international partners, which rarely arrive neatly matched to invoices. How does your team do that allocation today, and is it the slowest part of the close? Vert is built for exactly that kind of matching, and I'd be happy to show it on a sample.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "rachel-gilbert--danny-bui",
+   "subject": "Re: Reconciliations at Rachel Gilbert",
+   "body": "Hi Danny, last nudge from me. You managed the weekly cash flow model as an analyst, so you know how much it depends on reconciled data. If faster, traceable reconciliations would make that cash view fresher, ten minutes on Vert might be worth it. Would Thursday or Friday work?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  }
+ }
+}

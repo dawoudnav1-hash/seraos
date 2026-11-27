@@ -1,0 +1,256 @@
+{
+ "accountId": "breathe-accounting",
+ "accountName": "Breathe Accounting",
+ "status": "complete",
+ "summary": "Breathe Accounting is a Bunbury (WA) accounting firm run by directors Justin Golds (Managing Director), Kiko Willers and Reon Tither, with a Subiaco office by appointment. It offers tax, accounting, bookkeeping, advisory and super, positions itself on modern systems, and runs a Graduate Accountant Program. Justin is Xero Certified and Xero Champion.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.breatheaccounting.com.au/contact-us/",
+   "title": "Contact Us | Breathe Accounting",
+   "type": "website",
+   "publisher": "Breathe Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/kiko-willers-14508b99",
+   "title": "Kiko Willers | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.breatheaccounting.com.au/",
+   "title": "Breathe Accounting | Expert Accountants in Bunbury",
+   "type": "website",
+   "publisher": "Breathe Accounting",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/justin-golds-26290665",
+   "title": "Justin Golds | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.breatheaccounting.com.au/graduate-program/",
+   "title": "Graduate Accountant Program | Breathe Accounting",
+   "type": "website",
+   "publisher": "Breathe Accounting",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.breatheaccounting.com.au/company/",
+   "title": "Professional Accountants in Bunbury | Breathe Accounting",
+   "type": "website",
+   "publisher": "Breathe Accounting",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Breathe Accounting's own site lists its head office at 23 Spencer Street, Bunbury WA 6230, with a Subiaco office by appointment.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "23 Spencer Street, Bunbury, WA 6230",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Kiko Willers is a Director at Breathe Accounting (current since November 2021) and the firm's company page lists him among its Directors.",
+   "sourceIds": [
+    "S2",
+    "S6"
+   ],
+   "quote": "Director - Breathe Accounting (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Kiko Willers is also Accounting Manager at BHR Papalia in Bunbury, listed as a current role.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Accounting Manager - BHR Papalia (Current)",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "Breathe describes its approach as modern systems, practical advice and a people-first mindset.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "With modern systems, practical advice, and a people-first mindset, we make accounting straightforward",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Breathe's Innovation service promises the latest technology without losing the personal touch of a dedicated accountant.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "utilising the latest technology and trends without losing the personal touch of a dedicated accountant on your side",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Justin Golds says Breathe believes technology should empower, enhance and elevate the client experience.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "At Breathe, we believe technology should empower, enhance, and elevate the client experience, setting a new standard in accounting.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Justin Golds holds Xero Certified and Xero Champion credentials.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Xero Champion by Xero",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Directors Justin Golds, Reon Tither and Kiko Willers launched a Graduate Accountant Program to support the next generation of accountants and bookkeepers.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "giving them real experience, genuine support and a clear pathway for development",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Breathe's bookkeeping team aims to take the administrative burden off clients and ensure they are ticking all the right boxes.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Our experienced team will take the administrative burden and ensure your business is ticking all the right boxes.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Kiko Willers",
+   "title": "Director",
+   "contactId": "breathe-accounting--kiko-willers",
+   "linkedin": "https://www.linkedin.com/in/kiko-willers-14508b99",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Justin Golds",
+   "title": "Managing Director",
+   "contactId": "breathe-accounting--justin-golds",
+   "linkedin": "https://www.linkedin.com/in/justin-golds-26290665",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Graduate program means junior staff doing reconciliations that seniors review; Vert shortens the learning curve.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Technology-forward positioning and Justin's Xero Champion credential suit a traceable automation tool.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C5"
+   ]
+  },
+  {
+   "text": "Kiko still appears in a current role at BHR Papalia, so confirm his time at Breathe.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Kiko's LinkedIn lists a parallel current role as Accounting Manager at BHR Papalia (possibly stale); Justin Golds is the safer contact if Kiko does not reply.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "An earlier email already went to Kiko on 23 Nov; no reply recorded.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent posts by Kiko found, no podcast or news coverage.",
+  "No job ads on Seek found beyond the graduate program page.",
+  "Specific reconciliation tools used not found."
+ ],
+ "searches": [
+  {
+   "query": "Breathe Accounting Bunbury Kiko Willers Justin Golds",
+   "results": 10
+  },
+  {
+   "query": "breatheaccounting.com.au home (fetch)",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "breathe-accounting--kiko-willers",
+   "subject": "Re: Idea for Breathe Accounting",
+   "body": "Hi Kiko,\n\nFollowing up on my note last week. You and Justin and Reon launched a Graduate Accountant Program, and graduates usually start on bookkeeping and reconciliations that a senior then has to review. Vert does the matching with a traceable audit trail, so reviewers check exceptions and juniors learn from clean files. Would a short walkthrough be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C8",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "breathe-accounting--kiko-willers",
+   "subject": "Re: Idea for Breathe Accounting",
+   "body": "Hi Kiko,\n\nLast one from me. Breathe promises the latest technology without losing the personal touch of a dedicated accountant. Vert takes the reconciliation grind off that accountant so more time goes to the personal part. If it is worth a look, I can show it in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C5",
+    "C6"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

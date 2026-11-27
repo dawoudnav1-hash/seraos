@@ -1,0 +1,334 @@
+{
+ "accountId": "unity-accounting",
+ "accountName": "Unity Accounting",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Unity Accounting is a small (about 5 staff) Caringbah, Sydney firm founded by Christine Hbous in 2014, providing bookkeeping, payroll, accounting and an outsourced 'Your CFO' service to SMEs, not-for-profits and Aboriginal Land Councils. It works in cloud systems, favouring Xero for not-for-profit clients. Christine is a registered tax agent (TPB register checked 4 Nov 2026). Recent public content is sparse; the firm's LinkedIn posts last appear in 2023.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://unityaccounting.com.au/",
+   "title": "Full Service Bookkeeping and Accounting | Unity Accounting",
+   "type": "website",
+   "publisher": "Unity Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://unityaccounting.com.au/professional-accountants/",
+   "title": "Our Team of Professional Accountants | Unity Accounting",
+   "type": "website",
+   "publisher": "Unity Accounting",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://registeredaustralia.com/tax-agent/christine-hbous-24722237/",
+   "title": "Christine Hbous, registered tax agent in Caringbah NSW",
+   "type": "registry",
+   "publisher": "Registered Australia (TPB register data)",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/unity-accounting",
+   "title": "Unity Accounting - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://unityaccounting.com.au/bookkeeping-and-business-operations/",
+   "title": "Bookkeeping and Business Operations | Unity Accounting",
+   "type": "website",
+   "publisher": "Unity Accounting",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://unityaccounting.com.au/small-business-cfo/",
+   "title": "Outsourcing your CFO's for SME, NFP, LALC | Unity Accounting",
+   "type": "website",
+   "publisher": "Unity Accounting",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://unityaccounting.com.au/accounting-software-review/",
+   "title": "Time For Your Accounting Software Review | Unity Accounting",
+   "type": "blog",
+   "publisher": "Unity Accounting",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://unityaccounting.com.au/accounting-software-lalc/",
+   "title": "Accounting Software for an LALC That Makes Things Easier",
+   "type": "blog",
+   "publisher": "Unity Accounting",
+   "date": "2021-07-16"
+  },
+  {
+   "id": "S9",
+   "url": "https://www.publicaccountants.org.au/find-an-accountant?i=True&p=2224&pg=1&r=0",
+   "title": "Find an Accountant / BAS Practitioner (IPA directory, postcode 2224)",
+   "type": "directory",
+   "publisher": "Institute of Public Accountants",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Unity Accounting (unityaccounting.com.au) is a Caringbah, NSW accounting and bookkeeping firm founded in 2014, with a postal address at PO Box 374 Gymea.",
+   "sourceIds": [
+    "S4",
+    "S1"
+   ],
+   "quote": "Unity Accounting employs 5 people (+25.0% YoY, +1 person), founded in 2014. Headquartered in Caringbah, New South Wales, Australia.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Christine Hbous is Founding and Managing Director of Unity Accounting and a registered tax agent in Caringbah, status Registered on the TPB register checked 4 Nov 2026.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Tax agent (individual) · registered since 2014.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Christine is listed in the IPA directory as FIPA FFA at Unity Accounting Pty Ltd with the email christine@unityaccounting.com.au.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Mrs Christine Hbous, FIPA FFA Unity Accounting Pty Ltd",
+   "date": null,
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "Christine says her approach is to walk into a messy set of books and sort it out with creativity and flexibility.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I come in, I see a big mess, I apply what I have learnt with a great deal of creativity and flexibility, and I sort it out.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Unity Accounting serves small to medium businesses, not-for-profits and Aboriginal Land Councils.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Unity Accounting partners with small to medium businesses, not-for-profit organisations and Aboriginal Land Councils to drive profitability and operational success.",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Unity offers bookkeeping, payroll and a virtual CFO or bookkeeper service done in the background, online.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "we can act as your virtual CFO or bookkeeper. We do everything in the background, all online",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Unity runs an outsourced 'Your CFO' service where it brings financial reports, KPI information and cash flow discussion to management meetings.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "As your outsourced CFO, we will bring to each meeting clear financial reports and easy-to-understand KPI information",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Unity says it is particularly fond of Xero for its not-for-profit clients because audits are unavoidable.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We are particularly fond of Xero software for our not-for-profit clients where audits are an unavoidable obligation.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Unity's blog advises an annual accounting software review because of improvements in AI and machine learning.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "it’s important to conduct an annual accounting software review to ensure that the accounting software you’re using meets the needs of your business.",
+   "date": null,
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "A Land Council client case study says Unity came on board three days before a scheduled audit and the client got a clean audit; the client now needs two people on bookkeeping instead of three.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Only three days prior to the DLALC’s scheduled audit, Christine and her team came on board.",
+   "date": "2021-07",
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "An NFP client says payroll time fell from three days per fortnight to half a day.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We used to spend three days per fortnight on payroll alone – which has now gone down to half a day per fortnight.",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Unity's LinkedIn page shows posts on NFP accounting, outsourcing and virtual CFOs, the latest dated August 2023.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Transparency is the cornerstone of success in the NFP industry. Financial clarity is paramount for accountability and stakeholder trust.",
+   "date": "2023-08",
+   "category": "content",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Christine Hbous",
+   "title": "Founding and Managing Director",
+   "contactId": "unity-accounting--christine-hbous",
+   "linkedin": "https://www.linkedin.com/in/christine-hbous-950a1974",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Christine's own line about walking into a big mess and sorting it out, plus the Land Council clean-audit story, ties directly to reconciliation clean-up work.",
+   "claimIds": [
+    "C4",
+    "C10"
+   ]
+  },
+  {
+   "text": "Bookkeeping and payroll done in the background for NFP and Land Council clients on Xero; audits make traceable reconciliation valuable.",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  },
+  {
+   "text": "Her own blog tells clients to review their accounting software annually because of AI progress; she is open to tool reviews.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "'Your CFO' meetings rely on current cash flow and KPI reports, which depend on up-to-date reconciliation (inference).",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small team (about 5) and modest revenue; capacity to adopt tools and budget may be limited.",
+   "claimIds": [
+    "C1"
+   ]
+  },
+  {
+   "text": "Public content is dated: LinkedIn posts stop in 2023 and the Land Council case study is from 2021, so specifics may be stale.",
+   "claimIds": [
+    "C12",
+    "C10"
+   ]
+  },
+  {
+   "text": "Site notes show the CFO page copy resembles another firm's (McAdam Siemon), possibly a shared content provider; avoid praising the copy itself.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video or Facebook/Instagram content found.",
+  "No job ads found.",
+  "No 2025-2026 posts by Christine found; LinkedIn profile not fetchable.",
+  "Dext/Hubdoc/Karbon usage unknown."
+ ],
+ "searches": [
+  {
+   "query": "site:unityaccounting.com.au home, CFO, bookkeeping, team",
+   "results": 4
+  },
+  {
+   "query": "Christine Hbous Unity Accounting managing director Caringbah",
+   "results": 8
+  },
+  {
+   "query": "Unity Accounting Caringbah Xero OR MYOB OR Dext OR payroll bookkeeper job OR blog OR news Aboriginal Land Council accounting",
+   "results": 8
+  },
+  {
+   "query": "Unity Accounting Christine Hbous 2026",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "unity-accounting--christine-hbous",
+   "subject": "Reconciling at Unity Accounting",
+   "body": "Hi Christine,\n\nYour line about walking in, seeing a big mess and sorting it out stuck with me. So did the Land Council story where you got a clean audit after joining three days before it. Unity does the bookkeeping in the background, online, and you favour Xero for not-for-profit clients because audits are unavoidable. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail showing how each match was made. Where does reconciliation take most time across your NFP and Land Council clients?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C10",
+    "C6",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "unity-accounting--christine-hbous",
+   "subject": "Re: Reconciling at Unity Accounting",
+   "body": "Hi Christine,\n\nFollowing up on my note. Your blog tells clients to review their accounting software every year as AI improves, so I'd value your view on Vert. Your CFO meetings bring cash flow and KPI reports, and those are only as current as the last reconciliation. Vert does reconciliation and cash coding in minutes with a full audit trail. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "unity-accounting--christine-hbous",
+   "subject": "Re: Reconciling at Unity Accounting",
+   "body": "Hi Christine,\n\nLast note. One of your NFP clients cut payroll from three days a fortnight to half a day, which shows what automation does for a small team. Vert aims to do the same for reconciliation. Worth 10 min, or is the timing wrong?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C11",
+    "C4"
+   ]
+  }
+ }
+}

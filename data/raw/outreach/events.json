@@ -1,0 +1,610 @@
+[
+ {
+  "id": "gmail:19d89a8f6222758b",
+  "date": "2026-04-14T01:44:05Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "gmail",
+  "counterpartyEmails": [
+   "ben@eql.com"
+  ],
+  "domain": "eql.com",
+  "subject": "Meeting",
+  "snippet": "Hi Ben, My name is Dawoud — I'm a 20-year-old business and data analysis student with a real passion for finance and startups.",
+  "threadId": "19d89a8f6222758b",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail:19d89a98aaee011d",
+  "date": "2026-04-14T01:44:43Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "gmail",
+  "counterpartyEmails": [
+   "geethi@eql.com"
+  ],
+  "domain": "eql.com",
+  "subject": "Meeting",
+  "snippet": "Hi Geethi, My name is Dawoud — I'm a 20-year-old business and data analysis student with a real passion for finance and startups.",
+  "threadId": "19d89a98aaee011d",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail-linkedin-notification:1a0c24f9d0210033",
+  "date": "2026-09-21T04:53:12Z",
+  "channel": "linkedin",
+  "kind": "connection_accepted",
+  "source": "gmail-linkedin-notification",
+  "counterpartyEmails": [
+   "david.nucifora@emesent.io"
+  ],
+  "personName": "David Nucifora",
+  "domain": "emesent.io",
+  "subject": "David accepted your invitation, explore their network",
+  "threadId": "1a0c24f9d0210033",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail:1a0fbd353510132d",
+  "date": "2026-10-02T08:55:25Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "gmail",
+  "counterpartyEmails": [
+   "nigel@stepone.life"
+  ],
+  "domain": "stepone.life",
+  "subject": "Idea for step one",
+  "snippet": "Hey Nigel hope your doing well. I saw Step One's FY26 result and the focus on cost discipline and cleaning up inventory during the reset.",
+  "threadId": "1a0fbd17f56ed41e",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail:1a0fbdb9eb035a73",
+  "date": "2026-10-02T09:04:29Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "gmail",
+  "counterpartyEmails": [
+   "billy.voss@bassike.com"
+  ],
+  "domain": "bassike.com",
+  "subject": "Idea for Bassike",
+  "snippet": "Hey Billy, hope you're having a great week. I've been following Bassike's growth and really admire how the brand balances sustainable, local production",
+  "threadId": "1a0fbd9af1e953bc",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail:1a0fbe42a1378ce5",
+  "date": "2026-10-02T09:13:49Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "gmail",
+  "counterpartyEmails": [
+   "deborah.bernie@bassike.com"
+  ],
+  "domain": "bassike.com",
+  "subject": "Idea for Bassike",
+  "snippet": "Hey Deborah, hope your having a great day. I know managing inventory, merchant feeds, and month-end close across diverse channels creates substantial overhead",
+  "threadId": "1a0fbdcd4f2a237e",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail:1a104aa1ec1b0629",
+  "date": "2026-10-04T02:06:59Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "gmail",
+  "counterpartyEmails": [
+   "immadig@ultraceuticals.com"
+  ],
+  "domain": "ultraceuticals.com",
+  "subject": "Quick question regarding month-end workflows & automation",
+  "snippet": "Hi Dimitri, I came across your profile ... (delivery to this address failed: 550 bounce notification received 2026-10-04T02:07:15Z)",
+  "threadId": "1a104aa161179127",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail-linkedin-notification:1a15e180a58f4d06",
+  "date": "2026-10-21T10:53:14Z",
+  "channel": "linkedin",
+  "kind": "connection_accepted",
+  "source": "gmail-linkedin-notification",
+  "counterpartyEmails": [],
+  "personName": "Kelan Wright",
+  "domain": "kindling.team",
+  "subject": "Kelan accepted your invitation, explore their network",
+  "threadId": "1a15e180a58f4d06",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail-linkedin-notification:1a17bb48ac20caef",
+  "date": "2026-10-27T04:53:12Z",
+  "channel": "linkedin",
+  "kind": "connection_accepted",
+  "source": "gmail-linkedin-notification",
+  "counterpartyEmails": [],
+  "personName": "Robinson Lovell",
+  "domain": "inskincosmedics.com.au",
+  "subject": "Robinson accepted your invitation, explore their network",
+  "threadId": "1a17bb48ac20caef",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail-linkedin-notification:1a19b0892ed99d79",
+  "date": "2026-11-02T06:53:12Z",
+  "channel": "linkedin",
+  "kind": "connection_accepted",
+  "source": "gmail-linkedin-notification",
+  "counterpartyEmails": [],
+  "personName": "Tina Grieve, CA",
+  "domain": "cooeenativesuperfoods.com.au",
+  "subject": "Tina accepted your invitation, explore their network",
+  "threadId": "1a19b0892ed99d79",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:5",
+  "date": "2026-11-16T06:37:18Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "pratyush@accountinggurus.com.au"
+  ],
+  "domain": "accountinggurus.com.au",
+  "subject": "Cash coding at Accounting Gurus",
+  "threadId": "hostinger:INBOX.Sent:5",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:7",
+  "date": "2026-11-16T06:38:39Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "igor@takecareofbooks.com.au"
+  ],
+  "domain": "takecareofbooks.com.au",
+  "subject": "Less reconciling, more CFO work at Take Care Of Books",
+  "threadId": "hostinger:INBOX.Sent:7",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:8",
+  "date": "2026-11-16T06:38:40Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "rk@rbizz.com.au"
+  ],
+  "domain": "rbizz.com.au",
+  "subject": "Less reconciling, more CFO work at RBizz",
+  "threadId": "hostinger:INBOX.Sent:8",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:9",
+  "date": "2026-11-16T06:38:41Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "thomas@infinity22.co"
+  ],
+  "domain": "infinity22.co",
+  "subject": "Payout reconciliation at Infinity22",
+  "threadId": "hostinger:INBOX.Sent:9",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:11",
+  "date": "2026-11-16T06:39:21Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "dconnolly@lumina.com.au"
+  ],
+  "domain": "lumina.com.au",
+  "subject": "Month-end at Lumina",
+  "threadId": "hostinger:INBOX.Sent:11",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:10",
+  "date": "2026-11-16T06:39:21Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "kelly@q4financial.com.au"
+  ],
+  "domain": "q4financial.com.au",
+  "subject": "Cash coding at q4",
+  "threadId": "hostinger:INBOX.Sent:10",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:12",
+  "date": "2026-11-16T06:39:22Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "rob@dhm-partners.com.au"
+  ],
+  "domain": "dhm-partners.com.au",
+  "subject": "Less reconciling, more CFO work at DHM",
+  "threadId": "hostinger:INBOX.Sent:12",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:13",
+  "date": "2026-11-16T06:39:31Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "rob.deayton@rogersonkenny.com.au"
+  ],
+  "domain": "rogersonkenny.com.au",
+  "subject": "Less reconciling, more CFO work at Rogerson Kenny",
+  "threadId": "hostinger:INBOX.Sent:13",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:15",
+  "date": "2026-11-16T06:39:33Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "salim@prestigeca.com.au"
+  ],
+  "domain": "prestigeca.com.au",
+  "subject": "Less reconciling, more CFO work at Prestige Partners",
+  "threadId": "hostinger:INBOX.Sent:15",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:14",
+  "date": "2026-11-16T06:39:33Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "david@omniabs.com.au"
+  ],
+  "domain": "omniabs.com.au",
+  "subject": "Payout reconciliation at Omnia",
+  "threadId": "hostinger:INBOX.Sent:14",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:18",
+  "date": "2026-11-16T06:39:43Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "kyelie@iqaccountants.com.au"
+  ],
+  "domain": "iqaccountants.com.au",
+  "subject": "Payout reconciliation at IQ Accountants",
+  "threadId": "hostinger:INBOX.Sent:18",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:17",
+  "date": "2026-11-16T06:39:43Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "b.conn@businessdepot.com.au"
+  ],
+  "domain": "businessdepot.com.au",
+  "subject": "Reconciliation at businessDEPOT",
+  "threadId": "hostinger:INBOX.Sent:17",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:16",
+  "date": "2026-11-16T06:39:43Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "matthew.bramhall@mgijd.com.au"
+  ],
+  "domain": "mgijd.com.au",
+  "subject": "Less reconciling, more CFO work at MGI Joyce Dickson",
+  "threadId": "hostinger:INBOX.Sent:16",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:19",
+  "date": "2026-11-16T06:39:52Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "danil@gsadvisory.com.au"
+  ],
+  "domain": "gsadvisory.com.au",
+  "subject": "Less reconciling, more CFO work at Grey Space",
+  "threadId": "hostinger:INBOX.Sent:19",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:20",
+  "date": "2026-11-16T06:39:53Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "jc@endurego.com"
+  ],
+  "domain": "endurego.com",
+  "subject": "Less reconciling, more CFO work at EndureGo",
+  "threadId": "hostinger:INBOX.Sent:20",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:21",
+  "date": "2026-11-16T06:39:54Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "peter@elevatesmes.com.au"
+  ],
+  "domain": "elevatesmes.com.au",
+  "subject": "Payout reconciliation at Elevate SMEs",
+  "threadId": "hostinger:INBOX.Sent:21",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:23",
+  "date": "2026-11-16T06:40:03Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "aloveridge@dawson.com.au"
+  ],
+  "domain": "dawson.com.au",
+  "subject": "Cash coding at Dawson",
+  "threadId": "hostinger:INBOX.Sent:23",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:22",
+  "date": "2026-11-16T06:40:03Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "darshak@evource.com.au"
+  ],
+  "domain": "evource.com.au",
+  "subject": "Cash coding at Evource",
+  "threadId": "hostinger:INBOX.Sent:22",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:24",
+  "date": "2026-11-16T06:40:04Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "reuben@new-wave.com.au"
+  ],
+  "domain": "new-wave.com.au",
+  "subject": "Payout reconciliation at New Wave",
+  "threadId": "hostinger:INBOX.Sent:24",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:27",
+  "date": "2026-11-16T06:40:15Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "spirom@mayfairmarks.com.au"
+  ],
+  "domain": "mayfairmarks.com.au",
+  "subject": "Less reconciling, more CFO work at Mayfair Marks",
+  "threadId": "hostinger:INBOX.Sent:27",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:26",
+  "date": "2026-11-16T06:40:15Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "dev@credibleaccounting.com.au"
+  ],
+  "domain": "credibleaccounting.com.au",
+  "subject": "Less reconciling, more CFO work at Credible",
+  "threadId": "hostinger:INBOX.Sent:26",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:25",
+  "date": "2026-11-16T06:40:15Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "bryn@hellocfo.com.au"
+  ],
+  "domain": "hellocfo.com.au",
+  "subject": "Less reconciling, more CFO work at HelloCFO",
+  "threadId": "hostinger:INBOX.Sent:25",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:28",
+  "date": "2026-11-16T06:40:26Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "danielle@theintegratedcfo.com.au"
+  ],
+  "domain": "theintegratedcfo.com.au",
+  "subject": "Less reconciling, more CFO work at The Integrated CFO",
+  "threadId": "hostinger:INBOX.Sent:28",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:29",
+  "date": "2026-11-16T06:40:28Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "adamd@byrons.com.au"
+  ],
+  "domain": "byrons.com.au",
+  "subject": "Reconciliation at BYRONS",
+  "threadId": "hostinger:INBOX.Sent:29",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:30",
+  "date": "2026-11-16T06:40:35Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "carlia@highview.com.au"
+  ],
+  "domain": "highview.com.au",
+  "subject": "Reconciliation at Highview",
+  "threadId": "hostinger:INBOX.Sent:30",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:31",
+  "date": "2026-11-16T06:40:38Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "rachael.turner@lucentadvisory.com.au"
+  ],
+  "domain": "lucentadvisory.com.au",
+  "subject": "Cash coding at Lucent",
+  "threadId": "hostinger:INBOX.Sent:31",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:32",
+  "date": "2026-11-16T06:40:47Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "dinesh@fortunaadvisors.com.au"
+  ],
+  "domain": "fortunaadvisors.com.au",
+  "subject": "Cash coding at Fortuna",
+  "threadId": "hostinger:INBOX.Sent:32",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:33",
+  "date": "2026-11-16T06:40:48Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "geofft@esvgroup.com.au"
+  ],
+  "domain": "esvgroup.com.au",
+  "subject": "Reconciliation at ESV",
+  "threadId": "hostinger:INBOX.Sent:33",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:34",
+  "date": "2026-11-16T06:41:18Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "zdeklerk@xeta.com.au"
+  ],
+  "domain": "xeta.com.au",
+  "subject": "Month-end at XETA",
+  "threadId": "hostinger:INBOX.Sent:34",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:35",
+  "date": "2026-11-16T06:41:25Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "lauren@rosy.business"
+  ],
+  "domain": "rosy.business",
+  "subject": "Cash coding at Rosy",
+  "threadId": "hostinger:INBOX.Sent:35",
+  "seenFlag": null
+ },
+ {
+  "id": "hostinger:INBOX.Sent:37",
+  "date": "2026-11-18T06:05:30Z",
+  "channel": "email",
+  "kind": "sent",
+  "source": "hostinger",
+  "counterpartyEmails": [
+   "pratyush@accountinggurus.com.au"
+  ],
+  "domain": "accountinggurus.com.au",
+  "subject": "Idea for Accounting Gurus",
+  "threadId": "hostinger:INBOX.Sent:37",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail-linkedin-notification:1a1ed6e5825d3449",
+  "date": "2026-11-18T06:53:13Z",
+  "channel": "linkedin",
+  "kind": "connection_accepted",
+  "source": "gmail-linkedin-notification",
+  "counterpartyEmails": [
+   "scott@abbotts.net.au"
+  ],
+  "personName": "Scott Reid",
+  "domain": "abbotts.net.au",
+  "subject": "Scott accepted your invitation, explore their network",
+  "threadId": "1a1ed6e5825d3449",
+  "seenFlag": null
+ },
+ {
+  "id": "gmail-linkedin-notification:1a202d2efb7a477a",
+  "date": "2026-11-22T10:35:07Z",
+  "channel": "linkedin",
+  "kind": "reply",
+  "source": "gmail-linkedin-notification",
+  "counterpartyEmails": [
+   "gabrielle@intrepidadvisory.com.au"
+  ],
+  "personName": "Gabrielle Edmonds",
+  "domain": "intrepidadvisory.com",
+  "subject": "Gabrielle just messaged you",
+  "threadId": "1a202d2efb7a477a",
+  "seenFlag": null
+ }
+]

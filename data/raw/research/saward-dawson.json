@@ -1,0 +1,349 @@
+{
+ "accountId": "saward-dawson",
+ "accountName": "Saward Dawson",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Saward Dawson is a Blackburn, Melbourne chartered accountancy (Russell Bedford member) with 70-80 staff, audit-led but with a business advisory team that handles client accounting, reconciliations and cloud-app setups. It has written publicly that it is exploring AI tools, and is expanding into Sydney in 2026. Business Advisory Partner Shervy Dahliana is a Certified Xero Advisor who works with NFPs on reconciliations, BAS and GST.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://sawarddawson.com.au/team/shervy-dahliana/",
+   "title": "Shervy Dahliana - Saward Dawson",
+   "type": "website",
+   "publisher": "Saward Dawson",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/shervydahliana",
+   "title": "Shervy Dahliana | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S3",
+   "url": "https://sawarddawson.com.au/team/jeff-tulk/",
+   "title": "Jeff Tulk - Saward Dawson",
+   "type": "website",
+   "publisher": "Saward Dawson",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/jeffrey-tulk-14427397",
+   "title": "Jeffrey Tulk | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "S5",
+   "url": "https://sawarddawson.com.au/what-we-do/business-advisory/",
+   "title": "Business Advisory - Saward Dawson",
+   "type": "website",
+   "publisher": "Saward Dawson",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://sawarddawson.com.au/is-ai-the-secret-weapon-for-small-business-accounting/",
+   "title": "Is AI the secret weapon for small business accounting?",
+   "type": "blog",
+   "publisher": "Saward Dawson",
+   "date": "2025-07-22"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/saward-dawson_sydneycareers-audit-hiringnow-activity-7467376106032181249-doH4",
+   "title": "Saward Dawson: We're expanding our footprint into Sydney",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-06-02"
+  },
+  {
+   "id": "S8",
+   "url": "https://sawarddawson.com.au/apac/",
+   "title": "Safeguarding Australia's Mental Health: APAC and Saward Dawson",
+   "type": "blog",
+   "publisher": "Saward Dawson",
+   "date": "2026-04-07"
+  },
+  {
+   "id": "S9",
+   "url": "https://sawarddawson.com.au/paul-tan-audit-partner/",
+   "title": "Paul Tan Appointed Partner at Saward Dawson",
+   "type": "news",
+   "publisher": "Saward Dawson",
+   "date": "2026-05-29"
+  },
+  {
+   "id": "S10",
+   "url": "https://sawarddawson.com.au/who-we-are/our-team/",
+   "title": "Our Team - Saward Dawson",
+   "type": "website",
+   "publisher": "Saward Dawson",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Saward Dawson's own site (sawarddawson.com.au) lists its office at Level 1, 20 Albert Street, Blackburn VIC 3130.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "Level 1, 20 Albert Street, Blackburn VIC 3130 PO Box 1212, Blackburn North VIC 3130",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Shervy Dahliana is currently a Partner in Business Advisory at Saward Dawson (partner since July 2022).",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "Shervy Dahliana one of our Business Advisory partners and has been with the firm for more than 20 years.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Jeff Tulk is a Partner in Audit and Assurance at Saward Dawson and Head of Financial Reporting Governance.",
+   "sourceIds": [
+    "S3",
+    "S4"
+   ],
+   "quote": "Principal, Saward Dawson",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Shervy Dahliana works with small businesses and not-for-profits on accounting processes, compliance, reconciliations, BAS and GST.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "with their accounting processes, compliance obligations, reconciliations, BAS and GST requirements.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Shervy Dahliana is a Certified Xero Advisor.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Certified Xero Advisor",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Saward Dawson's business advisory page offers clients anything from data entry help to a regular review and reconciliation of their records, or a short-term CFO.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Whether you require data entry level assistance, a regular review and reconciliation of your records or a high level CFO for a short time",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The same page says Saward Dawson builds ecosystems of connected cloud applications (Hubdoc, ApprovalMax, Futrli, KeyPay, Practice Ignition) to automate business functions.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "we also assist our clients with building an ecosystem of connected cloud applications to automate the various business functions",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In July 2025 Saward Dawson published an article on AI for small business accounting saying the firm is continually exploring AI tools.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "At Saward Dawson, we’re continually exploring how AI tools can enhance business efficiency and deliver greater value to our clients.",
+   "date": "2025-07",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "On 2 June 2026 Saward Dawson announced it is expanding into Sydney and hiring an External Auditor.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We’re expanding our Saward Dawson footprint into Sydney!",
+   "date": "2026-06",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "A 2026 Saward Dawson client story says the firm helped APAC strengthen internal systems, embed clearer controls and automate processes that once required significant manual effort.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "strengthen its internal systems, embed clearer controls and automate processes that once required significant manual effort.",
+   "date": "2026-04",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Paul Tan was appointed Audit and Assurance Partner effective 1 July 2026.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "We are pleased to announce the appointment of Paul Tan as Partner at Saward Dawson, effective 1 July 2026.",
+   "date": "2026-05",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn describes Saward Dawson as a Melbourne accounting and business advisory provider for family businesses and not-for-profits, with 70-80 employees.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Saward Dawson is a Melbourne accounting and business advisory provider supporting family businesses and not-for-profits with tax, audit and strategic advice.",
+   "date": "2026-06",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Shervy Dahliana",
+   "title": "Partner, Business Advisory",
+   "contactId": "saward-dawson--shervy-dahliana",
+   "linkedin": "https://www.linkedin.com/in/shervydahliana",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Jeffrey Tulk",
+   "title": "Principal, Audit and Assurance",
+   "contactId": "saward-dawson--jeffrey-tulk",
+   "linkedin": "https://www.linkedin.com/in/jeffrey-tulk-14427397",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Shervy leads reconciliation, BAS and GST work for NFP and small business clients and the firm offers regular reconciliation review as a service line: she owns the workflow Vert automates.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Firm says it is continually exploring AI tools and promotes connected cloud apps; the APAC case study stresses automation with clearer controls.",
+   "claimIds": [
+    "C8",
+    "C7",
+    "C10"
+   ]
+  },
+  {
+   "text": "Sydney expansion and new partner appointments signal growth in headcount and client load.",
+   "claimIds": [
+    "C9",
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Audit and assurance is the firm's lead service; the primary contact (Jeff Tulk) is an audit partner, so the draft goes to Business Advisory Partner Shervy Dahliana instead.",
+   "claimIds": [
+    "C3",
+    "C2"
+   ]
+  },
+  {
+   "text": "The firm already builds connected-app ecosystems (Hubdoc, ApprovalMax, Futrli) and is exploring AI, so it may have preferred tools and its own views on audit trail and controls.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Weak-to-moderate fit per account notes: no standalone bookkeeping or outsourced-finance line.",
+   "claimIds": [
+    "C6",
+    "C12"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video, Facebook or Instagram content found for Shervy Dahliana or Jeff Tulk (Shervy appears on a CMA conference faculty page only).",
+  "No job ads for bookkeeping or business advisory roles found; only a Sydney auditor ad.",
+  "Xero partner status for the firm itself not confirmed beyond individual Certified Xero Advisors.",
+  "Business advisory page contains placeholder text ('[insert link here]'), so its tool list may be dated."
+ ],
+ "searches": [
+  {
+   "query": "Saward Dawson Blackburn Jeffrey Tulk principal",
+   "results": 10
+  },
+  {
+   "query": "Saward Dawson news merger OR acquisition OR joins OR announces 2026",
+   "results": 8
+  },
+  {
+   "query": "Shervy Dahliana Saward Dawson business advisory partner",
+   "results": 8
+  },
+  {
+   "query": "Saward Dawson AI OR automation OR Xero OR Dext OR Karbon accounting firm Melbourne technology",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "saward-dawson--shervy-dahliana",
+   "subject": "Reconciliation work at Saward Dawson",
+   "body": "Hi Shervy,\n\nSaward Dawson's business advisory page offers clients a regular review and reconciliation of their records, and your profile says you work with not-for-profits on reconciliations, BAS and GST. Vert reconciles and cash codes with a traceable audit trail, turning hours of manual reconciliation into minutes. With the firm expanding into Sydney, I'd love to learn how much of that client reconciliation work still lands on your team each month. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C4",
+    "C9"
+   ]
+  },
+  "followUp": {
+   "contactId": "saward-dawson--shervy-dahliana",
+   "subject": "Re: Reconciliation work at Saward Dawson",
+   "body": "Hi Shervy,\n\nFollowing up on my note last week. Saward Dawson's APAC case study describes automating processes that once took significant manual effort, and the firm's piece on AI last year says the firm is continually exploring AI tools. Which parts of client reconciliation are you looking at next? Happy to show how Vert fits in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "saward-dawson--shervy-dahliana",
+   "subject": "Re: Reconciliation work at Saward Dawson",
+   "body": "Hi Shervy,\n\nLast nudge. Your profile mentions reconciliation work for not-for-profits, and Saward Dawson builds connected app stacks with tools like Hubdoc and ApprovalMax for clients. Where does reconciliation sit in that stack today? Happy to show Vert in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7"
+   ]
+  }
+ }
+}

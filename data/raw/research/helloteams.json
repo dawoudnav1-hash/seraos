@@ -1,0 +1,250 @@
+{
+ "accountId": "helloteams",
+ "accountName": "HelloTeams",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "HelloTeams is a Melbourne-founded Microsoft Teams Phone provider (Operator Connect, Direct Routing) operating in several regions and expanding into Germany via partners. Finance Manager Stefan Pahos, CPA, runs bookkeeping for four entities (AU, US, UK, NZ) and prepares monthly consolidated board reports.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/stefan-pahos-cpa-bas-agent-a39034112",
+   "title": "Stefan Pahos LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-16"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/posts/stefan-pahos-cpa-bas-agent-a39034112_the-bare-minimum-you-should-expect-from-your-activity-7403358243122774016-z4ws",
+   "title": "Stefan Pahos post: The bare minimum you should expect from your bookkeeper / accountant / finance team",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Stefan Pahos)",
+   "date": "2025-12-07"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/helloteamsapp",
+   "title": "HelloTeams LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://helloteams.global/helloteams-and-solgari-announce-strategic-technological-partnership/",
+   "title": "HelloTeams and Solgari announce strategic technological partnership",
+   "type": "blog",
+   "publisher": "HelloTeams",
+   "date": "2026-08-12"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/helloteamsapp_were-pleased-to-announce-a-new-partnership-activity-7511328365065465856-bI99",
+   "title": "HelloTeams and CCP Software GmbH partnership",
+   "type": "linkedin",
+   "publisher": "LinkedIn (HelloTeams)",
+   "date": "2026-10-01"
+  },
+  {
+   "id": "S6",
+   "url": "https://helloteams.global/about-us/",
+   "title": "About HelloTeams",
+   "type": "website",
+   "publisher": "HelloTeams",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "HelloTeams is a Microsoft Teams Phone provider founded in 2021 and headquartered in Melbourne, Australia.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "HelloTeams is a Microsoft Teams Phone provider. We empower businesses around the world to connect and deploy Teams Calling in 15 minutes",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Stefan Pahos is Finance Manager at HelloTeams (current), in the role since March 2026 after nine months as Bookkeeper.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager - HelloTeams (Current) Mar 2026 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Stefan does full-function bookkeeping for four HelloTeams entities (AU, US, UK, NZ), including AP, AR, bank reconciliations and payroll oversight.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Full-function bookkeeping for four Helloteams entities (AU, US, UK, NZ), including oversight of Accounts Payable, Accounts Receivable, Bank reconciliations, Payroll",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Stefan prepares monthly consolidated board reports with budget variance analysis, and processes month-end and year-end reconciliations.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Prepare monthly consolidated board reports, including budget variance analysis and month-on-month and year-on-year comparisons",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Stefan posted on LinkedIn about the bare minimum you should expect from your bookkeeper, accountant or finance team.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "The bare minimum you should expect from your bookkeeper / accountant / finance team.",
+   "date": "2025-12",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Stefan is also a CPA, registered BAS agent and Xero Advisor certified, and runs Pahos and Co on the side.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Registered BAS Agent by Tax Practitioners Board",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "HelloTeams announced a technology partnership with Solgari in August 2026 to expand into Germany.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "HelloTeams has announced its technological partnership with Solgari",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "HelloTeams announced a new partnership with CCP Software GmbH in October 2026 to serve organisations across DACH.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We're pleased to announce a new partnership between HelloTeams and CCP Software GmbH!",
+   "date": "2026-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "HelloTeams went global in 2022 with branches in the UK, the US and New Zealand and became a Microsoft-certified Operator Connect provider in 2023.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "HelloTeams goes global, serving more than 19 regions through dedicated branches in the UK, the US, and New Zealand.",
+   "date": null,
+   "category": "growth",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Stefan Pahos, CPA",
+   "title": "Finance Manager",
+   "contactId": "helloteams--stefan-pahos-cpa",
+   "linkedin": "https://linkedin.com/in/stefan-pahos-cpa-bas-agent-a39034112",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Stefan personally runs bookkeeping and reconciliations across four entities and a consolidated board report, a clear multi-entity close burden.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "His own post on the bare minimum to expect from a finance team shows he cares about standards and trust in the numbers.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "DACH expansion through Solgari and CCP adds a new region to the close.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small team (about 10 staff, 2 in finance) so budget may be limited; Stefan also runs a side practice and is an Xero-certified advisor, so he may favour his existing tooling.",
+   "claimIds": [
+    "C6",
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "Accounting stack (Xero) not confirmed on a HelloTeams primary page; Stefan is Xero Advisor certified.",
+  "No funding information found.",
+  "No finance hiring ads found."
+ ],
+ "searches": [
+  {
+   "query": "HelloTeams Microsoft Teams calling Melbourne partnership CCP Software Solgari DACH",
+   "results": 8
+  },
+  {
+   "query": "Stefan Pahos CPA Finance Manager HelloTeams",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "helloteams--stefan-pahos-cpa",
+   "subject": "Four entities, one close at HelloTeams",
+   "body": "Hi Stefan, I saw you run full bookkeeping for four HelloTeams entities across AU, US, UK and NZ, plus the monthly consolidated board report. With the new partnerships in Germany and DACH adding another region, the month-end reconciling can only grow. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace. How long does reconciling across the four entities take you each month?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C7",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "helloteams--stefan-pahos-cpa",
+   "subject": "Re: Four entities, one close at HelloTeams",
+   "body": "Hi Stefan, following up on my note last week. Your post on the bare minimum you should expect from your bookkeeper, accountant or finance team resonated. Vert aims to make reconciling a minimum that takes minutes, with a trail anyone can check. Are your four entities reconciled on the same timetable, or does one hold up the consolidated board report?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C3",
+    "C4"
+   ]
+  },
+  "followUp2": {
+   "contactId": "helloteams--stefan-pahos-cpa",
+   "subject": "Re: Four entities, one close at HelloTeams",
+   "body": "Hi Stefan, last nudge from me. With HelloTeams partnering with Solgari to enter Germany this August, I'd guess another currency and tax regime joins your close. Happy to show Vert's multi-entity reconciling in 10 minutes, or leave it for now.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C3"
+   ]
+  }
+ }
+}

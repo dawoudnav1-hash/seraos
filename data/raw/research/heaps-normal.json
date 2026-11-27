@@ -1,0 +1,316 @@
+{
+ "accountId": "heaps-normal",
+ "accountName": "Heaps Normal",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Heaps Normal is a Canberra-born, Sydney-based independent non-alcoholic beer brand sold through major retailers and pubs, now in the UK and US. CFO Damien Williams (ex-Culture Amp) featured on The CFO Track podcast in November 2026, and CEO Andy Miller has said the company is exploring a Series B. AFR reported in January 2026 that it is meeting global investors and planning offshore manufacturing.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.afr.com/street-talk/cult-brewer-heaps-normal-courts-global-investors-eyes-raise-20260119-p5nv4x",
+   "title": "Heaps Normal courts global investors to finance major expansion",
+   "type": "news",
+   "publisher": "Australian Financial Review",
+   "date": "2026-01-19"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.clearvalue.co/deals-data-blog/heaps-normal-eyes-capital-raise-to-fund-us-and-uk-expansion",
+   "title": "Heaps Normal eyes capital raise to fund US and UK expansion",
+   "type": "news",
+   "publisher": "Clear Value",
+   "date": "2026-01-27"
+  },
+  {
+   "id": "S3",
+   "url": "https://spoken.md/episode/the-cfo-who-marched-in-the-olympics-damien-williams-1000800896764",
+   "title": "The CFO Who Marched in the Olympics - Damien Williams (Heaps Normal), The CFO Track",
+   "type": "podcast",
+   "publisher": "The CFO Track",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/damien64",
+   "title": "Damien Williams - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/andyjamesmiller_robbie-williams-invests-in-australian-drinks-activity-7362736870054637568-trf9",
+   "title": "Andy Miller post on possible Series B raise",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-08-17"
+  },
+  {
+   "id": "S6",
+   "url": "https://heapsnormal.com/pages/join-our-team",
+   "title": "Heaps Normal Job Opportunities",
+   "type": "job",
+   "publisher": "Heaps Normal",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.canberratimes.com.au/story/9241386/the-heaps-normal-beer-story-how-andy-miller-changed-the-game/",
+   "title": "The Heaps Normal beer story: How Andy Miller changed the game",
+   "type": "news",
+   "publisher": "The Canberra Times",
+   "date": "2026-05-07"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.linkedin.com/in/andyjamesmiller",
+   "title": "Andy Miller - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-27"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Heaps Normal is an independent non-alcoholic beer company; Damien Williams' LinkedIn lists it with offices in Sydney.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Heaps Normal is an independent, non-alcoholic beer in support of mindful drinking and your own normal.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Damien Williams is Chief Financial Officer of Heaps Normal (current, since Feb 2023).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Chief Financial Officer - Heaps Normal (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Andy Miller is Co-Founder and CEO of Heaps Normal (current).",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Co-Founder & CEO - Heaps Normal (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Damien was a guest on The CFO Track podcast (10 Nov 2026), discussing why he left tech to join a non-alcoholic beer company.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "what made him leave tech after 10 years, and walk into a non-alcoholic beer company",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Damien said on the podcast that Heaps Normal had a quarterly board meeting that evening, with board members in Melbourne and Sydney.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We've got a quarterly board meeting tonight.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Before Heaps Normal, Damien was an early finance hire at Culture Amp, per the podcast intro.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "This is before he joined Culture Amp as employee number 13",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Damien's LinkedIn headline is Growing & Scaling VC backed Startups | CFO @ Heaps Normal.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Growing & Scaling VC backed Startups | CFO @ Heaps Normal",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "AFR reported in Jan 2026 that Heaps Normal is meeting global investors ahead of a potential capital raising, to fund a Sydney health club and offshore manufacturing.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "hitting the investor trail ahead of a potential capital raising",
+   "date": "2026-01",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Clear Value reported Heaps Normal currently relies on beer exported from Australia, creating a need for offshore manufacturing.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "the company currently relies on beer exported from Australia, creating a need for offshore manufacturing to support growth",
+   "date": "2026-01",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Andy Miller posted in Aug 2025 that Heaps Normal is exploring a possible Series B capital raise within 12 months.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "we're exploring a possible Series B capital raise in the next 12-months",
+   "date": "2025-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Heaps Normal's careers page lists a UK Sales & Brand Representative role in London.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "UK Sales & Brand Representative (London, United Kingdom)",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "Heaps Normal sells through major retailers such as Dan Murphy's and Liquorland as well as pubs and restaurants.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "available in major retailers such as Dan Murphy's and Liquorland, as well as pubs and restaurants",
+   "date": "2026-01",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "The Canberra Times (May 2026) reports international expansion followed by profitability by 2024.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "International expansion followed, then profitability by 2024",
+   "date": "2026-05",
+   "category": "growth",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Damien Williams",
+   "title": "CFO",
+   "contactId": "heaps-normal--damien-williams",
+   "linkedin": "https://linkedin.com/in/damien64",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "name": "Andy Miller",
+   "title": "Co-Founder & CEO",
+   "contactId": "heaps-normal--andy-miller",
+   "linkedin": "https://www.linkedin.com/in/andyjamesmiller",
+   "claimIds": [
+    "C3",
+    "C10"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Damien's CFO Track episode and his tech-to-physical-product move: speak to scaling finance foundations in a product business.",
+   "claimIds": [
+    "C4",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Capital raise plus offshore manufacturing and UK/US expansion: close quality and investor reporting matter more.",
+   "claimIds": [
+    "C8",
+    "C9",
+    "C10"
+   ]
+  },
+  {
+   "text": "Retail and pub channels plus export supply mean payout, inventory and FX reconciliation load.",
+   "claimIds": [
+    "C9",
+    "C12"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Two senior contacts (CEO and CFO) have both been emailed; avoid duplicating angles. Finance team of about five per LinkedIn research, so internal capacity may exist.",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance job ad found; tech stack (Xero/NetSuite etc.) not confirmed; no posts by Damien about reconciliation."
+ ],
+ "searches": [
+  {
+   "query": "Heaps Normal raise investors UK expansion CFO Damien Williams",
+   "results": 10
+  },
+  {
+   "query": "heapsnormal.com careers fetch",
+   "results": 1
+  },
+  {
+   "query": "CFO Track podcast Damien Williams",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "heaps-normal--damien-williams",
+   "subject": "Re: Reconciliations at Heaps Normal",
+   "body": "Hi Damien, following up on my note. I saw your CFO Track episode on leaving tech for a non-alcoholic beer company. With offshore manufacturing planned and a possible raise ahead, the close only gets heavier. Vert automates reconciliations and cash coding with a traceable audit trail investors tend to like. How are you handling payout and inventory recs today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C8",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "heaps-normal--andy-miller",
+   "subject": "Re: Reconciliations at Heaps Normal",
+   "body": "Hi Andy, last nudge. You posted in August that you're exploring a Series B, and AFR says you've been meeting global investors. Investors will ask how fast the books close. Vert cuts reconciliation from hours to minutes with an audit trail, so Damien's team can focus on the raise. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C8"
+   ]
+  }
+ }
+}

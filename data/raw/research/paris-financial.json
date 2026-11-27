@@ -1,0 +1,324 @@
+{
+ "accountId": "paris-financial",
+ "accountName": "Paris Financial",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Paris Financial is a Melbourne small business tax and accounting practice (founded 1978) with offices in Blackburn and East Melbourne, and private wealth, lending and SMSF arms. It was acquired by Ironbark Financial Group and announced as joining Ironbark on 2-3 Nov 2026, and is integrating into the Ironbark Advice brand. Paul Bunting is a long-serving accountant listed as Principal on LinkedIn but as Senior Associate on the firm's site; the nine partners include Ken Burk and Pat Mannix.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.parisfinancial.com.au/",
+   "title": "Small Business Tax Solutions & Accountant Services Melbourne | Paris Financial",
+   "type": "website",
+   "publisher": "Paris Financial",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.parisfinancial.com.au/contact/",
+   "title": "Contact | Paris Financial",
+   "type": "website",
+   "publisher": "Paris Financial",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.parisfinancial.com.au/team/paul-bunting/",
+   "title": "Paul Bunting - Paris Financial",
+   "type": "website",
+   "publisher": "Paris Financial",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/paul-bunting-34633813",
+   "title": "Paul Bunting - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.financialstandard.com.au/news/ironbark-expands-advice-footprint-with-acquisition-179814464",
+   "title": "Ironbark expands advice footprint with acquisition",
+   "type": "news",
+   "publisher": "Financial Standard",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/ironbark-financial-group_welcoming-paris-financial-to-ironbark-financial-activity-7522889624235573248-5SNo",
+   "title": "Welcoming Paris Financial to Ironbark Financial Group",
+   "type": "linkedin",
+   "publisher": "Ironbark Financial Group",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.parisfinancial.com.au/who-we-are/our-team/",
+   "title": "Meet the Team - Paris Financial",
+   "type": "website",
+   "publisher": "Paris Financial",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://mergeralert.com.au/acquisitions/ironbark-paris-group",
+   "title": "Ironbark - Paris Group | MergerAlert",
+   "type": "registry",
+   "publisher": "MergerAlert (ACCC register)",
+   "date": "2026-07-31"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Paris Financial operates from Blackburn and East Melbourne, Victoria, and describes itself as small business tax specialists with 45 years of experience.",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "With 45 years of quality professional advice and community spirit behind us, we make it our mission to see your business succeed.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Paris Financial's Blackburn office is Suite 5, 2-6 Albert Street, Blackburn VIC 3130.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Suite 5, 2-6 Albert Street Blackburn Victoria 3130",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Paul Bunting is listed on the firm's site with more than 44 years in public practice, and on LinkedIn as Principal at Paris Financial (current, checked Nov 2026).",
+   "sourceIds": [
+    "S3",
+    "S4"
+   ],
+   "quote": "With more than 44 years of knowledge and experience in Public Practice, Paul is highly efficient in providing personalised taxation and structuring solutions",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Paris Financial officially joined Ironbark Financial Group, announced on 2 Nov 2026; Ironbark's Doncaster advice team relocated to Paris Financial's Blackburn office.",
+   "sourceIds": [
+    "S6",
+    "S5"
+   ],
+   "quote": "We're excited to announce that Paris Financial has officially joined Ironbark Financial Group.",
+   "date": "2026-11-02",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Paris Financial has nine partners and 28 staff and is being integrated into the Ironbark Advice brand; Ironbark's CEO says continuity for clients and employees is the priority during integration.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Our priority throughout the integration will be continuity for clients and employees and preserving the qualities that make Paris successful.",
+   "date": "2026-11-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Ironbark recently raised $256 million from Merchant Wealth Partners to pursue growth, including a pipeline of acquisitions.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Ironbark recently raised $256 million from Merchant Wealth Partners to execute its growth strategy in Australia",
+   "date": "2026-11-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Paris Financial merged with Phillip Anthony Partners, which became Paris Financial East Melbourne, giving the firm over 65 people across two locations.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "the team at Phillip Anthony Partners have merged with Paris Financial.",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "Paris Financial's service lines are advisory, private wealth, lending and finance, and SMSF establishment; no bookkeeping or month-end service is listed on its homepage.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We offer a tailored suite of small business tax services.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Paul Bunting serves clients in medical, professional services, IT, and building and property development sectors.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Paul serves a number of clients in the medical, professional services, IT, building & property development sectors",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Paul's site profile says he develops plans and strategies, assists with implementation and follows through to completion for clients' tax planning and business development.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "develops plans & strategies, assists with implementation and follows through to completion",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Paris Financial's own team page lists Paul Bunting as Senior Associate - CA, while LinkedIn lists him as Principal.",
+   "sourceIds": [
+    "S7",
+    "S4"
+   ],
+   "quote": "Paul Bunting SENIOR ASSOCIATE - CA",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Ironbark's acquisition of Paris Group was considered by the ACCC, which determined in August 2026 that it did not need to be notified.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Invest Blue proposes to acquire 100% of the shares in Paris Financial Holdings Pty Ltd",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Paul Bunting",
+   "title": "Principal (LinkedIn) / Senior Associate - CA (firm site)",
+   "contactId": "paris-financial--paul-bunting",
+   "linkedin": "https://www.linkedin.com/in/paul-bunting-34633813",
+   "claimIds": [
+    "C3",
+    "C9",
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "name": "Andrea Dawson",
+   "title": "Partner - M.FinPlan",
+   "contactId": "paris-financial--andrea-dawson",
+   "linkedin": "https://www.linkedin.com/in/andrea-dawson-3bb928305",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Paris Financial has just joined Ironbark (2 Nov 2026) and is integrating; consolidating processes across teams may open a window to review how reconciliation is done (inference).",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C7"
+   ]
+  },
+  {
+   "text": "Paul's profile emphasises implementation and following through to completion for small business tax and structuring clients; clean reconciled books underpin that work (inference).",
+   "claimIds": [
+    "C10",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Paris Financial was just acquired by Ironbark Financial Group; purchasing and software decisions may now sit with the Ironbark group, and the integration may freeze new tools.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C12"
+   ]
+  },
+  {
+   "text": "Tax and wealth focus with no bookkeeping or month-end service listed; weak volume fit for reconciliation tooling.",
+   "claimIds": [
+    "C8"
+   ]
+  },
+  {
+   "text": "Paul Bunting's seniority is unclear (Principal on LinkedIn, Senior Associate on the firm site) and he may not own tooling decisions; partners include Ken Burk and Pat Mannix.",
+   "claimIds": [
+    "C11",
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No blog, podcast or LinkedIn posts by Paul found beyond his profile.",
+  "No job ads or tech stack signals (Xero/MYOB/Dext) found.",
+  "No Facebook/Instagram content reviewed.",
+  "The firm's own site had not yet announced the Ironbark acquisition in the pages read."
+ ],
+ "searches": [
+  {
+   "query": "site:parisfinancial.com.au home, contact, about",
+   "results": 3
+  },
+  {
+   "query": "Paul Bunting Paris Financial Blackburn principal accountant",
+   "results": 8
+  },
+  {
+   "query": "Paris Financial joins Ironbark Advice Blackburn announcement partners Andrea Dawson",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "paris-financial--paul-bunting",
+   "subject": "Paris Financial joining Ironbark",
+   "body": "Hi Paul,\n\nCongratulations on Paris Financial officially joining Ironbark this month. With Phillip Anthony Partners already merged in and Ironbark's advice team now sharing your Blackburn office, I'd imagine how teams handle bank reconciliations and coding is up for review. After more than 44 years in public practice, you'll know hand reconciling is where billable hours quietly leak. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail. Is reconciliation on your list as the teams come together?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7",
+    "C3"
+   ]
+  },
+  "followUp": {
+   "contactId": "paris-financial--paul-bunting",
+   "subject": "Re: Paris Financial joining Ironbark",
+   "body": "Hi Paul,\n\nFollowing up on my note. Paris describes itself as small business tax specialists, and for those clients the books being reconciled early decides how fast returns and planning get done. Vert reconciles and cash codes in minutes with a full audit trail, so your team starts from clean data. Open to a 10 min walkthrough once the integration settles?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C1",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "paris-financial--paul-bunting",
+   "subject": "Re: Paris Financial joining Ironbark",
+   "body": "Hi Paul,\n\nLast note. With clients across medical, professional services, IT and property development, your team sees very varied bank data. Vert reconciles and cash codes it in minutes with an audit trail. If integration timing is off, tell me and I'll check back in the new year.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C4"
+   ]
+  }
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "accountId": "accumulus-advisory",
+ "accountName": "Accumulus Advisory",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Accumulus Advisory is a small Essendon (VIC) accounting and virtual CFO practice. Lucy Boulos and Paul Herczaniwski took over as directors in April 2025 and marked one year with an office fit-out. Lucy posted in February 2026 about Payday Super and AML reforms, and the firm offers fixed-price bookkeeping with BAS and Xero cloud accounting.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://accumulusadvisory.com.au/",
+   "title": "Tax Accountants & Business Consulting Essendon | Accumulus Advisory",
+   "type": "website",
+   "publisher": "Accumulus Advisory",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/lucy-boulos-0550b993",
+   "title": "Lucy Boulos - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/lucy-boulos-0550b993_were-1-today-today-marks-one-year-since-activity-7445029405791535104-hYyG",
+   "title": "We're 1 today - Lucy Boulos",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-04-01"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/lucy-boulos-0550b993_paydaysuper-aml-businessadvisory-activity-7429453725007769600-Y33b",
+   "title": "Two-day seminar: Payday Super and AML - Lucy Boulos",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-02-17"
+  },
+  {
+   "id": "S5",
+   "url": "https://accumulusadvisory.com.au/services/bookkeeping/",
+   "title": "Bookkeeping Services - Accumulus Advisory",
+   "type": "website",
+   "publisher": "Accumulus Advisory",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://accumulusadvisory.com.au/casestudies/cloud-based-accounting/",
+   "title": "Cloud-Based Accounting case study - Bradmac",
+   "type": "website",
+   "publisher": "Accumulus Advisory",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/company/accumulus-advisory",
+   "title": "Accumulus Advisory - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Accumulus Advisory is based at 74A Lincoln Road, Essendon VIC 3040.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Address 74A Lincoln Road Essendon VIC 3040",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Lucy Boulos is Director & Partner at Accumulus Advisory (since April 2025).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Director & Partner (Current) Apr 2025 - Present",
+   "date": "2025-04",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Lucy and Paul Herczaniwski stepped into the business in April 2025 and marked their first year on 1 April 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Today marks one year since myself and Paul Herczaniwski stepped into the business and began the next chapter of Accumulus Advisory.",
+   "date": "2026-04",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "For the first anniversary Lucy said the firm completed a full office fit-out.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "we've completed a full office fit-out, creating a space that reflects how we work",
+   "date": "2026-04",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Lucy posted after a two-day seminar that Payday Super means super must be paid with wages from 1 July 2026, calling it a cashflow and systems shift.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "From 1 July 2026, super must be paid at the same time as wages — not quarterly. It's a real cashflow and systems shift.",
+   "date": "2026-02",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Lucy said the firm is already modelling cashflow and reviewing payroll processes with clients for Payday Super.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "we're starting the conversations now — modelling cashflow, reviewing payroll processes and tightening onboarding procedures.",
+   "date": "2026-02",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Accumulus offers Virtual CFO services for small businesses.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "All the advantages of a full-time accountant, for a part-time fee.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Bookkeeping is sold as fixed-price packages, with BAS lodged for small to large businesses.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Our bookkeeping service packages are made for small business owners",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Accumulus sits down with bookkeeping clients after each BAS period to review their profit and loss.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We sit down with you after each BAS period to chat about your profit and loss",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Accumulus moved client Bradmac Airconditioning from an offline system to Xero and the case study reports saved duplicated manual tasks.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "managed to save thousands of dollars in duplication manual tasks",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "The firm's clients range from cafes and consultants to property developers, wholesalers and retailers.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Our clients include cafes to B2B enterprises, consultants, property developers to sole traders, wholesalers, retailers, tradies and many more",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn lists Accumulus with 6 employees.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Accumulus Advisory employs 6 people, founded in 2016.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Lucy Boulos",
+   "title": "Director & Partner",
+   "contactId": "accumulus-advisory--lucy-boulos",
+   "linkedin": "https://www.linkedin.com/in/lucy-boulos-0550b993",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5"
+   ]
+  },
+  {
+   "name": "Paul Herczaniwski",
+   "title": "Director",
+   "contactId": "accumulus-advisory--paul-herczaniwski",
+   "linkedin": "https://www.linkedin.com/in/paul-herczaniwski-476a5280",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Lucy's Payday Super post: payroll and cashflow modelling with clients is new recurring reconciliation work.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Post-BAS profit and loss review with each bookkeeping client depends on clean, reconciled books first.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "New directors one year in, investing in the practice (office fit-out), likely open to improving how work is done.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small team (6), so volume may be modest.",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "gaps": [
+  "No job ads, podcasts, Facebook or news coverage found.",
+  "No explicit mention of Dext, Hubdoc or other automation tools."
+ ],
+ "searches": [
+  {
+   "query": "Lucy Boulos Accumulus Advisory Essendon",
+   "results": 8
+  },
+  {
+   "query": "site:accumulusadvisory.com.au",
+   "results": 3
+  },
+  {
+   "query": "Accumulus Advisory Essendon job bookkeeper accountant Xero",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "accumulus-advisory--lucy-boulos",
+   "subject": "Re: Idea for Accumulus Advisory",
+   "body": "Hi Lucy,\n\nFollowing up on my note last week. I read your post on Payday Super and your point that it's a real cashflow and systems shift. With clients now reviewing payroll processes, the reconciling behind that work grows too. Vert reconciles and cash codes 2x faster, with a trail you can trace. Is that extra load something you're already feeling?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "accumulus-advisory--lucy-boulos",
+   "subject": "Re: Idea for Accumulus Advisory",
+   "body": "Hi Lucy,\n\nLast nudge from me. A year into running Accumulus with Paul, you still sit down with each bookkeeping client after every BAS period to review their profit and loss. Vert gets the reconciling done first, so that conversation starts from clean books. Worth a 10 min look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C9"
+   ]
+  }
+ }
+}

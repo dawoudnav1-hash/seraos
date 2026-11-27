@@ -1,0 +1,230 @@
+{
+ "accountId": "indepth-accounting",
+ "accountName": "Indepth Accounting",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Indepth Accounting is a Maroochydore QLD advisory-led firm founded in 2018 by Director Renee Cooper, named Regional/Suburban Firm of the Year at the 2026 Australian Accounting Awards. A August 2026 NAB feature says the 13-person team has been building custom AI agents and workflow automation, including a BAS process agent and a tax statement review agent.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.indepthaccounting.com.au/renee-cooper/",
+   "title": "Renee Cooper - Indepth Accounting",
+   "type": "website",
+   "publisher": "Indepth Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.nab.com.au/news/technology-ai/how-australian-small-businesses-are-using-ai-to-save-time",
+   "title": "How Australian small businesses are using AI to save time and improve productivity",
+   "type": "news",
+   "publisher": "NAB",
+   "date": "2026-08-21"
+  },
+  {
+   "id": "S3",
+   "url": "https://au.linkedin.com/in/renee-cooper-62383b24",
+   "title": "Renee Cooper | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-17"
+  },
+  {
+   "id": "S4",
+   "url": "https://members.maroochy.org/list/member/indepth-accounting-489",
+   "title": "InDepth Accounting | Maroochydore Chamber of Commerce",
+   "type": "directory",
+   "publisher": "Maroochydore Chamber of Commerce",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/company/indepth-accounting",
+   "title": "Indepth Accounting | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-06-19"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Indepth Accounting is at 2/8 Denna Street, Maroochydore QLD.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "2/8 Denna Street Maroochydore Queensland 4558",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Renee Cooper is the Founder and Director of Indepth Accounting.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Renee Cooper is the multi award-winning Founder and Director of InDepth Accounting",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Renee's LinkedIn (indexed Oct 2026) shows her as current Director of Indepth Accounting since April 2018.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director - Indepth Accounting (Current)",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "A NAB feature (Aug 2026) says Renee's team had been experimenting with AI for about 18 months.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "her team had been experimenting with AI for about 18 months",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The same NAB feature says the firm has developed custom AI agents and workflow automation.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "development of custom AI agents and workflow automation",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Indepth built an agent that steps team members through firm processes such as collating a BAS.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "the agent can step through the business’s process",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Renee said technology can generate analysis but businesses still need someone to ask the right questions and turn insights into action.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Technology can generate analysis, but businesses still need someone who can ask the right questions, provide accountability and help turn insights into action",
+   "date": "2026-08",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Indepth won Regional/Suburban Firm of the Year at the 2026 Australian Accounting Awards (company post, Jun 2026).",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Indepth Accounting has won Regional/Suburban Firm of the Year at the 2026 Australian Accounting Awards",
+   "date": "2026-06",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "NAB reports Indepth has 13 staff including administrators, bookkeepers and senior accountants.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "The business has 13 staff, including administrators, bookkeepers and senior accountants",
+   "date": "2026-08",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Renee Cooper",
+   "title": "Director",
+   "contactId": "indepth-accounting--renee-cooper",
+   "linkedin": "https://www.linkedin.com/in/renee-cooper-62383b24",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5",
+    "C7"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Renee's team is actively building AI agents for BAS and tax review; reconciliation with an audit trail is a natural next workflow.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Renee frames AI as freeing people for advisory work, which matches Vert's pitch.",
+   "claimIds": [
+    "C7",
+    "C9"
+   ]
+  },
+  {
+   "text": "Recent national award gives a congratulatory opener and signals growth.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Indepth builds its own AI agents and may prefer in-house automation over buying a tool; possible competitor-style overlap.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No hiring ads, Xero/MYOB partner status or podcast found."
+ ],
+ "searches": [
+  {
+   "query": "Renee Cooper Indepth Accounting",
+   "results": 8
+  },
+  {
+   "query": "NAB Indepth Accounting AI article fetch",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "indepth-accounting--renee-cooper",
+   "subject": "Re: Idea for Indepth Accounting",
+   "body": "Hi Renee,\n\nFollowing up on my note on Monday. I read the NAB piece on your custom AI agents, including the one that walks the team through collating a BAS. Reconciliation looks like a natural next workflow: Vert takes 4 hours of manual reconciling down to 5 minutes, and every match is traceable for review. Would a short walkthrough be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "indepth-accounting--renee-cooper",
+   "subject": "Re: Idea for Indepth Accounting",
+   "body": "Hi Renee,\n\nLast note. You said technology can generate analysis but clients still need someone to ask the right questions. Vert handles reconciling and cash coding so your 13 people get more time for exactly that. Happy to show it in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C9"
+   ]
+  }
+ }
+}

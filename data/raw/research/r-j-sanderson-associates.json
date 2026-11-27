@@ -1,0 +1,366 @@
+{
+ "accountId": "r-j-sanderson-associates",
+ "accountName": "R J Sanderson & Associates",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "R J Sanderson & Associates is a Dandenong-headquartered accounting, tax, wealth and advisory group that has grown by acquisition, most recently merging Paynter & Associates in Myrtleford in 2025 and describing itself as nearly 130 professionals across 15 offices. Roy Sanderson is the founding Managing Director, still current, and a regular radio tax commentator. The firm publishes its software stack (Xero XPM, FYI, BGL, Ignition and others) for merger partners, sells Xero and Hubdoc bookkeeping packages, and advertised a senior bookkeeper role in October 2026. That makes it a stronger fit than its tax-heavy profile suggested.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.rjsanderson.com.au/",
+   "title": "R J Sanderson & Associates - Business Accountant",
+   "type": "website",
+   "publisher": "R J Sanderson & Associates",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.rjsanderson.com.au/locations/dandenong-head-office",
+   "title": "R J Sanderson & Associates - Dandenong",
+   "type": "website",
+   "publisher": "R J Sanderson & Associates",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/roy-sanderson-05b91018",
+   "title": "Roy Sanderson - Managing Director, R J Sanderson & Associates | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.rjsanderson.com.au/blog/paynter-associates-merger-myrtleford",
+   "title": "Paynter & Associates Joins RJS - Expanding Local Expertise in Myrtleford",
+   "type": "news",
+   "publisher": "R J Sanderson & Associates",
+   "date": "2025-05-01"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.rjsanderson.com.au/blog/rjs-expands-national-footprint-acquisition-potts-schnelle-offices",
+   "title": "R J Sanderson & Associates Expands National Footprint with Acquisition of Potts & Schnelle Offices",
+   "type": "news",
+   "publisher": "R J Sanderson & Associates",
+   "date": "2023-07-01"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.rjsanderson.com.au/about-us/merge-with-rjs",
+   "title": "Merge with RJS",
+   "type": "website",
+   "publisher": "R J Sanderson & Associates",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.rjsanderson.com.au/service/bookkeeping-new",
+   "title": "Bookkeeping Services - Xero Bookkeeping Packages",
+   "type": "website",
+   "publisher": "R J Sanderson & Associates",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://www.simplyhired.com.au/job/6P7eZwwbkiW5P6XHFf6te-azz_jblKtlzWXs-NxPFA_4hjvk5RtTmA",
+   "title": "Senior Bookkeeper - Wangaratta, R J Sanderson & Associates",
+   "type": "job",
+   "publisher": "SimplyHired",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S9",
+   "url": "https://www.rjsanderson.com.au/about-us/jobs-careers",
+   "title": "R J Sanderson & Associates - Accounting Jobs",
+   "type": "website",
+   "publisher": "R J Sanderson & Associates",
+   "date": null
+  },
+  {
+   "id": "S10",
+   "url": "https://www.rjsanderson.com.au/blog/roy-sanderson-live-on-radio",
+   "title": "Join Managing Director Roy Sanderson Live on Radio",
+   "type": "blog",
+   "publisher": "R J Sanderson & Associates",
+   "date": "2023-03-14"
+  },
+  {
+   "id": "S11",
+   "url": "https://www.rjsanderson.com.au/blog/rjs-mornington-team-changes",
+   "title": "RJS Mornington Team Changes",
+   "type": "blog",
+   "publisher": "R J Sanderson & Associates",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "R J Sanderson & Associates' head office is at 60 Robinson St, Dandenong VIC, on its own site rjsanderson.com.au, so this is the Victorian firm.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "R J Sanderson & Associates - Dandenong 60 Robinson St, Dandenong VIC 3175",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Roy Sanderson is Managing Director of R J Sanderson & Associates, in the role since July 1993, per his LinkedIn; the firm's tax agent disclosure also names him as Managing Director.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Managing Director - R J Sanderson & Associates Pty Ltd (Current) Jul 1993 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "In May 2025 RJS announced the merger of Paynter & Associates in Myrtleford, describing the group as nearly 130 professionals across 15 offices nationally.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "With nearly 130 professionals across 15 offices nationally, R J Sanderson & Associates provides comprehensive financial solutions",
+   "date": "2025-05",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "RJS has grown by acquisition: it acquired Potts & Schnelle (Corowa and Rutherglen) in July 2023 and merged with O'Keefe Duke & Co in Myrtleford in 2023.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "announced the strategic acquisition of renowned accounting firm Potts & Schnelle",
+   "date": "2023-07",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "RJS's 'Merge with RJS' page says it is always looking for merger and acquisition opportunities and that a merger is easier if the firms' software use is aligned.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "A merger is easier if our program use is aligned",
+   "date": null,
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "RJS lists its software as Xero XPM, FYI, BGL, Ignition, Account Kit, Change GPS, Now Infinity and Spotlight.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Xero XPM FYI BGL Ignition Account Kit Change GPS Now Infinity Spotlight",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "RJS sells Xero bookkeeping packages that include a Xero subscription and a Hubdoc subscription, priced by transactions per month.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Xero Subscription Hubdoc Subscription 3 Bank/credit card Accounts",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In October 2026 RJS advertised a Senior Bookkeeper role in Wangaratta covering bank reconciliations, accounts payable and receivable and period-end close, using MYOB or Xero.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Prepare, review and reconcile financial statements, bank reconciliations and general ledger accounts",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "RJS's careers page says it is looking for a bookkeeper to join its expanding bookkeeping team across all its locations.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "join our expanding bookkeeping team working in the Mornington Peninsual and accross all our locations",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Roy's LinkedIn headline describes him as a CPA, radio and TV presenter and guest speaker on tax and business, awarded Best Accounting & Advisory Firm 2019 and 2020.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "CPA, Guest Speaker on Tax & Business, Radio & TV Presenter, MC, Mentor, Awarded Best Accounting & Advisory Firm 2019 & 2020",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "In 2023 Roy was announced as a fortnightly guest on 3AW's 'Tax Talk' and on RPPFM Peninsula Radio, taking listener tax questions.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "Roy Sanderson will be joining Darren James on 3AW every second Saturday at 9.45 am to discuss taxes and take questions from listeners.",
+   "date": "2023-03",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "RJS's home page lists taxation, accounting and business advisory (including BAS and cashflow), wealth management, loan solutions and SMSF services for Victorian individuals and business owners.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "individuals and business owners across Victoria have turned to the team at R J Sanderson & Associates for all manner of accounting, wealth management, business advisory and finance services",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "RJS describes a Mornington senior partner and manager as a CPA who assists with how to create efficiencies through the use of technology and tightening internal processes.",
+   "sourceIds": [
+    "S11"
+   ],
+   "quote": "She assists with strategies on how to can create efficiencies through the use of technology, tightening internal processes",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Roy Sanderson",
+   "title": "Managing Director (founding director)",
+   "contactId": "r-j-sanderson-associates--roy-sanderson",
+   "linkedin": "https://www.linkedin.com/in/roy-sanderson-05b91018",
+   "claimIds": [
+    "C2",
+    "C10",
+    "C11"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Serial acquirer that publishes its own software stack for merger partners; each acquired office adds a new set of bank feeds and coding habits that must be reconciled and standardised.",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Live bookkeeper hiring in October 2026 with bank reconciliation named in the duties: the reconciliation load is growing faster than headcount.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Xero + Hubdoc bookkeeping packages sold by transaction volume: efficiency per client directly protects margin.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "The firm is large (nearly 130 people) and tax- and wealth-heavy; Roy is a high-profile MD, so a central ops or technology lead may own the tooling decision and the email could be forwarded.",
+   "claimIds": [
+    "C3",
+    "C10"
+   ]
+  },
+  {
+   "text": "Existing stack already includes Hubdoc and Xero XPM, and the firm is part of a wider group (the Modoras Group is named in RJS's financial services guide), so a group-level standard may constrain new tools.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Merger activity may mean systems are being consolidated now, which could help or delay a pilot.",
+   "claimIds": [
+    "C3",
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or YouTube interview by Roy within the last 12 months found; the 3AW and RPPFM segments date from 2023.",
+  "No Karbon, Dext or AI reconciliation tool mention found.",
+  "No LinkedIn posts by Roy retrieved.",
+  "Could not confirm the Modoras Group relationship beyond the financial services guide, so it was left out of claims.",
+  "No Facebook content read."
+ ],
+ "searches": [
+  {
+   "query": "fetch rjsanderson.com.au home, Dandenong location page",
+   "results": 2
+  },
+  {
+   "query": "Roy Sanderson R J Sanderson & Associates Dandenong managing director",
+   "results": 10
+  },
+  {
+   "query": "fetch RJS blog Paynter merger announcement",
+   "results": 1
+  },
+  {
+   "query": "R J Sanderson & Associates RJS merger acquisition 2026 joins RJS accounting firm",
+   "results": 10
+  },
+  {
+   "query": "R J Sanderson & Associates careers bookkeeper accountant Dandenong Xero MYOB job",
+   "results": 7
+  },
+  {
+   "query": "fetch RJS Merge with RJS page and Roy radio blog",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "r-j-sanderson-associates--roy-sanderson",
+   "subject": "RJS's mergers and reconciliation",
+   "body": "Hi Roy,\n\nRJS's note on the Paynter & Associates merger says the group is now nearly 130 professionals across 15 offices, and your Merge with RJS page says a merger is easier when software use is aligned. Each acquired office brings its own bank feeds and coding habits, which is where reconciliation hours pile up. I built Vert to turn hours of manual reconciliation into minutes, with a traceable match behind every line. I also saw you're hiring a senior bookkeeper in Wangaratta. How much of your bookkeeping team's month goes on bank reconciliations?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C8",
+    "C2"
+   ]
+  },
+  "followUp": {
+   "contactId": "r-j-sanderson-associates--roy-sanderson",
+   "subject": "Re: RJS's mergers and reconciliation",
+   "body": "Hi Roy,\n\nFollowing up on my note last week. Your bookkeeping packages bundle Xero and Hubdoc, so margin depends on how fast each client's transactions get coded and reconciled. When a merged office joins RJS, does it move onto one reconciliation process, or does each keep its own way of working? Happy to show Vert in 10 min.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "r-j-sanderson-associates--roy-sanderson",
+   "subject": "Re: RJS's mergers and reconciliation",
+   "body": "Hi Roy,\n\nLast note from me. You spend time explaining tax to 3AW listeners, so I'd guess you'd rather your team's hours went to advice than to reconciling bank lines. Vert handles the reconciling with a traceable match behind each line. Open to a 10 min look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C11",
+    "C10"
+   ]
+  }
+ }
+}

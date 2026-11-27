@@ -1,0 +1,268 @@
+{
+ "accountId": "kinsella-chartered-accountants",
+ "accountName": "Kinsella Chartered Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Kinsella is a Canberra (Barton) chartered accounting firm, formed in 1998, offering tax consulting, a Virtual CFO service and an Outsourced Finance Function covering payroll, BAS and monthly reporting. Alex Breen is a Partner and co-owner with CFO and in-house finance experience. The firm uses Xero and is advertising for a Senior Accountant/Supervisor who would support the Virtual CFO / Outsourced Finance team.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://kinsella.com.au/services/",
+   "title": "Services - Kinsella",
+   "type": "website",
+   "publisher": "Kinsella",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://kinsella.com.au/people/",
+   "title": "People - Kinsella",
+   "type": "website",
+   "publisher": "Kinsella",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/alex-breen-67916b33",
+   "title": "Alex Breen LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.afr.com/work-and-careers/careers/yawning-on-a-tuesday-it-might-be-a-sign-you-have-burnout-20250501-p5lvso",
+   "title": "Yawning on a Tuesday? It might be a sign you have burnout",
+   "type": "news",
+   "publisher": "Australian Financial Review",
+   "date": "2025-05-05"
+  },
+  {
+   "id": "S5",
+   "url": "https://employmenthero.com/jobs/position/kinsella-pty-limited-senior-accountantsupervisor-8fe9c/",
+   "title": "Senior Accountant/Supervisor at Kinsella",
+   "type": "job",
+   "publisher": "Employment Hero",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://kinsella.com.au/about-us/",
+   "title": "About - Kinsella",
+   "type": "website",
+   "publisher": "Kinsella",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://movetomore.com.au/job/f9fd9dd2-848f-4053-b771-1273ff047bd3/",
+   "title": "Senior Administrator, Kinsella",
+   "type": "job",
+   "publisher": "Move to More",
+   "date": "2026-10-09"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Kinsella Chartered Accountants is located at Level 2, 26 Brisbane Avenue, Barton ACT, in Canberra.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 2 26 Brisbane Avenue Barton ACT 2600",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Alex Breen is a current Partner at Kinsella (since July 2019), based in Canberra.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Partner - Kinsella Chartered Accountants (Current) Jul 2019 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Alex describes extensive experience in tax advisory, outsourced CFO roles, in-house financial management and business advisory.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "extensive experience in tax advisory, outsourced CFO roles, in-house financial management and business advisory",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "The AFR quoted Alex, a partner and co-owner, saying that waking at night worrying about clients made him realise there was too much going on.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "it was the nightly waking at 2am or 3am worrying about clients that made him realise there was too much going on",
+   "date": "2025-05",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Kinsella's Outsourced Finance Function includes payroll, BAS, monthly reporting and management reporting normally handled by an internal finance team.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "This includes the preparation of payroll, Business Activity Statements, Monthly Reporting and Management reporting",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Kinsella offers a Virtual CFO service and can work with a client's internal finance team or build a full outsourced finance solution.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We can work with your internal finance team or develop a complete outsourced finance solution",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Kinsella partners with Xero and its job ad says it uses cloud-based accounting systems including Xero.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We leverage the latest cloud-based accounting systems, including Xero, to streamline processes and enhance efficiency.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Kinsella is advertising a Senior Accountant/Supervisor role that involves BAS, financial statements and the Virtual CFO / Outsourced Finance function team.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "with involvement in our Virtual CFO/Outsourced Finance function team",
+   "date": null,
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "In October 2026 Kinsella advertised a Senior Administrator role referencing practice software FYI and XPM, with ATO lodgement management.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "willingness to learn firm-specific software, including FYI, XPM",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Kinsella was formed in 1998 and describes itself as a full-service firm.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Formed in 1998, Kinsella has grown into a full service that provides tailored solutions to suit your needs.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Alex Breen",
+   "title": "Partner",
+   "contactId": "kinsella-chartered-accountants--alex-breen",
+   "linkedin": "https://www.linkedin.com/in/alex-breen-67916b33",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Outsourced Finance Function closes clients' months in-house (payroll, BAS, monthly reporting); his own background includes outsourced CFO and in-house finance roles.",
+   "claimIds": [
+    "C5",
+    "C3"
+   ]
+  },
+  {
+   "text": "Live Senior Accountant/Supervisor ad that supports the Virtual CFO/Outsourced Finance team signals capacity pressure on that work.",
+   "claimIds": [
+    "C8",
+    "C6"
+   ]
+  },
+  {
+   "text": "Alex's AFR comment about worry-driven overload; use sparingly and humanely.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "No evidence of an existing AI reconciliation tool, but the firm is Xero-based with FYI/XPM practice software; unknown whether Dext/A2X-style automation is in place.",
+   "claimIds": [
+    "C7",
+    "C9"
+   ]
+  },
+  {
+   "text": "The AFR burnout reference is personal; keep it light.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No Alex Breen LinkedIn posts or podcast appearances found beyond a 2019 partner announcement.",
+  "No Kinsella blog or newsletter found.",
+  "Mid-size staffing (about 16 per input) not confirmed on a public page."
+ ],
+ "searches": [
+  {
+   "query": "Kinsella services and people pages",
+   "results": 2
+  },
+  {
+   "query": "Alex Breen Kinsella Chartered Accountants Canberra partner",
+   "results": 8
+  },
+  {
+   "query": "Kinsella Chartered Accountants Canberra jobs Xero",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "kinsella-chartered-accountants--alex-breen",
+   "subject": "Re: Idea for Kinsella",
+   "body": "Hi Alex, following up on my earlier note. Kinsella's Senior Accountant/Supervisor ad mentions involvement in the Virtual CFO and Outsourced Finance function team. When that team prepares monthly and management reporting for a client, how much of it is still matching bank lines and ledgers by hand in Xero? Vert does that matching in minutes with a trail a reviewer can trace, so I'd be glad to show you on a sample file.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C5",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "kinsella-chartered-accountants--alex-breen",
+   "subject": "Re: Idea for Kinsella",
+   "body": "Hi Alex, last note from me. You told the AFR that waking at night worrying about clients showed you there was too much going on. If routine reconciliations for the outsourced finance clients add to that load, I'd like to show you Vert taking them off the desk. Ten minutes this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  }
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "accountId": "mjc-partners",
+ "accountName": "MJC Partners",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "MJC Partners is a Top 100 accounting firm in Dandenong and St Kilda Road, Melbourne, led by Director and CEO Chris Simmons. It completed its first full year after merging with Deanne Thomas & Co (July 2026 message), runs a separate bookkeeping arm that is changing leadership, and Chris has spoken publicly about improving processes and systems and growing by acquisition.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.mjcpartners.com.au/",
+   "title": "MJC Partners | Great accountants in Dandenong and Melbourne",
+   "type": "website",
+   "publisher": "MJC Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.mjcpartners.com.au/hello-new-financial-year-2026/",
+   "title": "Hello FY2026 - A message from our CEO",
+   "type": "blog",
+   "publisher": "MJC Partners",
+   "date": "2026-07-02"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.mjcpartners.com.au/deanne-thomas-co-welcome-to-mjc-partners/",
+   "title": "To the Clients of Deanne Thomas & Co - Welcome to MJC Partners",
+   "type": "blog",
+   "publisher": "MJC Partners",
+   "date": "2025-07-18"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.myob.com/au/resources/post/driving-organic-growth-with-chris-simmons-mjc-partners",
+   "title": "Driving organic growth with Chris Simmons & MJC Partners (Fiscal Therapy podcast)",
+   "type": "podcast",
+   "publisher": "MYOB",
+   "date": "2024-07-17"
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/chris-simmons-1135b249",
+   "title": "Chris Simmons - Director & CEO, MJC Partners",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-08"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "MJC Partners has a Dandenong office at 49 Robinson Street and a Melbourne office on St Kilda Road.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Level 5, 412 St Kilda Road, Melbourne, VIC 3004",
+   "date": "2025-07",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Chris Simmons signs MJC Partners' July 2026 client message as CEO and Managing Partner.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Chris Simmons CEO and Managing Partner",
+   "date": "2026-07",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Chris Simmons is currently Director & CEO of MJC Partners and a Chartered Accountant per LinkedIn.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Director & CEO @ MJC Partners | Chartered Accountant",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "MJC's July 2026 message says the year was its first full year following the merger of Deanne Thomas & Co with MJC.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "This year marked our first full year following the merger of Deanne Thomas & Co with MJC.",
+   "date": "2026-07",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "MJC told Deanne Thomas & Co clients its team operates from Dandenong and St Kilda Road offices and that the Frankston office would remain.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "we're pleased to confirm that the Frankston office will also remain",
+   "date": "2025-07",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "On the MYOB Fiscal Therapy podcast Chris said the firm developed a culture of honouring promises and focused hard on improving its processes and systems.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We developed a culture of honouring our promises to each other and focused hard on improving our processes and systems,",
+   "date": "2024-07",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "The same MYOB podcast write-up says MJC was looking to expand its footprint through mergers or acquisitions.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "The firm is now looking to expand their footprint through mergers or acquisitions",
+   "date": "2024-07",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "In July 2026 MJC announced that Jenny Woodlock retires from MJC Bookkeeping Solutions at the end of September 2026 and Roxanne Conroy is appointed Practice Manager.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I am therefore delighted to announce the appointment of Roxanne Conroy as Practice Manager of MJC Bookkeeping Solutions.",
+   "date": "2026-07",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "MJC describes itself as recognised as one of the Australian Financial Review's Top 100 Accountants.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "MJC Partners are recognised as one of Australian Financial Review’s Top 100 Accountants",
+   "date": "2026",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "MJC's services include tax returns, business coaching, bookkeeping and finance solutions.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "From tax returns to business coaching, bookkeeping, finance solutions and beyond, we offer a versatile suite of services.",
+   "date": "2026",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "MJC's website says the firm has 5 partners and a team of over 30.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Now comprising 5 partners and a team of over 30",
+   "date": "2026",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Chris Simmons",
+   "title": "Director & CEO",
+   "contactId": "mjc-partners--chris-simmons",
+   "linkedin": "https://linkedin.com/in/chris-simmons-1135b249",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Post-merger integration of Deanne Thomas & Co clients onto MJC's processes; Chris says the firm focuses on processes and systems.",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  {
+   "text": "MJC Bookkeeping Solutions leadership handover (new Practice Manager) is a natural point to revisit reconciliation workflow.",
+   "claimIds": [
+    "C8"
+   ]
+  },
+  {
+   "text": "Stated appetite for further mergers and acquisitions means onboarding more client books.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Recent merger and bookkeeping leadership transition could mean change fatigue or tooling decisions already in flight.",
+   "claimIds": [
+    "C4",
+    "C8"
+   ]
+  },
+  {
+   "text": "Chris appeared on MYOB's Fiscal Therapy podcast, so the firm may be MYOB-aligned; stack not confirmed.",
+   "claimIds": [
+    "C6"
+   ]
+  },
+  {
+   "text": "Headcount figures differ across sources (30+ on the website, 50+ in the 2025 welcome letter); Bryan James has no email on file.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "gaps": [
+  "No MJC job ads found in this sweep.",
+  "No posts by Chris Simmons surfaced on LinkedIn in the last 12 months via search.",
+  "Tech stack (Xero vs MYOB) not confirmed."
+ ],
+ "searches": [
+  {
+   "query": "MJC Partners Dandenong accountants Chris Simmons Deanne Thomas merger",
+   "results": 8
+  },
+  {
+   "query": "fetch MJC FY2026 CEO message and home page",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "mjc-partners--chris-simmons",
+   "subject": "Re: Idea for MJC Partners",
+   "body": "Hi Chris,\n\nFollowing up on my note earlier this week. Your new financial year message called this the first full year since Deanne Thomas & Co merged into MJC, and on the MYOB podcast you said the firm focused hard on improving its processes and systems. Folding another practice's clients into one process usually means extra reconciliation work. Vert turns that into minutes with a trace behind every match. Has the merger changed how much reconciling your team does?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "mjc-partners--chris-simmons",
+   "subject": "Re: Idea for MJC Partners",
+   "body": "Hi Chris,\n\nLast note from me. I saw Roxanne Conroy takes over as Practice Manager of MJC Bookkeeping Solutions as Jenny Woodlock retires. A handover is a good moment to look at how reconciliations run. Open to a 10 minute look at Vert?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C2"
+   ]
+  }
+ }
+}

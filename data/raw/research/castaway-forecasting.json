@@ -1,0 +1,264 @@
+{
+ "accountId": "castaway-forecasting",
+ "accountName": "Castaway Forecasting",
+ "status": "complete",
+ "summary": "Castaway Forecasting is a Sydney forecasting and modelling SaaS (founded 2009) selling monthly subscription plans to SMEs and their advisors, with a cloud version released in 2024. Liz Veal joined as Finance Manager in January 2026 after five years running accounts and finance at Qnary, and Siobhan McCann is Financial Accountant.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/company/castaway-forecasting",
+   "title": "Castaway Forecasting | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/lizveal",
+   "title": "Liz Veal | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.accountingweb.co.uk/tech/accounting-software/castaway-forecasting-takes-to-the-cloud",
+   "title": "Castaway forecasting takes to the cloud",
+   "type": "news",
+   "publisher": "AccountingWEB",
+   "date": "2024-05-22"
+  },
+  {
+   "id": "S4",
+   "url": "https://castawayforecasting.com/cloud-pricing",
+   "title": "Forecasting Software Pricing & Plans | Castaway",
+   "type": "website",
+   "publisher": "Castaway Forecasting",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://castawayforecasting.com/",
+   "title": "Discover the Power of Business Forecasting and Modelling",
+   "type": "website",
+   "publisher": "Castaway Forecasting",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/in/siobhan-mccann",
+   "title": "Siobhan McCann | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-24"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Castaway Forecasting's LinkedIn page says it is headquartered in Sydney, NSW, founded 2009, with presence in Canada.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Headquartered in Sydney, New South Wales, Australia, with presence in Canada.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Liz Veal's LinkedIn profile lists her as Finance Manager at Castaway Forecasting (current) since January 2026.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Jan 2026 - Present (10 months)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Before Castaway, Liz Veal was Accounts and Finance Manager at Qnary from August 2020 to December 2025.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Aug 2020 - Dec 2025 (5 years and 4 months)",
+   "date": "2025-12",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Castaway released a cloud version of its forecasting and modelling software in May 2024, adding collaboration, presentation and integration options.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Australian developer Castaway has released a cloud version of its established forecasting and modelling software",
+   "date": "2024-05",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "Castaway's cloud plans are billed monthly, starting at AUD$150 a month for Plan3.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "AUD$150/ Mth",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Castaway integrates directly with Xero and QuickBooks, plus Excel and Google Sheets.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Castaway integrates directly with leading accounting platforms. Xero – Quickbooks – Excel – Google Sheets.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "A partner at PKF and other accountants praise Castaway; one adviser calls it an essential tool for advisory firms.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Castaway is an essential tool for all advisory firms.",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Siobhan McCann is Financial Accountant at Castaway Forecasting, current since March 2025.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Mar 2025 - Present (1 year and 7 months)",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Castaway's homepage promises customers modelling of any business scenario in a few clicks.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Unmatched modelling in minutes to move your business forward",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Liz Veal",
+   "title": "Finance Manager",
+   "contactId": "castaway-forecasting--liz-veal",
+   "linkedin": "https://linkedin.com/in/lizveal",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Siobhan McCann",
+   "title": "Financial Accountant",
+   "contactId": "castaway-forecasting--siobhan-mccann",
+   "linkedin": "https://www.linkedin.com/in/siobhan-mccann",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Liz is about 10 months into the role after leaving a long Finance Manager tenure elsewhere; a good moment to review close tooling.",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "text": "Monthly subscription plans mean recurring receipts to reconcile to the ledger.",
+   "claimIds": [
+    "C5",
+    "C4"
+   ]
+  },
+  {
+   "text": "A forecasting vendor selling 'modelling in minutes' will appreciate a faster close.",
+   "claimIds": [
+    "C9",
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Small company (about 11 staff per LinkedIn), so deal size is limited.",
+   "claimIds": [
+    "C1"
+   ]
+  },
+  {
+   "text": "Castaway sells to accountants and could be a channel partner rather than only a customer; no competing reconciliation product found.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "Billing and payment stack (Stripe, Chargebee, GoCardless) appears only in a third-party tech profile and could not be verified, so not used.",
+  "No posts by Liz Veal, podcast or Facebook content found.",
+  "Job ads for finance roles not found."
+ ],
+ "searches": [
+  {
+   "query": "Castaway Forecasting Liz Veal Finance Manager",
+   "results": 10
+  },
+  {
+   "query": "castawayforecasting.com pricing and home (fetch)",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "castaway-forecasting--liz-veal",
+   "subject": "Month-end at Castaway",
+   "body": "Hi Liz,\n\nCongrats on the move to Castaway as Finance Manager in January, after five years running accounts and finance at Qnary. Castaway sells monthly plans from AUD$150 up, so since the cloud launch you have a steady stream of subscription receipts to match to the ledger each month. I built Vert to turn 4 hours of manual reconciliation into 5 minutes, with every match traceable rather than guessed. How much of your close goes on matching payouts today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  "followUp": {
+   "contactId": "castaway-forecasting--liz-veal",
+   "subject": "Re: Month-end at Castaway",
+   "body": "Hi Liz,\n\nFollowing up on my note last week. Castaway's pitch to advisors is forecasts built on a clean ledger, and your team, with Siobhan as Financial Accountant, is where that starts. Vert reconciles and cash codes with a full audit trail, so month-end becomes checking exceptions rather than matching lines. Open to a 10 minute look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C7",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "castaway-forecasting--liz-veal",
+   "subject": "Re: Month-end at Castaway",
+   "body": "Hi Liz,\n\nLast nudge from me. Castaway promises customers modelling in minutes, so it would be fitting if your own month-end matched. If reconciling subscription receipts still eats days, I can show Vert on your own data. If it is not a priority, no worries at all.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C5",
+    "C9"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

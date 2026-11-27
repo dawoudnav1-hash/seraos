@@ -1,0 +1,392 @@
+{
+ "accountId": "diagno-accountants-and-financial-strateg",
+ "accountName": "Diagno Accountants and Financial Strategists",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Diagno is a small CPA practice founded in 1996 in Southport, Queensland, with a Melbourne office, offering accounting, tax, forecasting, SMSF and outsourced CFO. Director Kris Fothergill has spoken publicly about running the firm remotely and reducing key person dependency. P&J Siggins joined the firm around December 2024. LinkedIn lists Xero and a team split across Australia and the Philippines.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://diagno.com.au/about-us/",
+   "title": "About Us | Diagno",
+   "type": "website",
+   "publisher": "Diagno",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://diagno.com.au/",
+   "title": "Certified Accountants & Strategic Advisers | Diagno",
+   "type": "website",
+   "publisher": "Diagno",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/kris-fothergill-27a80049",
+   "title": "Kris Fothergill | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-24"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/stephen-robie-66515635",
+   "title": "Stephen Robie | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S5",
+   "url": "https://intheblack.cpaaustralia.com.au/people/kris-fothergill-fcpa-family-boat",
+   "title": "Truly remote: How Kris Fothergill FCPA works from his family boat",
+   "type": "news",
+   "publisher": "INTHEBLACK (CPA Australia)",
+   "date": "2021-05-01"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.cpaaustralia.com.au/tools-and-resources/podcasts/business-strategies/kris-fothergill-fcpa-works-from-his-family-boat",
+   "title": "Kris Fothergill FCPA works from his family boat",
+   "type": "podcast",
+   "publisher": "CPA Australia Podcast",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://diagno.com.au/pjsiggins-joins-diagno/",
+   "title": "P & J Siggins links arms with Diagno Accountants",
+   "type": "website",
+   "publisher": "Diagno",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://abr.business.gov.au/ABN/View/49099914771",
+   "title": "Current details for ABN 49 099 914 771",
+   "type": "registry",
+   "publisher": "ABN Lookup",
+   "date": "2024-12-05"
+  },
+  {
+   "id": "S9",
+   "url": "https://linkedin.com/company/diagno-accountants-and-financial-strategists",
+   "title": "Diagno Accountants and Financial Strategists | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S10",
+   "url": "https://diagno.com.au/contact-us-mel/",
+   "title": "Contact Us (Melbourne) | Diagno",
+   "type": "website",
+   "publisher": "Diagno",
+   "date": null
+  },
+  {
+   "id": "S11",
+   "url": "https://diagno.com.au/reducing-the-uncertainty-performance-monitoring-and-analysis/",
+   "title": "Reducing the uncertainty: performance monitoring and analysis",
+   "type": "blog",
+   "publisher": "Diagno",
+   "date": "2025-05-21"
+  },
+  {
+   "id": "S12",
+   "url": "https://www.crediblebusinesses.com/45588/diagno-accounts-business-strategists",
+   "title": "DIAGNO | Expert Accountants in Gold Coast",
+   "type": "directory",
+   "publisher": "Credible Businesses",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Diagno's own site (diagno.com.au) lists its Gold Coast office at Level 6, Southport Central Tower Two, 5 Lawson Street, Southport, Qld.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "GOLD COAST Level 6 Southport Central Tower Two 5 Lawson Street Southport, Qld",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Kris Fothergill is currently a Director of Diagno (LinkedIn lists Dec 2004 to present) and appears on the firm's About Us page.",
+   "sourceIds": [
+    "S3",
+    "S1"
+   ],
+   "quote": "Director - Diagno Accountants and Financial Strategists (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Stephen Robie is currently a Director of Diagno (since July 2022) and is on the team page.",
+   "sourceIds": [
+    "S4",
+    "S1"
+   ],
+   "quote": "Director - Diagno Accountants and Financial Strategists (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Diagno offers accounting and taxation, financial reporting and forecasting, superannuation and outsourced CFO.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "accounting and taxation, financial reporting and forecasting, superannuation, outsourced CFO, and a range of other assistance.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Diagno has operated since 1996 and helps emerging, growing and established businesses.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Since 1996 DIAGNO has helped emerging, growing and established businesses to make sense of the complexities of accountancy, compliance and strategic advice",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In a 2021 INTHEBLACK interview Kris Fothergill said the key to running the firm while working remotely was reducing key person risk dependency.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "The key to it all is reducing key person risk dependency,",
+   "date": "2021-05",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Kris Fothergill ran Diagno remotely from his family yacht for over a year during COVID-19, with the team joining a daily video huddle.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "To start every weekday, the 10 staff and partners who comprise accountancy practice Diagno gather on on a video call for a virtual huddle",
+   "date": "2021-05",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "On the CPA Australia podcast Kris Fothergill said Diagno serves small and medium businesses with no industry specialisation beyond an organic niche in medical professionals.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Small medium business is the area that we are in. There's no specialties from an industry perspective",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "On the same podcast Kris Fothergill said bookkeeping is on the firm's 'to-don't' list.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "being a lawyer is on our to-don't list, being bookkeepers, on our to-don't list.",
+   "date": null,
+   "category": "pain",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "P&J Siggins announced it is linking arms with Diagno, and Diagno added the business name P & J Siggins on 5 Dec 2024.",
+   "sourceIds": [
+    "S7",
+    "S8"
+   ],
+   "quote": "We are excited to announce that P&J Siggins is linking arms with DIAGNO Accountants.",
+   "date": "2024-12",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Diagno has a Melbourne office at Suite 5.01 The Exchange, 432 St Kilda Road, as well as its Gold Coast office.",
+   "sourceIds": [
+    "S10"
+   ],
+   "quote": "MELBOURNE Suite 5.01 The Exchange 432 St Kilda Road Melbourne Vic 3004",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "Diagno's LinkedIn page lists Xero as its tech stack and shows a workforce split between Australia and the Philippines.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Tech Stack: xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "Diagno published a May 2025 article urging clients to review financial forecasts regularly and compare actual performance against them.",
+   "sourceIds": [
+    "S11"
+   ],
+   "quote": "Use your software tools to compare your actual performance data against these forecasts, so you can see the variances and where action is needed.",
+   "date": "2025-05",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C14",
+   "text": "A directory profile says Stephen Robie focuses on outsourced CFO services and financial strategy.",
+   "sourceIds": [
+    "S12"
+   ],
+   "quote": "Stephen focuses on outsourced CFO services and financial strategy, providing expert guidance for business growth and operational efficiency.",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Kris Fothergill",
+   "title": "Director",
+   "contactId": "diagno-accountants-and-financial-strateg--kris-fothergill",
+   "linkedin": "https://www.linkedin.com/in/kris-fothergill-27a80049",
+   "claimIds": [
+    "C2",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "name": "Stephen Robie",
+   "title": "Director",
+   "contactId": "diagno-accountants-and-financial-strateg--stephen-robie",
+   "linkedin": "https://www.linkedin.com/in/stephen-robie-66515635",
+   "claimIds": [
+    "C3",
+    "C14"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Kris's INTHEBLACK interview and CPA podcast on reducing key person dependency and running a remote-friendly team: automation of reconciliation fits a team built to work without one person as the bottleneck.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Outsourced CFO and forecasting are core services, so time spent reconciling cuts into the advisory work clients pay for.",
+   "claimIds": [
+    "C4",
+    "C13",
+    "C14"
+   ]
+  },
+  {
+   "text": "P&J Siggins joining Diagno and the Gold Coast plus Melbourne offices: bringing acquired client books onto one reconciliation process.",
+   "claimIds": [
+    "C10",
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Kris said bookkeeping is on the firm's 'to-don't' list, so Diagno may not do much transactional reconciliation itself; angle should be CFO-support and month-end review, not bookkeeping.",
+   "claimIds": [
+    "C9"
+   ]
+  },
+  {
+   "text": "Very small firm (LinkedIn lists 6 employees; some of the team in the Philippines); limited budget and volume.",
+   "claimIds": [
+    "C12"
+   ]
+  },
+  {
+   "text": "Podcast and INTHEBLACK interviews are from 2021, so personal details are dated.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent (2026) posts by Kris Fothergill or Stephen Robie found; no Facebook or Instagram activity found.",
+  "No Diagno job ads found.",
+  "Xero partner status not confirmed from a primary source; Xero appears only in a LinkedIn tech-stack summary.",
+  "Date of the P&J Siggins announcement page is not shown; ABN Lookup date used."
+ ],
+ "searches": [
+  {
+   "query": "Diagno Accountants and Financial Strategists Southport Kris Fothergill",
+   "results": 10
+  },
+  {
+   "query": "site:diagno.com.au",
+   "results": 10
+  },
+  {
+   "query": "Kris Fothergill linkedin Diagno",
+   "results": 8
+  },
+  {
+   "query": "Diagno Accountants Southport job accountant Xero Philippines",
+   "results": 2
+  },
+  {
+   "query": "Stephen Robie CPA Diagno Director",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "diagno-accountants-and-financial-strateg--kris-fothergill",
+   "subject": "Reconciling at Diagno",
+   "body": "Hi Kris,\n\nI read your INTHEBLACK interview on running Diagno from a yacht, and the line about reducing key person risk dependency stuck with me. Diagno offers outsourced CFO and forecasting, so reconciliation is usually where a small team's hours go before the advice starts. Vert reconciles and cash codes with a traceable audit trail, turning hours of manual reconciliation into minutes. How much of your team's month goes on reconciling before the CFO work can start?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C4"
+   ]
+  },
+  "followUp": {
+   "contactId": "diagno-accountants-and-financial-strateg--kris-fothergill",
+   "subject": "Re: Reconciling at Diagno",
+   "body": "Hi Kris,\n\nFollowing up on my note last week. I saw P&J Siggins linked arms with Diagno, and that you now run offices in Southport and on St Kilda Road in Melbourne. When a practice joins, how do you bring its clients' reconciliations onto the same process as the rest of the firm? Happy to show how Vert handles that in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C11"
+   ]
+  },
+  "followUp2": {
+   "contactId": "diagno-accountants-and-financial-strateg--kris-fothergill",
+   "subject": "Re: Reconciling at Diagno",
+   "body": "Hi Kris,\n\nLast nudge. Diagno's article on performance monitoring tells clients to compare actual results against forecasts, which only works when reconciliations are current. Is that a gap you see, and would 10 minutes on Vert be worth your time?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C13",
+    "C4"
+   ]
+  }
+ }
+}

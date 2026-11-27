@@ -1,0 +1,70 @@
+{
+ "accountId": "reliable-accountants",
+ "accountName": "Reliable Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Reliable Accountants (Reliable Melbourne Accountants) is a Port Melbourne tax, GST and bookkeeping practice led by Director Tushar Khanna CA, who is still listed as Director. The firm works in Xero, MYOB and QuickBooks, hired a tax accountant in August 2025 whose duties include BAS, IAS and payroll tax lodgements, and was named Top Accountant in Melbourne 2025 by Just Melbourne. Already emailed once on 23 Nov 2026; follow-ups use new angles.",
+ "sources": [
+  {"id": "S1", "url": "https://rmelbourneaccountants.com.au/contact-us/", "title": "Contact Us - Reliable Melbourne Accountants", "type": "website", "publisher": "Reliable Melbourne Accountants", "date": null},
+  {"id": "S2", "url": "https://linkedin.com/in/tushar-khanna-ca-87673451", "title": "Tushar Khanna CA - LinkedIn", "type": "linkedin", "publisher": "LinkedIn", "date": "2026-11-10"},
+  {"id": "S3", "url": "https://www.linkedin.com/posts/tushar-khanna-ca-87673451_hiring-taxaccountant-publicpractice-activity-7360845237235146752-aGaL", "title": "We're Hiring: Tax Accountant - Onsite in Port Melbourne", "type": "linkedin", "publisher": "Tushar Khanna CA on LinkedIn", "date": "2025-08-12"},
+  {"id": "S4", "url": "https://www.linkedin.com/posts/tushar-khanna-ca-87673451_top-10-accountants-in-melbourne-2025-activity-7331859537173377024-Xjl_", "title": "We're ranked #1 - Just Melbourne Top Accountant 2025", "type": "linkedin", "publisher": "Tushar Khanna CA on LinkedIn", "date": "2025-05-24"},
+  {"id": "S5", "url": "https://www.accountantsdaily.com.au/appointments/16944-quality-wins-the-job-despite-talent-drought", "title": "Quality wins the job, despite talent drought", "type": "news", "publisher": "Accountants Daily", "date": "2022-04-29"},
+  {"id": "S6", "url": "https://rmelbourneaccountants.com.au/role-of-cloud-accounting-software-in-your-business/", "title": "Role of Cloud Accounting Software in your Business", "type": "blog", "publisher": "Reliable Melbourne Accountants", "date": "2020-03-25"},
+  {"id": "S7", "url": "https://rmelbourneaccountants.com.au/how-to-choose-accounting-software-for-your-business/", "title": "How to Choose Accounting Software for Your Business?", "type": "blog", "publisher": "Reliable Melbourne Accountants", "date": "2024-11-25"},
+  {"id": "S8", "url": "https://linkedin.com/company/reliableaccountants", "title": "Reliable Accountants - LinkedIn company page", "type": "linkedin", "publisher": "LinkedIn", "date": null},
+  {"id": "S9", "url": "https://rmelbourneaccountants.com.au", "title": "Accountant Melbourne | Accounting Firms Melbourne", "type": "website", "publisher": "Reliable Melbourne Accountants", "date": null}
+ ],
+ "claims": [
+  {"id": "C1", "text": "The firm's own website lists its address as 1/3 Westside Avenue, Port Melbourne VIC 3207.", "sourceIds": ["S1"], "quote": "Reliable Melbourne Accountants 1/3 Westside Avenue Port Melbourne VIC 3207 Australia", "date": null, "category": "identity", "confidence": "high"},
+  {"id": "C2", "text": "Tushar Khanna CA is listed on LinkedIn as the current Director of Reliable Accountants (since May 2019).", "sourceIds": ["S2"], "quote": "Director - Reliable Accountants (Current) May 2019 - Present", "date": "2026-11", "category": "identity", "confidence": "high"},
+  {"id": "C3", "text": "In August 2025 Tushar posted that the firm was hiring an onsite Tax Accountant in Port Melbourne.", "sourceIds": ["S3"], "quote": "We’re Hiring: Tax Accountant – Onsite in Port Melbourne", "date": "2025-08", "category": "hiring", "confidence": "high"},
+  {"id": "C4", "text": "The tax accountant role covers BAS, IAS, payroll tax lodgements, SGC statements and workers' compensation reconciliations.", "sourceIds": ["S3"], "quote": "Prepare BAS, IAS, payroll tax lodgements, SGC statements and workers’ compensation reconciliations.", "date": "2025-08", "category": "hiring", "confidence": "high"},
+  {"id": "C5", "text": "The tax accountant role asks for proficiency with Xero and MYOB.", "sourceIds": ["S3"], "quote": "Proficiency with Xero and MYOB.", "date": "2025-08", "category": "tech", "confidence": "high"},
+  {"id": "C6", "text": "Tushar posted that Just Melbourne named Reliable Accountants the Top Accountant in Melbourne for 2025.", "sourceIds": ["S4"], "quote": "Just Melbourne has named Reliable Accountants Pty Ltd the Top Accountant in Melbourne for 2025!", "date": "2025-05", "category": "person", "confidence": "high"},
+  {"id": "C7", "text": "Tushar told Accountants Daily in 2022 that clients struggled to find good bookkeepers and that technical skills are hard to come by.", "sourceIds": ["S5"], "quote": "technical skills are hard to come by", "date": "2022-04", "category": "person", "confidence": "medium"},
+  {"id": "C8", "text": "The firm's blog says Xero, MYOB and QuickBooks are its preferred cloud accounting tools.", "sourceIds": ["S6"], "quote": "We with Xero, MYOB and Quickbooks are our leading cloud- accounting tool of preference at Reliable Melbourne Accountants.", "date": "2020-03", "category": "tech", "confidence": "medium"},
+  {"id": "C9", "text": "A firm blog post from November 2024 says intelligent reconciliation tools save a substantial amount of time.", "sourceIds": ["S7"], "quote": "Using intelligent reconciliation tools can save you a substantial amount of time.", "date": "2024-11", "category": "content", "confidence": "high"},
+  {"id": "C10", "text": "The firm offers bookkeeping services to individuals and small to medium-sized businesses.", "sourceIds": ["S9"], "quote": "We are experts in providing all bookkeeping & accounting services for individuals and small to medium-sized businesses.", "date": null, "category": "services", "confidence": "high"},
+  {"id": "C11", "text": "LinkedIn's company profile says the workforce is distributed across India, Australia and South Africa.", "sourceIds": ["S8"], "quote": "Its workforce is distributed across India, Australia, and South Africa.", "date": null, "category": "firm", "confidence": "medium"}
+ ],
+ "people": [
+  {"name": "Tushar Khanna", "title": "Director", "contactId": "reliable-accountants--tushar-khanna", "linkedin": "https://www.linkedin.com/in/tushar-khanna-ca-87673451/", "claimIds": ["C2", "C3", "C6", "C7"]}
+ ],
+ "hooks": [
+  {"text": "Tushar's Aug 2025 hiring post: the new tax accountant does BAS, IAS, payroll tax and workers' comp reconciliations, so routine prep work is a capacity constraint.", "claimIds": ["C3", "C4"]},
+  {"text": "Top Accountant in Melbourne 2025 ranking, a recent public win Tushar chose to post.", "claimIds": ["C6"]},
+  {"text": "Firm blog already endorses intelligent reconciliation tools, so the idea is not foreign to them.", "claimIds": ["C9", "C8"]}
+ ],
+ "risks": [
+  {"text": "The firm is tax-led; bookkeeping is one service among several. LinkedIn headcount (about 20) conflicts with the 33 in the account record, and part of the team is offshore.", "claimIds": ["C10", "C11"]},
+  {"text": "The email on file is a pattern guess from Clay, not verified.", "claimIds": ["C2"]}
+ ],
+ "gaps": [
+  "No podcast, video, Facebook or Instagram content found for the firm or Tushar.",
+  "No evidence of a specific AI reconciliation tool in use (Dext, Hubdoc etc.).",
+  "Accounts record says the firm 'talks about automating data'; only blog posts support it, none recent beyond Nov 2024.",
+  "The text of the first email sent on 23 Nov 2026 is not available; follow-ups avoid repeating specifics."
+ ],
+ "searches": [
+  {"query": "site:rmelbourneaccountants.com.au (home, about, contact)", "results": 3},
+  {"query": "Tushar Khanna Reliable Accountants Port Melbourne director", "results": 8},
+  {"query": "site:rmelbourneaccountants.com.au Xero MYOB QuickBooks bookkeeping automate data", "results": 5},
+  {"query": "Tushar Khanna LinkedIn hiring post", "results": 1}
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "reliable-accountants--tushar-khanna",
+   "subject": "Re: Idea for Reliable Accountants",
+   "body": "Hi Tushar,\n\nFollowing up on my note earlier this week. I saw your August post hiring a tax accountant in Port Melbourne, and that the role covers BAS, IAS and payroll tax lodgements alongside workers' compensation reconciliations. That prep work is where Vert helps: it reconciles in minutes and shows how every match was made, so your new hire's time goes to advice. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": ["C3", "C4"]
+  },
+  "followUp2": {
+   "contactId": "reliable-accountants--tushar-khanna",
+   "subject": "Re: Idea for Reliable Accountants",
+   "body": "Hi Tushar,\n\nLast nudge from me. Being named Top Accountant in Melbourne for 2025 says clients rate your work, and Vert takes the bank and ledger reconciliations off your team so more time goes to them. Worth a 10 min look, or shall I close the loop?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": ["C6", "C3"]
+  }
+ }
+}

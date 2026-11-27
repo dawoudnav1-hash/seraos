@@ -1,0 +1,277 @@
+{
+ "accountId": "true-protein",
+ "accountName": "True Protein",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "True Protein is a Sydney northern beaches sports nutrition manufacturer on NetSuite and Shopify, selling through three channels. CFO and COO Lachie Cornwell has publicly called reconciliations, journals and month-end close repetitive; Head of Finance Amy Knoll leads process and automation; the close has already fallen to two or three days and a hybrid in-house/outsourced model is in place.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://cfomagazine.com.au/from-bean-counters-to-business-partners-to-business-avengers/",
+   "title": "From Bean Counters to Business Partners to Business Avengers!",
+   "type": "news",
+   "publisher": "CFO Magazine A/NZ",
+   "date": "2026-02-04"
+  },
+  {
+   "id": "S2",
+   "url": "https://itwire.com/business-it-news/data/40-growth,-70-faster-close,-and-no-more-spreadsheets-true-protein-s-netsuite-story",
+   "title": "40% Growth, 70% Faster Close, and No More Spreadsheets: True Protein's NetSuite Story",
+   "type": "news",
+   "publisher": "iTWire",
+   "date": "2026-03-29"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.scale100.co/cxo-interviews/netsuite-ai-connector-true-protein-production",
+   "title": "True Protein NetSuite AI Connector: Hours of Reports in Seconds",
+   "type": "news",
+   "publisher": "Scale100",
+   "date": "2026-04-21"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.netsuite.com.au/portal/au/customer-testimonials/true-protein-food.shtml",
+   "title": "True Protein Unifies Systems to Boost Efficiency",
+   "type": "website",
+   "publisher": "NetSuite",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "True Protein was founded in 2014, makes its products itself and operates three warehouse locations on Sydney's northern beaches.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "True Protein was founded in 2014 by Ben Kierath, who started making products in his kitchen.",
+   "date": "2026-03",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Lachie (Lachlan) Cornwell is Chief Financial and Operations Officer at True Protein.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Lachie Cornwell, Chief Financial and Operations Officer at True Protein",
+   "date": "2026-02",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "CFO Magazine's Feb 2026 profile of Lachie Cornwell calls reconciliations, journals, data entry and month-end close repetitive and uninspiring.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Reconciliations, journals, data entry, month-end close – it’s important, sure. But it’s also repetitive and uninspiring.",
+   "date": "2026-02",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Cornwell said 80% of the local finance team's time had gone on repetitive, scalable tasks.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "80% of our local, highly skilled finance team was dedicating their time to repetitive, scalable tasks.",
+   "date": "2026-02",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Cornwell credits Head of Finance Amy Knoll with the process discipline and automation knowledge critical for the future.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Amy has the process discipline and the knowledge of automation that I think are going to be critical for the future",
+   "date": "2026-02",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Cornwell says integrated automation and AI tools let the finance team spot issues before month-end.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "spot issues before month-end and come to leadership with solutions",
+   "date": "2026-02",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "True Protein put the NetSuite AI Connector into production in early 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "True Protein put Oracle's NetSuite AI Connector into production in early 2026",
+   "date": "2026-04",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "iTWire reports True Protein's month-end close went from 10 days to 2 or 3 days.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "True Protein's month-end financial close went from 10 days down to 2 or 3.",
+   "date": "2026-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "True Protein runs three sales channels: two on Shopify (wholesale and direct-to-consumer) and one on NetSuite directly (FMCG).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "True Protein runs 3 sales channels: 2 on Shopify (wholesale and direct-to-consumer) and one on NetSuite directly (FMCG).",
+   "date": "2026-03",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "True Protein outsources transactional finance work to Business Avengers in a hybrid in-house/outsourced model.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "the team started outsourcing its heavy lifting to Business Avengers",
+   "date": "2026-02",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "True Protein is relocating to a new facility and building a second facility in Melbourne for a new product line.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "True Protein is relocating to a new facility at the end of the year and building a second facility in Melbourne for a new product line.",
+   "date": "2026-04",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "True Protein centralised its operations on NetSuite (financials, inventory, WMS, CRM, planning, manufacturing).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "True Protein centralised its operations on NetSuite",
+   "date": "2026",
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Lachlan Cornwell",
+   "title": "CFO & COO",
+   "contactId": "true-protein--lachlan-cornwell",
+   "linkedin": null,
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Amy Knoll",
+   "title": "Head of Finance",
+   "contactId": null,
+   "linkedin": "https://linkedin.com/in/amy-knoll",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "The CFO publicly named reconciliations, journals and close as repetitive and said 80% of local finance time went on repetitive tasks.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Amy Knoll leads process discipline and automation; three sales channels feed NetSuite.",
+   "claimIds": [
+    "C5",
+    "C9"
+   ]
+  },
+  {
+   "text": "Expansion (new facility, Melbourne site) adds more stock and journal volume per close.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Already heavily automated (NetSuite, AI Connector, close down to 2-3 days) and outsources transactional finance to Business Avengers, so Vert must be positioned on the remaining reconciliation matching, not the close overall.",
+   "claimIds": [
+    "C7",
+    "C8",
+    "C10"
+   ]
+  },
+  {
+   "text": "Contact record true-protein--lachlan-cornwell holds Amy Knoll's email (amyknoll@trueprotein.com.au) and her LinkedIn; draft is addressed to Amy.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No open finance roles found.",
+  "Amy Knoll's own posts not retrieved.",
+  "No Lachlan Cornwell personal LinkedIn posts retrieved."
+ ],
+ "searches": [
+  {
+   "query": "True Protein CFO Lachlan Cornwell CFO Magazine automation reconciliations month-end close",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "true-protein--lachlan-cornwell",
+   "subject": "Reconciliations at True Protein",
+   "body": "Hi Amy,\n\nLachie told CFO Magazine that reconciliations, journals and month-end close are repetitive work, and that 80% of your local finance team's time had gone on repetitive, scalable tasks. He also credited you with the process discipline and automation knowledge finance needs next. I built Vert to turn hours of manual reconciliation into minutes, with a trace behind every match so nothing is guessed. With three sales channels feeding NetSuite, how much of that repetitive load is still reconciliation?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C5",
+    "C9"
+   ]
+  },
+  "followUp": {
+   "contactId": "true-protein--lachlan-cornwell",
+   "subject": "Re: Reconciliations at True Protein",
+   "body": "Hi Amy,\n\nFollowing up on my note last week. iTWire reports your close went from 10 days to two or three, and that you outsource transactional work to Business Avengers. The last stretch is usually matching that still needs a human check. Vert does those matches with an audit trail, so people review exceptions only. Where does the remaining time in your close go?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C10"
+   ]
+  },
+  "followUp2": {
+   "contactId": "true-protein--lachlan-cornwell",
+   "subject": "Re: Reconciliations at True Protein",
+   "body": "Hi Amy,\n\nLast note from me. With the move to a new facility and a second site in Melbourne for a new product line, more stock movements and journals will land in each close. Happy to show Vert on that workload in 10 minutes, or I'll leave it with you.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C11",
+    "C9"
+   ]
+  }
+ }
+}

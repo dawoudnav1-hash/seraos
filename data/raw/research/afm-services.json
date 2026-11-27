@@ -1,0 +1,280 @@
+{
+ "accountId": "afm-services",
+ "accountName": "AFM Services",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "AFM Services is a Norwood, SA accounting, bookkeeping and advisory firm founded by John Zerella in 1995, with around 47 staff per a 2026 case study and a recent move from MYOB to Xero. It advertised for an experienced bookkeeper in August-September 2026, and John positions himself as an NDIS tax specialist.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://afmservices.com.au/",
+   "title": "AFM Services - Financial Services For Small Businesses In Adelaide",
+   "type": "website",
+   "publisher": "AFM Services",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://afmservices.com.au/team/john-zerella/",
+   "title": "John Zerella - AFM Services",
+   "type": "website",
+   "publisher": "AFM Services",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/john-zerella",
+   "title": "John Zerella - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "S4",
+   "url": "https://otaris.com.au/case-studies/revolutionising-afm-services-a-journey-to-cloud-excellence",
+   "title": "AFM Services case study - MYOB to Xero and cloud",
+   "type": "news",
+   "publisher": "Otaris",
+   "date": "2026-05-23"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/dom-zerella-16a217157_afm-is-looking-for-an-experienced-bookkeeper-activity-7498525134358503424-nfA6",
+   "title": "Dom Zerella: AFM is looking for an experienced Bookkeeper",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-08-26"
+  },
+  {
+   "id": "S6",
+   "url": "https://jobau.org/experienced-bookkeeper_south-australia-c14848610/2026-09-afm-services_i4217417006",
+   "title": "Experienced bookkeeper - AFM Services",
+   "type": "job",
+   "publisher": "jobau.org",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "S7",
+   "url": "https://afmservices.com.au/about-us/",
+   "title": "About AFM Services",
+   "type": "website",
+   "publisher": "AFM Services",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "AFM Services is a Norwood, South Australia accounting, bookkeeping and advisory firm for small to medium businesses.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Comprehensive financial solutions for small to medium businesses.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "John Zerella is Founding and Managing Director of AFM Services, which he established in 1995.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "John Zerella is the Founding and Managing Director of AFM Services, a boutique accounting firm he established in 1995",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "John Zerella's LinkedIn lists him as current Managing Director of AFM Services and BIAS Australia and an NDIS tax specialist.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Managing Director of AFM Services & BIAS Australia | NDIS Tax Specialist",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "John's LinkedIn pitches NDIS providers on a tax position that is tested and explainable, not just lodged.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Helping NDIS providers past $2M get a tax position that is tested and explainable, not just lodged",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "AFM migrated its practice management from MYOB Accountant's Office to cloud-based Xero, with a co-managed IT partner.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Migrate practice management from MYOB Accountant's Office (which required a server) to cloud-based Xero.",
+   "date": "2026-05",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "An Otaris case study describes AFM as a CPA Public Practice firm with around 47 staff.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "with around 47 staff serving a diverse client base",
+   "date": "2026-05",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "AFM Services posted in August 2026 that it is looking for an experienced Bookkeeper in Norwood (reshared by Dom Zerella).",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "AFM Services is looking for an experienced Bookkeeper to join our team in Norwood.",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The bookkeeper role includes reconciling bank and credit card accounts, BAS and GST support, and payroll, using Xero, MYOB or QuickBooks.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "reconciling bank and credit card accounts, and maintaining accurate general ledger entries",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "AFM offers bookkeeping, accounting, taxation, business advisory including due diligence, payroll and wealth creation.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Business advisory (including due diligence)",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Dom Zerella is Associate Director and Head of Accounting at AFM and shares the firm's hiring posts.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "AFM is looking for an experienced Bookkeeper. If this is you, or someone you know, please feel free to reach out.",
+   "date": "2026-08",
+   "category": "person",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "John Zerella",
+   "title": "Managing Director",
+   "contactId": "afm-services--john-zerella",
+   "linkedin": "https://www.linkedin.com/in/john-zerella",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Dom Zerella",
+   "title": "Associate Director, Head of Accounting",
+   "contactId": "afm-services--dom-zerella",
+   "linkedin": "https://www.linkedin.com/in/dom-zerella-16a217157",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Hiring an experienced bookkeeper whose duties include bank and credit card reconciliations - reconciliation load is real and growing the team",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "John's NDIS tax work stresses 'tested and explainable', which matches Vert's traceable approach",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Moved from MYOB to Xero in the cloud with ~47 staff - open to modernising systems",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Different public headcounts (LinkedIn 19 vs case study ~47) - firm size is uncertain",
+   "claimIds": [
+    "C6"
+   ]
+  },
+  {
+   "text": "Already emailed John once on 2026-11-23; follow-ups must add new angles",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or video found",
+  "No Facebook/Instagram posts checked in detail",
+  "Previous email body not available; angles chosen to differ from a generic first note"
+ ],
+ "searches": [
+  {
+   "query": "AFM Services Norwood Adelaide accountants John Zerella",
+   "results": 8
+  },
+  {
+   "query": "afmservices.com.au fetch",
+   "results": 1
+  },
+  {
+   "query": "AFM Services bookkeeper job vacancy Xero MYOB",
+   "results": 6
+  },
+  {
+   "query": "Otaris AFM Services case study",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "afm-services--john-zerella",
+   "subject": "Re: Idea for AFM Services",
+   "body": "Hi John,\n\nFollowing up on my note last week. AFM's recent post for an experienced bookkeeper caught my eye, since the role covers bank and credit card reconciliations on top of BAS and payroll. Vert takes that reconciliation work from hours to minutes with a traceable audit trail, so a new hire can spend more time on client conversations. How much of your bookkeeping team's week goes on reconciling today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "afm-services--john-zerella",
+   "subject": "Re: Idea for AFM Services",
+   "body": "Hi John,\n\nOne last note. Your NDIS work is about tax positions that are tested and explainable, and Vert follows the same principle for reconciliation: every match is traceable, nothing is guessed. Worth ten minutes to see it on AFM's Xero data?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  }
+ }
+}

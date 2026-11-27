@@ -1,0 +1,278 @@
+{
+ "accountId": "mustard-made",
+ "accountName": "Mustard Made",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Mustard Made is a female-founded colourful locker and homewares brand with offices in Newcastle (Australia) and London. Head of Finance Luke Avron-Cotton, who started in Sep 2025, leads finance across Australia, the UK, Europe and the US and was hiring a Management Accountant in Sep 2026. The finance function runs two legal entities, multiple currencies, ecommerce and wholesale, with inventory in several regions.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://mustardmade.com/pages/contact-us",
+   "title": "Contact us - Mustard Made Australia",
+   "type": "website",
+   "publisher": "Mustard Made",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/in/luke-avron-cotton",
+   "title": "Luke Avron-Cotton - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/luke-avron-cotton_management-accountant-job-in-newcastle-newcastle-activity-7505050040206553088-ce4g",
+   "title": "Luke Avron-Cotton post: We're growing the Finance team at Mustard",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-13"
+  },
+  {
+   "id": "S4",
+   "url": "https://mustardmade.com/pages/work-with-us",
+   "title": "Work with us - Mustard Made Australia",
+   "type": "job",
+   "publisher": "Mustard Made",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://jobau.org/management-accountant_newcastle-c1006563/2026-10-mustard-made-pty-ltd_i4231517304",
+   "title": "Management accountant - Mustard Made Pty Ltd (Newcastle)",
+   "type": "job",
+   "publisher": "jobau.org",
+   "date": "2026-10-06"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.realcommercial.com.au/news/london-calling-meet-the-aussie-entrepreneurs-who-are-conquering-the-british-capital",
+   "title": "London calling: Meet the Aussie entrepreneurs who are conquering the UK",
+   "type": "news",
+   "publisher": "realcommercial.com.au",
+   "date": "2025-01-24"
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/company/mustard-made",
+   "title": "Mustard Made - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Mustard Made's Australian office is at 3/67 Parry Street, Newcastle West.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Mustard Made, 3/67 Parry Street Newcastle West, 2302",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Luke Avron-Cotton is Head of Finance at Mustard Made (current, since Sep 2025), based in Newcastle.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Head of Finance - Mustard Made (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Luke says he leads finance across Australia, the UK, Europe and the US.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "leading finance across Australia, the UK, Europe and the US",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Luke says he enjoys using technology, automation and AI to change how finance supports the business.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "using technology, automation and AI to transform how finance supports the wider business",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In Sep 2026 Luke posted that Mustard is hiring a Management Accountant, a hands-on role covering month-end, reporting, forecasting and analysis.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "It's a hands-on role covering month-end, reporting, forecasting and analysis",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Luke's post says the new role is part of improving Mustard's systems and finding smarter ways of working.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "as we improve our systems and find smarter ways of working",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Mustard's job ad says it operates through two legal entities, multiple currencies, ecommerce and wholesale channels, with inventory in several regions.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "through two legal entities, multiple currencies, ecommerce and wholesale channels, with inventory held across several regions",
+   "date": "2026-10",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The Management Accountant role owns the month-end close across the Australian and UK entities, including reconciliations and consolidation.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Own the accurate and timely month-end close across our Australian and UK entities",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Mustard's careers page lists an Assistant Accountant role covering day-to-day accounting, reconciliations, payroll and month-end activities.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "take ownership of day-to-day accounting, reconciliations, payroll and assigned month-end activities",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "A Jan 2025 article describes Mustard as a furniture start-up with offices in Australia and the UK that is expanding to the US and Europe.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "expanding to the US and Europe",
+   "date": "2025-01",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "Mustard Made is Australia's Original Locker Brand, with its workforce across Australia and the UK.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Australia's Original Locker Brand",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Luke Avron-Cotton",
+   "title": "Head of Finance",
+   "contactId": "mustard-made--luke-avron-cotton",
+   "linkedin": "https://www.linkedin.com/in/luke-avron-cotton",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Luke's Sep 2026 Management Accountant post and job ad: the team is being built out and month-end across two entities is the core workload.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Luke's stated interest in automation and AI in finance.",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "text": "Expansion into US and Europe adds regions and currencies to reconcile.",
+   "claimIds": [
+    "C10",
+    "C3"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Luke says he's focused on AI and automation, so he may already be evaluating or building tools; he may also be a hands-on buyer with limited budget.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts found from Luke about specific reconciliation tools; accounting system (Xero/NetSuite) not confirmed; AFR Fast 100 ranking not independently sourced here."
+ ],
+ "searches": [
+  {
+   "query": "Mustard Made lockers Newcastle Luke Avron-Cotton Head of Finance",
+   "results": 10
+  },
+  {
+   "query": "mustardmade.com and Luke LinkedIn fetch",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "mustard-made--luke-avron-cotton",
+   "subject": "Month-end across Mustard's two entities",
+   "body": "Hi Luke, your post about hiring a Management Accountant mentions month-end, reporting and smarter ways of working, and the job ad describes two legal entities, multiple currencies, ecommerce and wholesale, and inventory across several regions. That is a lot of reconciling before anyone gets to analysis. I'm building Vert, which helps finance teams reconcile and cash code faster, with an audit trail rather than black-box AI. How much of month-end goes on reconciliations across the Australian and UK entities?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "mustard-made--luke-avron-cotton",
+   "subject": "Re: Month-end across Mustard's two entities",
+   "body": "Hi Luke, following up on my note last week. You talk about using technology, automation and AI to change how finance supports the business. The part I'd test first is reconciliation: Vert matches and cash codes across currencies and shows the audit trail for every match, so your team spends time on review. Open to a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "mustard-made--luke-avron-cotton",
+   "subject": "Re: Month-end across Mustard's two entities",
+   "body": "Hi Luke, last nudge. Mustard is expanding into the US and Europe, which adds regions and currencies to a close you already lead across several markets. Vert takes the reconciling load off the team as that grows. Worth a quick look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C3"
+   ]
+  }
+ }
+}

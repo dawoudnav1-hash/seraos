@@ -1,0 +1,269 @@
+{
+ "accountId": "lowe-lippmann-chartered-accountants",
+ "accountName": "Lowe Lippmann Chartered Accountants",
+ "status": "complete",
+ "summary": "Lowe Lippmann is a St Kilda Road chartered accounting and advisory firm trusted for over 75 years, recognised in the AFR Top 100 list in November 2025. Partner Danny Lustig, who advises small to medium family businesses on tax compliance and bookkeeping systems, received an Order of Australia Medal in the 2026 Australia Day honours. The firm is audit, insolvency and tax-led, so fit is weak.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.lowelippmann.com.au/",
+   "title": "Lowe Lippmann | Chartered Accountants Melbourne, VIC",
+   "type": "website",
+   "publisher": "Lowe Lippmann",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.lowelippmann.com.au/about/our_people/danny_lustig",
+   "title": "Danny Lustig | Lowe Lippmann",
+   "type": "website",
+   "publisher": "Lowe Lippmann",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.lowelippmann.com.au/about/our_people/gideon_rathner",
+   "title": "Gideon Rathner | Lowe Lippmann",
+   "type": "website",
+   "publisher": "Lowe Lippmann",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/lowe-lippmann-chartered-accountants_lowe-lippmann-is-absolutely-thrilled-to-share-activity-7421673398969462784-LK5L",
+   "title": "Lowe Lippmann LinkedIn post: Danny Lustig OAM",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Lowe Lippmann)",
+   "date": "2026-01-26"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/lowe-lippmann-chartered-accountants_we-are-thrilled-to-announce-that-lowe-lippmann-activity-7399211899218817024-bYhJ",
+   "title": "Lowe Lippmann LinkedIn post: AFR Top 100",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Lowe Lippmann)",
+   "date": "2025-11-25"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.lowelippmann.com.au/news___resources/latest_news",
+   "title": "Latest News | Lowe Lippmann",
+   "type": "blog",
+   "publisher": "Lowe Lippmann",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.cpaaustralia.com.au/public-practice/inpractice/taxation/pressure-points-simmer-ato-lodgment-system",
+   "title": "Pressure points simmer in the ATO lodgment system | CPA Australia",
+   "type": "news",
+   "publisher": "CPA Australia",
+   "date": "2022-03-01"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Lowe Lippmann's own site gives its address as Level 7, 616 St Kilda Road, Melbourne VIC 3004.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 7, 616 St Kilda Road,",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Danny Lustig has been a Lowe Lippmann partner since 1991 and is listed on the firm's people page.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Danny joined Lowe Lippmann and became a Partner in 1991.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Gideon Rathner is a Lowe Lippmann partner specialising in corporate insolvency and restructuring.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Gideon Rathner specialises in corporate insolvency and all aspects of business restructuring",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Danny Lustig was awarded an Order of Australia Medal in the 2026 Australia Day honours, announced on the firm's LinkedIn in January 2026.",
+   "sourceIds": [
+    "S2",
+    "S4"
+   ],
+   "quote": "In the 2026 Australia Day honours, he was awarded an Order of Australia Medal for service to the community through a range of roles.",
+   "date": "2026-01",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Danny's clients are mainly small to medium family businesses, and he advises on bookkeeping systems and tax compliance.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "He also provides guidance on bookkeeping systems, superannuation, tax compliance, tax audits and disputes with the A.T.O.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The firm describes itself as a premium accounting and advisory firm trusted for over 75 years.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We’re a premium accounting and advisory firm trusted for over 75 years.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Lowe Lippmann announced in November 2025 that it was again recognised in the AFR Top 100 Accounting Firms list.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Lowe Lippmann has once again been recognized in the AFR Top 100 Accounting Firms List.",
+   "date": "2025-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm's November 2026 Practice Update covers the ATO continuing to accept credit cards until 30 June 2027.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "ATO to continue accepting credit cards until 30 June 2027, but the clock it still ticking",
+   "date": "2026-11-04",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Services include tax and compliance, audit and assurance, insolvency and restructuring, strategic advisory and corporate secretarial.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Our expert accountants will attend to all your tax and compliance needs",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Danny Lustig was quoted by CPA Australia in March 2022 on ATO lodgment timing pressures for practitioners.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Danny Lustig CPA, a partner at Lowe Lippmann, expresses two specific concerns.",
+   "date": "2022-03",
+   "category": "news",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Danny Lustig",
+   "title": "Partner",
+   "contactId": "lowe-lippmann-chartered-accountants--danny-lustig",
+   "linkedin": "https://www.linkedin.com/in/danny-lustig",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C10"
+   ]
+  },
+  {
+   "name": "Gideon Rathner",
+   "title": "Partner, Corporate Reconstruction & Insolvency",
+   "contactId": "lowe-lippmann-chartered-accountants--gideon-rathner",
+   "linkedin": "https://www.linkedin.com/in/gideonrathner",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Danny's 2026 Order of Australia Medal is a recent, genuine congratulations opener; his remit covers bookkeeping systems and tax compliance for SME family businesses.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "The November 2026 Practice Update shows the firm actively tracks client cashflow and payment changes.",
+   "claimIds": [
+    "C8"
+   ]
+  },
+  {
+   "text": "Danny has publicly commented on lodgment-deadline pressure, a seasonal reconciliation load point.",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Audit, insolvency and tax-compliance led; no bookkeeping or outsourced close service listed, so fit is weak.",
+   "claimIds": [
+    "C9",
+    "C3"
+   ]
+  },
+  {
+   "text": "Draft addressed to Danny Lustig rather than primary contact Gideon Rathner (insolvency partner), because Danny's remit includes bookkeeping systems and SME ledgers.",
+   "claimIds": [
+    "C3",
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No hiring, tech stack or Xero/MYOB partner information found.",
+  "No podcast, Facebook or Instagram presence found.",
+  "No evidence of an AI reconciliation tool in use."
+ ],
+ "searches": [
+  {
+   "query": "Lowe Lippmann Chartered Accountants St Kilda Road Gideon Rathner Danny Lustig news",
+   "results": 7
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "lowe-lippmann-chartered-accountants--danny-lustig",
+   "subject": "Reconciliation at Lowe Lippmann",
+   "claimIds": [
+    "C4",
+    "C5"
+   ],
+   "body": "Hi Danny,\n\nCongratulations on the Order of Australia Medal in the Australia Day honours. Reading your profile, you advise small to medium family businesses on tax compliance and bookkeeping systems, which is where manual reconciliation tends to pile up around lodgment deadlines. I built Vert to turn hours of manual reconciliation into minutes, with a traceable audit trail rather than AI that guesses. How much of your team's time goes on reconciling client ledgers before the tax work can start? Open to a 10 min walkthrough?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "lowe-lippmann-chartered-accountants--danny-lustig",
+   "subject": "Re: Reconciliation at Lowe Lippmann",
+   "claimIds": [
+    "C8",
+    "C5"
+   ],
+   "body": "Hi Danny,\n\nFollowing up on my note last week. Your November practice update on the ATO's credit card changes shows how closely the team tracks what clients' payments are doing. Vert reconciles and cash codes in minutes, with a full audit trail on every match. Would it be useful to see it run on one family-business client's ledger?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

@@ -1,0 +1,249 @@
+{
+ "accountId": "muk-haircare",
+ "accountName": "muk Haircare",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "muk Haircare is a Melbourne-based, Australian-owned professional haircare brand in 15+ countries. In 2026 it appointed a new CEO (Damian McCarthy, July), a new CFO (Laura Buckley, March) and a Finance Manager (Sasha Raicevic, May), and describes its biggest growth phase yet under a three-year strategy.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/sasha-raicevic-7b681a171",
+   "title": "Sasha Raicevic | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/laura-buckley-a460899b",
+   "title": "Laura Buckley | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/muk-haircare_muk-welcomes-damian-mccarthy-to-the-family-activity-7478213350750048256-0_xC",
+   "title": "muk welcomes Damian McCarthy as our CEO",
+   "type": "linkedin",
+   "publisher": "muk Haircare",
+   "date": "2026-07-01"
+  },
+  {
+   "id": "S4",
+   "url": "https://hrtoday.in/muk-haircare-appoints-laura-buckley-as-chief-financial-officer/",
+   "title": "muk Haircare Appoints Laura Buckley as Chief Financial Officer",
+   "type": "news",
+   "publisher": "HR Today",
+   "date": "2026-03-01"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/muk-haircare_hiring-haircare-salesleadership-activity-7495335683125870592-QObo",
+   "title": "National Sales Manager - muk Haircare",
+   "type": "linkedin",
+   "publisher": "muk Haircare",
+   "date": "2026-08-18"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/laura-buckley-a460899b_were-expanding-our-team-at-muk-come-join-activity-7509170124516495360-Nas8",
+   "title": "We're expanding our team at Muk - come join us!",
+   "type": "linkedin",
+   "publisher": "Laura Buckley",
+   "date": "2026-09-25"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Sasha Raicevic is the current Finance Manager at muk Haircare, since May 2026.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Finance Manager - muk Haircare",
+   "date": "2026-05",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "muk is an Australian-owned professional haircare brand selling across 15+ countries.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We're an Australian-owned professional haircare brand across 15+ countries",
+   "date": "2026-07",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Laura Buckley moved from Financial Controller to CFO in March 2026.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "before stepping into the CFO position in March 2026",
+   "date": "2026-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "muk named Damian McCarthy CEO in July 2026, framing the year around turning complexity into clarity.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Turning complexity into clarity, and clarity into growth.",
+   "date": "2026-07",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "muk's range spans haircare, colour, styling and electrical.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "a product portfolio that spans haircare, colour, styling, and electrical",
+   "date": "2026-07",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "muk says it is in its biggest growth phase yet after a record year and its largest capital investment.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "The business is in its biggest growth phase yet, coming off a record year",
+   "date": "2026-08",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The same post says a new CEO, CFO and CMO are driving a three-year strategy.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "with the appointment of a new CEO, CFO and CMO to drive a three-year strategy",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Laura Buckley posted in September that muk is expanding its team.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "We’re expanding our team at Muk - come join us!",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Laura Buckley is currently muk's Chief Financial Officer per LinkedIn.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "CFO at Muk Haircare",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Sasha Raicevic",
+   "title": "Finance Manager",
+   "contactId": "muk-haircare--sasha-raicevic",
+   "linkedin": "https://linkedin.com/in/sasha-raicevic-7b681a171",
+   "claimIds": [
+    "C1"
+   ]
+  },
+  {
+   "name": "Laura Buckley",
+   "title": "Chief Financial Officer",
+   "contactId": "muk-haircare--laura-buckley",
+   "linkedin": "https://linkedin.com/in/laura-buckley-a460899b",
+   "claimIds": [
+    "C3",
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Finance leadership overhaul (new CEO, CFO, FM) during a stated growth phase: window to rebuild the close.",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Multi-channel, multi-country range: distributor and Shopify recs.",
+   "claimIds": [
+    "C2",
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Laura Buckley (CFO) has no email on file; email goes to Sasha only.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "Tech stack (Xero/NetSuite/etc.) not confirmed from public sources.",
+  "No open finance job ad found.",
+  "Phocas case study not retrieved."
+ ],
+ "searches": [
+  {
+   "query": "muk Haircare Laura Buckley Sasha Raicevic Damian McCarthy",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "muk-haircare--sasha-raicevic",
+   "subject": "Close across 15+ countries at muk",
+   "body": "Hi Sasha,\n\nCongrats on the Finance Manager role. With a new CEO, Laura as CFO and a record year behind muk, the new three-year strategy lands on your close. A brand selling haircare, colour, styling and electrical into 15+ countries probably has distributor, Shopify and inventory reconciliations stacking up each month. I'm building Vert, which reconciles and cash codes with a traceable audit trail instead of guessing, turning hours into minutes. Which recs take longest at month-end?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C1",
+    "C2",
+    "C3",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp": {
+   "contactId": "muk-haircare--sasha-raicevic",
+   "subject": "Re: Close across 15+ countries at muk",
+   "body": "Hi Sasha,\n\nFollowing up on my note last week. Laura's September post says muk is expanding the team, and the August post calls this its biggest growth phase yet. More volume usually means more payouts and distributor lines to match by hand. Vert handles those recs and flags exceptions with a full trail, so your team reviews rather than matches. Worth a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  },
+  "followUp2": {
+   "contactId": "muk-haircare--sasha-raicevic",
+   "subject": "Re: Close across 15+ countries at muk",
+   "body": "Hi Sasha,\n\nLast nudge from me. muk's welcome note for Damian McCarthy talks about turning complexity into clarity. Vert does that for the close: fewer manual matches, and every one traceable. Happy to run it on a sample month if useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C1"
+   ]
+  }
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "_comment": "Manual corrections from web research (Exa). Applied last by pipeline/build_data.py.",
+ "contacts": {
+  "creswick-wool--paul-ryzowy": {
+   "likelyLeft": true,
+   "note": "Stale: founded the mill in 1947 and died in 2008. Current owners are Boaz and Sharon Herszfeld."
+  },
+  "melrose-health--geoff-steinicke": {
+   "likelyLeft": true,
+   "note": "Stale: sold Melrose in 2010 and retired. Current CEO/CFO added."
+  },
+  "abound-group--levi-ciment": {
+   "likelyLeft": true,
+   "note": "Email domain theaboundgroup.com belongs to an unrelated real-estate company, not this accounting firm (Exa research)."
+  },
+  "johnson-partners--jason-johnson": {
+   "likelyLeft": true,
+   "note": "johnsonpartners.co is an executive-search firm, not the Richmond accounting firm (Exa research)."
+  },
+  "gridsight--bryn-leggett": {
+   "note": "Rejected Vert on LinkedIn. Do not contact."
+  },
+  "boss-private-clients--sam-marzano": {
+   "note": "Check email before sending: the firm's people page appears to pair sam@ with Sam Cimino and smarzano@ with Sam Marzano (research, 27 Nov)."
+  },
+  "pgp-consulting--bill-franchini": {
+   "likelyLeft": true,
+   "note": "Do not contact: LinkedIn shows him as owner of a software consultancy, not on PGP's team page (research, 27 Nov). Find a verified PGP director instead."
+  },
+  "skybridge-financial--sachin-maheshwari": {
+   "likelyLeft": true,
+   "note": "Different company: SkyBridge Financial Services in Pune, India (research, 27 Nov)."
+  },
+  "ashfords--greg-cusack": {
+   "note": "Email is a firm-pattern guess, not verified (research, 27 Nov). Ashfords also runs its own automation arm (Ashfords Digital)."
+  }
+ },
+ "removeContacts": [
+  "relevance-ai--founder-name",
+  "relevance-ai--cfo-name"
+ ],
+ "accounts": {
+  "great-wrap": {
+   "flag": "Operating entity entered voluntary administration in Sep 2025 (staff made redundant). Verify before any outreach."
+  },
+  "lgy-accountants": {
+   "flag": "No principal identifiable from the firm site (first names only). Needs a manual check."
+  },
+  "visory": {
+   "flag": "Likely competitor/partner: markets AI-assisted bookkeeping and monthly close ('Delphi AI'). Sheet contacts belong to a US 'Visory' — not this firm."
+  },
+  "abound-group": {
+   "domain": "aboundgroup.com.au",
+   "flag": "Sheet contact/domain belonged to an unrelated real-estate company; firm website corrected to aboundgroup.com.au. Needs a new contact."
+  },
+  "johnson-partners": {
+   "domain": "johnsonpartners.com.au",
+   "flag": "Sheet contacts belong to an executive-search firm (johnsonpartners.co). The Richmond accounting firm appears to be johnsonpartners.com.au (address match) — verify and find a contact."
+  },
+  "intrepid-advisory": {
+   "domain": "intrepidadvisory.com.au"
+  },
+  "bbb-partners": {
+   "flag": "Acquired by Cutcher & Neale in July 2025 (LinkedIn). Check who now owns the relationship."
+  },
+  "skybridge-financial": {
+   "flag": "Count Group (ASX) signed a binding agreement on 5 Nov 2026 to buy 75% of Skybridge; tooling decisions may move to Count."
+  },
+  "pgp-consulting": {
+   "flag": "No verified contact: research names Nick Schaeffer, Donna Marcus and Rhiannon Clews as current staff."
+  },
+  "wsc-group": {
+   "flag": "Count Limited (ASX) owns ~58.7% of WSC and an Aug 2026 merger with CountPlus One takes it to ~70%; tooling may be decided at Count level."
+  }
+ },
+ "excludeAccounts": {
+  "4orward": "Removed at the owner's request (comment on the published page, 25 Nov 2026).",
+  "accolution": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "accountant-assist": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourcing for accounting firms).",
+  "accounting-gurus": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourcing for accounting firms).",
+  "accounts-bridge": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "ags-financial-group": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "alexander-and-co-consulting": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "bbb-partners": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "beam-bookkeeping": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "bio101": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "books-onsite": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "books365": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "boutique-accounts": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "bri-ferrier-melbourne": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "cfo-on-call": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "dmg-partners": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "dvt-mcleods": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "elevate-smes": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "end-of-month-angels": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "esuperfund": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "evource": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "ezygrowth": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "focus-partners-australia": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "grey-space-advisory": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "hellocfo": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "hm-advisory-formerly-hamilton-murphy": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "ikeep": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "jim-s-bookkeeping": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "jirsch-sutherland": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "judsonkoman": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "lineage-group": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "linton-advisory-group": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "lolly-jar-creative-industry-finance-supp": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "lucent-advisory": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "lumina": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "mackay-goodwin": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "maximum-business-solutions-bruce-edmunds": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "mcqueen-group": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "mybookworks": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "professional-bookkeeping-service": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "rosy-small-business-services": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "securinvest-financial-group": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "slate-accounts": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "standard-ledger": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "superguardian": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "take-care-of-books": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "taxoz-accountants": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourcing for accounting firms).",
+  "the-bas-agents": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "the-integrated-cfo": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "the-pen-accounting": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "visory": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Bookkeeping & BAS).",
+  "vital-addition": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "wct-advisory-group": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Other financial services).",
+  "willis-partners": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance).",
+  "xeta": "Deleted at the owner's request, 25 Nov 2026: not an accounting firm (Outsourced CFO & finance)."
+ }
+}

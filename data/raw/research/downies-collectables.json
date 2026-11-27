@@ -1,0 +1,273 @@
+{
+ "accountId": "downies-collectables",
+ "accountName": "Downies Collectables",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Downies Collectables is a family-owned Melbourne coins, banknotes and collectables retailer and auction house (est. 1932) running NetSuite, Shopify and Celigo. The finance team includes CFO Jane Van Es, Finance Manager Tawanda Makaure (since April 2026, owns the close) and Finance Operations Manager Kaumudi Kuruppu.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/tawanda-l-makaure-cpa-b2ba4a59",
+   "title": "Tawanda L Makaure, CPA | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/kaumudi-kuruppu-614b3588",
+   "title": "Kaumudi Kuruppu | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.fusion5.com/au/netsuite/case-studies/video-testimonials",
+   "title": "NetSuite Video Testimonials - Downies Collectables",
+   "type": "other",
+   "publisher": "Fusion5",
+   "date": "2025-06-25"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/downie's",
+   "title": "Downies Collectables Pty Ltd | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.downies.com/pages/about-us",
+   "title": "About Us - Downies Collectables",
+   "type": "website",
+   "publisher": "Downies Collectables",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/in/jane-van-es-067a7419",
+   "title": "Jane Van Es | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-09"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Downies Collectables is a family business founded in 1932 and based in Nunawading, Victoria.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "A family business since 1932!",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Kaumudi Kuruppu is Finance Operations Manager at Downies, in the role since May 2021.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Finance Operations Manager",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Kaumudi's profile describes supervising staff and assisting the costing process, reporting to the CFO.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "supervising staff and assisting costing process",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Jane Van Es has been CFO of Downies since October 2022.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Oct 2022 - Present (4 years and 1 month)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Finance Manager Tawanda Makaure says he owns the finance function end-to-end, including bank reconciliations and the month-end close.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "I own the finance function end-to-end, overseeing payroll, accounts payable, bank reconciliations, and the month-end close",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Tawanda leads process improvements and integrations across NetSuite, Shopify, Celigo and Employment Hero.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "I lead process improvements and system integrations across NetSuite, Shopify, Celigo, and Employment Hero",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Downies implemented NetSuite with Fusion5; COO Chris Sealey said the old system needed lots of transactions per task.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "In the old system, lots of transactions were required to complete a task, leading to a lot of complexity.",
+   "date": "2025-06",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Downies is home to Biante Model Cars and distributes numismatic products for the Royal Australian Mint and The Perth Mint.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Downies Collectables is home to Biante Model Cars.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Downies sells coins, mints, accessories, banknotes and subscriptions.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "sells coins, mints, accessories, banknotes, and subscriptions",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Downies runs Australia's longest-running numismatic auction house.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Australia’s longest running numismatic auction house",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Kaumudi Kuruppu",
+   "title": "Finance Operations Manager",
+   "contactId": "downies-collectables--kaumudi-kuruppu",
+   "linkedin": "https://linkedin.com/in/kaumudi-kuruppu-614b3588",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Tawanda L Makaure",
+   "title": "Finance Manager",
+   "contactId": "downies-collectables--tawanda-l-makaure",
+   "linkedin": "https://linkedin.com/in/tawanda-l-makaure-cpa-b2ba4a59",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "name": "Jane Van Es",
+   "title": "Chief Financial Officer",
+   "contactId": null,
+   "linkedin": "https://linkedin.com/in/jane-van-es-067a7419",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "NetSuite, Shopify and Celigo integration breaks create exception recs the finance team handles by hand.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Subscriptions and auctions add deferred revenue and settlement recs.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Tawanda Makaure (the owner of the close) has no email on file; Kaumudi is the only contactable finance contact. Sent to Kaumudi, who may forward.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "NetSuite stack may be seen as sufficient.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No finance job ad or funding news found.",
+  "No dated posts by the finance team found."
+ ],
+ "searches": [
+  {
+   "query": "Downies Collectables finance Tawanda Makaure NetSuite Shopify",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "downies-collectables--kaumudi-kuruppu",
+   "subject": "Shopify to NetSuite recs at Downies",
+   "body": "Hi Kaumudi,\n\nDownies moved to NetSuite, with Shopify and Celigo feeding it, and your close covers coins, banknotes, subscriptions and the Biante range as well as auction sales. As Finance Operations Manager, supervising the team, you see where the integration breaks land: payout recs, subscription billing and exceptions. I'm building Vert, which reconciles and cash codes with a traceable audit trail instead of guessing, turning hours of recs into minutes. Which reconciliation takes your team longest each month?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+   ]
+  },
+  "followUp": {
+   "contactId": "downies-collectables--kaumudi-kuruppu",
+   "subject": "Re: Shopify to NetSuite recs at Downies",
+   "body": "Hi Kaumudi,\n\nFollowing up on my note last week. Tawanda's profile says he owns bank reconciliations and the month-end close, with Celigo linking Shopify and NetSuite. When a sync breaks, someone matches the difference by hand. Vert finds and traces those exceptions so your team reviews rather than hunts. Could I show you on a sample month?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "downies-collectables--kaumudi-kuruppu",
+   "subject": "Re: Shopify to NetSuite recs at Downies",
+   "body": "Hi Kaumudi,\n\nLast nudge. With Jane Van Es as CFO and you supervising staff through the close, reporting depends on how fast recs finish. Vert cuts that from hours to minutes. Worth a 10 minute look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  }
+ }
+}

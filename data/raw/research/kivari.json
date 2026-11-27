@@ -1,0 +1,249 @@
+{
+ "accountId": "kivari",
+ "accountName": "KIVARI",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "KIVARI is a founder-led Australian women's fashion label with 16 stores, online sales and wholesale partners including David Jones and The Iconic. It reported a record FY26 with a 42 per cent sales increase, moved HQ to Rosebery in August 2026 and plans 18 stores by the end of FY27. Richard Dael is Financial Director.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.ragtrader.com.au/news/kivari-marks-42-sales-lift-with-hq-move",
+   "title": "Kivari marks 42% sales lift with HQ move",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2026-07-08"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.linkedin.com/posts/kirstin-lee-keysers-38a4a563_fortitude-valley-kivari-has-arrived-12-activity-7516698400378068992-pVrY",
+   "title": "Kirstin-Lee Keysers: FORTITUDE VALLEY, KIVARI HAS ARRIVED",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Kirstin-Lee Keysers)",
+   "date": "2026-10-16"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/richard-dael-228a5886",
+   "title": "Richard Dael LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.kivari.com.au/pages/our-world",
+   "title": "Our World | KIVARI",
+   "type": "website",
+   "publisher": "KIVARI",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/company/kivari",
+   "title": "KIVARI LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "KIVARI is an Australian women's fashion label founded in 2014 by Kirstin Keysers, with its HQ in Rosebery.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "KIVARI HQ is located in Rosebery on Gadigal land.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Richard Dael is Financial Director at KIVARI (current), in the role since October 2024.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Financial Director - KIVARI (Current) Oct 2024 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Richard is a chartered accountant with 25 years post qualification, 20 of them in CFO or Financial Controller roles, including Group CFO at colette by colette hayman and Finance Director at Fossil ANZ.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "A total of 25 years post qualification experience, 20 of which have been in CFO or Financial Controller roles.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "At Fossil ANZ Richard led finance for a business with its own stores, wholesale through department stores and a growing ecommerce channel.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The business has a growing Ecom channel through its own and third-party websites.",
+   "date": "2023-06",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "KIVARI reported a record FY26 with double-digit growth across key metrics, including a 42 per cent increase in total sales, as it moved HQ to Rosebery.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "recording double-digit growth across all key metrics, including a 42 per cent increase in total sales",
+   "date": "2026-07",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "KIVARI is stocked in David Jones, Mode Sportif and The Iconic, with stockists in the United States, Canada, Europe, Asia and the Middle East.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "is stocked in David Jones, Mode Sportif and The Iconic",
+   "date": "2026-07",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "KIVARI is preparing to grow its store count to 18 by the end of FY27, across Australia.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Kivari is preparing to grow its store count to 18 across Australia by the end of FY27",
+   "date": "2026-07",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Founder Kirstin-Lee Keysers posted in October 2026 that her team opened KIVARI's 16th store at Fortitude Valley, writing that you can build by doing everything yourself but you can't scale it that way.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Today, I'm back in Bali for my besties milestone birthday while my team opens KIVARI's 16th store.",
+   "date": "2026-10",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "KIVARI posted in August 2026 that it had moved into its new head office, designed for room to grow.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We've officially moved into our new KIVARI head office",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Richard Dael",
+   "title": "Financial Director",
+   "contactId": "kivari--richard-dael",
+   "linkedin": "https://linkedin.com/in/richard-dael-228a5886",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Kirstin-Lee Keysers",
+   "title": "Founder",
+   "contactId": "kivari--kirstin-lee-keysers",
+   "linkedin": "https://linkedin.com/in/kirstin-lee-keysers-38a4a563",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Record FY26 plus store rollout to 18 multiplies store, online and wholesale settlements in a finance function that looks very lean.",
+   "claimIds": [
+    "C5",
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Richard has run multi-channel retail finance before (stores, wholesale, ecom), so he knows cross-channel reconciliation pain.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Wholesale partners like David Jones and The Iconic add receivables and remittance matching.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Directory data suggests a one-person finance function, so Richard may lack time for new tools but also benefits most from leverage.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "ERP/ecommerce platform and bank/payment stack not confirmed.",
+  "No posts by Richard Dael on close or tooling found.",
+  "No finance job ads found; careers page lists HR and social roles only."
+ ],
+ "searches": [
+  {
+   "query": "KIVARI fashion label Rosebery head office Fortitude Valley store opening 2026",
+   "results": 8
+  },
+  {
+   "query": "Richard Dael Financial Director KIVARI",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "kivari--richard-dael",
+   "subject": "Month-end at KIVARI",
+   "body": "Hi Richard, congratulations on a record FY26 for KIVARI and the new Rosebery head office. With Fortitude Valley taking you to the 16th store and plans for 18 by the end of FY27, month-end must carry more store takings, online orders and wholesale into David Jones and The Iconic. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace. How much of your close goes on matching those settlements today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C8",
+    "C7",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "kivari--richard-dael",
+   "subject": "Re: Month-end at KIVARI",
+   "body": "Hi Richard, following up on my note last week. You've run finance for multi-channel retail before, with Fossil ANZ's own stores, wholesale and ecommerce, so you know how much of a close is matching across channels. Vert does that matching in minutes, with a trail your auditors can follow. Is KIVARI's close mostly store, online or wholesale?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "kivari--richard-dael",
+   "subject": "Re: Month-end at KIVARI",
+   "body": "Hi Richard, last nudge from me. Kiki's October post about trusting a team to scale stuck with me. With 18 stores planned by the end of FY27, I'd gladly show you in 10 minutes how Vert gives a lean finance function more leverage.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C7"
+   ]
+  }
+ }
+}

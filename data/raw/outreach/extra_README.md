@@ -1,0 +1,5 @@
+# Extra outreach sources
+- Apollo: 0 sequences, 0 mailboxes, analytics all-time all zero (emails sent/opened/replied/bounced, meetings, LinkedIn tasks). Not used for outreach. Messages/contacts/tasks/calls not queried further (nothing to find).
+- Composio: only linkedin has an active connection (account linkedin_learnt-prune); its tools are profile/post lookups, no message/invitation listing, so nothing pulled. heyreach, lemlist, instantly, smartlead, apollo, hubspot, gmail, googlesheets, outlook, phantombuster, unipile: no active connection. expandi, dripify, waalaxy: toolkit not found. NOTE: the list call also generated pending (initiated, unused) connection links; nothing was completed.
+- Attio: no synced emails and no meetings since 2026-07-01.
+- Google Calendar (2026-07-25..2026-11-22): 1 event with a prospect-domain attendee (relevanceai.com) -> 1 meeting event emitted. Other external meetings (Hume Bookkeeping, Employment Hero, One Tax Accountants, Dilshi Gunasekara, etc.) did not match prospect_index emails/domains and were NOT emitted; they may be worth manual review.

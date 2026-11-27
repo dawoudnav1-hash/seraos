@@ -1,0 +1,237 @@
+{
+ "accountId": "icon-by-design",
+ "accountName": "Icon By Design",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Icon By Design is a Kensington NSW solid-timber furniture brand with showrooms in Sydney, Melbourne and, since October 2026, Brisbane. Hamilton Gong has been its accountant and business systems leader since September 2017 and describes himself as a data nerd who codes to improve systems. He appears to be the sole finance person for a multi-showroom AU/US business.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/hamilton-gong-48551042",
+   "title": "Hamilton Gong - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.iconbydesign.com.au/pages/showrooms",
+   "title": "Icon By Design Showrooms",
+   "type": "website",
+   "publisher": "Icon By Design",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.iconbydesign.com.au/pages/brisbane-showroom",
+   "title": "Brisbane Showroom - Icon By Design",
+   "type": "website",
+   "publisher": "Icon By Design",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://milled.com/icon-by-design/brisbane-were-open-n7ipdyxaOrL6lWhN",
+   "title": "Icon By Design: Brisbane, We're Open!",
+   "type": "other",
+   "publisher": "Milled (Icon By Design newsletter)",
+   "date": "2026-10-02"
+  },
+  {
+   "id": "S5",
+   "url": "https://au.linkedin.com/company/icon-by-design",
+   "title": "Icon By Design - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-16"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Hamilton Gong is listed on LinkedIn as the current Accountant and business systems leader at Icon By Design, since September 2017.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Accountant and business systems leader - Icon By Design (Current) Sep 2017 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Icon By Design has showrooms in Sydney (Kensington), Melbourne (Richmond) and Brisbane (Fortitude Valley).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Icon By Design Sydney Supa Centa Moore Park, 2A Todman Avenue Kensington, NSW",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Hamilton's role covers accounting, reporting, system integration, data analysis, procurement and business insights.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Accountant and business system leader, reporting, system integration, data analyst, procurement and business insights.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Hamilton describes himself as a full-time accountant and system administrator who occasionally codes to enhance business system performance.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Occasionally do coding to enhance business system performance. Data nerd.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In September 2026 Icon By Design announced it was hiring a Store Manager for a new Brisbane store.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "we are hiring a Store Manager for our new store in Brisbane.",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In an October 2026 newsletter Icon By Design said its new Fortitude Valley Brisbane store was officially open.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Our new Fortitude Valley store is officially open.",
+   "date": "2026-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Founder David Light called opening in Brisbane an exciting milestone for the company.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Opening in Brisbane is an exciting milestone for Icon By Design.",
+   "date": "2026-10",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "All online orders ship from the company's warehouse in Prestons NSW.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "All orders are shipped from our warehouse in Prestons, NSW with regular shipments to distribution centres around the country.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "LinkedIn says Icon By Design's workforce is distributed across Australia and the United States.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Its workforce is distributed across Australia and United States.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Hamilton Gong",
+   "title": "Accountant & Business Systems Lead",
+   "contactId": "icon-by-design--hamilton-gong",
+   "linkedin": "https://www.linkedin.com/in/hamilton-gong-48551042",
+   "claimIds": [
+    "C1",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Brisbane showroom opened Oct 2026: a third store's takings and deposits join the close for a one-person finance function.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C2"
+   ]
+  },
+  {
+   "text": "Hamilton owns both accounting and systems integration and likes coding, so a systems-minded pitch (traceable, no guessing) suits him.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Single finance person who also owns systems; limited bandwidth and possible tool-evaluation caution.",
+   "claimIds": [
+    "C1",
+    "C3"
+   ]
+  },
+  {
+   "text": "Account record cites US showroom and 200% growth from a SmartCompany piece that I did not fetch; not cited.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No evidence of accounting stack (Xero, Shopify) from sources read.",
+  "SmartCompany growth article and Los Angeles showroom not verified.",
+  "No posts by Hamilton found."
+ ],
+ "searches": [
+  {
+   "query": "Icon By Design furniture Brisbane store Hamilton Gong",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "icon-by-design--hamilton-gong",
+   "subject": "Month-end at Icon By Design",
+   "claimIds": [
+    "C1",
+    "C4",
+    "C6",
+    "C2"
+   ],
+   "body": "Hi Hamilton,\n\nNoticed you run accounting and business systems at Icon By Design and still code to improve system performance. With Brisbane now open alongside the Sydney and Melbourne showrooms, I expect showroom and online takings keep your close busy. I'm Dawoud, founder of Vert, which helps finance teams reconcile and cash code 2x faster with a traceable audit trail. How much of your month-end goes on reconciling today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "icon-by-design--hamilton-gong",
+   "subject": "Re: Month-end at Icon By Design",
+   "claimIds": [
+    "C3",
+    "C4"
+   ],
+   "body": "Hi Hamilton,\n\nFollowing up on my earlier note. Since you cover reporting, system integration and procurement as well as the accounts, reconciling is probably the first thing to get squeezed. Vert takes it off your plate, shows how every match was made and does not guess. Would a 10 min walkthrough this week be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "icon-by-design--hamilton-gong",
+   "subject": "Re: Month-end at Icon By Design",
+   "claimIds": [
+    "C5",
+    "C6"
+   ],
+   "body": "Hi Hamilton,\n\nLast nudge. A new Brisbane store, opened this October, means another set of takings and deposits to reconcile each month. If saving that time is worth 10 mins, tell me and I will show you. If not, no worries.\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

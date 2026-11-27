@@ -1,0 +1,310 @@
+{
+ "accountId": "ufinancial-accounting-tax",
+ "accountName": "UFinancial Accounting & Tax",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "UFinancial Accounting & Tax is the accounting arm of UFinancial, a Melbourne group at 580 St Kilda Rd that is mainly mortgage broking and financial planning with property advisory and accounting alongside. Nathan Romeo leads accounting and tax, is a Xero Certified Advisor, and published a tax article in October 2026 plus a property CGT explainer in September 2026. The firm lists a Senior Accountant opening and its accounting team is small, around seven people on the site.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://ufinancialaccountingtax.com.au/",
+   "title": "Accounting - UFINANCIAL",
+   "type": "website",
+   "publisher": "UFinancial",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://ufinancialaccountingtax.com.au/about-us/",
+   "title": "About Us - UFINANCIAL",
+   "type": "website",
+   "publisher": "UFinancial",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/nathan-romeo-849a1163",
+   "title": "Nathan Romeo - Director, Accounting & Tax at UFinancial | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S4",
+   "url": "https://ufinancial.com.au/when-does-extra-income-become-taxable-income/",
+   "title": "When does extra income count as taxable income in Australia?",
+   "type": "blog",
+   "publisher": "UFinancial",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/ufinancial_ufinancial-accounting-taxtips-activity-7507623955755712513-T-5H",
+   "title": "Same property. Same sale price. Different tax outcome.",
+   "type": "linkedin",
+   "publisher": "UFinancial on LinkedIn",
+   "date": "2026-09-21"
+  },
+  {
+   "id": "S6",
+   "url": "https://ufinancialaccountingtax.com.au/jointheteam/",
+   "title": "Join Our Team - UFINANCIAL",
+   "type": "job",
+   "publisher": "UFinancial",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/company/ufinancial",
+   "title": "UFinancial | LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://wealthhubaustralia.com.au/licensing-and-accreditation/",
+   "title": "Licensing and Accreditation | Wealth Hub Australia",
+   "type": "directory",
+   "publisher": "Wealth Hub Australia",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "UFinancial's accounting site lists its office at Level 4, 580 St Kilda Rd, Melbourne, matching the firm on record.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 4, 580 St Kilda Rd, Melbourne, VIC 3004",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Nathan Romeo is Director - Accounting & Tax at UFinancial, current since November 2022, and is named Director of Accounting and Taxation Services on the firm's About page.",
+   "sourceIds": [
+    "S3",
+    "S2"
+   ],
+   "quote": "Director - Accounting & Tax - UFinancial (Current) Nov 2022 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "The business registered as UFinancial Accounting & Tax is operated by NVESTED Group Pty Ltd, with Nathan Romeo listed as director and tax practitioner.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Directors: Nathan Romeo Tax Practitioner's Registration Number: 25967576",
+   "date": null,
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "UFinancial describes a diversified full-service model covering mortgage broking, financial planning, business and property advisory, and accounting.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "UFinancial offers a diversified, full-service business model that supports you throughout all your important financial decisions.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Nathan's LinkedIn lists him as a Xero Certified Advisor, a Chartered Accountants ANZ member and an authorised credit representative.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Xero Certified Advisor",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "On 15 October 2026 Nathan published an article on when side-hustle and online-selling income becomes taxable, citing the expanded Sharing Economy Reporting Regime.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "extra income can be taxable from the first dollar you earn. There is no separate tax-free allowance for side hustles.",
+   "date": "2026-10-15",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In September 2026 UFinancial posted on LinkedIn that it asked Nathan to walk through the capital gains tax changes for investment property from 1 July 2027.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We asked Nathan Romeo, our Director of Accounting & Tax Advisory, to walk through the misconceptions, the risks and the opportunities property investors should understand",
+   "date": "2026-09",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "A client testimonial on the accounting site says Nathan helped build their online business to record growth and understands the day-to-day running of the business.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Nathan's proactive advice, has helped give us the confidence to build our online business to record growth for this FY.",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "The accounting team on the site is Nathan, an assistant manager, two senior accountants, two accountants and admin support.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Nathan Romeo Accounting and Taxation Services Director Raj Sran Assistant Manager Jack Dariol Senior Accountant",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "UFinancial's Join Our Team page lists a Senior Accountant opening alongside mortgage and planning roles.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "We're an innovative and forward-thinking Mortgage Broking, Financial Planning, Property Advisory and Accounting company.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn shows UFinancial growing quickly, at 53 people with 14 more than a year earlier, and lists Xero and MYOB in its tech stack.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "UFinancial employs 53 people (+25.5% YoY, +14 people), founded in 2008.",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Nathan Romeo",
+   "title": "Director - Accounting & Tax",
+   "contactId": "ufinancial-accounting-tax--nathan-romeo",
+   "linkedin": "https://www.linkedin.com/in/nathan-romeo-849a1163",
+   "claimIds": [
+    "C2",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Nathan's October 2026 article on side-hustle and online-selling income shows his client base includes platform sellers and online businesses with high transaction counts.",
+   "claimIds": [
+    "C6",
+    "C8"
+   ]
+  },
+  {
+   "text": "Small accounting team (about seven) inside a much larger mortgage and planning group, with a Senior Accountant opening: capacity is tight, so time back from reconciliation matters.",
+   "claimIds": [
+    "C9",
+    "C10",
+    "C4"
+   ]
+  },
+  {
+   "text": "Xero Certified Advisor, so a Xero-native pitch lands without explanation.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Accounting is a sub-division of a mortgage-led group; the tooling decision may sit with group leadership rather than Nathan.",
+   "claimIds": [
+    "C4",
+    "C9"
+   ]
+  },
+  {
+   "text": "Headcounts conflict: LinkedIn says 53 people while the About page claims 145+ employees across 8 national offices; the accounting team itself is only about seven.",
+   "claimIds": [
+    "C9",
+    "C11"
+   ]
+  },
+  {
+   "text": "Nathan holds a second directorship (NVESTED Group, which holds the UFinancial Accounting & Tax business name), so he is the owner-operator of this practice and likely time-poor.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, YouTube, Facebook or Instagram content found for Nathan or the accounting arm.",
+  "No Dext, Hubdoc or reconciliation-tool mentions found.",
+  "The Senior Accountant opening has no job description page, so duties are unknown.",
+  "The About page employee count (145+) could not be reconciled with LinkedIn; it was not used as a claim."
+ ],
+ "searches": [
+  {
+   "query": "fetch ufinancialaccountingtax.com.au home and about-us",
+   "results": 2
+  },
+  {
+   "query": "Nathan Romeo UFinancial Accounting & Tax director St Kilda Road",
+   "results": 9
+  },
+  {
+   "query": "fetch UFinancial blog article, LinkedIn post and author page",
+   "results": 3
+  },
+  {
+   "query": "UFinancial accounting job Melbourne St Kilda Road accountant Xero hiring",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "ufinancial-accounting-tax--nathan-romeo",
+   "subject": "Online-business bookkeeping at UFinancial",
+   "body": "Hi Nathan,\n\nYour October article on when side-hustle income becomes taxable caught my eye, and a client testimonial on your site mentions you helping build an online business to record growth. Those clients tend to bring a lot of platform and bank transactions to code. I built Vert to turn hours of manual reconciliation into minutes, with a traceable match behind every line, and it works with Xero, which I see you're certified in. How much of your accounting team's month goes on reconciling before the advice starts?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C8",
+    "C5"
+   ]
+  },
+  "followUp": {
+   "contactId": "ufinancial-accounting-tax--nathan-romeo",
+   "subject": "Re: Online-business bookkeeping at UFinancial",
+   "body": "Hi Nathan,\n\nFollowing up on my note last week. I saw a Senior Accountant role on your Join Our Team page, and your accounting team sits inside a much bigger broking and planning group. When capacity is tight, does reconciliation fall to your seniors before they get to tax planning? Happy to show Vert in 10 min.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C4"
+   ]
+  },
+  "followUp2": {
+   "contactId": "ufinancial-accounting-tax--nathan-romeo",
+   "subject": "Re: Online-business bookkeeping at UFinancial",
+   "body": "Hi Nathan,\n\nLast note from me. Your September post on the property capital gains changes suggests plenty of advice work ahead of the July 2027 start. Vert could take reconciliation off your small accounting team so that time goes there. Worth a 10 min look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C9"
+   ]
+  }
+ }
+}

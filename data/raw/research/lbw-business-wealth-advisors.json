@@ -1,0 +1,377 @@
+{
+ "accountId": "lbw-business-wealth-advisors",
+ "accountName": "LBW Business + Wealth Advisors",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "LBW Business + Wealth Advisors is a Geelong West accounting, audit and wealth firm with a Melbourne CBD office, led by Principals including Simon Flowers and Leigh Harry. It is growing and recruiting graduates whose duties include bank, debtor and creditor reconciliations across Xero, MYOB and QuickBooks files. Simon mentors younger accountants and chairs the National CPA Public Practice Committee.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://lbwca.com.au/simon-flowers/",
+   "title": "Simon Flowers - LBW Business + Wealth Advisors",
+   "type": "website",
+   "publisher": "LBW",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/simon-flowers-1590156",
+   "title": "Simon Flowers | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.jobstralia.com/detail/8/0765ac1fc9bef9a70bbe1186e9088f48",
+   "title": "Graduate accountant - Geelong - LBW Business + Wealth Advisors",
+   "type": "job",
+   "publisher": "Jobstralia",
+   "date": "2026-08-13"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/lbw-accountants",
+   "title": "LBW Business + Wealth Advisors | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://au.linkedin.com/company/lbw-accountants",
+   "title": "LBW Business + Wealth Advisors - Employees, Jobs | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://lbwca.com.au/is-your-business-financially-ready-for-2027/",
+   "title": "Is Your Business Financially Ready for 2027?",
+   "type": "blog",
+   "publisher": "LBW",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/lbw-accountants_activity-7401454597141422080-9V2b",
+   "title": "LBW reshared Geelong Chamber of Commerce: Welcoming a New Life Member: Simon Flowers",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-12-02"
+  },
+  {
+   "id": "S8",
+   "url": "https://lbwca.com.au/leigh-harry/",
+   "title": "Leigh Harry - LBW Business + Wealth Advisors",
+   "type": "website",
+   "publisher": "LBW",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://geelongindy.com.au/in-business/07-05-2021/managing-the-wealthof-business-awards/",
+   "title": "Managing the wealth of business awards",
+   "type": "news",
+   "publisher": "Geelong Independent",
+   "date": "2021-05-07"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "LBW's own site (lbwca.com.au) lists a Geelong West office at 35-37 Gordon Avenue and a Melbourne office at Level 3, 365 Little Collins Street.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Geelong Office 35-37 Gordon Avenue Geelong West VIC 3218",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Simon Flowers is a Principal of LBW and lists himself on LinkedIn as current Owner of LBW Business + Wealth Advisors.",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "Simon Flowers is a Principal at LBW Business + Wealth Advisors with extensive experience",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Leigh Harry is a Principal at LBW with more than 30 years of experience.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Leigh Harry is a Principal at LBW Business + Wealth Advisors with more than 30 years of experience",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Simon Flowers enjoys mentoring the next generation of advisers at LBW.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "He also enjoys mentoring the next generation of advisers, supporting the growth and development of LBW’s team.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Simon Flowers is currently Chair of the National CPA Public Practice Committee.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "is currently Chair of the National CPA Public Practice Committee.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The Geelong Chamber of Commerce inducted Simon Flowers as a Life Member in late 2025 after 17 years supporting the Geelong Business Excellence Awards.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "we inducted Simon Flowers as a Life Member of the Geelong Chamber of Commerce",
+   "date": "2025-11",
+   "category": "personal",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "LBW advertised a Graduate Accountant role in Geelong West on 13 August 2026 for its growing Business and Tax team.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "LBW Business + Wealth Advisors is seeking a Graduate Accountant to join our growing Business and Tax team.",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The graduate role involves processing client data from Xero, MYOB, QuickBooks and other accounting systems.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Processing client data from Xero, MYOB, QuickBooks and other accounting systems",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The graduate role includes performing bank reconciliations and debtor and creditor reconciliations.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Performing bank reconciliations, debtor and creditor reconciliations",
+   "date": "2026-08",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "LinkedIn data shows LBW employing 44 people, up 8.9% year on year.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "LBW Business + Wealth Advisors employs 44 people (+8.9% YoY, +4 people).",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "LBW published an article on 13 Nov 2026 titled 'Is Your Business Financially Ready for 2027?' telling owners to review budget versus actual performance and cash flow.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Being financially ready for 2027 isn't simply about having your books up to date.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "The same article warns that a profitable business can still face cash flow pressure over the Christmas and summer period.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "A profitable business can still experience cash flow pressure, and the Christmas and summer period can make this particularly noticeable.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "LBW provides business advisory, taxation, audit, superannuation and financial planning.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We provide a comprehensive range of services including business advisory, taxation, audit, superannuation and financial planning.",
+   "date": "2026-08",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C14",
+   "text": "LinkedIn lists MYOB, AMP and Xero as LBW's tech stack.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Tech Stack: myob, amp, xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C15",
+   "text": "The Geelong Independent described LBW in 2021 as Geelong's largest locally owned accounting practice for 30-plus years.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Geelong’s largest locally owned accounting practice for 30-plus years.",
+   "date": "2021-05",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Simon Flowers",
+   "title": "Owner / Principal",
+   "contactId": "lbw-business-wealth-advisors--simon-flowers",
+   "linkedin": "https://www.linkedin.com/in/simon-flowers-1590156",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "name": "Leigh Harry",
+   "title": "Principal",
+   "contactId": "lbw-business-wealth-advisors--leigh-harry",
+   "linkedin": "https://www.linkedin.com/in/leigh-harry-35934b38",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Graduate accountant ad lists bank, debtor and creditor reconciliations across Xero, MYOB and QuickBooks, and Simon cares about developing younger accountants: automation lets graduates reach advisory work sooner.",
+   "claimIds": [
+    "C7",
+    "C8",
+    "C9",
+    "C4"
+   ]
+  },
+  {
+   "text": "LBW's November 2026 client article on cash flow and budget versus actual relies on books being reconciled early.",
+   "claimIds": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "text": "Firm is growing (LinkedIn +8.9%) across Geelong and Melbourne offices.",
+   "claimIds": [
+    "C10",
+    "C1"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Compliance, audit and wealth-led firm; no explicit bookkeeping or CFO offering seen, so fit is moderate to weak.",
+   "claimIds": [
+    "C13"
+   ]
+  },
+  {
+   "text": "Simon's recent public profile is about community leadership and CPA committee work, not technology or automation.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Headcount sources conflict (LinkedIn 44 employees versus older job ads saying over 70 staff).",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video, Facebook or Instagram content found for Simon Flowers or Leigh Harry.",
+  "No statement found from LBW on AI or automation tools; tech stack inferred only from job ad and LinkedIn summary.",
+  "No named reconciliation or practice-management tools (Karbon, Dext etc.) found.",
+  "No LBW news coverage from 2025-2026 found beyond LinkedIn and own blog."
+ ],
+ "searches": [
+  {
+   "query": "LBW Business + Wealth Advisors Geelong Simon Flowers",
+   "results": 10
+  },
+  {
+   "query": "site:lbwca.com.au news insights blog",
+   "results": 10
+  },
+  {
+   "query": "Simon Flowers LBW Chartered Accountants linkedin",
+   "results": 8
+  },
+  {
+   "query": "LBW Business + Wealth Advisors Geelong careers accountant vacancy Xero MYOB",
+   "results": 5
+  },
+  {
+   "query": "Leigh Harry LBW Principal audit Geelong",
+   "results": 4
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "lbw-business-wealth-advisors--simon-flowers",
+   "subject": "Graduates and reconciliations at LBW",
+   "body": "Hi Simon,\n\nLBW's graduate accountant ad lists bank, debtor and creditor reconciliations across Xero, MYOB and QuickBooks files, and your profile says you enjoy mentoring the next generation of advisers. Vert takes that reconciliation grind off junior staff so they reach the advisory work sooner. It reconciles and cash codes with a traceable audit trail, turning hours of manual reconciliation into minutes. With LBW's team growing, how much of a graduate's first year goes on reconciling?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C9",
+    "C4",
+    "C10"
+   ]
+  },
+  "followUp": {
+   "contactId": "lbw-business-wealth-advisors--simon-flowers",
+   "subject": "Re: Graduates and reconciliations at LBW",
+   "body": "Hi Simon,\n\nFollowing up on my note last week. LBW's recent piece on getting financially ready for 2027 tells owners to look at budget versus actual and cash flow, which depends on books being reconciled early. Do clients' books reach your team reconciled, or does that get done in the lead-up to reporting? Happy to show how Vert handles it in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C11",
+    "C12"
+   ]
+  },
+  "followUp2": {
+   "contactId": "lbw-business-wealth-advisors--simon-flowers",
+   "subject": "Re: Graduates and reconciliations at LBW",
+   "body": "Hi Simon,\n\nLast note from me, and congratulations on your Geelong Chamber Life Member induction. With LBW running audit, tax and wealth under one roof, a shared reconciliation process could save every team time. Would 10 minutes to see Vert be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C13"
+   ]
+  }
+ }
+}

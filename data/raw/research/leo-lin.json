@@ -1,0 +1,328 @@
+{
+ "accountId": "leo-lin",
+ "accountName": "LEO LIN",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "LEO LIN is a Sydney women's ready-to-wear label selling across wholesale, ecommerce and retail, with the US its strongest market. In May 2026 CEO Joanne Goldman advertised a Financial Analyst under Head of Finance Carina Huang, whose brief centres on month-end close and reconciling data across accounting, ERP and business systems.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.linkedin.com/posts/joanne-goldman-a962ab6_we-are-looking-for-a-new-role-at-leo-lin-activity-7458390495409475584-UMFU",
+   "title": "Joanne Goldman: We are looking for a new role at LEO LIN: Financial Analyst",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Joanne Goldman)",
+   "date": "2026-05-08"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/carina-huang-8b430375",
+   "title": "Carina Huang LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/leolinofficial",
+   "title": "LEO LIN LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://insideretail.com.au/sectors/fashion-accessories/why-luxury-brand-leo-lin-is-positioned-to-be-australias-next-big-fashion-export-202503",
+   "title": "Why luxury brand Leo Lin is positioned to be Australia's next big fashion export",
+   "type": "news",
+   "publisher": "Inside Retail Australia",
+   "date": "2025-03-04"
+  },
+  {
+   "id": "S5",
+   "url": "https://insideretail.com.au/business/ones-to-watch-2026-to-summer-leo-lin-and-more-202605",
+   "title": "Ones to Watch 2026",
+   "type": "news",
+   "publisher": "Inside Retail Australia",
+   "date": "2026-05-13"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/joanne-goldman-a962ab6_ceo-leadership-luxuryfashion-activity-7490214021497802753-0Gfo",
+   "title": "Joanne Goldman: appointed CEO of LEO LIN",
+   "type": "linkedin",
+   "publisher": "LinkedIn (Joanne Goldman)",
+   "date": "2026-08-04"
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/in/lucas-calopedos",
+   "title": "Lucas Calopedos LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.simplyhired.com.au/job/bxMuOOsEjAOv67uEHTcvBbwcIAR2wjxtgsL4eLc01g26wiMH6dpIYg",
+   "title": "Senior Financial Analyst - Leo Lin Fashion Ltd Pty",
+   "type": "job",
+   "publisher": "SimplyHired",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "LEO LIN is a Sydney-based women's ready-to-wear label, headquartered in Alexandria NSW and founded in 2017.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "LEO LIN is a Sydney-based women’s ready-to-wear label, synonymous with strong femininity, superior craftsmanship, and luxury sensibilities.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Carina Huang is LEO LIN's Head of Finance (current), in the role since August 2025.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Head of Finance (Current) Aug 2025 - Present (1 year and 3 months)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Carina was previously LEO LIN's Head of Finance and Operations from November 2022.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Head of Finance and Operations Nov 2022 - Aug 2025",
+   "date": "2025-08",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In May 2026 CEO Joanne Goldman advertised a Financial Analyst reporting to the Head of Finance, responsible for reconciling data across accounting, ERP and business systems.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Responsible for reconciling financial and operational data across accounting, ERP and business systems to ensure data integrity, timely reporting",
+   "date": "2026-05",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The same role supports month-end close, forecasting, management reporting, variance analysis and audit readiness.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "supporting annual budgeting, monthly and quarterly forecasting, month-end close, management reporting, variance analysis, tax compliance, audit readiness",
+   "date": "2026-05",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "The finance remit spans wholesale, ecommerce, retail and operational functions.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "across wholesale, ecommerce, retail and operational functions",
+   "date": "2026-05",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "LEO LIN credited 225 per cent year-on-year sales growth to its key US retailers, reported in early 2025.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Leo Lin credits its impressive 225 per cent year-on-year sales growth to its key US retailers",
+   "date": "2025-03",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "LEO LIN's head of brand said the US is its strongest market.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "particularly within the US – that’s really our strongest market",
+   "date": "2025-03",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Inside Retail named Leo Lin one of its Ones to Watch 2026, noting it is a contender in the US retail scene.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "also a noteworthy contender in the notoriously fickle American retail scene",
+   "date": "2026-05",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Joanne Goldman became CEO of LEO LIN in 2026, saying the business is focused on accelerating growth across additional international markets.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "the business is now focused on accelerating growth across additional international markets",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Lucas Calopedos joined LEO LIN as a Senior Financial Analyst in June 2026.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Jun 2026 - Present (5 months) in Sydney, State of New South Wales, Australia",
+   "date": "2026-06",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "A Senior Financial Analyst ad for Leo Lin Fashion lists reconciling financial data across multiple platforms and systems and supporting the month-end close.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Reconcile financial data across multiple platforms and systems, identifying discrepancies and ensuring data accuracy.",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Carina Huang",
+   "title": "Head of Finance",
+   "contactId": "leo-lin--carina-huang",
+   "linkedin": "https://linkedin.com/in/carina-huang-8b430375",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Joanne Goldman",
+   "title": "CEO",
+   "contactId": null,
+   "linkedin": "https://linkedin.com/in/joanne-goldman-a962ab6",
+   "claimIds": [
+    "C4",
+    "C10"
+   ]
+  },
+  {
+   "name": "Lucas Calopedos",
+   "title": "Senior Financial Analyst",
+   "contactId": null,
+   "linkedin": "https://linkedin.com/in/lucas-calopedos",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Joanne's May 2026 analyst ad puts reconciling across accounting, ERP and business systems and month-end close at the centre of the finance brief: the work Vert automates.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Wholesale, ecommerce and retail with a US-led growth story means multi-channel settlement matching grows with each new market.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "New CEO focused on international expansion and Ones to Watch 2026 recognition: scale pressure on finance.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "A Senior Financial Analyst appears to have joined in June 2026 and a similar ad is still listed, so the team may be solving reconciling with headcount rather than tooling.",
+   "claimIds": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "text": "New CEO since mid-2026 may reshape priorities and finance systems.",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts by Carina Huang found.",
+  "Accounting/ERP stack (Xero, Shopify, Stripe etc.) not confirmed from a primary source.",
+  "No podcast or Facebook/Instagram finance content found."
+ ],
+ "searches": [
+  {
+   "query": "LEO LIN designer womenswear Joanne Goldman Financial Analyst month-end close hiring",
+   "results": 8
+  },
+  {
+   "query": "Carina Huang Head of Finance LEO LIN",
+   "results": 6
+  },
+  {
+   "query": "LEO LIN 225% global sales growth US largest market Joanne Goldman LinkedIn",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "leo-lin--carina-huang",
+   "subject": "Reconciling at LEO LIN",
+   "body": "Hi Carina, I saw Joanne's May post for a Financial Analyst at LEO LIN, with the job centred on reconciling data across accounting, ERP and business systems, plus month-end close. With wholesale, ecommerce and retail all feeding the ledger and the US your strongest market, that sounds like a lot of matching for a small team. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace. How much of your month-end goes on matching across systems today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "leo-lin--carina-huang",
+   "subject": "Re: Reconciling at LEO LIN",
+   "body": "Hi Carina, following up on my note last week. I see a Senior Financial Analyst joined LEO LIN in June, and Joanne's CEO announcement talks about accelerating growth across additional international markets. More markets usually means more systems to tie back at month-end. Vert could take the matching off your team so they spend their time on analysis. Would a 10 min walkthrough be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C11",
+    "C10",
+    "C2"
+   ]
+  },
+  "followUp2": {
+   "contactId": "leo-lin--carina-huang",
+   "subject": "Re: Reconciling at LEO LIN",
+   "body": "Hi Carina, last nudge from me. Congratulations on LEO LIN making Inside Retail's Ones to Watch 2026 list. Growth like that tends to land on the finance team at month-end. If reconciling is on your list for the new year, I'd be glad to show you Vert in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C2"
+   ]
+  }
+ }
+}

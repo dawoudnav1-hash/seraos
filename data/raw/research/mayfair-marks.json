@@ -1,0 +1,246 @@
+{
+ "accountId": "mayfair-marks",
+ "accountName": "Mayfair Marks",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Mayfair Marks is a boutique tax and advisory firm in Surry Hills, Sydney, with about 7 staff, offering bookkeeping, tax planning, SMSF, business advisory and Virtual CFO services. Founder and Director Spiro Markopoulos previously built MPK Accountants into a firm of over 5000 clients. Spiro has been emailed twice already (16 and 23 Nov 2026), so this follow-up takes a new angle.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://mayfairmarks.com.au/",
+   "title": "Business Advisors and Tax Specialists | Mayfair Marks",
+   "type": "website",
+   "publisher": "Mayfair Marks",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://mayfairmarks.com.au/industry-leading-services/",
+   "title": "Industry Leading Services | Mayfair Marks",
+   "type": "website",
+   "publisher": "Mayfair Marks",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/spiro-markopoulos-32810a79",
+   "title": "Spiro Markopoulos - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/mayfair-marks",
+   "title": "Mayfair Marks - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/spiro-markopoulos-32810a79_boutiqueaccounting-mayfairmarks-awardtime-activity-6967944804685012992-Ly-r",
+   "title": "Honoured To Be Nominated For Practice Of The Year 2022",
+   "type": "linkedin",
+   "publisher": "Spiro Markopoulos",
+   "date": "2022-08-23"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Mayfair Marks is a boutique tax and advisory firm headquartered in Surry Hills, NSW, with 7 people and 12.5% YoY growth on LinkedIn.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Mayfair Marks employs 7 people (+12.5% YoY, +1 person). Headquartered in Surry Hills, New South Wales, Australia.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Spiro Markopoulos is Director and Founder of Mayfair Marks, current on LinkedIn since 2018 (checked Nov 2026).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director and Founder - Mayfair Marks (Current) Jan 2018 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Before Mayfair Marks, Spiro was Managing Partner of MPK Accountants, built from scratch to over 5000 clients from referrals.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "A firm that was built by 4 partners from ground zero to in excess of 5000 clients from referrals fuelled by reputation.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Spiro says his role centres on nurturing client relationships and personalised mentoring, enabling client growth and scalability.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The goal has always been to enable growth and scalability, and our successful track record is reflected in the enduring partnerships we've built",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Mayfair Marks lists bookkeeping, SMSF, tax planning, business advisory, business mentoring and Virtual CFO services.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Bookkeeping Asset Protection Self Managed Superannuation Fund Tax Planning Business Advisory Business Set Up / Restructure Business Mentoring Virtual CFO Services",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Its bookkeeping service focuses on accuracy and currency so clients know how their business is doing.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We focus on accuracy and currency to allow our clients to know how their business is doing and where attention is required.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Mayfair Marks says behind every set of numbers there is a story, and frames its work as numbers and narrative.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "behind every set of numbers, there is a story, and every story is unique.",
+   "date": null,
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Spiro was nominated for Practice of the Year in 2022 for Mayfair Marks (Mayfair Custodian Pty Ltd).",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Honoured To Be Nominated For Practice Of The Year 2022",
+   "date": "2022-08",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Mayfair Marks describes a progressive and creative approach and says it is not like most accountants.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "we simply are not most accountants",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Spiro Markopoulos",
+   "title": "Director and Founder",
+   "contactId": "mayfair-marks--spiro-markopoulos",
+   "linkedin": "https://www.linkedin.com/in/spiro-markopoulos-32810a79",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Christopher Prasetijo",
+   "title": "Partner",
+   "contactId": "mayfair-marks--christopher-prasetijo",
+   "linkedin": "https://www.linkedin.com/in/christopher-prasetijo-26b033228",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Spiro scaled MPK to over 5000 clients; he knows how reconciliation load grows with client count and wants scalability for Mayfair Marks clients.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Numbers-and-narrative positioning plus Virtual CFO work: faster reconciliation gets to the story sooner (inference).",
+   "claimIds": [
+    "C7",
+    "C5"
+   ]
+  },
+  {
+   "text": "Bookkeeping promise of accuracy and currency maps directly to Vert's traceable reconciliation.",
+   "claimIds": [
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Two emails already sent (16 and 23 Nov); a third touch risks looking pushy, so keep it brief and offer an easy out.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Small team (7) with broad tax, SMSF and advisory mix; bookkeeping volume unknown.",
+   "claimIds": [
+    "C1",
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent (2025-2026) posts by Spiro or the firm found beyond profile data.",
+  "No job ads, podcast or video found.",
+  "Tech stack (Xero/MYOB/Dext) not confirmed.",
+  "Content of the earlier emails was not available."
+ ],
+ "searches": [
+  {
+   "query": "site:mayfairmarks.com.au home, services",
+   "results": 3
+  },
+  {
+   "query": "Spiro Markopoulos Mayfair Marks Surry Hills founder director",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "mayfair-marks--spiro-markopoulos",
+   "subject": "Re: Quick chat, Spiro?",
+   "body": "Hi Spiro,\n\nOne more thought after my earlier notes. Your site says behind every set of numbers there is a story, and getting to it faster depends on reconciled books. You grew MPK to over 5000 clients, so you know how reconciliation scales with client count. Vert turns it into minutes with an audit trail. Would a 10 min walkthrough fit this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "mayfair-marks--spiro-markopoulos",
+   "subject": "Re: Quick chat, Spiro?",
+   "body": "Hi Spiro,\n\nFinal note. Your bookkeeping promise is accuracy and currency, and you want clients to scale. Vert helps keep that promise as client numbers grow, with traceable matching. Happy to show you in 10 min, or I'll leave it with you.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C4"
+   ]
+  }
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "accountId": "liston-newton-advisory",
+ "accountName": "Liston Newton Advisory",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Liston Newton Advisory is a roughly 50-year-old Victorian accounting and advisory firm with offices in South Melbourne, Melbourne, Malvern and elsewhere. Group CEO Peter Antonius is leading a growth and technology transformation, including a Philippines-based support team and a newly hired AI engineer, after a management buyout in 2025.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.nab.com.au/business/insights/professional-services/how-this-accounting-firm-plans-to-grow-revenue-by-70",
+   "title": "How this accounting firm plans to grow revenue by 70%",
+   "type": "news",
+   "publisher": "NAB",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.inject.com.au/podcast/leading-through-growth-building-the-firm-of-the-future/",
+   "title": "Leading Through Growth: Building the Firm of the Future",
+   "type": "podcast",
+   "publisher": "Lead to Grow (Inject)",
+   "date": "2026-06-24"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.listonnewton.com.au/team/peter-antonius",
+   "title": "Peter Antonius team page",
+   "type": "website",
+   "publisher": "Liston Newton Advisory",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/peterantonius",
+   "title": "Peter Antonius LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.listonnewton.com.au/",
+   "title": "Liston Newton Advisory home",
+   "type": "website",
+   "publisher": "Liston Newton Advisory",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.listonnewton.com.au/south-melbourne",
+   "title": "Accountant South Melbourne",
+   "type": "website",
+   "publisher": "Liston Newton Advisory",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Liston Newton Advisory is an accounting and business advisory firm with offices across NSW, VIC and QLD, including South Melbourne at Level 3/67 Palmerston Crescent.",
+   "sourceIds": [
+    "S5",
+    "S6"
+   ],
+   "quote": "With several offices dotted across Australia, we’ll happily welcome you in for a coffee and a face-to-face meeting.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Peter Antonius is Group CEO of Liston Newton Advisory (current), in the role since May 2022.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Group CEO - Liston Newton Advisory (Current) May 2022 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Peter is a qualified accountant (CPA, CA ANZ) whose role focuses on strategy with the Board and Executive; he says technology is key to high performance teams.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "the experiences of which have highlighted the importance of technology in building high performance teams and organisations",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In a NAB interview (Oct 2026) Peter said the firm recently hired a full-time AI engineer and plans to recruit a second.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "It recently hired a full-time AI engineer and plans to recruit a second.",
+   "date": "2026-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Peter expects AI and automation to be embedded throughout the firm's business systems within the next few years.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Within the next few years, Peter expects AI and automation to be embedded throughout its business systems.",
+   "date": "2026-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Liston Newton established a Philippines-based team of about 20 to support local staff with accounting administration.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "It established a Philippines-based team of about 20 to support local staff with accounting administration.",
+   "date": "2026-10",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm is on track for $9.3 million revenue this year, targeting $16 million by end of 2030, and completed a management buyout in June 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "The firm's growth ambitions were put to the test in June 2025 when the business completed a management buyout",
+   "date": "2026-10",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Peter said the firm needs to bulk up, investing in systems, people and technology, because scale will matter.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We absolutely need to bulk up to thrive, to remain relevant to our clients and invest in systems, people and technology",
+   "date": "2026-10",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Peter appeared on the Lead to Grow podcast in June 2026 about building the firm of the future; the episode describes a top 100 firm, boutique on its way to mid-tier.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "boutique on its way to mid-tier",
+   "date": "2026-06",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Liston Newton's South Melbourne page lists Xero bookkeeping and recordkeeping among its services.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Business Accountants Xero Bookkeeping Taxation Accountancy Tax Compliance",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "The firm targets small to medium businesses turning over between $1 million and $50 million, with divisions in business advisory, bookkeeping, wealth and lending.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "we’ve expanded to better support our target market – small to medium businesses that turn over between $1 to $50 million",
+   "date": "2026-10",
+   "category": "clients",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Peter Antonius",
+   "title": "Group CEO",
+   "contactId": "liston-newton-advisory--peter-antonius",
+   "linkedin": "https://linkedin.com/in/peterantonius",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C9"
+   ]
+  },
+  {
+   "name": "Francis Soale",
+   "title": "Partner",
+   "contactId": "liston-newton-advisory--francis-soale",
+   "linkedin": "https://www.linkedin.com/in/francis-soale-102321133",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Peter publicly said AI and automation will be embedded across the firm's systems and an AI engineer has been hired, so he is receptive to AI tooling for bookkeeping reconciling.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Scaling to mid-tier with a Philippines accounting-admin team means reconciling volume is high and needs traceable controls.",
+   "claimIds": [
+    "C6",
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Xero bookkeeping is a core division across several offices.",
+   "claimIds": [
+    "C10",
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "A full-time AI engineer (and a second planned) means Liston Newton may build its own automation instead of buying.",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "text": "Management buyout in June 2025 and ongoing restructuring may change decision makers.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "Platinum Xero Partner status from CRM not confirmed on a fetched page.",
+  "No recent LinkedIn posts by Peter found beyond profile.",
+  "No job ads checked for bookkeeping roles."
+ ],
+ "searches": [
+  {
+   "query": "Peter Antonius Liston Newton Group CEO",
+   "results": 8
+  },
+  {
+   "query": "fetch listonnewton.com.au home and South Melbourne page",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "liston-newton-advisory--peter-antonius",
+   "subject": "Re: Idea for Liston Newton",
+   "body": "Hi Peter, following up on my note last week. In your NAB interview you said Liston Newton recently hired a full-time AI engineer and expects AI and automation embedded throughout your systems. For Xero bookkeeping and reconciling across your offices, Vert is a ready-made piece of that, with a trail your team can trace. How are you deciding what to build versus buy?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C10"
+   ]
+  },
+  "followUp2": {
+   "contactId": "liston-newton-advisory--peter-antonius",
+   "subject": "Re: Idea for Liston Newton",
+   "body": "Hi Peter, last nudge from me. I enjoyed your Lead to Grow conversation on building the firm of the future. With a Philippines team of about 20 supporting accounting administration, I'd happily show you in 10 minutes how Vert takes reconciling off that queue. No pressure if the timing is off.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C6"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1979 @@
+{
+ "generatedAt": "2026-11-27T00:49:17+00:00",
+ "sources": [
+  {
+   "name": "Hostinger mailbox (work email)",
+   "detail": "All Sent and Inbox messages scanned up to 24 Nov 2026 (02:43 UTC). Sends to prospects are logged; real replies are logged as replies (Bali Body). Out-of-office auto-replies and a bounce are noted on the sent email instead."
+  },
+  {
+   "name": "Gmail (personal)",
+   "detail": "Sent and inbound mail searched against every prospect domain: 6 sent threads matched (one bounced, noted in its snippet). Inbound hits were vendor mail, not replies."
+  },
+  {
+   "name": "LinkedIn notification emails",
+   "detail": "'Accepted your invitation' / message notices matched to prospects by exact full name: 5 accepted, 1 message. Coverage is partial (notices show first names only)."
+  },
+  {
+   "name": "LinkedIn API (Composio)",
+   "detail": "Connected toolkit cannot read conversations, sent invitations or read receipts, so LinkedIn sends/seen are not importable. Log them with the buttons on each contact."
+  },
+  {
+   "name": "Email opens",
+   "detail": "No open-tracking tool found in either mailbox, so 'Seen' for email can only be logged manually."
+  },
+  {
+   "name": "Google Calendar",
+   "detail": "Meetings in the last 120 days with a prospect attendee are logged as meetings (1 found: Relevance AI, 22 Oct)."
+  },
+  {
+   "name": "Apollo.io",
+   "detail": "Checked: no sequences, no linked mailboxes, all-time email stats are zero."
+  },
+  {
+   "name": "Attio",
+   "detail": "Checked: no synced emails or meetings with prospect companies."
+  }
+ ],
+ "events": [
+  {
+   "id": "gmail:19d89a8f6222758b",
+   "date": "2026-04-14T01:44:05Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "gmail",
+   "counterpartyEmails": [
+    "ben@eql.com"
+   ],
+   "subject": "Meeting",
+   "snippet": "Hi Ben, My name is Dawoud — I'm a 20-year-old business and data analysis student with a real passion for finance and startups.",
+   "accountId": "eql"
+  },
+  {
+   "id": "gmail:19d89a98aaee011d",
+   "date": "2026-04-14T01:44:43Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "gmail",
+   "counterpartyEmails": [
+    "geethi@eql.com"
+   ],
+   "subject": "Meeting",
+   "snippet": "Hi Geethi, My name is Dawoud — I'm a 20-year-old business and data analysis student with a real passion for finance and startups.",
+   "accountId": "eql"
+  },
+  {
+   "id": "gmail-linkedin-notification:1a0c24f9d0210033",
+   "date": "2026-09-21T04:53:12Z",
+   "channel": "linkedin",
+   "kind": "connection_accepted",
+   "source": "gmail-linkedin-notification",
+   "counterpartyEmails": [
+    "david.nucifora@emesent.io"
+   ],
+   "personName": "David Nucifora",
+   "subject": "David accepted your invitation, explore their network",
+   "accountId": "emesent",
+   "contactId": "emesent--david-nucifora"
+  },
+  {
+   "id": "gmail:1a0fbd353510132d",
+   "date": "2026-10-02T08:55:25Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "gmail",
+   "counterpartyEmails": [
+    "nigel@stepone.life"
+   ],
+   "subject": "Idea for step one",
+   "snippet": "Hey Nigel hope your doing well. I saw Step One's FY26 result and the focus on cost discipline and cleaning up inventory during the reset.",
+   "accountId": "step-one",
+   "contactId": "step-one--nigel-underwood"
+  },
+  {
+   "id": "gmail:1a0fbdb9eb035a73",
+   "date": "2026-10-02T09:04:29Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "gmail",
+   "counterpartyEmails": [
+    "billy.voss@bassike.com"
+   ],
+   "subject": "Idea for Bassike",
+   "snippet": "Hey Billy, hope you're having a great week. I've been following Bassike's growth and really admire how the brand balances sustainable, local production",
+   "accountId": "bassike",
+   "contactId": "bassike--billy-voss"
+  },
+  {
+   "id": "gmail:1a0fbe42a1378ce5",
+   "date": "2026-10-02T09:13:49Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "gmail",
+   "counterpartyEmails": [
+    "deborah.bernie@bassike.com"
+   ],
+   "subject": "Idea for Bassike",
+   "snippet": "Hey Deborah, hope your having a great day. I know managing inventory, merchant feeds, and month-end close across diverse channels creates substantial overhead",
+   "accountId": "bassike",
+   "contactId": "bassike--deborah-bernie"
+  },
+  {
+   "id": "gmail:1a104aa1ec1b0629",
+   "date": "2026-10-04T02:06:59Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "gmail",
+   "counterpartyEmails": [
+    "immadig@ultraceuticals.com"
+   ],
+   "subject": "Quick question regarding month-end workflows & automation",
+   "snippet": "Hi Dimitri, I came across your profile ... (delivery to this address failed: 550 bounce notification received 2026-10-04T02:07:15Z)",
+   "accountId": "ultraceuticals",
+   "contactId": "ultraceuticals--gangadhar-immadi"
+  },
+  {
+   "id": "gmail-linkedin-notification:1a15e180a58f4d06",
+   "date": "2026-10-21T10:53:14Z",
+   "channel": "linkedin",
+   "kind": "connection_accepted",
+   "source": "gmail-linkedin-notification",
+   "personName": "Kelan Wright",
+   "subject": "Kelan accepted your invitation, explore their network",
+   "accountId": "kindling",
+   "contactId": "kindling--kelan-wright"
+  },
+  {
+   "id": "calendar:37609olcuip0eth3d7jufkqacc",
+   "date": "2026-10-22T02:45:00Z",
+   "channel": "email",
+   "kind": "meeting",
+   "source": "calendar",
+   "counterpartyEmails": [
+    "kevin.jasin@relevanceai.com"
+   ],
+   "personName": "Kevin Jasin",
+   "subject": "Dawoud <> Kevin Jasin",
+   "snippet": "Google Meet 13:45-14:00 AEDT, organizer self; attendee response needsAction; Gemini notes attached",
+   "accountId": "relevance-ai"
+  },
+  {
+   "id": "gmail-linkedin-notification:1a17bb48ac20caef",
+   "date": "2026-10-27T04:53:12Z",
+   "channel": "linkedin",
+   "kind": "connection_accepted",
+   "source": "gmail-linkedin-notification",
+   "personName": "Robinson Lovell",
+   "subject": "Robinson accepted your invitation, explore their network",
+   "accountId": "inskin-cosmedics",
+   "contactId": "inskin-cosmedics--robinson-lovell"
+  },
+  {
+   "id": "gmail-linkedin-notification:1a19b0892ed99d79",
+   "date": "2026-11-02T06:53:12Z",
+   "channel": "linkedin",
+   "kind": "connection_accepted",
+   "source": "gmail-linkedin-notification",
+   "personName": "Tina Grieve, CA",
+   "subject": "Tina accepted your invitation, explore their network",
+   "accountId": "cooee-foods",
+   "contactId": "cooee-foods--tina-grieve"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:8",
+   "date": "2026-11-16T06:38:40Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "rk@rbizz.com.au"
+   ],
+   "subject": "Less reconciling, more CFO work at RBizz",
+   "accountId": "rbizz-corporate-accountants",
+   "contactId": "rbizz-corporate-accountants--raj-kumar"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:9",
+   "date": "2026-11-16T06:38:41Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "thomas@infinity22.co"
+   ],
+   "subject": "Payout reconciliation at Infinity22",
+   "accountId": "infinity22",
+   "contactId": "infinity22--thomas-sparks"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:10",
+   "date": "2026-11-16T06:39:21Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "kelly@q4financial.com.au"
+   ],
+   "subject": "Cash coding at q4",
+   "accountId": "q4-financial",
+   "contactId": "q4-financial--kelly-hill"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:12",
+   "date": "2026-11-16T06:39:22Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "rob@dhm-partners.com.au"
+   ],
+   "subject": "Less reconciling, more CFO work at DHM",
+   "accountId": "dhm-partners",
+   "contactId": "dhm-partners--rob-mcgauchie"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:13",
+   "date": "2026-11-16T06:39:31Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "rob.deayton@rogersonkenny.com.au"
+   ],
+   "subject": "Less reconciling, more CFO work at Rogerson Kenny",
+   "accountId": "rogerson-kenny-business-accountants",
+   "contactId": "rogerson-kenny-business-accountants--rob-deayton"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:15",
+   "date": "2026-11-16T06:39:33Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "salim@prestigeca.com.au"
+   ],
+   "subject": "Less reconciling, more CFO work at Prestige Partners",
+   "accountId": "prestige-partners-chartered-accountants",
+   "contactId": "prestige-partners-chartered-accountants--salim-pradhan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:14",
+   "date": "2026-11-16T06:39:33Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "david@omniabs.com.au"
+   ],
+   "subject": "Payout reconciliation at Omnia",
+   "accountId": "omnia-business-solutions",
+   "contactId": "omnia-business-solutions--david-gava"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:18",
+   "date": "2026-11-16T06:39:43Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "kyelie@iqaccountants.com.au"
+   ],
+   "subject": "Payout reconciliation at IQ Accountants",
+   "accountId": "iq-accountants",
+   "contactId": "iq-accountants--kyelie-baxter"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:17",
+   "date": "2026-11-16T06:39:43Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "b.conn@businessdepot.com.au"
+   ],
+   "subject": "Reconciliation at businessDEPOT",
+   "accountId": "businessdepot",
+   "contactId": "businessdepot--bradley-conn"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:16",
+   "date": "2026-11-16T06:39:43Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "matthew.bramhall@mgijd.com.au"
+   ],
+   "subject": "Less reconciling, more CFO work at MGI Joyce Dickson",
+   "accountId": "mgi-joyce-dickson",
+   "contactId": "mgi-joyce-dickson--matthew-bramhall"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:20",
+   "date": "2026-11-16T06:39:53Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "jc@endurego.com"
+   ],
+   "subject": "Less reconciling, more CFO work at EndureGo",
+   "accountId": "endurego-tax",
+   "contactId": "endurego-tax--john-cheng"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:23",
+   "date": "2026-11-16T06:40:03Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "aloveridge@dawson.com.au"
+   ],
+   "subject": "Cash coding at Dawson",
+   "accountId": "dawson-group",
+   "contactId": "dawson-group--andrew-loveridge"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:24",
+   "date": "2026-11-16T06:40:04Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "reuben@new-wave.com.au"
+   ],
+   "subject": "Payout reconciliation at New Wave",
+   "accountId": "new-wave-accountants-business-advisory",
+   "contactId": "new-wave-accountants-business-advisory--reuben-bergola"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:27",
+   "date": "2026-11-16T06:40:15Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "spirom@mayfairmarks.com.au"
+   ],
+   "subject": "Less reconciling, more CFO work at Mayfair Marks",
+   "accountId": "mayfair-marks",
+   "contactId": "mayfair-marks--spiro-markopoulos"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:26",
+   "date": "2026-11-16T06:40:15Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "dev@credibleaccounting.com.au"
+   ],
+   "subject": "Less reconciling, more CFO work at Credible",
+   "accountId": "credible-accounting",
+   "contactId": "credible-accounting--dev-punjani"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:25",
+   "date": "2026-11-16T06:40:15Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "bryn@hellocfo.com.au"
+   ],
+   "subject": "Less reconciling, more CFO work at HelloCFO",
+   "accountId": "gridsight",
+   "contactId": "gridsight--bryn-leggett"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:29",
+   "date": "2026-11-16T06:40:28Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "adamd@byrons.com.au"
+   ],
+   "subject": "Reconciliation at BYRONS",
+   "accountId": "byrons",
+   "contactId": "byrons--adam-dyson"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:30",
+   "date": "2026-11-16T06:40:35Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "carlia@highview.com.au"
+   ],
+   "subject": "Reconciliation at Highview",
+   "accountId": "highview-accounting-financial",
+   "contactId": "highview-accounting-financial--carlia-morgan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:32",
+   "date": "2026-11-16T06:40:47Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "dinesh@fortunaadvisors.com.au"
+   ],
+   "subject": "Cash coding at Fortuna",
+   "accountId": "fortuna-advisory-group",
+   "contactId": "fortuna-advisory-group--dinesh-aggarwal"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:33",
+   "date": "2026-11-16T06:40:48Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "geofft@esvgroup.com.au"
+   ],
+   "subject": "Reconciliation at ESV",
+   "accountId": "esv-business-advice-and-accounting",
+   "contactId": "esv-business-advice-and-accounting--geoff-tierney"
+  },
+  {
+   "id": "gmail-linkedin-notification:1a1ed6e5825d3449",
+   "date": "2026-11-18T06:53:13Z",
+   "channel": "linkedin",
+   "kind": "connection_accepted",
+   "source": "gmail-linkedin-notification",
+   "counterpartyEmails": [
+    "scott@abbotts.net.au"
+   ],
+   "personName": "Scott Reid",
+   "subject": "Scott accepted your invitation, explore their network",
+   "accountId": "abbotts-group",
+   "contactId": "abbotts-group--scott-reid"
+  },
+  {
+   "id": "gmail-linkedin-notification:1a202d2efb7a477a",
+   "date": "2026-11-22T10:35:07Z",
+   "channel": "linkedin",
+   "kind": "reply",
+   "source": "gmail-linkedin-notification",
+   "counterpartyEmails": [
+    "gabrielle@intrepidadvisory.com.au"
+   ],
+   "personName": "Gabrielle Edmonds",
+   "subject": "Gabrielle just messaged you",
+   "accountId": "intrepid-advisory",
+   "contactId": "intrepid-advisory--gabrielle-edmonds"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:38",
+   "date": "2026-11-23T06:23:36Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "aahmad@hallchadwick.com.au"
+   ],
+   "subject": "Quick chat, Abeed?",
+   "accountId": "hall-chadwick-nsw",
+   "contactId": "hall-chadwick-nsw--abeed-ahmad"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:39",
+   "date": "2026-11-23T06:26:53Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ALing@hallchadwickmelb.com.au"
+   ],
+   "subject": "Quick chat, Alan?",
+   "accountId": "hall-chadwick-melbourne",
+   "contactId": "hall-chadwick-melbourne--alan-ling"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:40",
+   "date": "2026-11-23T06:40:47Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "chrism@marinaccountants.com.au"
+   ],
+   "subject": "Quick chat, Chris?",
+   "accountId": "marin-accountants",
+   "contactId": "marin-accountants--chris-maher"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:41",
+   "date": "2026-11-23T06:40:47Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "arthurt@marinaccountants.com.au"
+   ],
+   "subject": "Quick chat, Arthur?",
+   "accountId": "marin-accountants",
+   "contactId": "marin-accountants--arthur-topalidis"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:42",
+   "date": "2026-11-23T06:40:48Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "travis@mvabennett.com.au"
+   ],
+   "subject": "Quick chat, Travis?",
+   "accountId": "mva-bennett",
+   "contactId": "mva-bennett--travis-fegan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:43",
+   "date": "2026-11-23T06:40:48Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "chris@mvabennett.com.au"
+   ],
+   "subject": "Quick chat, Chris?",
+   "accountId": "mva-bennett",
+   "contactId": "mva-bennett--chris-hall"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:44",
+   "date": "2026-11-23T06:40:48Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "danield@marinaccountants.com.au"
+   ],
+   "subject": "Quick chat, Daniel?",
+   "accountId": "marin-accountants",
+   "contactId": "marin-accountants--daniel-deutsch"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:45",
+   "date": "2026-11-23T06:40:49Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "mphelan@wwadvantage.com.au"
+   ],
+   "subject": "Quick chat, Martin?",
+   "accountId": "walker-wayland-advantage",
+   "contactId": "walker-wayland-advantage--martin-phelan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:48",
+   "date": "2026-11-23T06:40:51Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "joshua.laing@rundles.com.au"
+   ],
+   "subject": "Quick chat, Josh?",
+   "accountId": "rundles",
+   "contactId": "rundles--josh-laing"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:49",
+   "date": "2026-11-23T06:40:51Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "roger@larkinpartners.com.au"
+   ],
+   "subject": "Quick chat, Roger?",
+   "accountId": "larkin-partners",
+   "contactId": "larkin-partners--roger-larkin"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:50",
+   "date": "2026-11-23T06:40:51Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "harry@lgy.com.au"
+   ],
+   "subject": "Quick chat, Harry?",
+   "accountId": "lgy-accountants",
+   "contactId": "lgy-accountants--harry-liu"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:53",
+   "date": "2026-11-23T06:46:35Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "dinesh@fortunaadvisors.com.au"
+   ],
+   "subject": "Quick chat, Dinesh?",
+   "accountId": "fortuna-advisory-group",
+   "contactId": "fortuna-advisory-group--dinesh-aggarwal"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:56",
+   "date": "2026-11-23T06:46:35Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "geofft@esvgroup.com.au"
+   ],
+   "subject": "Quick chat, Geoff?",
+   "accountId": "esv-business-advice-and-accounting",
+   "contactId": "esv-business-advice-and-accounting--geoff-tierney"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:58",
+   "date": "2026-11-23T06:46:37Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "carlia@highview.com.au"
+   ],
+   "subject": "Quick chat, Carlia?",
+   "accountId": "highview-accounting-financial",
+   "contactId": "highview-accounting-financial--carlia-morgan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:60",
+   "date": "2026-11-23T06:46:37Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "adamd@byrons.com.au"
+   ],
+   "subject": "Quick chat, Adam?",
+   "accountId": "byrons",
+   "contactId": "byrons--adam-dyson"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:61",
+   "date": "2026-11-23T06:47:15Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "spirom@mayfairmarks.com.au"
+   ],
+   "subject": "Quick chat, Spiro?",
+   "accountId": "mayfair-marks",
+   "contactId": "mayfair-marks--spiro-markopoulos"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:62",
+   "date": "2026-11-23T06:47:15Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "aloveridge@dawson.com.au"
+   ],
+   "subject": "Quick chat, Andrew?",
+   "accountId": "dawson-group",
+   "contactId": "dawson-group--andrew-loveridge"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:64",
+   "date": "2026-11-23T06:47:16Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "reuben@new-wave.com.au"
+   ],
+   "subject": "Quick chat, Reuben?",
+   "accountId": "new-wave-accountants-business-advisory",
+   "contactId": "new-wave-accountants-business-advisory--reuben-bergola"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:65",
+   "date": "2026-11-23T06:47:16Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "jc@endurego.com"
+   ],
+   "subject": "Quick chat, John?",
+   "accountId": "endurego-tax",
+   "contactId": "endurego-tax--john-cheng"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:66",
+   "date": "2026-11-23T06:47:17Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "dev@credibleaccounting.com.au"
+   ],
+   "subject": "Quick chat, Dev?",
+   "accountId": "credible-accounting",
+   "contactId": "credible-accounting--dev-punjani"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:68",
+   "date": "2026-11-23T06:47:18Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "b.conn@businessdepot.com.au"
+   ],
+   "subject": "Quick chat, Bradley?",
+   "accountId": "businessdepot",
+   "contactId": "businessdepot--bradley-conn"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:69",
+   "date": "2026-11-23T06:47:18Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "kyelie@iqaccountants.com.au"
+   ],
+   "subject": "Quick chat, Kyelie?",
+   "accountId": "iq-accountants",
+   "contactId": "iq-accountants--kyelie-baxter"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:71",
+   "date": "2026-11-23T06:47:56Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "matthew.bramhall@mgijd.com.au"
+   ],
+   "subject": "Quick chat, Matthew?",
+   "accountId": "mgi-joyce-dickson",
+   "contactId": "mgi-joyce-dickson--matthew-bramhall"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:72",
+   "date": "2026-11-23T06:47:57Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "david@omniabs.com.au"
+   ],
+   "subject": "Quick chat, David?",
+   "accountId": "omnia-business-solutions",
+   "contactId": "omnia-business-solutions--david-gava"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:73",
+   "date": "2026-11-23T06:47:57Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "salim@prestigeca.com.au"
+   ],
+   "subject": "Quick chat, Salim?",
+   "accountId": "prestige-partners-chartered-accountants",
+   "contactId": "prestige-partners-chartered-accountants--salim-pradhan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:74",
+   "date": "2026-11-23T06:47:58Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "rob@dhm-partners.com.au"
+   ],
+   "subject": "Quick chat, Rob?",
+   "accountId": "dhm-partners",
+   "contactId": "dhm-partners--rob-mcgauchie"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:75",
+   "date": "2026-11-23T06:47:59Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "rob.deayton@rogersonkenny.com.au"
+   ],
+   "subject": "Quick chat, Rob?",
+   "accountId": "rogerson-kenny-business-accountants",
+   "contactId": "rogerson-kenny-business-accountants--rob-deayton"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:76",
+   "date": "2026-11-23T06:48:00Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "thomas@infinity22.co"
+   ],
+   "subject": "Quick chat, Thomas?",
+   "accountId": "infinity22",
+   "contactId": "infinity22--thomas-sparks"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:78",
+   "date": "2026-11-23T06:48:00Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "kelly@q4financial.com.au"
+   ],
+   "subject": "Quick chat, Kelly?",
+   "accountId": "q4-financial",
+   "contactId": "q4-financial--kelly-hill"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:80",
+   "date": "2026-11-23T06:48:01Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "rk@rbizz.com.au"
+   ],
+   "subject": "Quick chat, Raj?",
+   "accountId": "rbizz-corporate-accountants",
+   "contactId": "rbizz-corporate-accountants--raj-kumar"
+  },
+  {
+   "id": "hostinger:INBOX:103",
+   "date": "2026-11-23T08:57:38Z",
+   "channel": "email",
+   "kind": "reply",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ricardo@balibodyco.com"
+   ],
+   "subject": "Re: ChatGPT for accounting.",
+   "accountId": "bali-body",
+   "contactId": "bali-body--ricardo-saracoglu"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:82",
+   "date": "2026-11-23T09:10:59Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "greg.cusack@ashfords.com.au"
+   ],
+   "subject": "Idea for Ashfords",
+   "accountId": "ashfords",
+   "contactId": "ashfords--greg-cusack"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:83",
+   "date": "2026-11-23T09:11:39Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ryan@tnmconsulting.com.au"
+   ],
+   "subject": "Idea for TNM Consulting",
+   "accountId": "tnm-consulting",
+   "contactId": "tnm-consulting--ryan-richardson"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:84",
+   "date": "2026-11-23T09:11:40Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "nick@accountsnextgen.com.au"
+   ],
+   "subject": "Idea for Accounts NextGen",
+   "accountId": "accounts-nextgen",
+   "contactId": "accounts-nextgen--nick-bhalla"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:85",
+   "date": "2026-11-23T09:11:40Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "osalvalaggio@cscg.com.au"
+   ],
+   "subject": "Idea for CSCG",
+   "accountId": "cscg",
+   "contactId": "cscg--oriano-salvalaggio"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:86",
+   "date": "2026-11-23T09:11:40Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "brent.west@suntax.com.au"
+   ],
+   "subject": "Idea for Suntax",
+   "accountId": "suntax",
+   "contactId": "suntax--brent-west"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:87",
+   "date": "2026-11-23T09:11:41Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "nurudeen.abbas@asvwadeson.com.au"
+   ],
+   "subject": "Idea for ASV Wadeson",
+   "accountId": "asv-wadeson",
+   "contactId": "asv-wadeson--nurudeen-abbas"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:88",
+   "date": "2026-11-23T09:11:41Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "adobbyn@mgidc.com.au"
+   ],
+   "subject": "Idea for MGI Dobbyn Carafa",
+   "accountId": "mgi-dobbyn-carafa",
+   "contactId": "mgi-dobbyn-carafa--anthony-dobbyn"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:89",
+   "date": "2026-11-23T09:11:41Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "am@mitchell.com.au"
+   ],
+   "subject": "Idea for Mitchell Partners",
+   "accountId": "mitchell-partners",
+   "contactId": "mitchell-partners--alan-mitchell"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:90",
+   "date": "2026-11-23T09:11:42Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "paulc@daassociates.com.au"
+   ],
+   "subject": "Idea for Daniel Allison & Associates",
+   "accountId": "daniel-allison-and-associates",
+   "contactId": "daniel-allison-and-associates--paul-carr"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:91",
+   "date": "2026-11-23T09:11:42Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "david@factor1.com.au"
+   ],
+   "subject": "Idea for Factor1",
+   "accountId": "factor1",
+   "contactId": "factor1--david-fitzgerald"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:92",
+   "date": "2026-11-23T09:11:42Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "john@kennedyking.com.au"
+   ],
+   "subject": "Idea for Kennedy King",
+   "accountId": "kennedy-king",
+   "contactId": "kennedy-king--john-kennedy"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:93",
+   "date": "2026-11-23T09:12:21Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "jason@futureadvisory.com.au"
+   ],
+   "subject": "Idea for Future Advisory",
+   "accountId": "future-advisory",
+   "contactId": "future-advisory--jason-robinson"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:95",
+   "date": "2026-11-23T09:12:22Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "jon.traynor@fieldgroup.com.au"
+   ],
+   "subject": "Idea for The Field Group",
+   "accountId": "the-field-group",
+   "contactId": "the-field-group--jon-traynor"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:96",
+   "date": "2026-11-23T09:12:22Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "tushar@rmelbourneaccountants.com.au"
+   ],
+   "subject": "Idea for Reliable Accountants",
+   "accountId": "reliable-accountants",
+   "contactId": "reliable-accountants--tushar-khanna"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:97",
+   "date": "2026-11-23T09:12:23Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "noel.gibson@lipinspartners.com.au"
+   ],
+   "subject": "Idea for Lipins Partners",
+   "accountId": "lipins-partners",
+   "contactId": "lipins-partners--noel-gibson"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:98",
+   "date": "2026-11-23T09:12:24Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "shannon@smartbusinesssolutions.com.au"
+   ],
+   "subject": "Idea for Smart Business Solutions",
+   "accountId": "smart-business-solutions",
+   "contactId": "smart-business-solutions--shannon-smit"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:99",
+   "date": "2026-11-23T09:12:24Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "willh@affinity.com.au"
+   ],
+   "subject": "Idea for Affinity Advisory",
+   "accountId": "affinity-advisory",
+   "contactId": "affinity-advisory--will-horton"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:100",
+   "date": "2026-11-23T09:12:24Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "andrew@illumin8.com.au"
+   ],
+   "subject": "Idea for Illumin8",
+   "accountId": "illumin8",
+   "contactId": "illumin8--andrew-van-de-beek"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:101",
+   "date": "2026-11-23T09:12:24Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "herc@koustas.com.au"
+   ],
+   "subject": "Idea for Koustas + Co",
+   "accountId": "koustas-co",
+   "contactId": "koustas-co--herc-koustas"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:103",
+   "date": "2026-11-23T21:03:26Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ricardo@balibodyco.com"
+   ],
+   "subject": "Re: ChatGPT for accounting.",
+   "accountId": "bali-body",
+   "contactId": "bali-body--ricardo-saracoglu"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:108",
+   "date": "2026-11-23T21:36:17Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "nshaw@shawdownie.com.au"
+   ],
+   "subject": "Idea for Shaw Downie",
+   "accountId": "shaw-downie-chartered-accountants",
+   "contactId": "shaw-downie-chartered-accountants--nick-shaw"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:111",
+   "date": "2026-11-23T21:36:19Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "lucy@accumulusadvisory.com.au"
+   ],
+   "subject": "Idea for Accumulus Advisory",
+   "accountId": "accumulus-advisory",
+   "contactId": "accumulus-advisory--lucy-boulos"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:110",
+   "date": "2026-11-23T21:36:19Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "shane@elevategroup.com.au"
+   ],
+   "subject": "Idea for Elevate Accounting",
+   "accountId": "elevate-accounting",
+   "contactId": "elevate-accounting--shane-crommelin"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:113",
+   "date": "2026-11-23T21:36:49Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "kikow@breatheaccounting.com.au"
+   ],
+   "subject": "Idea for Breathe Accounting",
+   "accountId": "breathe-accounting",
+   "contactId": "breathe-accounting--kiko-willers"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:116",
+   "date": "2026-11-23T21:36:50Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "alexander@lmsadvisory.com.au"
+   ],
+   "subject": "Idea for LMS Advisory",
+   "accountId": "lms-advisory",
+   "contactId": "lms-advisory--alexander-laureti"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:115",
+   "date": "2026-11-23T21:36:50Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "lauren@tractionfinancial.com.au"
+   ],
+   "subject": "Idea for Traction Financial",
+   "accountId": "traction-financial",
+   "contactId": "traction-financial--lauren-bushby"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:124",
+   "date": "2026-11-23T21:37:24Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "neilh@armada.com.au"
+   ],
+   "subject": "Idea for Armada",
+   "accountId": "armada-accountants-advisors",
+   "contactId": "armada-accountants-advisors--neil-hancy"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:122",
+   "date": "2026-11-23T21:37:24Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "john.zerella@afmservices.com.au"
+   ],
+   "subject": "Idea for AFM Services",
+   "accountId": "afm-services",
+   "contactId": "afm-services--john-zerella"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:121",
+   "date": "2026-11-23T21:37:24Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "amanda@accounten.com.au"
+   ],
+   "subject": "Idea for Accounten",
+   "accountId": "accounten",
+   "contactId": "accounten--amanda-ying"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:120",
+   "date": "2026-11-23T21:37:24Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "sevant@alexanderspencer.com.au"
+   ],
+   "subject": "Idea for Alexander Spencer CPA",
+   "accountId": "alexander-spencer-cpa",
+   "contactId": "alexander-spencer-cpa--sevan-tuna"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:125",
+   "date": "2026-11-23T21:37:25Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "phillip@bishopcollins.com.au"
+   ],
+   "subject": "Idea for Bishop Collins",
+   "accountId": "bishop-collins-chartered-accountants",
+   "contactId": "bishop-collins-chartered-accountants--phillip-keenan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:126",
+   "date": "2026-11-23T21:37:56Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "awijeyesinghe@connectadvisors.com.au"
+   ],
+   "subject": "Idea for Connect Advisors",
+   "accountId": "connect-advisors",
+   "contactId": "connect-advisors--anna-wijeyesinghe"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:127",
+   "date": "2026-11-23T21:37:57Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ryan@drykirkness.com.au"
+   ],
+   "subject": "Idea for Dry Kirkness",
+   "accountId": "dry-kirkness",
+   "contactId": "dry-kirkness--ryan-lucas"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:128",
+   "date": "2026-11-23T21:37:58Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "inzi@crawfordaccountants.com.au"
+   ],
+   "subject": "Idea for Crawford Accountants",
+   "accountId": "crawford-accountants",
+   "contactId": "crawford-accountants--inzi-pethiyagoda"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:130",
+   "date": "2026-11-23T21:37:59Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "renee@indepthaccounting.com.au"
+   ],
+   "subject": "Idea for Indepth Accounting",
+   "accountId": "indepth-accounting",
+   "contactId": "indepth-accounting--renee-cooper"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:131",
+   "date": "2026-11-23T21:38:00Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "alex.breen@kinsella.com.au"
+   ],
+   "subject": "Idea for Kinsella",
+   "accountId": "kinsella-chartered-accountants",
+   "contactId": "kinsella-chartered-accountants--alex-breen"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:133",
+   "date": "2026-11-23T21:38:30Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "porielley@mcadamsiemon.com.au"
+   ],
+   "subject": "Idea for McAdam Siemon",
+   "accountId": "mcadam-siemon",
+   "contactId": "mcadam-siemon--peter-o-rielley"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:134",
+   "date": "2026-11-23T21:38:31Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "greg.peel@pvwpartners.com"
+   ],
+   "subject": "Idea for PVW Partners",
+   "accountId": "pvw-partners-accountants-advisors",
+   "contactId": "pvw-partners-accountants-advisors--greg-peel"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:136",
+   "date": "2026-11-23T21:38:32Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "stefaniecatalano@humanee.com.au"
+   ],
+   "subject": "Idea for Humanee",
+   "accountId": "humanee",
+   "contactId": "humanee--stefanie-catalano"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:135",
+   "date": "2026-11-23T21:38:32Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "lukemicallef@bourneandweir.com.au"
+   ],
+   "subject": "Idea for Bourne & Weir",
+   "accountId": "bourne-weir",
+   "contactId": "bourne-weir--luke-micallef"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:138",
+   "date": "2026-11-23T21:38:33Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "krystal@ultimate-tax.com.au"
+   ],
+   "subject": "Idea for Ultimate Tax & Advisory",
+   "accountId": "ultimate-tax-advisory",
+   "contactId": "ultimate-tax-advisory--krystal-serval"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:139",
+   "date": "2026-11-23T21:38:34Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "david@inlinepartners.com.au"
+   ],
+   "subject": "Idea for Inline Partners",
+   "accountId": "inline-partners",
+   "contactId": "inline-partners--david-mah-chut"
+  },
+  {
+   "id": "hostinger:INBOX:107",
+   "date": "2026-11-23T21:38:48Z",
+   "channel": "email",
+   "kind": "reply",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ricardo@balibodyco.com"
+   ],
+   "subject": "Re: ChatGPT for accounting.",
+   "accountId": "bali-body",
+   "contactId": "bali-body--ricardo-saracoglu"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:143",
+   "date": "2026-11-23T21:39:05Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "simon@srsaccountants.com.au"
+   ],
+   "subject": "Idea for SRS",
+   "accountId": "srs-business-accounting-solutions",
+   "contactId": "srs-business-accounting-solutions--simon-semaan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:142",
+   "date": "2026-11-23T21:39:05Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "jcarey@pp.tax"
+   ],
+   "subject": "Idea for Prime Partners",
+   "accountId": "prime-partners-chartered-accountants",
+   "contactId": "prime-partners-chartered-accountants--james-carey"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:141",
+   "date": "2026-11-23T21:39:05Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "annette.bedford@theafirm.com.au"
+   ],
+   "subject": "Idea for The A Firm",
+   "accountId": "the-a-firm-financial-solutions-group",
+   "contactId": "the-a-firm-financial-solutions-group--annette-bedford"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:140",
+   "date": "2026-11-23T21:39:05Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "nadi@growthteam.com.au"
+   ],
+   "subject": "Idea for Growth Team",
+   "accountId": "growth-team",
+   "contactId": "growth-team--nadi-elias"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:144",
+   "date": "2026-11-23T21:39:06Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "garetha@synecticgroup.com.au"
+   ],
+   "subject": "Idea for Synectic",
+   "accountId": "synectic-accountants-advisers",
+   "contactId": "synectic-accountants-advisers--gareth-atkins"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:146",
+   "date": "2026-11-23T21:39:07Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "edwardfang@trihalo.com.au"
+   ],
+   "subject": "Idea for Trihalo Accountancy",
+   "accountId": "trihalo-accountancy",
+   "contactId": "trihalo-accountancy--edward-fang"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:147",
+   "date": "2026-11-23T21:39:37Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "david.e@adviceco.com.au"
+   ],
+   "subject": "Idea for AdviceCo",
+   "accountId": "adviceco-ca",
+   "contactId": "adviceco-ca--david-evers"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:152",
+   "date": "2026-11-23T21:39:39Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "quarles@quarles.com.au"
+   ],
+   "subject": "Idea for Code One Accountants",
+   "snippet": "Bounced: undeliverable (postmaster reply 23 Nov).",
+   "accountId": "code-one-accountants",
+   "contactId": "code-one-accountants--alexander-quarles-de-quarles"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:151",
+   "date": "2026-11-23T21:39:39Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "tnguyen@dfklv.com.au"
+   ],
+   "subject": "Idea for DFK Laurence Varnay",
+   "accountId": "dfk-laurence-varnay",
+   "contactId": "dfk-laurence-varnay--tony-nguyen"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:150",
+   "date": "2026-11-23T21:39:39Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "leonard@empireaccountants.com.au"
+   ],
+   "subject": "Idea for Empire Accountants",
+   "accountId": "empire-accountants",
+   "contactId": "empire-accountants--leonard-jiang"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:149",
+   "date": "2026-11-23T21:39:39Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ksharma@knsaccountants.com.au"
+   ],
+   "subject": "Idea for KNS Accountants",
+   "accountId": "kns-accountants-business-advisors",
+   "contactId": "kns-accountants-business-advisors--krishan-sharma"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:153",
+   "date": "2026-11-23T21:39:40Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "alessio@rcrpartners.com.au"
+   ],
+   "subject": "Idea for RCR Partners",
+   "accountId": "rcr-partners",
+   "contactId": "rcr-partners--alessio-roscio"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:154",
+   "date": "2026-11-23T21:45:43Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ricardo@balibodyco.com"
+   ],
+   "subject": "Re: ChatGPT for accounting.",
+   "accountId": "bali-body",
+   "contactId": "bali-body--ricardo-saracoglu"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:155",
+   "date": "2026-11-24T01:41:06Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "andy@heapsnormal.com"
+   ],
+   "subject": "Reconciliations at Heaps Normal",
+   "accountId": "heaps-normal",
+   "contactId": "heaps-normal--andy-miller"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:156",
+   "date": "2026-11-24T01:41:07Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "damien@heapsnormal.com"
+   ],
+   "subject": "Reconciliations at Heaps Normal",
+   "accountId": "heaps-normal",
+   "contactId": "heaps-normal--damien-williams"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:158",
+   "date": "2026-11-24T02:22:31Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "julia@collins-company.com"
+   ],
+   "subject": "Idea for Collins & Co",
+   "accountId": "collins-co",
+   "contactId": "collins-co--julia-strasdauskas"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:163",
+   "date": "2026-11-24T02:22:32Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ross.hedrick@kidmanspartners.com.au"
+   ],
+   "subject": "Idea for Kidmans Partners",
+   "accountId": "kidmans-partners",
+   "contactId": "kidmans-partners--ross-hedrick-ca"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:162",
+   "date": "2026-11-24T02:22:32Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "matt.ohanlon@kearneygroup.com.au"
+   ],
+   "subject": "Idea for Kearney Group",
+   "accountId": "kearney-group",
+   "contactId": "kearney-group--matt-o-hanlon"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:161",
+   "date": "2026-11-24T02:22:32Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "adam.abela@floataccounting.com.au"
+   ],
+   "subject": "Idea for Float",
+   "accountId": "float-accounting-advisory",
+   "contactId": "float-accounting-advisory--adam-abela"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:160",
+   "date": "2026-11-24T02:22:32Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "allen@dfknugents.com.au"
+   ],
+   "subject": "Idea for DFK Nugents",
+   "accountId": "dfk-nugents",
+   "contactId": "dfk-nugents--allen-huang"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:166",
+   "date": "2026-11-24T02:22:33Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "nathan@latitudeaccountants.com.au"
+   ],
+   "subject": "Idea for Latitude Accountants",
+   "accountId": "latitude-accountants",
+   "contactId": "latitude-accountants--nathan-lobb"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:165",
+   "date": "2026-11-24T02:22:33Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "chris.simmons@mjcpartners.com.au"
+   ],
+   "subject": "Idea for MJC Partners",
+   "accountId": "mjc-partners",
+   "contactId": "mjc-partners--chris-simmons"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:168",
+   "date": "2026-11-24T02:22:34Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ebeasley@smithfeutrill.com.au"
+   ],
+   "subject": "Idea for Smith Feutrill",
+   "accountId": "smith-feutrill",
+   "contactId": "smith-feutrill--ed-beasley"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:167",
+   "date": "2026-11-24T02:22:34Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "peter.antonius@listonnewton.com.au"
+   ],
+   "subject": "Idea for Liston Newton",
+   "accountId": "liston-newton-advisory",
+   "contactId": "liston-newton-advisory--peter-antonius"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:171",
+   "date": "2026-11-24T02:23:08Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "thale@hta.com.au"
+   ],
+   "subject": "Idea for HTA Advisory",
+   "accountId": "hta-advisory",
+   "contactId": "hta-advisory--tim-hale"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:170",
+   "date": "2026-11-24T02:23:08Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "michael@skyacc.com.au"
+   ],
+   "subject": "Idea for Sky Accountants",
+   "accountId": "sky-accountants",
+   "contactId": "sky-accountants--michael-ferris"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:169",
+   "date": "2026-11-24T02:23:08Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "mforte@wilsonpateras.com.au"
+   ],
+   "subject": "Idea for Wilson Pateras",
+   "accountId": "wilson-pateras-accountants-advisors",
+   "contactId": "wilson-pateras-accountants-advisors--mark-forte"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:172",
+   "date": "2026-11-24T02:23:09Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "jwhitehead@aintreegroup.com.au"
+   ],
+   "subject": "Idea for Aintree",
+   "accountId": "aintree-group",
+   "contactId": "aintree-group--julian-whitehead"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:175",
+   "date": "2026-11-24T02:23:10Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "tharris@accrumelb.com.au"
+   ],
+   "subject": "Idea for Accru Melbourne",
+   "accountId": "accru-melbourne",
+   "contactId": "accru-melbourne--tom-harris"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:174",
+   "date": "2026-11-24T02:23:10Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "richard.thomas@jeffreythomas.com.au"
+   ],
+   "subject": "Idea for Jeffrey Thomas & Partners",
+   "accountId": "jeffrey-thomas-partners-jt-p",
+   "contactId": "jeffrey-thomas-partners-jt-p--richard-thomas"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:178",
+   "date": "2026-11-24T02:23:11Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "chereew@dfkbkm.com.au"
+   ],
+   "subject": "Idea for DFK Benjamin King Money",
+   "accountId": "dfk-benjamin-king-money-dfk-bkm",
+   "contactId": "dfk-benjamin-king-money-dfk-bkm--cheree-woolcock"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:177",
+   "date": "2026-11-24T02:23:11Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "jacky@zimsenpartners.com.au"
+   ],
+   "subject": "Idea for Zimsen Partners",
+   "accountId": "zimsen-partners",
+   "contactId": "zimsen-partners--jacky-chan"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:176",
+   "date": "2026-11-24T02:23:11Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "joseph@lombardipartners.com.au"
+   ],
+   "subject": "Idea for Lombardi Partners",
+   "accountId": "lombardi-partners",
+   "contactId": "lombardi-partners--joseph-lombardi"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:179",
+   "date": "2026-11-24T02:23:12Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "ben.fletcher@thegildgroup.com"
+   ],
+   "subject": "Idea for The Gild Group",
+   "accountId": "the-gild-group",
+   "contactId": "the-gild-group--ben-fletcher"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:182",
+   "date": "2026-11-24T02:23:42Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "robert.cranmer@hamiltonmorello.com.au"
+   ],
+   "subject": "Idea for Hamilton Morello",
+   "accountId": "hamilton-morello",
+   "contactId": "hamilton-morello--robert-cranmer"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:181",
+   "date": "2026-11-24T02:23:42Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "garyb@hatcher.com.au"
+   ],
+   "subject": "Idea for Hatcher Advisory",
+   "accountId": "hatcher-advisory",
+   "contactId": "hatcher-advisory--gary-brown"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:180",
+   "date": "2026-11-24T02:23:42Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "paul@amcp.net.au"
+   ],
+   "subject": "Idea for Andresen McCarthy Partners",
+   "accountId": "andresen-mccarthy-partners",
+   "contactId": "andresen-mccarthy-partners--paul-jenkin"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:187",
+   "date": "2026-11-24T02:23:44Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "achircop@accountinghq.com.au"
+   ],
+   "subject": "Idea for AccountingHQ",
+   "accountId": "accountinghq",
+   "contactId": "accountinghq--aaron-chircop"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:186",
+   "date": "2026-11-24T02:23:44Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "bb@guests.com.au"
+   ],
+   "subject": "Idea for Guests Accounting",
+   "accountId": "guests-accounting",
+   "contactId": "guests-accounting--boruch-baker"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:185",
+   "date": "2026-11-24T02:23:44Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "andrew@obbc.com.au"
+   ],
+   "subject": "Idea for O'Brien Accountants & Advisors",
+   "accountId": "o-brien-accountants-advisors",
+   "contactId": "o-brien-accountants-advisors--andrew-cust"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:184",
+   "date": "2026-11-24T02:23:44Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "brian@ptps.com.au"
+   ],
+   "subject": "Idea for Perta Thomson Partners",
+   "accountId": "perta-thomson-partners-ptp",
+   "contactId": "perta-thomson-partners-ptp--brian-thomson"
+  },
+  {
+   "id": "hostinger:INBOX.Sent:188",
+   "date": "2026-11-24T02:23:45Z",
+   "channel": "email",
+   "kind": "sent",
+   "source": "hostinger",
+   "counterpartyEmails": [
+    "af@baumgartners.com.au"
+   ],
+   "subject": "Idea for Baumgartners",
+   "accountId": "baumgartners",
+   "contactId": "baumgartners--aaron-fitchett"
+  }
+ ]
+}

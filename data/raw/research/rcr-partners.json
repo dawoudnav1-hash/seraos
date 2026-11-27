@@ -1,0 +1,252 @@
+{
+ "accountId": "rcr-partners",
+ "accountName": "RCR Partners",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "RCR Partners is a Norwood, Adelaide accounting and advisory firm led by Alessio Roscio since 2011, with tiered Xero-based packages (Compliance, Advisory, Virtual CFO) and an optional bookkeeping add-on. The site says it is rebranding. Alessio also co-founded Curated Capital.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://rcrpartners.com.au/business-packages",
+   "title": "Business Packages | RCR Partners",
+   "type": "website",
+   "publisher": "RCR Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://rcrpartners.com.au/firm-profile",
+   "title": "Firm Profile | RCR Partners",
+   "type": "website",
+   "publisher": "RCR Partners",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/alessio-roscio-84873a1b",
+   "title": "Alessio Roscio | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/rcr-partners",
+   "title": "RCR Partners | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "http://rcrpartners.com.au/services/accounting-and-tax",
+   "title": "Accounting & Tax | RCR Partners",
+   "type": "website",
+   "publisher": "RCR Partners",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "RCR Partners is based at Level 1, 125b The Parade, Norwood, South Australia.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 1, 125b The Parade, Norwood, SA 5067, Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Alessio Roscio is Owner & Managing Director of RCR Partners (current on LinkedIn, since October 2011).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Owner & Managing Director, RCR Partners | Co-founder & Director, Curated Capital",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Alessio is also co-founder and director of Curated Capital, a commercial property investment company.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Co-Founder and Director of Curated Capital, a property investment company focusing on office, retail and industrial commercial properties",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "The firm says Alessio is actively involved in many industries, including at board and ownership level outside the firm.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Alessio is actively involved in many industries including at a board and ownership level outside the firm.",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "The Virtual CFO package includes monthly management reports, monthly review meetings and KPI development.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Management Reports | ― | Quarterly | Monthly",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "An optional bookkeeping add-on covers bank reconciliation, payroll, AR/AP and a monthly review of data.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Monthly Review of your Data",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "A Xero subscription is included in every package.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Xero Subscription",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "LinkedIn lists 13 employees across Australia and the Philippines.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "RCR Partners employs 13 people (-5.9% YoY, -1 person).",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "The website says RCR Partners is rebranding and launching a new website.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We’re working on a new look and a new website.",
+   "date": null,
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Services include monthly and quarterly board reporting and cloud accounting.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Monthly & quarterly board reporting",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Alessio Roscio",
+   "title": "Owner & Managing Director",
+   "contactId": "rcr-partners--alessio-roscio",
+   "linkedin": "https://linkedin.com/in/alessio-roscio-84873a1b",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Daniel Roscio",
+   "title": "Director",
+   "contactId": "rcr-partners--daniel-roscio",
+   "linkedin": "https://www.linkedin.com/in/daniel-roscio-3a6759b4",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Monthly management reports in the Virtual CFO tier depend on timely reconciliation.",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Owner with outside commitments (Curated Capital, boards): time-poor, values leverage.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Rebrand underway: a natural moment to revisit workflows.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Team of 13 across Australia and the Philippines suggests offshore bookkeeping already in place; Vert must complement it.",
+   "claimIds": [
+    "C8"
+   ]
+  },
+  {
+   "text": "Website is partly outdated (mid-rebrand); some service pages may not reflect current offering.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent dated posts by Alessio found.",
+  "No job ads found.",
+  "No podcast or press coverage found."
+ ],
+ "searches": [
+  {
+   "query": "RCR Partners Norwood Adelaide Alessio Roscio",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "rcr-partners--alessio-roscio",
+   "subject": "Re: Idea for RCR Partners",
+   "body": "Hi Alessio,\n\nFollowing up on my note last week. With RCR rebranding, it's a good moment to look at the workflow behind the monthly management reports in your Virtual CFO package. Those reports are only as fast as the bank reconciliations underneath, and Xero is included in every tier. Vert reconciles and cash codes in minutes with a traceable trail. Could I show you on a sample file?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C5",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "rcr-partners--alessio-roscio",
+   "subject": "Re: Idea for RCR Partners",
+   "body": "Hi Alessio,\n\nLast note. You run RCR alongside Curated Capital and board roles outside the firm, so your time is the scarce part. Vert takes the bank reconciliation work in your bookkeeping add-on from hours to minutes. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C6"
+   ]
+  }
+ }
+}

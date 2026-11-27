@@ -1,0 +1,208 @@
+{
+ "accountId": "shona-joy",
+ "accountName": "Shona Joy",
+ "status": "thin",
+ "researchedAt": "2026-11-26",
+ "summary": "Sydney designer womenswear label with an in-house finance team led by CFO Jenny Huang and an accountant (Cathy Zhang) who owns Shopify/AP21 sales and returns reconciliation. However, on 3 Nov 2026 the founder announced the brand is closing after 26 years, so this is not a viable prospect and no outreach drafts were written.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://internetretailing.com.au/shona-joy-to-close-down-after-26-years/",
+   "title": "Shona Joy to close down after 26 years",
+   "type": "news",
+   "publisher": "Internet Retailing",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.ragtrader.com.au/news/shona-joy-shakes-up-executive-leadership-team",
+   "title": "Shona Joy shakes up executive leadership team",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2024-11-25"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/jenny-huang-75bb0b1ba",
+   "title": "Jenny Huang - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/cathyyezhang",
+   "title": "Cathy Zhang - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://shonajoy.com.au/pages/careers",
+   "title": "Careers - Shona Joy",
+   "type": "website",
+   "publisher": "Shona Joy",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.ragtrader.com.au/news/shona-joy-ceo-danielle-haddrick-steps-down",
+   "title": "Shona Joy CEO Danielle Haddrick steps down",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2026-03-23"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Shona Joy's own site (shonajoy.com.au) carries a careers page describing the brand's team; identity matches the Sydney designer label.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Shona Joy brand is powered by a passionate close-knit team, grounded by a mutual love of designing for real women",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Jenny Huang is currently listed as Chief Financial Officer at Shona Joy (Sydney).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Chief Financial Officer at Shona Joy",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C3",
+   "text": "Jenny Huang was promoted to CFO in November 2024 after eight years as financial controller.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Jenny Huang has been promoted to chief financial officer after eight years as the brand's financial controller.",
+   "date": "2024-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Cathy Zhang, Accountant at Shona Joy, reconciles sales and returns across Shopify and AP21 daily.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "ensure all sales and returns are updated across Shopify, AP21, Return platforms every day and complete sales and payment reconciliation",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "CEO Danielle Haddrick stepped down in March 2026.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Danielle Haddrick, the chief executive officer of Australian fashion label Shona Joy, is stepping down from her lead role.",
+   "date": "2026-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Founder Shona Thatcher announced in November 2026 that the brand is closing down after 26 years.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Well-known fashion brand Shona Joy is closing down after 26 years, following an announcement by its founder, Shona Thatcher.",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The website is to stay operational only until the New Year.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "the website will remain operational until the New Year.",
+   "date": "2026-11",
+   "category": "news",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Jenny Huang",
+   "title": "Chief Financial Officer",
+   "contactId": "shona-joy--jenny-huang",
+   "linkedin": "https://linkedin.com/in/jenny-huang-75bb0b1ba",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  },
+  {
+   "name": "Cathy Zhang",
+   "title": "Accountant",
+   "contactId": "shona-joy--cathy-zhang",
+   "linkedin": "https://linkedin.com/in/cathyyezhang",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Would have been strong (Shopify/AP21 returns and wholesale reconciliation owned by Cathy Zhang), but the business is winding down so there is no hook worth using.",
+   "claimIds": [
+    "C4",
+    "C6"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Brand is closing down; do not contact. Website stays up only until the New Year.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "CEO left in March 2026 with no named replacement.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "No outreach drafts written because the company announced closure on 3 Nov 2026. Recommend marking the account as Disqualified / closing down.",
+  "Exa returned no usable podcast, blog or Facebook content from the finance team."
+ ],
+ "searches": [
+  {
+   "query": "Shona Joy new CFO Jenny Huang promoted leadership announcement",
+   "results": 6
+  },
+  {
+   "query": "Cathy Zhang Accountant Shona Joy bank reconciliations Shopify AP21",
+   "results": 4
+  },
+  {
+   "query": "Shona Joy new CEO appointed 2026 Bloomingdale's US wholesale expansion",
+   "results": 6
+  },
+  {
+   "query": "shonajoy.com.au careers page",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": null,
+  "followUp2": null
+ }
+}

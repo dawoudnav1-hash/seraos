@@ -1,0 +1,352 @@
+{
+ "accountId": "murdoch-partners",
+ "accountName": "Murdoch Partners",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Murdoch Partners (murdochpartners.com.au) is a Kew, Melbourne accounting, tax and advisory firm with a private wealth arm, serving SMEs and strong in medical and allied health clients. In July 2025 Tim Wulf was appointed Principal with a stated mandate to embed emerging technologies in client engagement, and the firm's careers page names Xero, FYI, BGL360 and CAS 360 as its stack. Martin Sammut is Managing Partner and has been with the firm since 2006. The firm looks tech-curious, which makes Tim the stronger first contact.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.murdochpartners.com.au/",
+   "title": "Welcome - Murdoch Partners",
+   "type": "website",
+   "publisher": "Murdoch Partners",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.murdochpartners.com.au/home/accounting",
+   "title": "Murdoch Partners appoints new Principal to lead strategic evolution",
+   "type": "news",
+   "publisher": "Murdoch Partners",
+   "date": "2025-07-10"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/timothy-wulf-b1a035a2",
+   "title": "Timothy Wulf - Principal at Murdoch Partners | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/timothy-wulf-b1a035a2_murdochpartners-activity-7348869987803021312-j9xx",
+   "title": "I'm proud to announce my appointment as Principal at Murdoch Partners",
+   "type": "linkedin",
+   "publisher": "Timothy Wulf on LinkedIn",
+   "date": "2025-07-10"
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/martin-sammut-2713471a6",
+   "title": "Martin Sammut - Managing Partner at Murdoch Partners | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.murdochpartners.com.au/careers",
+   "title": "Careers - Murdoch Partners",
+   "type": "job",
+   "publisher": "Murdoch Partners",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://www.murdochpartners.com.au/home/accountingnews",
+   "title": "News - Murdoch Partners",
+   "type": "blog",
+   "publisher": "Murdoch Partners",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://linkedin.com/in/ethan-mcevoy",
+   "title": "Ethan McEvoy - Graduate Accountant at Murdoch Partners | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-30"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Murdoch Partners is at Level 3, 17 Cotham Road, Kew, Victoria and has a Murdoch Wealth arm at the same address; the firm is the Kew, Melbourne firm at murdochpartners.com.au.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 3, 17 Cotham Road, Kew, Victoria, 3101",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Tim Wulf is Principal at Murdoch Partners (current since July 2025, previously Manager from February 2019), based in Kew, so he still works there.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Principal at Murdoch Partners | Chartered Accountant",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Martin Sammut is Managing Partner at Murdoch Partners, in the role since July 2006, so he still works there.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Managing Partner at Murdoch Partners Pty Ltd",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In July 2025 Murdoch Partners announced Tim Wulf as Principal, with a focus on expanding services, enhancing the firm's digital and marketing presence and embedding emerging technologies across client engagement.",
+   "sourceIds": [
+    "S2",
+    "S4"
+   ],
+   "quote": "enhancing its digital and marketing presence, and embedding the use of emerging technologies across client engagement",
+   "date": "2025-07",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Tim said in the announcement that he is passionate about challenging traditional thinking and embracing innovation.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I'm passionate about challenging traditional thinking and embracing innovation to create stronger, more valuable outcomes for our clients and our people",
+   "date": "2025-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Tim's LinkedIn says he specialises in tax accounting, financial reporting and cash flow management, with a focus on construction, medical, veterinary and wholesale clients, and that he embraces emerging technologies.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "specialising in tax accounting, financial reporting and cash flow management",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Before joining Murdoch Partners, Tim spent nine years advising private clients at a Big 4 consultancy on financial reporting, tax planning and cash flow management.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "he spent nine years advising private clients at a Big 4 consultancy",
+   "date": "2025-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm's careers page lists Xero, FYI, BGL360 and CAS 360 among the tools used for client set-up, ASIC lodgements and documents.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Proficient with MS365, BGL360, XERO, FYI, FUSESIGN",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Murdoch Partners provides accounting, taxation and compliance services to SMEs and says it has a strong track record in the medical and allied health sectors.",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "particularly in the medical and allied health sectors",
+   "date": "2025-07",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The firm says it has looked after clients for over 30 years, many of them second and third generation businesses.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "We've been looking after clients for over 30 years. Many of them second and third generation businesses",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Murdoch Partners has a careers page advertising a Corporate Secretarial & Administrative Assistant role in Kew.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Corporate Secretarial & Administrative Assistant Kew, Vic",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "The firm's news page covers current tax updates, including the $20,000 instant asset write-off being made permanent for eligible small businesses.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "the $20,000 instant asset write-off has been made a permanent feature of the tax system for eligible small businesses",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "A graduate accountant's LinkedIn profile at Murdoch says they built AI-assisted workflows that turn raw client records into structured Excel workbooks and trained around 30 colleagues to apply AI.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "I built AI-assisted workflows that convert raw client records into structured Excel workbooks",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Timothy Wulf",
+   "title": "Principal",
+   "contactId": "murdoch-partners--timothy-wulf",
+   "linkedin": "https://www.linkedin.com/in/timothy-wulf-b1a035a2",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "name": "Martin Sammut",
+   "title": "Managing Partner",
+   "contactId": "murdoch-partners--martin-sammut",
+   "linkedin": "https://www.linkedin.com/in/martin-sammut-2713471a6",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Tim's July 2025 appointment as Principal came with a remit to embed emerging technologies in client engagement, so he owns the tech agenda and is the right first contact.",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C2"
+   ]
+  },
+  {
+   "text": "Tim's cash flow management and financial reporting focus means clean, reconciled books on time feed straight into the advice his clients value; reconciliation is the bottleneck before that advice.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Stack of Xero, FYI and BGL360 with medical, veterinary and SME clients gives a concrete picture of the reconciliation load.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "A graduate on the team describes building and teaching AI workflows for client data, so the firm may be experimenting with DIY AI; the pitch should lead with traceability and audit trail.",
+   "claimIds": [
+    "C13"
+   ]
+  },
+  {
+   "text": "Firm is tax and advisory-led with a wealth arm, so bookkeeping volume may be modest.",
+   "claimIds": [
+    "C9",
+    "C12"
+   ]
+  },
+  {
+   "text": "Martin Sammut (primary contact on record) is a long-tenured Managing Partner on the tax side; Tim is the better first contact for technology.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, YouTube, Facebook or Instagram content found for the firm, Tim or Martin.",
+  "No Xero/MYOB partner directory listing found.",
+  "Could not find any Murdoch Partners reconciliation or bookkeeping service page.",
+  "No posts by Tim beyond the July 2025 announcement surfaced."
+ ],
+ "searches": [
+  {
+   "query": "fetch murdochpartners.com.au home, about-us",
+   "results": 2
+  },
+  {
+   "query": "Martin Sammut Murdoch Partners Kew Managing Partner",
+   "results": 9
+  },
+  {
+   "query": "fetch murdochpartners.com.au/home/accounting (announcement)",
+   "results": 1
+  },
+  {
+   "query": "Murdoch Partners appoints new Principal Tim Wulf Melbourne accounting firm",
+   "results": 6
+  },
+  {
+   "query": "fetch murdochpartners.com.au news page",
+   "results": 1
+  },
+  {
+   "query": "Murdoch Partners Kew accountant job Xero graduate accountant seek",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "murdoch-partners--timothy-wulf",
+   "subject": "Emerging tech at Murdoch Partners",
+   "body": "Hi Tim,\n\nMurdoch's announcement of your appointment as Principal says you'll be embedding emerging technologies across client engagement, and the careers page shows a stack of Xero, BGL360 and FYI. With medical and allied health clients on top of general SME work, reconciling is probably where a lot of manual hours sit. I built Vert to turn hours of manual reconciliation into minutes, with a traceable match behind every line so nothing is guessed. Where does reconciling still take the most hands-on time for your team?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C8",
+    "C9"
+   ]
+  },
+  "followUp": {
+   "contactId": "murdoch-partners--timothy-wulf",
+   "subject": "Re: Emerging tech at Murdoch Partners",
+   "body": "Hi Tim,\n\nFollowing up on my note last week. Your LinkedIn says your focus is tax accounting, financial reporting and cash flow management, and cash flow advice only works when the books are coded and reconciled on time. Is month-end reconciliation the step that slows that down for your construction and medical clients? Happy to show Vert in 10 min.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C9"
+   ]
+  },
+  "followUp2": {
+   "contactId": "murdoch-partners--timothy-wulf",
+   "subject": "Re: Emerging tech at Murdoch Partners",
+   "body": "Hi Tim,\n\nFinal note. You said you're passionate about challenging traditional thinking, so I'll be direct: Vert is built to replace manual reconciliation, with every match traceable. If it fits your plans for emerging technology at Murdoch Partners, I'm happy to show it in 10 min. If the timing is wrong, no problem.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C4"
+   ]
+  }
+ }
+}

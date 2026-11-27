@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-11-22T09:00:00.000Z",
+  "sources": [
+    { "name": "Hostinger mailbox", "detail": "FIXTURE — sent folder scanned for messages to prospect domains." },
+    { "name": "Gmail", "detail": "FIXTURE — replies and LinkedIn notification emails." },
+    { "name": "LinkedIn", "detail": "FIXTURE — connection requests and messages exported manually." }
+  ],
+  "events": [
+    { "id": "ev-001", "date": "2026-09-15T01:10:00.000Z", "channel": "email", "kind": "sent", "source": "hostinger", "accountId": "northwind-payroll", "contactId": "c-northwind-2", "counterpartyEmails": ["james.oneill@northwindpayroll.example.com"], "personName": "James O'Neill", "subject": "Close automation for multi-entity NetSuite", "snippet": "Hi James — saw Northwind is now running three entities…", "seenFlag": null },
+    { "id": "ev-002", "date": "2026-10-02T23:30:00.000Z", "channel": "email", "kind": "sent", "source": "hostinger", "accountId": "ledgerline-advisory", "contactId": "c-ledgerline-1", "counterpartyEmails": ["priya.raman@ledgerline.example.com.au"], "personName": "Priya Raman", "subject": "Running close for 120 clients", "snippet": "Hi Priya — quick idea on client close capacity…" },
+    { "id": "ev-003", "date": "2026-10-04T04:12:00.000Z", "channel": "email", "kind": "reply", "source": "gmail", "accountId": "ledgerline-advisory", "contactId": "c-ledgerline-1", "counterpartyEmails": ["priya.raman@ledgerline.example.com.au"], "personName": "Priya Raman", "subject": "Re: Running close for 120 clients", "snippet": "Thanks — interested, can you send a short overview?" },
+    { "id": "ev-004", "date": "2026-10-10T00:00:00.000Z", "channel": "linkedin", "kind": "connection_sent", "source": "linkedin", "accountId": "northwind-payroll", "contactId": "c-northwind-1", "personName": "Rebecca Lin" },
+    { "id": "ev-005", "date": "2026-10-12T06:45:00.000Z", "channel": "linkedin", "kind": "connection_accepted", "source": "gmail-linkedin-notification", "accountId": "northwind-payroll", "contactId": "c-northwind-1", "personName": "Rebecca Lin" },
+    { "id": "ev-006", "date": "2026-10-13T02:00:00.000Z", "channel": "linkedin", "kind": "message_sent", "source": "linkedin", "accountId": "northwind-payroll", "contactId": "c-northwind-1", "personName": "Rebecca Lin", "snippet": "Thanks for connecting, Rebecca — congrats on the new role." },
+    { "id": "ev-007", "date": "2026-10-14T08:20:00.000Z", "channel": "linkedin", "kind": "message_seen", "source": "linkedin", "accountId": "northwind-payroll", "contactId": "c-northwind-1", "personName": "Rebecca Lin" },
+    { "id": "ev-008", "date": "2026-10-20T03:00:00.000Z", "channel": "email", "kind": "meeting", "source": "gmail", "accountId": "northwind-payroll", "contactId": "c-northwind-1", "counterpartyEmails": ["rebecca.lin@northwindpayroll.example.com"], "personName": "Rebecca Lin", "subject": "Vert <> Northwind — intro call" },
+    { "id": "ev-009", "date": "2026-11-03T22:15:00.000Z", "channel": "email", "kind": "sent", "source": "hostinger", "accountId": "saltbush-skincare", "contactId": "c-saltbush-1", "counterpartyEmails": ["grace@saltbush.example.com.au"], "personName": "Grace Whitfield", "subject": "Shopify + Amazon payout reconciliation", "seenFlag": null },
+    { "id": "ev-010", "date": "2026-11-10T21:05:00.000Z", "channel": "email", "kind": "sent", "source": "hostinger", "accountId": "quokka-ai", "contactId": "c-quokka-1", "counterpartyEmails": ["ben@quokka-ai.example.com"], "personName": "Ben Okafor", "subject": "Two entities, one finance lead", "seenFlag": true },
+    { "id": "ev-011", "date": "2026-11-12T00:40:00.000Z", "channel": "email", "kind": "sent", "source": "hostinger", "counterpartyEmails": ["zoe.nguyen@kowhai.example.com.au"], "subject": "Xero practice manager + close automation" },
+    { "id": "ev-012", "date": "2026-11-15T05:00:00.000Z", "channel": "email", "kind": "sent", "source": "hostinger", "counterpartyEmails": ["someone@unknown-prospect.example.org"], "personName": "Unknown Prospect", "subject": "Intro — Vert" },
+    { "id": "ev-013", "date": "2026-11-18T01:30:00.000Z", "channel": "linkedin", "kind": "message_sent", "source": "gmail-linkedin-notification", "accountId": "mia-chen-bookkeeping", "contactId": "c-mia-1", "personName": "Mia Chen" },
+    { "id": "ev-014", "date": "2026-11-19T23:00:00.000Z", "channel": "email", "kind": "sent", "source": "hostinger", "accountId": "ledgerline-advisory", "contactId": "c-ledgerline-2", "counterpartyEmails": ["tom.f@ledgerline.example.com.au"], "personName": "Tom Fitzgerald", "subject": "Following up from Priya" },
+    { "id": "ev-015", "date": "2026-11-20T04:00:00.000Z", "channel": "linkedin", "kind": "connection_sent", "source": "linkedin", "accountId": "outback-gear", "contactId": "c-outback-1", "personName": "Sam Kelly" },
+    { "id": "ev-016", "date": "2026-11-21T02:25:00.000Z", "channel": "email", "kind": "reply", "source": "gmail", "accountId": "saltbush-skincare", "contactId": "c-saltbush-1", "counterpartyEmails": ["grace@saltbush.example.com.au"], "personName": "Grace Whitfield", "subject": "Re: Shopify + Amazon payout reconciliation", "snippet": "Not right now — maybe after peak season." }
+  ]
+}

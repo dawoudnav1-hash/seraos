@@ -1,0 +1,335 @@
+{
+ "accountId": "perfect-accounting-tax-services",
+ "accountName": "Perfect Accounting & Tax Services",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Perfect Accounting & Tax Services is a small, fast-growing CPA-led practice headquartered in Direk, Adelaide, with Sydney and Melbourne offices, led by Director Faisal Abbas. It publishes frequent articles on AI-driven automation, reconciliation and virtual CFO work, with a stated human-led approach and a strong emphasis on traceable reconciliations. Its bookkeeping runs on Xero, MYOB and QuickBooks.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.perfectaccounting.com.au/faisal-abbas/",
+   "title": "Faisal Abbas - Perfect Accounting and Tax Services",
+   "type": "website",
+   "publisher": "Perfect Accounting & Tax Services",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/faisalabbascpa",
+   "title": "Faisal Abbas CPA, FCCA | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-08"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.perfectaccounting.com.au/",
+   "title": "Expert Tax and Accounting Services and Consultation-Australia",
+   "type": "website",
+   "publisher": "Perfect Accounting & Tax Services",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.perfectaccounting.com.au/how-we-assess-a-bookkeeping-services-company-for-ai-risk/",
+   "title": "How We Assess a Bookkeeping Services Company for AI Risk",
+   "type": "blog",
+   "publisher": "Perfect Accounting & Tax Services",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.perfectaccounting.com.au/when-expert-accounting-signals-you-need-a-virtual-cfo/",
+   "title": "Expert Accounting for Your Growing Business",
+   "type": "blog",
+   "publisher": "Perfect Accounting & Tax Services",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.perfectaccounting.com.au/what-companies-gain-from-automated-accounting-support/",
+   "title": "Accounting Support for Companies",
+   "type": "blog",
+   "publisher": "Perfect Accounting & Tax Services",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.perfectaccounting.com.au/how-accounting-solutions-streamline-month-end-close/",
+   "title": "Accounting Solutions to Improve Business Decisions",
+   "type": "blog",
+   "publisher": "Perfect Accounting & Tax Services",
+   "date": "2026-07-06"
+  },
+  {
+   "id": "S8",
+   "url": "https://www.linkedin.com/posts/perfect-accounting-tax-services_bookkeepingservices-xeroexperts-quickbooksproadvisor-activity-7402607966320758785-kkGL",
+   "title": "Bookkeeping Isn't Just Data Entry - Perfect Accounting & Tax Services LinkedIn post",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-12-05"
+  },
+  {
+   "id": "S9",
+   "url": "https://www.perfectaccounting.com.au/xero-myob-or-quickbooks-which-is-right-for-your-business/",
+   "title": "Xero, MYOB or QuickBooks: Which Is Right for Your Business?",
+   "type": "blog",
+   "publisher": "Perfect Accounting & Tax Services",
+   "date": "2026-11-16"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Perfect Accounting & Tax Services' own site (perfectaccounting.com.au) lists its Adelaide office at 32 Cherry Avenue, Direk, SA 5110.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Perfect Accounting & Tax Services - Adelaide (Direk) 32 Cherry Avenue, Direk, SA 5110",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Faisal Abbas is currently Director of Perfect Accounting & Tax Services and leads its team.",
+   "sourceIds": [
+    "S2",
+    "S1"
+   ],
+   "quote": "Director - Perfect Accounting & Tax Services (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "The firm has offices in Adelaide, Sydney and Melbourne.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "With offices located in Adelaide, Sydney, and Melbourne, Perfect Accounting is well-positioned to support clients across Australia.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "LinkedIn data shows the firm founded in 2019 with 10-20 employees, up 80% year on year, with a workforce spread across Pakistan, Canada and Australia.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Perfect Accounting & Tax Services has 10-20 employees (+80% YoY), founded in 2019.",
+   "date": "2026-10",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "On 4 Nov 2026 the firm published how it assesses a bookkeeping company for AI risk, warning that a bank-feed dashboard can create false confidence if reconciliations remain incomplete.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "A dashboard showing current bank feeds can create false confidence if reconciliations remain incomplete or suspense accounts continue growing.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In the same article the firm says corrections should stay traceable rather than disappear into an unexplained final balance.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Corrections should remain traceable rather than disappearing into an unexplained final balance.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The article asks AI bookkeeping providers for reconciliation reports and exception queues as evidence, and separates deterministic rules from AI-generated recommendations.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We also distinguish deterministic rules from AI-generated recommendations.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The firm says its model is human-led automation: technology handles speed and pattern recognition while accountants handle interpretation and strategy.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "In practice, the best model is human-led automation.",
+   "date": "2026-07",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The firm's July 2026 month-end article argues that real-time reconciliation shifts the close from a clean-up exercise to a confirmation exercise.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "This shifts the close from a clean-up exercise to a confirmation exercise.",
+   "date": "2026-07",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The firm says it would recommend strengthening the core finance function before a Virtual CFO if bank reconciliations are late.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "if bank reconciliations are late, source documents are incomplete, payroll is inconsistent",
+   "date": "2026-09",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "The firm offers Virtual CFO services for company directors, property groups, professional firms and high-net-worth individuals.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "For company directors, property groups, professional firms and high-net-worth individuals, that shift can determine whether growth is controlled or merely busy.",
+   "date": "2026-09",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "The firm uses Xero, MYOB, QuickBooks and BGL for SMSF in its bookkeeping work.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Using Xero, MYOB, QuickBooks, and BGL for SMSF, we keep your books clean, accurate, and future-ready",
+   "date": "2025-12",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "In Nov 2026 the firm published a Xero, MYOB or QuickBooks comparison saying bank feeds and reconciliation tools reduce repetitive handling if coding remains controlled.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Bank feeds and reconciliation tools can reduce repetitive handling, provided transaction matching and coding remain controlled.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Faisal Abbas",
+   "title": "Director",
+   "contactId": "perfect-accounting-tax-services--faisal-abbas",
+   "linkedin": "https://www.linkedin.com/in/faisalabbascpa",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "The firm's 4 Nov 2026 AI-risk article insists on traceable corrections, reconciliation reports and exception queues, and warns bank-feed dashboards can hide incomplete reconciliations: this is Vert's positioning (traceable, does not guess).",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Virtual CFO articles state reconciliations must be current before CFO work; reconciliation prep is the bottleneck to its advisory offer.",
+   "claimIds": [
+    "C10",
+    "C11",
+    "C9"
+   ]
+  },
+  {
+   "text": "Human-led automation is the firm's stated model, so a reviewer-in-the-loop product fits.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "The firm already publicly claims AI-driven processes and may have its own tooling or a competing vendor; much of its content reads as templated marketing so the articles may not be written by Faisal himself.",
+   "claimIds": [
+    "C8",
+    "C13"
+   ]
+  },
+  {
+   "text": "Firm is tax-led with a high-volume, low-price consumer tax return side; Virtual CFO focus is a smaller part.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "gaps": [
+  "No job ads found for the firm.",
+  "No podcast, video, Facebook or Instagram content from Faisal Abbas found; LinkedIn activity is firm-page posts.",
+  "Exact AI or reconciliation tools used by the firm are not named; only Xero, MYOB, QuickBooks and BGL.",
+  "No news coverage or awards found."
+ ],
+ "searches": [
+  {
+   "query": "Perfect Accounting & Tax Services Faisal Abbas Adelaide",
+   "results": 10
+  },
+  {
+   "query": "site:perfectaccounting.com.au AI automation reconciliation virtual CFO",
+   "results": 10
+  },
+  {
+   "query": "Faisal Abbas CPA Perfect Accounting linkedin post OR podcast",
+   "results": 8
+  },
+  {
+   "query": "Perfect Accounting & Tax Services Adelaide job vacancy accountant bookkeeper Xero",
+   "results": 1
+  },
+  {
+   "query": "Perfect Accounting Tax Services Xero Dext MYOB partner automation tools used",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "perfect-accounting-tax-services--faisal-abbas",
+   "subject": "Traceable reconciliation at Perfect Accounting",
+   "body": "Hi Faisal,\n\nYour November piece on assessing a bookkeeping company for AI risk warns that a bank-feed dashboard can create false confidence if reconciliations are incomplete. That is the problem Vert was built around. It reconciles and cash codes with a traceable audit trail and flags what it cannot match instead of guessing, so hours of manual reconciliation become minutes with a reviewer still signing off. You describe human-led automation as the best model. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "perfect-accounting-tax-services--faisal-abbas",
+   "subject": "Re: Traceable reconciliation at Perfect Accounting",
+   "body": "Hi Faisal,\n\nFollowing up on my note last week. Your virtual CFO article says to strengthen the core finance function first if bank reconciliations are late. Is that what you see most with new virtual CFO clients, and how long does it take your team to get their reconciliations current? Happy to show how Vert shortens that in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C11"
+   ]
+  },
+  "followUp2": {
+   "contactId": "perfect-accounting-tax-services--faisal-abbas",
+   "subject": "Re: Traceable reconciliation at Perfect Accounting",
+   "body": "Hi Faisal,\n\nFinal nudge. Your month-end piece talks about turning the close into a confirmation exercise, and your team works across Xero, MYOB and QuickBooks. Does a mixed client base make that harder to keep consistent? Happy to show Vert in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C12"
+   ]
+  }
+ }
+}

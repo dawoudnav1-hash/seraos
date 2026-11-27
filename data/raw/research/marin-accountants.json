@@ -1,0 +1,365 @@
+{
+ "accountId": "marin-accountants",
+ "accountName": "Marin Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Marin Accountants is a St Kilda Road, Melbourne tax and accounting practice founded in 1981, with about 20 staff and a client base that includes property developers, family businesses and medical practitioners. Arthur Topalidis is Managing Director, having succeeded founder Bernard Marin. Its recent articles focus on property development tax and GST.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://marinaccountants.com.au/our-people/",
+   "title": "Our People | Marin Accountants Melbourne",
+   "type": "website",
+   "publisher": "Marin Accountants",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://marinaccountants.com.au/about-us/",
+   "title": "About Marin Accountants | Melbourne Accounting Firm",
+   "type": "website",
+   "publisher": "Marin Accountants",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://marinaccountants.com.au/services/",
+   "title": "Accounting Service Melbourne",
+   "type": "website",
+   "publisher": "Marin Accountants",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://marinaccountants.com.au/news/",
+   "title": "News | Marin Accountants",
+   "type": "blog",
+   "publisher": "Marin Accountants",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://marinaccountants.com.au/blog/developing-a-backyard/",
+   "title": "Developing a Backyard: a Guide for First-time Property Developers",
+   "type": "blog",
+   "publisher": "Marin Accountants",
+   "date": "2025-08-12"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/marin-accountants",
+   "title": "Marin Accountants | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://bernardmarin.com.au/images/on_accounting/BMA_ARTICLE_FOUNDER%20MOVES.pdf",
+   "title": "Marin Accountants founder moves to new role in the firm",
+   "type": "news",
+   "publisher": "Bernard Marin",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://www.crediblebusinesses.com/30124/marin-accountants",
+   "title": "Marin Accountants | Expert Accounting Services in Melbourne",
+   "type": "directory",
+   "publisher": "Credible Businesses",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://marinaccountants.com.au/wp-content/uploads/2026/10/MARIN-October-2026.pdf",
+   "title": "Marin Accountants Client Newsletter, Tax & Super, October 2026",
+   "type": "other",
+   "publisher": "Marin Accountants",
+   "date": "2026-10-01"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Marin Accountants' own site (marinaccountants.com.au) lists its office at Level 6, 432 St Kilda Rd, Melbourne VIC 3004.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 6 432 St Kilda Rd Melbourne VIC 3004 Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Arthur Topalidis CA is listed as Managing Director of Marin Accountants.",
+   "sourceIds": [
+    "S1",
+    "S8"
+   ],
+   "quote": "Arthur Topalidis CA Managing Director",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Daniel Deutsch CA is listed as a Director of Marin Accountants.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Daniel Deutsch CA Director",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Chris Maher CA is listed as a Director of Marin Accountants.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Chris Maher CA Director",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Marin describes a team of over twenty accounting and taxation professionals and over forty five years in business.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "a dedicated team of over twenty accounting and taxation professionals",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Marin lists construction and property developers among its client base, alongside family businesses, medical practitioners and SMEs.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Construction and property developers",
+   "date": null,
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In an Aug 2025 article Marin warned that first-time property developers often disregard GST obligations and margin scheme requirements.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "We often see first time property developers disregarding their GST obligations, and forgetting about the new residential property rules and margin scheme requirements.",
+   "date": "2025-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Marin has published a run of property development articles, including 'Structuring Larger Scale Property Developments For Success' on 23 Oct 2025.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Structuring Larger Scale Property Developments For Success October 23, 2025",
+   "date": "2025-10",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Marin's business services include accounting and management reporting and cash flow and profitability analyses.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Cash flow and profitability analyses",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Marin's start-up services include implementing cloud based software and reporting systems.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Implementing cloud based software and reporting systems",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Arthur Topalidis took over day-to-day running of the practice from founder Bernard Marin when Bernard stepped down as managing partner.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "He will hand over to Arthur Topalidis, who as managing partner will take day-to-day responsibility for running the practice and managing its team and clients.",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn data shows Marin founded in 1981 with 20 employees, down 3.6% year on year.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Marin Accountants employs 20 people (-3.6% YoY, -1 person), founded in 1981.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "A directory profile credits Daniel Deutsch with expertise in cloud accounting systems and family business structures.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Expertise in cloud accounting systems and family business structures.",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C14",
+   "text": "Marin's October 2026 client newsletter covers how the ATO is combining AI with quality data to match taxpayer information.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "using AI in conjunction with the ATO’s collected data is becoming an increasingly powerful tool for the ATO.",
+   "date": "2026-10",
+   "category": "content",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Arthur Topalidis",
+   "title": "Managing Director",
+   "contactId": "marin-accountants--arthur-topalidis",
+   "linkedin": null,
+   "claimIds": [
+    "C2",
+    "C11"
+   ]
+  },
+  {
+   "name": "Chris Maher",
+   "title": "Director",
+   "contactId": "marin-accountants--chris-maher",
+   "linkedin": "https://www.linkedin.com/in/chrismaherca/",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "name": "Daniel Deutsch",
+   "title": "Director",
+   "contactId": "marin-accountants--daniel-deutsch",
+   "linkedin": "https://www.linkedin.com/in/danieldeutsch1/",
+   "claimIds": [
+    "C3",
+    "C13"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Property developers are a named client segment and Marin's own articles stress GST and margin scheme pitfalls: GST coding and reconciliation on development projects is a concrete pain point.",
+   "claimIds": [
+    "C6",
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Marin offers cash flow and profitability analyses and cloud software implementation; reconciliation speed feeds those advisory outputs.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  },
+  {
+   "text": "Client newsletter engages with AI and ATO data matching, so the firm is aware of AI but frames it as a tax-risk topic.",
+   "claimIds": [
+    "C14"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Three directors received the same 'Quick chat' email on 23 Nov 2026 (Chris, Arthur, Daniel); a follow-up to Arthur should not look duplicated, and Chris and Daniel should not get a conflicting follow-up.",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Small, slightly shrinking practice (LinkedIn shows -3.6% YoY) that is tax and SMSF-led; moderate fit.",
+   "claimIds": [
+    "C5",
+    "C12"
+   ]
+  },
+  {
+   "text": "Source for Arthur taking over from the founder is undated, so the succession may be old news.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "gaps": [
+  "No LinkedIn profile found for Arthur Topalidis; search results for 'Chris Maher' returned unrelated people, so the Chris Maher LinkedIn link on the account record was not independently confirmed.",
+  "No podcast, video, Facebook or Instagram content found for any Marin director.",
+  "No current Marin job ads found.",
+  "No named practice or reconciliation tools found; only generic cloud software references.",
+  "Newsletters are syndicated from IFPA, so they say little about the directors' own views."
+ ],
+ "searches": [
+  {
+   "query": "Marin Accountants St Kilda Road Melbourne Arthur Topalidis",
+   "results": 10
+  },
+  {
+   "query": "site:marinaccountants.com.au",
+   "results": 10
+  },
+  {
+   "query": "Chris Maher OR Daniel Deutsch OR Arthur Topalidis Marin Accountants linkedin podcast",
+   "results": 3
+  },
+  {
+   "query": "Arthur Topalidis Marin Accountants Managing Director linkedin",
+   "results": 5
+  },
+  {
+   "query": "Marin Accountants Melbourne job accountant OR senior accountant OR bookkeeper St Kilda Road Xero",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "marin-accountants--arthur-topalidis",
+   "subject": "Re: Quick chat, Arthur?",
+   "body": "Hi Arthur,\n\nFollowing up on my note from earlier this week. Marin's backyard development guide warns that first-time developers often disregard GST obligations and margin scheme requirements, and you list construction and property developers among your clients. Those books carry a lot of GST coding to reconcile and check. Vert does that with a traceable audit trail, turning hours of manual reconciliation into minutes. How much of your team's time goes on it? Happy to show you in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "marin-accountants--arthur-topalidis",
+   "subject": "Re: Quick chat, Arthur?",
+   "body": "Hi Arthur,\n\nLast nudge. Marin's October newsletter covers the ATO using AI with quality data to match returns, which makes clean, reconciled client books matter more. Would 10 minutes on Vert be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C14",
+    "C9"
+   ]
+  }
+ }
+}

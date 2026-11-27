@@ -1,0 +1,245 @@
+{
+ "accountId": "verve-fitness",
+ "accountName": "VERVE Fitness",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "VERVE Fitness is a Gold Coast (Upper Coomera) home and commercial gym equipment brand, running Shopify with NetSuite and several buy-now-pay-later gateways, and planning a US launch in 2027. Natasha Saunders joined as Financial Controller in July 2025 after years as Group Financial Controller at Sliqpay. VERVE is also advertising an AI and automation specialist to automate finance workflows.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/natasha-saunders-4a0a7670",
+   "title": "Natasha Saunders - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.vervefitness.com/pages/about-us",
+   "title": "About VERVE Fitness",
+   "type": "website",
+   "publisher": "VERVE Fitness",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.vervefitness.com/pages/privacy-policy",
+   "title": "Privacy Policy - VERVE Fitness",
+   "type": "website",
+   "publisher": "VERVE Fitness",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "S4",
+   "url": "https://jobau.org/administration_gold-coast-c1005400/2026-10-verve-fitness-pty-ltd_i4238504370",
+   "title": "Procurement and logistics coordinator - VERVE Fitness",
+   "type": "job",
+   "publisher": "jobau.org",
+   "date": "2026-10-10"
+  },
+  {
+   "id": "S5",
+   "url": "https://jobau.org/finance_gold-coast-c1005400/2026-09-verve-fitness_i4201781088",
+   "title": "AI adoption & automation specialist - VERVE Fitness",
+   "type": "job",
+   "publisher": "jobau.org",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/vervefitness",
+   "title": "VERVE Fitness - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "VERVE Fitness is Australian owned and Gold Coast built, since 2017.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Australian owned, Gold Coast built, since 2017.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Natasha Saunders has been Financial Controller at VERVE Fitness since July 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Financial Controller - VERVE Fitness (Current) Jul 2025 - Present",
+   "date": "2025-07",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Before VERVE, Natasha was Group Financial Controller at Sliqpay for nearly nine years.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Group Financial Controller - Sliqpay Oct 2016 - Jul 2025",
+   "date": "2025-07",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "VERVE's business systems providers include NetSuite and HubSpot.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "our business systems providers: NetSuite, HubSpot, Podium, Aircall, Microsoft 365 and Cloudflare.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "VERVE takes payments through Shopify Payments, PayPal, Afterpay, Zip, Latitude, Humm and Stripe.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "payment and buy now, pay later providers: Shopify Payments, PayPal, Afterpay, Zip, Latitude, Humm and Stripe;",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "VERVE's October 2026 ad says it launches in the US in 2027.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "we launch in the US in 2027",
+   "date": "2026-10",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The procurement ad covers about 150 open POs and six containers a month from China and a weekly payment pack matched PI to PO to bill.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "The weekly deposit and balance payment pack, matched PI to PO to bill, first time",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "In September 2026 VERVE advertised for a technologist to automate finance, sales and marketing workflows with Python and APIs.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "seeking an operator technologist to automate workflows across finance, sales and marketing using Python and API integrations.",
+   "date": "2026-09",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "LinkedIn lists 25 VERVE employees, up 20.7% year on year, across Australia, Brazil, the Philippines and the UK.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "VERVE Fitness employs 25 people (+20.7% YoY, +6 people)",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Natasha Saunders",
+   "title": "Financial Controller",
+   "contactId": "verve-fitness--natasha-saunders",
+   "linkedin": "https://linkedin.com/in/natasha-saunders-4a0a7670",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "New controller on NetSuite with Shopify and several BNPL and card gateways, with a US launch ahead: payout and multi-entity reconciliation load is about to grow.",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Import-heavy model: PO, PI and bill matching and container costs feed the ledger.",
+   "claimIds": [
+    "C7"
+   ]
+  },
+  {
+   "text": "VERVE is already looking at automating finance workflows, so the timing for a purpose-built tool is live.",
+   "claimIds": [
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "VERVE is hiring an in-house automation specialist for finance workflows (possible build-vs-buy competitor); NetSuite is the ledger so Vert must complement it.",
+   "claimIds": [
+    "C8",
+    "C4"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts by Natasha about VERVE's close found.",
+  "No press coverage of finance operations found.",
+  "Only LinkedIn confirms headcount (25 vs 36 in account notes)."
+ ],
+ "searches": [
+  {
+   "query": "VERVE Fitness Gold Coast Natasha Saunders Financial Controller NetSuite",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "verve-fitness--natasha-saunders",
+   "subject": "Payout reconciling at VERVE with NetSuite",
+   "body": "Hi Natasha,\n\nSaw you joined VERVE as Financial Controller last July after years as Group Financial Controller at Sliqpay. With NetSuite behind the store, payouts from Afterpay, Zip and Stripe, and a US launch planned for 2027 I'd guess month-end reconciling is growing quickly. I've spent the past year asking finance leaders why AI automation in accounting sticks or quietly fails. That became Vert, which reconciles and cash codes 2x faster and works alongside NetSuite rather than replacing it. How much of your close is payout and gateway matching today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "verve-fitness--natasha-saunders",
+   "subject": "Re: Payout reconciling at VERVE with NetSuite",
+   "body": "Hi Natasha,\n\nFollowing up on my note last week. A recent VERVE ad has your procurement coordinator matching PI to PO to bill for the weekly payment pack. After years running finance at Sliqpay you know someone still has to tie those payments back to the bank and ledger. Vert does that matching with a trace. Is that done in-house today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "verve-fitness--natasha-saunders",
+   "subject": "Re: Payout reconciling at VERVE with NetSuite",
+   "body": "Hi Natasha,\n\nLast note from me. I saw VERVE is hiring someone to automate finance workflows with Python and APIs. If reconciling is on that list, Vert may save the build time. Worth 10 min?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C2"
+   ]
+  }
+ }
+}

@@ -1,0 +1,301 @@
+{
+ "accountId": "afp-advisory-group",
+ "accountName": "AFP Advisory Group",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "AFP Advisory Group (AFP Accounting, Tax & Business Advisory) is a Sydney firm headquartered in Norwest, serving high-net-worth family groups and medium-scale enterprises, with a Virtual CFO line and a finance and loans division. Alex Flyak has been Managing Partner since 2014. The team is very small (about 5 on LinkedIn) and part of the bookkeeping workforce is in the Philippines. Recent LinkedIn posts cover the 2026-27 Budget and business lending.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://afpaccounting.com.au/",
+   "title": "AFP Accounting, Tax & Business Advisory | Sydney Advisors",
+   "type": "website",
+   "publisher": "AFP Accounting",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://afpaccounting.com.au/alex-flyak/",
+   "title": "Alex Flyak - AFP Accounting, Tax & Business Advisory",
+   "type": "website",
+   "publisher": "AFP Accounting",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://afpaccounting.com.au/virtual-cfo/",
+   "title": "Virtual CFO - AFP Accounting",
+   "type": "website",
+   "publisher": "AFP Accounting",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/company/afp-accounting",
+   "title": "AFP Advisory Group - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-05-20"
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/alexander-flyak",
+   "title": "Alexander Flyak - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "S6",
+   "url": "https://afpaccounting.com.au/news/",
+   "title": "News - AFP Accounting",
+   "type": "blog",
+   "publisher": "AFP Accounting",
+   "date": "2026-05-20"
+  },
+  {
+   "id": "S7",
+   "url": "https://afpaccounting.com.au/about/",
+   "title": "About - AFP Accounting",
+   "type": "website",
+   "publisher": "AFP Accounting",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "AFP is an integrated accounting, tax and advisory firm in Sydney serving high-net-worth family groups and medium-scale enterprises.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We are an integrated professional accounting, taxation and advisory firm in Sydney, Australia.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "AFP's HQ is in Norwest, NSW, with a second office at Barangaroo.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "HQ - Suite 5.03, Level 5, Infinity Park Commercial, 7 Maitland Place, Norwest, NSW 2153",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Alex Flyak became Managing Partner of AFP in 2014 and is listed as a current Director on LinkedIn (updated Nov 2026).",
+   "sourceIds": [
+    "S2",
+    "S5"
+   ],
+   "quote": "Alex became the Managing Partner of AFP in 2014",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Alex is a Chartered Accountant and Chartered Tax Advisor with a stated interest in developing and connecting future leaders inside and outside the AFP team.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Alex has a particular interest and passion for developing and connecting future leaders – both inside and outside of the AFP team.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "AFP offers a Virtual CFO service that includes software solutions and management reporting.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "From software solutions to help streamline your processes, to financial and management reporting to keep you updated on your financial performance, AFP’s Virtual CFOs are here to help.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "AFP's Virtual CFO page says its software solutions use technology to deliver services quickly and efficiently.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "use technology to provide our services as quickly and efficiently as possible",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "AFP posted on LinkedIn on 20 May 2026 about reforms in the 2026-27 Federal Budget affecting CGT, negative gearing and trusts.",
+   "sourceIds": [
+    "S4",
+    "S6"
+   ],
+   "quote": "The 2026–27 Federal Budget has introduced major reforms to CGT, negative gearing, and trust taxation",
+   "date": "2026-05-20",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "AFP posted on LinkedIn on 1 May 2026 about what lenders focus on in business loans, including cash flow sustainability.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Clear use of funds ✅ Cash flow sustainability ✅ Loan structure (not just rate)",
+   "date": "2026-05-01",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "AFP's workforce is distributed across Australia and the Philippines (LinkedIn company data), and an AU Bookkeeper based in the Philippines lists AFP as current employer.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Its workforce is distributed across Australia and Philippines.",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "AFP's team page lists a Bookkeeping & Business Administration Manager (Carly Martin).",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Carly Martin Bookkeeping & Business Administration Manager",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn company data lists Xero and MYOB in AFP's tech stack (third-party aggregated data).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Tech Stack: amp, impact, microsoft, mix, myob, well, xero",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "AFP is very small: LinkedIn shows 5 employees, down 14.3% year on year.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "AFP Advisory Group employs 5 people (-14.3% YoY, -1 person), founded in 2011.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Alexander Flyak",
+   "title": "Managing Partner / Director",
+   "contactId": "afp-advisory-group--alexander-flyak",
+   "linkedin": "https://www.linkedin.com/in/alexander-flyak",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Virtual CFO offering rests on management reporting; part of the bookkeeping team is offshore in the Philippines, so review of reconciliations is a likely time sink (inference).",
+   "claimIds": [
+    "C5",
+    "C9"
+   ]
+  },
+  {
+   "text": "May 2026 LinkedIn posts on the Budget and on lender expectations (cash flow sustainability) show the firm talks to clients about cash flow and structuring.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Alex's stated interest in developing future leaders may suit a pitch about freeing junior staff from manual reconciling.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small team (5 on LinkedIn, shrinking) and HNW/tax/structuring focus; weak volume fit for reconciliation tooling.",
+   "claimIds": [
+    "C12",
+    "C1"
+   ]
+  },
+  {
+   "text": "Offshore bookkeeping may mean reconciliations are handled by a BPO provider who might not adopt new tools.",
+   "claimIds": [
+    "C9"
+   ]
+  }
+ ],
+ "gaps": [
+  "No blog posts or podcast appearances by Alex found beyond the firm's news page.",
+  "No public job ads found; careers page lists no open roles.",
+  "No Facebook/Instagram activity found.",
+  "Tech stack (Xero/MYOB) only from an aggregator, not AFP itself."
+ ],
+ "searches": [
+  {
+   "query": "site:afpaccounting.com.au home, about, careers, virtual CFO",
+   "results": 5
+  },
+  {
+   "query": "Alexander Flyak AFP Advisory Group director Sydney accountant",
+   "results": 8
+  },
+  {
+   "query": "AFP Accounting Tax & Business Advisory Norwest news OR careers OR Xero OR Philippines team",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "afp-advisory-group--alexander-flyak",
+   "subject": "Reconciling behind AFP's Virtual CFO work",
+   "body": "Hi Alex,\n\nNoticed AFP's May post on the 2026–27 Budget reforms to CGT, negative gearing and trusts, and that your Virtual CFO service leans on management reporting. That reporting is only as good as the reconciliations underneath it, and with part of your bookkeeping team in the Philippines, I'd guess review time is where the hours go. I built Vert to turn hours of manual reconciliation into minutes, with a traceable trail and no guessing on coding. Do you review offshore reconciliations by hand today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C5",
+    "C9",
+    "C3"
+   ]
+  },
+  "followUp": {
+   "contactId": "afp-advisory-group--alexander-flyak",
+   "subject": "Re: Reconciling behind AFP's Virtual CFO work",
+   "body": "Hi Alex,\n\nFollowing up on my note. Your May LinkedIn post on what lenders look for in a business loan listed cash flow sustainability, and that starts with clean, reconciled books. Vert reconciles and cash codes with a traceable trail, so whoever prepares the numbers, you can trust them quickly. Open to a 10 min walkthrough this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "afp-advisory-group--alexander-flyak",
+   "subject": "Re: Reconciling behind AFP's Virtual CFO work",
+   "body": "Hi Alex,\n\nLast note from me. You care about developing future leaders in the AFP team, and taking reconciliation off junior bookkeepers is one way to give them time for higher-value work. Vert handles it in minutes with a traceable trail. Open to a quick look, or happy to leave it with you.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C9"
+   ]
+  }
+ }
+}

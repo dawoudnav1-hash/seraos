@@ -1,0 +1,312 @@
+{
+ "accountId": "mny-group-chartered-accountants",
+ "accountName": "MNY Group Chartered Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "MNY Group is a Chartered Accountants firm founded in Melbourne in 2011 by Director Ben Gu, now with offices in several states and a workforce spread across Australia and India. It claims 2500+ company, trust and SMSF clients and offers a Virtual CFO service with management reporting and cloud accounting. Ben's current LinkedIn positioning is cross-border tax and M&A for foreign groups entering Australia.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://mnygroup.com.au",
+   "title": "MNY Group Chartered Accountants",
+   "type": "website",
+   "publisher": "MNY Group",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://mnygroup.com.au/en/melbourne-virtual-cfo-service/",
+   "title": "Melbourne Virtual CFO Service - MNY Group",
+   "type": "website",
+   "publisher": "MNY Group",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/ben-gu-mny",
+   "title": "Ben Gu - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "S4",
+   "url": "https://mnygroup.com.au/en/team/ben-gu/",
+   "title": "Ben Gu - MNY Group Chartered Accountants",
+   "type": "website",
+   "publisher": "MNY Group",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://mnygroup.com.au/en/accountant-recruitment/",
+   "title": "Accountant Recruitment - MNY Group",
+   "type": "job",
+   "publisher": "MNY Group",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/mny-group-chartered-accountants",
+   "title": "MNY Group Chartered Accountants - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://mnygroup.com.au/en/contact-us/melbourne-accountant-office/",
+   "title": "Melbourne Accountant Office - MNY Group",
+   "type": "website",
+   "publisher": "MNY Group",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://mnygroup.com.au/en/team/scarlett-wang/",
+   "title": "Scarlett Wang - MNY Group",
+   "type": "website",
+   "publisher": "MNY Group",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "MNY Group's Melbourne office is its inaugural office, established 2011, at Suite 1130, Level 11, 1 Queens Road, Melbourne VIC 3004 (the account record's 448 St Kilda Rd address appears out of date).",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "MNY Group Chartered Accountants Melbourne represents the inaugural office of MNY Group, established in 2011.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Ben Gu is listed as Founder and Director of MNY Group on the firm's site.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Ben Gu is the Founder and Director of MNY Group",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Ben Gu's LinkedIn (indexed Nov 2026) lists him as current Director of MNY Group since Sep 2011.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Director - MNY Group Chartered Accountants (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Ben's LinkedIn headline positions him in cross-border tax and M&A, advising foreign groups entering Australia.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Cross-Border Tax & M&A | Advising foreign groups entering Australia and businesses through financing, acquisitions, sales and restructures",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Ben leads inbound establishment and tax structuring work for foreign-owned groups.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Inbound establishment and tax structuring for foreign-owned groups: entity and funding structure, transfer pricing, withholding tax",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Ben's LinkedIn says he leads the firm's work with offices in Brisbane, Hobart, Melbourne, Perth and Sydney.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "with offices in Brisbane, Hobart, Melbourne, Perth and Sydney",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm's site claims 2500+ companies, trusts and SMSFs among its clients.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "2500+ companies, trusts and SMSFs",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "MNY offers a Virtual CFO service covering regular management accounting reports, budget variance analysis and cloud accounting support.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Regular Management Accounting Reports Budget Monitoring & Variance Analysis",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "The Virtual CFO page says clients can outsource transaction processing, general ledger maintenance and month-end reporting to MNY's accountants.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Outsourcing your accounts receivable and payable, transaction processing, general ledger maintenance, company secretarial services, payroll and month-end reporting",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "MNY's accountant job ad lists planning and reviewing BAS, tax returns, financial and management reports, and describes a paperless and cloud office system.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Plan and review business activity statement, tax return, financial report and management report",
+   "date": "2026-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "MNY accountants work with Xero, MYOB and QuickBooks.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "She is familiar with major accounting softwares such as Xero, MYOB, QuickBooks.",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn shows MNY at 13 employees (11-50 band), with a workforce distributed across Australia, India and Kuwait.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Its workforce is distributed across Australia, India, and Kuwait.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Ben Gu",
+   "title": "Founder and Director",
+   "contactId": "mny-group-chartered-accountants--ben-gu",
+   "linkedin": "https://www.linkedin.com/in/ben-gu-mny",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Ben leads cross-border tax and structuring work for foreign-owned groups; those multi-entity groups need clean monthly reconciliations before anything is reported.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Virtual CFO offering promises management reports and variance analysis built on outsourced transaction processing and month-end, which depends on fast, trustworthy reconciliation.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Large client list (2500+ companies, trusts, SMSFs) against a small team implies a heavy reconciliation load per head.",
+   "claimIds": [
+    "C7",
+    "C12"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Fit is tax/structuring/advisory led; Ben's own positioning is M&A and cross-border tax rather than bookkeeping, so he may not own the reconciliation workflow.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Account record address (448 St Kilda Rd) differs from the firm's current Melbourne office (1 Queens Rd); only one contact is on record.",
+   "claimIds": [
+    "C1"
+   ]
+  }
+ ],
+ "gaps": [
+  "No blog, podcast, news or Facebook content from the last 12 months; the Nov 2026 LinkedIn post 'From our Director, Ben Gu.' had no readable text.",
+  "No evidence of an AI reconciliation tool or tools beyond Xero/MYOB/QuickBooks.",
+  "No Xero partner or award listings checked."
+ ],
+ "searches": [
+  {
+   "query": "fetch: mnygroup.com.au home and Melbourne office page",
+   "results": 2
+  },
+  {
+   "query": "Ben Gu MNY Group Chartered Accountants Melbourne director",
+   "results": 10
+  },
+  {
+   "query": "MNY Group Chartered Accountants jobs bookkeeper accountant Melbourne Xero",
+   "results": 2
+  },
+  {
+   "query": "fetch: Ben Gu LinkedIn post 2026-11-10 and team page",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "mny-group-chartered-accountants--ben-gu",
+   "subject": "Reconciliation behind MNY's Virtual CFO reports",
+   "body": "Hi Ben,\n\nI noticed MNY's Virtual CFO page promises regular management reports and variance analysis, and that the firm lists 2500+ companies, trusts and SMSFs as clients. That is a lot of reconciling feeding the cross-border and structuring work you lead. I built Vert to turn hours of manual reconciliation into minutes, with an audit trail that shows why each match was made. How much of your team's month goes on reconciling before those management reports can go out?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "mny-group-chartered-accountants--ben-gu",
+   "subject": "Re: Reconciliation behind MNY's Virtual CFO reports",
+   "body": "Hi Ben,\n\nFollowing up on my note last week. Your LinkedIn says you lead inbound establishment and tax structuring for foreign-owned groups. Those groups tend to arrive with several entities and a month end that has to tie out before anything is reported. How does your team handle reconciliation for them today? Happy to show Vert on a sample ledger in a ten minute walkthrough.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C4"
+   ]
+  },
+  "followUp2": {
+   "contactId": "mny-group-chartered-accountants--ben-gu",
+   "subject": "Re: Reconciliation behind MNY's Virtual CFO reports",
+   "body": "Hi Ben,\n\nOne last note. MNY's Virtual CFO page offers to take on month-end reporting, and your accountant job ad lists management reports as core work. Vert could take the reconciliation step out of both. Would a ten minute look be useful, or is the timing wrong?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ }
+}

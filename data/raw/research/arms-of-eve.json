@@ -1,0 +1,227 @@
+{
+ "accountId": "arms-of-eve",
+ "accountName": "Arms Of Eve",
+ "status": "complete",
+ "summary": "Arms Of Eve is a Sydney tarnish-free and waterproof jewellery brand founded in 2017, selling online and through a growing boutique network (NSW, Queensland, WA), with Point King Capital as a minority investor since late 2024. It advertised for a Financial Controller in February 2025; Selina Chin is listed at the firm in a finance role (Head of Finance in our records, Financial Controller on a directory), so her exact title is unconfirmed.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://armsofeve.com/pages/about-us",
+   "title": "Who We Are - Arms Of Eve",
+   "type": "website",
+   "publisher": "Arms Of Eve",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/arms-of-eve",
+   "title": "Arms Of Eve | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://rocketreach.co/arms-of-eve-competitors_b4793e35fc2aedd0",
+   "title": "Arms Of Eve Competitors | RocketReach",
+   "type": "directory",
+   "publisher": "RocketReach",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.abl.com.au/insights-and-news/arms-of-eve-secures-strategic-investment-from-point-king-capital/",
+   "title": "Arms of Eve secures investment from Point King Capital",
+   "type": "news",
+   "publisher": "Arnold Bloch Leibler",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://armsofeve.com/pages/our-boutiques",
+   "title": "Our Boutiques - Arms Of Eve",
+   "type": "website",
+   "publisher": "Arms Of Eve",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Arms Of Eve's own site says the brand was founded in 2017 by Kerryn Langer as an Australian-born jewellery and lifestyle brand with tarnish-free, waterproof pieces.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Founded in 2017 by Kerryn Langer, Arms Of Eve is an Australian-born jewellery and lifestyle brand",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Arms Of Eve's LinkedIn page says it is headquartered in Sydney and employs about 40 people, up 26.8% year on year.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Headquartered in Sydney, New South Wales, Australia.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "A RocketReach directory lists Selina Chin at Arms Of Eve as Financial Controller in Sydney (our records say Head of Finance).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Financial Controller at Arms Of Eve",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "In February 2025 Arms Of Eve advertised on LinkedIn for a qualified Financial Controller to join its growing business, describing the ideal candidate as a financial Swiss-Army knife.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "qualified financial Swiss-Army knife",
+   "date": "2025-02",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "Law firm ABL advised founders Aaron and Kerryn Langer on private equity firm Point King Capital's investment in Arms Of Eve, which had recently opened a Noosa store.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Arnold Bloch Leibler has advised Arms of Eve founders, Aaron and Kerryn Langer, on the recent investment by private equity firm Point King Capital.",
+   "date": "2024-12",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "In May 2026 Arms Of Eve advertised for casual sales assistants for its Claremont (WA) boutique, saying it continues to grow.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "As Arms Of Eve continues to grow, we’re looking for creative, kind and fashion-loving individuals to join our retail team at our Claremont",
+   "date": "2026-05",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Arms Of Eve's boutiques page lists stores in NSW (Bondi Junction, Chatswood, Mosman, Sydney CBD), Queensland (Noosa, Pacific Fair) and Western Australia (Claremont).",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Pacific Fair",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Selina Chin",
+   "title": "Head of Finance (records) / Financial Controller (RocketReach)",
+   "contactId": "arms-of-eve--selina-chin",
+   "linkedin": "https://www.linkedin.com/in/selina-chin-9b1b55",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Boutique roll-out across three states plus online means many sources of takings and payouts at month-end.",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "text": "Private equity backing from Point King Capital raises the bar for investor-ready, auditable reporting.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "The 2025 Financial Controller ad describes a small team carrying a broad remit, so offloading reconciliations is attractive.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Selina Chin's title and current employment could not be confirmed from a primary source (LinkedIn profile not fetchable; RocketReach says Financial Controller); the Financial Controller ad may have been filled by someone else.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Point King Capital investment and the ABL note date from December 2024, so details may be dated.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "gaps": [
+  "Selina Chin's LinkedIn profile or posts could not be fetched.",
+  "Finance systems (Xero, Shopify, Cin7) appear only in a third-party tech profile, so they are not used in drafts.",
+  "No podcast, press or Facebook content about the finance function found."
+ ],
+ "searches": [
+  {
+   "query": "Arms of Eve Selina Chin Head of Finance Point King Capital",
+   "results": 10
+  },
+  {
+   "query": "Arms Of Eve Financial Controller job Sydney Bondi Junction Xero Shopify",
+   "results": 8
+  },
+  {
+   "query": "armsofeve.com about-us and LinkedIn company page (fetch)",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "arms-of-eve--selina-chin",
+   "subject": "Boutique and online close at Arms Of Eve",
+   "body": "Hi Selina,\n\nArms Of Eve adding boutiques across NSW, Queensland and WA, with Claremont hiring this year, means each store's takings and your online payouts all have to land in the ledger at month-end. With Point King Capital now investing in the business, that close presumably needs to be investor-ready too. I built Vert to turn 4 hours of manual reconciliation into 5 minutes, with every match traceable rather than guessed. How much of your close goes on store and online payout reconciliation today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  "followUp": {
+   "contactId": "arms-of-eve--selina-chin",
+   "subject": "Re: Boutique and online close at Arms Of Eve",
+   "body": "Hi Selina,\n\nFollowing up on my note last week. Arms Of Eve advertised in February 2025 for a qualified financial Swiss-Army knife, which tells me a small finance team carries a lot. Reconciliations are the easiest piece to hand off: Vert matches and cash codes with an audit trail, so you review exceptions only. Would a 10 minute walkthrough make sense?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  "followUp2": {
+   "contactId": "arms-of-eve--selina-chin",
+   "subject": "Re: Boutique and online close at Arms Of Eve",
+   "body": "Hi Selina,\n\nLast nudge from me. With Point King Capital backing the business, a clean and auditable month-end matters as much as a fast one. If it would help to see Vert reconcile a boutique's month on your own data, I am happy to set it up. If now is not the time, no worries.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C6"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

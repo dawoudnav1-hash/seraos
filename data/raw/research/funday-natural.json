@@ -1,0 +1,351 @@
+{
+ "accountId": "funday-natural",
+ "accountName": "Funday Natural",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Funday is a Melbourne-founded better-for-you candy brand (est. 2020) that launched into 1,300 US Target stores on 13 September 2026. Kylie Peck is its part-time Head of Finance (since Oct 2023) and the finance team has added a Commercial Accountant. Founder Daniel Kitay has spoken publicly about stock cycles, payment terms and cash flow pressure from growth.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.smartcompany.com.au/retail/funday-aussie-lollies-1300-target-stores-us-expansion/",
+   "title": "Funday takes its Aussie lollies to 1,300 Target stores in the US",
+   "type": "news",
+   "publisher": "SmartCompany",
+   "date": "2026-09-03"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.foodanddrinkbusiness.com.au/news/defying-the-odds-sustaining-growth-in-2024-and-beyond",
+   "title": "Defying the odds: Sustaining growth in 2024 and beyond",
+   "type": "news",
+   "publisher": "Food & Drink Business",
+   "date": "2024-06-03"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/kyliepeck1",
+   "title": "Kylie Peck - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/daniel-kitay_were-hiring-an-accountant-know-someone-activity-7213719506118959104-kmki",
+   "title": "Daniel Kitay: We're hiring an accountant",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2024-07-02"
+  },
+  {
+   "id": "S5",
+   "url": "https://insideretail.com.au/business/funday-founder-on-how-has-retail-changed-since-covid-and-remained-the-same-202503",
+   "title": "Funday founder on how retail has changed since Covid",
+   "type": "news",
+   "publisher": "Inside Retail Australia",
+   "date": "2025-03-26"
+  },
+  {
+   "id": "S6",
+   "url": "https://au.linkedin.com/company/funday-natural-sweets",
+   "title": "FUNDAY Natural Sweets - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2024-08-16"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.linkedin.com/posts/daniel-kitay_massive-moment-celebrating-the-launch-of-activity-7509109049150464000-My3i",
+   "title": "Daniel Kitay: Massive moment celebrating the launch of FUNDAY across Target stores",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-09-25"
+  },
+  {
+   "id": "S8",
+   "url": "https://linkedin.com/in/natasha-pinto-a5b41199",
+   "title": "Natasha Pinto - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://fundaysweets.com",
+   "title": "FUNDAY Natural Sweets",
+   "type": "website",
+   "publisher": "Funday Natural Sweets",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Funday is a Melbourne-founded confectionery brand, launched in 2020 by founder Daniel Kitay.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Melbourne-founded confectionery brand Funday will launch in 1,300 Target stores across the US",
+   "date": "2026-09",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Kylie Peck is Head of Finance (Part-time) at Funday, in the role since October 2023 and shown as current.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Oct 2023 - Present (3 years)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Funday made its debut in 1,300 US Target stores from 13 September 2026.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Funday Natural Sweets making its debut in 1,300 Target stores from September 13",
+   "date": "2026-09",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Daniel Kitay says Funday achieved $100 million in sales over the past 12 months.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "We’ve achieved $100 million in sales over the past 12 months",
+   "date": "2026-09",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Daniel Kitay said at the 2024 Naturally Good summit that FMCG is capital-intensive, citing stock working cycles and payment terms.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "particularly when you start talking about working cycles of stock and payment terms",
+   "date": "2024-06",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "In July 2024 Daniel Kitay posted an accountant role reporting to Finance Manager Kylie Peck.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Reporting to the most wonderful Finance Manager Kylie Peck",
+   "date": "2024-07",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In February 2025 Funday advertised a part-time Commercial Accountant to optimise costings, margins and financial insights (reposted by Kylie Peck).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "we’re looking for a Part-Time Commercial Accountant to dive deep into the numbers",
+   "date": "2025-02",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Funday's tech stack includes Shopify and Xero.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Tech Stack: google sheets, linkedin, packer, tiktok, facebook, gorgias, yotpo, rave, shopify, canva, figma, impact, instagram, mix, xero",
+   "date": "2024-08",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Daniel Kitay says Shopify has been a key part of Funday's online growth.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Shopify has been a key part of our online growth",
+   "date": "2025-03",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Funday is stocked in over 7000 stores across Australia and New Zealand, including Woolworths, Coles and Chemist Warehouse.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "we’re stocked in over 7000 stores across Australia and New Zealand",
+   "date": "2025-03",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Daniel Kitay says growth brought major pressure on inventory, cash flow and building systems and processes.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "That level of growth brought major pressure, from managing inventory and cash flow to hiring a team",
+   "date": "2025-03",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "Daniel Kitay posted on LinkedIn in September 2026 about sampling products to Target employees at their Minneapolis HQ.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Samples thousands of products to Target employees at their Minneapolis HQ.",
+   "date": "2026-09",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C13",
+   "text": "Funday makes sugar-free, Aussie-made lollies sold with a no-added-sugar, no-sugar-alcohol positioning.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "No sugar added. 100% tasty.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C14",
+   "text": "Natasha Pinto joined Funday as Commercial Accountant in May 2025.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Commercial Accountant - FUNDAY™ Natural Sweets (Current)",
+   "date": "2025-05",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Kylie Peck",
+   "title": "Head of Finance (part-time)",
+   "contactId": "funday-natural--kylie-peck",
+   "linkedin": "https://linkedin.com/in/kyliepeck1",
+   "claimIds": [
+    "C2",
+    "C6",
+    "C7"
+   ]
+  },
+  {
+   "name": "Daniel Kitay",
+   "title": "Founder",
+   "contactId": null,
+   "linkedin": null,
+   "claimIds": [
+    "C1",
+    "C4",
+    "C5",
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "US Target launch (1,300 stores, Sept 2026) adds US/USD retailer volume on top of a lean part-time-led finance team",
+   "claimIds": [
+    "C3",
+    "C2",
+    "C14"
+   ]
+  },
+  {
+   "text": "Kitay publicly ties growth to stock cycles and payment terms - cash and reconciliation discipline matter to him",
+   "claimIds": [
+    "C5",
+    "C11"
+   ]
+  },
+  {
+   "text": "Finance team has grown (Commercial Accountant added) - team scaling with the business",
+   "claimIds": [
+    "C7",
+    "C14"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Part-time Head of Finance, so reply timing may be slow; founder Daniel Kitay is a possible sponsor",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or post from Kylie Peck about close or tooling found",
+  "No confirmation of current finance job ads",
+  "Xero source is a third-party tech-stack listing"
+ ],
+ "searches": [
+  {
+   "query": "Funday Natural Sweets Target US launch 1,300 stores Daniel Kitay",
+   "results": 6
+  },
+  {
+   "query": "Funday Natural Kylie Peck Head of Finance",
+   "results": 6
+  },
+  {
+   "query": "fundaysweets.com site fetch",
+   "results": 1
+  },
+  {
+   "query": "Funday Daniel Kitay working capital interview",
+   "results": 5
+  },
+  {
+   "query": "Funday finance accountant job Xero",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "funday-natural--kylie-peck",
+   "subject": "Funday's Target launch and month-end",
+   "body": "Hi Kylie,\n\nCongratulations on Funday landing in 1,300 Target stores. Daniel has said FMCG growth comes down to the working cycles of stock and payment terms, and a US rollout on top of Shopify and Xero sounds like a lot of payouts and USD to reconcile each month. I built Vert, which turns hours of manual reconciliation into minutes with a traceable audit trail, so a lean finance team can close faster without a tool guessing. How much of your month-end still goes on reconciling before you reach the numbers behind the margins?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C5",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "funday-natural--kylie-peck",
+   "subject": "Re: Funday's Target launch and month-end",
+   "body": "Hi Kylie,\n\nFollowing up on my note last week. I saw Natasha joined as Commercial Accountant after the part-time role was advertised, so the finance team is growing alongside the business. Where does close time go now: Shopify and retailer payouts, or stock and cash tie-outs? Happy to show you how Vert handles either in ten minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C14",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "funday-natural--kylie-peck",
+   "subject": "Re: Funday's Target launch and month-end",
+   "body": "Hi Kylie,\n\nLast nudge from me. Daniel's LinkedIn post about sampling products at Target HQ in Minneapolis suggests the US side is just getting started. If a faster, traceable close sounds useful, I can walk you through Vert in ten minutes this week or next.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C12",
+    "C3"
+   ]
+  }
+ }
+}

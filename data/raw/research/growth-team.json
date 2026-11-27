@@ -1,0 +1,246 @@
+{
+ "accountId": "growth-team",
+ "accountName": "Growth Team",
+ "status": "complete",
+ "summary": "Growth Team is a small Chadstone (Melbourne) accounting and growth advisory firm led by founder Nadi Elias, a Xero Certified Advisor and author. It offers outsourced accounting, tax, growth advisory and virtual CFO for hospitality, eCommerce, creatives and professional services clients, with a team across Australia and the Philippines.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/company/growthteamgroup",
+   "title": "Growth Team | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/nadielias",
+   "title": "Nadi Elias | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://growthteam.com.au/about/",
+   "title": "About - Growth Team",
+   "type": "website",
+   "publisher": "Growth Team",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://growthteam.com.au/services/accounts-bookkeeping/",
+   "title": "Accounts & Bookkeeping - Growth Team",
+   "type": "website",
+   "publisher": "Growth Team",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://growthteam.com.au/industries/ecommerce/",
+   "title": "eCommerce - Growth Team",
+   "type": "website",
+   "publisher": "Growth Team",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://growthteam.com.au/services/virtual-cfo/",
+   "title": "Virtual CFO - Growth Team",
+   "type": "website",
+   "publisher": "Growth Team",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Growth Team's LinkedIn page gives its headquarters as Chadstone, Victoria, with a presence in the Philippines.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Headquartered in Chadstone, Victoria, Australia, with presence in Philippines.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Nadi Elias's LinkedIn shows him as Founder and CEO of Growth Team, current, since July 2013.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Jul 2013 - Present (13 years and 4 months)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Nadi Elias is the author of the book Count More Beans, a guide to profit and cash for cafe owners.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Nadi is the author of the book Count More Beans",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Nadi's LinkedIn About says most founders have a clarity problem rather than a numbers problem.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Most founders don’t have a numbers problem. They have a clarity problem.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Growth Team's bookkeeping service includes reconciling data feeds from banks, financial institutions and suppliers.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Reconciling Data feeds from your bank, financial institutions, and suppliers",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "For eCommerce clients, Growth Team hand-picks accounting and business software that plugs into their store.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "handpicking the finest accounting and business management software that plug into your eCommerce store",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Growth Team's virtual CFO service promises the support of a CFO without the price tag.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Giving you all the support of a CFO, without the price-tag.",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Growth Team's workforce is distributed across Australia and the Philippines.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Its workforce is distributed across Australia and Philippines.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Nadi Elias holds a Xero Certified Advisor certification, issued December 2011.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Xero Certified Advisor by Xero",
+   "date": "2011-12",
+   "category": "tech",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Nadi Elias",
+   "title": "Founder and CEO",
+   "contactId": "growth-team--nadi-elias",
+   "linkedin": "https://www.linkedin.com/in/nadielias",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "eCommerce clients with software plugged into stores means many data feeds to reconcile each month.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  },
+  {
+   "text": "Virtual CFO margin depends on books being ready fast; offshore team adds review load.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Nadi frames the problem as clarity, which depends on timely clean books.",
+   "claimIds": [
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small firm (about 5 staff, shrinking per LinkedIn), limited deal size.",
+   "claimIds": [
+    "C1"
+   ]
+  },
+  {
+   "text": "An earlier email already went out on 23 Nov with no recorded reply.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent dated posts by Nadi or the firm found; no podcast hit for this search.",
+  "No job ads found.",
+  "No Xero partner tier or news coverage found."
+ ],
+ "searches": [
+  {
+   "query": "Growth Team Chadstone accountants Nadi Elias virtual CFO ecommerce",
+   "results": 10
+  },
+  {
+   "query": "growthteam.com.au home (fetch)",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "growth-team--nadi-elias",
+   "subject": "Re: Idea for Growth Team",
+   "body": "Hi Nadi,\n\nFollowing up on my note last week. Growth Team hand-picks software that plugs into clients' eCommerce stores, which means a lot of data feeds landing in the ledger each month. Vert reconciles those feeds with an audit trail you can show a founder, so your team spends its time on the clarity conversation you talk about. Would a short walkthrough be worthwhile?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "growth-team--nadi-elias",
+   "subject": "Re: Idea for Growth Team",
+   "body": "Hi Nadi,\n\nLast one from me. Your virtual CFO offer promises CFO support without the price tag, and that margin depends on how fast the books are ready. If your Australia and Philippines team still spends hours on bank and supplier feeds, I would love to show Vert doing it in about 5 minutes. No pressure otherwise.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7",
+    "C8"
+   ]
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

@@ -1,0 +1,294 @@
+{
+ "accountId": "rundles",
+ "accountName": "Rundles Chartered Accountants",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Rundles is a Melbourne CBD chartered accounting firm established in 1965 with four partners, offering accounting, tax, SMSF, financial planning and audit. Josh Laing joined in 1999, became Partner in 2014 and is listed as Managing Partner, with a focus on family groups, businesses and SMSFs. Rundles posts monthly client snapshots on LinkedIn and describes itself as fully cloud based. Josh was emailed on 23 Nov 2026 (subject 'Quick chat, Josh?').",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.rundles.com.au/about-us",
+   "title": "About - Rundles",
+   "type": "website",
+   "publisher": "Rundles",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://au.linkedin.com/in/joshua-laing-33b36a78",
+   "title": "Joshua Laing - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/rundles-chartered-accountants",
+   "title": "Rundles Chartered Accountants - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-01"
+  },
+  {
+   "id": "S4",
+   "url": "https://employmenthero.com/jobs/position/rundles-chartered-accountants-intermediate-to-senior-accountant-qcupp/",
+   "title": "Intermediate to Senior Accountant at Rundles Chartered Accountants",
+   "type": "job",
+   "publisher": "Employment Hero",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.rundles.com.au/careers",
+   "title": "Careers - Rundles",
+   "type": "website",
+   "publisher": "Rundles",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.linkedin.com/posts/rundles-chartered-accountants_hiring-activity-7371867727688527872-WZou",
+   "title": "Rundles hiring a new Accountant in Melbourne",
+   "type": "linkedin",
+   "publisher": "Rundles Chartered Accountants",
+   "date": "2025-09-11"
+  },
+  {
+   "id": "S7",
+   "url": "https://www.rundles.com.au/",
+   "title": "Rundles - Chartered Accountants and Financial Planners Melbourne",
+   "type": "website",
+   "publisher": "Rundles",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Rundles Chartered Accountants is based at Level One, 500 Collins St, Melbourne, established in 1965 by Noel Rundle, with four partners.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "now consists of 4 partners with a team of 20 staff, based at Level One 500 Collins St, Melbourne.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Josh Laing is listed as Managing Partner on the Rundles about page and as Partner (current) on LinkedIn, checked Oct 2026.",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "Partner - Rundles Chartered Accountants (Current) Jul 2014 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Josh started at Rundles in 1999 while studying at RMIT, spent two years in London, and returned in 2006.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Joshua began working at Rundles in 1999 whilst still completing his Bachelor of Business (Accountancy) degree at RMIT.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Josh works with family groups and businesses on structuring, asset protection, succession planning and tax, and has deep knowledge of self managed superannuation.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Josh enjoys working with family groups and businesses to ensure they’re structured correctly to maximise asset protection, succession planning and management of tax.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Rundles' LinkedIn page posted an October 2026 snapshot on the record numbers of Australians starting SMSFs, covering benefits, challenges and responsibilities.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Record numbers of Australians are starting SMSFs. Our October snapshot explores the benefits, challenges and responsibilities involved.",
+   "date": "2026-10-01",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Rundles publishes monthly snapshots and a seasonal newsletter on tax, super and ATO changes, with a November 2026 post about the pre-Christmas rush.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "It’s November and while the race that stops a nation is running, the busy race to the holidays and festive season is fast approaching.",
+   "date": "2026-11-01",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Rundles describes itself in a job ad as a fully cloud based operation with a diverse client base including SMEs, SMSFs, non-business entities and high wealth individuals.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We have a diverse client base, including SME’s, SMSFs, non-business entities and high wealth individuals.",
+   "date": null,
+   "category": "clients",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "The same job ad says Rundles is a fully cloud based operation.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We currently employ 30 staff and are a fully cloud based operation.",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Rundles posted on LinkedIn in September 2025 that it was hiring an Accountant in Melbourne.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "We're #hiring a new Accountant in Melbourne, Victoria.",
+   "date": "2025-09-11",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Rundles' careers page lists no current vacancies and offers a 9 day fortnight for full-time staff.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "No current availabilities",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "Rundles' homepage says it helps business owners by freeing up time, managing tax and payroll and advising on financial decisions.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We help business owners by freeing up time, managing tax and payroll, advising on financial decisions",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "LinkedIn shows 10 employees (-16.7% YoY) for Rundles, while the firm's own text says a team of 20 (and a job ad says 30).",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Rundles Chartered Accountants employs 10 people (-16.7% YoY, -3 people), founded in 1965.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Josh Laing",
+   "title": "Managing Partner",
+   "contactId": "rundles--josh-laing",
+   "linkedin": "https://linkedin.com/in/joshua-laing-33b36a78",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Monthly SMSF-focused content (Oct 2026) plus Josh's SMSF and family-group focus: many small entities means many bank feeds to reconcile and audit-trail demands (inference).",
+   "claimIds": [
+    "C5",
+    "C4",
+    "C7"
+   ]
+  },
+  {
+   "text": "Fully cloud-based operation and a standing hiring need suggest openness to automation that adds capacity without hiring.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  },
+  {
+   "text": "Homepage promise of freeing up business owners' time mirrors Vert's value to the firm's own staff.",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Small, traditional practice with tax and SMSF emphasis; limited bookkeeping or close-service signal; headcount sources conflict (10 / 20 / 30).",
+   "claimIds": [
+    "C12",
+    "C7"
+   ]
+  },
+  {
+   "text": "Mark Lisle is also described as managing partner on the site; Josh's decision authority is unclear.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Careers page shows no vacancies, so hiring pressure may have eased.",
+   "claimIds": [
+    "C10"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video or personal posts by Josh found.",
+  "Bookkeeping/practice software (Xero/MYOB/Dext) not confirmed by Rundles directly.",
+  "No Facebook/Instagram content reviewed.",
+  "Content of the 23 Nov first email was not available."
+ ],
+ "searches": [
+  {
+   "query": "Josh Laing Rundles Chartered Accountants Managing Partner",
+   "results": 8
+  },
+  {
+   "query": "Rundles Chartered Accountants Melbourne careers OR news OR Xero OR SMSF OR audit 2026",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "rundles--josh-laing",
+   "subject": "Re: Quick chat, Josh?",
+   "body": "Hi Josh,\n\nFollowing up on my note. Rundles' October snapshot noted record numbers of Australians starting SMSFs, and you work with SMSFs alongside family groups and businesses. Every extra entity means another set of bank feeds to reconcile and another audit trail to keep. Vert cuts reconciliation and cash coding to minutes with a traceable trail. Would a 10 min walkthrough this week be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C4"
+   ]
+  },
+  "followUp2": {
+   "contactId": "rundles--josh-laing",
+   "subject": "Re: Quick chat, Josh?",
+   "body": "Hi Josh,\n\nLast nudge. Rundles runs fully cloud based and has been hiring accountants, so faster reconciliation could free capacity without another hire. If the timing is wrong, tell me and I'll leave it with you. Otherwise, 10 min?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  }
+ }
+}

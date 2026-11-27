@@ -1,0 +1,291 @@
+{
+ "accountId": "byrons",
+ "accountName": "BYRONS",
+ "status": "complete",
+ "summary": "BYRONS is an independent Sydney mid-tier advisory firm (founded 1955, AFR Top 100 for 2026) with offices in Sydney CBD, Burwood, Melbourne and Brisbane and an outsourced/fractional CFO line. Partner Adam Dyson advises SMEs, is a certified MYOB consultant and, per the firm's own profile, oversees its offshore support operations including the Philippines team. Two earlier emails (16 and 23 Nov) went unanswered; this follow-up takes the offshore-review angle.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://byrons.com.au/people/adam-dyson/",
+   "title": "Adam Dyson | Business Advisory & Tax Partner Sydney | BYRONS",
+   "type": "website",
+   "publisher": "BYRONS",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/adam-dyson",
+   "title": "Adam Dyson | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://byrons.com.au/contact-us/",
+   "title": "Contact us | BYRONS",
+   "type": "website",
+   "publisher": "BYRONS",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://byrons.com.au/services/cfo-advisory/",
+   "title": "CFO Advisory optimises your finance operations | BYRONS",
+   "type": "website",
+   "publisher": "BYRONS",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://byrons.com.au/news/accountant-sydney/",
+   "title": "Accountant Sydney | BYRONS",
+   "type": "blog",
+   "publisher": "BYRONS",
+   "date": "2025-05-15"
+  },
+  {
+   "id": "S6",
+   "url": "https://byrons.com.au/",
+   "title": "BYRONS | Accountants and Business Advisors",
+   "type": "website",
+   "publisher": "BYRONS",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "BYRONS's Sydney CBD office is at Level 18, 570 George Street, Sydney NSW 2000.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "BYRONS SYDNEY CBD OFFICE",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Adam Dyson is Partner, Business Advisory at BYRONS, a current role since May 2023 on LinkedIn, and is listed on the firm's site.",
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "quote": "May 2023 - Present (3 years and 6 months) in Sydney, State of New South Wales, Australia",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Adam is a CA ANZ member and a certified MYOB Consultant.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Adam is a member of Chartered Accountants Australia and New Zealand and is certified as a MYOB Consultant.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Adam oversees BYRONS' offshore support operations, including the Philippines team.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "overseeing BYRONS’ offshore support operations, including the Philippines team.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Adam works closely with SME owners on business advice, taxation and profitability.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "He works closely with SME owners to provide strategic business advice, taxation guidance and practical solutions",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "BYRONS says it is listed in the AFR top 100 accounting firms for 2026.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "BYRONS are proudly listed in the Australian Financial Review’s top 100 accounting firms for 2026.",
+   "date": "2026",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "BYRONS CFO Advisory offers interim or fractional CFO support and lists bookkeeping and transaction management among its financial operations services.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Bookkeeping and transaction management",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The CFO Advisory page describes the service as technology-driven, using the latest financial systems.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Technology-Driven – Utilising the latest financial systems for efficiency and accuracy.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "BYRONS celebrates its 70th anniversary since founding in 1955.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "BYRONS proudly celebrates our 70th anniversary",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "BYRONS has offices in Sydney, Burwood, Melbourne and Brisbane.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "expert accountants in Sydney, Burwood, Melbourne and Brisbane",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "A client testimonial for partner Paul Breedon mentions migrating from QuickBooks to Xero and BYRONS setting up payroll and BAS.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "smoothly migrate from QuickBooks to Xero, and set up and manage our payroll, BAS, and tax processes",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Adam authored a May 2025 BYRONS article promoting direct access to senior experts.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "With direct access to senior experts, we can help you reduce taxes, unlock new capital or prepare for expansion across the APAC region.",
+   "date": "2025-05",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "Adam's LinkedIn also lists a current Executive Director role at YourBookkeepersOnline (YBO), described as an outsource and offshore service provider.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "as the Firm's Outsource & Offshore service provider",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Adam Dyson",
+   "title": "Partner - Business Advisory",
+   "contactId": "byrons--adam-dyson",
+   "linkedin": "https://www.linkedin.com/in/adam-dyson",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C13"
+   ]
+  },
+  {
+   "name": "Campbell Gould",
+   "title": "Partner (Business Advisory, Property and Construction)",
+   "contactId": "byrons--campbell-gould",
+   "linkedin": "https://www.linkedin.com/in/campbell-gould-13408719",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "New angle for follow-up: Adam oversees the offshore (Philippines) team, so the pain is reviewing offshore-prepared work; Vert's audit trail speeds that review.",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  },
+  {
+   "text": "Adam is a certified MYOB consultant with an SME client base, a natural tooling-minded buyer.",
+   "claimIds": [
+    "C3",
+    "C5"
+   ]
+  },
+  {
+   "text": "Outsourced/fractional CFO line with bookkeeping and transaction management is a reconciliation-heavy service.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Adam is also listed as current Executive Director of YBO, an offshore bookkeeping provider; his model is labour-arbitrage, which may compete with or colour his view of automation (or may make him interested in a review layer). Confirm role before leaning on this.",
+   "claimIds": [
+    "C13",
+    "C4"
+   ]
+  },
+  {
+   "text": "Larger firm (80+ staff, multiple directors); check against size criteria and decision structure. Two prior emails (16 and 23 Nov) have not been answered.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video or Facebook/Instagram presence found for Adam.",
+  "No recent personal LinkedIn posts retrieved.",
+  "No job ads found."
+ ],
+ "searches": [
+  {
+   "query": "BYRONS Sydney Adam Dyson partner business advisory outsourced CFO",
+   "results": 9
+  },
+  {
+   "query": "YourBookkeepersOnline YBO outsource offshore bookkeeping Philippines Adam Dyson",
+   "results": 5
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "byrons--adam-dyson",
+   "subject": "Re: Quick chat, Adam?",
+   "claimIds": [
+    "C4",
+    "C3"
+   ],
+   "body": "Hi Adam,\n\nFollowing up on my earlier notes with a different angle. Your BYRONS profile says you oversee the offshore support operations, including the Philippines team, and that you are a certified MYOB consultant. Vert reconciles and cash codes in minutes with an audit trail on every match, which could cut the review time that comes back to your team from offshore-prepared files. How much of that review lands on your desk today?\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ },
+ "researchedAt": "2026-11-26"
+}

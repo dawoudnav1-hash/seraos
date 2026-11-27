@@ -1,0 +1,248 @@
+{
+ "accountId": "belle-bloom",
+ "accountName": "Belle & Bloom",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Belle & Bloom is a Sydney women's fashion and handbag brand selling through its own site, retail partners such as Myer and more than 10 North American marketplaces via Mirakl Connect. Lan Yu has been the company's Accountant since March 2014, with a very small team around her.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/lan-yu-9a975843",
+   "title": "Lan Yu - LinkedIn profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.mirakl.com/content/customer-stories/belle-and-bloom/",
+   "title": "How belle & bloom expanded globally with Mirakl Connect",
+   "type": "other",
+   "publisher": "Mirakl",
+   "date": "2025-06-04"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.ragtrader.com.au/news/belle-and-bloom-secures-myer-after-300-growth",
+   "title": "Belle & Bloom secures Myer after 300% growth",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2019-07-10"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.belleandbloom.com/en-us/pages/about-us",
+   "title": "About Us - Belle & Bloom",
+   "type": "website",
+   "publisher": "Belle & Bloom",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/company/belle-bloom",
+   "title": "Belle & Bloom - LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Belle & Bloom is a Sydney-established brand selling an international range online.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Established in Sydney in 2016, belle & bloom is an international lifestyle brand of accessible luxury pieces designed for modern women.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Lan Yu is Accountant at Belle & Bloom, current since March 2014.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Accountant - Belle & Bloom (Current) Mar 2014 - Present",
+   "date": "2014-03",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Lan Yu is also listed as Accountant at Mosmann Australia, a related retailer.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Accountant - Mosmann Australia (Current) Mar 2011 - Present",
+   "date": null,
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C4",
+   "text": "Belle & Bloom onboarded more than 10 North American marketplaces in four years via Mirakl Connect.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "successfully onboarded more than 10 North American marketplaces in 4 years.",
+   "date": "2025-06",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "CEO Sherry Wu said US selling offsets Australia's slower seasons, and vice versa.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "increasing sales in the United States during Australia's slower times, and vice versa",
+   "date": "2025-06",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Before Mirakl Connect, Belle & Bloom managed each marketplace independently.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Before joining Mirakl Connect, belle & bloom managed each marketplace they operated on independently.",
+   "date": "2025-06",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In 2019 Belle & Bloom signed a store and online deal with Myer after 300% sales growth.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Belle & Bloom has now inked an expansive top store and online deal",
+   "date": "2019-07",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "LinkedIn's tech profile lists Shopify and Mirakl among its tools.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Tech Stack: klaviyo, mailchimp, mirakl, salesforce, shopify, amp, adobe",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Belle & Bloom onboarded over 2,500 SKUs across multiple marketplaces.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "belle & bloom seamlessly onboarded over 2,500 SKUs across multiple marketplaces",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "It sells through its own eCommerce site and retail partners' online platforms and physical stores.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "They sell their products worldwide through their own eCommerce website and their retail partners' online platforms and physical stores.",
+   "date": "2025-06",
+   "category": "clients",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Lan Yu",
+   "title": "Accountant",
+   "contactId": "belle-bloom--lan-yu",
+   "linkedin": "https://linkedin.com/in/lan-yu-9a975843",
+   "claimIds": [
+    "C2",
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Multi-marketplace selling (10+ North American marketplaces) plus retail partners means many separate payouts for one accountant to reconcile.",
+   "claimIds": [
+    "C4",
+    "C6",
+    "C10"
+   ]
+  },
+  {
+   "text": "Selling in opposite seasons across Australia and the US shifts payout and FX timing.",
+   "claimIds": [
+    "C5"
+   ]
+  },
+  {
+   "text": "Wholesale department-store receivables alongside marketplaces.",
+   "claimIds": [
+    "C7",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Very small team (LinkedIn lists 9 employees, finance headcount 1) and Lan Yu also listed at Mosmann Australia, so time may be shared. Myer deal source is from 2019.",
+   "claimIds": [
+    "C3",
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts, podcasts or job ads from Lan Yu or Belle & Bloom finance found.",
+  "Xero/MYOB usage not confirmed.",
+  "Company founding year differs between sources (2010 vs 2016)."
+ ],
+ "searches": [
+  {
+   "query": "Belle & Bloom Sydney fashion Lan Yu Accountant Mirakl Myer",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "belle-bloom--lan-yu",
+   "subject": "Marketplace payouts at Belle & Bloom",
+   "body": "Hi Lan,\n\nBelle & Bloom onboarded more than 10 North American marketplaces through Mirakl Connect, on top of your own site and retail partners, and before that each marketplace was managed independently. As the Accountant there since March 2014 I'd guess reconciling all those payouts still lands with you. I've spent the past year asking finance leaders why AI automation in accounting sticks or quietly fails. That became Vert, which reconciles and cash codes 2x faster with a trail you can trace. How much of your month goes on matching marketplace payouts by hand?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C4",
+    "C6",
+    "C10"
+   ]
+  },
+  "followUp": {
+   "contactId": "belle-bloom--lan-yu",
+   "subject": "Re: Marketplace payouts at Belle & Bloom",
+   "body": "Hi Lan,\n\nFollowing up on my note last week. Belle & Bloom has been in Myer since a 2019 deal, alongside the marketplaces, so wholesale receivables and platform payouts both need matching each month. Vert reconciles and cash codes both against the ledger with a trace. Which of the two takes more of your time?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C7",
+    "C10"
+   ]
+  },
+  "followUp2": {
+   "contactId": "belle-bloom--lan-yu",
+   "subject": "Re: Marketplace payouts at Belle & Bloom",
+   "body": "Hi Lan,\n\nLast note from me. Sherry's point about selling into the US during Australia's slower months means payouts peak out of step across markets. Worth 10 min to see how Vert keeps those reconciled?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C2",
+    "C5"
+   ]
+  }
+ }
+}
