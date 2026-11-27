@@ -1,0 +1,286 @@
+{
+ "accountId": "endurego-tax",
+ "accountName": "EndureGo Tax",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "EndureGo Tax is a small CPA tax and accounting practice founded in 2006 with offices in Ashfield and Belrose (Sydney) and Adelaide. Director John Cheng FCPA also runs Wistec, a software and Odoo automation company, and posts regularly on LinkedIn about reconciling records before lodging and ERP systems. Its work is tax and BAS-led with bookkeeping from a low weekly fee.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.endurego.com.au/about-us/endurego-team/john-cheng/",
+   "title": "John Cheng - Endurego",
+   "type": "website",
+   "publisher": "EndureGo",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/endurego",
+   "title": "John Cheng | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.endurego.com.au/contact-expert-accountants/",
+   "title": "Contact Us - Endurego",
+   "type": "website",
+   "publisher": "EndureGo",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/endureggo_smallbusiness-taxcompliance-businessowners-activity-7511778390941818880-0PYn",
+   "title": "EndureGo Tax LinkedIn post: A lodged tax return is a completed task",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-02"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/endurego_odoo-odooerp-odoodevelopment-activity-7497948913245540352-vLw2",
+   "title": "John Cheng LinkedIn post: Odoo development is finished. What happens next?",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-08-25"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.endurego.com.au/",
+   "title": "Endurego Tax Home Page",
+   "type": "website",
+   "publisher": "EndureGo",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://linkedin.com/company/endureggo",
+   "title": "EndureGo Tax | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://www.endurego.com.au/about-us/endurego-team/",
+   "title": "EndureGo Team - Endurego",
+   "type": "website",
+   "publisher": "EndureGo",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "EndureGo's own site (endurego.com.au) lists an Inner West Sydney office at Suite 18, Level 2, 6 Holden Street, Ashfield NSW 2131, plus Belrose and Adelaide offices.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Suite 18, Level 2, 6 Holden Street Ashfield NSW 2131",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "John Cheng is currently Director of EndureGo Tax (Director - Sydney on the firm's site) and a Fellow of CPA Australia.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Director (Current) Jul 2010 - Present",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "John Cheng also founded Wistec, a software development and automation company, and AHA Global, a tech-enabled finance and lending business.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "He is the founder of three thriving enterprises: EndureGo, a national CPA accounting firm serving clients in Sydney and Adelaide; Wistec, a software development and automation company",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "EndureGo's 2 Oct 2026 LinkedIn post, signed by John Cheng, tells business owners to check accounting records against bank deposits and payment platforms before lodging.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Check your accounting records against bank deposits and payment platforms.",
+   "date": "2026-10",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The same post says to investigate inconsistencies between bookkeeping, BAS and annual accounts before lodging.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "If your bookkeeping, BAS and annual accounts tell different stories, understand why before lodging.",
+   "date": "2026-10",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "On 25 Aug 2026 John Cheng posted about Odoo implementations, saying the overlooked part is what happens after the system goes live.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "One of the most overlooked parts of an Odoo implementation is not the initial development — it is what happens after the system goes live.",
+   "date": "2026-08",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "EndureGo's LinkedIn page says it helps small and medium businesses improve their tax position and reconcile their bookkeeping.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "we can help small and medium sized businesses to improve on their tax position, reconcile their bookkeeping",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "EndureGo advertises bookkeeping from $10 per week to help businesses keep accounting in order and maximise their GST position.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Affordable bookkeeping service from $10 per week.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "John Cheng's LinkedIn lists his role as initiating and implementing system development to improve EndureGo's group performance.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Initiate and implement system development to improve the group performance of EndureGo",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "EndureGo says John Cheng launched the firm in 2006 and Kobe Chen, who joined as a graduate in 2010, is Managing Partner for South Australia.",
+   "sourceIds": [
+    "S1",
+    "S8"
+   ],
+   "quote": "in 2006 launched EndureGo.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "John Cheng",
+   "title": "Director",
+   "contactId": "endurego-tax--john-cheng",
+   "linkedin": "https://www.linkedin.com/in/endurego",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C6",
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "John's 2 Oct 2026 post lists reconciling income against bank deposits and payment platforms as the first habit before lodging: the step Vert automates.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "John builds automation and ERP systems through Wistec and drives system development at EndureGo, so he will respond to a practical workflow and audit-trail conversation.",
+   "claimIds": [
+    "C3",
+    "C9",
+    "C6"
+   ]
+  },
+  {
+   "text": "Bookkeeping is a priced, volume service ($10 per week entry point), where faster reconciliation protects margin.",
+   "claimIds": [
+    "C8",
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "John runs Wistec (software development, ERP and AI) and may prefer to build or integrate his own automation rather than buy; possible competitor or channel partner.",
+   "claimIds": [
+    "C3",
+    "C6"
+   ]
+  },
+  {
+   "text": "Tax and BAS-led small practice (LinkedIn lists 1-10 employees); virtual CFO positioning from the account record was not found on the firm's own site.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Two emails already sent to John (16 and 23 Nov 2026); avoid repeating earlier angles.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video, Facebook or Instagram appearance found for John Cheng beyond a 2017 Medium post about a News Corporation interview.",
+  "No virtual CFO service page found on endurego.com.au despite the account record's service signal.",
+  "No job ads found.",
+  "A sister brand, Wistax (wistax.com.au), uses the same team and offices; the relationship to EndureGo was not confirmed beyond shared staff.",
+  "No Xero, MYOB or practice-software partner status found."
+ ],
+ "searches": [
+  {
+   "query": "EndureGo Tax John Cheng CPA Ashfield Sydney Adelaide",
+   "results": 10
+  },
+  {
+   "query": "John Cheng EndureGo linkedin OR podcast OR video",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "endurego-tax--john-cheng",
+   "subject": "Re: Quick chat, John?",
+   "body": "Hi John,\n\nFollowing up on my earlier notes. Your 2 October post tells business owners to check their accounting records against bank deposits and payment platforms before lodging. That is the step Vert automates, reconciling and cash coding with a traceable audit trail so hours of manual work become minutes. How much of that checking does your team still do by hand for clients?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "endurego-tax--john-cheng",
+   "subject": "Re: Quick chat, John?",
+   "body": "Hi John,\n\nLast nudge. You run Wistec building automation as well as EndureGo, so you know what a good workflow looks like. Would you be open to 10 minutes comparing notes on reconciliation automation for tax practices?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C9"
+   ]
+  }
+ }
+}

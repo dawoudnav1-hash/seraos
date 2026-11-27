@@ -22,6 +22,14 @@
   },
   "boss-private-clients--sam-marzano": {
    "note": "Check email before sending: the firm's people page appears to pair sam@ with Sam Cimino and smarzano@ with Sam Marzano (research, 27 Nov)."
+  },
+  "pgp-consulting--bill-franchini": {
+   "likelyLeft": true,
+   "note": "Do not contact: LinkedIn shows him as owner of a software consultancy, not on PGP's team page (research, 27 Nov). Find a verified PGP director instead."
+  },
+  "skybridge-financial--sachin-maheshwari": {
+   "likelyLeft": true,
+   "note": "Different company: SkyBridge Financial Services in Pune, India (research, 27 Nov)."
   }
  },
  "removeContacts": [
@@ -51,6 +59,12 @@
   },
   "bbb-partners": {
    "flag": "Acquired by Cutcher & Neale in July 2025 (LinkedIn). Check who now owns the relationship."
+  },
+  "skybridge-financial": {
+   "flag": "Count Group (ASX) signed a binding agreement on 5 Nov 2026 to buy 75% of Skybridge; tooling decisions may move to Count."
+  },
+  "pgp-consulting": {
+   "flag": "No verified contact: research names Nick Schaeffer, Donna Marcus and Rhiannon Clews as current staff."
   }
  },
  "excludeAccounts": {

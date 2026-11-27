@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Funnel, Meter, WeeklyChart } from '../components/charts';
 import { EventLine } from '../components/events';
-import { Icon, Segmented, EmptyState } from '../components/ui';
+import { GradePill, Icon, Segmented, EmptyState } from '../components/ui';
 import { DATE_RANGES, type DateRange } from '../lib/events';
 import { formatInt, formatRate, formatDateTime } from '../lib/format';
 import { UNKNOWN } from '../lib/filters';
-import { computeDashboardStats, OTHER_CITIES, type BreakdownRow, type CityRow } from '../lib/stats';
+import { computeByGrade, computeDashboardStats, OTHER_CITIES, type BreakdownRow, type CityRow, type GradeRow } from '../lib/stats';
 import { useAppData } from '../state/AppData';
 import { accountsByCityHref } from '../state/router';
 import { usePersistentState } from '../state/usePersistentState';
@@ -235,7 +235,8 @@ function CityTable({ rows, total, range }: { rows: CityRow[]; total: CityRow; ra
 const RANGE_IDS = DATE_RANGES.map((r) => r.id);
 
 export function Dashboard() {
-  const { accounts, events, outreach, manualEvents, removeManualEvent, toast } = useAppData();
+  const { accounts, events, index, outreach, manualEvents, removeManualEvent, toast } = useAppData();
+  const byGrade = useMemo(() => computeByGrade(accounts, index), [accounts, index]);
   const [range, setRange] = usePersistentState<DateRange>('seraos.dashboardRange.v1', 'all', (v) =>
     RANGE_IDS.includes(v as DateRange) ? (v as DateRange) : undefined,
   );

@@ -26035,13 +26035,14 @@
     "email": "william@pgpconsulting.com.au",
     "emailRisk": "ok",
     "linkedin": "https://www.linkedin.com/in/pgpbill",
-    "isPrimary": true,
-    "likelyLeft": false,
+    "isPrimary": false,
+    "likelyLeft": true,
     "sources": [
      "Melbourne Accounting Firm Contacts"
     ],
     "inAttio": false,
-    "id": "pgp-consulting--bill-franchini"
+    "id": "pgp-consulting--bill-franchini",
+    "notes": "Do not contact: LinkedIn shows him as owner of a software consultancy, not on PGP's team page (research, 27 Nov). Find a verified PGP director instead."
    },
    {
     "name": "Panos Papadopoulos",
@@ -26076,17 +26077,20 @@
    "https://pgpconsulting.com.au/",
    "https://pgpconsulting.com.au/contact/"
   ],
+  "flags": "⚠ No verified contact: research names Nick Schaeffer, Donna Marcus and Rhiannon Clews as current staff.",
   "state": "VIC",
   "city": "Melbourne",
   "cityBasis": "Company location",
-  "rating": 50,
-  "grade": "C",
+  "rating": 0,
+  "grade": "D",
   "ratingReasons": [
    "Fit 12/50 from research says 'weak'",
    "+5 recurring close work (bookkeeping, CAS, reconciliations, month-end)",
    "Size 7/15 (staff unknown; sweet spot 5-60)",
-   "Reach 20/20 (Bill Franchini: email ok, LinkedIn, decision-maker)",
-   "Engagement 6/15 (not contacted yet)"
+   "Reach 0/20 (no current, contactable person)",
+   "Engagement 6/15 (not contacted yet)",
+   "-20 warning flag on the account",
+   "-10 every contact has left or must not be contacted"
   ]
  },
  {
@@ -30931,20 +30935,6 @@
   ],
   "contacts": [
    {
-    "name": "Sachin Maheshwari",
-    "title": "Co-Founder",
-    "roleType": "Founder",
-    "emailRisk": "none",
-    "linkedin": "https://www.linkedin.com/in/sachin-maheshwari",
-    "isPrimary": true,
-    "likelyLeft": false,
-    "sources": [
-     "Melbourne Accounting Firm Contacts"
-    ],
-    "inAttio": false,
-    "id": "skybridge-financial--sachin-maheshwari"
-   },
-   {
     "name": "Ray Gale",
     "title": "Principal Financial Adviser and Director",
     "roleType": "Finance",
@@ -30958,6 +30948,21 @@
     ],
     "inAttio": false,
     "id": "skybridge-financial--ray-gale"
+   },
+   {
+    "name": "Sachin Maheshwari",
+    "title": "Co-Founder",
+    "roleType": "Founder",
+    "emailRisk": "none",
+    "linkedin": "https://www.linkedin.com/in/sachin-maheshwari",
+    "isPrimary": false,
+    "likelyLeft": true,
+    "sources": [
+     "Melbourne Accounting Firm Contacts"
+    ],
+    "inAttio": false,
+    "id": "skybridge-financial--sachin-maheshwari",
+    "notes": "Different company: SkyBridge Financial Services in Pune, India (research, 27 Nov)."
    }
   ],
   "description": "Accounting, bookkeeping, business tax, financial planning and SMSF firm based in Inverell NSW with a Bentleigh (Melbourne) office, which expanded in 2026 via a merger with Stephens Platffuss & Co.",
@@ -30975,18 +30980,20 @@
    "https://skybridgefinancial.com.au/locations/index/bentleigh-melbourne",
    "https://www.skybridgefinancial.com.au/pages/our-team"
   ],
+  "flags": "⚠ Count Group (ASX) signed a binding agreement on 5 Nov 2026 to buy 75% of Skybridge; tooling decisions may move to Count.",
   "state": "VIC",
   "city": "Melbourne",
   "suburb": "Bentleigh",
   "cityBasis": "Company location",
-  "rating": 63,
-  "grade": "C",
+  "rating": 43,
+  "grade": "D",
   "ratingReasons": [
    "Fit 25/50 from research says 'moderate'",
    "+5 recurring close work (bookkeeping, CAS, reconciliations, month-end)",
    "Size 7/15 (staff unknown; sweet spot 5-60)",
    "Reach 20/20 (Ray Gale: email ok, LinkedIn, decision-maker)",
-   "Engagement 6/15 (not contacted yet)"
+   "Engagement 6/15 (not contacted yet)",
+   "-20 warning flag on the account"
   ]
  },
  {
