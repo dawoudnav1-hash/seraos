@@ -1,0 +1,275 @@
+{
+ "accountId": "by-charlotte",
+ "accountName": "by charlotte",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "by charlotte is a Rosebery NSW designer jewellery brand, founder-owned and self-funded, that has scaled from one Paddington store to 16 stores plus online and wholesale. Adam Blogg joined as Director of Finance & IT in March 2026 and shared a May 2026 hiring post for his team at a pivotal point in the growth journey. Its LinkedIn tech profile shows Shopify Plus, Shopify POS, Xero, Workday and Employment Hero, and an ERP rollout was described in 2024.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/adam-blogg-653b6133",
+   "title": "Adam Blogg - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/by-charlotte",
+   "title": "by charlotte - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.ragtrader.com.au/news/by-charlotte-enters-wa-with-three-stores",
+   "title": "By Charlotte enters WA with three stores",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2026-03-19"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.ragtrader.com.au/news/by-charlotte-scales-store-portfolio-to-13",
+   "title": "By Charlotte scales store portfolio to 13",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2025-10-03"
+  },
+  {
+   "id": "S5",
+   "url": "https://insideretail.com.au/ir-pro/by-charlotte-founder-and-chair-talk-bricks-and-mortar-expansion-202408",
+   "title": "By Charlotte founder and chair talk bricks-and-mortar expansion",
+   "type": "news",
+   "publisher": "Inside Retail Australia",
+   "date": "2024-08-27"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.ragtrader.com.au/news/by-charlotte-reports-double-digit-growth-eyes-more-stores",
+   "title": "By Charlotte reports double-digit growth, eyes more stores",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2024-09-23"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "by charlotte is headquartered in Rosebery, NSW, founded in 2012.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Headquartered in Rosebery, New South Wales, Australia, with presence in Canada.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Adam Blogg is listed on LinkedIn as the current Director of Finance & IT at by charlotte, since March 2026, and as a key executive on the company page.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Director of Finance & IT - by charlotte (Current) Mar 2026 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "On 28 May 2026 Adam shared a post saying he is hiring into his team at by charlotte at a pivotal point in the growth journey.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Exciting opportunity to join my team at by charlotte at a pivotal point in the growth journey.",
+   "date": "2026-05",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Adam reposted news in May 2026 that by charlotte had opened stores 15 & 16, in Parramatta and Chermside.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "the opening of by charlotte stores 15 & 16 — Parramatta and Chermside",
+   "date": "2026-05",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Adam's background includes improving finance function effectiveness, cash and working capital management at KPMG London and McGrathNicol.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "improving finance function effectiveness, cash and working capital management, business improvement, due diligence",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "In March 2026 Ragtrader reported by charlotte opening three Perth stores, with further expansion planned for 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The brand will open three stores around Perth in one week",
+   "date": "2026-03",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "In October 2025 Ragtrader reported by charlotte expanding to 13 stores across NSW, Queensland and Victoria by Christmas 2025.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "By Charlotte is set to have 13 stores open across New South Wales, Queensland and Victoria by Christmas 2025.",
+   "date": "2025-10",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Executive chair Jane McNally said in 2024 the company's ERP integrates all aspects of the business into a single platform.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Our ERP integrates all aspects of our business into a single platform.",
+   "date": "2024-08",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "LinkedIn's company profile lists Shopify Plus, Shopify POS, Xero, Workday and Employment Hero in the tech stack.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "shopify, shopify plus, shopify pos, sql, tableau, adobe, keyshot, zbrush, workday",
+   "date": "2026-11",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "In 2024 the executive chair said growth was self-funded, the business entirely owned by its founder, with strong demand in wholesale as well as online.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "all this growth is self-funded, with the business entirely owned by its founder Charlotte Blakeney.",
+   "date": "2024-09",
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Adam Blogg",
+   "title": "Director of Finance & IT",
+   "contactId": "by-charlotte--adam-blogg",
+   "linkedin": "https://www.linkedin.com/in/adam-blogg-653b6133",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Clare Taylor",
+   "title": "Head of Finance",
+   "contactId": "by-charlotte--clare-taylor",
+   "linkedin": "https://linkedin.com/in/clare-taylor-22039815",
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Adam's May 2026 hiring post and repost of store openings 15 and 16: the finance team is scaling with the store network.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Store rollout from one store to 16 plus online and wholesale means POS takings and card settlements per store.",
+   "claimIds": [
+    "C7",
+    "C6",
+    "C4"
+   ]
+  },
+  {
+   "text": "Adam's cash and working capital background suggests he will respond to close-time leakage framing.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Adam started in March 2026 and a new ERP/systems agenda may absorb attention; ERP already integrates the business.",
+   "claimIds": [
+    "C2",
+    "C8"
+   ]
+  },
+  {
+   "text": "Account record flags revenue possibly above the target band; company has grown to roughly 90 staff.",
+   "claimIds": [
+    "C7"
+   ]
+  },
+  {
+   "text": "Adam's LinkedIn About still describes a prior Woolworths role, so current-role details rely on the experience entry.",
+   "claimIds": [
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast or video content found.",
+  "ERP vendor not named in sources read.",
+  "No direct posts by Adam on reconciliation or close."
+ ],
+ "searches": [
+  {
+   "query": "by charlotte jewellery Ragtrader growth stores ERP Adam Blogg Director of Finance",
+   "results": 10
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "by-charlotte--adam-blogg",
+   "subject": "Store-by-store close at by charlotte",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C9"
+   ],
+   "body": "Hi Adam,\n\nSaw you reposted the opening of by charlotte stores 15 & 16 in Parramatta and Chermside, and your hiring post about joining your team at a pivotal point in the growth journey. With Shopify Plus, Shopify POS and a growing store network, I expect store takings and card settlements to take real close time. I'm Dawoud, founder of Vert, which helps finance teams reconcile and cash code 2x faster with a traceable audit trail. How much of your month-end goes on store-by-store reconciling?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp": {
+   "contactId": "by-charlotte--adam-blogg",
+   "subject": "Re: Store-by-store close at by charlotte",
+   "claimIds": [
+    "C5",
+    "C7"
+   ],
+   "body": "Hi Adam,\n\nFollowing up on my earlier note. You have spent years improving finance function effectiveness, cash and working capital management at KPMG and McGrathNicol, so you will see quickly where close time leaks. With 13 stores by Christmas 2025 and more since, Vert takes the reconciling off your team, with a traceable audit trail. Worth a 10 min walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  },
+  "followUp2": {
+   "contactId": "by-charlotte--adam-blogg",
+   "subject": "Re: Store-by-store close at by charlotte",
+   "claimIds": [
+    "C6",
+    "C3"
+   ],
+   "body": "Hi Adam,\n\nLast nudge. Three Perth stores opened in March and your team is hiring, so each new store adds another set of takings to reconcile. If reclaiming that time is worth 10 mins, tell me. If not, no worries.\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+  }
+ }
+}

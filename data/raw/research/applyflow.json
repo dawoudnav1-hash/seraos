@@ -1,0 +1,251 @@
+{
+ "accountId": "applyflow",
+ "accountName": "Applyflow",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Applyflow is a Sydney-headquartered SaaS company building recruitment websites, career sites and job boards, with 200+ clients and presence in the UK and US. It was bought out of its listed parent by the acting CEO in May 2024 and announced a three-year Qantas Group partnership in Jan 2026. Head of Finance Sandie Royle describes herself as the only person in the finance team, responsible for everything from cashflow and month-end to invoicing and debt collection across three countries.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.applyflow.com/contact-us/",
+   "title": "Contact Applyflow | Book a Demo or Get Support",
+   "type": "website",
+   "publisher": "Applyflow",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/sandie-royle-35647225",
+   "title": "Sandie Royle - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-25"
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/applyflow-tech_applyflow-qantasgroup-corporatecareersites-activity-7422737822236921856-Aw1W",
+   "title": "Applyflow post: partnership with the Qantas Group",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-01-29"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.linkedin.com/posts/applyflow-tech_applyflow-leadership-newhire-activity-7413676275141345280-Elkk",
+   "title": "Applyflow post: welcoming Kris Clelland as Chief Revenue Officer",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-01-04"
+  },
+  {
+   "id": "S5",
+   "url": "https://applyflow.com",
+   "title": "Applyflow | Recruitment Websites, Career Sites & Job Board Solutions",
+   "type": "website",
+   "publisher": "Applyflow",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Applyflow's APAC headquarters is 526/368 Sussex Street, Sydney NSW 2000.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "526/368 Sussex Street Sydney NSW Australia 2000",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Sandie Royle is Head of Finance at Applyflow (current, since Jul 2023).",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Head of Finance - Applyflow (Current)",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Sandie says she is the only person in the finance team and responsible for everything.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I am the only person in the finance team and so am responsible for everything",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Her duties include invoicing and collecting debts from customers in three countries.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "bookkeeping (including invoicing and the collection of debts from customers in 3 countries)",
+   "date": "2026-10",
+   "category": "pain",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Sandie queried the accounting policy and tax treatment of deferred revenue at Applyflow.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "I also successfully queried the accounting policy and tax treatment of deferred revenue.",
+   "date": "2026-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Sandie lists significant experience with Xero, FinancialForce, Microsoft AX, JCurve and MYOB.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Significant experience with Xero, FinancialForce, Microsoft AX, JCurve, MYOB",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The three trading entities (Australia, UK, USA) were bought out by the Acting CEO in May 2024.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "were subject to a buy-out by the Acting CEO",
+   "date": "2024-05",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Applyflow announced a three-year partnership with the Qantas Group in Jan 2026 to redesign the Qantas and Jetstar careers sites.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "a brand new three-year partnership between Applyflow and the Qantas Group",
+   "date": "2026-01",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Applyflow welcomed Kris Clelland as Chief Revenue Officer in Jan 2026.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "We’re excited to welcome Kris Clelland to the team as our new Chief Revenue Officer.",
+   "date": "2026-01",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "Applyflow's group has over 200 SaaS clients; its job board product offers flexible monetisation options.",
+   "sourceIds": [
+    "S2",
+    "S5"
+   ],
+   "quote": "flexible monetisation options",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Sandie Royle",
+   "title": "Head of Finance",
+   "contactId": "applyflow--sandie-royle",
+   "linkedin": "https://linkedin.com/in/sandie-royle-35647225",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Sandie is the only finance person running a three-country close: bank and payment matching is capacity she does not have.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Job board monetisation and deferred revenue: subscription/package income to reconcile.",
+   "claimIds": [
+    "C10",
+    "C5"
+   ]
+  },
+  {
+   "text": "New CRO and the Qantas Group partnership point to revenue growth that adds transaction volume.",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Sandie moved to part-time in July 2024 due to workload (public LinkedIn); handle sensitively and do not mention. Post-buyout owner-operator may be cost-sensitive.",
+   "claimIds": [
+    "C3"
+   ]
+  }
+ ],
+ "gaps": [
+  "No public posts by Sandie beyond comments; current accounting system not confirmed (Xero likely from her skills); payment processor (Stripe) not confirmed from public sources."
+ ],
+ "searches": [
+  {
+   "query": "Applyflow Sandie Royle Head of Finance recruitment software Sydney",
+   "results": 10
+  },
+  {
+   "query": "Sandie Royle LinkedIn and applyflow.com fetch",
+   "results": 2
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "applyflow--sandie-royle",
+   "subject": "Month-end across three countries at Applyflow",
+   "body": "Hi Sandie, your LinkedIn says you're the only person in the finance team, covering everything from cashflow to invoicing and collecting debts in three countries. That is a lot to carry alongside new work like the Qantas Group partnership. I'm building Vert, which reconciles and cash codes in minutes with a traceable audit trail rather than guesses. If bank and payment matching is what eats your month-end, how long does it take you at the moment?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C8"
+   ]
+  },
+  "followUp": {
+   "contactId": "applyflow--sandie-royle",
+   "subject": "Re: Month-end across three countries at Applyflow",
+   "body": "Hi Sandie, following up on my note. Applyflow's job boards offer flexible monetisation, and you've queried the tax treatment of deferred revenue, so I imagine package income takes care to reconcile. Vert matches payments to ledger entries and flags exceptions with a full audit trail. Would a 10 min walkthrough be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C10",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "applyflow--sandie-royle",
+   "subject": "Re: Month-end across three countries at Applyflow",
+   "body": "Hi Sandie, last note. With Kris joining as Chief Revenue Officer to grow revenue, more invoices and payments will likely flow through your close. Vert takes reconciliation off your plate without adding headcount. Worth a quick look?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C3"
+   ]
+  }
+ }
+}

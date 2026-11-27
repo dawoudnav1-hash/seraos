@@ -1,6 +1,7 @@
 import { Fragment, memo, useEffect, useRef, useState, type ReactNode } from 'react';
 import { EventLine } from '../components/events';
-import { Badge, EmailLink, ExtLink, Icon, Linkify, LinkedInLink, ScorePill, SourceBadges, StatusPill } from '../components/ui';
+import { ResearchPanel } from '../components/ResearchPanel';
+import { Badge, EmailLink, ExtLink, GradePill, Icon, Linkify, LinkedInLink, ScorePill, SourceBadges, StatusPill } from '../components/ui';
 import { kindLabel } from '../lib/events';
 import { cityDisplay, cityOf, stateOf } from '../lib/filters';
 import { formatDate } from '../lib/format';
@@ -8,7 +9,7 @@ import { displayUrl, safeUrl } from '../lib/links';
 import { TYPE_LABEL } from '../lib/stats';
 import { contactActivity, sortContacts, type EntityActivity } from '../lib/status';
 import { useAppData, type NewManualEvent } from '../state/AppData';
-import { accountHref } from '../state/router';
+import { accountHref, outreachHref } from '../state/router';
 import type { Account, Contact, OutreachEvent } from '../types';
 
 function Field({ label, children, wide }: { label: string; children: ReactNode; wide?: boolean }) {
@@ -223,7 +224,9 @@ export const AccountDetail = memo(function AccountDetail({
   activity: EntityActivity;
   highlightContactId?: string;
 }) {
-  const { index, removeManualEvent, toast } = useAppData();
+  const { index, research, removeManualEvent, toast } = useAppData();
+  const dossier = research[a.id];
+  const [showResearch, setShowResearch] = useState(false);
   const contacts = sortContacts(a.contacts);
   const sourceUrls = (a.sourceUrls ?? []).map((u) => safeUrl(u)).filter((u): u is string => !!u);
   const website = safeUrl(a.website ?? a.domain);
@@ -248,6 +251,14 @@ export const AccountDetail = memo(function AccountDetail({
           {a.typeReason && <p className="sub">{a.typeReason}</p>}
         </div>
         <div className="detail-links">
+          {dossier && (
+            <button type="button" className="btn btn-sm btn-research btn-primary-outline" onClick={() => setShowResearch(true)} data-testid="account-research">
+              <Icon name="search" /> Research
+            </button>
+          )}
+          <a className="btn btn-sm" href={outreachHref(a.id)} title="Open this account in Outreach">
+            <Icon name="send" /> Outreach
+          </a>
           {website && (
             <ExtLink href={website} className="btn btn-sm">
               <Icon name="globe" /> {displayUrl(website)}
@@ -308,6 +319,41 @@ export const AccountDetail = memo(function AccountDetail({
         </Section>
 
         <Section title="Alpha / signal" className="span-2">
+          <div className="rating-block" data-testid="account-rating">
+            <div className="rating-line">
+              <GradePill grade={a.grade} rating={a.rating} showRating={false} />
+              <b>
+                Rating {a.rating} · {a.grade}
+              </b>
+            </div>
+            {a.ratingReasons.length > 0 && (
+              <ul className="rating-reasons">
+                {a.ratingReasons.map((r, i) => (
+                  <li key={i}>{r}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+          {dossier && (
+            <div className="dossier-brief" data-testid="dossier-brief">
+              <div className="provenance">
+                Research dossier · {dossier.claims.length} cited claims ·{' '}
+                <button type="button" className="link-btn" onClick={() => setShowResearch(true)}>
+                  open
+                </button>
+              </div>
+              {dossier.summary && <p>{dossier.summary}</p>}
+              {dossier.hooks.length > 0 && (
+                <ol className="rp-hooks">
+                  {dossier.hooks.slice(0, 3).map((h, i) => (
+                    <li key={i}>
+                      {h.text} {h.claimIds.length > 0 && <span className="muted small">({h.claimIds.join(', ')})</span>}
+                    </li>
+                  ))}
+                </ol>
+              )}
+            </div>
+          )}
           <div className="score-row">
             <span className="score-item">
               <span className="muted">Signal</span> <ScorePill score={a.signalScore} />
@@ -453,6 +499,7 @@ export const AccountDetail = memo(function AccountDetail({
           <p className="muted">No outreach logged for this account.</p>
         )}
       </Section>
+      {showResearch && dossier && <ResearchPanel dossier={dossier} accountName={a.name} onClose={() => setShowResearch(false)} />}
     </div>
   );
 });

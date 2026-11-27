@@ -1,0 +1,290 @@
+{
+ "accountId": "bydee",
+ "accountName": "Bydee",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Bydee is a Sydney-based swimwear and resort wear brand that sells mostly to the US via a dedicated Shopify Plus US store, launched a US warehouse in May 2025 and localised for the UK. Padraig Spillane is Head of Finance (since October 2025) alongside CFO Emma Fisher; he previously ran a month-end close by working day 5 at Hotsprings.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/padraig-spillane-591a4527",
+   "title": "Padraig Spillane LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S2",
+   "url": "https://www.ragtrader.com.au/news/bydee-scores-triple-digit-sales-boom-globally",
+   "title": "Bydee scores triple-digit sales boom globally",
+   "type": "news",
+   "publisher": "Ragtrader",
+   "date": "2024-11-20"
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/company/bydee",
+   "title": "Bydee LinkedIn company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-05-16"
+  },
+  {
+   "id": "S4",
+   "url": "https://vitamagazine.com/2026/01/08/swim-sold-out-repeated-how-bydee-rode-the-alix-earle-wave/",
+   "title": "Swim, Sold Out, Repeated: How Bydee Rode The Alix Earle Wave",
+   "type": "news",
+   "publisher": "VITA Daily",
+   "date": "2026-01-08"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.shopify.com/case-studies/bydee",
+   "title": "Bydee grows global sales with Shopify Plus",
+   "type": "website",
+   "publisher": "Shopify",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://insideretail.com.au/ir-pro/bikinis-on-the-kitchen-bench-to-a-global-resort-wear-brand-bydee-boomed-700-202406",
+   "title": "From bikinis on a kitchen bench to global resort wear brand",
+   "type": "news",
+   "publisher": "Inside Retail Australia",
+   "date": "2024-06-28"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Bydee is an Australian swimwear brand formed in 2013 and headquartered in Sydney.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Bydee is an Australian swimwear brand, formed in 2013.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Padraig Spillane is Head of Finance at Bydee (current), in the role since October 2025.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Head of Finance - Bydee (Current) Oct 2025 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "At Hotsprings, Padraig as Group Financial Controller completed month end by mid-day on working day 5 including board reports, and ran FX hedging for three brands.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Complete month end by mid-day on working day 5 including all Board Reports and reforecasting",
+   "date": "2025-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "At ForHealth Group Padraig overhauled balance sheet reconciliations after a system and entity transition.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Overhaul of BS reconciliations after transition from parent company to independent entity",
+   "date": "2022-10",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Bydee's founder told Ragtrader in November 2024 that US sales were 60 per cent of the business and global sales had grown 110 per cent year on year.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "recorded a 110 per cent growth in global sales year-on-year, with US sales dominating",
+   "date": "2024-11",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C6",
+   "text": "The founder said the UK had launched the prior year with order volumes up 240 per cent since launch.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "The UK is a growing market for us, having launched there last year with order volumes increasing by 240 per cent since launch",
+   "date": "2024-11",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "Bydee launched a US warehouse in May 2025, so US customers can shop tariff-free.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "We’ve officially launched our US warehouse!",
+   "date": "2025-05",
+   "category": "news",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "In January 2026 Bydee's founder said US sales doubled year on year during the traditional US off-peak period.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Seeing US sales double year-on-year during what is traditionally the US off-peak period",
+   "date": "2026-01",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Founder Dessy Hairis said VAT and duties in the UK are a real hindrance to Australian businesses, which shaped Bydee's localised UK site.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "VAT and duties in the UK are a real hindrance to Australian businesses",
+   "date": "2024-06",
+   "category": "pain",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Bydee uses Shopify Plus with expansion stores, including a dedicated US store alongside the main Australia and New Zealand store.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Bydee used Shopify expansion stores to create an online store dedicated to the US and international market",
+   "date": null,
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C11",
+   "text": "LinkedIn lists Emma Fisher as Bydee's CFO and Dessy Hairis as founder and creative director.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Emma Fisher: CFO",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Padraig Spillane",
+   "title": "Head of Finance",
+   "contactId": "bydee--padraig-spillane",
+   "linkedin": "https://linkedin.com/in/padraig-spillane-591a4527",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Emma Fisher",
+   "title": "CFO",
+   "contactId": "bydee--emma-fisher",
+   "linkedin": "https://www.linkedin.com/in/emma-fisher-22a021a3",
+   "claimIds": [
+    "C11"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "US store, US warehouse and UK localisation mean Shopify payouts, FX and inventory-location reconciling each month for a lean team.",
+   "claimIds": [
+    "C7",
+    "C10",
+    "C6",
+    "C8"
+   ]
+  },
+  {
+   "text": "Padraig is known for fast closes (working day 5) and has overhauled reconciliations before, so he values rigour and speed.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "UK VAT and duties and US tariffs add landed-cost and tax journals.",
+   "claimIds": [
+    "C9",
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "CFO Emma Fisher is based in Lisbon and is the likely sponsor; Padraig joined only in October 2025 so tooling may still be in transition.",
+   "claimIds": [
+    "C2",
+    "C11"
+   ]
+  },
+  {
+   "text": "Several growth figures come from 2024 coverage and may be out of date.",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No posts by Padraig found.",
+  "ERP/accounting system not confirmed.",
+  "No finance job ads found."
+ ],
+ "searches": [
+  {
+   "query": "Bydee swimwear Australia US warehouse UK launch growth 2026",
+   "results": 8
+  },
+  {
+   "query": "Padraig Spillane Head of Finance Bydee",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "bydee--padraig-spillane",
+   "subject": "Month-end across Bydee's US and AU stores",
+   "body": "Hi Padraig, I saw Bydee launched a US warehouse and that US sales doubled year on year during the US off-peak. With a dedicated US Shopify store beside the Australian one, plus UK customers, payouts, FX and stock locations all need reconciling each month. Having closed by working day 5 at Hotsprings, you know the standard. I built Vert to turn hours of manual reconciliation into minutes, with a trail you can trace. Which payouts take longest to match?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C8",
+    "C10",
+    "C3"
+   ]
+  },
+  "followUp": {
+   "contactId": "bydee--padraig-spillane",
+   "subject": "Re: Month-end across Bydee's US and AU stores",
+   "body": "Hi Padraig, following up on my note last week. Dessy told Inside Retail that UK VAT and duties are a real hindrance for Australian brands, and with stock now in a US warehouse, landed cost and duties reach your journals too. Vert matches the underlying payouts and bank lines in minutes, with a trail your auditors can follow. Do you reconcile the US and AU stores separately each month?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C7",
+    "C10"
+   ]
+  },
+  "followUp2": {
+   "contactId": "bydee--padraig-spillane",
+   "subject": "Re: Month-end across Bydee's US and AU stores",
+   "body": "Hi Padraig, last nudge from me. At ForHealth you overhauled balance sheet reconciliations after a system change, so you know where the pain sits. If Bydee's multi-currency payouts are the next candidate, I'd gladly show you Vert in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C2"
+   ]
+  }
+ }
+}
