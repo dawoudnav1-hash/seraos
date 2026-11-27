@@ -1,0 +1,225 @@
+{
+ "accountId": "ultra-violette-skincare",
+ "accountName": "Ultra Violette Skincare",
+ "status": "complete",
+ "summary": "Ultra Violette is a Melbourne (Cremorne) SPF skincare brand that launched into the US via Sephora in March 2025 as its 30th market, backed by an Aria Growth Partners minority investment. CFO Emma Blake has led finance since Feb 2020 and earlier built an automated reconciliation system at bp.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://linkedin.com/in/emma-blake-698a57209",
+   "title": "Emma Blake profile",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/company/ultra-violette-skincare",
+   "title": "Ultra Violette Skincare company page",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.prnewswire.com/news-releases/cult-aussie-spf-brand-ultra-violette-announces-us-expansion-with-nationwide-launch-into-sephora-302399887.html",
+   "title": "Ultra Violette US expansion into Sephora",
+   "type": "news",
+   "publisher": "PR Newswire",
+   "date": "2025-03-12"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.beautyindependent.com/aria-growth-partners-australian-sun-care-brand-ultra-violette-north-american-expansion/",
+   "title": "Aria Growth Partners and Ultra Violette",
+   "type": "news",
+   "publisher": "Beauty Independent",
+   "date": "2024-01-25"
+  },
+  {
+   "id": "S5",
+   "url": "https://ecommercenews.com.au/story/ultra-violette-proves-tech-transformation-is-a-team-sport",
+   "title": "Ultra Violette proves tech transformation is a team sport",
+   "type": "news",
+   "publisher": "Ecommerce News",
+   "date": "2025-05-23"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Emma Blake is currently Chief Financial Officer of Ultra Violette Skincare (since Feb 2020).",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Chief Financial Officer - Ultra Violette Skincare (Current)",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Ultra Violette is headquartered in Cremorne, Victoria.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Headquartered in Cremorne, Victoria, Australia.",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Earlier at bp, Emma designed and implemented an automated system to reconcile commodity traders' P&L to financial results.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Responsible for the design, development and implementation of an automated system to reconcile Commodity Trader’s Profit & Loss to financial results.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Ultra Violette launched into 592 Sephora stores across the US from 28 March 2025.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "from Friday March 28th, it will launch into 592 Sephora stores across the country",
+   "date": "2025-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "The US was Ultra Violette's 30th market.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "launch into the US market as its 30th market.",
+   "date": "2025-03",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Aria Growth Partners bought a minority stake to fund North American expansion; the brand also sells via Sephora Australia, Space NK and Harrods.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "The sun protection brand is carried by Sephora Australia, Space NK, Harrods, Liberty and Adore Beauty.",
+   "date": "2024-01",
+   "category": "growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "By 2023 Ultra Violette had multiple Xero instances and DEAR/Cin7 across regions, with fractured reporting, before consolidating systems.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "With multiple instances of Xero and DEAR/Cin7 spread across regions, inventory visibility was limited, reporting was fractured",
+   "date": "2025-05",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C8",
+   "text": "LinkedIn shows Ultra Violette growing 45.7% year on year.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Yearly Growth: +45.7%",
+   "date": null,
+   "category": "growth",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Emma Blake",
+   "title": "Chief Financial Officer",
+   "contactId": "ultra-violette-skincare--emma-blake",
+   "linkedin": "https://linkedin.com/in/emma-blake-698a57209",
+   "claimIds": [
+    "C1",
+    "C3"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Emma built an automated reconciliation system at bp, so she values reconciliation done properly.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
+   "text": "US Sephora rollout plus UK/AU retailers means retailer remittance and multi-currency reconciliation load.",
+   "claimIds": [
+    "C4",
+    "C6",
+    "C5"
+   ]
+  },
+  {
+   "text": "History of multiple Xero instances suggests consolidation pain.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Revenue may sit above the ICP band; systems were rebuilt with an implementation partner (Annexa) so tooling may be settled.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ ],
+ "gaps": [
+  "No recent public posts by Emma beyond a Jan 2024 hiring post.",
+  "Current ERP not confirmed from a primary source."
+ ],
+ "searches": [
+  {
+   "query": "Emma Blake CFO Ultra Violette Skincare",
+   "results": 8
+  },
+  {
+   "query": "Ultra Violette Skincare Sephora US expansion Aria Growth Partners",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": {
+   "contactId": "ultra-violette-skincare--emma-blake",
+   "subject": "Reconciling Sephora remittances at Ultra Violette",
+   "body": "Hi Emma,\n\nYour background includes designing an automated system at bp to reconcile traders' P&L to financial results, so you know what good reconciliation looks like. Ultra Violette now sells through 592 Sephora stores in the US on top of Australia and the UK, so retailer remittances, currencies and intercompany all land in your month-end. I built Vert to reconcile and cash code with a traceable trail, turning 4 hours into 5 minutes. How much of your close is still manual across regions?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp": {
+   "contactId": "ultra-violette-skincare--emma-blake",
+   "subject": "Re: Reconciling Sephora remittances at Ultra Violette",
+   "body": "Hi Emma,\n\nFollowing up on my note last week. A write-up on your systems rebuild mentioned multiple Xero instances and fractured reporting before the North American push. Once systems are consolidated, reconciling across regions is where hours tend to hide. Could I show you Vert on a sample month of retailer remittances in 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "ultra-violette-skincare--emma-blake",
+   "subject": "Re: Reconciling Sephora remittances at Ultra Violette",
+   "body": "Hi Emma,\n\nLast nudge from me. With the US as your 30th market and growth still strong, close complexity usually grows faster than headcount. If that is true at Ultra Violette, I can show you Vert in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C8"
+   ]
+  }
+ }
+}

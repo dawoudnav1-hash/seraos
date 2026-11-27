@@ -1,0 +1,237 @@
+{
+ "accountId": "smith-feutrill",
+ "accountName": "Smith Feutrill",
+ "status": "complete",
+ "researchedAt": "2026-11-26",
+ "summary": "Smith Feutrill is a Hawthorn VIC accounting and financial services firm led by four directors with a team of over 40. Ed Beasley was promoted to Principal from 1 January 2026 as director Greg Feutrill steps back to part time. The firm sells virtual CFO advisory and back office support covering bookkeeping, trust accounting, accounts management and payroll.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://smithfeutrill.com.au/",
+   "title": "Chartered Accountant - Wealth Management | Smith Feutrill",
+   "type": "website",
+   "publisher": "Smith Feutrill",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://smithfeutrill.com.au/meet-the-team/",
+   "title": "Meet the Team - Smith Feutrill",
+   "type": "website",
+   "publisher": "Smith Feutrill",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://www.linkedin.com/posts/smith-feutrill_the-directors-are-excited-to-announce-that-activity-7407236275994275840-Us-c",
+   "title": "Ed Beasley promoted to Principal | Smith Feutrill",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2025-12-18"
+  },
+  {
+   "id": "S4",
+   "url": "https://linkedin.com/in/ed-beasley-76b683bb",
+   "title": "Ed Beasley | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/company/smith-feutrill",
+   "title": "Smith Feutrill | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.zoominfo.com/pic/smith-feutrill-pty-ltd/347806206",
+   "title": "Smith Feutrill: Employee Directory",
+   "type": "directory",
+   "publisher": "ZoomInfo",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Smith Feutrill's office is at 801 Glenferrie Rd, Hawthorn VIC.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Smith Feutrill corporate office is located in 801 Glenferrie Rd, Hawthorn, Victoria, 3122, Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "medium"
+  },
+  {
+   "id": "C2",
+   "text": "Ed Beasley is a Chartered Accountant and Principal who joined Smith Feutrill in 2018.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Since joining Smith Feutrill in 2018",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Smith Feutrill announced in Dec 2025 that Ed was promoted to Principal effective 1 January 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Ed Beasley has been promoted from his role as Manager to the position of Principal, effective 1 January 2026.",
+   "date": "2025-12",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "The same announcement says Greg Feutrill steps back to a part time role in 2026.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "as Greg Feutrill steps back to a part time role in 2026",
+   "date": "2025-12",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Ed's LinkedIn (Nov 2026) shows him as current Principal and describes reporting to CFOs and CEOs on their financial position in a timely manner.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Report to CFO’s & CEO’s of the financial position of their business in an analytical and timely manner.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Smith Feutrill's Back Office Support covers book-keeping, trust accounting, accounts management and payroll.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "solutions for book-keeping, trust accounting, accounts management and payroll",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "The firm offers Virtual CFO Advisory as strategic guidance without a full-time CFO.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Gain strategic financial guidance without a full-time CFO.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Smith Feutrill is led by four directors and a professional team of over 40.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "the firm is led by four directors and a professional team of over 40",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "Ed specialises in tax structuring, business valuations and mergers and acquisitions, particularly in commercial and residential real estate.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "tax structuring, business valuations, and mergers & acquisitions",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Ed Beasley",
+   "title": "Principal",
+   "contactId": "smith-feutrill--ed-beasley",
+   "linkedin": "https://www.linkedin.com/in/ed-beasley-76b683bb",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C5",
+    "C9"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Ed was newly promoted to Principal (Jan 2026) as a director steps back: new owner of efficiency and capacity decisions.",
+   "claimIds": [
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "text": "Back Office Support (bookkeeping, trust accounting, accounts management, payroll) is recurring reconciliation work.",
+   "claimIds": [
+    "C6"
+   ]
+  },
+  {
+   "text": "Ed reports to CFOs and CEOs on financial position, which depends on timely reconciliation.",
+   "claimIds": [
+    "C5"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Ed's own specialty is tax structuring and M&A rather than back office; bookkeeping tooling decisions may sit with a manager or another director.",
+   "claimIds": [
+    "C9",
+    "C6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No hiring ads, Xero/MYOB partner status, podcasts or Ed's own posts beyond the promotion found; headcount shown as over 40 (LinkedIn) vs ZoomInfo 11-50."
+ ],
+ "searches": [
+  {
+   "query": "Ed Beasley Smith Feutrill",
+   "results": 8
+  },
+  {
+   "query": "Smith Feutrill website",
+   "results": 1
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "smith-feutrill--ed-beasley",
+   "subject": "Re: Idea for Smith Feutrill",
+   "body": "Hi Ed,\n\nFollowing up on my note on Tuesday. Congratulations on becoming Principal in January. With Greg stepping back to part time in 2026, your team's hours matter more, including the book-keeping, trust accounting and payroll in your Back Office Support service. Vert takes 4 hours of manual reconciling down to 5 minutes, with every match traceable. Open to a short walkthrough?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C4",
+    "C6"
+   ]
+  },
+  "followUp2": {
+   "contactId": "smith-feutrill--ed-beasley",
+   "subject": "Re: Idea for Smith Feutrill",
+   "body": "Hi Ed,\n\nLast note. You report to CFOs and CEOs on their financial position, and that is only as timely as the reconciling behind it. Vert gets reconciliations done in minutes, with an audit trail. Happy to show you in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
+  }
+ }
+}

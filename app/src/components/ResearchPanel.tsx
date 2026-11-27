@@ -1,4 +1,5 @@
 import { Fragment, useId, useMemo, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { formatDate } from '../lib/format';
 import { displayUrl, safeUrl } from '../lib/links';
 import { CATEGORY_LABEL, CLAIM_CATEGORIES, RESEARCH_STATUS_LABEL, SOURCE_TYPE_LABEL, sourceNumbers } from '../lib/research';
@@ -81,7 +82,7 @@ export function ResearchPanel({ dossier, accountName, onClose }: { dossier: Doss
   );
   const researched = dossier.researchedAt ? Date.parse(dossier.researchedAt) : NaN;
 
-  return (
+  return createPortal(
     <div className="modal-backdrop panel-backdrop" onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
       <div className="side-panel" role="dialog" aria-modal="true" aria-labelledby={titleId} ref={ref} data-testid="research-panel">
         <header className="side-panel-head">
@@ -248,6 +249,7 @@ export function ResearchPanel({ dossier, accountName, onClose }: { dossier: Doss
           </details>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
