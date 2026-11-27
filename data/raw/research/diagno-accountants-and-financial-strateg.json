@@ -378,6 +378,15 @@
     "C10",
     "C11"
    ]
+  },
+  "followUp2": {
+   "contactId": "diagno-accountants-and-financial-strateg--kris-fothergill",
+   "subject": "Re: Reconciling at Diagno",
+   "body": "Hi Kris,\n\nLast nudge. Diagno's article on performance monitoring tells clients to compare actual results against forecasts, which only works when reconciliations are current. Is that a gap you see, and would 10 minutes on Vert be worth your time?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C13",
+    "C4"
+   ]
   }
  }
 }

@@ -314,6 +314,15 @@
     "C10",
     "C7"
    ]
+  },
+  "followUp2": {
+   "contactId": "charterpoint--dr-irmagard-van-rensburg",
+   "subject": "Re: Charterpoint's leasing model and NFP reconciliations",
+   "body": "Hi Irmagard,\n\nLast note from me. Given your fraud risk work for a charity, I suspect you care how traceable a number is. Vert shows the reason behind every match, so an auditor can follow it. If that's useful for your not-for-profit clients, I'd gladly show you in 10 min. If not, no worries.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C7"
+   ]
   }
  }
 }

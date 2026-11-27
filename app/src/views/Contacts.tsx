@@ -1,5 +1,5 @@
 import { useDeferredValue, useEffect, useMemo, useState, type KeyboardEvent, type MouseEvent } from 'react';
-import { Badge, ContactedToggle, EmailLink, EmptyState, Icon, LinkedInLink, SearchBox, Segmented, Select, SourceBadges, StatusPill } from '../components/ui';
+import { Badge, ContactedToggle, EmailLink, EmptyState, GradeFilter, GradePill, Icon, LinkedInLink, SearchBox, Segmented, Select, SourceBadges, StatusPill } from '../components/ui';
 import { copyText, dateStamp, downloadText, toCsv } from '../lib/csv';
 import { kindLabel } from '../lib/events';
 import {
@@ -32,6 +32,7 @@ import {
   withOutreachStatus,
   withoutOutreach,
   withState,
+  validGrades,
 } from '../lib/filters';
 import { formatDate, localISODate } from '../lib/format';
 import { compareSegments, segmentOf, TYPE_LABEL } from '../lib/stats';
@@ -67,6 +68,7 @@ function validate(v: unknown): ContactFilters | undefined {
   const s = (x: unknown) => (typeof x === 'string' ? x : '');
   return normalizeOutreach<ContactFilters>({
     query: s(r.query),
+    grades: validGrades(r.grades),
     section: SECTIONS.includes(r.section as Section) ? (r.section as Section) : 'all',
     contacted: CONTACTED_FILTERS.includes(r.contacted as ContactedFilter) ? (r.contacted as ContactedFilter) : 'all',
     city: s(r.city),
@@ -143,7 +145,7 @@ export function Contacts() {
 
   const buildCsv = () =>
     toCsv(
-      ['Contact ID', 'Name', 'Title', 'Role type', 'Account', 'Account ID', 'Section', 'Segment', 'City', 'Suburb', 'State', 'Email', 'Email risk', 'Email status', 'LinkedIn', 'Location', 'Primary', 'Likely left', 'Outreach status', 'Last touch', 'Sources'],
+      ['Contact ID', 'Name', 'Title', 'Role type', 'Account', 'Account ID', 'Rating', 'Grade', 'Section', 'Segment', 'City', 'Suburb', 'State', 'Email', 'Email risk', 'Email status', 'LinkedIn', 'Location', 'Primary', 'Likely left', 'Outreach status', 'Last touch', 'Sources'],
       sorted.map((r) => [
         r.contact.id,
         r.contact.name,
@@ -151,6 +153,8 @@ export function Contacts() {
         r.contact.roleType,
         r.account.name,
         r.account.id,
+        r.account.rating,
+        r.account.grade,
         TYPE_LABEL[r.account.type],
         r.account.segment,
         r.account.city,
@@ -202,6 +206,7 @@ export function Contacts() {
           onChange={(v) => setFilter('segment', v)}
           options={[{ value: '', label: 'All' }, ...segments.map((s) => ({ value: s, label: s }))]}
         />
+        <GradeFilter value={filters.grades} onChange={(v) => setFilter('grades', v)} testIdPrefix="contacts-grade" />
         <Select
           label="Email"
           value={filters.emailRisk}
@@ -305,9 +310,12 @@ export function Contacts() {
                       </div>
                     </td>
                     <td>
-                      <a href={accountHref(r.account.id, c.id)} className="clamp-1">
-                        {r.account.name}
-                      </a>
+                      <span className="account-cell">
+                        <GradePill grade={r.account.grade} rating={r.account.rating} showRating={false} />
+                        <a href={accountHref(r.account.id, c.id)} className="clamp-1">
+                          {r.account.name}
+                        </a>
+                      </span>
                     </td>
                     <td>
                       <span className={`badge badge-type-${r.account.type}`}>{SECTION_SHORT[r.account.type]}</span>

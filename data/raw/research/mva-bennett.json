@@ -1,0 +1,272 @@
+{
+ "accountId": "mva-bennett",
+ "accountName": "MVA Bennett",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "MVA Bennett is a Melbourne CBD chartered accounting and audit firm (est. 1941) in the Walker Wayland network, grown through mergers including JT&P in 2023. Travis Fegan is Managing Partner and recently shared the firm's journey with Walker Wayland members. An internal innovation team is working on an AI-driven strategy and the firm is hiring a Business Services Manager. Travis and Chris Hall were both emailed on 23 Nov 2026.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.linkedin.com/posts/walker-wayland-australasia_this-morning-travis-fegan-managing-partner-activity-7526800097213407232-UL5M",
+   "title": "Walker Wayland post: Travis Fegan on MVA Bennett's journey",
+   "type": "linkedin",
+   "publisher": "Walker Wayland Australasia (LinkedIn)",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/travis-fegan-89b8314",
+   "title": "Travis Fegan LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://mvabennett.com.au/our-team/",
+   "title": "Our Team - MVA Bennett",
+   "type": "website",
+   "publisher": "MVA Bennett",
+   "date": null
+  },
+  {
+   "id": "S4",
+   "url": "https://mvabennett.com.au/contact-us/",
+   "title": "Contact - MVA Bennett",
+   "type": "website",
+   "publisher": "MVA Bennett",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://linkedin.com/in/michael-quoc-nguyen-cpa-07142841",
+   "title": "Michael Quoc Nguyen CPA LinkedIn (Manager, MVA Bennett)",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-18"
+  },
+  {
+   "id": "S6",
+   "url": "https://workmundi.com/vaga/c2Vlazo5NTQyODIyNA",
+   "title": "Manager, Business Services - MVA Bennett",
+   "type": "job",
+   "publisher": "WorkMundi",
+   "date": "2026-10-22"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "MVA Bennett's office is Level 5 North Tower, 485 La Trobe Street, Melbourne (mvabennett.com.au).",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "Level 5 North Tower, 485 La Trobe Street, Melbourne 3000, Victoria, Australia",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Travis Fegan is Managing Partner of MVA Bennett as of November 2026.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Travis Fegan, Managing Partner of MVA Bennett, took us behind the scenes of the firm's journey.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Travis says building systems and processes so founders can focus on the business is a strength.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Building systems and processes and allowing founders to concentrate on the business in the formative stages is a strength.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "Travis has experience as a CFO in a family business.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "having experience as a CFO in a family business where cash was required to support owner needs.",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In November 2026 Travis shared the decisions and challenges behind MVA Bennett's journey with Walker Wayland Australasia members.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "The decisions, the challenges and the experiences that have shaped the business along the way.",
+   "date": "2026-11",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "MVA Bennett has grown through mergers, with audit and business staff joining from JT&P in July 2023.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Ashley Yeok joined the MVA Bennett team in July 2023 as part of the JT&P merger",
+   "date": null,
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "A MVA Bennett manager's LinkedIn says he contributed to the firm's innovation team designing an AI-driven strategy for the practice.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Contribute to the firm’s innovation team to design and implement an AI-driven strategy within the practice.",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "MVA Bennett advertised a Manager, Business Services role in October 2026, with strategies to improve operational efficiency in scope.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Develop and implement strategies to improve operational efficiency and client satisfaction.",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "MVA Bennett's vCFO delivery aims to use technology to drive efficiency.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The team strives to be accurate and timely using technology available to drive efficiency.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C10",
+   "text": "The firm coordinates internal and outsourced teams on client work.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "coordinate with internal and outsourced teams to optimise capacity and meet deadlines.",
+   "date": "2026-10",
+   "category": "firm",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Travis Fegan",
+   "title": "Managing Partner",
+   "contactId": "mva-bennett--travis-fegan",
+   "linkedin": "https://linkedin.com/in/travis-fegan-89b8314",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "name": "Chris Hall",
+   "title": "Partner",
+   "contactId": "mva-bennett--chris-hall",
+   "linkedin": null,
+   "claimIds": []
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Travis recently opened up about the firm's journey, decisions and challenges to Walker Wayland peers, and has a CFO-in-a-family-business background: receptive to practical operating-model talk.",
+   "claimIds": [
+    "C5",
+    "C4"
+   ]
+  },
+  {
+   "text": "Innovation team is already designing an AI-driven strategy and the firm is hiring a Business Services Manager to improve operational efficiency: reconciliation automation fits both.",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "vCFO offering built on technology-driven efficiency, plus outsourced capacity, means recurring reconciliation volume.",
+   "claimIds": [
+    "C9",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Both Travis and Chris Hall were emailed on 23 Nov 2026; keep follow-ups to one thread each and do not double up.",
+   "claimIds": []
+  },
+  {
+   "text": "Firm is audit and tax led (weak bookkeeping fit per record); in-house AI strategy may mean they build rather than buy.",
+   "claimIds": [
+    "C7"
+   ]
+  },
+  {
+   "text": "Andrew Ellem (former Managing Partner) left in July 2025 and is flagged do-not-contact; the firm's team page still lists him, so treat it as stale.",
+   "claimIds": []
+  }
+ ],
+ "gaps": [
+  "No podcast or video content by Travis found.",
+  "No Facebook/Instagram posts retrieved.",
+  "Chris Hall has no LinkedIn URL in the record and no recent public content was found.",
+  "Xero or other tech stack at firm level not confirmed (job ad only mentions Xero).",
+  "LinkedIn lists headcount 30-40 (-30% YoY) via third-party data."
+ ],
+ "searches": [
+  {
+   "query": "site:mvabennett.com.au home/contact/our-team (fetch)",
+   "results": 3
+  },
+  {
+   "query": "Travis Fegan Managing Partner MVA Bennett",
+   "results": 8
+  },
+  {
+   "query": "MVA Bennett Melbourne careers accountant audit Walker Wayland member firm technology AI",
+   "results": 7
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "mva-bennett--travis-fegan",
+   "subject": "Re: Quick chat, Travis?",
+   "body": "Hi Travis, following up on my note earlier this week. I saw you shared the decisions and challenges behind MVA Bennett's journey with Walker Wayland members this month. With your CFO background in a family business, I'm curious how much of your team's time on client files still goes to reconciling by hand, and whether the innovation team's AI-driven strategy has reached that yet. Happy to share how Vert approaches it.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C4",
+    "C7"
+   ]
+  },
+  "followUp2": {
+   "contactId": "mva-bennett--travis-fegan",
+   "subject": "Re: Quick chat, Travis?",
+   "body": "Hi Travis, last nudge. MVA Bennett is hiring a Manager, Business Services, with operational efficiency in scope, so capacity is clearly on your mind. If a tool that cuts reconciliation time on Xero files would help that manager's team, I'd be glad to show you in 10 minutes. If the timing's off, no problem.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C8",
+    "C9"
+   ]
+  }
+ }
+}

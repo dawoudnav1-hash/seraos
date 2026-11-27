@@ -337,6 +337,15 @@
     "C10",
     "C7"
    ]
+  },
+  "followUp2": {
+   "contactId": "wsc-group--jonathan-karanikas",
+   "subject": "Re: Reconciling charity books at WSC",
+   "body": "Hi Jonathan,\n\nLast note. Your recorded webinar on budgeting and forecasting depends on current books, and with over 230 charity clients that starts with reconciliation. Worth 10 minutes to see how Vert handles it?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C5"
+   ]
   }
  }
 }

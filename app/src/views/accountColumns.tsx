@@ -1,14 +1,15 @@
 import type { ReactNode } from 'react';
-import { ExtLink, LinkedInLink, ScorePill, SourceBadges, StatusPill } from '../components/ui';
+import { ExtLink, GradePill, LinkedInLink, ScorePill, SourceBadges, StatusPill } from '../components/ui';
 import type { CsvValue } from '../lib/csv';
 import { DASH, formatDate, localISODate } from '../lib/format';
-import { type AccountRow, type SortDir, type SortValue, cityOf, citySortKey, citySubtitle, leadingNumber, moneyValue } from '../lib/filters';
+import { type AccountRow, type SortDir, type SortValue, cityOf, citySortKey, citySubtitle, leadingNumber, moneyValue, ratingSortValue } from '../lib/filters';
 import { safeUrl } from '../lib/links';
 import { STATUS_LABEL, statusRank } from '../lib/status';
 import { TYPE_LABEL } from '../lib/stats';
 
 export type AccountColumnId =
   | 'company'
+  | 'rating'
   | 'segment'
   | 'city'
   | 'description'
@@ -97,6 +98,21 @@ export const ACCOUNT_COLUMNS: readonly AccountColumn[] = [
     defaultDir: 'asc',
     sort: (r) => r.account.name.toLowerCase(),
     render: () => null, // rendered by the row (expand toggle)
+  },
+  {
+    id: 'rating',
+    label: 'Rating',
+    width: 92,
+    num: true,
+    defaultVisible: true,
+    defaultDir: 'desc',
+    title: 'Sort by account rating (0-100) and grade A-D',
+    sort: (r) => ratingSortValue(r.account),
+    render: (r) => (
+      <span title={r.account.ratingReasons.join('\n') || undefined}>
+        <GradePill grade={r.account.grade} rating={r.account.rating} />
+      </span>
+    ),
   },
   {
     id: 'segment',
@@ -281,6 +297,8 @@ export const ACCOUNT_COLUMNS: readonly AccountColumn[] = [
 export const CSV_HEADERS = [
   'Account ID',
   'Company',
+  'Rating',
+  'Grade',
   'Section',
   'Segment',
   'Sector',
@@ -316,6 +334,8 @@ export function accountCsvRow(r: AccountRow): CsvValue[] {
   return [
     a.id,
     a.name,
+    a.rating,
+    a.grade,
     TYPE_LABEL[a.type] ?? a.type,
     a.segment,
     a.sector,

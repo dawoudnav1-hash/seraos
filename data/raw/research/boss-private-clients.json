@@ -385,6 +385,15 @@
     "C8",
     "C9"
    ]
+  },
+  "followUp2": {
+   "contactId": "boss-private-clients--sam-marzano",
+   "subject": "Re: Reconciling across family entities at Boss",
+   "body": "Hi Sam,\n\nLast note from me. Boss has a growing team spread across Australia and the Philippines, and I'd guess review time matters more than entry time. Vert shows the reasoning behind each match so a senior can check it in seconds. Worth a ten minute look, or should I close the loop?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C6"
+   ]
   }
  }
 }

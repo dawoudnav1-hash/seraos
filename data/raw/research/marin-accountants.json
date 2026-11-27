@@ -351,6 +351,15 @@
     "C7",
     "C6"
    ]
+  },
+  "followUp2": {
+   "contactId": "marin-accountants--arthur-topalidis",
+   "subject": "Re: Quick chat, Arthur?",
+   "body": "Hi Arthur,\n\nLast nudge. Marin's October newsletter covers the ATO using AI with quality data to match returns, which makes clean, reconciled client books matter more. Would 10 minutes on Vert be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C14",
+    "C9"
+   ]
   }
  }
 }

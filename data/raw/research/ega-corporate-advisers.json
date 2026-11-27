@@ -252,6 +252,15 @@
     "C7",
     "C5"
    ]
+  },
+  "followUp2": {
+   "contactId": "ega-corporate-advisers--lilian-bone",
+   "subject": "Re: Reconciliations at EGA",
+   "body": "Hi Lilian,\n\nLast nudge from me. Since you run EGA's super work, SMSF bank feeds and year-end reconciliations may be a crunch point. Vert matches them with a traceable reason behind each line, so the audit file is cleaner. Worth a 10 min look, or is someone else at EGA better placed to talk to?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C5",
+    "C7"
+   ]
   }
  }
 }

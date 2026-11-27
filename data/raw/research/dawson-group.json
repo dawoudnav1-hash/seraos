@@ -1,0 +1,317 @@
+{
+ "accountId": "dawson-group",
+ "accountName": "Dawson Group",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Dawson Group (dawson.com.au) is a Cootamundra-based chartered accounting and advisory firm, in business since 1918, with offices in Goulburn, Narooma and Yass after a late-2024 merger with a Yass firm. It has been a Xero Gold Champion partner since 2012, works with Figured, and sells outsourced bookkeeping with a promise that the client's bank account balances every month. Andrew Loveridge joined as Director/Partner in 2024 after about 20 years in business banking at NAB and is based in Goulburn. This is a strong fit: multi-office, Xero-centred, bookkeeping-led.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://www.dawson.com.au/",
+   "title": "Home - Dawson Chartered Accountants",
+   "type": "website",
+   "publisher": "Dawson Group",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://www.dawson.com.au/our-firm/our-team/company-directors/",
+   "title": "Company directors - Dawson Chartered Accountants",
+   "type": "website",
+   "publisher": "Dawson Group",
+   "date": null
+  },
+  {
+   "id": "S3",
+   "url": "https://linkedin.com/in/loveridgeandrew",
+   "title": "Andrew Loveridge - Director at Dawson Group | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "S4",
+   "url": "https://www.dawson.com.au/our-services/outsourcing-services/",
+   "title": "Outsourcing services - Dawson Chartered Accountants",
+   "type": "website",
+   "publisher": "Dawson Group",
+   "date": null
+  },
+  {
+   "id": "S5",
+   "url": "https://www.dawson.com.au/our-services/business-accounting-and-tax-solutions/",
+   "title": "Business accounting and tax solutions - Dawson Chartered Accountants",
+   "type": "website",
+   "publisher": "Dawson Group",
+   "date": null
+  },
+  {
+   "id": "S6",
+   "url": "https://www.dawson.com.au/our-firm/employment-opportunities/",
+   "title": "Employment opportunities - Dawson Chartered Accountants",
+   "type": "job",
+   "publisher": "Dawson Group",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://yassvalleytimes.com.au/news/yass-accountant-celebrates-30-years-of-numbers-at-dawson-chartered-accountants/",
+   "title": "Yass Accountant Celebrates 30 Years of Numbers at Dawson Chartered Accountants",
+   "type": "news",
+   "publisher": "Yass Valley Times",
+   "date": "2026-10-26"
+  },
+  {
+   "id": "S8",
+   "url": "https://dawson.com.au/our-team",
+   "title": "Our team - Dawson Chartered Accountants",
+   "type": "website",
+   "publisher": "Dawson Group",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Dawson Group is based in Cootamundra since 1918, with offices in Goulburn, Narooma and Yass in NSW.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Based in Cootamundra since 1918, we opened an office in Goulburn in 2009",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Andrew Loveridge is Director/Partner at Dawson Group, based in the Goulburn office, and his LinkedIn headline shows him as Director at Dawson Group, so he still works there.",
+   "sourceIds": [
+    "S2",
+    "S3"
+   ],
+   "quote": "Andrew joined Dawson Group in 2024 as Director/Partner and is based in our Goulburn office.",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Before Dawson, Andrew spent the past 20 years at NAB as a senior executive leading industry-focused banking teams.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "an extensive banking career with NAB, Australia's largest business bank, where he spent the past 20 years as a senior executive",
+   "date": "2024",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In May 2025 Andrew posted on LinkedIn announcing that he had joined Dawson Group as a Director/Partner.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "I am thrilled to announce that I’ve joined Dawson Group as a Director/Partner.",
+   "date": "2025-05",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "Dawson opened a Narooma office in 2022 and in late 2024 joined forces with a local Yass firm, so it now runs four offices.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "in late 2024, we joined forces with a local Yass firm to further strengthen our support for clients in the region.",
+   "date": "2024-11",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Dawson partners with Xero and Figured and says it has been a Xero gold champion partner since 2012.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Dawson Group has proudly held the status of a Xero gold champion partner since 2012.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Dawson sells outsourced bookkeeping and promises that its checking system means a client's bank account will balance every month.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "our system of checking will ensure that the reports you see each review period are current and your bank account will balance every month.",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "Tim Meares is the Dawson director responsible for outsourcing services.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Tim is the director responsible for outsourcing services.",
+   "date": null,
+   "category": "firm",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "Dawson's careers page lists a full-time Accountant role across its four offices (Xero, MYOB, APS and XPA, bookkeeping and software support) and a Credit Analyst role for debt advisory.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Perform and/or manage the provision of bookkeeping and software support services to clients;",
+   "date": null,
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "In an October 2026 Yass Valley Times profile, a Dawson Yass director says the firm uses good modern software and that Xero is its preferred software.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "We use the preferred software Xero, which is a great modern accounting software package",
+   "date": "2026-10",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Dawson says it has four executive directors, a consultant and around 25 specialist and support team members.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "We have Four Executive Directors, a Consultant, and around 25 specialist and support team members",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C12",
+   "text": "Kate Garrett joined Dawson as Director in March 2026, based in Goulburn, and holds a Bachelor of Information Technology.",
+   "sourceIds": [
+    "S2"
+   ],
+   "quote": "Kate joined Dawson Group in March 2026 as Director, based in our Goulburn office.",
+   "date": "2026-03",
+   "category": "person",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Andrew Loveridge",
+   "title": "Director",
+   "contactId": "dawson-group--andrew-loveridge",
+   "linkedin": "https://www.linkedin.com/in/loveridgeandrew",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4"
+   ]
+  },
+  {
+   "name": "Kate Garrett",
+   "title": "Director",
+   "contactId": "dawson-group--kate-garrett",
+   "linkedin": "https://www.linkedin.com/in/kate-garrett-56585478",
+   "claimIds": [
+    "C12"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Outsourced bookkeeping promising a balanced bank account every month, now delivered across four offices after the Yass merger: reconciliation consistency is the operational challenge.",
+   "claimIds": [
+    "C7",
+    "C5"
+   ]
+  },
+  {
+   "text": "Andrew's 20 years in business banking means he judges numbers by lender-grade traceability; an audit trail angle fits, and Dawson is hiring a credit analyst for debt advisory.",
+   "claimIds": [
+    "C3",
+    "C9"
+   ]
+  },
+  {
+   "text": "Xero Gold Champion since 2012 plus Figured: Vert slots into an existing Xero workflow rather than replacing it.",
+   "claimIds": [
+    "C6",
+    "C10"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Tim Meares, not Andrew, is the director responsible for outsourcing services, so Andrew may forward the email; Tim is not a contact on record.",
+   "claimIds": [
+    "C8"
+   ]
+  },
+  {
+   "text": "Two earlier emails (16 and 23 Nov) have gone to Andrew without a recorded reply; a third nudge needs a clearly different angle.",
+   "claimIds": []
+  },
+  {
+   "text": "Andrew is a recent career-changer from banking, so he may lean on his accounting directors for tooling decisions.",
+   "claimIds": [
+    "C3",
+    "C2"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, YouTube, Facebook or Instagram content found for Andrew or the firm.",
+  "No posts by Andrew after the May 2025 announcement surfaced.",
+  "No mention of Dext, Hubdoc or any AI reconciliation tool found.",
+  "The account note that contact names were unverified is resolved: Andrew and Kate both appear on the firm's directors page."
+ ],
+ "searches": [
+  {
+   "query": "fetch dawson.com.au home and our-team",
+   "results": 2
+  },
+  {
+   "query": "Andrew Loveridge Dawson Group Cootamundra director accountant",
+   "results": 9
+  },
+  {
+   "query": "fetch Yass Valley Times article and company directors page",
+   "results": 2
+  },
+  {
+   "query": "Dawson Chartered Accountants Cootamundra Goulburn careers bookkeeper outsourcing Xero MYOB",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "dawson-group--andrew-loveridge",
+   "subject": "Re: Cash coding at Dawson",
+   "body": "Hi Andrew,\n\nFollowing up on my earlier notes. Dawson's outsourcing page promises clients their bank account will balance every month, and since the Yass firm joined in late 2024 that promise runs across four offices. Vert reconciles and cash codes with a traceable match behind every line, so each office works the same way. How are the offices keeping reconciliation consistent today?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "dawson-group--andrew-loveridge",
+   "subject": "Re: Cash coding at Dawson",
+   "body": "Hi Andrew,\n\nLast one from me. After 20 years in business banking, you know a lender wants numbers it can trace, and Dawson is hiring a credit analyst for debt advisory. Clean, reconciled books make that work faster. Worth a 10 min look at Vert?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C3",
+    "C9"
+   ]
+  }
+ }
+}

@@ -249,6 +249,15 @@
     "C3",
     "C4"
    ]
+  },
+  "followUp2": {
+   "contactId": "hall-chadwick-nsw--abeed-ahmad",
+   "subject": "Re: Quick chat, Abeed?",
+   "body": "Hi Abeed,\n\nFinal nudge. With two new forensic partners joining the practice, I imagine you're tooling up. If a traceable bank-to-ledger matcher like Vert is ever useful for your analytics work, I'd gladly show you in 10 min. Otherwise, could you point me to the right person at Hall Chadwick?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C5"
+   ]
   }
  }
 }

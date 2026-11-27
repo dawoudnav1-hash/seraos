@@ -320,6 +320,15 @@
     "C9",
     "C7"
    ]
+  },
+  "followUp2": {
+   "contactId": "unity-accounting--christine-hbous",
+   "subject": "Re: Reconciling at Unity Accounting",
+   "body": "Hi Christine,\n\nLast note. One of your NFP clients cut payroll from three days a fortnight to half a day, which shows what automation does for a small team. Vert aims to do the same for reconciliation. Worth 10 min, or is the timing wrong?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C11",
+    "C4"
+   ]
   }
  }
 }

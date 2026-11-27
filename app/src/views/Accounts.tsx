@@ -1,5 +1,5 @@
 import { memo, useCallback, useDeferredValue, useEffect, useMemo, useRef, useState, type MouseEvent } from 'react';
-import { Badge, ContactedToggle, EmptyState, Icon, Logo, Popover, SearchBox, Segmented, Select } from '../components/ui';
+import { Badge, ContactedToggle, EmptyState, GradeFilter, Icon, Logo, Popover, SearchBox, Segmented, Select } from '../components/ui';
 import { copyText, dateStamp, downloadText, toCsv } from '../lib/csv';
 import {
   type AccountFilters,
@@ -29,6 +29,7 @@ import {
   withOutreachStatus,
   withoutOutreach,
   withState,
+  validGrades,
   type ContactedFilter,
 } from '../lib/filters';
 import { safeUrl, displayUrl } from '../lib/links';
@@ -65,6 +66,7 @@ function validateFilters(v: unknown): AccountFilters | undefined {
   const s = (x: unknown) => (typeof x === 'string' ? x : '');
   return normalizeOutreach<AccountFilters>({
     query: s(r.query),
+    grades: validGrades(r.grades),
     contacted: CONTACTED_FILTERS.includes(r.contacted as ContactedFilter) ? (r.contacted as ContactedFilter) : 'all',
     city: s(r.city),
     state: s(r.state),
@@ -375,6 +377,7 @@ export function Accounts({ route }: { route: Route }) {
           options={[{ value: '', label: 'All' }, ...segments.map((s) => ({ value: s, label: s }))]}
           testId="filter-segment"
         />
+        <GradeFilter value={filters.grades} onChange={(v) => setFilter('grades', v)} testIdPrefix="accounts-grade" />
         <Select
           label="Signal ≥"
           value={String(filters.minSignal)}

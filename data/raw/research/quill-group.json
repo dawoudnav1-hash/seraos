@@ -320,6 +320,15 @@
     "C3",
     "C4"
    ]
+  },
+  "followUp2": {
+   "contactId": "quill-group--eric-nicol",
+   "subject": "Re: Reconciliation behind Quill's virtual CFO work",
+   "body": "Hi Eric,\n\nLast note from me. With half of Quill's people there for over five years, I'd guess your processes are well worn. Vert is built to slot into that rather than replace it, and I'd value a tech award winner's honest critique. Ten minutes this week?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C4"
+   ]
   }
  }
 }

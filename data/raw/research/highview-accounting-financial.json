@@ -1,0 +1,336 @@
+{
+ "accountId": "highview-accounting-financial",
+ "accountName": "Highview Accounting & Financial",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "Highview is a multi-award-winning Victorian and Queensland accounting, financial planning, finance, insurance and bookkeeping group with seven offices and a 150+ strong team. Carlia Morgan has been a Highview Partner since Oct 2023, leading the Bass Coast office (opened 2024), which added Korumburra and Warragul locations in Aug 2026. The Mornington office advertised in Oct 2026 for a Bookkeeping Manager to review the team's BAS and reconciliations.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://highview.com.au/about/our-leadership-team/carlia-morgan/",
+   "title": "Leadership Team - Carlia Morgan - Highview",
+   "type": "website",
+   "publisher": "Highview Accounting & Financial",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/carlia-morgan-4391a796",
+   "title": "Carlia Morgan - LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-23"
+  },
+  {
+   "id": "S3",
+   "url": "https://highview.com.au/2026/03/highview-bass-coast-celebrates-two-years-in-business/",
+   "title": "Here's to Two Years of Highview in Bass Coast!",
+   "type": "blog",
+   "publisher": "Highview Accounting & Financial",
+   "date": "2026-03-05"
+  },
+  {
+   "id": "S4",
+   "url": "https://highview.com.au/2026/08/highview-expands-its-reach-across-gippsland/",
+   "title": "Highview expands its reach across Gippsland!",
+   "type": "blog",
+   "publisher": "Highview Accounting & Financial",
+   "date": "2026-08-17"
+  },
+  {
+   "id": "S5",
+   "url": "https://au.linkedin.com/company/highviewau/jobs",
+   "title": "Highview Accounting & Financial - LinkedIn jobs post",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "S6",
+   "url": "https://www.jobstralia.com/detail/8/c0138278207bc34bbb470209faa87d3d",
+   "title": "Bookkeeper manager: lead bas & reconciliation (Mornington)",
+   "type": "job",
+   "publisher": "Jobstralia",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "S7",
+   "url": "https://highview.com.au",
+   "title": "Home - Highview Accounting & Financial",
+   "type": "website",
+   "publisher": "Highview Accounting & Financial",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://highview.com.au/2026/07/the-highview-story-25-years-of-growth-people-and-purpose/",
+   "title": "The Highview story: 25 years of growth, people and purpose",
+   "type": "blog",
+   "publisher": "Highview Accounting & Financial",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "S9",
+   "url": "https://www.accountantsdaily.com.au/australian-accounting-awards/winners/2026-winners-and-finalists",
+   "title": "2026 Winners & Finalists - Australian Accounting Awards",
+   "type": "news",
+   "publisher": "Accountants Daily",
+   "date": "2026-06-12"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Highview has seven offices across Victoria and Queensland.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "With seven offices across Victoria and Queensland",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Carlia Morgan is Partner, Bass Coast at Highview (since Oct 2023), per her LinkedIn profile indexed Oct 2026 and the firm's leadership page.",
+   "sourceIds": [
+    "S2",
+    "S1"
+   ],
+   "quote": "Partner at Highview Accounting & Financial - Bass Coast",
+   "date": "2026-10",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Carlia has been part of the Highview team since 2008.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Carlia has been part of the Highview team since 2008",
+   "date": "2026-11",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In Aug 2026 Highview's Bass Coast team added two appointment-based offices in Korumburra and Warragul; Carlia is quoted in the post.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "the addition of two new appointment-based office locations in Korumburra and Warragul",
+   "date": "2026-08",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C5",
+   "text": "In Mar 2026 Carlia said the biggest learning curve in running the Bass Coast office has been time management and wearing multiple hats.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "The biggest learning curve has been the juggling act of time management and wearing multiple hats overseeing the office",
+   "date": "2026-03",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "Carlia's Bass Coast office hosts SMSF information nights and supports local clubs.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "hosting SMSF information nights",
+   "date": "2026-03",
+   "category": "content",
+   "confidence": "high"
+  },
+  {
+   "id": "C7",
+   "text": "Highview's Mornington office advertised on LinkedIn on 13 Oct 2026 for a full-time Bookkeeping Manager.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Our Mornington office is seeking a full time Bookkeeping Manager to join our team.",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "The Bookkeeping Manager role reviews the team's BAS, reconciliations and general ledger work.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Review and quality check BAS, statutory returns, reconciliations and general ledger work prepared by the team",
+   "date": "2026-10",
+   "category": "hiring",
+   "confidence": "medium"
+  },
+  {
+   "id": "C9",
+   "text": "The same ad asks for Xero, MYOB or QuickBooks and says FYI Elite experience is highly regarded.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "Registered BAS Agent, team leadership experience or FYI Elite experience would be highly regarded",
+   "date": "2026-10",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "Highview's bookkeeping line says it embraces the latest and most efficient technologies.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Embracing the latest and most efficient technologies, we provide you with quality and timely bookkeeping services",
+   "date": "2026-11",
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "Highview opened a Frankston office with a partner in 2025 and a Gold Coast office in 2025, after Bass Coast in 2024.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "Frankston opening in 2025 with Partner Adam Pasquill, and the Gold Coast office also opening in 2025",
+   "date": "2026-07",
+   "category": "growth",
+   "confidence": "high"
+  },
+  {
+   "id": "C12",
+   "text": "The firm advertises a 150+ strong team.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "150+ strong team, and growing with you.",
+   "date": "2026-11",
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C13",
+   "text": "Highview's Darren Crowther was a Partner of the Year finalist in the Australian Accounting Awards 2026.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "Darren Crowther, Highview Accounting & Financial",
+   "date": "2026-06",
+   "category": "news",
+   "confidence": "high"
+  },
+  {
+   "id": "C14",
+   "text": "Carlia has worked with clients across industries including Trades and Primary Production.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "including Trades and Primary Production",
+   "date": "2026-11",
+   "category": "clients",
+   "confidence": "high"
+  }
+ ],
+ "people": [
+  {
+   "name": "Carlia Morgan",
+   "title": "Partner, Bass Coast",
+   "contactId": "highview-accounting-financial--carlia-morgan",
+   "linkedin": "https://www.linkedin.com/in/carlia-morgan-4391a796",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Carlia says time management and overseeing the office is the biggest learning curve of running Bass Coast, and the office just expanded to Korumburra and Warragul; reconciliation is a natural time drain to remove.",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  {
+   "text": "Mornington is hiring a Bookkeeping Manager whose job is to review BAS and reconciliations: a direct pain point Vert addresses (third angle for the final nudge).",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  },
+  {
+   "text": "Fast expansion (Bass Coast 2024, Frankston and Gold Coast 2025, Gippsland 2026) multiplies books to reconcile across offices.",
+   "claimIds": [
+    "C11",
+    "C4"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Two earlier emails (16 and 23 Nov 2026) are unanswered; a third touch should be short, add a new angle and offer an easy out.",
+   "claimIds": [
+    "C4"
+   ]
+  },
+  {
+   "text": "Larger firm (150+ staff) with several Bookkeeping Managers and possible existing tooling (FYI Elite mentioned in the job ad); the buyer may sit at Head Office (Cranbourne) rather than at Bass Coast.",
+   "claimIds": [
+    "C12",
+    "C9"
+   ]
+  },
+  {
+   "text": "Carlia's Bass Coast office is a regional office; the Mornington bookkeeping team is the more direct user of Vert.",
+   "claimIds": [
+    "C7"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video or personal LinkedIn posts by Carlia found beyond firm blog quotes.",
+  "No direct evidence of reconciliation or AI tools beyond FYI Elite and Xero/MYOB/QuickBooks mentions.",
+  "The Bookkeeping Manager ad copy is from an aggregator (Jobstralia); the firm's own posting page was not read."
+ ],
+ "searches": [
+  {
+   "query": "fetch: highview.com.au home, careers",
+   "results": 2
+  },
+  {
+   "query": "Carlia Morgan Highview Accounting & Financial partner",
+   "results": 10
+  },
+  {
+   "query": "Highview Accounting & Financial Bookkeeping Manager Mornington job",
+   "results": 6
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "highview-accounting-financial--carlia-morgan",
+   "subject": "Re: Quick chat, Carlia?",
+   "body": "Hi Carlia,\n\nFollowing up on my last two notes. I read the Highview post on Bass Coast adding Korumburra and Warragul, and your comment that the biggest learning curve has been juggling time while overseeing the office. Reconciliation is usually the first thing to eat a partner's week. Vert could take that off your team's plate. Would a ten minute walkthrough be worth it?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C5"
+   ]
+  },
+  "followUp2": {
+   "contactId": "highview-accounting-financial--carlia-morgan",
+   "subject": "Re: Quick chat, Carlia?",
+   "body": "Hi Carlia,\n\nLast one from me. Highview's Mornington office is hiring a Bookkeeping Manager to review the team's BAS and reconciliations. Vert prepares matches with the reasoning attached, so that reviewer starts from a checked draft. If someone else leads bookkeeping, happy to be pointed their way.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C8"
+   ]
+  }
+ }
+}

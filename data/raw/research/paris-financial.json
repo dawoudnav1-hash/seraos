@@ -310,6 +310,15 @@
     "C1",
     "C5"
    ]
+  },
+  "followUp2": {
+   "contactId": "paris-financial--paul-bunting",
+   "subject": "Re: Paris Financial joining Ironbark",
+   "body": "Hi Paul,\n\nLast note. With clients across medical, professional services, IT and property development, your team sees very varied bank data. Vert reconciles and cash codes it in minutes with an audit trail. If integration timing is off, tell me and I'll check back in the new year.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C9",
+    "C4"
+   ]
   }
  }
 }

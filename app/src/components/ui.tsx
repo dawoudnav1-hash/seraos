@@ -3,6 +3,7 @@ import { displayUrl, mailtoHref, safeUrl } from '../lib/links';
 import { initials } from '../lib/format';
 import { CONTACTED_FILTERS, type ContactedFilter } from '../lib/filters';
 import { STATUS_LABEL, type OutreachStatus } from '../lib/status';
+import type { Grade } from '../types';
 
 /* ---------------- icons (inline SVG, currentColor) ---------------- */
 
@@ -519,6 +520,54 @@ export function EmptyState({ title, children }: { title: string; children?: Reac
     <div className="empty">
       <div className="empty-title">{title}</div>
       {children && <div className="empty-body">{children}</div>}
+    </div>
+  );
+}
+
+/* ---------------- rating / grade ---------------- */
+
+export function GradePill({ grade, rating, showRating = true }: { grade: Grade; rating?: number; showRating?: boolean }) {
+  const title = `Grade ${grade}${typeof rating === 'number' ? ` · rating ${rating}/100` : ''}`;
+  return (
+    <span className="grade-cell" title={title} aria-label={title} data-testid="grade-pill" data-grade={grade}>
+      <span className={`pill grade grade-${grade}`}>{grade}</span>
+      {showRating && typeof rating === 'number' && <span className="grade-score">{rating}</span>}
+    </span>
+  );
+}
+
+const GRADE_LIST: readonly Grade[] = ['A', 'B', 'C', 'D'];
+
+/** Multi-select grade chips (none selected = any grade) with a "B or better" shortcut. */
+export function GradeFilter({ value, onChange, testIdPrefix = 'grade-filter' }: { value: readonly Grade[]; onChange: (v: Grade[]) => void; testIdPrefix?: string }) {
+  const toggle = (g: Grade) => onChange(GRADE_LIST.filter((x) => (x === g ? !value.includes(g) : value.includes(x))));
+  const bOrBetter = value.length === 2 && value.includes('A') && value.includes('B');
+  return (
+    <div className={'grade-filter' + (value.length ? ' is-set' : '')} role="group" aria-label="Filter by grade">
+      <span className="select-label">Grade</span>
+      {GRADE_LIST.map((g) => (
+        <button
+          key={g}
+          type="button"
+          className={`grade-chip grade-${g}` + (value.includes(g) ? ' active' : '')}
+          aria-pressed={value.includes(g)}
+          onClick={() => toggle(g)}
+          data-testid={`${testIdPrefix}-${g}`}
+          title={`Show grade ${g}`}
+        >
+          {g}
+        </button>
+      ))}
+      <button
+        type="button"
+        className={'grade-chip grade-any' + (bOrBetter ? ' active' : '')}
+        aria-pressed={bOrBetter}
+        onClick={() => onChange(bOrBetter ? [] : ['A', 'B'])}
+        title="Grade B or better"
+        data-testid={`${testIdPrefix}-b-plus`}
+      >
+        B+
+      </button>
     </div>
   );
 }

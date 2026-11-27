@@ -330,6 +330,15 @@
     "C4",
     "C3"
    ]
+  },
+  "followUp2": {
+   "contactId": "rdl-accountants--matthew-hung",
+   "subject": "Re: A focused AI use at RDL",
+   "body": "Hi Matthew,\n\nFinal note. In the Bigfish interview you flagged cyber security as a key risk given the sensitive data RDL holds. Happy to walk through how Vert handles data and traceability first, before anything else. Would 10 min help, or shall I leave it with you?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C6",
+    "C4"
+   ]
   }
  }
 }

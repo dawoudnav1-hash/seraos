@@ -1,0 +1,306 @@
+{
+ "accountId": "esv-business-advice-and-accounting",
+ "accountName": "ESV Business Advice and Accounting",
+ "status": "complete",
+ "researchedAt": "2026-11-27",
+ "summary": "ESV is a Sydney mid-tier advisory and accounting firm founded in 1990 with about 70 to 85 staff and an Outsourced CFO service led in part by Partner Geoff Tierney. It moved to Xero Practice Manager in 2023 and describes continually evolving its technology stack. Geoff has written that the right staff level for the right work keeps outsourced CFO costs in check.",
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://esvgroup.com.au/partner/geoff-tierney/",
+   "title": "Geoff Tierney - ESV",
+   "type": "website",
+   "publisher": "ESV",
+   "date": null
+  },
+  {
+   "id": "S2",
+   "url": "https://linkedin.com/in/geoff-tierney-a79a0a34",
+   "title": "Geoff Tierney | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "url": "https://esvgroup.com.au/how-can-an-outsourced-cfo-help-your-business/",
+   "title": "How can an Outsourced CFO help your Business?",
+   "type": "blog",
+   "publisher": "ESV",
+   "date": "2019-07-23"
+  },
+  {
+   "id": "S4",
+   "url": "https://esvgroup.com.au/outsourced-cfo-case-study-we-have-grown-with-them/",
+   "title": "Outsourced CFO Case Study | We have grown with them",
+   "type": "blog",
+   "publisher": "ESV",
+   "date": "2020-06-29"
+  },
+  {
+   "id": "S5",
+   "url": "https://www.linkedin.com/posts/esv-chartered-accountants_networking-community-activity-7495285944518963201-Qr5O",
+   "title": "ESV LinkedIn post on networking and The Society",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": "2026-08-18"
+  },
+  {
+   "id": "S6",
+   "url": "https://linkedin.com/company/esv-chartered-accountants",
+   "title": "ESV - Business advice and accounting | LinkedIn",
+   "type": "linkedin",
+   "publisher": "LinkedIn",
+   "date": null
+  },
+  {
+   "id": "S7",
+   "url": "https://esvgroup.com.au/specialist-services/",
+   "title": "Specialist services - ESV",
+   "type": "website",
+   "publisher": "ESV",
+   "date": null
+  },
+  {
+   "id": "S8",
+   "url": "https://www.officeinfo.com.au/case-study-esv",
+   "title": "OIA Case Study: ESV Business Advice & Accounting",
+   "type": "other",
+   "publisher": "Office Info Australia",
+   "date": null
+  },
+  {
+   "id": "S9",
+   "url": "https://esvgroup.com.au/work-with-us/",
+   "title": "Work With Us - ESV",
+   "type": "website",
+   "publisher": "ESV",
+   "date": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "ESV's own site (esvgroup.com.au) lists its office at Level 13, 68 York Street, Sydney NSW 2000.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "Level 13, 68 York Street, Sydney NSW 2000",
+   "date": null,
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C2",
+   "text": "Geoff Tierney is currently a Partner at ESV (since January 2017).",
+   "sourceIds": [
+    "S2",
+    "S1"
+   ],
+   "quote": "Partner (Current) Jan 2017 - Present",
+   "date": "2026-11",
+   "category": "identity",
+   "confidence": "high"
+  },
+  {
+   "id": "C3",
+   "text": "Geoff Tierney regularly helps clients prepare financial forecast models and management reports and provides outsourced CFO services.",
+   "sourceIds": [
+    "S1"
+   ],
+   "quote": "He regularly helps his clients prepare financial forecast models, management reports and analyses, and provides other outsourced CFO services.",
+   "date": null,
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C4",
+   "text": "In a 2019 ESV article Geoff Tierney said a team with experience at different levels keeps outsourced CFO costs under control by putting work at the right staff level.",
+   "sourceIds": [
+    "S3"
+   ],
+   "quote": "Depending on the type of service required, it is beneficial to engage a team with experience at different levels.",
+   "date": "2019-07",
+   "category": "content",
+   "confidence": "medium"
+  },
+  {
+   "id": "C5",
+   "text": "In August 2026 ESV posted that Geoff Tierney shared his journey from Manager to Partner at an ESV networking event.",
+   "sourceIds": [
+    "S5"
+   ],
+   "quote": "Geoff Tierney shared his journey from Manager to Partner, and the people along the way.",
+   "date": "2026-08",
+   "category": "person",
+   "confidence": "high"
+  },
+  {
+   "id": "C6",
+   "text": "LinkedIn data shows ESV with about 70 employees (up 3.8% year on year), and a workforce spread across Australia, the UK, Ireland and the Philippines.",
+   "sourceIds": [
+    "S6"
+   ],
+   "quote": "ESV - Business advice and accounting employs 70 people (+3.8% YoY, +3 people), founded in 1990.",
+   "date": null,
+   "category": "firm",
+   "confidence": "medium"
+  },
+  {
+   "id": "C7",
+   "text": "ESV offers a Process improvement service to improve the robustness, efficiency and transparency of clients' financial processes.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "improve and enhance the robustness, efficiency and transparency of your financial processes",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C8",
+   "text": "ESV's Outsourced CFO service is designed to limit the time owners spend on the finance function while keeping them informed.",
+   "sourceIds": [
+    "S7"
+   ],
+   "quote": "Our Outsourced CFO Service is designed to limit the owners time spent on the finance function whilst still maintaining oversight",
+   "date": null,
+   "category": "services",
+   "confidence": "high"
+  },
+  {
+   "id": "C9",
+   "text": "ESV moved from APS to Xero Practice Manager in 2023 and had an integration built between it and iManage.",
+   "sourceIds": [
+    "S8"
+   ],
+   "quote": "moved to Xero Practice Manager (XPM) in 2023 without updating the integration with iManage.",
+   "date": "2023",
+   "category": "tech",
+   "confidence": "medium"
+  },
+  {
+   "id": "C10",
+   "text": "ESV says it evolves its purpose-built technology stack to strengthen collaboration.",
+   "sourceIds": [
+    "S9"
+   ],
+   "quote": "We evolve our purpose-built technology stack to strengthen collaboration.",
+   "date": null,
+   "category": "tech",
+   "confidence": "high"
+  },
+  {
+   "id": "C11",
+   "text": "An ESV Outsourced CFO case study says ESV looks after a client's back office from invoicing and payroll through to detailed financial reports.",
+   "sourceIds": [
+    "S4"
+   ],
+   "quote": "we look after everything from their back office with invoicing and payroll through to producing detailed financial reports and analysing the numbers.",
+   "date": "2020-06",
+   "category": "clients",
+   "confidence": "medium"
+  }
+ ],
+ "people": [
+  {
+   "name": "Geoff Tierney",
+   "title": "Partner",
+   "contactId": "esv-business-advice-and-accounting--geoff-tierney",
+   "linkedin": "https://www.linkedin.com/in/geoff-tierney-a79a0a34",
+   "claimIds": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ]
+  }
+ ],
+ "hooks": [
+  {
+   "text": "Geoff's own article ties outsourced CFO economics to using the right staff level for each task: automating reconciliation moves work off senior time.",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  },
+  {
+   "text": "ESV sells a Process improvement service and describes evolving its tech stack, so it is receptive to workflow tooling.",
+   "claimIds": [
+    "C7",
+    "C10"
+   ]
+  },
+  {
+   "text": "Outsourced CFO is designed to take finance function time off owners, which depends on fast, clean back-office reconciliation.",
+   "claimIds": [
+    "C8",
+    "C11"
+   ]
+  }
+ ],
+ "risks": [
+  {
+   "text": "Two emails already sent to Geoff (16 and 23 Nov 2026); a further follow-up should be short and not repeat earlier angles.",
+   "claimIds": [
+    "C2"
+   ]
+  },
+  {
+   "text": "Larger firm (account notes flag 60+ staff); it has its own IT project manager and integrations (Xero Practice Manager, iManage), so tooling decisions may be more formal.",
+   "claimIds": [
+    "C6",
+    "C9"
+   ]
+  },
+  {
+   "text": "Key CFO-related articles are from 2019 and 2020, so they are dated.",
+   "claimIds": [
+    "C4",
+    "C11"
+   ]
+  }
+ ],
+ "gaps": [
+  "No podcast, video, Facebook or Instagram content for Geoff Tierney or Dean Yawanis found.",
+  "Dean Yawanis was not researched in depth; no profile found beyond the account record.",
+  "No ESV job ad naming roles found directly; LinkedIn lists 3 active postings that were not retrieved.",
+  "Headcount sources conflict (about 70 on LinkedIn, 80+ in a vendor case study, 85 on the account record).",
+  "Previous email content for the 16 Nov and 23 Nov sends was not available, only subjects."
+ ],
+ "searches": [
+  {
+   "query": "ESV Business Advice and Accounting Sydney Geoff Tierney outsourced CFO",
+   "results": 10
+  },
+  {
+   "query": "ESV Chartered Accountants Geoff Tierney linkedin Partner",
+   "results": 8
+  },
+  {
+   "query": "ESV Business advice and accounting Sydney offshore team Philippines OR hiring OR Process improvement Xero",
+   "results": 8
+  }
+ ],
+ "drafts": {
+  "first": null,
+  "followUp": {
+   "contactId": "esv-business-advice-and-accounting--geoff-tierney",
+   "subject": "Re: Quick chat, Geoff?",
+   "body": "Hi Geoff,\n\nFollowing up on my earlier notes. Your article on choosing an outsourced CFO says a team with experience at different levels keeps costs under control, by putting each piece of work at the right level. Reconciliation is often the work that ends up at the wrong level. Vert reconciles and cash codes with a traceable audit trail, turning hours of manual work into minutes. How does ESV manage that mix for CFO clients?\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C4",
+    "C3"
+   ]
+  },
+  "followUp2": {
+   "contactId": "esv-business-advice-and-accounting--geoff-tierney",
+   "subject": "Re: Quick chat, Geoff?",
+   "body": "Hi Geoff,\n\nLast nudge. ESV's process improvement service promises more efficient and transparent financial processes, and you run outsourced CFO for clients. Where does reconciliation sit in those processes today? Happy to show Vert in 10 minutes.\n\nBest,\nDawoud\nVert | https://vertfinance.tech",
+   "claimIds": [
+    "C7",
+    "C3"
+   ]
+  }
+ }
+}
