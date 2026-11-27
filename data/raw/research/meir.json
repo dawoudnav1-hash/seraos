@@ -3,7 +3,7 @@
  "accountName": "Meir",
  "status": "complete",
  "researchedAt": "2026-11-26",
- "summary": "Meir is a Melbourne (Albion) premium tapware brand running Acumatica and Shopify, which won the 2025 MYOB Acumatica Business Breakthrough Award and has grown fast, including a Sept 2025 partnership with Nood Co. Kamal Bapna is the confirmed current Finance Manager (CPA, FX management background). The listed primary contact, Maddie Collins, could not be confirmed at Meir, so drafts go to Kamal.",
+ "summary": "Meir is a Melbourne (Albion) premium tapware brand running Acumatica and Shopify, which won the 2025 MYOB Acumatica Business Breakthrough Award and has grown fast, including a Sept 2025 partnership with Nood Co. Kamal Bapna is the confirmed current Finance Manager (CPA, FX management background). The listed primary contact, Maddie Collins, could not be confirmed at Meir, but she is the only contact with an email (Kamal Bapna has none), so drafts go to Maddie.",
  "sources": [
   {
    "id": "S1",
@@ -249,6 +249,12 @@
  ],
  "risks": [
   {
+   "text": "Drafts are addressed to Maddie Collins only because Kamal Bapna has no email on file; find Kamal's email and re-address if Maddie has left.",
+   "claimIds": [
+    "C3"
+   ]
+  },
+  {
    "text": "Heavily invested in Acumatica (award, partner Acacia); may see Vert as overlap, so position as the reconciliation layer on top.",
    "claimIds": [
     "C5",
@@ -293,33 +299,32 @@
  ],
  "drafts": {
   "first": {
-   "contactId": "meir--kamal-bapna",
+   "contactId": "meir--maddie-collins",
    "subject": "Acumatica and the reconciliation layer at Meir",
    "claimIds": [
     "C5",
     "C6",
-    "C4",
     "C7"
    ],
-   "body": "Hi Kamal,\n\nMeir winning the MYOB Acumatica Business Breakthrough Award for 2025, with Acumatica credited for saving over 30% in admin time, tells me your team has already automated a lot. What usually stays manual is the layer around it: Shopify payouts, stockist receipts and FX, which your FX management background will know well. I built Vert to take reconciliation and cash coding from hours to minutes, with every match traceable. How much of your month-end still sits in spreadsheets outside Acumatica?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+   "body": "Hi Maddie,\n\nMeir winning the MYOB Acumatica Business Breakthrough Award for 2025, with Acumatica credited for saving over 30% in admin time, tells me your team has already automated a lot. What usually stays manual is the layer around it: Shopify payouts, stockist receipts and FX. I built Vert to take reconciliation and cash coding from hours to minutes, with every match traceable. How much of your month-end still sits in spreadsheets outside Acumatica?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
   },
   "followUp": {
-   "contactId": "meir--kamal-bapna",
+   "contactId": "meir--maddie-collins",
    "subject": "Re: Acumatica and the reconciliation layer at Meir",
    "claimIds": [
     "C8",
     "C11"
    ],
-   "body": "Hi Kamal,\n\nFollowing up on my note last week. Rick Bazerghi told Appliance Retailer that Meir's FY sales were up 85%, and with stockists across 14 countries that usually means a lot more receipts and rebates to match every month. Would a 10 min look at how Vert clears those matches without anyone touching a spreadsheet be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+   "body": "Hi Maddie,\n\nFollowing up on my note last week. Rick Bazerghi told Appliance Retailer that Meir's FY sales were up 85%, and with stockists across 14 countries that usually means a lot more receipts and rebates to match every month. Would a 10 min look at how Vert clears those matches without anyone touching a spreadsheet be useful?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
   },
   "followUp2": {
-   "contactId": "meir--kamal-bapna",
+   "contactId": "meir--maddie-collins",
    "subject": "Re: Acumatica and the reconciliation layer at Meir",
    "claimIds": [
     "C9",
     "C10"
    ],
-   "body": "Hi Kamal,\n\nLast note from me. I saw Meir is hiring an Inventory and Fulfilment Controller to make Acumatica the single source of truth for inventory data. Once stock is clean, the finance side is tying freight and supplier invoices back to the ledger, which Vert does in minutes. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
+   "body": "Hi Maddie,\n\nLast note from me. I saw Meir is hiring an Inventory and Fulfilment Controller to make Acumatica the single source of truth for inventory data. Once stock is clean, the finance side is tying freight and supplier invoices back to the ledger, which Vert does in minutes. Worth 10 minutes?\n\nBest,\nDawoud\nVert | https://vertfinance.tech"
   }
  }
 }

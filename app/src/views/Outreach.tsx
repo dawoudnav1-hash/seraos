@@ -772,7 +772,7 @@ export function Outreach({ route }: { route: Route }) {
         if (!d) throw { code: 'invalid_json', message: 'Reply did not have subject, body and claimIds.' };
         setDrafts((s) => ({
           ...s,
-          [key]: { ...d, claimIds: d.claimIds, origin: researched ? 'claude-research' : 'claude-crm', edited: false, updatedAt: new Date().toISOString() },
+          [key]: { subject: d.subject, body: d.body, claimIds: [...d.claimIds], origin: researched ? 'claude-research' : 'claude-crm', edited: false, updatedAt: new Date().toISOString() },
         }));
       } catch (e) {
         const info = sampleErrorInfo(e);
